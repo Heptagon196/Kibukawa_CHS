@@ -18,7 +18,7 @@ def relative_path(value, internal=False):
         raise ValueError('Project must be inside the series workspace')
     return path
 
-def resolve(game_id=None, project=None):
+def resolve(game_id=None, project=None, allow_disabled=False):
     data = read()
     if project is not None:
         matches = [key for key, value in data['games'].items()
@@ -28,7 +28,7 @@ def resolve(game_id=None, project=None):
         game_id = matches[0]
     game_id = game_id or data['default_game']
     entry = data['games'][game_id]
-    if not entry.get('enabled', False):
+    if not entry.get('enabled', False) and not allow_disabled:
         raise ValueError('Game has not been enabled after compatibility review: ' + game_id)
     adapter = relative_path('engine/adapters/' + entry['adapter'], True)
     manifest = relative_path(entry['project'], True) / 'project.json'

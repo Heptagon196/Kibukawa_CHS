@@ -40,27 +40,8 @@ namespace Kibu1ZhCN
             int count = 0, width = 0;
             while (count < value.Length && count < availableCharacters && width + HalfWidth(value[count]) <= availableHalfCells)
                 width += HalfWidth(value[count++]);
-            if (count == value.Length) return count;
-            int rawCount = count;
-            while (count > 0 && (IsClosingPunctuation(value[count]) || IsOpeningPunctuation(value[count - 1]))) count--;
-            // A run consisting entirely of punctuation cannot satisfy kinsoku if
-            // it exceeds a whole physical row. Keep the width/storage guarantees.
-            if (count == 0 && availableHalfCells == MaximumHalfCells && availableCharacters == MaximumCharacters)
-                return rawCount;
+            // Wrap strictly at capacity; punctuation never moves an earlier glyph.
             return count;
-        }
-        public static int CarryStart(string line)
-        {
-            if (line.Length == 0) return 0;
-            int start = line.Length - 1;
-            if (IsOpeningPunctuation(line[start]))
-            {
-                while (start > 0 && IsOpeningPunctuation(line[start - 1])) start--;
-                return start;
-            }
-            while (start > 0 && IsClosingPunctuation(line[start])) start--;
-            while (start > 0 && IsOpeningPunctuation(line[start - 1])) start--;
-            return start;
         }
     }
 
@@ -81,6 +62,26 @@ namespace Kibu1ZhCN
             public bool PendingBreak, HasDialogue, WaitSatisfied, NewInteraction;
             public int InteractionRows;
             public string SourceTail, ReadSource;
+            // Track ORIGINAL rows, not the shorter translated fragments. A whole
+            // colored row followed by default-color quoted speech is an inline
+            // speaker header. No names, palette indices or script offsets needed.
+            public string SourceLine;
+            public int SourceLineColor;
+            public bool SourceLineColored, PendingSpeakerBreak;
+            public void AddSource(string source, int color, int defaultColor)
+            {
+                if (string.IsNullOrWhiteSpace(source)) return;
+                if (SourceLine == null) { SourceLineColor = color; SourceLineColored = color != defaultColor; }
+                else SourceLineColored &= color == SourceLineColor && color != defaultColor;
+                SourceLine = (SourceLine ?? "") + source;
+            }
+            public void EndSourceLine()
+            {
+                if (SourceLine != null)
+                    PendingSpeakerBreak = SourceLineColored && !StartsSpeech(SourceLine) && !DialogueLayout.HasBreakPunctuation(SourceLine);
+                SourceLine = null;
+                SourceLineColored = false;
+            }
             public int ReadOpcode = -1;
             public bool ReadStartsChat;
             public bool ReadFixedCard;
@@ -88,7 +89,8 @@ namespace Kibu1ZhCN
             {
                 PendingBreak = HasDialogue = WaitSatisfied = NewInteraction = false;
                 InteractionRows = 0;
-                SourceTail = null;
+                SourceTail = SourceLine = null;
+                SourceLineColored = PendingSpeakerBreak = false;
             }
         }
         private struct Glyph
@@ -152,6 +154,12 @@ namespace Kibu1ZhCN
         {
             return Execute(canvas, GetAccess(canvas.GetType()), GetState(canvas), original);
         }
+        private static bool StartsSpeech(string text)
+        {
+            if (string.IsNullOrWhiteSpace(text)) return false;
+            char first = text.TrimStart()[0];
+            return first == '｢' || first == '「' || first == '“' || first == '\"';
+        }
         private static IEnumerator Execute(object canvas, Access access, State state, IEnumerator original)
         {
             int command = (int)access.Cmd.GetValue(canvas);
@@ -181,7 +189,12 @@ namespace Kibu1ZhCN
                     // previous message ends in a name, emoticon or laughter w.
                     if (command==72 && state.ReadStartsChat && state.HasDialogue)
                         state.PendingBreak=true;
-                    sbyte color = ((sbyte[])access.TextColor.GetValue(canvas))[1];
+                    sbyte[] palette = (sbyte[])access.TextColor.GetValue(canvas);
+                    sbyte color = palette[1];
+                    if (state.PendingSpeakerBreak && color == palette[0] && StartsSpeech(source))
+                        state.PendingBreak = true;
+                    state.PendingSpeakerBreak = false;
+                    state.AddSource(source, color, palette[0]);
                     yield return Write(canvas, access, state, value, color);
                 }
                 else yield return original;
@@ -208,6 +221,7 @@ namespace Kibu1ZhCN
                 // without punctuation should still join the following fragment.
                 state.PendingBreak |= DialogueLayout.HasBreakPunctuation(state.SourceTail) && DialogueLayout.HasBreakPunctuation(Row(canvas, access));
                 state.SourceTail = null;
+                state.EndSourceLine();
                 yield break;
             }
             if (command == 79)
@@ -261,22 +275,6 @@ namespace Kibu1ZhCN
                 int take = DialogueLayout.FitPrefix(remaining, DialogueLayout.MaximumHalfCells - DialogueLayout.Width(line), DialogueLayout.MaximumCharacters - line.Length);
                 if (take == 0)
                 {
-                    // This also handles punctuation crossing separate color runs:
-                    // carry its preceding character with its original color.
-                    if (line.Length > 0 && (DialogueLayout.IsClosingPunctuation(pending[0].Character) || DialogueLayout.IsOpeningPunctuation(line[line.Length - 1])))
-                    {
-                        int start = DialogueLayout.CarryStart(line);
-                        int row = ((sbyte[])access.Position.GetValue(canvas))[0];
-                        sbyte[] colors = ((sbyte[][])access.Colors.GetValue(canvas))[row];
-                        var carried = new List<Glyph>();
-                        for (int i = start; i < line.Length; i++) carried.Add(new Glyph(line[i], colors[i]));
-                        ((sbyte[])access.Lengths.GetValue(canvas))[row] = (sbyte)start;
-                        if (start == 0 && state.InteractionRows > 0) state.InteractionRows--;
-                        sbyte[] position = (sbyte[])access.Position.GetValue(canvas);
-                        position[1] = (sbyte)Math.Min(position[1], start);
-                        access.Paint.SetValue(canvas, (int)access.Paint.GetValue(canvas) | 127);
-                        pending.InsertRange(0, carried);
-                    }
                     yield return Advance(canvas, access, state);
                     continue;
                 }

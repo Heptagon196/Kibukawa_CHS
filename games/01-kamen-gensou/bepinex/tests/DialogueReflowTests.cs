@@ -321,10 +321,19 @@ public static class DialogueReflowTests
 
         c = New(); Fragment(c, "侦探事务所", "探偵事務所"); Text(c, "。");
         Check(c.Rows().Length == 1 && c.Rows()[0] == "侦探事务所。", "Short orphan full stop not joined");
-        c = New(); Text(c, "一二三四五六七八九十一二"); Text(c, "。”");
-        Check(!c.Rows().Any(r => r.All(DialogueLayout.IsClosingPunctuation)), "Closing punctuation stranded at a full row");
-        Check(String.Concat(c.Rows()) == "一二三四五六七八九十一二。”", "Closing punctuation relocation lost text");
-        AssertPages(c, "closing punctuation");
+        c = New(); Text(c, "一二三四五六七八九十。”");
+        Check(c.Rows().SequenceEqual(new[] { "一二三四五六七八九十", "。”" }), "Width-only wrapping must allow punctuation at the start of the next row");
+        Check(c.Appended.ToString() == "一二三四五六七八九十。”", "Width-only wrapping duplicated or lost text");
+        AssertPages(c, "closing punctuation at row start");
+        c = New(); Text(c, "一二三四五六七八九（续");
+        Check(c.Rows().SequenceEqual(new[] { "一二三四五六七八九（", "续" }), "Width-only wrapping must allow an opening bracket at row end");
+        AssertPages(c, "opening bracket at row end");
+        c = New(); c.Execute(80, null, null, 2); Text(c, "一二三四五六七八九十");
+        c.Execute(81); Text(c, "。”");
+        Check(c.Rows().SequenceEqual(new[] { "一二三四五六七八九十", "。”" }), "A later punctuation color run moved previously displayed text");
+        Check(c.Appended.ToString() == "一二三四五六七八九十。”" && c.TypewriterTicks == 12 && c.GlyphsTracked == 12, "Cross-color wrapping retyped, duplicated or lost a glyph");
+        Check(c.TextC[4].Take(10).All(x => x == 2) && c.TextC[5].Take(2).All(x => x == 0), "Cross-color width wrapping lost text colors");
+        AssertPages(c, "cross-color punctuation at row start");
 
         foreach (bool named in new[] { false, true })
         {

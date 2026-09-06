@@ -1,0 +1,54 @@
+{
+  "schema": 1,
+  "id": "kibu3",
+  "adapter": "gmode-v1",
+  "plugin_version": "0.2.2",
+  "source_fingerprints": "work/manifest.json",
+  "translation": "work/cache.json",
+  "glossary": "work/glossary.locked.json",
+  "resource_archive": "heaven.res",
+  "compatibility": {
+    "stage": "offline_verified_user_testing",
+    "runtime_tested": false,
+    "release_ready": true,
+    "notes": "Third-game original-byte replay, production reflow fixture, menu transpiler, fonts and help verified offline; user visual testing pending."
+  },
+  "layout": {
+    "status": "offline production reflow verified; visual confirmation pending user",
+    "chinese_layout_verified": false,
+    "native_buffer_characters": 20,
+    "native_body_rows": 5,
+    "body_half_cells": 20,
+    "buffer_characters": 20,
+    "body_rows": 5,
+    "speaker_body_rows": 4,
+    "menu_half_cells": 8
+  },
+  "bepinex": {
+    "profile": "mono-win-x64-5.4.23.5",
+    "managed": "kibu3_Data/Managed",
+    "assembly": "Kibu3ZhCN.dll",
+    "plugin_directory": "Kibu3ZhCN",
+    "references": [
+      "mscorlib.dll",
+      "netstandard.dll",
+      "System.dll",
+      "System.Core.dll",
+      "UnityEngine.dll",
+      "UnityEngine.CoreModule.dll",
+      "UnityEngine.UI.dll",
+      "UnityEngine.UIModule.dll",
+      "UnityEngine.TextRenderingModule.dll",
+      "UnityEngine.ImageConversionModule.dll"
+    ]
+  },
+  "approved_empty_name_readings": {
+    "125": "(ｷｸｶﾜ ﾊﾙﾅ)",
+    "102": "(ｻｷﾞｼﾏ ｲﾂﾞﾅ)",
+    "61": "(ｲｸﾙﾐ ﾏｻｵ)",
+    "749": "(ｷﾐｼﾞﾏ ﾋﾛｼ)",
+    "1307": "(ﾋﾉ ｼﾞﾝﾍﾟｲ)",
+    "1116": "(ｱｽﾞﾏ ｼﾝｲﾁﾛｳ)",
+    "2370": "(ﾔｸﾞﾁ ｼｮｳｺ)"
+  }
+}

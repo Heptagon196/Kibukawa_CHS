@@ -1,0 +1,49 @@
+{
+  "schema": 1,
+  "id": "kibu2",
+  "adapter": "gmode-v1",
+  "plugin_version": "0.2.7",
+  "source_fingerprints": "work/manifest.json",
+  "translation": "work/cache.json",
+  "glossary": "work/glossary.locked.json",
+  "resource_archive": "kairou.res",
+  "approved_empty_name_readings": {
+    "69": "(ｷﾌﾞｶﾜ)",
+    "813": "(ｵﾄﾅﾘ ｺｳｲﾁ)"
+  },
+  "compatibility": {
+    "stage": "offline_verified_user_testing",
+    "runtime_tested": false,
+    "release_ready": true,
+    "notes": "Original assembly signatures, full-corpus source matching, production text reflow fixture and menu transpiler validated; in-game visual testing pending user."
+  },
+  "layout": {
+    "status": "offline production reflow verified; visual confirmation pending user",
+    "native_buffer_characters": 20,
+    "native_body_rows": 5,
+    "chinese_layout_verified": false,
+    "body_half_cells": 20,
+    "buffer_characters": 20,
+    "body_rows": 5,
+    "speaker_body_rows": 4,
+    "menu_half_cells": 8
+  },
+  "bepinex": {
+    "profile": "mono-win-x64-5.4.23.5",
+    "managed": "kibu2_Data/Managed",
+    "assembly": "Kibu2ZhCN.dll",
+    "plugin_directory": "Kibu2ZhCN",
+    "references": [
+      "mscorlib.dll",
+      "netstandard.dll",
+      "System.dll",
+      "System.Core.dll",
+      "UnityEngine.dll",
+      "UnityEngine.CoreModule.dll",
+      "UnityEngine.UI.dll",
+      "UnityEngine.UIModule.dll",
+      "UnityEngine.TextRenderingModule.dll",
+      "UnityEngine.ImageConversionModule.dll"
+    ]
+  }
+}

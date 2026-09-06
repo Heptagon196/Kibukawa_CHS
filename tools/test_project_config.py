@@ -31,4 +31,14 @@ class RelativePaths(unittest.TestCase):
         with patch.object(c,'read',return_value=data):
             with self.assertRaises(ValueError): c.resolve()
 
+    def test_pending_game_paths_do_not_enable_release(self):
+        data=c.read()
+        data['games']['kibu2']['enabled']=False
+        with patch.object(c,'read',return_value=data):
+            result=c.resolve('kibu2',allow_disabled=True)
+            self.assertEqual(result['installation'],c.ROOT.parent.parent/'GmodeArchivesPlus_kibu2')
+            self.assertFalse(result['enabled'])
+            self.assertEqual(c.resolve(project=result['project'],allow_disabled=True)['id'],'kibu2')
+            with self.assertRaises(ValueError): c.resolve('kibu2')
+
 if __name__=='__main__': unittest.main()

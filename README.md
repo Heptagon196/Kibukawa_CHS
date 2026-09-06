@@ -2,9 +2,12 @@
 
 仓库：`Kibukawa_CHS`。需要自行安装对应的正版游戏；仓库不包含游戏程序、原始资源或个人存档。
 
+
 首次克隆后，安装 Python、PowerShell 7、.NET SDK 6+ 和 Windows .NET Framework 4.x，运行 `setup.cmd` 准备 Python 与 Mono.Cecil 依赖，再编辑 `series.json` 的安装路径。构建会从已校验的本机游戏恢复所需原文快照，保留仓库中的译文；BepInEx 和 Unifont 由构建脚本自动下载并校验。
 
-公共代码与每作数据分开存放。当前已支持第一作，插件版本仍为 1.0.30；此次整理不改译文或游戏行为。
+公共代码与每作数据分开存放。前三作本次发布版本为：第一作 1.0.31、第二作 0.2.7、第三作 0.2.2，均通过各自离线构建验证。见 [第二作交付记录](games/02-kairou/RUNTIME_DELIVERY.md) 和 [第三作交付记录](games/03-shisha-no-rakuen/RUNTIME_DELIVERY.md)。
+
+补丁下载：[GitHub Releases](https://github.com/Heptagon196/Kibukawa_CHS/releases)。发布包统一命名为 `癸生川凌介 {编号:02d}-{游戏名}-CHS.zip`，详见 [发布与命名规则](RELEASING.md)。
 
 ## 游戏路径配置
 
@@ -68,6 +71,8 @@ out/                          迁移前历史发布包，保留原下载路径
 .\run.ps1 install --game kibu1 -CheckOnly
 .\run.ps1 install --game kibu1
 ```
+
+第二作使用相同的 `build --game kibu2`、`verify --game kibu2`、`install --game kibu2 -CheckOnly` 和 `install --game kibu2`。重复 extract 校验指纹、保留已有译文并重建本地快照和研究文件；引擎对照当前需要本机第一作的已验证原程序集。历史 probe 只生成没有翻译挂钩的验证包；实际补丁由 build 构建。尚未启用的作品仍会被正式构建/安装入口拦截。
 
 build/verify 都执行完整 BepInEx 构建与校验，不安装、不启动游戏。安装前退出游戏；CheckOnly 只核验包与原游戏指纹。根目录 extract.cmd、build_bepinex.cmd、rebuild.cmd、verify.cmd 操作 default_game。旧版离线回填由 rebuild_legacy.cmd 单独进入，不用于正式发布。
 
