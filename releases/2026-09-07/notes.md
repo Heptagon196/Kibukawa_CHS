@@ -6,6 +6,10 @@
 | 02 | 海楼馆杀人事件 | 0.2.7 | 癸生川凌介 02-海楼馆杀人事件-CHS.zip |
 | 03 | 死者乐园 | 0.2.2 | 癸生川凌介 03-死者乐园-CHS.zip |
 
+### 文件名说明
+
+下方资产显示名及本地补丁ZIP按 `癸生川凌介 {编号:02d}-{游戏名}-CHS.zip` 命名。GitHub会清理文件名中的中文和空格，实际下载名为 `Kibukawa-01-KamenGensou-CHS.zip`、`Kibukawa-02-Kairou-CHS.zip`、`Kibukawa-03-ShishaNoRakuen-CHS.zip`。文件内容不变，SHA256SUMS.txt对应这三个实际下载名。
+
 ### 安装
 
 退出游戏，将对应ZIP中的全部文件解压到该作游戏exe所在目录（kibu1.exe / kibu2.exe / kibu3.exe），然后正常启动。请勿混装到其他作品目录；更新已有补丁前建议备份旧补丁文件。详情见各包内安装说明。

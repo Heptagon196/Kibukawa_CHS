@@ -60,7 +60,7 @@ def main():
         require(Path(filename).name == filename and filename not in names, 'Invalid or duplicate release name')
         names.add(filename)
         verified.append((archive, dict(game=game, number=entry['number'], title=entry['title'],
-                                      version=config['plugin_version'], filename=filename,
+                                      version=config['plugin_version'], filename=filename, github_name=entry['github_name'],
                                       size=archive.stat().st_size, sha256=digest(archive),
                                       translation_sha256=provenance['translation_sha256'])))
     output.mkdir(parents=True, exist_ok=True)
@@ -72,6 +72,7 @@ def main():
     records = [record for _, record in verified]
     (output / 'manifest.json').write_text(json.dumps(dict(schema=1, assets=records), ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
     (output / 'SHA256SUMS.txt').write_text(''.join(x['sha256'] + '  ' + x['filename'] + '\n' for x in records), encoding='utf-8')
+    (output / 'SHA256SUMS.github.txt').write_text(''.join(x['sha256'] + '  ' + x['github_name'] + '\n' for x in records), encoding='utf-8')
     print(json.dumps(records, ensure_ascii=False, indent=2))
 
 
