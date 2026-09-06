@@ -7,6 +7,30 @@
   "translation": "work/cache.json",
   "glossary": "work/glossary.locked.json",
   "click_boundaries": "work/click_boundaries.reviewed.json",
-  "layout": {"body_half_cells": 20, "buffer_characters": 20, "body_rows": 5, "speaker_body_rows": 4, "menu_half_cells": 8},
-  "notes": "First-game baseline. New games require independent hook, opcode, layout and source-hash validation."
+  "layout": {
+    "body_half_cells": 20,
+    "buffer_characters": 20,
+    "body_rows": 5,
+    "speaker_body_rows": 4,
+    "menu_half_cells": 8
+  },
+  "notes": "First-game baseline. New games require independent hook, opcode, layout and source-hash validation.",
+  "bepinex": {
+    "profile": "mono-win-x64-5.4.23.5",
+    "managed": "kibu1_Data/Managed",
+    "assembly": "Kibu1ZhCN.dll",
+    "plugin_directory": "Kibu1ZhCN",
+    "references": [
+      "mscorlib.dll",
+      "netstandard.dll",
+      "System.dll",
+      "System.Core.dll",
+      "UnityEngine.dll",
+      "UnityEngine.CoreModule.dll",
+      "UnityEngine.UI.dll",
+      "UnityEngine.UIModule.dll",
+      "UnityEngine.TextRenderingModule.dll",
+      "UnityEngine.ImageConversionModule.dll"
+    ]
+  }
 }

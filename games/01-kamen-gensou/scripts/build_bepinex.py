@@ -1,4 +1,4 @@
-﻿"""Build the BepInEx runtime edition. All writes remain in translation_workspace.
+"""Build the BepInEx runtime edition. All writes remain in translation_workspace.
 Pinned official framework download is automatic; cached archives are SHA256 checked.
 """
 import argparse, base64, collections, io, json, os, re, shutil, struct, subprocess, sys, time, urllib.request, zipfile
@@ -14,6 +14,13 @@ from build_chat_layout import generate as generate_chat_layout
 from check_fixed_cards import validate as validate_fixed_cards
 
 ROOT=p.WORK/'bepinex'
+sys.path.insert(0,str(p.SERIES/'engine/bepinex'))
+import build as shared
+BUILD_CONFIG=p.load(p.WORK/'project.json')['bepinex']
+PROFILE=p.load(p.SERIES/'engine/bepinex/profiles'/ (BUILD_CONFIG['profile']+'.json'))
+p.require(PROFILE['backend']=='mono' and PROFILE['architecture']=='x64','Unsupported build target')
+LOCK_PATH=p.SERIES/'engine/bepinex/locks'/PROFILE['lock']
+CACHE_ROOT=p.SERIES/'cache/bepinex'/BUILD_CONFIG['profile']
 
 def source(name):
     candidates=[ROOT/'src'/name, p.SERIES/'engine/core'/name, p.PROJECT['adapter_path']/'src'/name]
@@ -51,37 +58,7 @@ def write_binary_pack(pack,path):
     p.inside(path).write_bytes(data.getvalue())
 
 def ensure_framework(refresh=False):
-    lock=p.load(ROOT/'dependency.lock.json')
-    dest=p.inside(ROOT/'deps'/lock['asset']); dest.parent.mkdir(parents=True,exist_ok=True)
-    cached=dest.exists() and dest.stat().st_size==lock['size'] and p.sha(dest.read_bytes())==lock['sha256']
-    downloaded=False
-    if refresh or not cached:
-        print('Downloading official BepInEx '+lock['version'],flush=True)
-        request=urllib.request.Request(lock['url'],headers={'User-Agent':'Kibu1-ZhCN-Build/1.0'})
-        temp=dest.with_suffix('.download')
-        try:
-            with urllib.request.urlopen(request,timeout=90) as response, temp.open('wb') as out:
-                shutil.copyfileobj(response,out)
-            p.require(temp.stat().st_size==lock['size'] and p.sha(temp.read_bytes())==lock['sha256'],'BepInEx download hash mismatch; refusing to use it')
-            os.replace(temp,dest); downloaded=True
-        finally:
-            if temp.exists(): temp.unlink()
-    print('BepInEx SHA256 verified: '+lock['sha256'],flush=True)
-    extracted=p.inside(ROOT/'deps'/('framework_'+lock['version']))
-    extracted.mkdir(exist_ok=True)
-    files=[]
-    with zipfile.ZipFile(dest) as archive:
-        for info in archive.infolist():
-            target=p.inside(extracted/info.filename)
-            p.require(target.is_relative_to(extracted),'Dependency ZIP path traversal')
-            if info.is_dir(): target.mkdir(parents=True,exist_ok=True); continue
-            content=archive.read(info)
-            target.parent.mkdir(parents=True,exist_ok=True)
-            if not target.exists() or target.read_bytes()!=content: target.write_bytes(content)
-            files.append(info.filename)
-    for required in ['winhttp.dll','doorstop_config.ini','BepInEx/core/BepInEx.dll','BepInEx/core/0Harmony.dll']:
-        p.require((extracted/required).exists(),'Missing framework file: '+required)
-    return extracted,dict(version=lock['version'],sha256=lock['sha256'],downloaded=downloaded,cache_verified=True,files=files)
+    return shared.ensure_framework(LOCK_PATH,CACHE_ROOT,refresh)
 
 def export_pack(out):
     cache=p.load(p.WORK/'work/cache.json'); manifest=p.load(p.WORK/'work/manifest.json')
@@ -149,20 +126,8 @@ def export_pack(out):
     return pack,manifest
 
 def compile_plugin(framework,out):
-    dotnet=shutil.which('dotnet'); p.require(dotnet,'Install a .NET SDK to compile the plugin')
-    sdk_lines=subprocess.check_output([dotnet,'--list-sdks'],text=True).strip().splitlines()
-    choices=[re.fullmatch(r'([^ ]+) \[(.+)\]',line) for line in sdk_lines]
-    choices=[m for m in choices if m]
-    p.require(choices,'No .NET SDK installed')
-    match=choices[-1]; compiler=Path(match[2])/match[1]/'Roslyn/bincore/csc.dll'
-    managed=p.GAME/'kibu1_Data/Managed'
-    refs=['mscorlib.dll','netstandard.dll','System.dll','System.Core.dll','UnityEngine.dll','UnityEngine.CoreModule.dll','UnityEngine.UI.dll','UnityEngine.UIModule.dll','UnityEngine.TextRenderingModule.dll','UnityEngine.ImageConversionModule.dll']
-    response=['-nologo','-nostdlib+','-target:library','-optimize+','-langversion:7.3','-out:"'+str(out/'Kibu1ZhCN.dll')+'"']
-    response+=['-reference:"'+str(managed/r)+'"' for r in refs]
-    response+=['-reference:"'+str(framework/'BepInEx/core'/r)+'"' for r in ['BepInEx.dll','0Harmony.dll']]
-    response+=['"'+str(s)+'"' for s in all_sources()]
-    rsp=p.inside(ROOT/'build/compile.rsp'); rsp.parent.mkdir(parents=True,exist_ok=True); rsp.write_text('\n'.join(response),encoding='utf-8-sig')
-    subprocess.run([dotnet,str(compiler),'@'+str(rsp)],check=True)
+    shared.compile_plugin(framework,p.GAME/BUILD_CONFIG['managed'],out/BUILD_CONFIG['assembly'],
+                          all_sources(),ROOT/'build/compile.rsp',BUILD_CONFIG['references'])
 
 def run_tests(out):
     compiler=Path(os.environ.get('WINDIR','C:/Windows'))/'Microsoft.NET/Framework64/v4.0.30319/csc.exe'
@@ -199,20 +164,18 @@ def main():
     shell=shutil.which('pwsh'); p.require(shell,'PowerShell 7 required for managed hook validation')
     subprocess.run([shell,'-NoProfile','-File',str(ROOT/'tests/ValidateHooks.ps1')],check=True)
     release=p.inside(p.WORK/'out'/('bepinex_zh-CN_'+p.stamp())); release.mkdir()
-    package=release/'package'; package.mkdir()
-    for rel in dependency['files']:
-        src=framework/rel; dst=p.inside(package/rel); dst.parent.mkdir(parents=True,exist_ok=True); shutil.copyfile(src,dst)
-    plugin_dir=package/'BepInEx/plugins/Kibu1ZhCN'; plugin_dir.mkdir(parents=True,exist_ok=True)
-    for name in ('Kibu1ZhCN.dll','translations.json','translations.bin'): shutil.copyfile(out/name,plugin_dir/name)
-    (plugin_dir/'fonts').mkdir()
-    for name in ('dialogue-16.png','dialogue-16.bin','unifont-16.0.04.hex.gz'): shutil.copyfile(out/'fonts'/name,plugin_dir/'fonts'/name)
-    (plugin_dir/'licenses').mkdir()
-    for path in (out/'licenses').glob('Unifont-*.txt'): shutil.copyfile(path,plugin_dir/'licenses'/path.name)
-    shutil.copyfile(ROOT/'README_INSTALL.txt',package/'README_汉化安装.txt')
-    (package/'BepInEx/licenses').mkdir()
-    for path in (ROOT/'licenses').glob('*.txt'):
-        if path.name == 'BepInEx-LICENSE.txt' or path.name.startswith('Unifont-'):
-            shutil.copyfile(path,package/'BepInEx/licenses'/path.name)
+    package=release/'package'
+    prefix='BepInEx/plugins/'+BUILD_CONFIG['plugin_directory']+'/'
+    payload={prefix+name:out/name for name in (BUILD_CONFIG['assembly'],'translations.json','translations.bin')}
+    for name in ('dialogue-16.png','dialogue-16.bin','unifont-16.0.04.hex.gz'):
+        payload[prefix+'fonts/'+name]=out/'fonts'/name
+    for path in (out/'licenses').glob('Unifont-*.txt'):
+        payload[prefix+'licenses/'+path.name]=path
+    payload['README_汉化安装.txt']=ROOT/'README_INSTALL.txt'
+    payload['BepInEx/licenses/BepInEx-LICENSE.txt']=p.SERIES/'engine/bepinex/licenses/BepInEx-LICENSE.txt'
+    for path in (ROOT/'licenses').glob('Unifont-*.txt'):
+        payload['BepInEx/licenses/'+path.name]=path
+    shared.stage_package(package,framework,dependency,payload,set(manifest['game_hashes']))
     version=re.search(r'BepInPlugin\(Id, "[^"]+", "([^"]+)"', (source('Plugin.cs')).read_text(encoding='utf-8-sig')).group(1)
     report=dict(plugin_version=version,edition='BepInEx runtime plugin',dependency=dependency,script_slots=len(pack['scripts']),ui_strings=len(pack['ui']),localization_keys=len(pack['localization']),assembly_literals=len(pack['literals']),
                 tests=tests,original_game_unchanged=all((p.GAME/rel).is_file() and p.sha((p.GAME/rel).read_bytes())==digest for rel,digest in manifest['game_hashes'].items()),game_runtime_tested=False,
@@ -226,6 +189,8 @@ def main():
             rel=path.relative_to(package).as_posix()
             p.require(not rel.startswith('kibu1_Data/') and path.name!='Assembly-CSharp.dll','Original game file leaked into package')
     report['reproducibility'] = dict(
+        bepinex_profile=PROFILE, bepinex_lock=p.load(LOCK_PATH),
+        bepinex_builder_sha256=p.sha(Path(shared.__file__).read_bytes()),
         series_config=p.load(p.SERIES/'series.json'), project=p.load(p.WORK/'project.json'),
         source_hashes={x.relative_to(p.SERIES).as_posix():p.sha(x.read_bytes()) for x in all_sources()},
         translation_sha256=p.sha((p.WORK/'work/cache.json').read_bytes()),
@@ -233,10 +198,7 @@ def main():
     report['package_files']={x.relative_to(package).as_posix():p.sha(x.read_bytes()) for x in package.rglob('*') if x.is_file()}
     p.save(release/'build_report.json',report)
     archive_path=release/'Kibu1_ZhCN_BepInEx_Full.zip'
-    with zipfile.ZipFile(archive_path,'w',zipfile.ZIP_DEFLATED) as archive:
-        for path in sorted(package.rglob('*')):
-            if path.is_file(): archive.write(path,path.relative_to(package).as_posix())
-    with zipfile.ZipFile(archive_path) as archive: p.require(archive.testzip() is None,'Release ZIP corrupted')
+    shared.archive_package(package,archive_path)
     p.save(p.WORK/'reports/bepinex_latest.json',dict(output=str(release),zip=str(archive_path),zip_sha256=p.sha(archive_path.read_bytes()),**report))
     summary_path=p.WORK/'reports/translation_summary.json'
     if summary_path.exists():

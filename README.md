@@ -34,6 +34,7 @@
 
 ```text
 engine/core/                    译文包模型、二进制读取
+engine/bepinex/                 公共框架依赖、编译、组包与校验
 engine/adapters/gmode-v1/src/   文字协程、菜单记忆、点阵绘制
 series/                        系列人物译名与文风原则
 games/01-kamen-gensou/
@@ -41,7 +42,7 @@ games/01-kamen-gensou/
   scripts/                     本作提取、构建、校验、安装及修订工具
   bepinex/src/                 本作入口、聊天定位、名单和帮助页规则
   bepinex/tests/               本作回归用例、真实指令回放
-  bepinex/*.lock.json          本作锁定的框架和字体依赖
+  bepinex/font-dependency.lock.json 本作字体子集所用依赖
   work/                        AiNiee cache.json、定位清单、术语、点击基线
   originals/、raw/、research/   原文快照与引擎研究
   translated_texts/            可读译文
@@ -49,6 +50,7 @@ games/01-kamen-gensou/
   out/                        本作新发布包
   installations/、save_backups/ 安装备份与用户存档备份
 tools/                         系列命令与路径解析
+cache/bepinex/                 按版本配置共用的框架缓存（不进 Git）
 bin/、.venv/                   本机工具环境
 out/                          迁移前历史发布包，保留原下载路径
 ```
