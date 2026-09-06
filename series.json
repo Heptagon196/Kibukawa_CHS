@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "default_game": "kibu1",
+  "games": {
+    "kibu1": {
+      "title": "侦探·癸生川凌介事件谭 第1卷 假面幻想杀人事件",
+      "project": "games/01-kamen-gensou",
+      "installation": "..",
+      "adapter": "gmode-v1",
+      "enabled": true
+    }
+  }
+}

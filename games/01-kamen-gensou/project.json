@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "id": "kibu1",
+  "adapter": "gmode-v1",
+  "plugin_version": "1.0.30",
+  "source_fingerprints": "work/manifest.json",
+  "translation": "work/cache.json",
+  "glossary": "work/glossary.locked.json",
+  "click_boundaries": "work/click_boundaries.reviewed.json",
+  "layout": {"body_half_cells": 20, "buffer_characters": 20, "body_rows": 5, "speaker_body_rows": 4, "menu_half_cells": 8},
+  "notes": "First-game baseline. New games require independent hook, opcode, layout and source-hash validation."
+}
