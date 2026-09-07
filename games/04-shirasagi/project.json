@@ -1,0 +1,54 @@
+{
+  "schema": 1,
+  "id": "kibu4",
+  "adapter": "gmode-dual-v1",
+  "plugin_version": "0.3.0",
+  "source_fingerprints": "work/manifest.json",
+  "translation": "work/cache.json",
+  "glossary": "work/glossary.locked.json",
+  "compatibility": {
+    "stage": "translation_draft_offline_verified_user_testing",
+    "runtime_tested": false,
+    "release_ready": true,
+    "notes": "All 7547 selected source records translated and reviewed; dual original Read tests and production reflow pass offline. User visual testing pending.",
+    "hooks_ready": true,
+    "translation_complete": true
+  },
+  "layout": {
+    "status": "production reflow fixture verified; user visual testing pending",
+    "chinese_layout_verified": false,
+    "native_buffer_characters": 20,
+    "native_body_rows": 5,
+    "body_half_cells": 20,
+    "buffer_characters": 20,
+    "body_rows": 5,
+    "speaker_body_rows": 4,
+    "menu_half_cells": 8
+  },
+  "bepinex": {
+    "profile": "mono-win-x64-5.4.23.5",
+    "managed": "kibu4_Data/Managed",
+    "assembly": "Kibu4ZhCN.dll",
+    "plugin_directory": "Kibu4ZhCN",
+    "references": [
+      "mscorlib.dll",
+      "netstandard.dll",
+      "System.dll",
+      "System.Core.dll",
+      "UnityEngine.dll",
+      "UnityEngine.CoreModule.dll",
+      "UnityEngine.UI.dll",
+      "UnityEngine.UIModule.dll",
+      "UnityEngine.TextRenderingModule.dll",
+      "UnityEngine.ImageConversionModule.dll"
+    ]
+  },
+  "resource_archives": [
+    "sirasagi-1.res",
+    "sirasagi-2.res"
+  ],
+  "source_title": "白鷺に紅の羽",
+  "approved_empty_name_readings": {
+    "3861": "ｻﾜｺ)"
+  }
+}

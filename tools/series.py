@@ -7,9 +7,12 @@ from project_config import resolve, read, ROOT
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('action', choices=['list','paths','status','extract','probe','build','verify','install','apply','batch','legacy-build'])
+    parser.add_argument('action', choices=['list','paths','status','extract','probe','build','verify','install','apply','batch','legacy-build','text-check'])
     parser.add_argument('--game')
     args, rest = parser.parse_known_args()
+    if args.action == 'text-check':
+        subprocess.run([sys.executable, str(ROOT/'tools/check_text_style.py'), '--game', args.game or 'all'] + rest, cwd=ROOT, check=True)
+        return
     if args.action == 'list':
         for key, entry in read()['games'].items():
             print(key + ': ' + entry['title'] + ' [' + entry['adapter'] + '; ' + ('enabled' if entry.get('enabled') else 'pending compatibility') + ']')
@@ -27,6 +30,8 @@ def main():
     elif args.action == 'probe':
         command = [sys.executable,str(scripts/'build_bepinex.py'),'--probe']
     elif args.action in ('build','verify'):
+        from check_text_style import audit
+        audit(config['id'])
         command = [sys.executable,str(scripts/'build_bepinex.py')]
     else:
         command = [sys.executable,str(scripts/'pipeline.py'),'build' if args.action == 'legacy-build' else args.action]

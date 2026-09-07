@@ -1,0 +1,461 @@
+{
+  "schema": 1,
+  "source_project": "series",
+  "characters": [
+    {
+      "canonical": "生王正生",
+      "render": "生王正生",
+      "aliases": [
+        "生王"
+      ],
+      "note": "叙事者、游戏编剧。读音 イクルミ マサオ（Ikurumi Masao）；生王是姓，不是生田。"
+    },
+    {
+      "canonical": "癸生川凌介",
+      "render": "癸生川凌介",
+      "aliases": [
+        "癸生川"
+      ],
+      "note": "侦探。读音 キブカワ リョウスケ（Kibukawa Ryosuke）；先生按上下文译老师/先生。"
+    },
+    {
+      "canonical": "白鷺洲伊綱",
+      "render": "白鹭洲伊纲",
+      "aliases": [
+        "白鷺洲",
+        "伊綱"
+      ],
+      "note": "女性侦探助手。读音 サギシマ イヅナ（Sagishima Izuna）。姓为白鹭洲，不能改为白鹭岛。"
+    },
+    {
+      "canonical": "尾場九歳",
+      "render": "尾场九岁",
+      "aliases": [
+        "尾場"
+      ],
+      "note": "读音 オバ ココトシ（Oba Kokotoshi）。捜査一課警部補；对话称警部。オバキュー是他的绰号，建议阿Q/尾Q由主控锁定，不照姓名原读解释成九岁儿童。"
+    },
+    {
+      "canonical": "音成孝一",
+      "render": "林居孝一",
+      "aliases": [
+        "音成"
+      ],
+      "note": "用户指定谐音汉化姓氏：音成单独出现译林居，全名译林居孝一；中文与邻居同音，无须译注。"
+    },
+    {
+      "canonical": "砂永光二",
+      "render": "砂永光二",
+      "aliases": [
+        "砂永"
+      ],
+      "note": "读音 スナガ（Sunaga）；克罗什公司营业部长。"
+    },
+    {
+      "canonical": "村崎洋才",
+      "render": "村崎洋才",
+      "aliases": [
+        "村崎",
+        "洋才"
+      ],
+      "note": "游戏程序员、死者。scn9 [5577] 首见名洋才；笠见由纪乃的亲兄，不能与她归并。未提供名字读音。"
+    },
+    {
+      "canonical": "綾城",
+      "render": "绫城",
+      "aliases": [],
+      "note": "读音 アヤキ（Ayaki），不是 Ayashiro。程序员、村崎同事；未见名。"
+    },
+    {
+      "canonical": "唐島萌奈",
+      "render": "唐岛萌奈",
+      "aliases": [
+        "萌奈",
+        "唐島",
+        "唐沢萌奈"
+      ],
+      "note": "读音 カラシマ モエナ（Karashima Moena）。设计师。scn4 [3378] 单次唐沢萌奈疑似原文笔误，其他处均唐島，应统一唐岛并记待审。"
+    },
+    {
+      "canonical": "小早志",
+      "render": "小早志",
+      "aliases": [],
+      "note": "读音 コバヤシ（Kobayashi），不能惯性改成小林。Genma 的游戏策划；未见名。"
+    },
+    {
+      "canonical": "続木宝月",
+      "render": "续木宝月",
+      "aliases": [
+        "続木"
+      ],
+      "note": "读音 ツヅキ ホウゲツ（Tsuzuki Hogetsu），阿尔法创世纪监督。"
+    },
+    {
+      "canonical": "瀬堂",
+      "render": "濑堂",
+      "aliases": [],
+      "note": "读音 セドウ（Sedo），Genma 的游戏制作人；未见名。"
+    },
+    {
+      "canonical": "逢井",
+      "render": "逢井",
+      "aliases": [],
+      "note": "读音 アイ（Ai），Genma 游戏编剧，飞鸟望美男友。不得与网名アイビス无证据归并。"
+    },
+    {
+      "canonical": "飛鳥望美",
+      "render": "飞鸟望美",
+      "aliases": [
+        "望美"
+      ],
+      "note": "读音 アスカ ノゾミ（Asuka Nozomi），委托寻找网友狭川美妮，逢井女友。"
+    },
+    {
+      "canonical": "狭川美弐",
+      "render": "狭川美妮",
+      "aliases": [
+        "美弐"
+      ],
+      "note": "读音 サガワ ミニ（Sagawa Mini）。真实独立人物，优秀程序员、雪人系统开发者。笠见由纪乃冒用其姓名，绝不能把二人合并。"
+    },
+    {
+      "canonical": "笠見由紀乃",
+      "render": "笠见由纪乃",
+      "aliases": [
+        "由紀乃"
+      ],
+      "note": "22岁女职员，村崎洋才的亲妹妹，后由笠见家收养。冒用狭川美妮身份；网游角色みに。笠見姓单独出现需按上下文识别她或养父，故不放入人物 aliases。"
+    },
+    {
+      "canonical": "笠見伝次郎",
+      "render": "笠见传次郎",
+      "aliases": [
+        "伝次郎"
+      ],
+      "note": "笠见由纪乃养父，冒充山王丸房东。与山王丸豪吉是不同人物，绝不能归并。"
+    },
+    {
+      "canonical": "山王丸豪吉",
+      "render": "山王丸豪吉",
+      "aliases": [
+        "山王丸"
+      ],
+      "note": "真正房东；scn9 [6067-6074] 揭示正在国外旅行。早期标注为山王丸的角色实际由笠见传次郎冒充，译文须保留当时称呼，不提前剧透。"
+    },
+    {
+      "canonical": "ヴィオレ",
+      "render": "维奥莱",
+      "aliases": [
+        "ヴィオ"
+      ],
+      "note": "村崎的网游账号，简称维奥；scn3 [3238-3240] 明说法语紫色。账号会由不同人登录，不能把账号显示名替换成村崎。"
+    },
+    {
+      "canonical": "みに",
+      "render": "米妮",
+      "aliases": [],
+      "note": "笠见由纪乃所用网游ID；与狭川美妮的名字读音 mini 相同，保留谐音线索，不能把真实狭川和账号混同。仅实体语境替换，不能替换普通日语子串。"
+    },
+    {
+      "canonical": "アイビス",
+      "render": "伊比斯",
+      "aliases": [],
+      "note": "神秘网游账号。结尾6709–6712由癸生川自认；早期账号显示名仍译伊比斯，不提前揭示。"
+    },
+    {
+      "canonical": "チゼル",
+      "render": "奇泽尔",
+      "aliases": [],
+      "note": "网游好友，聊天角色。"
+    },
+    {
+      "canonical": "もけぴ",
+      "render": "莫凯皮",
+      "aliases": [],
+      "note": "网游好友，聊天角色。"
+    },
+    {
+      "canonical": "ティム",
+      "render": "蒂姆",
+      "aliases": [],
+      "note": "好友列表账号，仅出现一次。"
+    },
+    {
+      "canonical": "ようじ",
+      "render": "尤吉",
+      "aliases": [],
+      "note": "好友列表账号，假名未给汉字；音译，不能臆造汉字本名。"
+    },
+    {
+      "canonical": "きやや",
+      "render": "基亚亚",
+      "aliases": [],
+      "note": "好友列表账号，假名未给汉字；音译。"
+    },
+    {
+      "canonical": "グラファス",
+      "render": "格拉法斯",
+      "aliases": [],
+      "note": "阿尔法创世纪里的魔导师，伊纲喜欢的虚构游戏人物。"
+    },
+    {
+      "canonical": "石山貴也",
+      "render": "石山贵也",
+      "aliases": [],
+      "note": "制作名单：企划、监督、音乐。"
+    },
+    {
+      "canonical": "永野和博",
+      "render": "永野和博",
+      "aliases": [],
+      "note": "制作名单：程序。"
+    },
+    {
+      "canonical": "関 友己",
+      "render": "关 友己",
+      "aliases": [],
+      "note": "制作名单：图像；保留源空格。"
+    },
+    {
+      "canonical": "平賀由紀",
+      "render": "平贺由纪",
+      "aliases": [],
+      "note": "制作名单：角色设计。"
+    },
+    {
+      "canonical": "木戸万樹夫",
+      "render": "木户万树夫",
+      "aliases": [],
+      "note": "制作名单：角色设计。"
+    },
+    {
+      "canonical": "岩西尚起",
+      "render": "岩西尚起",
+      "aliases": [],
+      "note": "制作名单：背景。"
+    },
+    {
+      "canonical": "矢口床子",
+      "render": "矢口床子",
+      "aliases": [
+        "矢口"
+      ],
+      "note": "记者。知床是故意叫错，保留。"
+    },
+    {
+      "canonical": "白鷺洲龍希",
+      "render": "白鹭洲龙希",
+      "aliases": [],
+      "note": "第四作专名；按上下文区分同姓亲属，不提前揭示关系。"
+    },
+    {
+      "canonical": "龍希",
+      "render": "龙希",
+      "aliases": [],
+      "note": "第四作专名；按上下文区分同姓亲属，不提前揭示关系。"
+    },
+    {
+      "canonical": "涼二",
+      "render": "凉二",
+      "aliases": [],
+      "note": "第四作专名；按上下文区分同姓亲属，不提前揭示关系。"
+    },
+    {
+      "canonical": "京蔵",
+      "render": "京藏",
+      "aliases": [],
+      "note": "第四作专名；按上下文区分同姓亲属，不提前揭示关系。"
+    },
+    {
+      "canonical": "藤次郎",
+      "render": "藤次郎",
+      "aliases": [],
+      "note": "第四作专名；按上下文区分同姓亲属，不提前揭示关系。"
+    },
+    {
+      "canonical": "九宝紗綾",
+      "render": "九宝纱绫",
+      "aliases": [],
+      "note": "第四作专名；按上下文区分同姓亲属，不提前揭示关系。"
+    },
+    {
+      "canonical": "紗綾",
+      "render": "纱绫",
+      "aliases": [],
+      "note": "第四作专名；按上下文区分同姓亲属，不提前揭示关系。"
+    },
+    {
+      "canonical": "佐和子",
+      "render": "佐和子",
+      "aliases": [],
+      "note": "第四作专名；按上下文区分同姓亲属，不提前揭示关系。"
+    },
+    {
+      "canonical": "浜田",
+      "render": "滨田",
+      "aliases": [],
+      "note": "第四作专名；按上下文区分同姓亲属，不提前揭示关系。"
+    },
+    {
+      "canonical": "陸辺",
+      "render": "陆边",
+      "aliases": [],
+      "note": "第四作专名；按上下文区分同姓亲属，不提前揭示关系。"
+    },
+    {
+      "canonical": "尚助",
+      "render": "尚助",
+      "aliases": [],
+      "note": "第四作专名；按上下文区分同姓亲属，不提前揭示关系。"
+    },
+    {
+      "canonical": "楓",
+      "render": "枫",
+      "aliases": [],
+      "note": "第四作专名；按上下文区分同姓亲属，不提前揭示关系。"
+    },
+    {
+      "canonical": "珠恵",
+      "render": "珠惠",
+      "aliases": [],
+      "note": "第四作专名；按上下文区分同姓亲属，不提前揭示关系。"
+    },
+    {
+      "canonical": "大鳳院兼正",
+      "render": "大凤院兼正",
+      "aliases": [],
+      "note": "第四作专名；按上下文区分同姓亲属，不提前揭示关系。"
+    },
+    {
+      "canonical": "來興",
+      "render": "来兴",
+      "aliases": [],
+      "note": "第四作专名；按上下文区分同姓亲属，不提前揭示关系。"
+    },
+    {
+      "canonical": "若紗",
+      "render": "若纱",
+      "aliases": [],
+      "note": "第四作专名；按上下文区分同姓亲属，不提前揭示关系。"
+    },
+    {
+      "canonical": "ナズナ",
+      "render": "娜兹娜",
+      "aliases": [],
+      "note": "原文未给汉字名，避免臆造植物汉字名。"
+    },
+    {
+      "canonical": "松子",
+      "render": "松子",
+      "aliases": [],
+      "note": "凉二母亲；仅在原文揭露时使用。"
+    },
+    {
+      "canonical": "門生佐和子",
+      "render": "门生佐和子",
+      "aliases": [],
+      "note": "第四作原文新名；按当时称呼保留。"
+    },
+    {
+      "canonical": "藤沢珠恵",
+      "render": "藤泽珠惠",
+      "aliases": [],
+      "note": "第四作原文新名；按当时称呼保留。"
+    },
+    {
+      "canonical": "勝田和徳",
+      "render": "胜田和德",
+      "aliases": [],
+      "note": "第四作原文新名；按当时称呼保留。"
+    },
+    {
+      "canonical": "福林浩二",
+      "render": "福林浩二",
+      "aliases": [],
+      "note": "第四作原文新名；按当时称呼保留。"
+    },
+    {
+      "canonical": "西村孝弘",
+      "render": "西村孝弘",
+      "aliases": [],
+      "note": "第四作原文新名；按当时称呼保留。"
+    }
+  ],
+  "note": "第四作独立锁定基线；继承系列译名及前作矢口床子。白鹭洲姓氏也可能指本作其他家族成员，须按上下文辨人；不可一律归为伊纲。新专名待上下文审校。",
+  "target_project": "kibu4",
+  "inheritance": {
+    "series_glossary_sha256": "54bb59f4e0d32dfe476a9b38e91ed403aab0248b5b9f21bf67308015cdb010a2",
+    "series_style_sha256": "6960834535186153198d31e096f9eb6c7d9b3b184ba50c8f1a1bcb4352b9699f",
+    "scope": "Series baseline plus confirmed recurring name from kibu3; new fourth-game names pending contextual review."
+  },
+  "terms": [
+    {
+      "src": "白鷺に紅の羽",
+      "dst": "白鹭红羽"
+    },
+    {
+      "src": "百白村",
+      "dst": "百白村"
+    },
+    {
+      "src": "百白駅",
+      "dst": "百白站"
+    },
+    {
+      "src": "大鳳院",
+      "dst": "大凤院"
+    },
+    {
+      "src": "白鷺洲",
+      "dst": "白鹭洲"
+    },
+    {
+      "src": "鳥歌亭",
+      "dst": "鸟歌亭"
+    },
+    {
+      "src": "飯綱使い",
+      "dst": "饭纲使"
+    },
+    {
+      "src": "飯綱",
+      "dst": "饭纲"
+    },
+    {
+      "src": "くちばし山",
+      "dst": "鸟喙山"
+    },
+    {
+      "src": "クチバシ山",
+      "dst": "鸟喙山"
+    },
+    {
+      "src": "シラサギグループ",
+      "dst": "白鹭集团"
+    },
+    {
+      "src": "オオトリ製薬グループ",
+      "dst": "大凤制药集团"
+    },
+    {
+      "src": "鞠浜台",
+      "dst": "鞠滨台"
+    },
+    {
+      "src": "九ノ橋山",
+      "dst": "九之桥山"
+    },
+    {
+      "src": "ｸﾁﾊﾞｼ山",
+      "dst": "鸟喙山"
+    },
+    {
+      "src": "戸籍謄本",
+      "dst": "户籍副本"
+    },
+    {
+      "src": "おさき狐",
+      "dst": "尾崎狐"
+    }
+  ]
+}

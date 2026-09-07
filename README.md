@@ -2,6 +2,7 @@
 
 仓库：`Kibukawa_CHS`。需要自行安装对应的正版游戏；仓库不包含游戏程序、原始资源或个人存档。
 
+第四作《白鷺に紅の羽》（《白鹭红羽》）已完成前后篇翻译及四页中文帮助，0.3.0 补丁已追加到现有 GitHub Release，包含引号修正与制作名单演出适配。首次构建第四作先运行 `extract --game kibu4` 恢复本机派生资源，再运行 `build --game kibu4`。见 [第四作交付记录](games/04-shirasagi/RUNTIME_DELIVERY.md)。
 
 首次克隆后，安装 Python、PowerShell 7、.NET SDK 6+ 和 Windows .NET Framework 4.x，运行 `setup.cmd` 准备 Python 与 Mono.Cecil 依赖，再编辑 `series.json` 的安装路径。构建会从已校验的本机游戏恢复所需原文快照，保留仓库中的译文；BepInEx 和 Unifont 由构建脚本自动下载并校验。
 
