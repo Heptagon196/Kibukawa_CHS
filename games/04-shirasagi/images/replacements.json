@@ -1,0 +1,24 @@
+{
+  "game": "kibu4",
+  "schema": 1,
+  "images": [
+    {
+      "png": "title-zh/title.png",
+      "id": "title",
+      "sources": [
+        {
+          "index": 0,
+          "archive": "sirasagi-1.res",
+          "member": "gif2",
+          "canvas": "appli1.CanvasEx"
+        },
+        {
+          "index": 0,
+          "archive": "sirasagi-2.res",
+          "member": "gif2",
+          "canvas": "appli2.CanvasEx"
+        }
+      ]
+    }
+  ]
+}

@@ -2,6 +2,7 @@
 import argparse
 import hashlib
 import json
+import io
 from pathlib import Path
 import shutil
 import zipfile
@@ -26,11 +27,15 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--game', nargs='+', required=True)
     parser.add_argument('--output', type=Path, required=True)
+    parser.add_argument('--with-images', action='store_true', help='Merge verified generic image replacement packs into each full patch')
     args = parser.parse_args()
     output = (ROOT / args.output).resolve()
     require(output.is_relative_to((ROOT / 'out').resolve()), 'Output must be under workspace out/')
     naming = read(ROOT / 'series/release-names.json')
     verified, names = [], set()
+    image_reports = {}
+    if args.with_images:
+        image_reports = {x['game']:x for x in read(ROOT/'out/image-replacements-1.1.0/build-report.json')}
     for game in args.game:
         project = resolve(game)['project']
         config = read(project / 'project.json')
@@ -59,15 +64,50 @@ def main():
         filename = naming['filename_pattern'].format(**entry)
         require(Path(filename).name == filename and filename not in names, 'Invalid or duplicate release name')
         names.add(filename)
-        verified.append((archive, dict(game=game, number=entry['number'], title=entry['title'],
+        content=archive.read_bytes()
+        image_metadata={}
+        if args.with_images:
+            image_report=image_reports[game]
+            require(image_report['version']=='1.1.0','Unexpected image plugin version')
+            for relative, expected in image_report['source_hashes'].items():
+                require(digest(ROOT/relative)==expected,'Stale image replacement source: '+relative)
+            require(digest(ROOT/'engine/bepinex/build.py')==image_report['shared_builder_sha256'],'Stale image builder')
+            installation=resolve(game)['installation']
+            require(digest(installation/config['bepinex']['managed']/'Assembly-CSharp.dll')==image_report['assembly_sha256'],'Image/game assembly mismatch')
+            require(digest(installation/(game+'_Data/StreamingAssets/scratchpad'))==image_report['scratchpad_sha256'],'Image/game resource mismatch')
+            image_zip=Path(image_report['package'])
+            require(digest(image_zip)==image_report['package_sha256'],'Image package checksum mismatch')
+            with zipfile.ZipFile(image_zip) as addon, zipfile.ZipFile(archive) as base:
+                require(addon.testzip() is None,'Corrupt image ZIP')
+                addon_members=[i.filename for i in addon.infolist() if not i.is_dir()]
+                require(len(set(addon_members))==len(addon_members) and set(addon_members)==set(image_report['package_files']),'Unexpected image ZIP members')
+                require(not set(addon_members).intersection(base.namelist()),'Image add-on overwrites text patch files')
+                require(not set(addon_members).intersection(originals),'Image add-on contains original game files')
+                merged=io.BytesIO()
+                with zipfile.ZipFile(merged,'w',zipfile.ZIP_DEFLATED) as package:
+                    for name in members: package.writestr(name,base.read(name))
+                    for name in addon_members:
+                        require(not name.startswith(('/', '\\')) and '..' not in name.replace('\\','/').split('/'),'Unsafe image ZIP path')
+                        data=addon.read(name)
+                        require(hashlib.sha256(data).hexdigest()==image_report['package_files'][name],'Image ZIP member mismatch')
+                        package.writestr(name,data)
+                content=merged.getvalue()
+            with zipfile.ZipFile(io.BytesIO(content)) as combined:
+                require(combined.testzip() is None,'Corrupt combined ZIP')
+                for name, expected in payload.items():
+                    require(hashlib.sha256(combined.read(name)).hexdigest()==expected,'Text patch changed while merging')
+            image_metadata=dict(image_plugin_version=image_report['version'],image_routes=len(image_report['routes']),
+                                base_zip_sha256=digest(archive),image_zip_sha256=image_report['package_sha256'],
+                                image_runtime_visual_tested=image_report['runtime_visual_tested'])
+        verified.append((content, dict(game=game, number=entry['number'], title=entry['title'],
                                       version=config['plugin_version'], filename=filename, github_name=entry['github_name'],
-                                      size=archive.stat().st_size, sha256=digest(archive),
-                                      translation_sha256=provenance['translation_sha256'])))
+                                      size=len(content), sha256=hashlib.sha256(content).hexdigest(),
+                                      translation_sha256=provenance['translation_sha256'],**image_metadata)))
     output.mkdir(parents=True, exist_ok=True)
-    for archive, record in verified:
+    for content, record in verified:
         destination = output / record['filename']
         require(not destination.exists() or digest(destination) == record['sha256'], 'Different existing release asset')
-        shutil.copyfile(archive, destination)
+        destination.write_bytes(content)
         require(digest(destination) == record['sha256'], 'Release copy mismatch')
     records = [record for _, record in verified]
     (output / 'manifest.json').write_text(json.dumps(dict(schema=1, assets=records), ensure_ascii=False, indent=2) + '\n', encoding='utf-8')

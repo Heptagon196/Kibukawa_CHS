@@ -32,6 +32,21 @@
 4. Release标签指向本次提交，上传独立作品ZIP；将工具生成的SHA256SUMS.github.txt以SHA256SUMS.txt的名称上传。说明每作版本、安装方法、离线验证范围与尚待确认的实机事项。
 5. 上传后核对Release资产名称、大小与SHA256；有摘要时核对GitHub摘要，无摘要时下载校验。公开发布后不要覆盖旧Release资产，修订发布使用新的标签。
 
+2026-09-08 本次用户明确要求更新原有 Release `chs-01-03-2026.09.07`，因此本次按原文件名覆盖第一至四作 ZIP 和校验文件，不创建新 Release。现有标签保留，Release 说明链接本次源码提交。
+
+## 通用图片替换完整包
+
+先完成各作正文 build，再运行 `.venv/Scripts/python.exe tools/build_image_replacements.py`，最后运行：
+
+```powershell
+.venv/Scripts/python.exe tools/package_release.py --game kibu1 kibu2 kibu3 kibu4 --with-images --output out/github-release/2026-09-08-images
+```
+
+`--with-images` 校验正文与图片插件各自的源文件、资源版本、ZIP成员和哈希后合并完整包。正文包成员须逐字节保持不变。
+新增目录为 `BepInEx/plugins/KibukawaImageReplacements`，插件版本 1.1.0；正文插件版本独立保留。第二作原有楼层图替换不变。
+标题 PNG 是中文本地化衍生图，原作品图像权利归原权利人。通用插件的离线测试不等同于全部实机视觉验收。
+本次 `SHA256SUMS.txt` 包含四作，`SHA256SUMS-04.txt` 同步更新供旧校验链接继续使用。
+
 ZIP直接解压到对应游戏exe目录。下载者应自行拥有原游戏；补丁包含框架、插件、译文与字体许可，不包含原游戏程序、剧情资源或个人存档。
 
 ## Release 说明维护
