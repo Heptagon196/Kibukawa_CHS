@@ -26,4 +26,4 @@
 
 补丁需自行安装正版原游戏，不包含原游戏程序、原始剧情资源或个人存档。中文标题为本地化衍生图像，原作品图像权利归原权利人。
 
-汉化与审校源码：[3ae2197](https://github.com/Heptagon196/Kibukawa_CHS/commit/3ae21972ea781043439f4edb2b74995b427dfb21)。发布清单见仓库 `releases/2026-09-09-five-games/`。
+汉化与审校源码：[f7c4787](https://github.com/Heptagon196/Kibukawa_CHS/commit/f7c47876330609ba610cf3df45f8abcc3c54f971)。发布清单见仓库 `releases/2026-09-09-five-games/`。
