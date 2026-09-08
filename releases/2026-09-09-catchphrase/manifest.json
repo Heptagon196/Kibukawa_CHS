@@ -1,0 +1,68 @@
+{
+  "schema": 1,
+  "assets": [
+    {
+      "game": "kibu1",
+      "number": 1,
+      "title": "假面幻想杀人事件",
+      "version": "1.0.32",
+      "filename": "癸生川凌介 01-假面幻想杀人事件-CHS.zip",
+      "github_name": "Kibukawa-01-KamenGensou-CHS.zip",
+      "size": 2167600,
+      "sha256": "4eee5936c4520f042c6aef27a0c229723bdc2590797921db2480ab6806537b34",
+      "translation_sha256": "d5a3c6398a32ae9e4121877de50a8a9a5bcb0de7481722b96260530b26fafaf8",
+      "image_plugin_version": "1.1.0",
+      "image_routes": 2,
+      "base_zip_sha256": "b8514b37346d4e85788ca8a13954b332fed414bb054af5f0581a2175a9b09754",
+      "image_zip_sha256": "999754c94bfc779faa9a2211fe7c5a286fa6131f4f2313530165cddf8bc9228b",
+      "image_runtime_visual_tested": false
+    },
+    {
+      "game": "kibu2",
+      "number": 2,
+      "title": "海楼馆杀人事件",
+      "version": "0.2.8",
+      "filename": "癸生川凌介 02-海楼馆杀人事件-CHS.zip",
+      "github_name": "Kibukawa-02-Kairou-CHS.zip",
+      "size": 2180064,
+      "sha256": "f11e7dd68abf74f55cd966c97c0faa5a5b020677c4648bcb86be07442a89b83f",
+      "translation_sha256": "2726e4d00aeb5aa2af1a6dd86e78077208fa9bf7f84a2049b504034532cf1fe8",
+      "image_plugin_version": "1.1.0",
+      "image_routes": 1,
+      "base_zip_sha256": "d1fc2abcd9207c3a1113a1d3c2aab7358f4b4396ef32e8bddb68856ffe87dc0f",
+      "image_zip_sha256": "435bbcc69257604d3ebdc4fbf49b99a423db4b85c25aed226d130f0091dc6fb0",
+      "image_runtime_visual_tested": false
+    }
+  ],
+  "release_tag": "chs-01-03-2026.09.07",
+  "reason": "用户要求原Release原文件名覆盖；统一林居刑警完整口头禅。",
+  "verification": [
+    {
+      "game": "kibu1",
+      "changed_members": [
+        "BepInEx/plugins/Kibu1ZhCN/Kibu1ZhCN.dll",
+        "BepInEx/plugins/Kibu1ZhCN/translations.bin",
+        "BepInEx/plugins/Kibu1ZhCN/translations.json",
+        "README_汉化安装.txt"
+      ],
+      "title_images_preserved": true
+    },
+    {
+      "game": "kibu2",
+      "changed_members": [
+        "BepInEx/plugins/Kibu2ZhCN/fonts/dialogue-16.bin",
+        "BepInEx/plugins/Kibu2ZhCN/fonts/dialogue-16.png",
+        "BepInEx/plugins/Kibu2ZhCN/Kibu2ZhCN.dll",
+        "BepInEx/plugins/Kibu2ZhCN/translations.bin",
+        "BepInEx/plugins/Kibu2ZhCN/translations.json",
+        "README_Kibu2_汉化安装.txt"
+      ],
+      "title_images_preserved": true
+    }
+  ],
+  "untouched_assets": [
+    "Kibukawa-03-ShishaNoRakuen-CHS.zip",
+    "Kibukawa-04-Shirasagi-CHS.zip",
+    "SHA256SUMS-04.txt"
+  ]
+}
