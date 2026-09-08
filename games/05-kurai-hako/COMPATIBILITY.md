@@ -12,7 +12,7 @@
 
 ## 引擎证据
 
-第五作是 Windows AMD64 / Unity Mono，存在 MonoBleedingEdge 和 Managed 程序集，没有 GameAssembly.dll。使用单套 `appli1.CanvasEx`，不采用第四作的双篇上下文；登记独立适配名 `gmode-appli1-v1`，生产挂钩已实现，并通过原始程序集与全部指令回放验证。
+第五作是 Windows AMD64 / Unity Mono，存在 MonoBleedingEdge 和 Managed 程序集，没有 GameAssembly.dll。使用单套 `appli1.CanvasEx`，不采用第四作的双篇上下文；复用 `gmode-v1` 公共适配器，由本作插件处理 `appli1` 命名空间的挂钩，并通过原始程序集与全部指令回放验证。
 
 Assembly-CSharp.dll SHA256：`2db6c7b595c91b1a7cc4937befe50e459f3769d68ccf600556f29e63deb5c4c2`。
 

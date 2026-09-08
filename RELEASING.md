@@ -52,4 +52,4 @@ ZIP直接解压到对应游戏exe目录。下载者应自行拥有原游戏；�
 
 ## 历史记录完整包
 
-需要合入历史记录时，先运行 `.venv/Scripts/python.exe engine/history/build.py`，再给 `tools/package_release.py` 添加 `--with-history`。组包校验历史插件源码指纹、DLL和许可证，保留正文与图片包原有成员。旧版历史插件的残留清理步骤须保留在安装说明中；ZIP覆盖本身不会删除旧文件。
+需要合入历史记录时，先运行 `.venv/Scripts/python.exe engine/history/build.py`，再给 `tools/package_release.py` 添加 `--with-history`。组包校验历史插件源码指纹、DLL和许可证，保留正文与图片包原有成员。

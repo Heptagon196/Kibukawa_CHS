@@ -12,8 +12,6 @@
 
 退出游戏，将对应 ZIP 的全部文件解压到该作游戏程序所在目录（kibu1.exe 至 kibu5.exe），覆盖同名文件。请勿混装不同作品的补丁。详细说明见包内安装文档。
 
-如曾安装旧版历史记录插件，请先移除 `BepInEx/plugins/KibukawaHistory/native/KibukawaHistory.SDL3.dll`、同目录 `SDL-LICENSE.txt` 和 `BepInEx/config/local.kibukawa.history.cfg`。ZIP 覆盖不会自动删除旧文件；首次安装无需此步骤。
-
 ### 内容与验证
 
 - 第五作《暗匣之上》汉化完成，正文插件正式版本 1.0.0；包含界面、帮助图、中文标题及排版适配。

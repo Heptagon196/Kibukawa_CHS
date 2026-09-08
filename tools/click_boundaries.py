@@ -7,7 +7,7 @@ from pathlib import Path
 
 PROFILES = {
     name: dict(text=72, boundaries={71,73,75,76,78,79}, menu_min=105, menu_max=130)
-    for name in ('gmode-v1','gmode-dual-v1','gmode-appli1-v1')
+    for name in ('gmode-v1','gmode-dual-v1')
 }
 def load(path): return json.loads(Path(path).read_text(encoding='utf-8-sig'))
 def sha(path): return hashlib.sha256(Path(path).read_bytes()).hexdigest()
