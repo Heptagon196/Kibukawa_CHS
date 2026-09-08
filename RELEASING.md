@@ -49,3 +49,7 @@ ZIP直接解压到对应游戏exe目录。下载者应自行拥有原游戏；�
 ## Release 说明维护
 
 新增作品直接更新开头的统一下载表格，并同步通用安装、内容和校验说明；不在末尾追加按日期或作品排列的重复发布段落。表格行之间不得插入空行。写入发布说明前统一为 LF，避免 Windows 文本写入把已有 CRLF 转成 CRCRLF。上传后用 GitHub Markdown 渲染检查表格。
+
+## 历史记录完整包
+
+需要合入历史记录时，先运行 `.venv/Scripts/python.exe engine/history/build.py`，再给 `tools/package_release.py` 添加 `--with-history`。组包校验历史插件源码指纹、DLL和许可证，保留正文与图片包原有成员。旧版历史插件的残留清理步骤须保留在安装说明中；ZIP覆盖本身不会删除旧文件。

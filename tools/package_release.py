@@ -29,6 +29,7 @@ def main():
     parser.add_argument('--game', nargs='+', required=True)
     parser.add_argument('--output', type=Path, required=True)
     parser.add_argument('--with-images', action='store_true', help='Merge verified generic image replacement packs into each full patch')
+    parser.add_argument('--with-history', action='store_true', help='Merge the verified history plugin into each full patch')
     args = parser.parse_args()
     output = (ROOT / args.output).resolve()
     require(output.is_relative_to((ROOT / 'out').resolve()), 'Output must be under workspace out/')
@@ -101,6 +102,32 @@ def main():
             image_metadata=dict(image_plugin_version=image_report['version'],image_routes=len(image_report['routes']),
                                 base_zip_sha256=digest(archive),image_zip_sha256=image_report['package_sha256'],
                                 image_runtime_visual_tested=image_report['runtime_visual_tested'])
+        if args.with_history:
+            history=read(ROOT/'out/history/manifest.json')
+            require(bool(history.get('source_hashes')), 'History build lacks source fingerprints')
+            for relative, expected in history['source_hashes'].items():
+                require(digest(ROOT/relative)==expected,'Stale history source: '+relative)
+            history_zip=ROOT/'out/history'/(game+'-history-'+history['version']+'.zip')
+            dll='BepInEx/plugins/KibukawaHistory/KibukawaHistory.dll'
+            with zipfile.ZipFile(history_zip) as addon, zipfile.ZipFile(io.BytesIO(content)) as base:
+                require(addon.testzip() is None,'Corrupt history ZIP')
+                require(len(addon.namelist())==3 and set(addon.namelist())=={dll,'历史记录说明.md','LICENSE'},'Unexpected history ZIP members')
+                require(hashlib.sha256(addon.read(dll)).hexdigest()==history['sha256'][game],'History DLL mismatch')
+                require(addon.read('LICENSE')==(ROOT/'LICENSE').read_bytes(),'History license mismatch')
+                require(addon.read('历史记录说明.md')==(ROOT/'engine/history/README.md').read_bytes(),'History instructions mismatch')
+                require(not {dll,'历史记录说明.md'}.intersection(base.namelist()),'History file collision')
+                merged=io.BytesIO()
+                with zipfile.ZipFile(merged,'w',zipfile.ZIP_DEFLATED) as package:
+                    for name in base.namelist():package.writestr(name,base.read(name))
+                    package.writestr(dll,addon.read(dll))
+                    package.writestr('历史记录说明.md',addon.read('历史记录说明.md'))
+                    if 'LICENSE' not in base.namelist():package.writestr('LICENSE',addon.read('LICENSE'))
+                    else:require(base.read('LICENSE')==addon.read('LICENSE'),'License collision')
+                with zipfile.ZipFile(io.BytesIO(merged.getvalue())) as combined:
+                    require(combined.testzip() is None,'Corrupt history merged ZIP')
+                    for name in base.namelist():require(combined.read(name)==base.read(name),'Existing payload changed')
+                content=merged.getvalue()
+            image_metadata.update(history_plugin_version=history['version'],history_zip_sha256=digest(history_zip))
         verified.append((content, dict(game=game, number=entry['number'], title=entry['title'],
                                       version=config['plugin_version'], filename=filename, github_name=entry['github_name'],
                                       size=len(content), sha256=hashlib.sha256(content).hexdigest(),

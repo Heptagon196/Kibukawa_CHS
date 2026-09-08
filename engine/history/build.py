@@ -18,6 +18,8 @@ def main():
     config = json.loads((SERIES / 'series.json').read_text(encoding='utf-8-sig'))
     hashes = {}
     files = {}
+    source_hashes = {p.relative_to(SERIES).as_posix(): hashlib.sha256(p.read_bytes()).hexdigest()
+                     for p in [*ROOT.glob('src/*.cs'), *ROOT.glob('tests/*'), ROOT/'build.py', ROOT/'README.md'] if p.is_file()}
     for game, entry in config['games'].items():
         if not entry['enabled']:
             continue
@@ -46,7 +48,8 @@ def main():
         with zipfile.ZipFile(output/(game+'-history-1.6.1.zip')) as archive:
             assert len(archive.namelist()) == 3, 'Unexpected personal data in release'
             assert hashlib.sha256(archive.read('BepInEx/plugins/KibukawaHistory/KibukawaHistory.dll')).hexdigest() == hashes[game]
-    (output/'manifest.json').write_text(json.dumps({'version':'1.6.1', 'sha256':hashes, 'files':files,
+    assert all(hashlib.sha256((SERIES/p).read_bytes()).hexdigest()==h for p,h in source_hashes.items()), 'History source changed during build'
+    (output/'manifest.json').write_text(json.dumps({'version':'1.6.1', 'sha256':hashes, 'files':files, 'source_hashes':source_hashes,
         'validation':'five-game compile, hook metadata, buffer, coroutine and idle left-softkey hint tests; live interaction pending'}, indent=2), encoding='utf-8')
     print('History add-ons built and verified: '+', '.join(hashes))
 
