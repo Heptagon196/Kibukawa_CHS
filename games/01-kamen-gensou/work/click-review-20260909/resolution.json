@@ -1,0 +1,151 @@
+{
+  "decisions": [
+    {
+      "unit_index": 470,
+      "decision": "retain",
+      "reason": "永别在完整发言中准确表达与亲哥哥因死亡分别，下一点击仍揭出亲哥哥的身份；是同一事实的递进表达。"
+    },
+    {
+      "unit_index": 738,
+      "decision": "retain",
+      "reason": "邀请的引语框架按中文习惯前置；停顿仍在地点、去玩和追忆之间，无拆词或错误揭露。"
+    },
+    {
+      "unit_index": 906,
+      "decision": "fix",
+      "reason": "原文906只说要转述的内容「这里不是游戏厅」，907才要求两人向笨蛋解释清楚。现译把「你们给他讲清楚」移到906，907又重复解释结果，改变点击间的信息分配。将整个请求留在907即可。"
+    },
+    {
+      "unit_index": 2262,
+      "decision": "fix",
+      "reason": "2262原文先给出“比绫城早”，停顿之后的2263才说明来访者是收到邮件的萌奈。现译把来访者和收信提前到2262，并把“比绫城早”推迟到2263，两个点击单元的信息次序对调；建议按原时点还原。"
+    },
+    {
+      "unit_index": 2449,
+      "decision": "fix",
+      "reason": "2449原文先说明模仿的程度：连男友都把她当作本人；2450才解释她研究了用词和思考方式。现译把研究内容前移、把男友受骗的结果后移，两个点击单元的信息次序对调。"
+    }
+  ],
+  "changes": [
+    {
+      "id": 1940,
+      "unit_index": 906,
+      "source": "ゲームセンターじゃ",
+      "before": "这里可不是游戏厅，",
+      "target": "这里可不"
+    },
+    {
+      "id": 1941,
+      "unit_index": 906,
+      "source": "ねえんだって､",
+      "before": "你们给他讲清楚。",
+      "target": "是游戏厅，"
+    },
+    {
+      "id": 1942,
+      "unit_index": 907,
+      "source": "この馬",
+      "before": "这笨",
+      "target": "你们也给"
+    },
+    {
+      "id": 1943,
+      "unit_index": 907,
+      "source": "鹿にも分かりやすく",
+      "before": "蛋也得听明白",
+      "target": "这笨蛋讲"
+    },
+    {
+      "id": 1944,
+      "unit_index": 907,
+      "source": "教えてやってくれ｡",
+      "before": "才行。”",
+      "target": "明白啊。”"
+    },
+    {
+      "id": 5306,
+      "unit_index": 2262,
+      "source": "｢その後､綾城さんよ",
+      "before": "“之后，收到邮件的",
+      "target": "“之后，在绫城"
+    },
+    {
+      "id": 5307,
+      "unit_index": 2262,
+      "source": "り先に…",
+      "before": "萌奈小姐……",
+      "target": "先生来之前……"
+    },
+    {
+      "id": 5308,
+      "unit_index": 2263,
+      "source": "メールを受",
+      "before": "比绫城先生",
+      "target": "收到邮件的"
+    },
+    {
+      "id": 5309,
+      "unit_index": 2263,
+      "source": "け取った萌奈さんが",
+      "before": "更早一步",
+      "target": "萌奈小姐先"
+    },
+    {
+      "id": 5310,
+      "unit_index": 2263,
+      "source": "部屋に訪れた｡",
+      "before": "来到了这个房间。",
+      "target": "来到了房间。"
+    },
+    {
+      "id": 5757,
+      "unit_index": 2449,
+      "source": "彼氏をしてみても本",
+      "before": "她揣摩美妮的",
+      "target": "连美妮的男"
+    },
+    {
+      "id": 5758,
+      "unit_index": 2449,
+      "source": "人だと思わせてしま",
+      "before": "用词习惯和",
+      "target": "友都以为那"
+    },
+    {
+      "id": 5759,
+      "unit_index": 2449,
+      "source": "うくらい､",
+      "before": "思考方式，",
+      "target": "是她本人，"
+    },
+    {
+      "id": 5760,
+      "unit_index": 2450,
+      "source": "文章の使い",
+      "before": "模仿得",
+      "target": "可见她把美妮的用"
+    },
+    {
+      "id": 5761,
+      "unit_index": 2450,
+      "source": "方やものの考え方を",
+      "before": "就连美妮的男友",
+      "target": "词习惯和思考方式"
+    },
+    {
+      "id": 5762,
+      "unit_index": 2450,
+      "source": "研究したんだよ｡",
+      "before": "都以为那是她本人。”",
+      "target": "研究得多么透彻。”"
+    }
+  ],
+  "cache_before": "d5a3c6398a32ae9e4121877de50a8a9a5bcb0de7481722b96260530b26fafaf8",
+  "cache_after": "695c85368f7ddf10c13fa7c31be0f8401dd42611c978260e3a24a14a3cefa235",
+  "review_reports": {
+    "review-0.json": "2964471217215f85fa919961ba9ee3dfab3140a8c12481d6727313569a7f814b",
+    "review-1.json": "4a710f8ebd30fb4a082c95285f3418db98849b89f3300880548ccff760bfa37f",
+    "review-2.json": "3b75510d8215938e74c92c856ce7f180f3e1106d8f52ad4bc1dd2b3f786eba0b",
+    "review-3.json": "970d759b9f7ae4f76115b843eea108b670bcc918115d5c43460a74e66b45ebc5"
+  }
+}

@@ -1,0 +1,420 @@
+{
+  "decisions": [
+    {
+      "unit_index": 1071,
+      "decision": "fix",
+      "reason": "原作在听警方说的引入语之后停顿；现译把下一单元的东先生的提前到本单元，使点击前停在悬空的所有格，下一单元从死因开始。应把死者姓名与死因一起留在1072，并恢复1071的原引入语停顿。"
+    },
+    {
+      "unit_index": 1561,
+      "decision": "fix",
+      "reason": "下一点击单元1562的转向提示“可反过来看”提前落在1561结尾，改变先提出“仿佛全知”、再切换相反观察的节奏。把对比提示放回下一单元即可，不必把原作未完句补全。"
+    },
+    {
+      "unit_index": 1647,
+      "decision": "fix",
+      "reason": "原文此处只以转述语气结束三人被挖角的事实；译文另加“我听说的就是这些”，提前概括了1648“除此之外不知道”的限制，随后又重复一次。删去提前的总结，保留下一点击才说明知情范围。"
+    },
+    {
+      "unit_index": 1764,
+      "decision": "fix",
+      "reason": "“计划在1999年夏天正式开放”属于下一单元1765，现被整句提前至1764；开放年份与季节在原文只于下一点击出现。应在1764停于过山车命名，再于1765完整给出开放计划与赶工事实。"
+    },
+    {
+      "unit_index": 2027,
+      "decision": "fix",
+      "reason": "原文在“那个秘密……”后等待点击，译文却把下一单元的“自称”搬到前面，将本单元的“秘密”延后，既改变思考焦点，也使点击前停在“那个自称”这一截断的修饰语上。"
+    },
+    {
+      "unit_index": 2302,
+      "decision": "fix",
+      "reason": "本单元原文只说明釜石把御使い误读为otsukai；译文提前说出下一点击才出现的遗书假名mi线索。应让两项证据分别在各自点击单元出现，并保留译注在单个单元内闭合。"
+    },
+    {
+      "unit_index": 2413,
+      "decision": "fix",
+      "reason": "下一单元的叙述顺序转折“それより先に”被提前为“不过在那之前”，使本单元在转场提示后半途等待点击，也容易暂时理解为事件发生时间先后。应在下一单元一起说明先谈遗书的叙述安排。"
+    }
+  ],
+  "changes": [
+    {
+      "id": 1928,
+      "unit_index": 1071,
+      "source": "｢警察から聞いた話で",
+      "before": "“听警方说……",
+      "target": "“听警"
+    },
+    {
+      "id": 1929,
+      "unit_index": 1071,
+      "source": "すが…",
+      "before": "东先生的",
+      "target": "方说……"
+    },
+    {
+      "id": 1930,
+      "unit_index": 1072,
+      "source": "東さんの死因",
+      "before": "死因是",
+      "target": "东先生"
+    },
+    {
+      "id": 1931,
+      "unit_index": 1072,
+      "source": "は､額を",
+      "before": "额头遭到",
+      "target": "的死因是"
+    },
+    {
+      "id": 1932,
+      "unit_index": 1072,
+      "source": "鈍器で強打",
+      "before": "钝器猛击，",
+      "target": "额头遭到"
+    },
+    {
+      "id": 1933,
+      "unit_index": 1072,
+      "source": "さ",
+      "before": "导致",
+      "target": "钝器猛击"
+    },
+    {
+      "id": 1934,
+      "unit_index": 1072,
+      "source": "れた事による脳挫傷",
+      "before": "脑挫伤",
+      "target": "，导致脑"
+    },
+    {
+      "id": 1935,
+      "unit_index": 1072,
+      "source": "で…",
+      "before": "……",
+      "target": "挫伤……"
+    },
+    {
+      "id": 3128,
+      "unit_index": 1561,
+      "source": "すべてを",
+      "before": "看起来仿佛",
+      "target": "看起来"
+    },
+    {
+      "id": 3129,
+      "unit_index": 1561,
+      "source": "知ってるようにも見",
+      "before": "什么都知道，",
+      "target": "仿佛什么"
+    },
+    {
+      "id": 3130,
+      "unit_index": 1561,
+      "source": "えますし､",
+      "before": "可反过来看，",
+      "target": "都知道，"
+    },
+    {
+      "id": 3131,
+      "unit_index": 1562,
+      "source": "逆に何も関",
+      "before": "又好像",
+      "target": "可反过来看，"
+    },
+    {
+      "id": 3132,
+      "unit_index": 1562,
+      "source": "わってないようにも",
+      "before": "与这些事情",
+      "target": "又好像与这些事"
+    },
+    {
+      "id": 3133,
+      "unit_index": 1562,
+      "source": "見えます｡",
+      "before": "毫无关系。”",
+      "target": "情毫无关系。”"
+    },
+    {
+      "id": 3354,
+      "unit_index": 1646,
+      "source": "｢ええと､４年ほど前､",
+      "before": "“这个嘛，大约四年前，",
+      "target": "“这个嘛，听说大约"
+    },
+    {
+      "id": 3355,
+      "unit_index": 1646,
+      "source": "社長が直接､別の会社",
+      "before": "社长亲自把",
+      "target": "四年前，社长亲自把"
+    },
+    {
+      "id": 3358,
+      "unit_index": 1647,
+      "source": "それと日野さん",
+      "before": "以及日野先生，",
+      "target": "以及日"
+    },
+    {
+      "id": 3359,
+      "unit_index": 1647,
+      "source": "を",
+      "before": "三个人",
+      "target": "野先生"
+    },
+    {
+      "id": 3360,
+      "unit_index": 1647,
+      "source": "引き抜いた",
+      "before": "挖了过来，",
+      "target": "，三个"
+    },
+    {
+      "id": 3361,
+      "unit_index": 1647,
+      "source": "そうで",
+      "before": "我听说的",
+      "target": "人挖了"
+    },
+    {
+      "id": 3362,
+      "unit_index": 1647,
+      "source": "すが…",
+      "before": "就是这些……",
+      "target": "过来……"
+    },
+    {
+      "id": 3634,
+      "unit_index": 1764,
+      "source": "時勢を取り入れ､",
+      "before": "为了迎合当时的潮流，",
+      "target": "为了迎合"
+    },
+    {
+      "id": 3635,
+      "unit_index": 1764,
+      "source": "アル",
+      "before": "那座过山车取名叫",
+      "target": "当时的潮"
+    },
+    {
+      "id": 3636,
+      "unit_index": 1764,
+      "source": "マゲドン",
+      "before": "‘末日决战’。",
+      "target": "流，那座过"
+    },
+    {
+      "id": 3637,
+      "unit_index": 1764,
+      "source": "と名付けら",
+      "before": "它计划",
+      "target": "山车取名"
+    },
+    {
+      "id": 3638,
+      "unit_index": 1764,
+      "source": "れたそのコースター",
+      "before": "在1999年夏天",
+      "target": "叫‘末日"
+    },
+    {
+      "id": 3639,
+      "unit_index": 1764,
+      "source": "は…",
+      "before": "正式开放……",
+      "target": "决战’……"
+    },
+    {
+      "id": 3640,
+      "unit_index": 1765,
+      "source": "1999年夏のオー",
+      "before": "所以当时",
+      "target": "为了赶在1999"
+    },
+    {
+      "id": 3641,
+      "unit_index": 1765,
+      "source": "プンに向けて急ピッ",
+      "before": "正在加紧",
+      "target": "年夏天正式开放，当"
+    },
+    {
+      "id": 3642,
+      "unit_index": 1765,
+      "source": "チで建設されとった｡",
+      "before": "施工。”",
+      "target": "时正在加紧施工。”"
+    },
+    {
+      "id": 4326,
+      "unit_index": 2027,
+      "source": "｢その秘密を…",
+      "before": "“那个自称",
+      "target": "“那个秘密……"
+    },
+    {
+      "id": 4327,
+      "unit_index": 2028,
+      "source": "六木と",
+      "before": "六木的",
+      "target": "自称六木的"
+    },
+    {
+      "id": 4328,
+      "unit_index": 2028,
+      "source": "名乗る人物はマスコ",
+      "before": "人……就是想",
+      "target": "人，是想把"
+    },
+    {
+      "id": 4329,
+      "unit_index": 2028,
+      "source": "ミにバラそうとした",
+      "before": "把秘密捅给",
+      "target": "它捅给媒体"
+    },
+    {
+      "id": 4330,
+      "unit_index": 2028,
+      "source": "のか…？",
+      "before": "媒体吗……？”",
+      "target": "吗……？”"
+    },
+    {
+      "id": 4986,
+      "unit_index": 2302,
+      "source": "｢釜石さんは､脅迫状",
+      "before": "“釜石先生把恐吓信里的",
+      "target": "“釜石先生"
+    },
+    {
+      "id": 4987,
+      "unit_index": 2302,
+      "source": "に書かれた御使いを､",
+      "before": "‘神使’，误读为",
+      "target": "把恐吓信里的"
+    },
+    {
+      "id": 4988,
+      "unit_index": 2302,
+      "source": "おつかい",
+      "before": "‘otsukai’。",
+      "target": "‘神使’，误"
+    },
+    {
+      "id": 4989,
+      "unit_index": 2302,
+      "source": "と読んでい",
+      "before": "可遗书却把首字",
+      "target": "读为‘ots"
+    },
+    {
+      "id": 4990,
+      "unit_index": 2302,
+      "source": "ました｡",
+      "before": "写成了表示mi音的假名，",
+      "target": "ukai’。"
+    },
+    {
+      "id": 4991,
+      "unit_index": 2303,
+      "source": "しかし､遺書に書かれ",
+      "before": "表明这里读的是",
+      "target": "可遗书却把首字写成了表示m"
+    },
+    {
+      "id": 4992,
+      "unit_index": 2303,
+      "source": "た文では",
+      "before": "正确读音——",
+      "target": "i音的假名，表明这里读的是"
+    },
+    {
+      "id": 4993,
+      "unit_index": 2303,
+      "source": "み使い",
+      "before": "‘mitsukai’。”",
+      "target": "‘mitsukai’。”（"
+    },
+    {
+      "id": 4994,
+      "unit_index": 2303,
+      "source": "に",
+      "before": "（译注：原词首字为“御”；",
+      "target": "译注：原词首字为“御”；o"
+    },
+    {
+      "id": 4995,
+      "unit_index": 2303,
+      "source": "なっています｡",
+      "before": "otsukai意为“跑腿”。）",
+      "target": "tsukai意为“跑腿”。）"
+    },
+    {
+      "id": 5243,
+      "unit_index": 2413,
+      "source": "｢さて､続いて東さん",
+      "before": "“接着，虽然发生了",
+      "target": "“接着，发"
+    },
+    {
+      "id": 5244,
+      "unit_index": 2413,
+      "source": "殺害事件が起こって",
+      "before": "东先生被杀的案件……",
+      "target": "生了东先生被"
+    },
+    {
+      "id": 5245,
+      "unit_index": 2413,
+      "source": "しまうのですが…",
+      "before": "不过在那之前，",
+      "target": "杀的案件……"
+    },
+    {
+      "id": 5246,
+      "unit_index": 2414,
+      "source": "それより先に､釜石さ",
+      "before": "我想先就",
+      "target": "不过，在说"
+    },
+    {
+      "id": 5247,
+      "unit_index": 2414,
+      "source": "んの",
+      "before": "釜石先生的",
+      "target": "这件事之前"
+    },
+    {
+      "id": 5248,
+      "unit_index": 2414,
+      "source": "遺書",
+      "before": "遗书",
+      "target": "，我想先说明"
+    },
+    {
+      "id": 5249,
+      "unit_index": 2414,
+      "source": "についてお",
+      "before": "这件事",
+      "target": "一下釜石先"
+    },
+    {
+      "id": 5250,
+      "unit_index": 2414,
+      "source": "話しします｡",
+      "before": "做个说明。”",
+      "target": "生的遗书。”"
+    }
+  ],
+  "cache_before": "581080c3d946244ffed1356ebcca91b9c43d72c638acc411345e51f0a48954ba",
+  "cache_after": "add90020ca645e1dbbe828c48a095f3cebca64ad5b2613d5f0eab030c8b28f2d",
+  "review_reports": {
+    "review-0.json": "1d166b3510c79ff2a20ce90609dc7068def7f43ba412919372fc3a651251ab3a",
+    "review-1.json": "803f1ae5876fffd8c3931457db5125cbcf89e3d457f28cdbf130aa94a1377103",
+    "review-2.json": "ae40e48373a267791f12c05e9b4380c1503f6e7feeddfab60071804bb7286158",
+    "review-3.json": "0a04a282f157e871a7c5b461e9245a5ea0daf43915b61be734537744f5865c13"
+  }
+}

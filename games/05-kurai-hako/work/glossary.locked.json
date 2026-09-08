@@ -1,0 +1,643 @@
+{
+  "schema": 1,
+  "source_project": "kibu5",
+  "characters": [
+    {
+      "canonical": "弥勒院蓮児",
+      "render": "弥勒院莲儿",
+      "aliases": [
+        "弥勒院",
+        "ミロク",
+        "ミロクイン"
+      ],
+      "note": "第五作序章24/61–67及807–834确认：生王的旧同学，灵异作家；ミロク为简称/署名，译弥勒。不要把短称替换成全名。",
+      "usage": "弥勒院→弥勒院，ミロク→弥勒。原文简称或署名不补全名。读音ﾐﾛｸｲﾝ ﾚﾝｼﾞ见第五作序章24–25、62–63。 ミロクイン→弥勒院（scn2:2009–2010、2509），不是新人物。",
+      "reading": "ミロクイン レンジ",
+      "introduction_evidence": {
+        "game": "kibu5",
+        "script": "scn0",
+        "ids": [
+          24,
+          25,
+          62,
+          63
+        ]
+      },
+      "status": "confirmed_local",
+      "category": "person",
+      "first_recorded_game": "kibu5"
+    },
+    {
+      "canonical": "十六夜彩子",
+      "render": "十六夜彩子",
+      "aliases": [
+        "彩子"
+      ],
+      "note": "第五作序章317–324确认：弥勒院的助手；尊称按语境用彩子小姐。正文不附日语读音。",
+      "usage": "彩子→彩子；敬称按语境为彩子小姐。读音ｲｻﾞﾖｲ ｻｲｺ见第五作序章322–324。",
+      "reading": "イザヨイ サイコ",
+      "introduction_evidence": {
+        "game": "kibu5",
+        "script": "scn0",
+        "ids": [
+          322,
+          323,
+          324
+        ]
+      },
+      "status": "confirmed_local",
+      "category": "person",
+      "first_recorded_game": "kibu5"
+    },
+    {
+      "canonical": "岩城里美",
+      "render": "岩城里美",
+      "aliases": [
+        "岩城"
+      ],
+      "category": "person",
+      "status": "confirmed_local",
+      "first_recorded_game": "kibu5",
+      "source_refs": [
+        "scn2:2033–2034",
+        "scn3:2996"
+      ],
+      "note": "女性纪实撰稿人；称岩城时保留短称，敬称用岩城小姐，代词她。不得提前揭露其勒索行为。",
+      "reading": "イワキ サトミ"
+    },
+    {
+      "canonical": "喜屋武猛",
+      "render": "喜屋武猛",
+      "aliases": [
+        "喜屋武"
+      ],
+      "category": "person",
+      "status": "confirmed_local",
+      "first_recorded_game": "kibu5",
+      "source_refs": [
+        "scn1:1469",
+        "scn3:3014–3015",
+        "scn6:5317"
+      ],
+      "note": "男性保安。早期原文仅姓时不补猛；旧案凶手身份到原文揭露时才说明。",
+      "reading": "キャン タケシ"
+    },
+    {
+      "canonical": "益田太郎",
+      "render": "益田太郎",
+      "aliases": [
+        "益田"
+      ],
+      "category": "person",
+      "status": "confirmed_local",
+      "first_recorded_game": "kibu5",
+      "source_refs": [
+        "scn3:3557",
+        "scn4:3920"
+      ],
+      "note": "十七楼1702室男性住户；原文未见读音，不猜。与八年前死者的兄妹关系在scn6:5919揭露，不提前补入正文。"
+    },
+    {
+      "canonical": "時田正彦",
+      "render": "时田正彦",
+      "aliases": [],
+      "category": "staff_name",
+      "status": "confirmed_local",
+      "first_recorded_game": "kibu5",
+      "source_refs": [
+        "scn6:6049"
+      ],
+      "note": "制作人员：服务器程序。"
+    },
+    {
+      "canonical": "関根聖子",
+      "render": "关根圣子",
+      "aliases": [],
+      "category": "staff_name",
+      "status": "confirmed_local",
+      "first_recorded_game": "kibu5",
+      "source_refs": [
+        "scn6:6057"
+      ],
+      "note": "制作人员：宣传。"
+    },
+    {
+      "canonical": "青木華恵",
+      "render": "青木华惠",
+      "aliases": [],
+      "category": "staff_name",
+      "status": "confirmed_local",
+      "first_recorded_game": "kibu5",
+      "source_refs": [
+        "scn6:6058"
+      ],
+      "note": "制作人员：宣传。"
+    }
+  ],
+  "note": "本作独立增补；公共人物及译法直接同时读取series/glossary.json，不复制旧继承快照。别名按上下文解析，不作子串全局替换。",
+  "game": "kibu5",
+  "game_terms": [
+    {
+      "source": "バロン",
+      "target": "巴隆",
+      "note": "序章咖啡馆名；音译，不擅自认定为男爵。",
+      "status": "confirmed_local",
+      "first_recorded_game": "kibu5",
+      "source_refs": [
+        "scn0:135",
+        "scn0:838"
+      ],
+      "category": "place_name"
+    },
+    {
+      "source": "赤いエレベーター",
+      "aliases": [
+        "赤いエレベータ"
+      ],
+      "target": "红色电梯",
+      "note": "序章1196及1231；保持别称一致。",
+      "status": "confirmed_local",
+      "first_recorded_game": "kibu5",
+      "source_refs": [
+        "scn0:1196",
+        "scn0:1231"
+      ],
+      "category": "urban_legend"
+    },
+    {
+      "source": "姉の壁",
+      "target": "姐姐之壁",
+      "note": "序章1163提到的传说，按字面暂定，不添加传说内容。",
+      "usage": "第五作序章1163按字面暂译，尚未核定；仅归档，不作为公共定译。",
+      "status": "provisional",
+      "first_recorded_game": "kibu5",
+      "source_refs": [
+        "scn0:1163"
+      ],
+      "category": "urban_legend"
+    },
+    {
+      "source": "チェーンメール",
+      "target": "连锁邮件",
+      "note": "保持与邮件正文和后续解释一致。",
+      "status": "confirmed_local",
+      "first_recorded_game": "kibu5",
+      "source_refs": [
+        "scn0:548",
+        "scn0:580"
+      ],
+      "category": "communication"
+    },
+    {
+      "source": "メリーさん人形",
+      "target": "玛丽小姐的玩偶",
+      "note": "序章888提及的怪谈名，按原文译；不增补怪谈内容。",
+      "status": "confirmed_local",
+      "first_recorded_game": "kibu5",
+      "source_refs": [
+        "scn0:888",
+        "scn1:1347"
+      ],
+      "category": "urban_legend"
+    },
+    {
+      "source": "リサちゃん電話",
+      "target": "丽莎的电话",
+      "note": "序章889–890提及的怪谈名，按原文译。",
+      "status": "confirmed_local",
+      "first_recorded_game": "kibu5",
+      "source_refs": [
+        "scn0:889–890"
+      ],
+      "category": "urban_legend"
+    },
+    {
+      "source": "週刊ウォーク",
+      "target": "漫步周刊",
+      "category": "publication",
+      "status": "confirmed_local",
+      "first_recorded_game": "kibu5",
+      "source_refs": [
+        "scn1:1458",
+        "scn2:2644"
+      ],
+      "usage": "正文用《漫步周刊》，不推定官方英语刊名。"
+    },
+    {
+      "source": "紫の鏡",
+      "target": "紫镜",
+      "category": "urban_legend",
+      "status": "confirmed_local",
+      "first_recorded_game": "kibu5",
+      "source_refs": [
+        "scn1:1343–1346"
+      ],
+      "usage": "沿用本章审校译名，保留二十岁诅咒说明。"
+    },
+    {
+      "source": "お化けマンション",
+      "target": "闹鬼公寓",
+      "category": "place_alias",
+      "status": "confirmed_local",
+      "first_recorded_game": "kibu5",
+      "source_refs": [
+        "scn1:1369",
+        "scn1:1394–1395",
+        "scn3:2984–2985"
+      ],
+      "usage": "公寓的传闻通称，不是正式楼盘名。",
+      "aliases": [
+        "ゴーストマンション"
+      ]
+    },
+    {
+      "source": "部屋割り",
+      "target": "房间分布表",
+      "category": "document",
+      "status": "confirmed_local",
+      "first_recorded_game": "kibu5",
+      "source_refs": [
+        "scn1:1575–1577",
+        "scn1:1609",
+        "scn1:1617–1618"
+      ],
+      "usage": "仅本作保安提供的房间及住户资料；普通房间安排另按语境。",
+      "aliases": [
+        "部屋割り表"
+      ]
+    },
+    {
+      "source": "欠陥住宅",
+      "target": "问题住宅",
+      "category": "building",
+      "status": "confirmed_local",
+      "first_recorded_game": "kibu5",
+      "source_refs": [
+        "scn2:2415"
+      ],
+      "usage": "指存在质量问题的住宅，不额外强化成豆腐渣工程。"
+    },
+    {
+      "source": "赤いエレベーターの真実",
+      "target": "红色电梯的真相",
+      "category": "article_title",
+      "status": "confirmed_local",
+      "first_recorded_game": "kibu5",
+      "source_refs": [
+        "scn2:2542–2543"
+      ],
+      "usage": "正文加书名号，岩城拟定报道标题，不提前写出真相。"
+    },
+    {
+      "source": "ルポライター",
+      "target": "纪实撰稿人",
+      "category": "profession",
+      "status": "confirmed_local",
+      "first_recorded_game": "kibu5",
+      "source_refs": [
+        "scn2:2704–2705",
+        "scn3:2994"
+      ],
+      "usage": "普通ライター仍按语境用撰稿人。"
+    },
+    {
+      "source": "鞠浜署",
+      "target": "鞠滨警署",
+      "category": "organization",
+      "status": "confirmed_local",
+      "first_recorded_game": "kibu5",
+      "source_refs": [
+        "scn3:3350"
+      ],
+      "usage": "沿用公共鞠浜地名的鞠滨写法；不能把短称擅自扩成地理全名。"
+    },
+    {
+      "source": "屋上",
+      "target": "楼顶",
+      "category": "location",
+      "status": "confirmed_local",
+      "first_recorded_game": "kibu5",
+      "source_refs": [
+        "scn6:5505–5506",
+        "scn6:5803"
+      ],
+      "usage": "主控本作统一：楼顶；区分室外楼顶与楼顶电梯厅。"
+    },
+    {
+      "source": "屋上ホール",
+      "target": "楼顶电梯厅",
+      "category": "location",
+      "status": "confirmed_local",
+      "first_recorded_game": "kibu5",
+      "source_refs": [
+        "scn6:5395",
+        "scn6:5430",
+        "scn6:5678–5679"
+      ],
+      "usage": "本作顶层电梯前室，不混作室外楼顶。",
+      "aliases": [
+        "屋上エレベーターホール"
+      ]
+    },
+    {
+      "source": "非常階段",
+      "target": "消防楼梯",
+      "category": "location",
+      "status": "confirmed_local",
+      "first_recorded_game": "kibu5",
+      "source_refs": [
+        "scn3:3604",
+        "scn6:5416–5417"
+      ],
+      "usage": "用于区分电梯与楼梯路径；各章统一。"
+    },
+    {
+      "source": "エレベーターのかご",
+      "target": "电梯轿厢",
+      "category": "elevator_part",
+      "status": "confirmed_local",
+      "first_recorded_game": "kibu5",
+      "source_refs": [
+        "scn3:3310–3312",
+        "scn3:3568",
+        "scn5:4467",
+        "scn6:5478–5480"
+      ],
+      "usage": "电梯活动厢体，区别电梯厅/电梯井；井顶与轿厢顶按上下文区分。",
+      "aliases": [
+        "エレベーターかご"
+      ]
+    },
+    {
+      "source": "外扉",
+      "target": "外门",
+      "category": "elevator_part",
+      "status": "confirmed_local",
+      "first_recorded_game": "kibu5",
+      "source_refs": [
+        "scn1:1291–1292",
+        "scn4:3821",
+        "scn6:5690",
+        "scn6:5902"
+      ],
+      "usage": "各楼层固定的电梯层门，不与轿厢门及消防楼梯门混同。"
+    },
+    {
+      "source": "昇降路",
+      "target": "电梯井",
+      "category": "elevator_part",
+      "status": "confirmed_local",
+      "first_recorded_game": "kibu5",
+      "source_refs": [
+        "scn5:4746",
+        "scn6:5924"
+      ],
+      "usage": "电梯升降的竖井，不是轿厢或电梯厅。"
+    },
+    {
+      "source": "鉄アレイ",
+      "target": "铁哑铃",
+      "category": "evidence",
+      "status": "confirmed_local",
+      "first_recorded_game": "kibu5",
+      "source_refs": [
+        "scn4:3867",
+        "scn4:3881"
+      ],
+      "usage": "主控确认保留材质；单说アレイ按语境译哑铃，不机械扩材料。"
+    },
+    {
+      "source": "バール",
+      "target": "撬棍",
+      "category": "evidence",
+      "status": "confirmed_local",
+      "first_recorded_game": "kibu5",
+      "source_refs": [
+        "scn4:3878–3879",
+        "scn6:5452",
+        "scn6:5544"
+      ],
+      "usage": "釘抜きのようなもの在5450尚为形状比喻，译像起钉器的东西，不提前明确成撬棍。"
+    },
+    {
+      "source": "白いカケラ",
+      "target": "白色碎片",
+      "category": "evidence",
+      "status": "confirmed_local",
+      "first_recorded_game": "kibu5",
+      "source_refs": [
+        "scn4:3895–3897",
+        "scn6:5055",
+        "scn6:5668",
+        "scn6:5737"
+      ],
+      "usage": "初见材质未知，不能提前改成漆片；5693解释后可称油漆碎片或漆片。",
+      "aliases": [
+        "白色のカケラ"
+      ]
+    },
+    {
+      "source": "塗料片",
+      "target": "油漆碎片",
+      "category": "evidence",
+      "status": "confirmed_local",
+      "first_recorded_game": "kibu5",
+      "source_refs": [
+        "scn6:5693",
+        "scn6:5749"
+      ],
+      "usage": "材质揭露后使用；塗片→漆片（5556），白い塗料片→白色漆片（5749）。"
+    },
+    {
+      "source": "事務員",
+      "target": "事务员",
+      "category": "clue",
+      "status": "confirmed_local",
+      "first_recorded_game": "kibu5",
+      "source_refs": [
+        "scn4:4073",
+        "scn4:4077"
+      ],
+      "usage": "益田口述具体职位，区别报道的公司职员，不抹平推理信息差。"
+    },
+    {
+      "source": "会社員",
+      "target": "公司职员",
+      "category": "clue",
+      "status": "confirmed_local",
+      "first_recorded_game": "kibu5",
+      "source_refs": [
+        "scn4:4080–4081"
+      ],
+      "usage": "报道笼统职业，不能提前细化为事务员。"
+    },
+    {
+      "source": "ニャン",
+      "target": "喵",
+      "category": "form_of_address",
+      "status": "confirmed_local",
+      "first_recorded_game": "kibu5",
+      "source_refs": [
+        "scn6:5106",
+        "scn6:5702"
+      ],
+      "usage": "仅癸生川故意错称喜屋武时用；さん按语境喵先生，君可短称喵；不是新人物，不自动纠正。 首次scn6:5109–5111在旁白后加引号外译注：喜屋武的日语读音与日语猫叫声“喵”相近；后续不重复注释。"
+    },
+    {
+      "source": "ダンスショー・デストロイヤー",
+      "target": "舞蹈秀终结者",
+      "category": "nickname",
+      "status": "confirmed_local",
+      "first_recorded_game": "kibu5",
+      "source_refs": [
+        "scn6:4987–4988"
+      ],
+      "usage": "弥勒院让彩子转告生王、形容癸生川到来的戏称，不作正式人物姓名。"
+    },
+    {
+      "source": "ルビンの壺",
+      "target": "鲁宾之杯",
+      "category": "concept",
+      "status": "confirmed_local",
+      "first_recorded_game": "kibu5",
+      "source_refs": [
+        "scn6:5171–5172"
+      ],
+      "usage": "多义图形示例，不是本案证物。"
+    },
+    {
+      "source": "多義図形",
+      "target": "多义图形",
+      "category": "concept",
+      "status": "confirmed_local",
+      "first_recorded_game": "kibu5",
+      "source_refs": [
+        "scn6:5173"
+      ],
+      "usage": "沿用本章审校用语。"
+    },
+    {
+      "source": "昏い匣の上",
+      "target": "暗匣之上",
+      "category": "title",
+      "status": "confirmed_local",
+      "first_recorded_game": "kibu5",
+      "source_refs": [
+        "scn3:3036–3037",
+        "scn6:6039"
+      ],
+      "usage": "匣指向电梯轿厢，保留“之上”空间关系。"
+    },
+    {
+      "source": "PASSWORD?",
+      "target": "密码？",
+      "category": "computer_ui",
+      "status": "confirmed_local",
+      "first_recorded_game": "kibu5",
+      "source_refs": [
+        "scn4:4293",
+        "scn4:4344",
+        "scn6:5232",
+        "scn6:5234"
+      ],
+      "usage": "模拟电脑界面统一提示，不修改光标和密码输入顺序。"
+    },
+    {
+      "source": "ERROR!!",
+      "target": "错误！",
+      "category": "computer_ui",
+      "status": "confirmed_local",
+      "first_recorded_game": "kibu5",
+      "source_refs": [
+        "scn4:4354"
+      ]
+    },
+    {
+      "source": "OK!",
+      "target": "验证成功！",
+      "category": "computer_ui",
+      "status": "confirmed_local",
+      "first_recorded_game": "kibu5",
+      "source_refs": [
+        "scn6:5242"
+      ]
+    },
+    {
+      "canonical": "離れていても、心はいつでもあなたのお隣",
+      "render": "哪怕相隔再远，我的心也永远是您的邻居！",
+      "category": "character_catchphrase",
+      "status": "project_locked",
+      "first_recorded_game": "kibu1",
+      "usage": "林居刑警完整自我介绍中的固定口头禅；保留邻居与林居的中文同音双关。跨字符串槽连读为本条定译。简略版、被打断版只译原文说出的部分，不补全；例如あなたの隣に…保留未完句。離れていてもお隣さん是不同简略变体，不强行替换为完整句。姓名、年龄及前后问候按各作原文保留。",
+      "note": "2026-09-09用户确认统一；证据：第一作scn3:2830–2831，第二作scn0:857–858，第五作scn3:3379–3380。",
+      "aliases": [
+        "離れていても､心はいつでもあなたのお隣"
+      ]
+    }
+  ],
+  "rules": {
+    "name_conditions": "弥勒院蓮児→弥勒院莲儿；ミロク→弥勒；ミロクイン→弥勒院；彩子、岩城、喜屋武、益田按原文短称。音成→林居、オバキュー→尾Q直接沿用公共表。未知读音不推测。",
+    "first_appearance": "first_recorded_game仅说明当前最早收录证据，不凭本表断言系列实际首次登场。",
+    "elevator_locations": "屋上→楼顶；屋上ホール→楼顶电梯厅；非常階段→消防楼梯；外扉→外门。主控指定内扉→内门，但本作原文未检出此独立源词，仅保留使用规则不伪造条目来源。天井根据所在位置区分电梯井顶和轿厢顶。",
+    "tools": "鉄アレイ→铁哑铃；アレイ单独称呼时→哑铃；同一物体不因条目分割误作两个工具。",
+    "paint_clue": "前期未知白色碎片不提前明确材质；5556塗片可译漆片，5693解释塗料片，5749白い塗料片可译白色漆片。",
+    "password_clue": "ＩＳＥＥＯＳ保持字形与顺序，倒转180度才显示５０３３５１；字母与数字输入逐条保留。角色误读OS仍保留，不当作程序真实名称修正。",
+    "death_floor_wordplay": "scn1:1593–1597死に階（四階、二階）保留四楼/二楼及十三楼；必要译注放角色引号之外，解释日语四shi、二ni与死にshini的对应，不省掉二楼。",
+    "debug_menu": "scn0 IDs1–7的scn0…scn6为正常入口跳过的调试菜单脚本标识；在cache中作为已处理技术标识原样保留，不计作正文中文译文。project.json的approved_source_passthrough已逐条记录，不再描述为从cache排除。",
+    "provisional_terms": "姉の壁保持provisional，仅本作暂译姐姐之壁，不能晋升公共定译。",
+    "promotion": "confirmed_local人物/术语与preserve_in_context保留项及其使用规则，在本作审校确认后由主控归并公共表；公共已有条目不重复添加，暂译不晋升。",
+    "interface_short_forms": {
+      "scope": "仅第五作运行时opcode105..119菜单标签；正文、cache及其他opcode不替换。",
+      "source_file": "games/05-kurai-hako/bepinex/menu-labels.json",
+      "labels": {
+        "部屋割り": "房间分布",
+        "他の階へ": "其他楼层"
+      },
+      "full_forms": {
+        "部屋割り": "房间分布表",
+        "他の階へ": "前往其他楼层"
+      },
+      "note": "双列菜单离线layout测试确认使用局部短称；不作为普通正文术语覆盖。实机显示仍由用户验证。"
+    }
+  },
+  "role": "本作新增术语、待定项和特殊约定；翻译必须同时读取公共表。继承条目不是对新版公共表的自动覆盖。",
+  "non_translate": [
+    {
+      "source": "ＩＳＥＥＯＳ",
+      "target": "ＩＳＥＥＯＳ",
+      "category": "clue",
+      "status": "preserve_in_context",
+      "first_recorded_game": "kibu5",
+      "source_refs": [
+        "scn3:3266",
+        "scn4:4203",
+        "scn6:5188",
+        "scn6:5216"
+      ],
+      "usage": "保持全角大写与序列；角色把它看成I SEE OS的误读保留，不能提前替成数字答案。"
+    },
+    {
+      "source": "５０３３５１",
+      "target": "５０３３５１",
+      "category": "clue",
+      "status": "preserve_in_context",
+      "first_recorded_game": "kibu5",
+      "source_refs": [
+        "scn6:5220"
+      ],
+      "usage": "180度倒转字样后的显示；逐字输入仍保留半角5/0/3/3/5/1（5236–5241）。"
+    },
+    {
+      "source": "Ｒ",
+      "target": "Ｒ",
+      "category": "floor_marker",
+      "status": "preserve_in_context",
+      "first_recorded_game": "kibu5",
+      "source_refs": [
+        "scn2:2811",
+        "scn6:6085"
+      ],
+      "usage": "本作楼顶楼层指示符，保持源全角Ｒ。"
+    }
+  ]
+}

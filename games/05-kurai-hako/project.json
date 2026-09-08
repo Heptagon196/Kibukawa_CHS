@@ -1,0 +1,189 @@
+{
+  "schema": 1,
+  "id": "kibu5",
+  "adapter": "gmode-appli1-v1",
+  "plugin_version": "1.0.0",
+  "source_fingerprints": "work/manifest.json",
+  "translation": "work/cache.json",
+  "glossary": "work/glossary.locked.json",
+  "resource_archive": "kuraihako.res",
+  "compatibility": {
+    "stage": "translation_complete_user_accepted",
+    "runtime_tested": false,
+    "release_ready": true,
+    "hooks_ready": true,
+    "translation_complete": true,
+    "notes": "Chinese text, runtime hooks, fonts, help pages, title images and layout completed. User accepted translation completion on 2026-09-09. Automated checks remain offline.",
+    "text_translation_complete": true,
+    "user_accepted": true,
+    "user_accepted_date": "2026-09-09"
+  },
+  "layout": {
+    "status": "Offline full-script reflow, names, menus and fixed cards passed; visual verification pending user",
+    "chinese_layout_verified": false,
+    "offline_verified": true
+  },
+  "bepinex": {
+    "profile": "mono-win-x64-5.4.23.5",
+    "managed": "kibu5_Data/Managed",
+    "assembly": "Kibu5ZhCN.dll",
+    "plugin_directory": "Kibu5ZhCN",
+    "references": [
+      "mscorlib.dll",
+      "netstandard.dll",
+      "System.dll",
+      "System.Core.dll",
+      "UnityEngine.dll",
+      "UnityEngine.CoreModule.dll",
+      "UnityEngine.UI.dll",
+      "UnityEngine.UIModule.dll",
+      "UnityEngine.TextRenderingModule.dll",
+      "UnityEngine.ImageConversionModule.dll"
+    ]
+  },
+  "approved_empty_name_readings": {
+    "25": "ｼﾞ)",
+    "323": "ﾖｲ ｻｲｺ)",
+    "2034": "(ｲﾜｷ ｻﾄﾐ)",
+    "4425": "ｻｲｺ)",
+    "4615": "(ｷﾌﾞｶﾜ ﾘｮｳｽｹ)"
+  },
+  "source_title": "昏い匣の上",
+  "approved_retained_text": {
+    "8591": {
+      "source": "ｽｰﾊﾟｰｹﾞｰﾑﾗﾝﾁに登録  ",
+      "target": "ｽｰﾊﾟｰｹﾞｰﾑﾗﾝﾁ",
+      "reason": "公共术语ｽｰﾊﾟｰｹﾞｰﾑﾗﾝﾁ的keep_source=true；原移动游戏历史服务专名。"
+    }
+  },
+  "translation_title": "暗匣之上",
+  "approved_layout_text": {
+    "1337": {
+      "source": " ",
+      "target": " ",
+      "reason": "原文纯空白布局片段，逐字保留。"
+    },
+    "3265": {
+      "source": "　 ",
+      "target": "　 ",
+      "reason": "原作章节标题、制作名单或片尾刻意对齐；保留布局空白，显示效果待实机验证。"
+    },
+    "6038": {
+      "source": "　　",
+      "target": "　　",
+      "reason": "原作章节标题、制作名单或片尾刻意对齐；保留布局空白，显示效果待实机验证。"
+    },
+    "3038": {
+      "source": "　　　第二章",
+      "target": "　　　第二章",
+      "reason": "原作章节标题、制作名单或片尾刻意对齐；保留布局空白，显示效果待实机验证。"
+    },
+    "6040": {
+      "source": "　　　 STAFF",
+      "target": "　　　 制作人员",
+      "reason": "原作章节标题、制作名单或片尾刻意对齐；保留布局空白，显示效果待实机验证。"
+    },
+    "6042": {
+      "source": "　　　　　 石山貴也",
+      "target": "　　　　　 石山贵也",
+      "reason": "原作章节标题、制作名单或片尾刻意对齐；保留布局空白，显示效果待实机验证。"
+    },
+    "6044": {
+      "source": "　　　　　 生王正生",
+      "target": "　　　　　 生王正生",
+      "reason": "原作章节标题、制作名单或片尾刻意对齐；保留布局空白，显示效果待实机验证。"
+    },
+    "6045": {
+      "source": "　　　　 弥勒院蓮児",
+      "target": "　　　　 弥勒院莲儿",
+      "reason": "原作章节标题、制作名单或片尾刻意对齐；保留布局空白，显示效果待实机验证。"
+    },
+    "6047": {
+      "source": "　　　　　 勝田和徳",
+      "target": "　　　　　 胜田和德",
+      "reason": "原作章节标题、制作名单或片尾刻意对齐；保留布局空白，显示效果待实机验证。"
+    },
+    "6049": {
+      "source": "　　　　　 時田正彦",
+      "target": "　　　　　 时田正彦",
+      "reason": "原作章节标题、制作名单或片尾刻意对齐；保留布局空白，显示效果待实机验证。"
+    },
+    "6051": {
+      "source": "　　　　 木戸万樹夫",
+      "target": "　　　　 木户万树夫",
+      "reason": "原作章节标题、制作名单或片尾刻意对齐；保留布局空白，显示效果待实机验证。"
+    },
+    "6053": {
+      "source": "　　　　　 石山貴也",
+      "target": "　　　　　 石山贵也",
+      "reason": "原作章节标题、制作名单或片尾刻意对齐；保留布局空白，显示效果待实机验证。"
+    },
+    "6055": {
+      "source": "　　　　　 平賀由紀",
+      "target": "　　　　　 平贺由纪",
+      "reason": "原作章节标题、制作名单或片尾刻意对齐；保留布局空白，显示效果待实机验证。"
+    },
+    "6057": {
+      "source": "　　　　　 関根聖子",
+      "target": "　　　　　 关根圣子",
+      "reason": "原作章节标题、制作名单或片尾刻意对齐；保留布局空白，显示效果待实机验证。"
+    },
+    "6058": {
+      "source": "　　　　　 青木華恵",
+      "target": "　　　　　 青木华惠",
+      "reason": "原作章节标题、制作名单或片尾刻意对齐；保留布局空白，显示效果待实机验证。"
+    },
+    "6060": {
+      "source": " (C)2005 GENKI",
+      "target": " (C)2005 GENKI",
+      "reason": "原作章节标题、制作名单或片尾刻意对齐；保留布局空白，显示效果待实机验证。"
+    },
+    "6061": {
+      "source": " (C) GENKI Mobile",
+      "target": " (C) GENKI Mobile",
+      "reason": "原作章节标题、制作名单或片尾刻意对齐；保留布局空白，显示效果待实机验证。"
+    },
+    "6093": {
+      "source": "　　 ― 了 ―",
+      "target": "　　 — 完 —",
+      "reason": "原作章节标题、制作名单或片尾刻意对齐；保留布局空白，显示效果待实机验证。"
+    }
+  },
+  "approved_source_passthrough": {
+    "1": {
+      "source": "scn0",
+      "target": "scn0",
+      "reason": "scn0正常入口跳过的调试菜单脚本标识，保留技术字符串。"
+    },
+    "2": {
+      "source": "scn1",
+      "target": "scn1",
+      "reason": "scn0正常入口跳过的调试菜单脚本标识，保留技术字符串。"
+    },
+    "3": {
+      "source": "scn2",
+      "target": "scn2",
+      "reason": "scn0正常入口跳过的调试菜单脚本标识，保留技术字符串。"
+    },
+    "4": {
+      "source": "scn3",
+      "target": "scn3",
+      "reason": "scn0正常入口跳过的调试菜单脚本标识，保留技术字符串。"
+    },
+    "5": {
+      "source": "scn4",
+      "target": "scn4",
+      "reason": "scn0正常入口跳过的调试菜单脚本标识，保留技术字符串。"
+    },
+    "6": {
+      "source": "scn5",
+      "target": "scn5",
+      "reason": "scn0正常入口跳过的调试菜单脚本标识，保留技术字符串。"
+    },
+    "7": {
+      "source": "scn6",
+      "target": "scn6",
+      "reason": "scn0正常入口跳过的调试菜单脚本标识，保留技术字符串。"
+    }
+  }
+}

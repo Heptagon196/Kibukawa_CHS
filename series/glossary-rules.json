@@ -1,0 +1,48 @@
+{
+  "schema": 1,
+  "note": "已审校作品的配套语境与文字线索规则，供后续作品按语境参考；翻译仍同时读取本作表。",
+  "games": {
+    "kibu1": {
+      "rules": {
+        "chinese_only_clue_rendering": {"policy": "用户要求译文不留日语；源文匹配键不变。", "ぼく": "在下（用户指定，邮件私密自称的中文功能性对应）", "ひとろし": "希托罗希（署名音译）", "もえな": "萌奈", "お隣": "译为邻居；音成已按用户指定译为林居，在中文里同音，删除该姓氏的解释译注。", "みに": "用户指定：网名米妮、本名美妮（全名狭川美妮），中文近音但声调不同；不加日语同音译注或mini注音。人物与账号保持区别。", "オバキュー": "尾Q"},
+        "snowman_distinction": "用户指定：怪物专名和引用此名的邮件/留言统一为Snowman，系统名为Snowman系统；雪だるま所指的普通雪人、玩偶服、周边保持雪人，保留推理歧义。",
+        "title_etymology": "Taclimax为用户指定拼写，简称也写Taclimax；保留其来自Tactical Climax的原有词源解释。",
+        "identity_conditions": "狭川美妮/笠见由纪乃、山王丸豪吉/笠见传次郎各自独立，保留当时的冒名和误认，不提前纠正称呼。"
+      },
+      "source_table": "games/01-kamen-gensou/work/glossary.locked.json"
+    },
+    "kibu2": {
+      "rules": {
+        "second_game_policy": {"locked_by": "translation coordinator, 2026-09-06", "company_note": "萨纳米为按原文假名音译，不推定汉字来源。", "identity_note": "马込和多摩原始终保留独立实体；按当前叙述保留误判。", "name_readings": "中文不附日语注音；原文source_text不得修改。", "passage_term": "渡り廊下／渡廊下统一译为连接通道；正文、菜单与平面图均不使用连廊简称。用户指定。"},
+        "interface_short_forms": {"最终章后半": "最终后半", "斋树的房间": "斋树房间", "不在场证明": "不在场证", "查看房间分配": "房间分配", "萨纳米建设": "萨纳米"}
+      },
+      "source_table": "games/02-kairou/work/glossary.locked.json"
+    },
+    "kibu3": {
+      "rules": {
+        "textual_clues": {"divine_messenger": "scn1误读otsukai，scn7遗书mitsukai，scn8解释假名写法固定读音；不可抹平为同一中文词，不擅造中文错字谜。", "rokki": "六木与洛奇日语近音可句外简注，不提前解释深森身份或额外字谜。"}
+      },
+      "source_table": "games/03-shisha-no-rakuen/work/glossary.locked.json"
+    },
+    "kibu4": {
+      "rules": {
+        "name_conditions": "同姓亲属、短名和完整姓名按当时称呼处理，不能把白鹭洲统一认作伊纲，也不提前揭示亲属关系。"
+      },
+      "source_table": "games/04-shirasagi/work/glossary.locked.json"
+    },
+    "kibu5": {
+      "rules": {
+        "name_conditions": "弥勒院蓮児→弥勒院莲儿；ミロク→弥勒；ミロクイン→弥勒院；彩子、岩城、喜屋武、益田按原文短称。音成→林居、オバキュー→尾Q直接沿用公共表。未知读音不推测。",
+        "first_appearance": "first_recorded_game仅说明当前最早收录证据，不凭本表断言系列实际首次登场。",
+        "elevator_locations": "屋上→楼顶；屋上ホール→楼顶电梯厅；非常階段→消防楼梯；外扉→外门。内扉→内门为语境规则；本作未检出此独立源词，不据此建立已出现术语记录。天井根据所在位置区分电梯井顶和轿厢顶。",
+        "tools": "鉄アレイ→铁哑铃；アレイ单独称呼时→哑铃；同一物体不因条目分割误作两个工具。",
+        "paint_clue": "前期未知白色碎片不提前明确材质；5556塗片可译漆片，5693解释塗料片，5749白い塗料片可译白色漆片。",
+        "password_clue": "ＩＳＥＥＯＳ保持字形与顺序，倒转180度才显示５０３３５１；字母与数字输入逐条保留。角色误读OS仍保留，不当作程序真实名称修正。",
+        "death_floor_wordplay": "scn1:1593–1597死に階（四階、二階）保留四楼/二楼及十三楼；必要译注放角色引号之外，解释日语四shi、二ni与死にshini的对应，不省掉二楼。",
+        "debug_menu": "scn0 IDs1–7的scn0…scn6为正常入口跳过的调试菜单脚本标识；在cache中作为已处理技术标识原样保留，不计作正文中文译文。project.json的approved_source_passthrough已逐条记录，",
+        "interface_short_forms": {"scope": "仅第五作运行时opcode105..119菜单标签；正文、cache及其他opcode不替换。", "source_file": "games/05-kurai-hako/bepinex/menu-labels.json", "labels": {"部屋割り": "房间分布", "他の階へ": "其他楼层"}, "full_forms": {"部屋割り": "房间分布表", "他の階へ": "前往其他楼层"}, "note": "双列菜单离线layout测试确认使用局部短称；不作为普通正文术语覆盖。"}
+      },
+      "source_table": "games/05-kurai-hako/work/glossary.locked.json"
+    }
+  }
+}

@@ -1,12 +1,12 @@
 # 癸生川系列汉化工作区
 
-仓库：`Kibukawa_CHS`。需要自行安装对应的正版游戏；仓库不包含游戏程序、原始资源或个人存档。
+[历史记录插件](engine/history/README.md) 的操作、支持范围、构建与安装说明见其独立文档。
 
-第四作《白鷺に紅の羽》（《白鹭红羽》）已完成前后篇翻译及四页中文帮助，0.3.0 补丁已追加到现有 GitHub Release，包含引号修正与制作名单演出适配。首次构建第四作先运行 `extract --game kibu4` 恢复本机派生资源，再运行 `build --game kibu4`。见 [第四作交付记录](games/04-shirasagi/RUNTIME_DELIVERY.md)。
+仓库：`Kibukawa_CHS`。需要自行安装对应的正版游戏；仓库不包含游戏程序、原始资源或个人存档。
 
 首次克隆后，安装 Python、PowerShell 7、.NET SDK 6+ 和 Windows .NET Framework 4.x，运行 `setup.cmd` 准备 Python 与 Mono.Cecil 依赖，再编辑 `series.json` 的安装路径。构建会从已校验的本机游戏恢复所需原文快照，保留仓库中的译文；BepInEx 和 Unifont 由构建脚本自动下载并校验。
 
-公共代码与每作数据分开存放。前三作本次发布版本为：第一作 1.0.31、第二作 0.2.7、第三作 0.2.2，均通过各自离线构建验证。见 [第二作交付记录](games/02-kairou/RUNTIME_DELIVERY.md) 和 [第三作交付记录](games/03-shisha-no-rakuen/RUNTIME_DELIVERY.md)。
+公共代码与每作数据分开存放。各作进度、兼容性与交付记录保存在对应的 `games/<作品>/` 目录；发布版本与校验清单保存在 `releases/`。
 
 补丁下载：[GitHub Releases](https://github.com/Heptagon196/Kibukawa_CHS/releases)。发布包统一命名为 `癸生川凌介 {编号:02d}-{游戏名}-CHS.zip`，详见 [发布与命名规则](RELEASING.md)。
 
@@ -59,7 +59,7 @@ bin/、.venv/                   本机工具环境
 out/                          迁移前历史发布包，保留原下载路径
 ```
 
-第一作唯一的活动译文源仍为 `games/01-kamen-gensou/work/cache.json`。系列术语是后续作品的继承基线，各作保留独立锁定快照；修改系列术语不自动替换旧译文。
+各作的活动译文源为 `games/<作品>/work/cache.json`。公共术语表维护前作已确认术语，翻译时同时使用公共表与本作独立术语表；本作新增、待定项和特殊用法先在本作维护，确认并审校后归入公共表供后作继承。修改公共表不自动替换旧译文。详见 [公共术语说明](series/GLOSSARY.md) 与现行 [翻译指导](series/style.md)。
 
 ## 使用
 

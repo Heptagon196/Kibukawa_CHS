@@ -12,6 +12,9 @@ import zipfile
 
 import pipeline as p
 
+sys.path.insert(0, str(p.SERIES/'tools'))
+from click_boundaries import validate as validate_click_boundaries
+
 sys.path.insert(0, str(p.SERIES/'engine/bepinex'))
 import build as shared
 
@@ -113,6 +116,7 @@ def export_pack(output):
             replay.append(dict(script=name, instruction=command['offset'], opcode=command['opcode'], nextCursor=command['end'], strings=strings, expected=expected, integers=integers))
     p.require(set(targets).issubset(slots), 'Translation refers to a nonexistent script slot')
     p.save(p.WORK/'bepinex/build/replay.json', dict(commands=replay))
+    validate_click_boundaries(replay, p.WORK)
     return pack, manifest
 
 

@@ -1,10 +1,6 @@
 {
-  "version": "1.0.29",
-  "review_reports": [
-    "wait_review_early.json",
-    "wait_review_middle.json",
-    "wait_review_late.json"
-  ],
+  "schema": 1,
+  "adapter": "gmode-v1",
   "units": [
     {
       "script": "scn0",
@@ -10299,7 +10295,7 @@
         13310
       ],
       "source": "｢お前らよ､ここはゲームセンターじゃねえんだって､",
-      "target": "“我说，这里可不是游戏厅，你们给他讲清楚。"
+      "target": "“我说，这里可不是游戏厅，"
     },
     {
       "script": "scn2",
@@ -10311,7 +10307,7 @@
         13356
       ],
       "source": "この馬鹿にも分かりやすく教えてやってくれ｡",
-      "target": "这笨蛋也得听明白才行。”"
+      "target": "你们也给这笨蛋讲明白啊。”"
     },
     {
       "script": "scn2",
@@ -25680,7 +25676,7 @@
         4739
       ],
       "source": "｢その後､綾城さんより先に…",
-      "target": "“之后，收到邮件的萌奈小姐……"
+      "target": "“之后，在绫城先生来之前……"
     },
     {
       "script": "scn8",
@@ -25692,7 +25688,7 @@
         4784
       ],
       "source": "メールを受け取った萌奈さんが部屋に訪れた｡",
-      "target": "比绫城先生更早一步来到了这个房间。"
+      "target": "收到邮件的萌奈小姐先来到了房间。"
     },
     {
       "script": "scn8",
@@ -27805,7 +27801,7 @@
         5047
       ],
       "source": "彼氏をしてみても本人だと思わせてしまうくらい､",
-      "target": "她揣摩美妮的用词习惯和思考方式，"
+      "target": "连美妮的男友都以为那是她本人，"
     },
     {
       "script": "scn9",
@@ -27817,7 +27813,7 @@
         5093
       ],
       "source": "文章の使い方やものの考え方を研究したんだよ｡",
-      "target": "模仿得就连美妮的男友都以为那是她本人。”"
+      "target": "可见她把美妮的用词习惯和思考方式研究得多么透彻。”"
     },
     {
       "script": "scn9",
@@ -30480,6 +30476,12 @@
       "target": "正在保存……"
     }
   ],
-  "title_change": "User requested Taclimax; exact title substitution within existing units.",
-  "catchphrase_review": "2026-09-09：用户确认固定口头禅；仅scn3:9819点击单元译文更新，原文/指令/等待边界一致。"
+  "review_reports": {
+    "review-0.json": "2964471217215f85fa919961ba9ee3dfab3140a8c12481d6727313569a7f814b",
+    "review-1.json": "4a710f8ebd30fb4a082c95285f3418db98849b89f3300880548ccff760bfa37f",
+    "review-2.json": "3b75510d8215938e74c92c856ce7f180f3e1106d8f52ad4bc1dd2b3f786eba0b",
+    "review-3.json": "970d759b9f7ae4f76115b843eea108b670bcc918115d5c43460a74e66b45ebc5"
+  },
+  "resolution_sha256": "f7ee9bad642b5f6efbe5f6213fbadc397ee4001ac6b2f86deb49bd55db23716e",
+  "review_note": "Full manual source/target review; all reported candidates individually resolved. Runtime appearance remains for user verification."
 }

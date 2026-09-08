@@ -8,6 +8,7 @@ import shutil
 import zipfile
 
 from project_config import ROOT, resolve
+from click_boundaries import audit_project
 
 
 def read(path):
@@ -38,6 +39,7 @@ def main():
         image_reports = {x['game']:x for x in read(ROOT/'out/image-replacements-1.1.0/build-report.json')}
     for game in args.game:
         project = resolve(game)['project']
+        audit_project(project, strict=True)
         config = read(project / 'project.json')
         report = read(project / 'reports/bepinex_latest.json')
         provenance = report.get('reproducibility', report)

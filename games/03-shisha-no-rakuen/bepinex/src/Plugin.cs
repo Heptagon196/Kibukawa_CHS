@@ -13,7 +13,7 @@ using UnityEngine.UI;
 
 namespace Kibu1ZhCN
 {
-    [BepInPlugin(Id, "Kibu3 Simplified Chinese", "0.2.2")]
+    [BepInPlugin(Id, "Kibu3 Simplified Chinese", "0.2.3")]
     [BepInProcess("kibu3.exe")]
     public sealed class Plugin : BaseUnityPlugin
     {

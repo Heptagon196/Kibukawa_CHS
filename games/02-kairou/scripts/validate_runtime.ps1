@@ -1,4 +1,4 @@
-﻿$ErrorActionPreference = 'Stop'
+$ErrorActionPreference = 'Stop'
 $workspace = [IO.Path]::GetFullPath((Join-Path $PSScriptRoot '..'))
 $seriesRoot = [IO.Path]::GetFullPath((Join-Path $workspace '../..'))
 $entry = (Get-Content -LiteralPath (Join-Path $seriesRoot 'series.json') -Raw | ConvertFrom-Json).games.kibu2

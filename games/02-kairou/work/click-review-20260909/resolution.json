@@ -1,0 +1,172 @@
+{
+  "decisions": [
+    {
+      "unit_index": 544,
+      "decision": "fix",
+      "reason": "544的自我介绍已完整，译文却把下一点击545的寒暄开头“还请”提前挪来，使544停在无宾语的“还请”，545只剩“多关照”。应将完整寒暄恢复到545。"
+    },
+    {
+      "unit_index": 1019,
+      "decision": "retain",
+      "reason": "否定谓语在日语并列句末、中文分配到两项是正常语序；强行拖到末尾易暂时误读为发现勒痕。"
+    },
+    {
+      "unit_index": 2514,
+      "decision": "fix",
+      "reason": "此单元原文只说“果然，用这把刀……”，判断是本人动手的“自分で”留在下次点击才出现。现译把“自己”提前到本次点击，同时下一单元只剩“动的手”，打破自杀推测的揭示停顿。"
+    },
+    {
+      "unit_index": 2969,
+      "decision": "fix",
+      "reason": "原文在此单元已说出马込新太郎，并停在即将说明真实身份的位置；现译只到“那个自称”，把姓名延后到下一单元，与真名一起揭示。应让假名在原点击出现，真名仍保留到下一点击。"
+    },
+    {
+      "unit_index": 3182,
+      "decision": "fix",
+      "reason": "原文先提到池上及“那个传闻”后停顿，下个单元才具体解释马込正体说并判断池上信以为真。现译把“那个传闻”延后，却把相信的判断提前，下一单元又重复“相信”。建议恢复“传闻→具体内容及相信”的两阶段表达。"
+    }
+  ],
+  "changes": [
+    {
+      "id": 1690,
+      "unit_index": 544,
+      "source": "あたしはフリーの",
+      "before": "我是自由",
+      "target": "我是"
+    },
+    {
+      "id": 1691,
+      "unit_index": 544,
+      "source": "ジャーナリスト､",
+      "before": "记者，",
+      "target": "自由记"
+    },
+    {
+      "id": 1692,
+      "unit_index": 544,
+      "source": "矢口",
+      "before": "叫矢口",
+      "target": "者，"
+    },
+    {
+      "id": 1693,
+      "unit_index": 544,
+      "source": "床子(ﾔｸﾞﾁ ｼｮｳｺ)",
+      "before": "床子。",
+      "target": "叫矢口"
+    },
+    {
+      "id": 1694,
+      "unit_index": 544,
+      "source": "｡",
+      "before": "还请",
+      "target": "床子。"
+    },
+    {
+      "id": 1695,
+      "unit_index": 545,
+      "source": "よろしくね｡",
+      "before": "多关照。”",
+      "target": "还请多关照。”"
+    },
+    {
+      "id": 6082,
+      "unit_index": 2514,
+      "source": "…やっぱり､このナイ",
+      "before": "……果然是用这把刀……",
+      "target": "……果然是"
+    },
+    {
+      "id": 6083,
+      "unit_index": 2514,
+      "source": "フで…",
+      "before": "自己",
+      "target": "用这把刀……"
+    },
+    {
+      "id": 6084,
+      "unit_index": 2515,
+      "source": "自分で…｡",
+      "before": "动的手……”",
+      "target": "自己动的手……”"
+    },
+    {
+      "id": 7165,
+      "unit_index": 2969,
+      "source": "全ての犯人は馬込新",
+      "before": "所有案件的凶手，",
+      "target": "所有案件的凶手，是马"
+    },
+    {
+      "id": 7166,
+      "unit_index": 2969,
+      "source": "太郎こと…",
+      "before": "就是那个自称",
+      "target": "込新太郎，也就是……"
+    },
+    {
+      "id": 7167,
+      "unit_index": 2970,
+      "source": "本物の多",
+      "before": "马込新太郎的男人……",
+      "target": "真正的"
+    },
+    {
+      "id": 7168,
+      "unit_index": 2970,
+      "source": "摩ヶ原斎樹だった訳",
+      "before": "真正的",
+      "target": "多摩原"
+    },
+    {
+      "id": 7169,
+      "unit_index": 2970,
+      "source": "です｡",
+      "before": "多摩原斋树。”",
+      "target": "斋树。”"
+    },
+    {
+      "id": 7587,
+      "unit_index": 3182,
+      "source": "｢混乱の元になったの",
+      "before": "“让事情变得混乱的根源，",
+      "target": "“造成混乱的根源，在"
+    },
+    {
+      "id": 7588,
+      "unit_index": 3182,
+      "source": "は､池上氏はその噂…",
+      "before": "恐怕是池上相信了",
+      "target": "于池上对那个传闻……"
+    },
+    {
+      "id": 7589,
+      "unit_index": 3183,
+      "source": "馬込正体説を信じて",
+      "before": "那个传闻……",
+      "target": "也就是‘马込才是"
+    },
+    {
+      "id": 7590,
+      "unit_index": 3183,
+      "source": "いた事によるものだ",
+      "before": "相信马込就是真正的",
+      "target": "真正的董事长’的说"
+    },
+    {
+      "id": 7591,
+      "unit_index": 3183,
+      "source": "ろう｡",
+      "before": "董事长。",
+      "target": "法，信以为真了吧。"
+    }
+  ],
+  "cache_before": "2726e4d00aeb5aa2af1a6dd86e78077208fa9bf7f84a2049b504034532cf1fe8",
+  "cache_after": "be2382608e914f0e0df10ef44d4afab303325d553ba279b82549f9e8021be6b0",
+  "review_reports": {
+    "review-0.json": "f95bfa5372f7413cf165ad9351bcd26663b099e8d4c1fd09165e0b9d2e5bd65f",
+    "review-1.json": "af68b2e010815bb820f5c1341de3d9b14d5d986884e9eee8be71170b6faa084d",
+    "review-2.json": "248ea33d3d529b6357130477228d25dd2805b1980b5253b73a99899daadde430",
+    "review-3.json": "c76f690aaad9c0bdfd54c00dc3d246a4261bd366b11d160f8caf1e1e0626e707"
+  }
+}

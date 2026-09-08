@@ -1,239 +1,235 @@
 {
-  "schema": 1,
-  "source_project": "kibu1",
-  "characters": [
-    {
-      "canonical": "生王正生",
-      "render": "生王正生",
-      "aliases": [
-        "生王"
-      ],
-      "note": "叙事者、游戏编剧。读音 イクルミ マサオ（Ikurumi Masao）；生王是姓，不是生田。"
-    },
-    {
-      "canonical": "癸生川凌介",
-      "render": "癸生川凌介",
-      "aliases": [
-        "癸生川"
-      ],
-      "note": "侦探。读音 キブカワ リョウスケ（Kibukawa Ryosuke）；先生按上下文译老师/先生。"
-    },
-    {
-      "canonical": "白鷺洲伊綱",
-      "render": "白鹭洲伊纲",
-      "aliases": [
-        "白鷺洲",
-        "伊綱"
-      ],
-      "note": "女性侦探助手。读音 サギシマ イヅナ（Sagishima Izuna）。姓为白鹭洲，不能改为白鹭岛。"
-    },
-    {
-      "canonical": "尾場九歳",
-      "render": "尾场九岁",
-      "aliases": [
-        "尾場"
-      ],
-      "note": "读音 オバ ココトシ（Oba Kokotoshi）。捜査一課警部補；对话称警部。オバキュー是他的绰号，建议阿Q/尾Q由主控锁定，不照姓名原读解释成九岁儿童。"
-    },
-    {
-      "canonical": "音成孝一",
-      "render": "林居孝一",
-      "aliases": [
-        "音成"
-      ],
-      "note": "用户指定谐音汉化姓氏：音成单独出现译林居，全名译林居孝一；中文与邻居同音，无须译注。"
-    },
-    {
-      "canonical": "砂永光二",
-      "render": "砂永光二",
-      "aliases": [
-        "砂永"
-      ],
-      "note": "读音 スナガ（Sunaga）；克罗什公司营业部长。"
-    },
-    {
-      "canonical": "村崎洋才",
-      "render": "村崎洋才",
-      "aliases": [
-        "村崎",
-        "洋才"
-      ],
-      "note": "游戏程序员、死者。scn9 [5577] 首见名洋才；笠见由纪乃的亲兄，不能与她归并。未提供名字读音。"
-    },
-    {
-      "canonical": "綾城",
-      "render": "绫城",
-      "aliases": [],
-      "note": "读音 アヤキ（Ayaki），不是 Ayashiro。程序员、村崎同事；未见名。"
-    },
-    {
-      "canonical": "唐島萌奈",
-      "render": "唐岛萌奈",
-      "aliases": [
-        "萌奈",
-        "唐島",
-        "唐沢萌奈"
-      ],
-      "note": "读音 カラシマ モエナ（Karashima Moena）。设计师。scn4 [3378] 单次唐沢萌奈疑似原文笔误，其他处均唐島，应统一唐岛并记待审。"
-    },
-    {
-      "canonical": "小早志",
-      "render": "小早志",
-      "aliases": [],
-      "note": "读音 コバヤシ（Kobayashi），不能惯性改成小林。Genma 的游戏策划；未见名。"
-    },
-    {
-      "canonical": "続木宝月",
-      "render": "续木宝月",
-      "aliases": [
-        "続木"
-      ],
-      "note": "读音 ツヅキ ホウゲツ（Tsuzuki Hogetsu），阿尔法创世纪监督。"
-    },
-    {
-      "canonical": "瀬堂",
-      "render": "濑堂",
-      "aliases": [],
-      "note": "读音 セドウ（Sedo），Genma 的游戏制作人；未见名。"
-    },
-    {
-      "canonical": "逢井",
-      "render": "逢井",
-      "aliases": [],
-      "note": "读音 アイ（Ai），Genma 游戏编剧，飞鸟望美男友。不得与网名アイビス无证据归并。"
-    },
-    {
-      "canonical": "飛鳥望美",
-      "render": "飞鸟望美",
-      "aliases": [
-        "望美"
-      ],
-      "note": "读音 アスカ ノゾミ（Asuka Nozomi），委托寻找网友狭川美妮，逢井女友。"
-    },
-    {
-      "canonical": "狭川美弐",
-      "render": "狭川美妮",
-      "aliases": [
-        "美弐"
-      ],
-      "note": "读音 サガワ ミニ（Sagawa Mini）。真实独立人物，优秀程序员、雪人系统开发者。笠见由纪乃冒用其姓名，绝不能把二人合并。"
-    },
-    {
-      "canonical": "笠見由紀乃",
-      "render": "笠见由纪乃",
-      "aliases": [
-        "由紀乃"
-      ],
-      "note": "22岁女职员，村崎洋才的亲妹妹，后由笠见家收养。冒用狭川美妮身份；网游角色みに。笠見姓单独出现需按上下文识别她或养父，故不放入人物 aliases。"
-    },
-    {
-      "canonical": "笠見伝次郎",
-      "render": "笠见传次郎",
-      "aliases": [
-        "伝次郎"
-      ],
-      "note": "笠见由纪乃养父，冒充山王丸房东。与山王丸豪吉是不同人物，绝不能归并。"
-    },
-    {
-      "canonical": "山王丸豪吉",
-      "render": "山王丸豪吉",
-      "aliases": [
-        "山王丸"
-      ],
-      "note": "真正房东；scn9 [6067-6074] 揭示正在国外旅行。早期标注为山王丸的角色实际由笠见传次郎冒充，译文须保留当时称呼，不提前剧透。"
-    },
-    {
-      "canonical": "ヴィオレ",
-      "render": "维奥莱",
-      "aliases": [
-        "ヴィオ"
-      ],
-      "note": "村崎的网游账号，简称维奥；scn3 [3238-3240] 明说法语紫色。账号会由不同人登录，不能把账号显示名替换成村崎。"
-    },
-    {
-      "canonical": "みに",
-      "render": "米妮",
-      "aliases": [],
-      "note": "笠见由纪乃所用网游ID；与狭川美妮的名字读音 mini 相同，保留谐音线索，不能把真实狭川和账号混同。仅实体语境替换，不能替换普通日语子串。"
-    },
-    {
-      "canonical": "アイビス",
-      "render": "伊比斯",
-      "aliases": [],
-      "note": "神秘网游账号。结尾6709–6712由癸生川自认；早期账号显示名仍译伊比斯，不提前揭示。"
-    },
-    {
-      "canonical": "チゼル",
-      "render": "奇泽尔",
-      "aliases": [],
-      "note": "网游好友，聊天角色。"
-    },
-    {
-      "canonical": "もけぴ",
-      "render": "莫凯皮",
-      "aliases": [],
-      "note": "网游好友，聊天角色。"
-    },
-    {
-      "canonical": "ティム",
-      "render": "蒂姆",
-      "aliases": [],
-      "note": "好友列表账号，仅出现一次。"
-    },
-    {
-      "canonical": "ようじ",
-      "render": "尤吉",
-      "aliases": [],
-      "note": "好友列表账号，假名未给汉字；音译，不能臆造汉字本名。"
-    },
-    {
-      "canonical": "きやや",
-      "render": "基亚亚",
-      "aliases": [],
-      "note": "好友列表账号，假名未给汉字；音译。"
-    },
-    {
-      "canonical": "グラファス",
-      "render": "格拉法斯",
-      "aliases": [],
-      "note": "阿尔法创世纪里的魔导师，伊纲喜欢的虚构游戏人物。"
-    },
-    {
-      "canonical": "石山貴也",
-      "render": "石山贵也",
-      "aliases": [],
-      "note": "制作名单：企划、监督、音乐。"
-    },
-    {
-      "canonical": "永野和博",
-      "render": "永野和博",
-      "aliases": [],
-      "note": "制作名单：程序。"
-    },
-    {
-      "canonical": "関 友己",
-      "render": "关 友己",
-      "aliases": [],
-      "note": "制作名单：图像；保留源空格。"
-    },
-    {
-      "canonical": "平賀由紀",
-      "render": "平贺由纪",
-      "aliases": [],
-      "note": "制作名单：角色设计。"
-    },
-    {
-      "canonical": "木戸万樹夫",
-      "render": "木户万树夫",
-      "aliases": [],
-      "note": "制作名单：角色设计。"
-    },
-    {
-      "canonical": "岩西尚起",
-      "render": "岩西尚起",
-      "aliases": [],
-      "note": "制作名单：背景。"
-    }
+  "schema": 2,
+  "rules_file": "glossary-rules.json",
+  "source_projects": [
+    "kibu1",
+    "kibu2",
+    "kibu3",
+    "kibu4",
+    "kibu5"
   ],
-  "note": "系列人物译名基线；各作保留独立审校快照。修改需逐作审查，不自动改写旧译文。"
+  "default_usage": "按来源作品及原文语境使用；普通名词和同形专名分别判断，不做子串全局替换。",
+  "status_definitions": {"project_locked": "沿用作品锁定译法，结合当前语境复用，非官方定译声明。", "provisional": "待核，不能作为公共定译。", "preserve_in_context": "仅在指定语境保留原词或占位符。"},
+  "source_policy": "source_refs仅供辅助追溯，不要求收录每作全部字段；first_recorded_game不等同实际首次登场。翻译必须同时读取本作表；冲突不能自动覆盖。",
+  "characters": [
+    {"canonical": "生王正生", "render": "生王正生", "aliases": ["生王"], "category": "person_name_or_form", "status": "project_locked", "first_recorded_game": "kibu1", "note": "叙事者、游戏编剧。读音 イクルミ マサオ（Ikurumi Masao）；生王是姓，不是生田。", "source_refs": ["kibu1/characters/0", "kibu2/characters/0", "kibu3/characters/0", "kibu4/characters/0"]},
+    {"canonical": "癸生川凌介", "render": "癸生川凌介", "aliases": ["癸生川"], "category": "person_name_or_form", "status": "project_locked", "first_recorded_game": "kibu1", "note": "侦探。读音 キブカワ リョウスケ（Kibukawa Ryosuke）；先生按上下文译老师/先生。", "source_refs": ["kibu1/characters/1", "kibu2/characters/1", "kibu3/characters/1", "kibu4/characters/1"]},
+    {"canonical": "白鷺洲伊綱", "render": "白鹭洲伊纲", "aliases": ["白鷺洲", "伊綱"], "category": "person_name_or_form", "status": "project_locked", "first_recorded_game": "kibu1", "note": "女性侦探助手。读音 サギシマ イヅナ（Sagishima Izuna）。姓为白鹭洲，不能改为白鹭岛。", "usage": "白鷺洲单独出现时仅在指向伊纲的语境使用。第四作同姓亲属不能全部认作伊纲；须结合当时人物和时间线。", "source_refs": ["kibu1/characters/2", "kibu2/characters/2", "kibu3/characters/2", "kibu4/characters/2"]},
+    {"canonical": "尾場九歳", "render": "尾场九岁", "aliases": ["尾場"], "category": "person_name_or_form", "status": "project_locked", "first_recorded_game": "kibu1", "note": "警部补，对话称警部。读音オバ ココトシ。昵称オバキュー已锁定尾Q；不要解释成九岁儿童。", "usage": "オバキュー采用第一作已锁定的尾Q，不采用旧备注中的阿Q或待定译法。警部为对话称呼，正式职级警部补仍保留区别。", "source_refs": ["kibu1/characters/3", "kibu2/characters/3", "kibu3/characters/3", "kibu4/characters/3"]},
+    {"canonical": "音成孝一", "render": "林居孝一", "aliases": ["音成"], "category": "person_name_or_form", "status": "project_locked", "first_recorded_game": "kibu1", "note": "用户指定谐音汉化姓氏：音成单独出现译林居，全名译林居孝一；中文与邻居同音，无须译注。", "source_refs": ["kibu1/characters/4", "kibu2/characters/4", "kibu3/characters/4", "kibu4/characters/4"]},
+    {"canonical": "砂永光二", "render": "砂永光二", "aliases": ["砂永"], "category": "person_name_or_form", "status": "project_locked", "first_recorded_game": "kibu1", "note": "读音 スナガ（Sunaga）；克罗什公司营业部长。", "source_refs": ["kibu1/characters/5", "kibu2/characters/5", "kibu3/characters/5", "kibu4/characters/5"]},
+    {"canonical": "村崎洋才", "render": "村崎洋才", "aliases": ["村崎", "洋才"], "category": "person_name_or_form", "status": "project_locked", "first_recorded_game": "kibu1", "note": "游戏程序员、死者。scn9 [5577] 首见名洋才；笠见由纪乃的亲兄，不能与她归并。未提供名字读音。", "source_refs": ["kibu1/characters/6", "kibu2/characters/6", "kibu3/characters/6", "kibu4/characters/6"]},
+    {"canonical": "綾城", "render": "绫城", "category": "person_name_or_form", "status": "project_locked", "first_recorded_game": "kibu1", "note": "读音 アヤキ（Ayaki），不是 Ayashiro。程序员、村崎同事；未见名。", "source_refs": ["kibu1/characters/7", "kibu2/characters/7", "kibu3/characters/7", "kibu4/characters/7"]},
+    {"canonical": "唐島萌奈", "render": "唐岛萌奈", "aliases": ["萌奈", "唐島", "唐沢萌奈"], "category": "person_name_or_form", "status": "project_locked", "first_recorded_game": "kibu1", "note": "读音 カラシマ モエナ（Karashima Moena）。设计师。scn4 [3378] 单次唐沢萌奈疑似原文笔误，其他处均唐島，应统一唐岛并记待审。", "source_refs": ["kibu1/characters/8", "kibu2/characters/8", "kibu3/characters/8", "kibu4/characters/8"]},
+    {"canonical": "小早志", "render": "小早志", "category": "person_name_or_form", "status": "project_locked", "first_recorded_game": "kibu1", "note": "读音 コバヤシ（Kobayashi），不能惯性改成小林。Genma 的游戏策划；未见名。", "source_refs": ["kibu1/characters/9", "kibu2/characters/9", "kibu3/characters/9", "kibu4/characters/9"]},
+    {"canonical": "続木宝月", "render": "续木宝月", "aliases": ["続木"], "category": "person_name_or_form", "status": "project_locked", "first_recorded_game": "kibu1", "note": "读音 ツヅキ ホウゲツ（Tsuzuki Hogetsu），阿尔法创世纪监督。", "source_refs": ["kibu1/characters/10", "kibu2/characters/10", "kibu3/characters/10", "kibu4/characters/10"]},
+    {"canonical": "瀬堂", "render": "濑堂", "category": "person_name_or_form", "status": "project_locked", "first_recorded_game": "kibu1", "note": "读音 セドウ（Sedo），Genma 的游戏制作人；未见名。", "source_refs": ["kibu1/characters/11", "kibu2/characters/11", "kibu3/characters/11", "kibu4/characters/11"]},
+    {"canonical": "逢井", "render": "逢井", "category": "person_name_or_form", "status": "project_locked", "first_recorded_game": "kibu1", "note": "读音 アイ（Ai），Genma 游戏编剧，飞鸟望美男友。不得与网名アイビス无证据归并。", "source_refs": ["kibu1/characters/12", "kibu2/characters/12", "kibu3/characters/12", "kibu4/characters/12"]},
+    {"canonical": "飛鳥望美", "render": "飞鸟望美", "aliases": ["望美"], "category": "person_name_or_form", "status": "project_locked", "first_recorded_game": "kibu1", "note": "读音 アスカ ノゾミ（Asuka Nozomi），委托寻找网友狭川美妮，逢井女友。", "source_refs": ["kibu1/characters/13", "kibu2/characters/13", "kibu3/characters/13", "kibu4/characters/13"]},
+    {"canonical": "狭川美弐", "render": "狭川美妮", "aliases": ["美弐"], "category": "person_name_or_form", "status": "project_locked", "first_recorded_game": "kibu1", "note": "读音 サガワ ミニ（Sagawa Mini）。真实独立人物，优秀程序员、雪人系统开发者。笠见由纪乃冒用其姓名，绝不能把二人合并。", "source_refs": ["kibu1/characters/14", "kibu2/characters/14", "kibu3/characters/14", "kibu4/characters/14"]},
+    {"canonical": "笠見由紀乃", "render": "笠见由纪乃", "aliases": ["由紀乃"], "category": "person_name_or_form", "status": "project_locked", "first_recorded_game": "kibu1", "note": "22岁女职员，村崎洋才的亲妹妹，后由笠见家收养。冒用狭川美妮身份；网游角色みに。笠見姓单独出现需按上下文识别她或养父，故不放入人物 aliases。", "source_refs": ["kibu1/characters/15", "kibu2/characters/15", "kibu3/characters/15", "kibu4/characters/15"]},
+    {"canonical": "笠見伝次郎", "render": "笠见传次郎", "aliases": ["伝次郎"], "category": "person_name_or_form", "status": "project_locked", "first_recorded_game": "kibu1", "note": "笠见由纪乃养父，冒充山王丸房东。与山王丸豪吉是不同人物，绝不能归并。", "source_refs": ["kibu1/characters/16", "kibu2/characters/16", "kibu3/characters/16", "kibu4/characters/16"]},
+    {"canonical": "山王丸豪吉", "render": "山王丸豪吉", "aliases": ["山王丸"], "category": "person_name_or_form", "status": "project_locked", "first_recorded_game": "kibu1", "note": "真正房东；scn9 [6067-6074] 揭示正在国外旅行。早期标注为山王丸的角色实际由笠见传次郎冒充，译文须保留当时称呼，不提前剧透。", "source_refs": ["kibu1/characters/17", "kibu2/characters/17", "kibu3/characters/17", "kibu4/characters/17"]},
+    {"canonical": "ヴィオレ", "render": "维奥莱", "aliases": ["ヴィオ"], "category": "person_name_or_form", "status": "project_locked", "first_recorded_game": "kibu1", "note": "村崎的网游账号，简称维奥；scn3 [3238-3240] 明说法语紫色。账号会由不同人登录，不能把账号显示名替换成村崎。", "source_refs": ["kibu1/characters/18", "kibu2/characters/18", "kibu3/characters/18", "kibu4/characters/18"]},
+    {"canonical": "みに", "render": "米妮", "category": "person_name_or_form", "status": "project_locked", "first_recorded_game": "kibu1", "note": "笠见由纪乃所用网游ID；与狭川美妮的名字读音 mini 相同，保留谐音线索，不能把真实狭川和账号混同。仅实体语境替换，不能替换普通日语子串。", "source_refs": ["kibu1/characters/19", "kibu2/characters/19", "kibu3/characters/19", "kibu4/characters/19"]},
+    {"canonical": "アイビス", "render": "伊比斯", "category": "person_name_or_form", "status": "project_locked", "first_recorded_game": "kibu1", "note": "神秘网游账号。结尾6709–6712由癸生川自认；早期账号显示名仍译伊比斯，不提前揭示。", "source_refs": ["kibu1/characters/20", "kibu2/characters/20", "kibu3/characters/20", "kibu4/characters/20"]},
+    {"canonical": "チゼル", "render": "奇泽尔", "category": "person_name_or_form", "status": "project_locked", "first_recorded_game": "kibu1", "note": "网游好友，聊天角色。", "source_refs": ["kibu1/characters/21", "kibu2/characters/21", "kibu3/characters/21", "kibu4/characters/21"]},
+    {"canonical": "もけぴ", "render": "莫凯皮", "category": "person_name_or_form", "status": "project_locked", "first_recorded_game": "kibu1", "note": "网游好友，聊天角色。", "source_refs": ["kibu1/characters/22", "kibu2/characters/22", "kibu3/characters/22", "kibu4/characters/22"]},
+    {"canonical": "ティム", "render": "蒂姆", "category": "person_name_or_form", "status": "project_locked", "first_recorded_game": "kibu1", "note": "好友列表账号，仅出现一次。", "source_refs": ["kibu1/characters/23", "kibu2/characters/23", "kibu3/characters/23", "kibu4/characters/23"]},
+    {"canonical": "ようじ", "render": "尤吉", "category": "person_name_or_form", "status": "project_locked", "first_recorded_game": "kibu1", "note": "好友列表账号，假名未给汉字；音译，不能臆造汉字本名。", "source_refs": ["kibu1/characters/24", "kibu2/characters/24", "kibu3/characters/24", "kibu4/characters/24"]},
+    {"canonical": "きやや", "render": "基亚亚", "category": "person_name_or_form", "status": "project_locked", "first_recorded_game": "kibu1", "note": "好友列表账号，假名未给汉字；音译。", "source_refs": ["kibu1/characters/25", "kibu2/characters/25", "kibu3/characters/25", "kibu4/characters/25"]},
+    {"canonical": "グラファス", "render": "格拉法斯", "category": "person_name_or_form", "status": "project_locked", "first_recorded_game": "kibu1", "note": "阿尔法创世纪里的魔导师，伊纲喜欢的虚构游戏人物。", "source_refs": ["kibu1/characters/26", "kibu2/characters/26", "kibu3/characters/26", "kibu4/characters/26"]},
+    {"canonical": "石山貴也", "render": "石山贵也", "category": "person_name_or_form", "status": "project_locked", "first_recorded_game": "kibu1", "note": "制作名单：企划、监督、音乐。", "source_refs": ["kibu1/characters/27", "kibu2/characters/27", "kibu3/characters/27", "kibu4/characters/27"]},
+    {"canonical": "永野和博", "render": "永野和博", "category": "person_name_or_form", "status": "project_locked", "first_recorded_game": "kibu1", "note": "制作名单：程序。", "source_refs": ["kibu1/characters/28", "kibu2/characters/28", "kibu3/characters/28", "kibu4/characters/28"]},
+    {"canonical": "関 友己", "render": "关 友己", "category": "person_name_or_form", "status": "project_locked", "first_recorded_game": "kibu1", "note": "制作名单：图像；保留源空格。", "source_refs": ["kibu1/characters/29", "kibu2/characters/29", "kibu3/characters/29", "kibu4/characters/29"]},
+    {"canonical": "平賀由紀", "render": "平贺由纪", "category": "person_name_or_form", "status": "project_locked", "first_recorded_game": "kibu1", "note": "制作名单：角色设计。", "source_refs": ["kibu1/characters/30", "kibu2/characters/30", "kibu3/characters/30", "kibu4/characters/30"]},
+    {"canonical": "木戸万樹夫", "render": "木户万树夫", "category": "person_name_or_form", "status": "project_locked", "first_recorded_game": "kibu1", "note": "制作名单：角色设计。", "source_refs": ["kibu1/characters/31", "kibu2/characters/31", "kibu3/characters/31", "kibu4/characters/31"]},
+    {"canonical": "岩西尚起", "render": "岩西尚起", "category": "person_name_or_form", "status": "project_locked", "first_recorded_game": "kibu1", "note": "制作名单：背景。", "source_refs": ["kibu1/characters/32", "kibu2/characters/32", "kibu3/characters/32", "kibu4/characters/32"]},
+    {"canonical": "多摩ヶ原斎樹", "render": "多摩原斋树", "aliases": ["多摩ヶ原", "多摩河原"], "category": "person_name_or_form", "status": "project_locked", "first_recorded_game": "kibu2", "note": "第二作锁定译法；简称对应中文姓氏，不与其他人物合并。", "source_refs": ["kibu2/characters/33"]},
+    {"canonical": "馬込新太郎", "render": "马込新太郎", "aliases": ["馬込"], "category": "person_name_or_form", "status": "project_locked", "first_recorded_game": "kibu2", "note": "第二作锁定译法；简称对应中文姓氏，不与其他人物合并。", "source_refs": ["kibu2/characters/34"]},
+    {"canonical": "大森直司", "render": "大森直司", "aliases": ["大森"], "category": "person_name_or_form", "status": "project_locked", "first_recorded_game": "kibu2", "note": "第二作锁定译法；简称对应中文姓氏，不与其他人物合并。", "source_refs": ["kibu2/characters/35"]},
+    {"canonical": "矢口床子", "render": "矢口床子", "aliases": ["矢口"], "category": "person_name_or_form", "status": "project_locked", "first_recorded_game": "kibu2", "note": "第二作锁定译法；简称对应中文姓氏，不与其他人物合并。；记者。知床是故意叫错，保留。", "source_refs": ["kibu2/characters/36", "kibu3/characters/39", "kibu4/characters/33"]},
+    {"canonical": "池上美紀人", "render": "池上美纪人", "aliases": ["池上"], "category": "person_name_or_form", "status": "project_locked", "first_recorded_game": "kibu2", "note": "第二作锁定译法；简称对应中文姓氏，不与其他人物合并。", "source_refs": ["kibu2/characters/37"]},
+    {"canonical": "嶺町悠希", "render": "岭町悠希", "aliases": ["嶺町"], "category": "person_name_or_form", "status": "project_locked", "first_recorded_game": "kibu2", "note": "第二作锁定译法；简称对应中文姓氏，不与其他人物合并。", "source_refs": ["kibu2/characters/38"]},
+    {"canonical": "萩中尚", "render": "萩中尚", "aliases": ["萩中"], "category": "person_name_or_form", "status": "project_locked", "first_recorded_game": "kibu2", "note": "第二作锁定译法；简称对应中文姓氏，不与其他人物合并。", "source_refs": ["kibu2/characters/39"]},
+    {"canonical": "菊川", "render": "菊川", "category": "person_name_or_form", "status": "project_locked", "first_recorded_game": "kibu2", "note": "第二作锁定译法；简称对应中文姓氏，不与其他人物合并。", "usage": "第二作仅姓条目；与第三作菊川春奈存在词面重合，未经身份复核不自动归并或补全姓名。", "source_refs": ["kibu2/characters/40"]},
+    {"canonical": "勝田和徳", "render": "胜田和德", "category": "person_name_or_form", "status": "project_locked", "first_recorded_game": "kibu2", "note": "第二作锁定译法；简称对应中文姓氏，不与其他人物合并。；第四作原文新名；按当时称呼保留。", "source_refs": ["kibu2/characters/41", "kibu4/characters/54"]},
+    {"canonical": "福林浩二", "render": "福林浩二", "category": "person_name_or_form", "status": "project_locked", "first_recorded_game": "kibu2", "note": "第二作锁定译法；简称对应中文姓氏，不与其他人物合并。；第四作原文新名；按当时称呼保留。", "source_refs": ["kibu2/characters/42", "kibu4/characters/55"]},
+    {"canonical": "菜緒", "render": "菜绪", "category": "person_name_or_form", "status": "project_locked", "first_recorded_game": "kibu2", "note": "第二作后段姓名；保留出现时的叙述知识范围。", "source_refs": ["kibu2/characters/43"]},
+    {"canonical": "菊川春奈", "render": "菊川春奈", "aliases": ["菊川", "春奈"], "category": "person_name_or_form", "status": "project_locked", "first_recorded_game": "kibu3", "note": "社长秘书，保留当前叙事身份。", "usage": "第三作姓名；菊川可作此人简称，但不凭别名把第二作仅姓记录自动合为同一实体。", "source_refs": ["kibu3/characters/33"]},
+    {"canonical": "黄味島寛", "render": "黄味岛宽", "aliases": ["黄味島"], "category": "person_name_or_form", "status": "project_locked", "first_recorded_game": "kibu3", "note": "社长。", "source_refs": ["kibu3/characters/34"]},
+    {"canonical": "東真市郎", "render": "东真市郎", "aliases": ["東"], "category": "person_name_or_form", "status": "project_locked", "first_recorded_game": "kibu3", "note": "东为姓，不能误拆为东真。", "source_refs": ["kibu3/characters/35"]},
+    {"canonical": "日野陣平", "render": "日野阵平", "aliases": ["日野"], "category": "person_name_or_form", "status": "project_locked", "first_recorded_game": "kibu3", "note": "维修负责人。", "source_refs": ["kibu3/characters/36"]},
+    {"canonical": "釜石尚治", "render": "釜石尚治", "aliases": ["釜石"], "category": "person_name_or_form", "status": "project_locked", "first_recorded_game": "kibu3", "note": "早期仅姓时不补全名。", "source_refs": ["kibu3/characters/37"]},
+    {"canonical": "久美浜あみ", "render": "久美滨亚美", "aliases": ["久美浜", "あみ"], "category": "person_name_or_form", "status": "project_locked", "first_recorded_game": "kibu3", "note": "亚美为假名音译；あみあみ=亚美美，浜やん=阿滨。", "source_refs": ["kibu3/characters/38"]},
+    {"canonical": "深森緑", "render": "深森绿", "aliases": ["深森"], "category": "person_name_or_form", "status": "project_locked", "first_recorded_game": "kibu3", "note": "女性老占卜师，全名见scn5[2794]；クロワール☆薫子=克罗瓦尔☆薰子。与男孩深森京太不同。", "source_refs": ["kibu3/characters/40"]},
+    {"canonical": "深森京太", "render": "深森京太", "category": "person_name_or_form", "status": "project_locked", "first_recorded_game": "kibu3", "note": "四年前事故的男孩死者，与深森婆婆不是同一人。", "source_refs": ["kibu3/characters/41"]},
+    {"canonical": "六木", "render": "六木", "category": "person_name_or_form", "status": "project_locked", "first_recorded_game": "kibu3", "note": "保留前文化名，终章才揭示身份，不提前替换为深森。", "usage": "沿用当时化名；第三作终章才涉及身份揭露，前文不得替换为深森。", "source_refs": ["kibu3/characters/42"]},
+    {"canonical": "白鷺洲龍希", "render": "白鹭洲龙希", "category": "person_name_or_form", "status": "project_locked", "first_recorded_game": "kibu4", "note": "第四作专名；按上下文区分同姓亲属，不提前揭示关系。", "usage": "全名及龍希短称均保留原文显示粒度，不把简称全部补成全名；同姓不等于同一人物。", "source_refs": ["kibu4/characters/34"]},
+    {"canonical": "龍希", "render": "龙希", "category": "person_name_or_form", "status": "project_locked", "first_recorded_game": "kibu4", "note": "第四作专名；按上下文区分同姓亲属，不提前揭示关系。", "usage": "本作短称条目，不作为新增独立人物断言；不自动补姓或揭示亲属关系。", "source_refs": ["kibu4/characters/35"]},
+    {"canonical": "涼二", "render": "凉二", "category": "person_name_or_form", "status": "project_locked", "first_recorded_game": "kibu4", "note": "第四作专名；按上下文区分同姓亲属，不提前揭示关系。", "source_refs": ["kibu4/characters/36"]},
+    {"canonical": "京蔵", "render": "京藏", "category": "person_name_or_form", "status": "project_locked", "first_recorded_game": "kibu4", "note": "第四作专名；按上下文区分同姓亲属，不提前揭示关系。", "source_refs": ["kibu4/characters/37"]},
+    {"canonical": "藤次郎", "render": "藤次郎", "category": "person_name_or_form", "status": "project_locked", "first_recorded_game": "kibu4", "note": "第四作专名；按上下文区分同姓亲属，不提前揭示关系。", "source_refs": ["kibu4/characters/38"]},
+    {"canonical": "九宝紗綾", "render": "九宝纱绫", "category": "person_name_or_form", "status": "project_locked", "first_recorded_game": "kibu4", "note": "第四作专名；按上下文区分同姓亲属，不提前揭示关系。", "source_refs": ["kibu4/characters/39"]},
+    {"canonical": "紗綾", "render": "纱绫", "category": "person_name_or_form", "status": "project_locked", "first_recorded_game": "kibu4", "note": "第四作专名；按上下文区分同姓亲属，不提前揭示关系。", "usage": "保留原文短称，不自动补全为九宝纱绫。", "source_refs": ["kibu4/characters/40"]},
+    {"canonical": "佐和子", "render": "佐和子", "category": "person_name_or_form", "status": "project_locked", "first_recorded_game": "kibu4", "note": "第四作专名；按上下文区分同姓亲属，不提前揭示关系。", "usage": "保留当时短称；门生佐和子仅在原文给出该称呼时使用。", "source_refs": ["kibu4/characters/41"]},
+    {"canonical": "浜田", "render": "滨田", "category": "person_name_or_form", "status": "project_locked", "first_recorded_game": "kibu4", "note": "第四作专名；按上下文区分同姓亲属，不提前揭示关系。", "source_refs": ["kibu4/characters/42"]},
+    {"canonical": "陸辺", "render": "陆边", "category": "person_name_or_form", "status": "project_locked", "first_recorded_game": "kibu4", "note": "第四作专名；按上下文区分同姓亲属，不提前揭示关系。", "source_refs": ["kibu4/characters/43"]},
+    {"canonical": "尚助", "render": "尚助", "category": "person_name_or_form", "status": "project_locked", "first_recorded_game": "kibu4", "note": "第四作专名；按上下文区分同姓亲属，不提前揭示关系。", "source_refs": ["kibu4/characters/44"]},
+    {"canonical": "楓", "render": "枫", "category": "person_name_or_form", "status": "project_locked", "first_recorded_game": "kibu4", "note": "第四作专名；按上下文区分同姓亲属，不提前揭示关系。", "source_refs": ["kibu4/characters/45"]},
+    {"canonical": "珠恵", "render": "珠惠", "category": "person_name_or_form", "status": "project_locked", "first_recorded_game": "kibu4", "note": "第四作专名；按上下文区分同姓亲属，不提前揭示关系。", "usage": "保留当时短称；藤泽珠惠仅在原文给出该称呼时使用。", "source_refs": ["kibu4/characters/46"]},
+    {"canonical": "大鳳院兼正", "render": "大凤院兼正", "category": "person_name_or_form", "status": "project_locked", "first_recorded_game": "kibu4", "note": "第四作专名；按上下文区分同姓亲属，不提前揭示关系。", "source_refs": ["kibu4/characters/47"]},
+    {"canonical": "來興", "render": "来兴", "category": "person_name_or_form", "status": "project_locked", "first_recorded_game": "kibu4", "note": "第四作专名；按上下文区分同姓亲属，不提前揭示关系。", "source_refs": ["kibu4/characters/48"]},
+    {"canonical": "若紗", "render": "若纱", "category": "person_name_or_form", "status": "project_locked", "first_recorded_game": "kibu4", "note": "第四作专名；按上下文区分同姓亲属，不提前揭示关系。", "source_refs": ["kibu4/characters/49"]},
+    {"canonical": "ナズナ", "render": "娜兹娜", "category": "person_name_or_form", "status": "project_locked", "first_recorded_game": "kibu4", "note": "原文未给汉字名，避免臆造植物汉字名。", "source_refs": ["kibu4/characters/50"]},
+    {"canonical": "松子", "render": "松子", "category": "person_name_or_form", "status": "project_locked", "first_recorded_game": "kibu4", "note": "凉二母亲；仅在原文揭露时使用。", "source_refs": ["kibu4/characters/51"]},
+    {"canonical": "門生佐和子", "render": "门生佐和子", "category": "person_name_or_form", "status": "project_locked", "first_recorded_game": "kibu4", "note": "第四作原文新名；按当时称呼保留。", "source_refs": ["kibu4/characters/52"]},
+    {"canonical": "藤沢珠恵", "render": "藤泽珠惠", "category": "person_name_or_form", "status": "project_locked", "first_recorded_game": "kibu4", "note": "第四作原文新名；按当时称呼保留。", "source_refs": ["kibu4/characters/53"]},
+    {"canonical": "西村孝弘", "render": "西村孝弘", "category": "person_name_or_form", "status": "project_locked", "first_recorded_game": "kibu4", "note": "第四作原文新名；按当时称呼保留。", "source_refs": ["kibu4/characters/56"]},
+    {"canonical": "弥勒院蓮児", "render": "弥勒院莲儿", "aliases": ["弥勒院", "ミロク", "ミロクイン"], "category": "person", "note": "第五作序章24/61–67及807–834确认：生王的旧同学，灵异作家；ミロク为简称/署名，译弥勒。不要把短称替换成全名。", "usage": "弥勒院→弥勒院，ミロク→弥勒。原文简称或署名不补全名。读音ﾐﾛｸｲﾝ ﾚﾝｼﾞ见第五作序章24–25、62–63。 ミロクイン→弥勒院（scn2:2009–2010、2509），不是新人物。", "reading": "ミロクイン レンジ", "introduction_evidence": {"game": "kibu5", "script": "scn0", "ids": [24, 25, 62, 63]}, "status": "project_locked", "first_recorded_game": "kibu5", "source_refs": ["kibu5/characters/0"]},
+    {"canonical": "十六夜彩子", "render": "十六夜彩子", "aliases": ["彩子"], "category": "person", "note": "第五作序章317–324确认：弥勒院的助手；尊称按语境用彩子小姐。正文不附日语读音。", "usage": "彩子→彩子；敬称按语境为彩子小姐。读音ｲｻﾞﾖｲ ｻｲｺ见第五作序章322–324。", "reading": "イザヨイ サイコ", "introduction_evidence": {"game": "kibu5", "script": "scn0", "ids": [322, 323, 324]}, "status": "project_locked", "first_recorded_game": "kibu5", "source_refs": ["kibu5/characters/1"]},
+    {"canonical": "岩城里美", "render": "岩城里美", "aliases": ["岩城"], "category": "person", "note": "女性纪实撰稿人；称岩城时保留短称，敬称用岩城小姐，代词她。不得提前揭露其勒索行为。", "reading": "イワキ サトミ", "status": "project_locked", "first_recorded_game": "kibu5", "source_refs": ["kibu5/characters/2"], "source_evidence": ["scn2:2033–2034", "scn3:2996"]},
+    {"canonical": "喜屋武猛", "render": "喜屋武猛", "aliases": ["喜屋武"], "category": "person", "note": "男性保安。早期原文仅姓时不补猛；旧案凶手身份到原文揭露时才说明。", "reading": "キャン タケシ", "status": "project_locked", "first_recorded_game": "kibu5", "source_refs": ["kibu5/characters/3"], "source_evidence": ["scn1:1469", "scn3:3014–3015", "scn6:5317"]},
+    {"canonical": "益田太郎", "render": "益田太郎", "aliases": ["益田"], "category": "person", "note": "十七楼1702室男性住户；原文未见读音，不猜。与八年前死者的兄妹关系在scn6:5919揭露，不提前补入正文。", "status": "project_locked", "first_recorded_game": "kibu5", "source_refs": ["kibu5/characters/4"], "source_evidence": ["scn3:3557", "scn4:3920"]},
+    {"canonical": "時田正彦", "render": "时田正彦", "category": "staff_name", "note": "制作人员：服务器程序。", "status": "project_locked", "first_recorded_game": "kibu5", "source_refs": ["kibu5/characters/5"], "source_evidence": ["scn6:6049"]},
+    {"canonical": "関根聖子", "render": "关根圣子", "category": "staff_name", "note": "制作人员：宣传。", "status": "project_locked", "first_recorded_game": "kibu5", "source_refs": ["kibu5/characters/6"], "source_evidence": ["scn6:6057"]},
+    {"canonical": "青木華恵", "render": "青木华惠", "category": "staff_name", "note": "制作人员：宣传。", "status": "project_locked", "first_recorded_game": "kibu5", "source_refs": ["kibu5/characters/7"], "source_evidence": ["scn6:6058"]}
+  ],
+  "terms": [
+    {"canonical": "タクリマクス", "render": "Taclimax", "category": "game_title", "status": "project_locked", "first_recorded_game": "kibu1", "source_refs": ["kibu1/terms/0"]},
+    {"canonical": "ﾀｸﾘﾏｸｽ", "render": "Taclimax", "category": "game_title", "status": "project_locked", "first_recorded_game": "kibu1", "source_refs": ["kibu1/terms/1"]},
+    {"canonical": "タクマク", "render": "Taclimax", "category": "game_title_short", "status": "project_locked", "first_recorded_game": "kibu1", "source_refs": ["kibu1/terms/2"]},
+    {"canonical": "タクティカル･クライマックス", "render": "战术高潮", "category": "game_title_etymology", "status": "project_locked", "first_recorded_game": "kibu1", "source_refs": ["kibu1/terms/3"]},
+    {"canonical": "アルファ･ジェネシス", "render": "阿尔法创世纪", "category": "game_title", "status": "project_locked", "first_recorded_game": "kibu1", "source_refs": ["kibu1/terms/4"]},
+    {"canonical": "アルファジェネシス", "render": "阿尔法创世纪", "category": "game_title", "status": "project_locked", "first_recorded_game": "kibu1", "source_refs": ["kibu1/terms/5"]},
+    {"canonical": "アルジェ", "render": "阿创", "category": "game_title_short", "status": "project_locked", "first_recorded_game": "kibu1", "source_refs": ["kibu1/terms/6"]},
+    {"canonical": "クロッシュ", "render": "克罗什", "category": "company", "status": "project_locked", "first_recorded_game": "kibu1", "source_refs": ["kibu1/terms/7"]},
+    {"canonical": "ｸﾛｯｼｭ", "render": "克罗什", "category": "company", "status": "project_locked", "first_recorded_game": "kibu1", "source_refs": ["kibu1/terms/8"]},
+    {"canonical": "ゲンマ", "render": "玄马", "category": "company", "status": "project_locked", "first_recorded_game": "kibu1", "source_refs": ["kibu1/terms/9"]},
+    {"canonical": "元気株式会社", "render": "元气株式会社", "category": "credits_company", "status": "project_locked", "first_recorded_game": "kibu1", "source_refs": ["kibu1/terms/10"]},
+    {"canonical": "スノーマン", "render": "Snowman", "category": "monster_and_clue", "status": "project_locked", "first_recorded_game": "kibu1", "usage": "第一作怪物专名及引用该名的邮件/留言保留Snowman；普通雪人、玩偶服和周边按语境处理，保留推理歧义。", "source_refs": ["kibu1/terms/11"]},
+    {"canonical": "ｽﾉｰﾏﾝ", "render": "Snowman", "category": "monster_and_clue", "status": "project_locked", "first_recorded_game": "kibu1", "usage": "同第一作スノーマン的专名限定；不是普通雪人的全局替换。", "source_refs": ["kibu1/terms/12"]},
+    {"canonical": "スノーマンシステム", "render": "Snowman系统", "category": "technology", "status": "project_locked", "first_recorded_game": "kibu1", "usage": "第一作技术系统名，Snowman保留英文；不与怪物实体或普通雪人混同。", "source_refs": ["kibu1/terms/13"]},
+    {"canonical": "雪だるま", "render": "雪人", "category": "clue", "status": "project_locked", "first_recorded_game": "kibu1", "source_refs": ["kibu1/terms/14"]},
+    {"canonical": "アイスバーグ", "render": "冰山国", "category": "game_location", "status": "project_locked", "first_recorded_game": "kibu1", "source_refs": ["kibu1/terms/15"]},
+    {"canonical": "西河谷", "render": "西河谷", "category": "location", "status": "project_locked", "first_recorded_game": "kibu1", "source_refs": ["kibu1/terms/16"]},
+    {"canonical": "鞠浜台", "render": "鞠滨台", "category": "location", "status": "project_locked", "first_recorded_game": "kibu1", "source_refs": ["kibu1/terms/17", "kibu4/terms/12"]},
+    {"canonical": "品方市", "render": "品方市", "category": "location", "status": "project_locked", "first_recorded_game": "kibu1", "source_refs": ["kibu1/terms/18"]},
+    {"canonical": "シャンブリオン西河谷", "render": "香布里昂西河谷", "category": "apartment", "status": "project_locked", "first_recorded_game": "kibu1", "source_refs": ["kibu1/terms/19"]},
+    {"canonical": "癸生川探偵事務所", "render": "癸生川侦探事务所", "category": "location", "status": "project_locked", "first_recorded_game": "kibu1", "source_refs": ["kibu1/terms/20"]},
+    {"canonical": "仮面幻想殺人事件", "render": "假面幻想杀人事件", "category": "project_title", "status": "project_locked", "first_recorded_game": "kibu1", "source_refs": ["kibu1/terms/21", "kibu2/terms/4"]},
+    {"canonical": "アールグレイ", "render": "伯爵茶", "category": "object", "status": "project_locked", "first_recorded_game": "kibu1", "source_refs": ["kibu1/terms/22"]},
+    {"canonical": "メモリカード", "render": "存储卡", "category": "evidence", "status": "project_locked", "first_recorded_game": "kibu1", "source_refs": ["kibu1/terms/23"]},
+    {"canonical": "青酸カリ", "render": "氰化钾", "category": "evidence", "status": "project_locked", "first_recorded_game": "kibu1", "source_refs": ["kibu1/terms/24"]},
+    {"canonical": "警部", "render": "警部", "category": "police_rank", "status": "project_locked", "first_recorded_game": "kibu1", "source_refs": ["kibu1/terms/25"]},
+    {"canonical": "警部補", "render": "警部补", "category": "police_rank", "status": "project_locked", "first_recorded_game": "kibu1", "source_refs": ["kibu1/terms/26"]},
+    {"canonical": "捜査一課", "render": "搜查一课", "category": "police_unit", "status": "project_locked", "first_recorded_game": "kibu1", "source_refs": ["kibu1/terms/27"]},
+    {"canonical": "オバキュー", "render": "尾Q", "category": "nickname", "status": "project_locked", "first_recorded_game": "kibu1", "note": "首次介绍时说明三层联系：日语中Q与九同音，尾Q与《Q太郎》的日语简称同音，尾场和Q太郎都怕狗。不写具体读音，不使用指代不清的“两者”，后续称呼不重复译注。", "usage": "第一作锁定为尾Q；采用本条与第一作chinese_only_clue_rendering的明确决定，历史待定建议不再作为候选。", "source_refs": ["kibu1/terms/28"]},
+    {"canonical": "話す", "render": "交谈", "category": "menu", "status": "project_locked", "first_recorded_game": "kibu1", "source_refs": ["kibu1/terms/29"]},
+    {"canonical": "見回す", "render": "环顾", "category": "menu", "status": "project_locked", "first_recorded_game": "kibu1", "source_refs": ["kibu1/terms/30", "kibu2/terms/12", "kibu3/terms/17"]},
+    {"canonical": "調べる", "render": "调查", "category": "menu", "status": "project_locked", "first_recorded_game": "kibu1", "source_refs": ["kibu1/terms/31"]},
+    {"canonical": "捜査中断", "render": "中断调查", "category": "menu", "status": "project_locked", "first_recorded_game": "kibu1", "source_refs": ["kibu1/terms/32", "kibu2/terms/10", "kibu3/terms/16"]},
+    {"canonical": "吉川線", "render": "吉川线", "category": "clue", "status": "project_locked", "first_recorded_game": "kibu1", "source_refs": ["kibu1/terms/33"]},
+    {"canonical": "青酸中毒", "render": "氰化物中毒", "category": "evidence", "status": "project_locked", "first_recorded_game": "kibu1", "source_refs": ["kibu1/terms/34"]},
+    {"canonical": "ショック死", "render": "休克死亡", "category": "evidence", "status": "project_locked", "first_recorded_game": "kibu1", "source_refs": ["kibu1/terms/35"]},
+    {"canonical": "ｽｰﾊﾟｰｹﾞｰﾑﾗﾝﾁ", "render": "ｽｰﾊﾟｰｹﾞｰﾑﾗﾝﾁ", "category": "legacy_service", "status": "project_locked", "first_recorded_game": "kibu1", "keep_source": true, "source_refs": ["kibu1/terms/36"]},
+    {"canonical": "海楼館", "render": "海楼馆", "category": "project_term", "status": "project_locked", "first_recorded_game": "kibu2", "source_refs": ["kibu2/terms/0"]},
+    {"canonical": "サナミ建設", "render": "萨纳米建设", "category": "project_term", "status": "project_locked", "first_recorded_game": "kibu2", "source_refs": ["kibu2/terms/1"]},
+    {"canonical": "シャングリラ", "render": "香格里拉", "category": "project_term", "status": "project_locked", "first_recorded_game": "kibu2", "source_refs": ["kibu2/terms/2", "kibu3/terms/0"]},
+    {"canonical": "マスターキー", "render": "万能钥匙", "category": "project_term", "status": "project_locked", "first_recorded_game": "kibu2", "source_refs": ["kibu2/terms/3"]},
+    {"canonical": "会長", "render": "董事长", "category": "project_term", "status": "project_locked", "first_recorded_game": "kibu2", "usage": "董事长为第二作公司语境，不推广为协会等场景的默认译法。", "source_refs": ["kibu2/terms/5"]},
+    {"canonical": "役員", "render": "高管", "category": "project_term", "status": "project_locked", "first_recorded_game": "kibu2", "source_refs": ["kibu2/terms/6"]},
+    {"canonical": "パスケース", "render": "证件夹", "category": "project_term", "status": "project_locked", "first_recorded_game": "kibu2", "source_refs": ["kibu2/terms/7"]},
+    {"canonical": "定期", "render": "定期乘车票", "category": "project_term", "status": "project_locked", "first_recorded_game": "kibu2", "source_refs": ["kibu2/terms/8"]},
+    {"canonical": "ニルギリ", "render": "尼尔吉里", "category": "project_term", "status": "project_locked", "first_recorded_game": "kibu2", "source_refs": ["kibu2/terms/9"]},
+    {"canonical": "場所移動", "render": "移动", "category": "project_term", "status": "project_locked", "first_recorded_game": "kibu2", "source_refs": ["kibu2/terms/11"]},
+    {"canonical": "渡り廊下", "render": "连接通道", "aliases": ["渡廊下"], "category": "project_term", "status": "project_locked", "first_recorded_game": "kibu2", "note": "用户指定统一译名，菜单与图片同用，不简称连廊。", "source_refs": ["kibu2/terms/13"]},
+    {"canonical": "アルマゲドン", "render": "末日决战", "category": "project_term", "status": "project_locked", "first_recorded_game": "kibu3", "source_refs": ["kibu3/terms/1"]},
+    {"canonical": "ゴッドコースター", "render": "神之过山车", "category": "project_term", "status": "project_locked", "first_recorded_game": "kibu3", "source_refs": ["kibu3/terms/2"]},
+    {"canonical": "アマゾンクルーズ", "render": "亚马逊漂流", "category": "project_term", "status": "project_locked", "first_recorded_game": "kibu3", "source_refs": ["kibu3/terms/3"]},
+    {"canonical": "ロッキー君", "render": "洛奇", "category": "project_term", "status": "project_locked", "first_recorded_game": "kibu3", "source_refs": ["kibu3/terms/4"]},
+    {"canonical": "ロック鳥", "render": "洛克鸟", "category": "project_term", "status": "project_locked", "first_recorded_game": "kibu3", "source_refs": ["kibu3/terms/5"]},
+    {"canonical": "クロワール☆薫子", "render": "克罗瓦尔☆薰子", "category": "project_term", "status": "project_locked", "first_recorded_game": "kibu3", "usage": "保留当时名号；不要据此在前文替换为真实姓名。", "source_refs": ["kibu3/terms/6"]},
+    {"canonical": "ヴィエルジュ", "render": "维耶尔日", "category": "project_term", "status": "project_locked", "first_recorded_game": "kibu3", "source_refs": ["kibu3/terms/7"]},
+    {"canonical": "御使い", "render": "神使", "category": "project_term", "status": "project_locked", "first_recorded_game": "kibu3", "usage": "第三作scn1的误读otsukai、scn7遗书mitsukai及scn8解释是文字线索，不能不分场景统一替换为神使。详见glossary-rules.json中的kibu3.textual_clues。", "source_refs": ["kibu3/terms/8"]},
+    {"canonical": "制御室", "render": "控制室", "category": "project_term", "status": "project_locked", "first_recorded_game": "kibu3", "source_refs": ["kibu3/terms/9"]},
+    {"canonical": "システム管理室", "render": "系统管理室", "category": "project_term", "status": "project_locked", "first_recorded_game": "kibu3", "source_refs": ["kibu3/terms/10"]},
+    {"canonical": "ぬいぐるみ", "render": "人偶服", "category": "project_term", "status": "project_locked", "first_recorded_game": "kibu3", "usage": "人偶服为第三作具体情境译法；其他语境可能指玩偶，不能全局套用。", "source_refs": ["kibu3/terms/11"]},
+    {"canonical": "簀の子", "render": "栅顶", "category": "project_term", "status": "project_locked", "first_recorded_game": "kibu3", "usage": "栅顶为第三作场景术语；不推广为该词所有日常含义。", "source_refs": ["kibu3/terms/12"]},
+    {"canonical": "ヨハネの黙示録", "render": "约翰启示录", "category": "project_term", "status": "project_locked", "first_recorded_game": "kibu3", "source_refs": ["kibu3/terms/13"]},
+    {"canonical": "刻印", "render": "印记", "category": "project_term", "status": "project_locked", "first_recorded_game": "kibu3", "source_refs": ["kibu3/terms/14"]},
+    {"canonical": "いかずち", "render": "天雷", "category": "project_term", "status": "project_locked", "first_recorded_game": "kibu3", "source_refs": ["kibu3/terms/15"]},
+    {"canonical": "正面入口", "render": "正门", "category": "project_term", "status": "project_locked", "first_recorded_game": "kibu3", "source_refs": ["kibu3/terms/18"]},
+    {"canonical": "白鷺に紅の羽", "render": "白鹭红羽", "category": "project_term", "status": "project_locked", "first_recorded_game": "kibu4", "source_refs": ["kibu4/terms/0"]},
+    {"canonical": "百白村", "render": "百白村", "category": "project_term", "status": "project_locked", "first_recorded_game": "kibu4", "source_refs": ["kibu4/terms/1"]},
+    {"canonical": "百白駅", "render": "百白站", "category": "project_term", "status": "project_locked", "first_recorded_game": "kibu4", "source_refs": ["kibu4/terms/2"]},
+    {"canonical": "大鳳院", "render": "大凤院", "category": "project_term", "status": "project_locked", "first_recorded_game": "kibu4", "source_refs": ["kibu4/terms/3"]},
+    {"canonical": "白鷺洲", "render": "白鹭洲", "category": "project_term", "status": "project_locked", "first_recorded_game": "kibu4", "usage": "第四作姓氏形式，按白鹭洲处理；不能自动解析为伊纲。", "source_refs": ["kibu4/terms/4"]},
+    {"canonical": "鳥歌亭", "render": "鸟歌亭", "category": "project_term", "status": "project_locked", "first_recorded_game": "kibu4", "source_refs": ["kibu4/terms/5"]},
+    {"canonical": "飯綱使い", "render": "饭纲使", "category": "project_term", "status": "project_locked", "first_recorded_game": "kibu4", "source_refs": ["kibu4/terms/6"]},
+    {"canonical": "飯綱", "render": "饭纲", "category": "project_term", "status": "project_locked", "first_recorded_game": "kibu4", "source_refs": ["kibu4/terms/7"]},
+    {"canonical": "くちばし山", "render": "鸟喙山", "category": "project_term", "status": "project_locked", "first_recorded_game": "kibu4", "source_refs": ["kibu4/terms/8"]},
+    {"canonical": "クチバシ山", "render": "鸟喙山", "category": "project_term", "status": "project_locked", "first_recorded_game": "kibu4", "source_refs": ["kibu4/terms/9"]},
+    {"canonical": "シラサギグループ", "render": "白鹭集团", "category": "project_term", "status": "project_locked", "first_recorded_game": "kibu4", "source_refs": ["kibu4/terms/10"]},
+    {"canonical": "オオトリ製薬グループ", "render": "大凤制药集团", "category": "project_term", "status": "project_locked", "first_recorded_game": "kibu4", "source_refs": ["kibu4/terms/11"]},
+    {"canonical": "九ノ橋山", "render": "九之桥山", "category": "project_term", "status": "project_locked", "first_recorded_game": "kibu4", "source_refs": ["kibu4/terms/13"]},
+    {"canonical": "ｸﾁﾊﾞｼ山", "render": "鸟喙山", "category": "project_term", "status": "project_locked", "first_recorded_game": "kibu4", "source_refs": ["kibu4/terms/14"]},
+    {"canonical": "戸籍謄本", "render": "户籍副本", "category": "project_term", "status": "project_locked", "first_recorded_game": "kibu4", "source_refs": ["kibu4/terms/15"]},
+    {"canonical": "おさき狐", "render": "尾崎狐", "category": "project_term", "status": "project_locked", "first_recorded_game": "kibu4", "source_refs": ["kibu4/terms/16"]},
+    {"canonical": "バロン", "render": "巴隆", "category": "place_name", "note": "序章咖啡馆名；音译，不擅自认定为男爵。", "status": "project_locked", "first_recorded_game": "kibu5", "source_refs": ["kibu5/game_terms/0"], "source_evidence": ["scn0:135", "scn0:838"]},
+    {"canonical": "赤いエレベーター", "render": "红色电梯", "aliases": ["赤いエレベータ"], "category": "urban_legend", "note": "序章1196及1231；保持别称一致。", "status": "project_locked", "first_recorded_game": "kibu5", "source_refs": ["kibu5/game_terms/1"], "source_evidence": ["scn0:1196", "scn0:1231"]},
+    {"canonical": "チェーンメール", "render": "连锁邮件", "category": "communication", "note": "保持与邮件正文和后续解释一致。", "status": "project_locked", "first_recorded_game": "kibu5", "source_refs": ["kibu5/game_terms/3"], "source_evidence": ["scn0:548", "scn0:580"]},
+    {"canonical": "メリーさん人形", "render": "玛丽小姐的玩偶", "category": "urban_legend", "note": "序章888提及的怪谈名，按原文译；不增补怪谈内容。", "status": "project_locked", "first_recorded_game": "kibu5", "source_refs": ["kibu5/game_terms/4"], "source_evidence": ["scn0:888", "scn1:1347"]},
+    {"canonical": "リサちゃん電話", "render": "丽莎的电话", "category": "urban_legend", "note": "序章889–890提及的怪谈名，按原文译。", "status": "project_locked", "first_recorded_game": "kibu5", "source_refs": ["kibu5/game_terms/5"], "source_evidence": ["scn0:889–890"]},
+    {"canonical": "週刊ウォーク", "render": "漫步周刊", "category": "publication", "usage": "正文用《漫步周刊》，不推定官方英语刊名。", "status": "project_locked", "first_recorded_game": "kibu5", "source_refs": ["kibu5/game_terms/6"], "source_evidence": ["scn1:1458", "scn2:2644"]},
+    {"canonical": "紫の鏡", "render": "紫镜", "category": "urban_legend", "usage": "沿用本章审校译名，保留二十岁诅咒说明。", "status": "project_locked", "first_recorded_game": "kibu5", "source_refs": ["kibu5/game_terms/7"], "source_evidence": ["scn1:1343–1346"]},
+    {"canonical": "お化けマンション", "render": "闹鬼公寓", "aliases": ["ゴーストマンション"], "category": "place_alias", "usage": "公寓的传闻通称，不是正式楼盘名。", "status": "project_locked", "first_recorded_game": "kibu5", "source_refs": ["kibu5/game_terms/8"], "source_evidence": ["scn1:1369", "scn1:1394–1395", "scn3:2984–2985"]},
+    {"canonical": "部屋割り", "render": "房间分布表", "aliases": ["部屋割り表"], "category": "document", "usage": "仅本作保安提供的房间及住户资料；普通房间安排另按语境。", "status": "project_locked", "first_recorded_game": "kibu5", "source_refs": ["kibu5/game_terms/9"], "source_evidence": ["scn1:1575–1577", "scn1:1609", "scn1:1617–1618"]},
+    {"canonical": "欠陥住宅", "render": "问题住宅", "category": "building", "usage": "指存在质量问题的住宅，不额外强化成豆腐渣工程。", "status": "project_locked", "first_recorded_game": "kibu5", "source_refs": ["kibu5/game_terms/10"], "source_evidence": ["scn2:2415"]},
+    {"canonical": "赤いエレベーターの真実", "render": "红色电梯的真相", "category": "article_title", "usage": "正文加书名号，岩城拟定报道标题，不提前写出真相。", "status": "project_locked", "first_recorded_game": "kibu5", "source_refs": ["kibu5/game_terms/11"], "source_evidence": ["scn2:2542–2543"]},
+    {"canonical": "ルポライター", "render": "纪实撰稿人", "category": "profession", "usage": "普通ライター仍按语境用撰稿人。", "status": "project_locked", "first_recorded_game": "kibu5", "source_refs": ["kibu5/game_terms/12"], "source_evidence": ["scn2:2704–2705", "scn3:2994"]},
+    {"canonical": "鞠浜署", "render": "鞠滨警署", "category": "organization", "usage": "沿用公共鞠浜地名的鞠滨写法；不能把短称擅自扩成地理全名。", "status": "project_locked", "first_recorded_game": "kibu5", "source_refs": ["kibu5/game_terms/13"], "source_evidence": ["scn3:3350"]},
+    {"canonical": "屋上", "render": "楼顶", "category": "location", "usage": "区分室外楼顶与楼顶电梯厅。", "status": "project_locked", "first_recorded_game": "kibu5", "source_refs": ["kibu5/game_terms/14"], "source_evidence": ["scn6:5505–5506", "scn6:5803"]},
+    {"canonical": "屋上ホール", "render": "楼顶电梯厅", "aliases": ["屋上エレベーターホール"], "category": "location", "usage": "本作顶层电梯前室，不混作室外楼顶。", "status": "project_locked", "first_recorded_game": "kibu5", "source_refs": ["kibu5/game_terms/15"], "source_evidence": ["scn6:5395", "scn6:5430", "scn6:5678–5679"]},
+    {"canonical": "非常階段", "render": "消防楼梯", "category": "location", "usage": "用于区分电梯与楼梯路径；各章统一。", "status": "project_locked", "first_recorded_game": "kibu5", "source_refs": ["kibu5/game_terms/16"], "source_evidence": ["scn3:3604", "scn6:5416–5417"]},
+    {"canonical": "エレベーターのかご", "render": "电梯轿厢", "aliases": ["エレベーターかご"], "category": "elevator_part", "usage": "电梯活动厢体，区别电梯厅/电梯井；井顶与轿厢顶按上下文区分。", "status": "project_locked", "first_recorded_game": "kibu5", "source_refs": ["kibu5/game_terms/17"], "source_evidence": ["scn3:3310–3312", "scn3:3568", "scn5:4467", "scn6:5478–5480"]},
+    {"canonical": "外扉", "render": "外门", "category": "elevator_part", "usage": "各楼层固定的电梯层门，不与轿厢门及消防楼梯门混同。", "status": "project_locked", "first_recorded_game": "kibu5", "source_refs": ["kibu5/game_terms/18"], "source_evidence": ["scn1:1291–1292", "scn4:3821", "scn6:5690", "scn6:5902"]},
+    {"canonical": "昇降路", "render": "电梯井", "category": "elevator_part", "usage": "电梯升降的竖井，不是轿厢或电梯厅。", "status": "project_locked", "first_recorded_game": "kibu5", "source_refs": ["kibu5/game_terms/19"], "source_evidence": ["scn5:4746", "scn6:5924"]},
+    {"canonical": "鉄アレイ", "render": "铁哑铃", "category": "evidence", "usage": "保留材质；单说アレイ按语境译哑铃，不机械扩材料。", "status": "project_locked", "first_recorded_game": "kibu5", "source_refs": ["kibu5/game_terms/20"], "source_evidence": ["scn4:3867", "scn4:3881"]},
+    {"canonical": "バール", "render": "撬棍", "category": "evidence", "usage": "釘抜きのようなもの在5450尚为形状比喻，译像起钉器的东西，不提前明确成撬棍。", "status": "project_locked", "first_recorded_game": "kibu5", "source_refs": ["kibu5/game_terms/21"], "source_evidence": ["scn4:3878–3879", "scn6:5452", "scn6:5544"]},
+    {"canonical": "白いカケラ", "render": "白色碎片", "aliases": ["白色のカケラ"], "category": "evidence", "usage": "初见材质未知，不能提前改成漆片；5693解释后可称油漆碎片或漆片。", "status": "project_locked", "first_recorded_game": "kibu5", "source_refs": ["kibu5/game_terms/22"], "source_evidence": ["scn4:3895–3897", "scn6:5055", "scn6:5668", "scn6:5737"]},
+    {"canonical": "塗料片", "render": "油漆碎片", "category": "evidence", "usage": "材质揭露后使用；塗片→漆片（5556），白い塗料片→白色漆片（5749）。", "status": "project_locked", "first_recorded_game": "kibu5", "source_refs": ["kibu5/game_terms/23"], "source_evidence": ["scn6:5693", "scn6:5749"]},
+    {"canonical": "事務員", "render": "事务员", "category": "clue", "usage": "益田口述具体职位，区别报道的公司职员，不抹平推理信息差。", "status": "project_locked", "first_recorded_game": "kibu5", "source_refs": ["kibu5/game_terms/24"], "source_evidence": ["scn4:4073", "scn4:4077"]},
+    {"canonical": "会社員", "render": "公司职员", "category": "clue", "usage": "报道笼统职业，不能提前细化为事务员。", "status": "project_locked", "first_recorded_game": "kibu5", "source_refs": ["kibu5/game_terms/25"], "source_evidence": ["scn4:4080–4081"]},
+    {"canonical": "ニャン", "render": "喵", "category": "form_of_address", "usage": "仅癸生川故意错称喜屋武时用；さん按语境喵先生，君可短称喵；不是新人物，不自动纠正。 首次scn6:5109–5111在旁白后加引号外译注：喜屋武的日语读音与日语猫叫声“喵”相近；后续不重复注释。", "status": "project_locked", "first_recorded_game": "kibu5", "source_refs": ["kibu5/game_terms/26"], "source_evidence": ["scn6:5106", "scn6:5702"]},
+    {"canonical": "ダンスショー・デストロイヤー", "render": "舞蹈秀终结者", "category": "nickname", "usage": "弥勒院让彩子转告生王、形容癸生川到来的戏称，不作正式人物姓名。", "status": "project_locked", "first_recorded_game": "kibu5", "source_refs": ["kibu5/game_terms/27"], "source_evidence": ["scn6:4987–4988"]},
+    {"canonical": "ルビンの壺", "render": "鲁宾之杯", "category": "concept", "usage": "多义图形示例，不是本案证物。", "status": "project_locked", "first_recorded_game": "kibu5", "source_refs": ["kibu5/game_terms/28"], "source_evidence": ["scn6:5171–5172"]},
+    {"canonical": "多義図形", "render": "多义图形", "category": "concept", "usage": "沿用本章审校用语。", "status": "project_locked", "first_recorded_game": "kibu5", "source_refs": ["kibu5/game_terms/29"], "source_evidence": ["scn6:5173"]},
+    {"canonical": "昏い匣の上", "render": "暗匣之上", "category": "title", "usage": "匣指向电梯轿厢，保留“之上”空间关系。", "status": "project_locked", "first_recorded_game": "kibu5", "source_refs": ["kibu5/game_terms/30"], "source_evidence": ["scn3:3036–3037", "scn6:6039"]},
+    {"canonical": "PASSWORD?", "render": "密码？", "category": "computer_ui", "usage": "模拟电脑界面统一提示，不修改光标和密码输入顺序。", "status": "project_locked", "first_recorded_game": "kibu5", "source_refs": ["kibu5/game_terms/31"], "source_evidence": ["scn4:4293", "scn4:4344", "scn6:5232", "scn6:5234"]},
+    {"canonical": "ERROR!!", "render": "错误！", "category": "computer_ui", "status": "project_locked", "first_recorded_game": "kibu5", "source_refs": ["kibu5/game_terms/32"], "source_evidence": ["scn4:4354"]},
+    {"canonical": "OK!", "render": "验证成功！", "category": "computer_ui", "status": "project_locked", "first_recorded_game": "kibu5", "source_refs": ["kibu5/game_terms/33"], "source_evidence": ["scn6:5242"]},
+    {"canonical": "離れていても、心はいつでもあなたのお隣", "render": "哪怕相隔再远，我的心也永远是您的邻居！", "category": "character_catchphrase", "status": "project_locked", "first_recorded_game": "kibu1", "usage": "林居刑警完整自我介绍中的固定口头禅；保留邻居与林居的中文同音双关。跨字符串槽连读为本条定译。简略版、被打断版只译原文说出的部分，不补全；例如あなたの隣に…保留未完句。離れていてもお隣さん是不同简略变体，不强行替换为完整句。姓名、年龄及前后问候按各作原文保留。", "note": "2026-09-09用户确认统一；证据：第一作scn3:2830–2831，第二作scn0:857–858，第五作scn3:3379–3380。", "aliases": ["離れていても､心はいつでもあなたのお隣"], "source_refs": ["kibu1/terms/37", "kibu2/terms/14", "kibu5/game_terms/34"]}
+  ],
+  "non_translate": [
+    {"canonical": "{0}", "render": "{0}", "category": "placeholder", "status": "preserve_in_context", "first_recorded_game": "kibu1", "source_refs": ["kibu1/non_translate/0"]},
+    {"canonical": "Tactical", "render": "Tactical", "category": "clue_or_pronunciation", "status": "preserve_in_context", "first_recorded_game": "kibu1", "source_refs": ["kibu1/non_translate/1"]},
+    {"canonical": "Climax", "render": "Climax", "category": "clue_or_pronunciation", "status": "preserve_in_context", "first_recorded_game": "kibu1", "source_refs": ["kibu1/non_translate/2"]},
+    {"canonical": "Snowman", "render": "Snowman", "category": "clue_or_pronunciation", "status": "preserve_in_context", "first_recorded_game": "kibu1", "source_refs": ["kibu1/non_translate/3"]},
+    {"canonical": "ＩＳＥＥＯＳ", "render": "ＩＳＥＥＯＳ", "category": "clue", "usage": "保持全角大写与序列；角色把它看成I SEE OS的误读保留，不能提前替成数字答案。", "status": "preserve_in_context", "first_recorded_game": "kibu5", "source_refs": ["kibu5/non_translate/0"], "source_evidence": ["scn3:3266", "scn4:4203", "scn6:5188", "scn6:5216"]},
+    {"canonical": "５０３３５１", "render": "５０３３５１", "category": "clue", "usage": "180度倒转字样后的显示；逐字输入仍保留半角5/0/3/3/5/1（5236–5241）。", "status": "preserve_in_context", "first_recorded_game": "kibu5", "source_refs": ["kibu5/non_translate/1"], "source_evidence": ["scn6:5220"]},
+    {"canonical": "Ｒ", "render": "Ｒ", "category": "floor_marker", "usage": "本作楼顶楼层指示符，保持源全角Ｒ。", "status": "preserve_in_context", "first_recorded_game": "kibu5", "source_refs": ["kibu5/non_translate/2"], "source_evidence": ["scn2:2811", "scn6:6085"]}
+  ],
+  "ambiguities": [
+    {"source": "白鷺洲", "candidates": ["白鷺洲伊綱", "白鷺洲"], "usage": "按作品与语境保留；别名重合不构成同一实体证据，不自动覆盖。"},
+    {"source": "菊川", "candidates": ["菊川", "菊川春奈"], "usage": "按作品与语境保留；别名重合不构成同一实体证据，不自动覆盖。"}
+  ],
+  "source_tables": {
+    "kibu1": {"path": "games/01-kamen-gensou/work/glossary.locked.json", "sha256": "d1fa0ca737537e52625759585f00cbfc022cc545181c909bc7974bfb22f00bc1"},
+    "kibu2": {"path": "games/02-kairou/work/glossary.locked.json", "sha256": "858afaa00fd149df1fc30ed161ad9051a2b89e2ce2e73626967abb405f249c19"},
+    "kibu3": {"path": "games/03-shisha-no-rakuen/work/glossary.locked.json", "sha256": "6d4132dccc511cca089bba61820bf922a1fa7fcf6b1e2b2a10681fc90d25ac30"},
+    "kibu4": {"path": "games/04-shirasagi/work/glossary.locked.json", "sha256": "82a9c2f39e3adfd96512464147c3c0e6e4adfd3f7791d1170804c0aeb1180c7d"},
+    "kibu5": {"path": "games/05-kurai-hako/work/glossary.locked.json", "sha256": "03ac78dc6bce193e13743ff82ca3172db194f16f0f8f47773eca2f16753e6ed2"}
+  },
+  "role": "系列前作已确认术语基线；本作新增、暂译和特殊用法由本作表维护。确认并审校后提升到公共表供后续作品复用。"
 }

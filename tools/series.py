@@ -7,9 +7,12 @@ from project_config import resolve, read, ROOT
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('action', choices=['list','paths','status','extract','probe','build','verify','install','apply','batch','legacy-build','text-check'])
+    parser.add_argument('action', choices=['list','paths','status','extract','probe','build','verify','install','apply','batch','legacy-build','text-check','click-check'])
     parser.add_argument('--game')
     args, rest = parser.parse_known_args()
+    if args.action == 'click-check':
+        subprocess.run([sys.executable, str(ROOT/'tools/click_boundaries.py'), '--game', args.game or 'all'] + rest, cwd=ROOT, check=True)
+        return
     if args.action == 'text-check':
         subprocess.run([sys.executable, str(ROOT/'tools/check_text_style.py'), '--game', args.game or 'all'] + rest, cwd=ROOT, check=True)
         return
