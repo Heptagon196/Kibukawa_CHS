@@ -40,7 +40,7 @@
 .venv/Scripts/python.exe tools/package_release.py --game <作品ID> --with-images --output out/github-release/<发布标识>
 ```
 
-`--with-images` 校验正文与图片插件各自的源文件、资源版本、ZIP成员和哈希后合并完整包。正文包成员须逐字节保持不变。
+`--with-images` 校验正文与图片插件各自的源文件、资源版本、ZIP成员和哈希后合并完整包。正文功能文件须逐字节保持不变；面向玩家的说明在最终组包时统一整理。
 图片插件目录为 `BepInEx/plugins/KibukawaImageReplacements`，版本与正文插件独立记录。作品专用图片替换的保留路由见图片插件说明。
 标题 PNG 是中文本地化衍生图，原作品图像权利归原权利人。通用插件的离线测试不等同于全部实机视觉验收。
 
@@ -53,3 +53,7 @@ ZIP直接解压到对应游戏exe目录。下载者应自行拥有原游戏；�
 ## 历史记录完整包
 
 需要合入历史记录时，先运行 `.venv/Scripts/python.exe engine/history/build.py`，再给 `tools/package_release.py` 添加 `--with-history`。组包校验历史插件源码指纹、DLL和许可证，保留正文与图片包原有成员。
+
+## 玩家说明
+
+完整包根目录只保留一份 `README.txt`，由 `series/README_PATCH.txt` 生成。内容限于安装、常用操作和反馈方式，使用普通玩家能理解的语言。各插件的开发说明不随完整包重复分发；许可证保留原有内容。

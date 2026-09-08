@@ -24,6 +24,27 @@ def require(condition, message):
         raise ValueError(message)
 
 
+def user_readme(content, title, with_history):
+    history = '\n历史记录\n按 H 或 PageUp 打开／关闭，用鼠标滚轮或上下键翻阅，按 Esc 关闭。\n退出游戏后，历史记录会清空。\n' if with_history else ''
+    text = (ROOT/'series/README_PATCH.txt').read_text(encoding='utf-8').format(title=title, history=history)
+    output = io.BytesIO()
+    with zipfile.ZipFile(io.BytesIO(content)) as original:
+        removed = {name for name in original.namelist() if '/' not in name and
+                   (name.startswith('README_') or name in ('历史记录说明.md', 'changelog.txt'))}
+        require('README.txt' not in original.namelist(), 'Unexpected existing unified README')
+        with zipfile.ZipFile(output, 'w', zipfile.ZIP_DEFLATED) as package:
+            for name in original.namelist():
+                if name not in removed: package.writestr(name, original.read(name))
+            package.writestr('README.txt', text.encode('utf-8-sig'))
+        with zipfile.ZipFile(io.BytesIO(output.getvalue())) as package:
+            require(package.testzip() is None, 'Corrupt documented package')
+            for name in original.namelist():
+                if name not in removed: require(package.read(name)==original.read(name), 'Payload changed while consolidating instructions')
+            root_docs = [n for n in package.namelist() if '/' not in n and n.lower().endswith(('.txt', '.md'))]
+            require(root_docs == ['README.txt'], 'More than one user document')
+    return output.getvalue()
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--game', nargs='+', required=True)
@@ -128,6 +149,7 @@ def main():
                     for name in base.namelist():require(combined.read(name)==base.read(name),'Existing payload changed')
                 content=merged.getvalue()
             image_metadata.update(history_plugin_version=history['version'],history_zip_sha256=digest(history_zip))
+        content=user_readme(content, entry['title'], args.with_history)
         verified.append((content, dict(game=game, number=entry['number'], title=entry['title'],
                                       version=config['plugin_version'], filename=filename, github_name=entry['github_name'],
                                       size=len(content), sha256=hashlib.sha256(content).hexdigest(),
