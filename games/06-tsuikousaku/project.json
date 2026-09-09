@@ -254,25 +254,6 @@
       "reason": "公共术语表保留的旧手机服务品牌；10992–10993合读为尚未注册该服务。"
     }
   },
-  "puzzle_experiment": {
-    "checkpoint": "550918d",
-    "scheme": "full-pinyin-nine-key-sum",
-    "start": 200,
-    "sequence": [
-      163,
-      144,
-      96,
-      67,
-      25,
-      0
-    ],
-    "alias": "西野优美子",
-    "opening_code": "9878",
-    "opening_answer": "YUPU",
-    "reference_page_required": false,
-    "runtime_tested": false,
-    "opening_distractor": "ZUPU（族谱，非地点）"
-  },
   "approved_empty_layout_text": {
     "986": {
       "source": "が刻",
@@ -519,5 +500,25 @@
       "target": "",
       "reason": "按原始变色指令边界重排中文；完整句义与标色对象已复核"
     }
+  },
+  "puzzle_localization": {
+    "checkpoint": "550918d",
+    "scheme": "full-pinyin-nine-key-sum",
+    "start": 200,
+    "sequence": [
+      163,
+      144,
+      96,
+      67,
+      25,
+      0
+    ],
+    "alias": "西野优美子",
+    "opening_code": "9878",
+    "opening_answer": "YUPU",
+    "reference_page_required": false,
+    "runtime_tested": false,
+    "opening_distractor": "ZUPU（族谱，非地点）",
+    "status": "adopted"
   }
 }

@@ -1,6 +1,6 @@
 # 第六作本地化交接
 
-当前为九键拼音实验分支 `experiment/kibu6-pinyin-puzzle`，原方案保存于提交 `550918d`。全作提取文本8,610条，活动文件为 `work/cache.json`；3,423个点击单元中，本次明确审查137个变化单元。方案、算术与限制见 `../PINYIN_EXPERIMENT.md`。
+当前方案已正式合入 `main`，原方案保存于提交 `550918d`。全作提取文本8,610条，活动文件为 `work/cache.json`；3,423个点击单元中，本次明确审查137个变化单元。方案、算术与限制见 `../PINYIN_LOCALIZATION.md`。
 
 不要重新开始翻译 scn2，也不要把旧的 opening-localization 报告当作最新进度。当前证据为 `reports/full-text-validation.json`、`work/click_boundaries.reviewed.json`、`reports/exclusion-review.json`。中日全文在 `translated_texts/full-review.md`。
 
