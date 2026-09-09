@@ -1,0 +1,426 @@
+{
+  "schema": 2,
+  "game": "kibu6",
+  "status": "full_text_reviewed",
+  "public_glossary": "series/glossary.json",
+  "characters": [
+    {
+      "canonical": "原 雄介",
+      "render": "原雄介",
+      "aliases": [
+        "原雄介"
+      ],
+      "category": "person_name",
+      "status": "confirmed_local",
+      "note": "汉字与读音hara yuusuke在本作可核；先按委托人身份称呼。后半段才揭露犯罪，不能提前改称凶手；与原田宽作分属两人。"
+    },
+    {
+      "canonical": "浜川優美子",
+      "render": "滨川优美子",
+      "status": "confirmed_local",
+      "category": "person_name",
+      "source_evidence": [
+        "scn0:162–165"
+      ],
+      "note": "伊纲潜伏调查时使用的假名；在scn6/scn8揭露前仍按原时点保留滨川，不提前换成伊纲。"
+    },
+    {
+      "canonical": "高山敏夫",
+      "render": "高山敏夫",
+      "status": "confirmed_local",
+      "category": "person_name",
+      "source_evidence": [
+        "scn0:418–421"
+      ],
+      "note": "秘书课课长；姓名跨字符串，读音未核。"
+    },
+    {
+      "canonical": "倉敷さやか",
+      "render": "仓敷沙耶香",
+      "status": "confirmed_local",
+      "category": "person_name",
+      "source_evidence": [
+        "scn0:577–584"
+      ],
+      "note": "さやか采用音译沙耶香，不声称原文存在同形汉字本名。姓名栏、菜单、对白统一。",
+      "aliases": [
+        "倉敷ｻﾔｶ"
+      ]
+    },
+    {
+      "canonical": "田中広美",
+      "render": "田中广美",
+      "status": "confirmed_local",
+      "category": "person_name",
+      "source_evidence": [
+        "scn1:929–934;1197–1219;1415–1416"
+      ],
+      "note": "女性，20岁；姓名读音タナカ ヒロミ见数字便条，中文不附读音。"
+    },
+    {
+      "canonical": "内野マヤ",
+      "render": "内野玛雅",
+      "status": "confirmed_local",
+      "category": "person_name",
+      "source_evidence": [
+        "scn1:937–942;1220–1239;1418–1419"
+      ],
+      "note": "女性27岁，姓读uchino；マヤ音译玛雅，不臆造日文汉字本名。"
+    },
+    {
+      "canonical": "楢原康司",
+      "render": "楢原康司",
+      "status": "confirmed_local",
+      "category": "person_name",
+      "source_evidence": [
+        "scn1:943–948;1240–1266;1421–1422"
+      ],
+      "note": "男性，51岁；ナラハラ コウジ见数字便条。不得把楢字误改为榊等近形字。"
+    },
+    {
+      "canonical": "夏目政隆",
+      "render": "夏目政隆",
+      "status": "confirmed_local",
+      "category": "person_name",
+      "source_evidence": [
+        "scn1:949–954;1267–1284;1424–1425"
+      ],
+      "note": "男性，17岁；ナツメ マサタカ见数字便条，中文不附读音。"
+    },
+    {
+      "canonical": "原田寛作",
+      "render": "原田宽作",
+      "status": "confirmed_local",
+      "category": "person_name",
+      "source_evidence": [
+        "scn2:1655–1659"
+      ],
+      "note": "人事部长；与原雄介是不同人物。"
+    },
+    {
+      "canonical": "赤沢雪人",
+      "render": "赤泽雪人",
+      "status": "confirmed_local",
+      "category": "person_name",
+      "source_evidence": [
+        "scn4:3286–3289;3451–3458"
+      ],
+      "note": "营业部员工；读音akasawa yukito见4068–4071；与松井的关系按当时揭露时点处理。"
+    },
+    {
+      "canonical": "松井愛香",
+      "render": "松井爱香",
+      "status": "confirmed_local",
+      "category": "person_name",
+      "source_evidence": [
+        "scn4:3453–3458"
+      ],
+      "note": "读音matsui manaka，爱香不可误读aika。普通称呼不附注音，五十音谜题提问的句外译注保留罗马音，数字值14。"
+    },
+    {
+      "canonical": "玉川ゆかり",
+      "render": "玉川由香里",
+      "category": "person_name_or_form",
+      "status": "confirmed_local",
+      "source_evidence": [
+        "subscn_1:8501"
+      ],
+      "note": "姓名栏原词；ゆかり作中文音译，不推定日本汉字写法。"
+    },
+    {
+      "canonical": "スズキタロウ",
+      "render": "Suzuki Taro",
+      "category": "person_name_or_form",
+      "status": "confirmed_local",
+      "source_evidence": [
+        "scn7:5053–5057"
+      ],
+      "note": "银行汇款署名，采用罗马字以免臆造汉字；仅疑似假名，不等同已确定的真实人物。"
+    },
+    {
+      "canonical": "勝田知徳",
+      "render": "胜田知德",
+      "category": "person_name_or_form",
+      "status": "confirmed_local",
+      "source_evidence": [
+        "scn9:6475"
+      ],
+      "note": "原作应用程序署名，按汉字简化，不改写作者身份。"
+    },
+    {
+      "canonical": "小川大輔",
+      "render": "小川大辅",
+      "category": "person_name_or_form",
+      "status": "confirmed_local",
+      "source_evidence": [
+        "scn9:6485"
+      ],
+      "note": "原作测试署名，按汉字简化。"
+    }
+  ],
+  "terms": [
+    {
+      "canonical": "対交錯事件",
+      "render": "对交错事件",
+      "category": "title",
+      "status": "confirmed_local",
+      "source_evidence": [
+        "scn9:6468",
+        "scn10:6876",
+        "UI:8533"
+      ],
+      "note": "全作审读后锁定为对交错事件，保留双视角交错和案件交错的标题意象。非官方译名声明。"
+    },
+    {
+      "canonical": "トークラ",
+      "render": "托克拉",
+      "status": "confirmed_local",
+      "category": "company_short_name",
+      "source_evidence": [
+        "scn0:211–223"
+      ],
+      "note": "トータルクラス简称，正文短称仍保留简称，不扩为全称。"
+    },
+    {
+      "canonical": "トータルクラス",
+      "render": "托塔尔克拉斯",
+      "status": "confirmed_local",
+      "category": "company_name",
+      "source_evidence": [
+        "scn0:218–223"
+      ],
+      "note": "片假名公司全称的中文音译；トークラ仍用简称托克拉，不推定英语登记名。"
+    },
+    {
+      "canonical": "アクシス",
+      "render": "阿克西斯",
+      "status": "confirmed_local",
+      "category": "company_name",
+      "source_evidence": [
+        "scn0:753–756"
+      ],
+      "note": "人才派遣公司，按音译为阿克西斯，不推定英语正式名。"
+    },
+    {
+      "canonical": "新倉町",
+      "render": "新仓町",
+      "status": "confirmed_local",
+      "category": "place_name",
+      "source_evidence": [
+        "scn0:758–764"
+      ],
+      "note": "简历假地址中的地名；假地址不等于虚构地名。"
+    },
+    {
+      "canonical": "金谷市",
+      "render": "金谷市",
+      "status": "confirmed_local",
+      "category": "place_name",
+      "source_evidence": [
+        "scn1:937–942"
+      ],
+      "note": "内野遇害地。"
+    },
+    {
+      "canonical": "中央町",
+      "render": "中央町",
+      "status": "confirmed_local",
+      "category": "place_name",
+      "source_evidence": [
+        "scn1:943–948"
+      ],
+      "note": "楢原遇害地。"
+    },
+    {
+      "canonical": "川北市",
+      "render": "川北市",
+      "status": "confirmed_local",
+      "category": "place_name",
+      "source_evidence": [
+        "scn1:949–954"
+      ],
+      "note": "夏目遇害地。"
+    },
+    {
+      "canonical": "ミッシング･リンク",
+      "render": "缺失的联系",
+      "status": "confirmed_local",
+      "category": "mystery_term",
+      "source_evidence": [
+        "scn1:1035–1042"
+      ],
+      "note": "紧接着失われた環称缺环，保持同一概念；不要补出具体联系。"
+    },
+    {
+      "canonical": "鞠浜警察署",
+      "render": "鞠滨警署",
+      "status": "confirmed_local",
+      "category": "location",
+      "source_evidence": [
+        "scn1:886"
+      ],
+      "note": "菜单短称；鞠浜台警察署在叙述中完整译鞠滨台警署。"
+    },
+    {
+      "canonical": "港公園",
+      "render": "港口公园",
+      "status": "confirmed_local",
+      "category": "project_term",
+      "source_evidence": [
+        "scn2:2036–2041"
+      ]
+    },
+    {
+      "canonical": "菜の花",
+      "render": "油菜花",
+      "status": "confirmed_local",
+      "category": "project_term",
+      "source_evidence": [
+        "scn4:2993–2998"
+      ]
+    },
+    {
+      "canonical": "グリ太",
+      "render": "古利太",
+      "status": "confirmed_local",
+      "category": "project_term",
+      "source_evidence": [
+        "scn3:2359–2362"
+      ]
+    },
+    {
+      "canonical": "永劫会",
+      "render": "永劫会",
+      "status": "confirmed_local",
+      "category": "project_term",
+      "source_evidence": [
+        "scn3:2457–2460"
+      ]
+    },
+    {
+      "canonical": "三ヶ野原",
+      "render": "三野原",
+      "category": "project_term",
+      "status": "confirmed_local",
+      "source_evidence": [
+        "scn5:3952–3956;scn11:7821–7825"
+      ],
+      "note": "地名，省略日语连接假名；不知道读音时不猜。"
+    },
+    {
+      "canonical": "橋町通り",
+      "render": "桥町街",
+      "category": "project_term",
+      "status": "confirmed_local",
+      "source_evidence": [
+        "scn10:6915–6916"
+      ],
+      "note": "街道名，序章与尾声一致。"
+    },
+    {
+      "canonical": "ローズカップ",
+      "render": "玫瑰杯",
+      "category": "project_term",
+      "status": "confirmed_local",
+      "source_evidence": [
+        "scn10:7000–7005"
+      ],
+      "note": "咖啡店名称；半角ﾛｰｽﾞｶｯﾌﾟ同名。",
+      "aliases": [
+        "ﾛｰｽﾞｶｯﾌﾟ"
+      ]
+    },
+    {
+      "canonical": "アインス",
+      "render": "艾因斯",
+      "category": "project_term",
+      "status": "confirmed_local",
+      "source_evidence": [
+        "scn11:8085–8087"
+      ],
+      "note": "站前啤酒馆，按片假名音译，不推定原文未给的外文拼写。"
+    },
+    {
+      "canonical": "失われた環",
+      "render": "缺环",
+      "category": "project_term",
+      "status": "confirmed_local",
+      "source_evidence": [
+        "scn1:1035–1042"
+      ],
+      "note": "与缺失的联系指同一推理概念；不提前补出联系内容。"
+    },
+    {
+      "canonical": "鞠浜市",
+      "render": "鞠滨市",
+      "category": "project_term",
+      "status": "confirmed_local",
+      "source_evidence": [
+        "scn2:1467–1469"
+      ],
+      "note": "原文鞠浜市不擅自补台字。"
+    },
+    {
+      "canonical": "鞠浜ｱｰｹｰﾄﾞ街",
+      "render": "鞠滨拱廊街",
+      "category": "project_term",
+      "status": "confirmed_local",
+      "source_evidence": [
+        "scn10:7020"
+      ],
+      "note": "地图菜单短称；叙述中按鞠浜台駅前アーケード译鞠滨台站前拱廊商店街。"
+    },
+    {
+      "canonical": "伊綱側へ",
+      "render": "转到伊纲",
+      "category": "project_term",
+      "status": "confirmed_local",
+      "source_evidence": [
+        "scn0/各视角菜单"
+      ],
+      "note": "视角切换指令，不表示人物移动。"
+    },
+    {
+      "canonical": "生王側へ",
+      "render": "转到生王",
+      "category": "project_term",
+      "status": "confirmed_local",
+      "source_evidence": [
+        "scn1/各视角菜单"
+      ],
+      "note": "视角切换指令。"
+    },
+    {
+      "canonical": "ｽｰﾊﾟｰｹﾞｰﾑﾗﾝﾁ",
+      "render": "ｽｰﾊﾟｰｹﾞｰﾑﾗﾝﾁ",
+      "category": "legacy_service",
+      "status": "confirmed_local",
+      "source_evidence": [
+        "assembly_ui:10992–10993"
+      ],
+      "note": "沿用公共表旧手机服务品牌的保留词，不翻成字面中文，也不改为未经证实的英文拼写。",
+      "keep_source": true
+    }
+  ],
+  "non_translate": [],
+  "rules": {
+    "policy": "同时读取系列公共术语表与规则；本作新增术语先记录来源和待核状态，不覆盖前作译文。",
+    "candidate_matching": "公共筛选中的みに和Ｒ可能为普通词子串或字母匹配，不凭词面套用第一作账号或第五作楼层线索。",
+    "scn0_timeline": "最后出勤三天前，合同约定工作到昨天，尚余两个工作日；不合并为合同到期后失踪。",
+    "corporate_titles": "専務→专务，常務→常务，課長→课长。职级涉及资料室准入条件，不改为泛指经理。",
+    "viewpoint_menu": "伊綱側へ→转到伊纲；推进等待提示明确切换另一视角，不当作普通场景移动。",
+    "scn1_catchphrase": "お隣に､座る私は音成です！→坐在您身边的邻居，就是我林居！属于本作简短自我介绍变体，不补成完整口头禅，不加姓氏谐音译注。",
+    "scn1_numbers": "数字便条保留原全角８９／７４／４５／２９，顺序田中、内野、楢原、夏目。只去除姓名注音；不提前解释数字含义。",
+    "scn1_uncertainty": "下调研、模仿犯可能性、未找到共通熟人等保留推定与调查范围；定期的在1245为经常/定期副词，不套用公共定期乘车票。",
+    "opening_phone": "scn0末尾与scn1末尾为同一电话的两侧；保留生王被挂断、伊纲被拿证物的林居打断，不为双方补齐对方未听到的信息。",
+    "name_reading_clues": "普通姓名与姓名栏不附日语注音；scn5五个姓/名谜题在同一点击单元用句外译注提供全名罗马音，以中点分姓与名。不能删掉后让玩家无法判断a段，也不提前写出选哪一边。",
+    "keypad_clues": "日文手机数字键a段：a1/ka2/sa3/ta4/na5/ha6/ma7/ya8/ra9/wa0；tanaka11,maya15,narahara29,masataka16,manaka14；100逐次减为89,74,45,29,15。hara15归零，hamakawa6+7+2+0也为15。",
+    "intro_puzzle": "３２５８表示sa-ka-na-ya（鱼店）。选项保留原假名并加罗马音；输出的每一条原单字槽对应同一个罗马音，分支/顺序不改。原源表静态连读把全部备选字串连起来，不代表实机一句话。",
+    "dynamic_inserts": "scn3第N次；scn11失败N次、扣N分及最终N分：N由opcode82插入，中文按插入点分割，不把计数移到句外。",
+    "dual_timeline": "生王主线比伊纲调查线晚约一个月；松井遇害与原受伤是两个不同时间点，照片、献花、失踪及电话按各视角知情范围保留。",
+    "endgame_uncertainty": "scn7交换杀人初为伊纲推测，原田辩解不当作客观事实；scn9原仍否认交换杀人，幕后人身份与四年前恩怨不自行补名。",
+    "source_anomalies": "scn3:2725源文说内野对不上电子设备线索，虽内野有MD也按原台词保留；scn6:4521原句疑漏前，依同作已明说的三天前/昨天/余两天译合同到期前两天。",
+    "fixed_text_layout": "数字卡保留全角数字及空白占位，仅删除普通姓名读音。署名单行角色/姓名定位保持，关 友己沿用公共表内部空格。正文文本完成不等于中文实机布局已验证。"
+  },
+  "review_date": "2026-09-09"
+}

@@ -1,0 +1,417 @@
+{
+  "schema": 1,
+  "id": "kibu6",
+  "adapter": "gmode-v1",
+  "plugin_version": "0.1.0",
+  "source_fingerprints": "work/manifest.json",
+  "translation": "work/cache.json",
+  "glossary": "work/glossary.locked.json",
+  "resource_archive": "tuikousaku.res",
+  "compatibility": {
+    "stage": "text_translation_complete",
+    "runtime_tested": false,
+    "release_ready": false,
+    "hooks_ready": false,
+    "translation_complete": true,
+    "adapter_reviewed": true,
+    "notes": "Reuse gmode-v1. Compared method bodies, locals, handlers, CanvasEx fields, RVA data, codec and command definitions with validated prior games. Differences from kibu5 are resource/audio constants and Paint image offsets. Translation hooks and sixth-game layouts remain pending; bootstrap only.",
+    "translated_entries": 8610,
+    "text_semantic_reviewed": true,
+    "pending_entries": 0,
+    "reviewed_click_units": 3423
+  },
+  "layout": {
+    "status": "pending sixth-game review",
+    "chinese_layout_verified": false,
+    "offline_verified": false
+  },
+  "bepinex": {
+    "profile": "mono-win-x64-5.4.23.5",
+    "managed": "kibu6_Data/Managed",
+    "assembly": "Kibu6ZhCN.dll",
+    "plugin_directory": "Kibu6ZhCN",
+    "references": [
+      "mscorlib.dll",
+      "netstandard.dll",
+      "System.dll",
+      "System.Core.dll",
+      "UnityEngine.dll",
+      "UnityEngine.CoreModule.dll",
+      "UnityEngine.UI.dll",
+      "UnityEngine.UIModule.dll",
+      "UnityEngine.TextRenderingModule.dll",
+      "UnityEngine.ImageConversionModule.dll"
+    ]
+  },
+  "source_title": "対交錯事件",
+  "translation_title": "对交错事件",
+  "approved_layout_text": {
+    "856": {
+      "source": "　　 CHAPTER ２",
+      "target": "　　 第二章",
+      "reason": "原作章节结束标题的居中缩进，保留三个全角空格；实机布局待用户验证。"
+    },
+    "1414": {
+      "source": "　",
+      "target": "　",
+      "reason": "数字便条原有的全角排版空格，保留原布局；待实机验证。"
+    },
+    "1417": {
+      "source": "　",
+      "target": "　",
+      "reason": "数字便条原有的全角排版空格，保留原布局；待实机验证。"
+    },
+    "1420": {
+      "source": "　",
+      "target": "　",
+      "reason": "数字便条原有的全角排版空格，保留原布局；待实机验证。"
+    },
+    "1423": {
+      "source": "　",
+      "target": "　",
+      "reason": "数字便条原有的全角排版空格，保留原布局；待实机验证。"
+    },
+    "2264": {
+      "source": "　　 CHAPTER ３",
+      "target": "　　 第三章",
+      "reason": "原章节标题缩进，保留布局空白。"
+    },
+    "2878": {
+      "source": "　",
+      "target": "　",
+      "reason": "重复数字便条的原全角排版占位。"
+    },
+    "2881": {
+      "source": "　",
+      "target": "　",
+      "reason": "重复数字便条的原全角排版占位。"
+    },
+    "2884": {
+      "source": "　",
+      "target": "　",
+      "reason": "重复数字便条的原全角排版占位。"
+    },
+    "2887": {
+      "source": "　",
+      "target": "　",
+      "reason": "重复数字便条的原全角排版占位。"
+    },
+    "3548": {
+      "source": "　　 CHAPTER ４",
+      "target": "　　 第四章",
+      "reason": "原章节标题缩进，保留布局空白。"
+    },
+    "4410": {
+      "source": "　",
+      "target": "　",
+      "reason": "数字便条原全角排版占位。"
+    },
+    "4413": {
+      "source": "　",
+      "target": "　",
+      "reason": "数字便条原全角排版占位。"
+    },
+    "4416": {
+      "source": "　",
+      "target": "　",
+      "reason": "数字便条原全角排版占位。"
+    },
+    "4419": {
+      "source": "　",
+      "target": "　",
+      "reason": "数字便条原全角排版占位。"
+    },
+    "4422": {
+      "source": "　",
+      "target": "　",
+      "reason": "数字便条原全角排版占位。"
+    },
+    "6467": {
+      "source": "　　",
+      "target": "　　",
+      "reason": "片尾署名或场景卡固定行排版，保留原空白槽位；实机待验证。"
+    },
+    "6469": {
+      "source": "　　　 STAFF",
+      "target": "　　 制作人员",
+      "reason": "片尾署名或场景卡固定行排版，保留原空白槽位；实机待验证。"
+    },
+    "6471": {
+      "source": "　　　　　 石山貴也",
+      "target": "　　　　 石山贵也",
+      "reason": "片尾署名或场景卡固定行排版，保留原空白槽位；实机待验证。"
+    },
+    "6473": {
+      "source": "　　　　　 生王正生",
+      "target": "　　　　 生王正生",
+      "reason": "片尾署名或场景卡固定行排版，保留原空白槽位；实机待验证。"
+    },
+    "6475": {
+      "source": "　　　　　 勝田知徳",
+      "target": "　　　　 胜田知德",
+      "reason": "片尾署名或场景卡固定行排版，保留原空白槽位；实机待验证。"
+    },
+    "6477": {
+      "source": "　　　　　 時田正彦",
+      "target": "　　　　 时田正彦",
+      "reason": "片尾署名或场景卡固定行排版，保留原空白槽位；实机待验证。"
+    },
+    "6479": {
+      "source": "　　　　　　関 友己",
+      "target": "　　　　　 关 友己",
+      "reason": "片尾署名或场景卡固定行排版，保留原空白槽位；实机待验证。"
+    },
+    "6481": {
+      "source": "　　　　 木戸万樹夫",
+      "target": "　　　 木户万树夫",
+      "reason": "片尾署名或场景卡固定行排版，保留原空白槽位；实机待验证。"
+    },
+    "6483": {
+      "source": "　　　　　 石山貴也",
+      "target": "　　　　 石山贵也",
+      "reason": "片尾署名或场景卡固定行排版，保留原空白槽位；实机待验证。"
+    },
+    "6485": {
+      "source": "　　　　　 小川大輔",
+      "target": "　　　　 小川大辅",
+      "reason": "片尾署名或场景卡固定行排版，保留原空白槽位；实机待验证。"
+    },
+    "6487": {
+      "source": "　　　　　 平賀由紀",
+      "target": "　　　　 平贺由纪",
+      "reason": "片尾署名或场景卡固定行排版，保留原空白槽位；实机待验证。"
+    },
+    "6489": {
+      "source": "　　　　　 関根聖子",
+      "target": "　　　　 关根圣子",
+      "reason": "片尾署名或场景卡固定行排版，保留原空白槽位；实机待验证。"
+    },
+    "6490": {
+      "source": "　　　　　 青木華恵",
+      "target": "　　　　 青木华惠",
+      "reason": "片尾署名或场景卡固定行排版，保留原空白槽位；实机待验证。"
+    },
+    "6492": {
+      "source": " (c) 2005 GENKI &",
+      "target": " (c) 2005 GENKI &",
+      "reason": "片尾署名或场景卡固定行排版，保留原空白槽位；实机待验证。"
+    },
+    "6493": {
+      "source": " (c) Genki Mobile",
+      "target": " (c) Genki Mobile",
+      "reason": "片尾署名或场景卡固定行排版，保留原空白槽位；实机待验证。"
+    },
+    "6723": {
+      "source": "　 …その日の夜",
+      "target": "　 ……当天晚上",
+      "reason": "片尾署名或场景卡固定行排版，保留原空白槽位；实机待验证。"
+    },
+    "6724": {
+      "source": "　　　港公園",
+      "target": "　　 港口公园",
+      "reason": "片尾署名或场景卡固定行排版，保留原空白槽位；实机待验证。"
+    },
+    "6851": {
+      "source": "　　 ― 了 ―",
+      "target": "　　 ——完——",
+      "reason": "片尾署名或场景卡固定行排版，保留原空白槽位；实机待验证。"
+    },
+    "6878": {
+      "source": "　　INTRODUCTION",
+      "target": "　　序章",
+      "reason": "原章节卡的居中缩进。"
+    },
+    "7452": {
+      "source": "　　 おしまい",
+      "target": "　　 故事结束",
+      "reason": "原分支结尾居中标题。"
+    },
+    "8493": {
+      "source": "　　 CHAPTER １",
+      "target": "　　 第一章",
+      "reason": "章节标题居中缩进。"
+    }
+  },
+  "approved_empty_name_readings": {
+    "1415": "ﾀﾅｶ ﾋﾛﾐ",
+    "1418": "ｳﾁﾉ",
+    "1421": "ﾅﾗﾊﾗｺｳｼﾞ",
+    "1424": "ﾅﾂﾒ ﾏｻﾀｶ",
+    "2879": "ﾀﾅｶ ﾋﾛﾐ",
+    "2882": "ｳﾁﾉ",
+    "2885": "ﾅﾗﾊﾗｺｳｼﾞ",
+    "2888": "ﾅﾂﾒ ﾏｻﾀｶ",
+    "4411": "ﾀﾅｶ ﾋﾛﾐ",
+    "4414": "ｳﾁﾉ",
+    "4417": "ﾅﾗﾊﾗｺｳｼﾞ",
+    "4420": "ﾅﾂﾒ ﾏｻﾀｶ",
+    "4423": "ﾏﾂｲ ﾏﾅｶ"
+  },
+  "approved_retained_text": {
+    "7135": {
+      "source": "み",
+      "target": "み（mi）",
+      "reason": "手机日文键盘谜题选项，原假名保留并辅以罗马音，不改变分支映射。"
+    },
+    "7136": {
+      "source": "ろ",
+      "target": "ろ（ro）",
+      "reason": "手机日文键盘谜题选项，原假名保留并辅以罗马音，不改变分支映射。"
+    },
+    "7137": {
+      "source": "け",
+      "target": "け（ke）",
+      "reason": "手机日文键盘谜题选项，原假名保留并辅以罗马音，不改变分支映射。"
+    },
+    "7138": {
+      "source": "ぬ",
+      "target": "ぬ（nu）",
+      "reason": "手机日文键盘谜题选项，原假名保留并辅以罗马音，不改变分支映射。"
+    },
+    "7139": {
+      "source": "さ",
+      "target": "さ（sa）",
+      "reason": "手机日文键盘谜题选项，原假名保留并辅以罗马音，不改变分支映射。"
+    },
+    "7140": {
+      "source": "う",
+      "target": "う（u）",
+      "reason": "手机日文键盘谜题选项，原假名保留并辅以罗马音，不改变分支映射。"
+    },
+    "7141": {
+      "source": "て",
+      "target": "て（te）",
+      "reason": "手机日文键盘谜题选项，原假名保留并辅以罗马音，不改变分支映射。"
+    },
+    "7142": {
+      "source": "す",
+      "target": "す（su）",
+      "reason": "手机日文键盘谜题选项，原假名保留并辅以罗马音，不改变分支映射。"
+    },
+    "7145": {
+      "source": "ん",
+      "target": "ん（n）",
+      "reason": "手机日文键盘谜题选项，原假名保留并辅以罗马音，不改变分支映射。"
+    },
+    "7146": {
+      "source": "か",
+      "target": "か（ka）",
+      "reason": "手机日文键盘谜题选项，原假名保留并辅以罗马音，不改变分支映射。"
+    },
+    "7147": {
+      "source": "に",
+      "target": "に（ni）",
+      "reason": "手机日文键盘谜题选项，原假名保留并辅以罗马音，不改变分支映射。"
+    },
+    "7148": {
+      "source": "み",
+      "target": "み（mi）",
+      "reason": "手机日文键盘谜题选项，原假名保留并辅以罗马音，不改变分支映射。"
+    },
+    "7149": {
+      "source": "り",
+      "target": "り（ri）",
+      "reason": "手机日文键盘谜题选项，原假名保留并辅以罗马音，不改变分支映射。"
+    },
+    "7150": {
+      "source": "ふ",
+      "target": "ふ（fu）",
+      "reason": "手机日文键盘谜题选项，原假名保留并辅以罗马音，不改变分支映射。"
+    },
+    "7151": {
+      "source": "の",
+      "target": "の（no）",
+      "reason": "手机日文键盘谜题选项，原假名保留并辅以罗马音，不改变分支映射。"
+    },
+    "7152": {
+      "source": "し",
+      "target": "し（shi）",
+      "reason": "手机日文键盘谜题选项，原假名保留并辅以罗马音，不改变分支映射。"
+    },
+    "7155": {
+      "source": "お",
+      "target": "お（o）",
+      "reason": "手机日文键盘谜题选项，原假名保留并辅以罗马音，不改变分支映射。"
+    },
+    "7156": {
+      "source": "い",
+      "target": "い（i）",
+      "reason": "手机日文键盘谜题选项，原假名保留并辅以罗马音，不改变分支映射。"
+    },
+    "7157": {
+      "source": "き",
+      "target": "き（ki）",
+      "reason": "手机日文键盘谜题选项，原假名保留并辅以罗马音，不改变分支映射。"
+    },
+    "7158": {
+      "source": "ご",
+      "target": "ご（go）",
+      "reason": "手机日文键盘谜题选项，原假名保留并辅以罗马音，不改变分支映射。"
+    },
+    "7159": {
+      "source": "な",
+      "target": "な（na）",
+      "reason": "手机日文键盘谜题选项，原假名保留并辅以罗马音，不改变分支映射。"
+    },
+    "7160": {
+      "source": "こ",
+      "target": "こ（ko）",
+      "reason": "手机日文键盘谜题选项，原假名保留并辅以罗马音，不改变分支映射。"
+    },
+    "7161": {
+      "source": "と",
+      "target": "と（to）",
+      "reason": "手机日文键盘谜题选项，原假名保留并辅以罗马音，不改变分支映射。"
+    },
+    "7162": {
+      "source": "ふ",
+      "target": "ふ（fu）",
+      "reason": "手机日文键盘谜题选项，原假名保留并辅以罗马音，不改变分支映射。"
+    },
+    "7165": {
+      "source": "あ",
+      "target": "あ（a）",
+      "reason": "手机日文键盘谜题选项，原假名保留并辅以罗马音，不改变分支映射。"
+    },
+    "7166": {
+      "source": "に",
+      "target": "に（ni）",
+      "reason": "手机日文键盘谜题选项，原假名保留并辅以罗马音，不改变分支映射。"
+    },
+    "7167": {
+      "source": "ろ",
+      "target": "ろ（ro）",
+      "reason": "手机日文键盘谜题选项，原假名保留并辅以罗马音，不改变分支映射。"
+    },
+    "7168": {
+      "source": "で",
+      "target": "で（de）",
+      "reason": "手机日文键盘谜题选项，原假名保留并辅以罗马音，不改变分支映射。"
+    },
+    "7169": {
+      "source": "こ",
+      "target": "こ（ko）",
+      "reason": "手机日文键盘谜题选项，原假名保留并辅以罗马音，不改变分支映射。"
+    },
+    "7170": {
+      "source": "ち",
+      "target": "ち（chi）",
+      "reason": "手机日文键盘谜题选项，原假名保留并辅以罗马音，不改变分支映射。"
+    },
+    "7171": {
+      "source": "や",
+      "target": "や（ya）",
+      "reason": "手机日文键盘谜题选项，原假名保留并辅以罗马音，不改变分支映射。"
+    },
+    "7172": {
+      "source": "は",
+      "target": "は（ha）",
+      "reason": "手机日文键盘谜题选项，原假名保留并辅以罗马音，不改变分支映射。"
+    },
+    "10993": {
+      "source": "されていません      ",
+      "target": "ｽｰﾊﾟｰｹﾞｰﾑﾗﾝﾁ",
+      "reason": "公共术语表保留的旧手机服务品牌；10992–10993合读为尚未注册该服务。"
+    }
+  }
+}
