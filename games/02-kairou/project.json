@@ -2,7 +2,7 @@
   "schema": 1,
   "id": "kibu2",
   "adapter": "gmode-v1",
-  "plugin_version": "0.2.9",
+  "plugin_version": "0.2.10",
   "source_fingerprints": "work/manifest.json",
   "translation": "work/cache.json",
   "glossary": "work/glossary.locked.json",
@@ -45,5 +45,17 @@
       "UnityEngine.TextRenderingModule.dll",
       "UnityEngine.ImageConversionModule.dll"
     ]
+  },
+  "approved_empty_layout_text": {
+    "7617": {
+      "source": "なんだ",
+      "target": "",
+      "reason": "按原始颜色边界重排中文；同一点击单元全文及标色语义已复核"
+    },
+    "7691": {
+      "source": "だか",
+      "target": "",
+      "reason": "按原始颜色边界重排中文；同一点击单元全文及标色语义已复核"
+    }
   }
 }

@@ -280,7 +280,7 @@ def extract():
                 decoded.append(value if arg['value'] else None)
                 strings += bool(value)
                 add(name+'.txt', value, dict(location, kind='script', offset=arg['offset'], instruction=command['offset'], opcode=command['opcode'], argument=index))
-            replay.append(dict(script=name, instruction=command['offset'], opcode=command['opcode'], nextCursor=command['end'], strings=decoded))
+            replay.append(dict(script=name, instruction=command['offset'], opcode=command['opcode'], nextCursor=command['end'], strings=decoded, integers=[a['value'] if a['value']<2147483648 else a['value']-4294967296 for a in command['args'] if a['kind']!=3]))
         script_stats[name] = dict(bytes=len(data), instructions=len(commands), strings=strings,
                                  jumps=sum(arg['kind'] == 4 for c in commands for arg in c['args']))
     rows = list(csv.reader(io.StringIO(text_assets(GAME/(STREAM+'localization'))['Localization'].decode('utf-8-sig'))))
@@ -352,6 +352,8 @@ def extract():
         require(sha((WORK/'work/cache.json').read_bytes()) == cache_hash, 'Translation cache changed during extraction')
     save(WORK/'research/engine-comparison.json', comparisons)
     save(WORK/'research/source-replay.json', dict(commands=replay))
+    from dialogue_tags import document
+    save(WORK/'texts/dialogue-tagged.json',document(WORK,replay))
     save(WORK/'reports/previous-projects-extract-baseline.json', first_before)
     for name, group in files.items():
         path = inside(WORK/'texts'/name)

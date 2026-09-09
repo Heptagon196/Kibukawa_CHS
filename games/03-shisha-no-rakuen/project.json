@@ -2,7 +2,7 @@
   "schema": 1,
   "id": "kibu3",
   "adapter": "gmode-v1",
-  "plugin_version": "0.2.3",
+  "plugin_version": "0.2.4",
   "source_fingerprints": "work/manifest.json",
   "translation": "work/cache.json",
   "glossary": "work/glossary.locked.json",
@@ -50,5 +50,27 @@
     "1307": "(ﾋﾉ ｼﾞﾝﾍﾟｲ)",
     "1116": "(ｱｽﾞﾏ ｼﾝｲﾁﾛｳ)",
     "2370": "(ﾔｸﾞﾁ ｼｮｳｺ)"
+  },
+  "approved_empty_layout_text": {
+    "3429": {
+      "source": "した､",
+      "target": "",
+      "reason": "按原始颜色边界重排中文；同一点击单元全文及标色语义已复核"
+    },
+    "4989": {
+      "source": "と読んでい",
+      "target": "",
+      "reason": "按原始颜色边界重排中文；同一点击单元全文及标色语义已复核"
+    },
+    "5012": {
+      "source": "を隠す事に黄味島さ",
+      "target": "",
+      "reason": "按原始颜色边界重排中文；同一点击单元全文及标色语义已复核"
+    },
+    "6252": {
+      "source": "が",
+      "target": "",
+      "reason": "按原始颜色边界重排中文；同一点击单元全文及标色语义已复核"
+    }
   }
 }

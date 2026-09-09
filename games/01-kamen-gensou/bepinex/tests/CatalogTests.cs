@@ -61,7 +61,9 @@ public static class CatalogTests
             Assert(values[entry.slot] == "" && values[entry.slot] != null, "Empty name reading became a control marker");
             emptyReadings++;
         }
-        Assert(emptyReadings == 9, "Name-only reading fragment coverage changed");
+        foreach (int id in new[] {43,211,474,1288,2581,2937,4123,4840,4883})
+            Assert(Array.Exists(pack.scripts, e => e.index == id && e.target == ""), "Approved pronunciation omission changed: " + id);
+        Assert(emptyReadings == Array.FindAll(pack.scripts, e => e.target == "").Length, "Empty layout/name slot coverage changed");
         Console.WriteLine("PASS: " + translated + " script slots / " + commands + " commands; UI and localization; mismatch fallback; contextual duplicates.");
     }
     private static void Assert(bool success, string message) { if (!success) throw new Exception(message); }

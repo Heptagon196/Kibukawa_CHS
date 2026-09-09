@@ -1,4 +1,4 @@
-﻿param([switch]$CheckOnly)
+param([switch]$CheckOnly)
 $ErrorActionPreference = 'Stop'
 $workspace = [IO.Path]::GetFullPath((Join-Path $PSScriptRoot '..'))
 $paths = & (Join-Path $workspace '../../tools/project_paths.ps1') -Project $workspace
@@ -20,6 +20,11 @@ function SafePath($root, $relative) {
 $packageRoot = [IO.Path]::GetFullPath((Join-Path $build.output 'package'))
 if (!$packageRoot.StartsWith($workspace + '\', [StringComparison]::OrdinalIgnoreCase)) { throw 'Package outside workspace' }
 if ((FileHash $build.zip) -ne $build.zip_sha256) { throw 'ZIP checksum mismatch' }
+if ((FileHash (Join-Path $workspace 'work/cache.json')) -ne $build.reproducibility.translation_sha256) { throw 'Translations changed since build' }
+$seriesRoot = [IO.Path]::GetFullPath((Join-Path $workspace '../..'))
+foreach ($item in $build.reproducibility.source_hashes.PSObject.Properties) {
+    if ((FileHash (SafePath $seriesRoot $item.Name)) -ne $item.Value) { throw "Build source changed: $($item.Name)" }
+}
 $originals = @{}
 foreach ($item in $manifest.game_hashes.PSObject.Properties) {
     $originals[$item.Name.Replace('\','/')] = $item.Value

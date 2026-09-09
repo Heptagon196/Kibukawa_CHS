@@ -129,6 +129,8 @@ def export_pack(output):
             replay.append(dict(script=name, instruction=command['offset'], opcode=command['opcode'], nextCursor=command['end'], strings=strings, expected=expected, integers=integers))
     p.require(set(targets).issubset(slots), 'Translation refers to a nonexistent script slot')
     p.save(p.WORK/'bepinex/build/replay.json', dict(commands=replay))
+    from dialogue_tags import validate as validate_tags
+    validate_tags(p.WORK,replay)
     validate_click_boundaries(replay, p.WORK)
     return pack, manifest
 
@@ -172,6 +174,7 @@ def main():
     sources += sorted(path for path in (p.WORK/'bepinex/src').glob('*.cs') if path.name != 'BootstrapPlugin.cs')
     p.require(len({path.name for path in sources}) == len(sources), 'Duplicate C# source names')
     audit_sources = sources + sorted((p.WORK/'scripts').glob('*.py')) + [p.WORK/'scripts/validate_runtime.ps1', p.WORK/'bepinex/menu-labels.json', p.WORK/'bepinex/font-dependency.lock.json'] + sorted((p.WORK/'bepinex/tests').glob('*.cs'))
+    audit_sources += [p.SERIES/'tools/dialogue_tags.py',p.WORK/'work/dialogue-tagged.json',p.WORK/'research/color-spans.reviewed.json']
     source_hashes = {path.relative_to(p.SERIES).as_posix(): p.sha(path.read_bytes()) for path in audit_sources}
     shared.compile_plugin(framework, p.GAME/target['managed'], output/target['assembly'], sources, p.WORK/'bepinex/build/compile.rsp', target['references'])
     subprocess.run([sys.executable, str(p.WORK/'scripts/check_runtime.py')], check=True)

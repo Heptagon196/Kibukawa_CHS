@@ -2,7 +2,7 @@
   "schema": 1,
   "id": "kibu5",
   "adapter": "gmode-v1",
-  "plugin_version": "1.0.0",
+  "plugin_version": "1.0.1",
   "source_fingerprints": "work/manifest.json",
   "translation": "work/cache.json",
   "glossary": "work/glossary.locked.json",
@@ -185,5 +185,6 @@
       "target": "scn6",
       "reason": "scn0正常入口跳过的调试菜单脚本标识，保留技术字符串。"
     }
-  }
+  },
+  "approved_empty_layout_text": {}
 }

@@ -1,4 +1,4 @@
-﻿"""Offline extraction and relocation for this game's Unity/Socotra resources.
+"""Offline extraction and relocation for this game's Unity/Socotra resources.
 All writes are confined to translation_workspace. No install/deploy operation.
 """
 from __future__ import annotations
@@ -142,6 +142,27 @@ def game_hashes():
     paths += [p for p in GAME.iterdir() if p.is_file()]
     return {p.relative_to(GAME).as_posix():sha(p.read_bytes()) for p in sorted(paths)}
 
+def extract_tagged_dialogue():
+    """Reparse original instructions even when the legacy flat extraction already exists."""
+    from dialogue_tags import document
+    manifest=load(WORK/'work/manifest.json')
+    for rel,digest in manifest['source_hashes'].items():require(sha((GAME/rel).read_bytes())==digest,'Source changed: '+rel)
+    defs={int(k):v for k,v in manifest['definitions'].items()}
+    table=list(struct.unpack('<65537H',base64.b64decode(manifest['codec_base64'])))
+    file=text_objects(UnityPy.load(str(GAME/(STREAM+'file'))))
+    scratch=text_objects(UnityPy.load(str(GAME/(STREAM+'scratchpad'))))
+    archive=zipfile.ZipFile(io.BytesIO(raw_text(scratch['kamen.res'])))
+    scripts=[(n,archive.read(n)) for n in sorted(archive.namelist()) if re.fullmatch(r'scn\d+',n)]
+    scripts += [('subscn_'+str(i+1),b) for i,b in enumerate(sub_parts(raw_text(file['subscn'])))]
+    replay=[]
+    for name,data in scripts:
+        for c in parse_script(data,defs):
+            replay.append(dict(script=name,instruction=c['offset'],opcode=c['opcode'],nextCursor=c['end'],
+                strings=[decode(a['value'],table) if a['value'] else None for a in c['args'] if a['kind']==3],
+                integers=[a['value'] if a['value']<2147483648 else a['value']-4294967296 for a in c['args'] if a['kind']!=3]))
+    save(WORK/'research/source-replay.json',dict(commands=replay))
+    save(WORK/'texts/dialogue-tagged.json',document(WORK,replay))
+
 def extract():
     manifest_path=WORK/'work/manifest.json'
     if manifest_path.exists():
@@ -149,7 +170,8 @@ def extract():
         for rel,h in manifest['source_hashes'].items():
             require(sha((GAME/rel).read_bytes())==h, f'Game version changed: {rel}. Use a separate workspace.')
         require((WORK/'work/cache.json').exists(), 'Existing manifest has no cache; restore cache from backup.')
-        print('Extraction already exists; cache and translations preserved.'); return
+        extract_tagged_dialogue()
+        print('Tagged extraction refreshed; cache and translations preserved.'); return
     before=game_hashes()
     (WORK/'work').mkdir(exist_ok=True)
     assembly('extract', GAME/DLL, WORK/'work/assembly_inventory.json')
@@ -219,6 +241,7 @@ def extract():
                detected_encoding='utf-8',detected_line_ending='\n',extra=dict(format='socotra-unity-v1',exporter='scripts/pipeline.py build'))
     manifest=dict(version=1,source_hashes=sources,game_hashes=before,entries=entries,script_stats=script_stats,codec_base64=inv['codec_base64'],definitions=defs)
     save(WORK/'work/cache.json',cache); save(manifest_path,manifest)
+    extract_tagged_dialogue()
     save(WORK/'work/glossary.draft.json',dict(characters=[],terms=[],non_translate=[],note='Not reviewed or locked. Populate before translating.'))
     for group,f in files.items():
         target=inside(WORK/'texts'/group); target.parent.mkdir(parents=True,exist_ok=True)
@@ -241,7 +264,7 @@ def validate_cache(cache,manifest):
         text=x['translated_text']
         approved_empty=(text == '' and e['location']['kind'] == 'script'
                         and e['location']['opcode'] == 72
-                        and EMPTY_NAME_READINGS.get(e['text_index']) == e['source_text'])
+                        and (EMPTY_NAME_READINGS.get(e['text_index']) == e['source_text'] or (load(WORK/'project.json').get('approved_empty_layout_text',{}).get(str(e['text_index']),{}).get('source') == e['source_text'] and x['extra'].get('empty_translation_reason'))))
         require(isinstance(text,str) and (text.strip() or approved_empty),f'Empty translation at {e["text_index"]}')
         require('\0' not in text,f'NUL in translation {e["text_index"]}')
         require(not any(0xd800<=ord(c)<=0xdfff for c in text),'Unpaired surrogate in translation')

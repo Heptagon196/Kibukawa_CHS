@@ -77,7 +77,7 @@ def export_pack(output):
         approved=retained.get('source')==row['source_text'] and retained.get('target')==target and bool(retained.get('reason'))
         p.require(isinstance(target, str) and '\0' not in target and (not re.search(r'[ぁ-ゖァ-ヺｦ-ﾟ]', target) or approved), 'Invalid target or kana residue')
         if target == '':
-            p.require(loc['kind'] == 'script' and loc['opcode'] == 72 and config['approved_empty_name_readings'].get(str(entry['text_index'])) == row['source_text'], 'Unapproved empty translation')
+            p.require(loc['kind'] == 'script' and loc['opcode'] == 72 and (config['approved_empty_name_readings'].get(str(entry['text_index'])) == row['source_text'] or (config.get('approved_empty_layout_text', {}).get(str(entry['text_index']), {}).get('source') == row['source_text'] and config['approved_empty_layout_text'][str(entry['text_index'])].get('target') == '' and config['approved_empty_layout_text'][str(entry['text_index'])].get('reason'))), 'Unapproved empty translation')
         if loc['kind'] == 'script':
             p.require(not any(c in target for c in '\r\n\t') and len(target.encode('utf-16-le'))//2 <= 20, 'Invalid script buffer content')
         tokens = lambda text: collections.Counter(re.findall(r'\{\d+(?:[^{}]*)\}|</?[A-Za-z][^>]*>', text))
@@ -118,6 +118,8 @@ def export_pack(output):
             replay.append(dict(script=name, instruction=command['offset'], opcode=command['opcode'], nextCursor=command['end'], strings=strings, expected=expected, integers=integers))
     p.require(set(targets).issubset(slots), 'Translation refers to a nonexistent script slot')
     p.save(p.WORK/'bepinex/build/replay.json', dict(commands=replay))
+    from dialogue_tags import validate as validate_tags
+    validate_tags(p.WORK,replay)
     validate_click_boundaries(replay, p.WORK)
     return pack, manifest
 
@@ -161,6 +163,7 @@ def main():
     p.require(len({path.name for path in sources}) == len(sources), 'Duplicate C# source names')
     audit_sources = sources + sorted((p.WORK/'scripts').glob('*.py')) + [p.WORK/'scripts/validate_runtime.ps1', p.WORK/'bepinex/menu-labels.json', p.WORK/'bepinex/font-dependency.lock.json'] + sorted((p.WORK/'bepinex/tests').glob('*.cs'))
     audit_sources += [p.SERIES/'tools/click_boundaries.py', p.WORK/'work/click_boundaries.reviewed.json']
+    audit_sources += [p.SERIES/'tools/dialogue_tags.py',p.WORK/'work/dialogue-tagged.json',p.WORK/'research/color-spans.reviewed.json']
     source_hashes = {path.relative_to(p.SERIES).as_posix(): p.sha(path.read_bytes()) for path in audit_sources}
     shared.compile_plugin(framework, p.GAME/target['managed'], output/target['assembly'], sources, p.WORK/'bepinex/build/compile.rsp', target['references'])
     subprocess.run([sys.executable, str(p.WORK/'scripts/check_runtime.py')], check=True)

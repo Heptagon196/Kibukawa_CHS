@@ -80,7 +80,7 @@ if ($process.ConstructorArguments[0].Value -ne 'kibu3.exe') { throw 'Process fil
 $metadata = $pluginType.CustomAttributes | Where-Object { $_.AttributeType.FullName -eq 'BepInEx.BepInPlugin' }
 if ($metadata.ConstructorArguments[0].Value -ne 'local.kibu3.zhcn') { throw 'Plugin ID mismatch' }
 if ($plugin.Name.Name -ne 'Kibu3ZhCN') { throw 'Plugin assembly mismatch' }
-if ($metadata.ConstructorArguments[2].Value -ne '0.2.3') { throw 'Plugin version mismatch' }
+if ($metadata.ConstructorArguments[2].Value -ne '0.2.4') { throw 'Plugin version mismatch' }
 $report = @{ hook_signatures_verified=$true; literal_ordinals_verified=$pack.literals.Count; plugin_metadata_verified=$true; game_runtime_tested=$false }
 $report | ConvertTo-Json | Set-Content -LiteralPath (Join-Path $workspace 'bepinex/build/hook_report.json') -Encoding utf8
 Write-Output "PASS: runtime hook signatures and $($pack.literals.Count) original IL literal positions."

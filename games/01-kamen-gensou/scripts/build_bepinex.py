@@ -115,6 +115,8 @@ def export_pack(out):
     p.save(ROOT/'build/replay.json',dict(commands=replay))
     generate_chat_layout(replay)
     validate_fixed_cards(replay)
+    from dialogue_tags import validate as validate_tags
+    validate_tags(p.WORK,replay)
     validate_click_boundaries(replay)
     width_report=validate_width(replay,pack)
     p.save(ROOT/'build/width_report.json',width_report)
@@ -192,7 +194,7 @@ def main():
         bepinex_profile=PROFILE, bepinex_lock=p.load(LOCK_PATH),
         bepinex_builder_sha256=p.sha(Path(shared.__file__).read_bytes()),
         series_config=p.load(p.SERIES/'series.json'), project=p.load(p.WORK/'project.json'),
-        source_hashes={x.relative_to(p.SERIES).as_posix():p.sha(x.read_bytes()) for x in all_sources()},
+        source_hashes={x.relative_to(p.SERIES).as_posix():p.sha(x.read_bytes()) for x in all_sources()+[p.SERIES/'tools/dialogue_tags.py',p.WORK/'work/dialogue-tagged.json',p.WORK/'research/color-spans.reviewed.json',p.WORK/'scripts/build_bepinex.py']},
         translation_sha256=p.sha((p.WORK/'work/cache.json').read_bytes()),
         manifest_sha256=p.sha((p.WORK/'work/manifest.json').read_bytes()))
     report['package_files']={x.relative_to(package).as_posix():p.sha(x.read_bytes()) for x in package.rglob('*') if x.is_file()}
