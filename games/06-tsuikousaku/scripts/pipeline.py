@@ -61,6 +61,11 @@ def save(path, data):
 
 
 def game_hashes():
+    # Once extracted, hash only immutable original files. BepInEx logs/caches
+    # may be added or locked by the game after installation.
+    manifest = WORK/'work/manifest.json'
+    if manifest.is_file():
+        return {name: sha((GAME/name).read_bytes()) for name in load(manifest)['game_hashes']}
     return {p.relative_to(GAME).as_posix(): sha(p.read_bytes())
             for p in sorted(GAME.rglob('*')) if p.is_file()}
 

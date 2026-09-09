@@ -2,28 +2,28 @@
   "schema": 1,
   "id": "kibu6",
   "adapter": "gmode-v1",
-  "plugin_version": "0.1.0",
+  "plugin_version": "1.0.0",
   "source_fingerprints": "work/manifest.json",
   "translation": "work/cache.json",
   "glossary": "work/glossary.locked.json",
   "resource_archive": "tuikousaku.res",
   "compatibility": {
-    "stage": "pinyin_puzzle_text_experiment",
+    "stage": "runtime_patch_user_testing",
     "runtime_tested": false,
-    "release_ready": false,
-    "hooks_ready": false,
+    "release_ready": true,
+    "hooks_ready": true,
     "translation_complete": true,
     "adapter_reviewed": true,
-    "notes": "Reuse gmode-v1. Compared method bodies, locals, handlers, CanvasEx fields, RVA data, codec and command definitions with validated prior games. Differences from kibu5 are resource/audio constants and Paint image offsets. Translation hooks and sixth-game layouts remain pending; bootstrap only. Experimental Chinese nine-key puzzle rewrite on experiment/kibu6-pinyin-puzzle; requires new clue/card/menu runtime verification.",
+    "notes": "Full text, contextual runtime hooks, pixel font, five Chinese help pages, title image and sixth-game layout validated offline. Chinese nine-key puzzle experiment; user visual/playthrough verification pending.",
     "translated_entries": 8610,
     "text_semantic_reviewed": true,
     "pending_entries": 0,
     "reviewed_click_units": 3423
   },
   "layout": {
-    "status": "pending sixth-game review; experiment adds three-digit clue values 163 and 144",
+    "status": "Full original-script replay, names, menus and fixed cards passed offline; visual verification pending user",
     "chinese_layout_verified": false,
-    "offline_verified": false
+    "offline_verified": true
   },
   "bepinex": {
     "profile": "mono-win-x64-5.4.23.5",
