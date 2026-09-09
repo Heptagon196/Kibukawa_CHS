@@ -19,7 +19,7 @@ namespace Kibu1ZhCN
                 case "scn9":
                     return (instruction >= 1335 && instruction <= 1970) ||
                            (instruction >= 6028 && instruction <= 6062) || instruction == 8396;
-                case "scn10": return (instruction >= 420 && instruction <= 438) || instruction == 10807;
+                case "scn10": return (instruction >= 420 && instruction <= 438) || (instruction >= 4457 && instruction <= 4589) || instruction == 10807;
                 case "scn11": return instruction >= 19296 && instruction <= 19313;
                 default: return false;
             }

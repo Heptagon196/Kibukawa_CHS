@@ -121,6 +121,7 @@ def export_pack(output):
     from tagged_dialogue import validate as validate_tags
     validate_tags(replay)
     subprocess.run([sys.executable, str(p.WORK/'scripts/test_color_spans.py')], check=True)
+    subprocess.run([sys.executable, str(p.WORK/'scripts/test_pinyin_puzzle.py')], check=True)
     validate_click_boundaries(replay, p.WORK)
     return pack, manifest
 
@@ -167,12 +168,13 @@ def main():
     p.require(len({path.name for path in sources}) == len(sources), 'Duplicate C# source names')
     audit_sources = sources + sorted((p.WORK/'scripts').glob('*.py')) + [p.WORK/'scripts/validate_runtime.ps1', p.WORK/'bepinex/menu-labels.json', p.WORK/'bepinex/font-dependency.lock.json'] + sorted((p.WORK/'bepinex/tests').glob('*.cs'))
     audit_sources += [p.SERIES/'tools/click_boundaries.py', p.WORK/'work/click_boundaries.reviewed.json']
-    audit_sources += [p.WORK/'work/dialogue-tagged.json', p.WORK/'research/color-spans.reviewed.json', p.WORK/'research/color-commands.json']
+    audit_sources += [p.SERIES/'tools/dialogue_tags.py', p.WORK/'work/dialogue-tagged.json', p.WORK/'research/color-spans.reviewed.json', p.WORK/'research/color-commands.json', p.WORK/'research/hard-breaks.json']
     audit_sources += [p.WORK/'project.json', p.WORK/'bepinex/README_INSTALL.txt']
     source_hashes = {path.relative_to(p.SERIES).as_posix(): p.sha(path.read_bytes()) for path in audit_sources}
     source_hashes.update(image_report['source_hashes'])
     shared.compile_plugin(framework, p.GAME/target['managed'], output/target['assembly'], sources, p.WORK/'bepinex/build/compile.rsp', target['references'])
     subprocess.run([sys.executable, str(p.WORK/'scripts/check_runtime.py')], check=True)
+    subprocess.run([sys.executable, str(p.WORK/'scripts/test_email_layout.py')], check=True)
     validation = p.load(p.WORK/'bepinex/build/runtime-validation.json')
     p.require(p.sha((p.WORK/'work/cache.json').read_bytes()) == cache_hash, 'Translation changed during build')
     p.require(all(p.sha((p.SERIES/name).read_bytes()) == digest for name, digest in source_hashes.items()), 'Runtime sources changed during compilation')

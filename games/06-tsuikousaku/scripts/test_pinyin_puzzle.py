@@ -45,18 +45,19 @@ class PuzzleTests(unittest.TestCase):
         self.assertEqual(score('内野'),25)
         self.assertIn('尚未遇害',self.texts[4965])
 
-    def test_opening_all_4096_paths_have_one_key_compatible_solution(self):
+    def test_opening_has_original_level_of_key_ambiguity(self):
         starts=[7135,7145,7155,7165];echoes=[7174,7182,7190,7198]
         options=[[self.rows[s+j]['translated_text'] for j in range(8)] for s in starts]
         for opts,echo in zip(options,echoes):
             self.assertEqual(len(set(opts)),8)
             self.assertEqual(opts,[self.rows[echo+j]['translated_text'] for j in range(8)])
         valid=[indices for indices in itertools.product(range(8),repeat=4)
-               if ''.join(str(KEY[options[k][v]]) for k,v in enumerate(indices))=='9822']
-        self.assertEqual(valid,[(4,1,4,6)])
-        self.assertEqual(''.join(options[k][v] for k,v in enumerate(valid[0])),'YUBA')
-        self.assertIn('９８２２',self.texts[7095])
-        self.assertIn('YUBA，就是鱼吧',self.texts[7207])
+               if ''.join(str(KEY[options[k][v]]) for k,v in enumerate(indices))=='9878']
+        self.assertEqual(valid,[(3,1,4,6),(4,1,4,6)])
+        self.assertEqual({''.join(options[k][v] for k,v in enumerate(path)) for path in valid},{'ZUPU','YUPU'})
+        self.assertEqual(''.join(options[k][v] for k,v in enumerate((4,1,4,6))),'YUPU')
+        self.assertIn('９８７８',self.texts[7095])
+        self.assertIn('YUPU，就是鱼铺',self.texts[7207])
 
     def test_original_opening_score_increments_match_the_new_solution(self):
         condition=None;credited=[]
@@ -73,7 +74,7 @@ class PuzzleTests(unittest.TestCase):
 
     def test_no_old_clues_or_notes_and_card_numbers(self):
         text=''.join(r['translated_text'] for r in self.rows.values() if r['translation_status']!=7)
-        for old in ['译注','滨川','a段','五十音','平假名','３２５８','sakanaya','tanaka','narahara','masataka','manaka','ha、ra']:
+        for old in ['鱼吧','YUBA','９８２２','两位或三位数','译注','滨川','a段','五十音','平假名','３２５８','sakanaya','tanaka','narahara','masataka','manaka','ha、ra']:
             self.assertNotIn(old,text)
         for ids in [[1416,1419,1422,1425],[2880,2883,2886,2889],[4412,4415,4418,4421]]:
             self.assertEqual([self.rows[i]['translated_text'].split('…')[1] for i in ids],['１６３','１４４','９６','６７'])

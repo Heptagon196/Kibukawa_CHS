@@ -2243,7 +2243,7 @@
       "script": "scn1",
       "end": 2189,
       "source": "｢額に<boundary=985/><color=YELLOW>２桁の数字</color><boundary=986/>が刻まれていて､",
-      "target": "“他们额头上都刻着<boundary=985/><color=YELLOW>两位或三位数</color><boundary=986/>，"
+      "target": "“他们额头上都刻着<boundary=985/><color=YELLOW>数字</color><boundary=986/>，"
     },
     {
       "script": "scn1",
@@ -3718,8 +3718,8 @@
     {
       "script": "scn10",
       "end": 4589,
-      "source": "<color=0>【差出人】amiami【件名】床子ちんへ【本文】橋町のここにいるからすぐ来てネ(⌒▽⌒「３２５８」</color>",
-      "target": "<color=0>【发件人】amiami【主题】给床子亲【正文】我在桥町的这里，快来哦(⌒▽⌒「９８２２」</color>"
+      "source": "<color=0>【差出人】</color><br=7096/><color=0>amiami</color><br=7097/><color=0>【件名】</color><br=7098/><color=0>床子ちんへ</color><br=7099/><color=0>【本文】</color><br=7100/><color=0>橋町のここにいるか</color><br=7101/><color=0>らすぐ来てネ(⌒▽⌒</color><br=7102/><color=0>「３２５８」</color>",
+      "target": "<color=0>【发件人】</color><br=7096/><color=0>amiami</color><br=7097/><color=0>【主题】</color><br=7098/><color=0>给床子亲</color><br=7099/><color=0>【正文】</color><br=7100/><color=0>我在桥町的这里，</color><br=7101/><color=0>快来哦(⌒▽⌒</color><br=7102/><color=0>「９８７８」</color>"
     },
     {
       "script": "scn10",
@@ -3737,7 +3737,7 @@
       "script": "scn10",
       "end": 4700,
       "source": "｢３２５８…？",
-      "target": "“９８２２……？"
+      "target": "“９８７８……？"
     },
     {
       "script": "scn10",
@@ -3767,7 +3767,7 @@
       "script": "scn10",
       "end": 4856,
       "source": "携帯に送られてきた､３２５８…｡",
-      "target": "发到手机里的，９８２２……”"
+      "target": "发到手机里的，９８７８……”"
     },
     {
       "script": "scn10",
@@ -3833,25 +3833,25 @@
       "script": "scn10",
       "end": 5289,
       "source": "<color=YELLOW>５</color><boundary=7154/>は…",
-      "target": "<color=YELLOW>２</color><boundary=7154/>是……"
+      "target": "<color=YELLOW>７</color><boundary=7154/>是……"
     },
     {
       "script": "scn10",
       "end": 5347,
       "source": "<color=YELLOW>８</color><boundary=7164/>は…",
-      "target": "<color=YELLOW>２</color><boundary=7164/>是……"
+      "target": "<color=YELLOW>８</color><boundary=7164/>是……"
     },
     {
       "script": "scn10",
       "end": 6040,
       "source": "｢…<boundary=7174/><color=YELLOW>み</color><boundary=7175/><color=YELLOW>ろ</color><boundary=7176/><color=YELLOW>け</color><boundary=7177/><color=YELLOW>ぬ</color><boundary=7178/><color=YELLOW>さ</color><boundary=7179/><color=YELLOW>う</color><boundary=7180/><color=YELLOW>て</color><boundary=7181/><color=YELLOW>す</color><boundary=7182/><color=YELLOW>ん</color><boundary=7183/><color=YELLOW>か</color><boundary=7184/><color=YELLOW>に</color><boundary=7185/><color=YELLOW>み</color><boundary=7186/><color=YELLOW>り</color><boundary=7187/><color=YELLOW>ふ</color><boundary=7188/><color=YELLOW>の</color><boundary=7189/><color=YELLOW>し</color><boundary=7190/><color=YELLOW>お</color><boundary=7191/><color=YELLOW>い</color><boundary=7192/><color=YELLOW>き</color><boundary=7193/><color=YELLOW>ご</color><boundary=7194/><color=YELLOW>な</color><boundary=7195/><color=YELLOW>こ</color><boundary=7196/><color=YELLOW>と</color><boundary=7197/><color=YELLOW>ふ</color><boundary=7198/><color=YELLOW>あ</color><boundary=7199/><color=YELLOW>に</color><boundary=7200/><color=YELLOW>ろ</color><boundary=7201/><color=YELLOW>で</color><boundary=7202/><color=YELLOW>こ</color><boundary=7203/><color=YELLOW>ち</color><boundary=7204/><color=YELLOW>や</color><boundary=7205/><color=YELLOW>は</color><boundary=7206/>？",
-      "target": "“……<boundary=7174/><color=YELLOW>D</color><boundary=7175/><color=YELLOW>F</color><boundary=7176/><color=YELLOW>H</color><boundary=7177/><color=YELLOW>L</color><boundary=7178/><color=YELLOW>Y</color><boundary=7179/><color=YELLOW>N</color><boundary=7180/><color=YELLOW>O</color><boundary=7181/><color=YELLOW>P</color><boundary=7182/><color=YELLOW>E</color><boundary=7183/><color=YELLOW>U</color><boundary=7184/><color=YELLOW>H</color><boundary=7185/><color=YELLOW>J</color><boundary=7186/><color=YELLOW>K</color><boundary=7187/><color=YELLOW>M</color><boundary=7188/><color=YELLOW>R</color><boundary=7189/><color=YELLOW>S</color><boundary=7190/><color=YELLOW>D</color><boundary=7191/><color=YELLOW>E</color><boundary=7192/><color=YELLOW>G</color><boundary=7193/><color=YELLOW>H</color><boundary=7194/><color=YELLOW>B</color><boundary=7195/><color=YELLOW>K</color><boundary=7196/><color=YELLOW>L</color><boundary=7197/><color=YELLOW>M</color><boundary=7198/><color=YELLOW>D</color><boundary=7199/><color=YELLOW>E</color><boundary=7200/><color=YELLOW>G</color><boundary=7201/><color=YELLOW>H</color><boundary=7202/><color=YELLOW>J</color><boundary=7203/><color=YELLOW>K</color><boundary=7204/><color=YELLOW>A</color><boundary=7205/><color=YELLOW>L</color><boundary=7206/>？"
+      "target": "“……<boundary=7174/><color=YELLOW>D</color><boundary=7175/><color=YELLOW>F</color><boundary=7176/><color=YELLOW>H</color><boundary=7177/><color=YELLOW>Z</color><boundary=7178/><color=YELLOW>Y</color><boundary=7179/><color=YELLOW>N</color><boundary=7180/><color=YELLOW>O</color><boundary=7181/><color=YELLOW>P</color><boundary=7182/><color=YELLOW>E</color><boundary=7183/><color=YELLOW>U</color><boundary=7184/><color=YELLOW>H</color><boundary=7185/><color=YELLOW>J</color><boundary=7186/><color=YELLOW>K</color><boundary=7187/><color=YELLOW>M</color><boundary=7188/><color=YELLOW>R</color><boundary=7189/><color=YELLOW>S</color><boundary=7190/><color=YELLOW>D</color><boundary=7191/><color=YELLOW>E</color><boundary=7192/><color=YELLOW>G</color><boundary=7193/><color=YELLOW>H</color><boundary=7194/><color=YELLOW>P</color><boundary=7195/><color=YELLOW>K</color><boundary=7196/><color=YELLOW>L</color><boundary=7197/><color=YELLOW>M</color><boundary=7198/><color=YELLOW>D</color><boundary=7199/><color=YELLOW>E</color><boundary=7200/><color=YELLOW>G</color><boundary=7201/><color=YELLOW>H</color><boundary=7202/><color=YELLOW>J</color><boundary=7203/><color=YELLOW>K</color><boundary=7204/><color=YELLOW>U</color><boundary=7205/><color=YELLOW>L</color><boundary=7206/>？"
     },
     {
       "script": "scn10",
       "end": 6072,
       "source": "あっ､<boundary=7208/><color=YELLOW>魚屋</color><boundary=7209/>ね!!",
-      "target": "啊，YUBA，就是<boundary=7208/><color=YELLOW>鱼吧</color><boundary=7209/>！！"
+      "target": "啊，YUPU，就是<boundary=7208/><color=YELLOW>鱼铺</color><boundary=7209/>！！"
     },
     {
       "script": "scn10",
@@ -3863,13 +3863,13 @@
       "script": "scn10",
       "end": 6135,
       "source": "｢でも､この辺に魚屋なんてあるのかな…?",
-      "target": "“可是，这附近有叫鱼吧的地方吗……？”"
+      "target": "“可是，这附近有鱼铺吗……？”"
     },
     {
       "script": "scn10",
       "end": 6206,
       "source": "｢うふふ､この辺で魚屋って言ったら<boundary=7215/><color=YELLOW>熱帯魚屋</color><boundary=7217/>の事よ！",
-      "target": "“呵呵，就是那家<boundary=7215/><color=YELLOW>热带鱼店</color><boundary=7217/>啦，大家都叫它鱼吧！"
+      "target": "“呵呵，这一带的鱼铺，指的就是<boundary=7215/><color=YELLOW>热带鱼店</color><boundary=7217/>啦！"
     },
     {
       "script": "scn10",

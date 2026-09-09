@@ -2,7 +2,7 @@
   "schema": 1,
   "id": "kibu6",
   "adapter": "gmode-v1",
-  "plugin_version": "1.0.1",
+  "plugin_version": "1.0.3",
   "source_fingerprints": "work/manifest.json",
   "translation": "work/cache.json",
   "glossary": "work/glossary.locked.json",
@@ -267,10 +267,11 @@
       0
     ],
     "alias": "西野优美子",
-    "opening_code": "9822",
-    "opening_answer": "YUBA",
+    "opening_code": "9878",
+    "opening_answer": "YUPU",
     "reference_page_required": false,
-    "runtime_tested": false
+    "runtime_tested": false,
+    "opening_distractor": "ZUPU（族谱，非地点）"
   },
   "approved_empty_layout_text": {
     "986": {
