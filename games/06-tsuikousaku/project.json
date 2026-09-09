@@ -8,20 +8,20 @@
   "glossary": "work/glossary.locked.json",
   "resource_archive": "tuikousaku.res",
   "compatibility": {
-    "stage": "text_translation_complete",
+    "stage": "pinyin_puzzle_text_experiment",
     "runtime_tested": false,
     "release_ready": false,
     "hooks_ready": false,
     "translation_complete": true,
     "adapter_reviewed": true,
-    "notes": "Reuse gmode-v1. Compared method bodies, locals, handlers, CanvasEx fields, RVA data, codec and command definitions with validated prior games. Differences from kibu5 are resource/audio constants and Paint image offsets. Translation hooks and sixth-game layouts remain pending; bootstrap only.",
+    "notes": "Reuse gmode-v1. Compared method bodies, locals, handlers, CanvasEx fields, RVA data, codec and command definitions with validated prior games. Differences from kibu5 are resource/audio constants and Paint image offsets. Translation hooks and sixth-game layouts remain pending; bootstrap only. Experimental Chinese nine-key puzzle rewrite on experiment/kibu6-pinyin-puzzle; requires new clue/card/menu runtime verification.",
     "translated_entries": 8610,
     "text_semantic_reviewed": true,
     "pending_entries": 0,
     "reviewed_click_units": 3423
   },
   "layout": {
-    "status": "pending sixth-game review",
+    "status": "pending sixth-game review; experiment adds three-digit clue values 163 and 144",
     "chinese_layout_verified": false,
     "offline_verified": false
   },
@@ -248,170 +248,28 @@
     "4423": "ﾏﾂｲ ﾏﾅｶ"
   },
   "approved_retained_text": {
-    "7135": {
-      "source": "み",
-      "target": "み（mi）",
-      "reason": "手机日文键盘谜题选项，原假名保留并辅以罗马音，不改变分支映射。"
-    },
-    "7136": {
-      "source": "ろ",
-      "target": "ろ（ro）",
-      "reason": "手机日文键盘谜题选项，原假名保留并辅以罗马音，不改变分支映射。"
-    },
-    "7137": {
-      "source": "け",
-      "target": "け（ke）",
-      "reason": "手机日文键盘谜题选项，原假名保留并辅以罗马音，不改变分支映射。"
-    },
-    "7138": {
-      "source": "ぬ",
-      "target": "ぬ（nu）",
-      "reason": "手机日文键盘谜题选项，原假名保留并辅以罗马音，不改变分支映射。"
-    },
-    "7139": {
-      "source": "さ",
-      "target": "さ（sa）",
-      "reason": "手机日文键盘谜题选项，原假名保留并辅以罗马音，不改变分支映射。"
-    },
-    "7140": {
-      "source": "う",
-      "target": "う（u）",
-      "reason": "手机日文键盘谜题选项，原假名保留并辅以罗马音，不改变分支映射。"
-    },
-    "7141": {
-      "source": "て",
-      "target": "て（te）",
-      "reason": "手机日文键盘谜题选项，原假名保留并辅以罗马音，不改变分支映射。"
-    },
-    "7142": {
-      "source": "す",
-      "target": "す（su）",
-      "reason": "手机日文键盘谜题选项，原假名保留并辅以罗马音，不改变分支映射。"
-    },
-    "7145": {
-      "source": "ん",
-      "target": "ん（n）",
-      "reason": "手机日文键盘谜题选项，原假名保留并辅以罗马音，不改变分支映射。"
-    },
-    "7146": {
-      "source": "か",
-      "target": "か（ka）",
-      "reason": "手机日文键盘谜题选项，原假名保留并辅以罗马音，不改变分支映射。"
-    },
-    "7147": {
-      "source": "に",
-      "target": "に（ni）",
-      "reason": "手机日文键盘谜题选项，原假名保留并辅以罗马音，不改变分支映射。"
-    },
-    "7148": {
-      "source": "み",
-      "target": "み（mi）",
-      "reason": "手机日文键盘谜题选项，原假名保留并辅以罗马音，不改变分支映射。"
-    },
-    "7149": {
-      "source": "り",
-      "target": "り（ri）",
-      "reason": "手机日文键盘谜题选项，原假名保留并辅以罗马音，不改变分支映射。"
-    },
-    "7150": {
-      "source": "ふ",
-      "target": "ふ（fu）",
-      "reason": "手机日文键盘谜题选项，原假名保留并辅以罗马音，不改变分支映射。"
-    },
-    "7151": {
-      "source": "の",
-      "target": "の（no）",
-      "reason": "手机日文键盘谜题选项，原假名保留并辅以罗马音，不改变分支映射。"
-    },
-    "7152": {
-      "source": "し",
-      "target": "し（shi）",
-      "reason": "手机日文键盘谜题选项，原假名保留并辅以罗马音，不改变分支映射。"
-    },
-    "7155": {
-      "source": "お",
-      "target": "お（o）",
-      "reason": "手机日文键盘谜题选项，原假名保留并辅以罗马音，不改变分支映射。"
-    },
-    "7156": {
-      "source": "い",
-      "target": "い（i）",
-      "reason": "手机日文键盘谜题选项，原假名保留并辅以罗马音，不改变分支映射。"
-    },
-    "7157": {
-      "source": "き",
-      "target": "き（ki）",
-      "reason": "手机日文键盘谜题选项，原假名保留并辅以罗马音，不改变分支映射。"
-    },
-    "7158": {
-      "source": "ご",
-      "target": "ご（go）",
-      "reason": "手机日文键盘谜题选项，原假名保留并辅以罗马音，不改变分支映射。"
-    },
-    "7159": {
-      "source": "な",
-      "target": "な（na）",
-      "reason": "手机日文键盘谜题选项，原假名保留并辅以罗马音，不改变分支映射。"
-    },
-    "7160": {
-      "source": "こ",
-      "target": "こ（ko）",
-      "reason": "手机日文键盘谜题选项，原假名保留并辅以罗马音，不改变分支映射。"
-    },
-    "7161": {
-      "source": "と",
-      "target": "と（to）",
-      "reason": "手机日文键盘谜题选项，原假名保留并辅以罗马音，不改变分支映射。"
-    },
-    "7162": {
-      "source": "ふ",
-      "target": "ふ（fu）",
-      "reason": "手机日文键盘谜题选项，原假名保留并辅以罗马音，不改变分支映射。"
-    },
-    "7165": {
-      "source": "あ",
-      "target": "あ（a）",
-      "reason": "手机日文键盘谜题选项，原假名保留并辅以罗马音，不改变分支映射。"
-    },
-    "7166": {
-      "source": "に",
-      "target": "に（ni）",
-      "reason": "手机日文键盘谜题选项，原假名保留并辅以罗马音，不改变分支映射。"
-    },
-    "7167": {
-      "source": "ろ",
-      "target": "ろ（ro）",
-      "reason": "手机日文键盘谜题选项，原假名保留并辅以罗马音，不改变分支映射。"
-    },
-    "7168": {
-      "source": "で",
-      "target": "で（de）",
-      "reason": "手机日文键盘谜题选项，原假名保留并辅以罗马音，不改变分支映射。"
-    },
-    "7169": {
-      "source": "こ",
-      "target": "こ（ko）",
-      "reason": "手机日文键盘谜题选项，原假名保留并辅以罗马音，不改变分支映射。"
-    },
-    "7170": {
-      "source": "ち",
-      "target": "ち（chi）",
-      "reason": "手机日文键盘谜题选项，原假名保留并辅以罗马音，不改变分支映射。"
-    },
-    "7171": {
-      "source": "や",
-      "target": "や（ya）",
-      "reason": "手机日文键盘谜题选项，原假名保留并辅以罗马音，不改变分支映射。"
-    },
-    "7172": {
-      "source": "は",
-      "target": "は（ha）",
-      "reason": "手机日文键盘谜题选项，原假名保留并辅以罗马音，不改变分支映射。"
-    },
     "10993": {
       "source": "されていません      ",
       "target": "ｽｰﾊﾟｰｹﾞｰﾑﾗﾝﾁ",
       "reason": "公共术语表保留的旧手机服务品牌；10992–10993合读为尚未注册该服务。"
     }
+  },
+  "puzzle_experiment": {
+    "checkpoint": "550918d",
+    "scheme": "full-pinyin-nine-key-sum",
+    "start": 200,
+    "sequence": [
+      163,
+      144,
+      96,
+      67,
+      25,
+      0
+    ],
+    "alias": "西野优美子",
+    "opening_code": "9822",
+    "opening_answer": "YUBA",
+    "reference_page_required": false,
+    "runtime_tested": false
   }
 }
