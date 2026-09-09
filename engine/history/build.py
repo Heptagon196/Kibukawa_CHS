@@ -40,17 +40,17 @@ def main():
     subprocess.run(['powershell', '-NoProfile', '-ExecutionPolicy', 'Bypass', '-File', str(ROOT/'tests/runtime-policy.ps1')], check=True)
     subprocess.run(['powershell', '-NoProfile', '-ExecutionPolicy', 'Bypass', '-File', str(ROOT/'tests/validate.ps1')], check=True)
     for game in hashes:
-        with zipfile.ZipFile(output/(game+'-history-1.6.1.zip'), 'w', zipfile.ZIP_DEFLATED) as archive:
+        with zipfile.ZipFile(output/(game+'-history-1.6.2.zip'), 'w', zipfile.ZIP_DEFLATED) as archive:
             for relative in files[game]:
                 archive.write(output/game/relative, 'BepInEx/plugins/KibukawaHistory/'+relative)
             archive.write(ROOT/'README.md', '历史记录说明.md')
             archive.write(SERIES/'LICENSE', 'LICENSE')
-        with zipfile.ZipFile(output/(game+'-history-1.6.1.zip')) as archive:
+        with zipfile.ZipFile(output/(game+'-history-1.6.2.zip')) as archive:
             assert len(archive.namelist()) == 3, 'Unexpected personal data in release'
             assert hashlib.sha256(archive.read('BepInEx/plugins/KibukawaHistory/KibukawaHistory.dll')).hexdigest() == hashes[game]
     assert all(hashlib.sha256((SERIES/p).read_bytes()).hexdigest()==h for p,h in source_hashes.items()), 'History source changed during build'
-    (output/'manifest.json').write_text(json.dumps({'version':'1.6.1', 'sha256':hashes, 'files':files, 'source_hashes':source_hashes,
-        'validation':'five-game compile, hook metadata, buffer, coroutine and idle left-softkey hint tests; live interaction pending'}, indent=2), encoding='utf-8')
+    (output/'manifest.json').write_text(json.dumps({'version':'1.6.2', 'sha256':hashes, 'files':files, 'source_hashes':source_hashes,
+        'validation':'enabled-game compile, hook metadata, buffer, coroutine and idle left-softkey hint tests; live interaction pending'}, indent=2), encoding='utf-8')
     print('History add-ons built and verified: '+', '.join(hashes))
 
 if __name__ == '__main__':

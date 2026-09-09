@@ -1,11 +1,11 @@
-param([string[]]$Games = @('kibu1','kibu2','kibu3','kibu4','kibu5'))
+param([string[]]$Games = @('kibu1','kibu2','kibu3','kibu4','kibu5','kibu6'))
 $ErrorActionPreference = 'Stop'
 $series = [IO.Path]::GetFullPath((Join-Path $PSScriptRoot '../..'))
 $config = Get-Content -LiteralPath (Join-Path $series 'series.json') -Raw -Encoding UTF8 | ConvertFrom-Json
 $manifest = Get-Content -LiteralPath (Join-Path $series 'out/history/manifest.json') -Raw -Encoding UTF8 | ConvertFrom-Json
 $report = @()
 foreach ($id in $Games) {
-    if ($id -notin @('kibu1','kibu2','kibu3','kibu4','kibu5')) { throw "Unsupported game $id" }
+    if ($id -notin @('kibu1','kibu2','kibu3','kibu4','kibu5','kibu6')) { throw "Unsupported game $id" }
     $entry = $config.games.$id
     if (!$entry -or !$entry.enabled) { throw "Game not enabled: $id" }
     $game = [IO.Path]::GetFullPath((Join-Path $series $entry.installation))

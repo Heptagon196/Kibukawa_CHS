@@ -1,4 +1,4 @@
-﻿$ErrorActionPreference = 'Stop'
+$ErrorActionPreference = 'Stop'
 $series = [IO.Path]::GetFullPath((Join-Path $PSScriptRoot '../../..'))
 Add-Type -Path (Join-Path $series 'bin/ilspy/tools/net6.0/any/Mono.Cecil.dll')
 $config = Get-Content -LiteralPath (Join-Path $series 'series.json') -Raw -Encoding UTF8 | ConvertFrom-Json
@@ -8,6 +8,12 @@ function Method($type, $name, $signature) {
 }
 foreach ($entry in $config.games.PSObject.Properties) {
     if (!$entry.Value.enabled) { continue }
+    $pluginPath = Join-Path $series "out/history/$($entry.Name)/KibukawaHistory.dll"
+    $plugin = [Mono.Cecil.AssemblyDefinition]::ReadAssembly($pluginPath)
+    try {
+        $processes = @($plugin.MainModule.GetType('KibukawaHistory.HistoryPlugin').CustomAttributes | Where-Object { $_.AttributeType.FullName -eq 'BepInEx.BepInProcess' } | ForEach-Object { $_.ConstructorArguments[0].Value })
+        if (("$($entry.Name).exe") -notin $processes) { throw "History plugin excludes $($entry.Name)" }
+    } finally { $plugin.Dispose() }
     $game = [IO.Path]::GetFullPath((Join-Path $series $entry.Value.installation))
     $asm = [Mono.Cecil.AssemblyDefinition]::ReadAssembly((Join-Path $game "$($entry.Name)_Data/Managed/Assembly-CSharp.dll"))
     try {

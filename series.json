@@ -44,5 +44,9 @@
       "adapter": "gmode-v1",
       "enabled": true
     }
+  },
+  "required_plugins": {
+    "images": "BepInEx/plugins/KibukawaImageReplacements/KibukawaImageReplacements.dll",
+    "history": "BepInEx/plugins/KibukawaHistory/KibukawaHistory.dll"
   }
 }

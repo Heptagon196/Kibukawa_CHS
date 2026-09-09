@@ -52,6 +52,9 @@ def main():
     parser.add_argument('--with-images', action='store_true', help='Merge verified generic image replacement packs into each full patch')
     parser.add_argument('--with-history', action='store_true', help='Merge the verified history plugin into each full patch')
     args = parser.parse_args()
+    required_plugins=read(ROOT/'series.json')['required_plugins']
+    args.with_history |= 'history' in required_plugins
+    args.with_images |= 'images' in required_plugins
     output = (ROOT / args.output).resolve()
     require(output.is_relative_to((ROOT / 'out').resolve()), 'Output must be under workspace out/')
     naming = read(ROOT / 'series/release-names.json')
@@ -105,7 +108,8 @@ def main():
                 require(addon.testzip() is None,'Corrupt image ZIP')
                 addon_members=[i.filename for i in addon.infolist() if not i.is_dir()]
                 require(len(set(addon_members))==len(addon_members) and set(addon_members)==set(image_report['package_files']),'Unexpected image ZIP members')
-                require(not set(addon_members).intersection(base.namelist()),'Image add-on overwrites text patch files')
+                for existing in set(addon_members).intersection(base.namelist()):
+                    require(base.read(existing)==addon.read(existing),'Image add-on conflicts with existing payload: '+existing)
                 require(not set(addon_members).intersection(originals),'Image add-on contains original game files')
                 merged=io.BytesIO()
                 with zipfile.ZipFile(merged,'w',zipfile.ZIP_DEFLATED) as package:
@@ -114,7 +118,7 @@ def main():
                         require(not name.startswith(('/', '\\')) and '..' not in name.replace('\\','/').split('/'),'Unsafe image ZIP path')
                         data=addon.read(name)
                         require(hashlib.sha256(data).hexdigest()==image_report['package_files'][name],'Image ZIP member mismatch')
-                        package.writestr(name,data)
+                        if name not in base.namelist():package.writestr(name,data)
                 content=merged.getvalue()
             with zipfile.ZipFile(io.BytesIO(content)) as combined:
                 require(combined.testzip() is None,'Corrupt combined ZIP')
@@ -136,12 +140,13 @@ def main():
                 require(hashlib.sha256(addon.read(dll)).hexdigest()==history['sha256'][game],'History DLL mismatch')
                 require(addon.read('LICENSE')==(ROOT/'LICENSE').read_bytes(),'History license mismatch')
                 require(addon.read('历史记录说明.md')==(ROOT/'engine/history/README.md').read_bytes(),'History instructions mismatch')
-                require(not {dll,'历史记录说明.md'}.intersection(base.namelist()),'History file collision')
+                for member in {dll,'历史记录说明.md'}.intersection(base.namelist()):
+                    require(base.read(member)==addon.read(member),'History file collision: '+member)
                 merged=io.BytesIO()
                 with zipfile.ZipFile(merged,'w',zipfile.ZIP_DEFLATED) as package:
                     for name in base.namelist():package.writestr(name,base.read(name))
-                    package.writestr(dll,addon.read(dll))
-                    package.writestr('历史记录说明.md',addon.read('历史记录说明.md'))
+                    if dll not in base.namelist():package.writestr(dll,addon.read(dll))
+                    if '历史记录说明.md' not in base.namelist():package.writestr('历史记录说明.md',addon.read('历史记录说明.md'))
                     if 'LICENSE' not in base.namelist():package.writestr('LICENSE',addon.read('LICENSE'))
                     else:require(base.read('LICENSE')==addon.read('LICENSE'),'License collision')
                 with zipfile.ZipFile(io.BytesIO(merged.getvalue())) as combined:
@@ -149,6 +154,8 @@ def main():
                     for name in base.namelist():require(combined.read(name)==base.read(name),'Existing payload changed')
                 content=merged.getvalue()
             image_metadata.update(history_plugin_version=history['version'],history_zip_sha256=digest(history_zip))
+        with zipfile.ZipFile(io.BytesIO(content)) as complete:
+            require(set(required_plugins.values())<=set(complete.namelist()),'Missing mandatory plugin')
         content=user_readme(content, entry['title'], args.with_history)
         verified.append((content, dict(game=game, number=entry['number'], title=entry['title'],
                                       version=config['plugin_version'], filename=filename, github_name=entry['github_name'],

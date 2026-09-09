@@ -169,7 +169,11 @@ def main():
     audit_sources = sources + sorted((p.WORK/'scripts').glob('*.py')) + [p.WORK/'scripts/validate_runtime.ps1', p.WORK/'bepinex/menu-labels.json', p.WORK/'bepinex/font-dependency.lock.json'] + sorted((p.WORK/'bepinex/tests').glob('*.cs'))
     audit_sources += [p.SERIES/'tools/click_boundaries.py', p.WORK/'work/click_boundaries.reviewed.json']
     audit_sources += [p.SERIES/'tools/dialogue_tags.py', p.WORK/'work/dialogue-tagged.json', p.WORK/'research/color-spans.reviewed.json', p.WORK/'research/color-commands.json', p.WORK/'research/hard-breaks.json']
+    audit_sources += [p.SERIES/'series.json', p.WORK/'scripts/install_bepinex.ps1']
     audit_sources += [p.WORK/'project.json', p.WORK/'bepinex/README_INSTALL.txt']
+    subprocess.run([sys.executable, str(p.SERIES/'engine/history/build.py')], check=True)
+    history=p.load(p.SERIES/'out/history/manifest.json')
+    audit_sources += [p.SERIES/name for name in history['source_hashes']]
     source_hashes = {path.relative_to(p.SERIES).as_posix(): p.sha(path.read_bytes()) for path in audit_sources}
     source_hashes.update(image_report['source_hashes'])
     shared.compile_plugin(framework, p.GAME/target['managed'], output/target['assembly'], sources, p.WORK/'bepinex/build/compile.rsp', target['references'])
@@ -192,12 +196,18 @@ def main():
         path = image_root/'kibu6/package'/name
         p.require(name not in payload and p.sha(path.read_bytes()) == digest, 'Image payload conflict/checksum mismatch')
         payload[name] = path
+    history_dll=p.SERIES/'out/history/kibu6/KibukawaHistory.dll'
+    p.require(p.sha(history_dll.read_bytes())==history['sha256']['kibu6'],'History payload checksum mismatch')
+    payload['BepInEx/plugins/KibukawaHistory/KibukawaHistory.dll']=history_dll
+    payload['历史记录说明.md']=p.SERIES/'engine/history/README.md'
+    payload['BepInEx/licenses/KibukawaHistory-LICENSE.txt']=p.SERIES/'LICENSE'
+    p.require(set(p.load(p.SERIES/'series.json')['required_plugins'].values())<=set(payload),'Missing mandatory plugin')
     shared.stage_package(package, framework, dependency, payload, set(manifest['game_hashes']))
     archive = release/'Kibu6_ZhCN_BepInEx_Full.zip'
     shared.archive_package(package, archive)
     p.require(original_hashes() == before, 'Original game changed during build')
     p.require(p.first_project_hashes() == first_before, 'Previous-game projects changed during build')
-    report = dict(plugin_version=config['plugin_version'], edition='BepInEx runtime translation - user testing',
+    report = dict(plugin_version=config['plugin_version'], edition='BepInEx runtime translation - user testing', history_version=history['version'],
                   output=str(release), zip=str(archive), zip_sha256=p.sha(archive.read_bytes()),
                   dependency=dependency, script_slots=len(pack['scripts']), ui_strings=len(pack['ui']),
                   localization_keys=len(pack['localization']), assembly_literals=len(pack['literals']),

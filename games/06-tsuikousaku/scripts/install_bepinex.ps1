@@ -29,6 +29,10 @@ if (!$build.zip.StartsWith($workspace + '\', [StringComparison]::OrdinalIgnoreCa
 foreach ($entry in $build.source_hashes.PSObject.Properties) {
     if ((FileHash (SafePath $paths.Series $entry.Name)) -ne $entry.Value) { throw "Source changed since build: $($entry.Name)" }
 }
+$seriesConfig = Get-Content -LiteralPath (Join-Path $paths.Series 'series.json') -Raw -Encoding UTF8 | ConvertFrom-Json
+foreach ($required in $seriesConfig.required_plugins.PSObject.Properties) {
+    if (!$build.package_files.PSObject.Properties[$required.Value]) { throw "Missing mandatory plugin: $($required.Name)" }
+}
 $originals = @{}
 foreach ($entry in $manifest.game_hashes.PSObject.Properties) {
     $originals[$entry.Name] = $entry.Value
