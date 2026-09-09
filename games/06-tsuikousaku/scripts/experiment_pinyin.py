@@ -4,6 +4,7 @@ Does not install, launch, change source instructions, or approve click baselines
 import json
 import sys
 import pipeline as p
+p.require(not (p.WORK/'work/dialogue-tagged.json').exists(), 'Legacy untagged materialization is disabled. Edit work/dialogue-tagged.json and run tagged_dialogue.py import.')
 from review_units import current
 sys.path.insert(0, str(p.SERIES / 'tools'))
 from click_boundaries import units

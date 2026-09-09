@@ -2,6 +2,7 @@
 import argparse
 import math
 import pipeline as p
+p.require(not (p.WORK/'work/dialogue-tagged.json').exists(), 'Legacy untagged materialization is disabled. Edit work/dialogue-tagged.json and run tagged_dialogue.py import.')
 from review_units import current
 import sys
 sys.path.insert(0,str(p.SERIES/'tools'))

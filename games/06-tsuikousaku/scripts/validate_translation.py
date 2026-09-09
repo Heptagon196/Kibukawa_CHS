@@ -32,7 +32,9 @@ def main():
             a=config.get('approved_layout_text',{}).get(str(i),{})
             p.require(a.get('source')==s and a.get('target')==t and a.get('reason'),'Unexpected whitespace: '+str(i));preserved.append(i)
         if not t:
-            p.require(config.get('approved_empty_name_readings',{}).get(str(i))==s and r['extra'].get('empty_translation_reason'),'Unapproved empty: '+str(i));empty.append(i)
+            p.require((config.get('approved_empty_name_readings',{}).get(str(i))==s or (config.get('approved_empty_layout_text',{}).get(str(i),{}).get('source')==s and config['approved_empty_layout_text'][str(i)].get('target')=='' and config['approved_empty_layout_text'][str(i)].get('reason'))) and r['extra'].get('empty_translation_reason'),'Unapproved empty: '+str(i));empty.append(i)
+    from tagged_dialogue import validate as validate_tags
+    validate_tags()
     commands,lookup=current();click=validate(commands,p.WORK,strict=True)
     previous=p.load(p.WORK/'reports/previous-projects-extract-baseline.json')
     p.require(p.first_project_hashes()==previous,'Earlier project files changed')
