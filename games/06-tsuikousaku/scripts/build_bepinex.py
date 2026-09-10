@@ -146,6 +146,8 @@ def main():
     target = config['bepinex']
     output = p.inside(p.WORK/'bepinex/build/plugin')
     output.mkdir(parents=True, exist_ok=True)
+    from validate_pause_layout import validate as validate_pause
+    validate_pause()
     pack, manifest = export_pack(output)
     if args.export_only:
         print('Exported '+str(len(pack['scripts']))+' script slots and actual-byte replay.')

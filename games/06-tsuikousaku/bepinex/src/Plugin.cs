@@ -13,7 +13,7 @@ using UnityEngine.UI;
 
 namespace Kibu1ZhCN
 {
-    [BepInPlugin(Id, "Kibu6 Simplified Chinese", "1.0.4")]
+    [BepInPlugin(Id, "Kibu6 Simplified Chinese", "1.0.5")]
     [BepInProcess("kibu6.exe")]
     public sealed class Plugin : BaseUnityPlugin
     {
@@ -67,6 +67,7 @@ namespace Kibu1ZhCN
                 Patch(AccessTools.Method(localize, "Get", new[] { typeof(string) }), null, "AfterLocalized");
                 Type graphics = AccessTools.TypeByName("Socotra.UI.StGraphics");
                 Patch(AccessTools.Method(graphics, "DrawCharImpl"), "BeforeDraw", null);
+                Patch(AccessTools.Method(AccessTools.TypeByName("SettingDialog"), "Init"), null, "AfterSettingInit");
                 Type help = AccessTools.TypeByName("HowToPlayDialog");
                 guideImage = RequireField(help, "guideImage");
                 helpPage = RequireField(help, "nowPage");
@@ -113,6 +114,10 @@ namespace Kibu1ZhCN
         {
             if (target == null) throw new MissingMethodException("Required hook: " + prefix + "/" + postfix);
             harmony.Patch(target, prefix == null ? null : new HarmonyMethod(typeof(Plugin), prefix), postfix == null ? null : new HarmonyMethod(typeof(Plugin), postfix));
+        }
+        private static void AfterSettingInit(object __instance)
+        {
+            if (ready) PauseKeypadLayout.Attach(__instance as Component);
         }
         private static void BeforeCanvasInit()
         {

@@ -61,6 +61,10 @@ foreach ($pair in @(@('renderTexture','UnityEngine.RenderTexture'),@('currentCol
 }
 if (!( $graphics.Fields | Where-Object { $_.Name -eq 'currentFont' -and $_.FieldType.FullName -eq 'Socotra.UI.StFont' })) { throw 'Missing StGraphics.currentFont' }
 $textType = Require-Type $ui.MainModule 'UnityEngine.UI.Text'
+$setting = Require-Type $assembly.MainModule 'SettingDialog'
+Require-Method $setting 'Init' ''
+$pauseLayout = Require-Type $plugin.MainModule 'Kibu1ZhCN.PauseKeypadLayout'
+Require-Method $pauseLayout 'Attach' 'UnityEngine.Component'
 $help = Require-Type $assembly.MainModule 'HowToPlayDialog'
 Require-Method $help 'ChangePage' 'System.Int32'
 if (!($help.Fields | Where-Object { $_.Name -eq 'guideImage' -and $_.FieldType.FullName -eq 'UnityEngine.UI.Image' })) { throw 'Missing HowToPlayDialog.guideImage' }
@@ -78,6 +82,7 @@ Require-Method $pluginType 'BeforeRead' 'System.Object,System.Int32&'
 Require-Method $pluginType 'AfterRead' 'System.Object,System.Int32'
 Require-Method $pluginType 'AfterScript' 'System.Object,System.Collections.IEnumerator&'
 Require-Method $pluginType 'AfterExeText' 'System.Object,System.String,System.Int32'
+Require-Method $pluginType 'AfterSettingInit' 'System.Object'
 Require-Method $pluginType 'BeforeJump' 'System.Object'
 if (!( $pluginType.CustomAttributes | Where-Object { $_.AttributeType.FullName -eq 'BepInEx.BepInPlugin' })) { throw 'Missing BepInPlugin metadata' }
 $process = $pluginType.CustomAttributes | Where-Object { $_.AttributeType.FullName -eq 'BepInEx.BepInProcess' }
@@ -85,7 +90,7 @@ if ($process.ConstructorArguments[0].Value -ne 'kibu6.exe') { throw 'Process fil
 $metadata = $pluginType.CustomAttributes | Where-Object { $_.AttributeType.FullName -eq 'BepInEx.BepInPlugin' }
 if ($metadata.ConstructorArguments[0].Value -ne 'local.kibu6.zhcn') { throw 'Plugin ID mismatch' }
 if ($plugin.Name.Name -ne 'Kibu6ZhCN') { throw 'Plugin assembly mismatch' }
-if ($metadata.ConstructorArguments[2].Value -ne '1.0.4') { throw 'Plugin version mismatch' }
+if ($metadata.ConstructorArguments[2].Value -ne '1.0.5') { throw 'Plugin version mismatch' }
 $report = @{ hook_signatures_verified=$true; literal_ordinals_verified=$pack.literals.Count; plugin_metadata_verified=$true; game_runtime_tested=$false }
 $report | ConvertTo-Json | Set-Content -LiteralPath (Join-Path $workspace 'bepinex/build/hook_report.json') -Encoding utf8
 Write-Output "PASS: runtime hook signatures and $($pack.literals.Count) original IL literal positions."
