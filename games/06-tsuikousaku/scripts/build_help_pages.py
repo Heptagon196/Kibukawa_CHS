@@ -11,7 +11,7 @@ BUNDLE='kibu6_Data/StreamingAssets/prefab/howtoplay'
 SHA256='0b9b3824bfddcd3072b48b0e765005ebd0082e72cd1f7f12f2a3fc070e7816dd'
 SPRITE_IDS=[-2514157395386991404,9190612428004686362,-3720257522663878762,8079656278077373514,-6683376659493071190]
 PAGES=[
- dict(title="手机九键拼音",subtitle="字母与数字键的对应关系",keypad=True,footer="每个字母对应所在按键的数字。\n不计声调；重复字母按出现次数计算。"),
+ dict(title="手机九键拼音",subtitle="字母与数字键的对应关系",keypad=True,footer="※ 解读游戏中的暗号时会用到。"),
  dict(title='操作说明',subtitle='〈侦探·癸生川凌介事件谭 第6卷《对交错事件》〉',rows=[['START 按钮','选项'],['A 按钮','确认／推进文字'],['L 摇杆／方向键','移动光标'],['L 摇杆向下／方向键下','跳过文字'],['R','切换声音 ON／OFF']],footer='本游戏不支持自动保存。\n退出前，请使用游戏内的存档功能保存进度。'),
  dict(title='操作说明',subtitle='〈侦探·癸生川凌介事件谭 第6卷《对交错事件》〉',rows=[['ESC','选项'],['Z / SPACE / L SHIFT / L CTRL','确认／推进文字'],['W A S D / ↑ ← ↓ →','移动光标'],['S / ↓','跳过文字'],['E','切换声音 ON／OFF']],footer='本游戏不支持自动保存。\n退出前，请使用游戏内的存档功能保存进度。'),
  dict(title='G-MODE 经典游戏复刻',body='“G-MODE 经典游戏复刻”是一项复刻计划，\n旨在忠实重现昔日功能手机上的游戏，\n让玩家再次体验它们当年的风貌。\n\n※ 从功能手机版移植时，为了让游玩更加舒适，\n我们对部分操作方式和功能进行了调整。\n\n※ 游戏内的操作说明及菜单仍保留原版内容。\n本作的实际操作方式，请参阅本菜单中的“游戏帮助”。'),
@@ -70,4 +70,3 @@ def build_help_pages():
   f=WORK/name;f.parent.mkdir(parents=True,exist_ok=True);f.write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
  return report
 if __name__=='__main__':print(json.dumps(build_help_pages(),ensure_ascii=False))
-

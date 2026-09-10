@@ -9,9 +9,13 @@ from review_units import current
 from click_boundaries import units
 
 KEY = {c:n for n,s in enumerate(['ABC','DEF','GHI','JKL','MNO','PQRS','TUV','WXYZ'],2) for c in s}
-SPELLINGS = {'田中':'TIANZHONG','广美':'GUANGMEI','内野':'NEIYE','玛雅':'MAYA',
-             '楢原':'YOUYUAN','康司':'KANGSI','夏目':'XIAMU','政隆':'ZHENGLONG',
-             '松井':'SONGJING','爱香':'AIXIANG','原':'YUAN','西野':'XIYE'}
+SPELLINGS = {'浅边':'QIANBIAN','广美':'GUANGMEI','内野':'NEIYE','千怜':'QIANLIAN',
+             '边见':'BIANJIAN','康司':'KANGSI','夏目':'XIAMU','健典':'JIANDIAN',
+             '松井':'SONGJING','怜见':'LIANJIAN','田边':'TIANBIAN','千典':'QIANDIAN'}
+SYLLABLES = {'浅边':['qian','bian'],'广美':['guang','mei'],'内野':['nei','ye'],'千怜':['qian','lian'],
+             '边见':['bian','jian'],'康司':['kang','si'],'夏目':['xia','mu'],'健典':['jian','dian'],
+             '松井':['song','jing'],'怜见':['lian','jian'],'田边':['tian','bian'],'千典':['qian','dian']}
+
 def score(name): return sum(KEY[c] for c in SPELLINGS[name])
 
 class PuzzleTests(unittest.TestCase):
@@ -28,8 +32,9 @@ class PuzzleTests(unittest.TestCase):
 
     def test_numeric_chain_and_unique_name_choices(self):
         remaining=200
-        for start,correct,difference,result in zip([4206,4211,4216,4221,4227],[0,1,0,1,1],[37,19,48,29,42],[163,144,96,67,25]):
+        for start,correct,difference,result in zip([4206,4211,4216,4221,4227],[0,1,0,1,1],[33,36,31,32,34],[167,131,100,68,34]):
             options=[self.rows[start+j]['translated_text'] for j in range(2)]
+            self.assertEqual([j for j,n in enumerate(options) if all(x.endswith('ian') for x in SYLLABLES[n])],[correct])
             self.assertEqual([j for j,n in enumerate(options) if score(n)==difference],[correct])
             remaining-=score(options[correct]);self.assertEqual(remaining,result)
             # Verify the actual original bytecode: correct label takes continuation,
@@ -39,11 +44,22 @@ class PuzzleTests(unittest.TestCase):
             targets=[a['value'] for a in command['args'] if a['kind']==4][:2]
             self.assertEqual(targets[correct],command['end'])
             self.assertEqual(targets[1-correct],15267)
-        self.assertEqual(remaining-score('原'),0)
-        self.assertEqual(remaining-score('西野'),0)
-        # Inner surname also totals 25, but that person is already dead.
-        self.assertEqual(score('内野'),25)
+        self.assertEqual(remaining-score('田边'),0)
+        self.assertEqual(remaining-score('千典'),0)
+        # The fifth victim also totals 34, but she is already dead.
+        self.assertEqual(score('怜见'),34)
         self.assertIn('尚未遇害',self.texts[4965])
+
+    def test_reveal_order_and_alias_given_name(self):
+        first=''.join(self.texts[i] for i in [4175,4182,4185,4199,4203,4208,4213,4218,4223])
+        for premature in ['200','差值','九键','手机']:
+            self.assertNotIn(premature,first)
+        self.assertIn('韵母都是ian',self.texts[4237])
+        self.assertIn('千典',self.texts[6209])
+        self.assertIn('名叫千典',self.texts[6224])
+        self.assertEqual(''.join(self.rows[i]['translated_text'] for i in range(4310,4315)),
+                         'QIANBIAN＝33QIANLIAN＝36BIANJIAN＝31JIANDIAN＝32LIANJIAN＝34')
+        self.assertIn('7+4+2+6+3+4+2+6',self.texts[6216])
 
     def test_opening_has_original_level_of_key_ambiguity(self):
         starts=[7135,7145,7155,7165];echoes=[7174,7182,7190,7198]
@@ -74,11 +90,11 @@ class PuzzleTests(unittest.TestCase):
 
     def test_no_old_clues_or_notes_and_card_numbers(self):
         text=''.join(r['translated_text'] for r in self.rows.values() if r['translation_status']!=7)
-        for old in ['鱼吧','YUBA','９８２２','两位或三位数','译注','滨川','a段','五十音','平假名','３２５８','sakanaya','tanaka','narahara','masataka','manaka','ha、ra']:
+        for old in ['鱼吧','YUBA','９８２２','两位或三位数','译注','西野','优美子','玛雅','楢原','爱香','政隆','田中','a段','五十音','平假名','３２５８','sakanaya','tanaka','narahara','masataka','manaka','ha、ra']:
             self.assertNotIn(old,text)
         for ids in [[1416,1419,1422,1425],[2880,2883,2886,2889],[4412,4415,4418,4421]]:
-            self.assertEqual([self.rows[i]['translated_text'].split('…')[1] for i in ids],['１６３','１４４','９６','６７'])
-        self.assertTrue(self.rows[4424]['translated_text'].endswith('２５'))
+            self.assertEqual([self.rows[i]['translated_text'].split('…')[1] for i in ids],['１６７','１３１','１００','６８'])
+        self.assertTrue(self.rows[4424]['translated_text'].endswith('３４'))
         for r in self.rows.values():
             if r['translation_status']!=7 and r['extra']['location']['kind']=='script':
                 self.assertLessEqual(len(r['translated_text'].encode('utf-16-le'))//2,20)

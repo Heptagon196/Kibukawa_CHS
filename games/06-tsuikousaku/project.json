@@ -2,7 +2,7 @@
   "schema": 1,
   "id": "kibu6",
   "adapter": "gmode-v1",
-  "plugin_version": "1.0.9",
+  "plugin_version": "1.0.14",
   "source_fingerprints": "work/manifest.json",
   "translation": "work/cache.json",
   "glossary": "work/glossary.locked.json",
@@ -503,22 +503,74 @@
   },
   "puzzle_localization": {
     "checkpoint": "550918d",
-    "scheme": "full-pinyin-nine-key-sum",
+    "scheme": "ian-rhyme-full-pinyin-nine-key-sum",
     "start": 200,
     "sequence": [
-      163,
-      144,
-      96,
-      67,
-      25,
+      167,
+      131,
+      100,
+      68,
+      34,
       0
     ],
-    "alias": "西野优美子",
+    "alias": "滨川千典",
     "opening_code": "9878",
     "opening_answer": "YUPU",
     "reference_page_required": false,
     "runtime_tested": false,
     "opening_distractor": "ZUPU（族谱，非地点）",
-    "status": "adopted"
-  }
+    "status": "adopted",
+    "names": [
+      {
+        "source": "田中広美",
+        "name": "浅边广美",
+        "part": "浅边",
+        "pinyin": "QIANBIAN",
+        "value": 33
+      },
+      {
+        "source": "内野マヤ",
+        "name": "内野千怜",
+        "part": "千怜",
+        "pinyin": "QIANLIAN",
+        "value": 36
+      },
+      {
+        "source": "楢原康司",
+        "name": "边见康司",
+        "part": "边见",
+        "pinyin": "BIANJIAN",
+        "value": 31
+      },
+      {
+        "source": "夏目政隆",
+        "name": "夏目健典",
+        "part": "健典",
+        "pinyin": "JIANDIAN",
+        "value": 32
+      },
+      {
+        "source": "松井愛香",
+        "name": "松井怜见",
+        "part": "怜见",
+        "pinyin": "LIANJIAN",
+        "value": 34
+      },
+      {
+        "source": "原 雄介",
+        "name": "田边雄介",
+        "part": "田边",
+        "pinyin": "TIANBIAN",
+        "value": 34
+      },
+      {
+        "source": "浜川優美子",
+        "name": "滨川千典",
+        "part": "千典",
+        "pinyin": "QIANDIAN",
+        "value": 34
+      }
+    ]
+  },
+  "runtime_notes": "All-ian name puzzle; offline checks required, user playthrough pending."
 }

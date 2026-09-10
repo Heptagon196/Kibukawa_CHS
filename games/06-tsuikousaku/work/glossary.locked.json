@@ -1,28 +1,28 @@
 {
   "schema": 2,
   "game": "kibu6",
-  "status": "experimental_local_override",
+  "status": "confirmed_local_override",
   "public_glossary": "series/glossary.json",
   "characters": [
     {
       "canonical": "原 雄介",
-      "render": "原雄介",
+      "render": "田边雄介",
       "aliases": [
         "原雄介"
       ],
       "category": "person_name",
-      "status": "confirmed_local",
-      "note": "汉字与读音hara yuusuke在本作可核；先按委托人身份称呼。后半段才揭露犯罪，不能提前改称凶手；与原田宽作分属两人。"
+      "status": "confirmed_local_override",
+      "note": "用户确认的第六作ian押韵九键改编；谜题取田边，TIANBIAN键值和34。仅本作覆盖公共译法，原日文不变，身份及揭露时机沿用原作。与原田宽作分属两人。"
     },
     {
       "canonical": "浜川優美子",
-      "render": "西野优美子",
-      "status": "experimental_local",
+      "render": "滨川千典",
+      "status": "confirmed_local_override",
       "category": "person_name",
       "source_evidence": [
         "scn0:162–165"
       ],
-      "note": "本实验分支经用户授权覆盖公共译法滨川优美子。仅第六作九键拼音方案使用；XIYE键值和25，与原YUAN同值。原日文姓名及身份揭露时机不变，普通称呼为西野；不得归并为系列定译。"
+      "note": "用户确认的第六作ian押韵九键改编；谜题取千典，QIANDIAN键值和34。仅本作覆盖公共译法，原日文不变，身份及揭露时机沿用原作。取名千典，不取姓滨川；普通姓氏称呼仍为滨川。初恋姓名台词同步为千典。"
     },
     {
       "canonical": "高山敏夫",
@@ -49,43 +49,43 @@
     },
     {
       "canonical": "田中広美",
-      "render": "田中广美",
-      "status": "confirmed_local",
+      "render": "浅边广美",
+      "status": "confirmed_local_override",
       "category": "person_name",
       "source_evidence": [
         "scn1:929–934;1197–1219;1415–1416"
       ],
-      "note": "女性，20岁；姓名读音タナカ ヒロミ见数字便条，中文不附读音。"
+      "note": "用户确认的第六作ian押韵九键改编；谜题取浅边，QIANBIAN键值和33。仅本作覆盖公共译法，原日文不变，身份及揭露时机沿用原作。"
     },
     {
       "canonical": "内野マヤ",
-      "render": "内野玛雅",
-      "status": "confirmed_local",
+      "render": "内野千怜",
+      "status": "confirmed_local_override",
       "category": "person_name",
       "source_evidence": [
         "scn1:937–942;1220–1239;1418–1419"
       ],
-      "note": "女性27岁，姓读uchino；マヤ音译玛雅，不臆造日文汉字本名。"
+      "note": "用户确认的第六作ian押韵九键改编；谜题取千怜，QIANLIAN键值和36。仅本作覆盖公共译法，原日文不变，身份及揭露时机沿用原作。"
     },
     {
       "canonical": "楢原康司",
-      "render": "楢原康司",
-      "status": "confirmed_local",
+      "render": "边见康司",
+      "status": "confirmed_local_override",
       "category": "person_name",
       "source_evidence": [
         "scn1:943–948;1240–1266;1421–1422"
       ],
-      "note": "男性，51岁；ナラハラ コウジ见数字便条。不得把楢字误改为榊等近形字。"
+      "note": "用户确认的第六作ian押韵九键改编；谜题取边见，BIANJIAN键值和31。仅本作覆盖公共译法，原日文不变，身份及揭露时机沿用原作。"
     },
     {
       "canonical": "夏目政隆",
-      "render": "夏目政隆",
-      "status": "confirmed_local",
+      "render": "夏目健典",
+      "status": "confirmed_local_override",
       "category": "person_name",
       "source_evidence": [
         "scn1:949–954;1267–1284;1424–1425"
       ],
-      "note": "男性，17岁；ナツメ マサタカ见数字便条，中文不附读音。"
+      "note": "用户确认的第六作ian押韵九键改编；谜题取健典，JIANDIAN键值和32。仅本作覆盖公共译法，原日文不变，身份及揭露时机沿用原作。"
     },
     {
       "canonical": "原田寛作",
@@ -109,13 +109,13 @@
     },
     {
       "canonical": "松井愛香",
-      "render": "松井爱香",
-      "status": "confirmed_local",
+      "render": "松井怜见",
+      "status": "confirmed_local_override",
       "category": "person_name",
       "source_evidence": [
         "scn4:3453–3458"
       ],
-      "note": "读音matsui manaka，爱香不可误读aika。普通称呼不附注音，五十音谜题提问的句外译注保留罗马音，数字值14。"
+      "note": "用户确认的第六作ian押韵九键改编；谜题取怜见，LIANJIAN键值和34。仅本作覆盖公共译法，原日文不变，身份及揭露时机沿用原作。"
     },
     {
       "canonical": "玉川ゆかり",
@@ -406,31 +406,31 @@
       "aliases": [
         "さかなや"
       ],
-      "render": "鱼吧",
+      "render": "鱼铺",
       "category": "puzzle_location",
-      "status": "experimental_local",
-      "note": "本实验开场暗号9822→YUBA的地点称呼；热带鱼店兼咖啡馆设定不变。仅开场地名及相关备选地点使用鱼吧，普通热带鱼店描述不替换。"
+      "status": "confirmed_local_override",
+      "note": "已批准的开场暗号9878→YUPU→鱼铺；ZUPU族谱为同键干扰项，按店铺语境排除。"
     }
   ],
   "non_translate": [],
   "rules": {
-    "policy": "同时读取公共表。本方案经用户确认并合入主线，仅在第六作覆盖滨川优美子、数字线索及鱼店暗号；不修改或归并公共表、前作译文。详见PINYIN_LOCALIZATION.md。",
+    "policy": "同时读取公共表。用户批准第六作七个人名及谜题的本地覆盖；不改前作译文、不推广为系列通用译法。详见PINYIN_LOCALIZATION.md。",
     "candidate_matching": "公共筛选中的みに和Ｒ可能为普通词子串或字母匹配，不凭词面套用第一作账号或第五作楼层线索。",
     "scn0_timeline": "最后出勤三天前，合同约定工作到昨天，尚余两个工作日；不合并为合同到期后失踪。",
     "corporate_titles": "専務→专务，常務→常务，課長→课长。职级涉及资料室准入条件，不改为泛指经理。",
     "viewpoint_menu": "伊綱側へ→转到伊纲；推进等待提示明确切换另一视角，不当作普通场景移动。",
     "scn1_catchphrase": "お隣に､座る私は音成です！→坐在您身边的邻居，就是我林居！属于本作简短自我介绍变体，不补成完整口头禅，不加姓氏谐音译注。",
-    "scn1_numbers": "实验数字便条：１６３／１４４／９６／６７，末位松井２５；顺序不变，前两项三位数需实机布局检查。",
+    "scn1_numbers": "数字便条１６７／１３１／１００／６８，松井３４；保持原顺序和空白读音槽。",
     "scn1_uncertainty": "下调研、模仿犯可能性、未找到共通熟人等保留推定与调查范围；定期的在1245为经常/定期副词，不套用公共定期乘车票。",
     "opening_phone": "scn0末尾与scn1末尾为同一电话的两侧；保留生王被挂断、伊纲被拿证物的林居打断，不为双方补齐对方未听到的信息。",
-    "name_reading_clues": "五道题不加译注，角色先提示200起点、相邻差值与手机字母；楢读由仅在该题角色台词内说明。取全拼，不取日语读音。",
-    "keypad_clues": "九键全拼：2ABC/3DEF/4GHI/5JKL/6MNO/7PQRS/8TUV/9WXYZ；GUANGMEI37/MAYA19/YOUYUAN48/XIAMU29/SONGJING42；200减为163/144/96/67/25。YUAN25与XIYE25都归零。内野NEIYE也为25，名单筛选限定尚未遇害。",
-    "intro_puzzle": "9822→YUBA→鱼吧。四组八选一，正确索引4/1/4/6，菜单与分支回显同字母。保留原跳转；不用假名、罗马音译注或外部参考页。",
+    "name_reading_clues": "先发现姓或名的两个字韵母均为ian，再由数字差推导手机九键全拼求和。第一轮不得提前提示差值或手机。无译注。",
+    "keypad_clues": "QIANBIAN33/QIANLIAN36/BIANJIAN31/JIANDIAN32/LIANJIAN34；200→167→131→100→68→34→0；TIANBIAN与QIANDIAN均34。名单筛选限定尚未遇害。",
+    "intro_puzzle": "9878→YUPU→鱼铺；同键干扰ZUPU。四组八选一，正确索引4/1/4/6，选项及回显同步。",
     "dynamic_inserts": "scn3第N次；scn11失败N次、扣N分及最终N分：N由opcode82插入，中文按插入点分割，不把计数移到句外。",
     "dual_timeline": "生王主线比伊纲调查线晚约一个月；松井遇害与原受伤是两个不同时间点，照片、献花、失踪及电话按各视角知情范围保留。",
     "endgame_uncertainty": "scn7交换杀人初为伊纲推测，原田辩解不当作客观事实；scn9原仍否认交换杀人，幕后人身份与四年前恩怨不自行补名。",
     "source_anomalies": "scn3:2725源文说内野对不上电子设备线索，虽内野有MD也按原台词保留；scn6:4521原句疑漏前，依同作已明说的三天前/昨天/余两天译合同到期前两天。",
-    "fixed_text_layout": "数字卡保留全角数字及原空白槽，改为本实验数值；假名读音槽仍空。署名布局不变，三位数卡与全拼列表待实机验证。"
+    "fixed_text_layout": "数字卡保留全角数字及原空白槽，假名槽仍空。全拼等式每条独占原证物行；三位数卡须离线宽度检查，实机由用户验证。"
   },
-  "review_date": "2026-09-09"
+  "review_date": "2026-09-11"
 }
