@@ -43,8 +43,6 @@ namespace Kibu1ZhCN
                 Label(key,digits[i],new Vector2(0,15),new Vector2(130,40),32);
                 Label(key,letters[i],new Vector2(0,-23),new Vector2(130,30),25);
             }
-            Label(panel,"不计声调，每个字母对应所在键的数字",new Vector2(0,-217),new Vector2(480,32),22);
-            Label(panel,"重复字母按出现次数计算",new Vector2(0,-249),new Vector2(480,30),22);
             Apply();
         }
         private static RectTransform Rect(string name,Transform parent,Vector2 position,Vector2 size)

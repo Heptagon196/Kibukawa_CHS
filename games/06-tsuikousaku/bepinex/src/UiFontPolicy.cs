@@ -17,7 +17,7 @@ namespace Kibu1ZhCN
         private static readonly Dictionary<Text, Original> originals = new Dictionary<Text, Original>();
         public static void Capture(Text text)
         {
-            if (text == null || originals.ContainsKey(text)) return;
+            if (text == null || text.font == null || originals.ContainsKey(text)) return;
             originals[text] = new Original { Font=text.font, Size=text.fontSize, Spacing=text.lineSpacing,
                 BestFit=text.resizeTextForBestFit, Min=text.resizeTextMinSize, Max=text.resizeTextMaxSize, Style=text.fontStyle };
         }
@@ -31,7 +31,8 @@ namespace Kibu1ZhCN
         {
             if (text == null) return;
             Capture(text);
-            Original original = originals[text];
+            Original original;
+            if (!originals.TryGetValue(text, out original)) return;
             bool chinese = fallback != null && HasChinese(text.text);
             Font desired = chinese ? fallback : original.Font;
             if (text.font != desired) text.font = desired;

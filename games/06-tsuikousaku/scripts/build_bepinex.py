@@ -146,6 +146,9 @@ def main():
     target = config['bepinex']
     output = p.inside(p.WORK/'bepinex/build/plugin')
     output.mkdir(parents=True, exist_ok=True)
+    font_test=p.WORK/'bepinex/build/UiFontLifecycleTests.exe'
+    subprocess.run(['C:/Windows/Microsoft.NET/Framework64/v4.0.30319/csc.exe','/nologo','/out:'+str(font_test),str(p.WORK/'bepinex/src/UiFontPolicy.cs'),str(p.WORK/'bepinex/tests/UiFontLifecycleTests.cs')],check=True)
+    subprocess.run([str(font_test)],check=True)
     from validate_pause_layout import validate as validate_pause
     validate_pause()
     pack, manifest = export_pack(output)
