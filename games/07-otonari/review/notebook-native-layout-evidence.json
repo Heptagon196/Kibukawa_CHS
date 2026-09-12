@@ -1,0 +1,92 @@
+{
+  "assembly_sha256": "7eecda73bb351a17e5ad967a375856850396a8bcab4a7a7941196d142f69ea61",
+  "notes": [
+    "Paint restores whole framebuffer clip before rendering text; no ten-full-width-character clipping",
+    "Run computes FLeft=(Width-FWidth*19/2)/2; Paint increments x using original StringWidth",
+    "Native fixed notebook is 9-row buffer, heading row0 blank row1 six clues rows2..7",
+    "At 240px wide and 16px font, FLeft44 plus longest 11-fullwidth-character clue176 =220, inside framebuffer; 12px also fits"
+  ],
+  "il_evidence": {
+    "System.Void appli1.CanvasEx::Paint(Socotra.UI.StGraphics)": {
+      "1356..1363": [
+        "ldarg.1 ",
+        "ldc.i4.0 ",
+        "ldc.i4.0 ",
+        "ldarg.0 ",
+        "ldfld System.Int16 appli1.CanvasEx::Width",
+        "ldarg.0 ",
+        "ldfld System.Int16 appli1.CanvasEx::Height",
+        "callvirt System.Void Socotra.UI.StGraphics::SetClip(System.Int32,System.Int32,System.Int32,System.Int32)"
+      ],
+      "1662..1676": [
+        "ldloc.s local:8",
+        "ldarg.0 ",
+        "ldfld System.Int16 appli1.CanvasEx::FLeft",
+        "add ",
+        "stloc.s local:5",
+        "ldloc.s local:9",
+        "ldarg.0 ",
+        "ldfld System.Int16 appli1.CanvasEx::FTop",
+        "add ",
+        "ldarg.0 ",
+        "ldfld System.Int16 appli1.CanvasEx::FHeight",
+        "ldloc.3 ",
+        "mul ",
+        "add ",
+        "stloc.s local:6"
+      ],
+      "1723..1735": [
+        "ldarg.1 ",
+        "ldarg.0 ",
+        "ldfld System.Char[][] appli1.CanvasEx::Text",
+        "ldloc.3 ",
+        "ldelem.ref ",
+        "ldloc.s local:5",
+        "ldloc.s local:6",
+        "ldarg.0 ",
+        "ldfld System.Int16 appli1.CanvasEx::FAscent",
+        "add ",
+        "ldloc.s local:4",
+        "ldc.i4.1 ",
+        "callvirt System.Void Socotra.UI.StGraphics::DrawChars(System.Char[],System.Int32,System.Int32,System.Int32,System.Int32)"
+      ],
+      "1773..1780": [
+        "ldloc.s local:5",
+        "ldarg.0 ",
+        "ldfld Socotra.UI.StFont appli1.CanvasEx::font",
+        "ldloca.s local:12",
+        "call System.String System.Char::ToString()",
+        "callvirt System.Int32 Socotra.UI.StFont::StringWidth(System.String)",
+        "add ",
+        "stloc.s local:5"
+      ]
+    },
+    "System.Boolean appli1.CanvasEx/<Run>d__249::MoveNext()": {
+      "62..68": [
+        "ldloc.1 ",
+        "ldloc.1 ",
+        "ldfld Socotra.UI.StFont appli1.CanvasEx::font",
+        "ldstr   ",
+        "callvirt System.Int32 Socotra.UI.StFont::StringWidth(System.String)",
+        "conv.i2 ",
+        "stfld System.Int16 appli1.CanvasEx::FWidth"
+      ],
+      "169..182": [
+        "ldloc.1 ",
+        "ldloc.1 ",
+        "ldfld System.Int16 appli1.CanvasEx::Width",
+        "ldloc.1 ",
+        "ldfld System.Int16 appli1.CanvasEx::FWidth",
+        "ldc.i4.s 19",
+        "mul ",
+        "ldc.i4.2 ",
+        "div ",
+        "sub ",
+        "ldc.i4.2 ",
+        "div ",
+        "conv.i2 ",
+        "stfld System.Int16 appli1.CanvasEx::FLeft"
+      ]
+    }
+  }
+}

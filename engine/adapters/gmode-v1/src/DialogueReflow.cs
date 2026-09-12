@@ -298,8 +298,9 @@ namespace Kibu1ZhCN
         }
         private static IEnumerator Advance(object canvas, Access access, State state)
         {
-            int capacity = Convert.ToInt32(access.NameId.GetValue(canvas)) >= 0 ? 4 : 5;
-            capacity = Math.Min(capacity, 9 - Convert.ToInt32(access.StartLine.GetValue(canvas)));
+            // TextLine is the actual body origin: ordinary dialogue has five
+            // rows (four with a speaker), while full-screen text can use nine.
+            int capacity = Math.Max(1, 9 - Convert.ToInt32(access.StartLine.GetValue(canvas)));
             if (state.InteractionRows >= capacity)
             {
                 if (!state.WaitSatisfied) yield return OriginalCommand(canvas, access, 79, null, null);

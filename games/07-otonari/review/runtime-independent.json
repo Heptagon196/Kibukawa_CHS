@@ -1,0 +1,36 @@
+{
+  "schema": 1,
+  "reviewer": "audit_runtime7",
+  "mode": "independent_static_review_no_game_window",
+  "game": "kibu7",
+  "blocking_runtime_defects": [],
+  "evidence": {
+    "engine_normalized_il": "kibu6 and kibu7 Read/Jump/ExeText/Script iterator/DrawCharImpl/HowToPlayDialog.ChangePage match after iterator ordinal normalization",
+    "menu_transpiler": "Exactly two Select[1]=0 patterns, both owner load ldloc.1 in original Script.MoveNext",
+    "help_pages": "ChangePage validates 1..pageCount, updates nowPage, selects original sprite[nowPage-1]; replacement uses matching 1-based index and restores latest original before disposal",
+    "font_lifecycle": "UiFontPolicy captures pre-replacement font/layout and restores before dynamic font destruction. Help sprites/textures and pixel font materials persist across scenes and dispose at plugin shutdown",
+    "dynamic_clauses": "scn3:7932 and 9469 are opcode77 at branch joins before common text tails, correctly remain shared reflow rather than FixedCardLayout",
+    "instruction_page": "scn0 heading included in shared row budget, body scn0:2685 uses paragraph-start flag. Avoids the earlier heading-only bypass dropping heading from unread-row accounting",
+    "input_categories": "CharacterInputKeyItem.Init saves original arg to keyString before setting Text; display-only mapping leaves category keys and callbacks intact",
+    "sixth_assumptions": "No sixth puzzle-name, keypad/phone, save-header rewrite, or volume interpreter patch in seventh Plugin. Original ScData/ScCur/jump arguments remain untouched"
+  },
+  "source_hashes": {
+    "bepinex/src/Plugin.cs": "8ce98f3ea0f7fb28774b9fd2f6c3ca13791f02b7dd7a27d569e3214552fb085e",
+    "bepinex/src/FixedCardLayout.cs": "0e5a3e3ecad9a36106ecab9a697f50b3760ecceef4555d9fef09ad221b34700d",
+    "bepinex/src/RuntimeImages.cs": "0220e8fe9d2adeed016f7486f032d04525618fbac774e0a652bd272a47a559d2",
+    "bepinex/src/UiFontPolicy.cs": "380cabf2ae0a95e91bbda12ace46373fa1d25712a2c917ae62fe7136603ae0f9"
+  },
+  "limitations": [
+    "No Unity/game process launched; actual glyph placement, image rendering and interactive scene behavior remain user validation.",
+    "Build/export scripts and installation side effects owned by parent; this review covers runtime hooks and independent original-IL evidence."
+  ],
+  "resolved_completeness_followups": [
+    {
+      "item": "Four category labels require pack.ui export",
+      "status": "resolved",
+      "detail": "build_bepinex.export_pack read at review time skips excluded 3414..3417 and does not export display-labels.json. Add only source/target UI entries, not literals or key table mappings.",
+      "verification": "Parent independently verified all four exact source/target pairs in final pack.ui."
+    }
+  ],
+  "open_completeness_followups": []
+}

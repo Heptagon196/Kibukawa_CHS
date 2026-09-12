@@ -1,0 +1,37 @@
+{
+  "user_requested": true,
+  "scope": "scn0:363 opening introduction only; actual game title unchanged",
+  "before": "那么，本系列外传《林居刑警的搜查笔记》——小小名侦探。敬请欣赏。",
+  "after": "那么，本系列外传《林居刑警的搜查笔记：小小名侦探》。敬请欣赏。",
+  "unchanged_click_units": 1331,
+  "reviewed_change": [
+    {
+      "current": {
+        "script": "scn0",
+        "end": 363,
+        "opcode": 76,
+        "instructions": [
+          281,
+          303,
+          324,
+          344
+        ],
+        "source": "では､シリーズ外伝｡音成刑事の捜査メモ　ちいさな名探偵お楽しみください｡",
+        "target": "那么，本系列外传《林居刑警的搜查笔记：小小名侦探》。敬请欣赏。"
+      },
+      "reviewed": {
+        "script": "scn0",
+        "end": 363,
+        "opcode": 76,
+        "instructions": [
+          281,
+          303,
+          324,
+          344
+        ],
+        "source": "では､シリーズ外伝｡音成刑事の捜査メモ　ちいさな名探偵お楽しみください｡",
+        "target": "那么，本系列外传《林居刑警的搜查笔记》——小小名侦探。敬请欣赏。"
+      }
+    }
+  ]
+}

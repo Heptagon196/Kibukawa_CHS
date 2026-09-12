@@ -1,0 +1,583 @@
+{
+  "schema": 1,
+  "id": "kibu7",
+  "adapter": "gmode-v1",
+  "source_fingerprints": "work/manifest.json",
+  "translation": "work/cache.json",
+  "glossary": "work/glossary.locked.json",
+  "resource_archive": "otonari.res",
+  "bepinex": {
+    "profile": "mono-win-x64-5.4.23.5",
+    "managed": "kibu7_Data/Managed",
+    "assembly": "Kibu7ZhCN.dll",
+    "plugin_directory": "Kibu7ZhCN",
+    "references": [
+      "mscorlib.dll",
+      "netstandard.dll",
+      "System.dll",
+      "System.Core.dll",
+      "UnityEngine.dll",
+      "UnityEngine.CoreModule.dll",
+      "UnityEngine.UI.dll",
+      "UnityEngine.UIModule.dll",
+      "UnityEngine.TextRenderingModule.dll",
+      "UnityEngine.ImageConversionModule.dll"
+    ]
+  },
+  "compatibility": {
+    "stage": "released_user_accepted",
+    "runtime_tested": false,
+    "release_ready": true,
+    "hooks_ready": true,
+    "translation_complete": true,
+    "adapter_reviewed": true,
+    "notes": "Translation, title subtitle, help pages and history integrated. User completed in-game verification and approved release on 2026-09-12. Automated checks are offline; the agent did not operate the game window.",
+    "text_translation_complete": true,
+    "translated_entries": 3233,
+    "pending_entries": 0,
+    "reviewed_click_units": 1332,
+    "text_semantic_reviewed": true,
+    "reviewed_color_spans": 98,
+    "user_accepted": true,
+    "user_accepted_date": "2026-09-12"
+  },
+  "layout": {
+    "chinese_layout_verified": false,
+    "offline_verified": true,
+    "user_accepted": true
+  },
+  "source_title": "音成刑事の捜査メモ",
+  "translation_title": "林居刑警的搜查笔记",
+  "translation_title_status": "user_confirmed",
+  "approved_empty_layout_text": {
+    "721": {
+      "source": "らし",
+      "target": "",
+      "reason": "带标签译稿在同色及执行指令区间内合并中文；不删除原始指令"
+    },
+    "744": {
+      "source": "を取りに戻られ",
+      "target": "",
+      "reason": "带标签译稿在同色及执行指令区间内合并中文；不删除原始指令"
+    },
+    "3068": {
+      "source": "(ｲｻﾞｷ ｼｭｳｺﾞ)",
+      "target": "",
+      "reason": "中文姓名不附日文读音；删除注音文本，原指令及空字符串保留，不改为null。"
+    },
+    "3071": {
+      "source": "(ﾐﾄﾞﾘｶﾜ ｷｮｳｺ)",
+      "target": "",
+      "reason": "中文姓名不附日文读音；删除注音文本，原指令及空字符串保留，不改为null。"
+    },
+    "3074": {
+      "source": "(ﾈﾑﾛ ｴﾐ)",
+      "target": "",
+      "reason": "中文姓名不附日文读音；删除注音文本，原指令及空字符串保留，不改为null。"
+    },
+    "3077": {
+      "source": "(ﾅｶﾓﾄ ﾕｳｽｹ)",
+      "target": "",
+      "reason": "中文姓名不附日文读音；删除注音文本，原指令及空字符串保留，不改为null。"
+    },
+    "3080": {
+      "source": "(ﾑｶｲ)",
+      "target": "",
+      "reason": "中文姓名不附日文读音；删除注音文本，原指令及空字符串保留，不改为null。"
+    },
+    "3083": {
+      "source": "(ﾔﾖﾛｽﾞ)",
+      "target": "",
+      "reason": "中文姓名不附日文读音；删除注音文本，原指令及空字符串保留，不改为null。"
+    }
+  },
+  "reviewed_exclusions": {
+    "3174": {
+      "source": "アーカイブスタイトル",
+      "reason": "Inactive/default archive title placeholder. Object/constructor context reviewed in review/exclusion-summary.json."
+    },
+    "3189": {
+      "source": "リリース：20XX年XX月\r\nジャンル：XXXXXXXゲーム\r\nXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "reason": "Inactive/default archive title placeholder. Object/constructor context reviewed in review/exclusion-summary.json."
+    },
+    "3237": {
+      "source": "リリース：20XX年XX月\r\nジャンル：XXXXXXXゲーム\r\nXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "reason": "Inactive/default archive title placeholder. Object/constructor context reviewed in review/exclusion-summary.json."
+    },
+    "3238": {
+      "source": "アーカイブスタイトル",
+      "reason": "Inactive/default archive title placeholder. Object/constructor context reviewed in review/exclusion-summary.json."
+    }
+  },
+  "approved_source_passthrough": {
+    "2": {
+      "source": "生王正生",
+      "target": "生王正生",
+      "reason": "已逐条复核可直接使用的汉字姓名、数字/字母标识或刻意空白；不是未译日语正文。"
+    },
+    "30": {
+      "source": "派出所",
+      "target": "派出所",
+      "reason": "已逐条复核可直接使用的汉字姓名、数字/字母标识或刻意空白；不是未译日语正文。"
+    },
+    "214": {
+      "source": "派出所",
+      "target": "派出所",
+      "reason": "已逐条复核可直接使用的汉字姓名、数字/字母标识或刻意空白；不是未译日语正文。"
+    },
+    "215": {
+      "source": "派出所",
+      "target": "派出所",
+      "reason": "已逐条复核可直接使用的汉字姓名、数字/字母标识或刻意空白；不是未译日语正文。"
+    },
+    "414": {
+      "source": "入口",
+      "target": "入口",
+      "reason": "已逐条复核可直接使用的汉字姓名、数字/字母标识或刻意空白；不是未译日语正文。"
+    },
+    "507": {
+      "source": "　　　　",
+      "target": "　　　　",
+      "reason": "已逐条复核可直接使用的汉字姓名、数字/字母标识或刻意空白；不是未译日语正文。"
+    },
+    "508": {
+      "source": "１",
+      "target": "１",
+      "reason": "已逐条复核可直接使用的汉字姓名、数字/字母标识或刻意空白；不是未译日语正文。"
+    },
+    "509": {
+      "source": "　　　　",
+      "target": "　　　　",
+      "reason": "已逐条复核可直接使用的汉字姓名、数字/字母标识或刻意空白；不是未译日语正文。"
+    },
+    "510": {
+      "source": "２",
+      "target": "２",
+      "reason": "已逐条复核可直接使用的汉字姓名、数字/字母标识或刻意空白；不是未译日语正文。"
+    },
+    "511": {
+      "source": "　　　　",
+      "target": "　　　　",
+      "reason": "已逐条复核可直接使用的汉字姓名、数字/字母标识或刻意空白；不是未译日语正文。"
+    },
+    "512": {
+      "source": "３",
+      "target": "３",
+      "reason": "已逐条复核可直接使用的汉字姓名、数字/字母标识或刻意空白；不是未译日语正文。"
+    },
+    "513": {
+      "source": "　　　　",
+      "target": "　　　　",
+      "reason": "已逐条复核可直接使用的汉字姓名、数字/字母标识或刻意空白；不是未译日语正文。"
+    },
+    "514": {
+      "source": "４",
+      "target": "４",
+      "reason": "已逐条复核可直接使用的汉字姓名、数字/字母标识或刻意空白；不是未译日语正文。"
+    },
+    "515": {
+      "source": "　　　　",
+      "target": "　　　　",
+      "reason": "已逐条复核可直接使用的汉字姓名、数字/字母标识或刻意空白；不是未译日语正文。"
+    },
+    "516": {
+      "source": "５",
+      "target": "５",
+      "reason": "已逐条复核可直接使用的汉字姓名、数字/字母标识或刻意空白；不是未译日语正文。"
+    },
+    "517": {
+      "source": "　　　　",
+      "target": "　　　　",
+      "reason": "已逐条复核可直接使用的汉字姓名、数字/字母标识或刻意空白；不是未译日语正文。"
+    },
+    "518": {
+      "source": "６",
+      "target": "６",
+      "reason": "已逐条复核可直接使用的汉字姓名、数字/字母标识或刻意空白；不是未译日语正文。"
+    },
+    "519": {
+      "source": "　　　　",
+      "target": "　　　　",
+      "reason": "已逐条复核可直接使用的汉字姓名、数字/字母标识或刻意空白；不是未译日语正文。"
+    },
+    "520": {
+      "source": "７",
+      "target": "７",
+      "reason": "已逐条复核可直接使用的汉字姓名、数字/字母标识或刻意空白；不是未译日语正文。"
+    },
+    "521": {
+      "source": "　　　　",
+      "target": "　　　　",
+      "reason": "已逐条复核可直接使用的汉字姓名、数字/字母标识或刻意空白；不是未译日语正文。"
+    },
+    "522": {
+      "source": "８",
+      "target": "８",
+      "reason": "已逐条复核可直接使用的汉字姓名、数字/字母标识或刻意空白；不是未译日语正文。"
+    },
+    "523": {
+      "source": "　　　　",
+      "target": "　　　　",
+      "reason": "已逐条复核可直接使用的汉字姓名、数字/字母标识或刻意空白；不是未译日语正文。"
+    },
+    "524": {
+      "source": "９",
+      "target": "９",
+      "reason": "已逐条复核可直接使用的汉字姓名、数字/字母标识或刻意空白；不是未译日语正文。"
+    },
+    "577": {
+      "source": "修吾",
+      "target": "修吾",
+      "reason": "已逐条复核可直接使用的汉字姓名、数字/字母标识或刻意空白；不是未译日语正文。"
+    },
+    "849": {
+      "source": "根室",
+      "target": "根室",
+      "reason": "已逐条复核可直接使用的汉字姓名、数字/字母标识或刻意空白；不是未译日语正文。"
+    },
+    "850": {
+      "source": "中本",
+      "target": "中本",
+      "reason": "已逐条复核可直接使用的汉字姓名、数字/字母标识或刻意空白；不是未译日语正文。"
+    },
+    "851": {
+      "source": "向井",
+      "target": "向井",
+      "reason": "已逐条复核可直接使用的汉字姓名、数字/字母标识或刻意空白；不是未译日语正文。"
+    },
+    "908": {
+      "source": "入口",
+      "target": "入口",
+      "reason": "已逐条复核可直接使用的汉字姓名、数字/字母标识或刻意空白；不是未译日语正文。"
+    },
+    "916": {
+      "source": "入口",
+      "target": "入口",
+      "reason": "已逐条复核可直接使用的汉字姓名、数字/字母标识或刻意空白；不是未译日语正文。"
+    },
+    "1012": {
+      "source": "道路",
+      "target": "道路",
+      "reason": "已逐条复核可直接使用的汉字姓名、数字/字母标识或刻意空白；不是未译日语正文。"
+    },
+    "1157": {
+      "source": "！！！",
+      "target": "！！！",
+      "reason": "已逐条复核可直接使用的汉字姓名、数字/字母标识或刻意空白；不是未译日语正文。"
+    },
+    "1352": {
+      "source": "伊崎",
+      "target": "伊崎",
+      "reason": "已逐条复核可直接使用的汉字姓名、数字/字母标识或刻意空白；不是未译日语正文。"
+    },
+    "1596": {
+      "source": "？",
+      "target": "？",
+      "reason": "已逐条复核可直接使用的汉字姓名、数字/字母标识或刻意空白；不是未译日语正文。"
+    },
+    "1669": {
+      "source": "……",
+      "target": "……",
+      "reason": "已逐条复核可直接使用的汉字姓名、数字/字母标识或刻意空白；不是未译日语正文。"
+    },
+    "1670": {
+      "source": "……",
+      "target": "……",
+      "reason": "已逐条复核可直接使用的汉字姓名、数字/字母标识或刻意空白；不是未译日语正文。"
+    },
+    "1739": {
+      "source": "根室",
+      "target": "根室",
+      "reason": "已逐条复核可直接使用的汉字姓名、数字/字母标识或刻意空白；不是未译日语正文。"
+    },
+    "1740": {
+      "source": "中本",
+      "target": "中本",
+      "reason": "已逐条复核可直接使用的汉字姓名、数字/字母标识或刻意空白；不是未译日语正文。"
+    },
+    "1741": {
+      "source": "向井",
+      "target": "向井",
+      "reason": "已逐条复核可直接使用的汉字姓名、数字/字母标识或刻意空白；不是未译日语正文。"
+    },
+    "2369": {
+      "source": "伊崎",
+      "target": "伊崎",
+      "reason": "已逐条复核可直接使用的汉字姓名、数字/字母标识或刻意空白；不是未译日语正文。"
+    },
+    "2371": {
+      "source": "根室",
+      "target": "根室",
+      "reason": "已逐条复核可直接使用的汉字姓名、数字/字母标识或刻意空白；不是未译日语正文。"
+    },
+    "2372": {
+      "source": "中本",
+      "target": "中本",
+      "reason": "已逐条复核可直接使用的汉字姓名、数字/字母标识或刻意空白；不是未译日语正文。"
+    },
+    "2373": {
+      "source": "向井",
+      "target": "向井",
+      "reason": "已逐条复核可直接使用的汉字姓名、数字/字母标识或刻意空白；不是未译日语正文。"
+    },
+    "2417": {
+      "source": "伊崎",
+      "target": "伊崎",
+      "reason": "已逐条复核可直接使用的汉字姓名、数字/字母标识或刻意空白；不是未译日语正文。"
+    },
+    "2420": {
+      "source": "中本",
+      "target": "中本",
+      "reason": "已逐条复核可直接使用的汉字姓名、数字/字母标识或刻意空白；不是未译日语正文。"
+    },
+    "2464": {
+      "source": "死因",
+      "target": "死因",
+      "reason": "已逐条复核可直接使用的汉字姓名、数字/字母标识或刻意空白；不是未译日语正文。"
+    },
+    "2500": {
+      "source": "死因",
+      "target": "死因",
+      "reason": "已逐条复核可直接使用的汉字姓名、数字/字母标识或刻意空白；不是未译日语正文。"
+    },
+    "2584": {
+      "source": "根室",
+      "target": "根室",
+      "reason": "已逐条复核可直接使用的汉字姓名、数字/字母标识或刻意空白；不是未译日语正文。"
+    },
+    "2585": {
+      "source": "中本",
+      "target": "中本",
+      "reason": "已逐条复核可直接使用的汉字姓名、数字/字母标识或刻意空白；不是未译日语正文。"
+    },
+    "2586": {
+      "source": "向井",
+      "target": "向井",
+      "reason": "已逐条复核可直接使用的汉字姓名、数字/字母标识或刻意空白；不是未译日语正文。"
+    },
+    "3088": {
+      "source": "向井",
+      "target": "向井",
+      "reason": "已逐条复核可直接使用的汉字姓名、数字/字母标识或刻意空白；不是未译日语正文。"
+    },
+    "3089": {
+      "source": "根室",
+      "target": "根室",
+      "reason": "已逐条复核可直接使用的汉字姓名、数字/字母标识或刻意空白；不是未译日语正文。"
+    },
+    "3090": {
+      "source": "中本",
+      "target": "中本",
+      "reason": "已逐条复核可直接使用的汉字姓名、数字/字母标识或刻意空白；不是未译日语正文。"
+    },
+    "3118": {
+      "source": "老人",
+      "target": "老人",
+      "reason": "已逐条复核可直接使用的汉字姓名、数字/字母标识或刻意空白；不是未译日语正文。"
+    }
+  },
+  "approved_layout_text": {
+    "20": {
+      "source": "　　　序 章",
+      "target": "　　　序章",
+      "reason": "已核原始固定行/缩进/列表或声音菜单间距；布局实机待验。"
+    },
+    "21": {
+      "source": " めぐりあいチワワ",
+      "target": "　邂逅吉娃娃",
+      "reason": "已核原始固定行/缩进/列表或声音菜单间距；布局实机待验。"
+    },
+    "25": {
+      "source": " 鞠浜台駅前派出所",
+      "target": " 鞠滨台站前派出所",
+      "reason": "已核原始固定行/缩进/列表或声音菜单间距；布局实机待验。"
+    },
+    "140": {
+      "source": "　 ＜操作説明＞",
+      "target": "　〈操作说明〉",
+      "reason": "已核原始固定行/缩进/列表或声音菜单间距；布局实机待验。"
+    },
+    "198": {
+      "source": "　　 駅前広場",
+      "target": "　　 站前广场",
+      "reason": "已核原始固定行/缩进/列表或声音菜单间距；布局实机待验。"
+    },
+    "483": {
+      "source": "　１Ｆ　フロント",
+      "target": "　１楼　前台",
+      "reason": "已核原始固定行/缩进/列表或声音菜单间距；布局实机待验。"
+    },
+    "507": {
+      "source": "　　　　",
+      "target": "　　　　",
+      "reason": "已核原始固定行/缩进/列表或声音菜单间距；布局实机待验。"
+    },
+    "509": {
+      "source": "　　　　",
+      "target": "　　　　",
+      "reason": "已核原始固定行/缩进/列表或声音菜单间距；布局实机待验。"
+    },
+    "511": {
+      "source": "　　　　",
+      "target": "　　　　",
+      "reason": "已核原始固定行/缩进/列表或声音菜单间距；布局实机待验。"
+    },
+    "513": {
+      "source": "　　　　",
+      "target": "　　　　",
+      "reason": "已核原始固定行/缩进/列表或声音菜单间距；布局实机待验。"
+    },
+    "515": {
+      "source": "　　　　",
+      "target": "　　　　",
+      "reason": "已核原始固定行/缩进/列表或声音菜单间距；布局实机待验。"
+    },
+    "517": {
+      "source": "　　　　",
+      "target": "　　　　",
+      "reason": "已核原始固定行/缩进/列表或声音菜单间距；布局实机待验。"
+    },
+    "519": {
+      "source": "　　　　",
+      "target": "　　　　",
+      "reason": "已核原始固定行/缩进/列表或声音菜单间距；布局实机待验。"
+    },
+    "521": {
+      "source": "　　　　",
+      "target": "　　　　",
+      "reason": "已核原始固定行/缩进/列表或声音菜单间距；布局实机待验。"
+    },
+    "523": {
+      "source": "　　　　",
+      "target": "　　　　",
+      "reason": "已核原始固定行/缩进/列表或声音菜单间距；布局实机待验。"
+    },
+    "625": {
+      "source": "　 ９Ｆ　廊下",
+      "target": "　９楼　走廊",
+      "reason": "已核原始固定行/缩进/列表或声音菜单间距；布局实机待验。"
+    },
+    "659": {
+      "source": "　１Ｆ　フロント",
+      "target": "　１楼　前台",
+      "reason": "已核原始固定行/缩进/列表或声音菜单间距；布局实机待验。"
+    },
+    "835": {
+      "source": "　 ９Ｆ　廊下",
+      "target": "　９楼　走廊",
+      "reason": "已核原始固定行/缩进/列表或声音菜单间距；布局实机待验。"
+    },
+    "1269": {
+      "source": "　　　１ 章",
+      "target": "　　　第一章",
+      "reason": "已核原始固定行/缩进/列表或声音菜单间距；布局实机待验。"
+    },
+    "1270": {
+      "source": "　 密室の眠り姫",
+      "target": "　密室里的睡美人",
+      "reason": "已核原始固定行/缩进/列表或声音菜单间距；布局实机待验。"
+    },
+    "1272": {
+      "source": "　903号　伊崎部屋",
+      "target": "　903号　伊崎房间",
+      "reason": "已核原始固定行/缩进/列表或声音菜单间距；布局实机待验。"
+    },
+    "1523": {
+      "source": "　　　２ 章",
+      "target": "　　　第二章",
+      "reason": "已核原始固定行/缩进/列表或声音菜单间距；布局实机待验。"
+    },
+    "1524": {
+      "source": "　　 二つの皿",
+      "target": "　　两只盘子",
+      "reason": "已核原始固定行/缩进/列表或声音菜单间距；布局实机待验。"
+    },
+    "1525": {
+      "source": "　 シャングリラ",
+      "target": "　　香格里拉",
+      "reason": "已核原始固定行/缩进/列表或声音菜单间距；布局实机待验。"
+    },
+    "1942": {
+      "source": "　　 橋町通り",
+      "target": "　　桥町街",
+      "reason": "已核原始固定行/缩进/列表或声音菜单间距；布局实机待验。"
+    },
+    "2157": {
+      "source": "　１Ｆ　フロント",
+      "target": "　１楼　前台",
+      "reason": "已核原始固定行/缩进/列表或声音菜单间距；布局实机待验。"
+    },
+    "2192": {
+      "source": "　 ９Ｆ　廊下",
+      "target": "　９楼　走廊",
+      "reason": "已核原始固定行/缩进/列表或声音菜单间距；布局实机待验。"
+    },
+    "2284": {
+      "source": "　　　３ 章",
+      "target": "　　　第三章",
+      "reason": "已核原始固定行/缩进/列表或声音菜单间距；布局实机待验。"
+    },
+    "2285": {
+      "source": "　ちいさな名探偵",
+      "target": "　小小名侦探",
+      "reason": "已核原始固定行/缩进/列表或声音菜单间距；布局实机待验。"
+    },
+    "2287": {
+      "source": "　１Ｆ　フロント",
+      "target": "　１楼　前台",
+      "reason": "已核原始固定行/缩进/列表或声音菜单间距；布局实机待验。"
+    },
+    "3065": {
+      "source": "　　 おしまい",
+      "target": "　　　完",
+      "reason": "已核原始固定行/缩进/列表或声音菜单间距；布局实机待验。"
+    },
+    "3126": {
+      "source": "　･足りない破片",
+      "target": "　·缺少的碎片",
+      "reason": "已核原始固定行/缩进/列表或声音菜单间距；布局实机待验。"
+    },
+    "3128": {
+      "source": "　･伊崎の忘れ物",
+      "target": "　·伊崎遗忘的东西",
+      "reason": "已核原始固定行/缩进/列表或声音菜单间距；布局实机待验。"
+    },
+    "3130": {
+      "source": "　･向井の口論",
+      "target": "　·向井的争吵",
+      "reason": "已核原始固定行/缩进/列表或声音菜单间距；布局实机待验。"
+    },
+    "3132": {
+      "source": "　･汚い何か",
+      "target": "　·脏兮兮的东西",
+      "reason": "已核原始固定行/缩进/列表或声音菜单间距；布局实机待验。"
+    },
+    "3134": {
+      "source": "　･不確定なアリバイ",
+      "target": "　·不确定的不在场证明",
+      "reason": "已核原始固定行/缩进/列表或声音菜单间距；布局实机待验。"
+    },
+    "3136": {
+      "source": "　･二つの皿",
+      "target": "　·两只盘子",
+      "reason": "已核原始固定行/缩进/列表或声音菜单间距；布局实机待验。"
+    },
+    "5623": {
+      "source": "サウンド　",
+      "target": "声音　",
+      "reason": "已核原始固定行/缩进/列表或声音菜单间距；布局实机待验。"
+    },
+    "5624": {
+      "source": "サウンド　",
+      "target": "声音　",
+      "reason": "已核原始固定行/缩进/列表或声音菜单间距；布局实机待验。"
+    }
+  },
+  "approved_preserved_terms": {
+    "5613": {
+      "term": "ｽｰﾊﾟｰｹﾞｰﾑﾗﾝﾁ",
+      "reason": "Public glossary preserve legacy service name; UI remainder translated."
+    }
+  },
+  "plugin_version": "1.0.0"
+}

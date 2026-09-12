@@ -11,7 +11,6 @@ using UnityEngine.UI;
 namespace KibukawaHistory
 {
     [BepInPlugin("local.kibukawa.history", "Kibukawa Dialogue History", "1.6.2")]
-    [BepInProcess("kibu1.exe"), BepInProcess("kibu2.exe"), BepInProcess("kibu3.exe"), BepInProcess("kibu4.exe"), BepInProcess("kibu5.exe"), BepInProcess("kibu6.exe")]
     public sealed class HistoryPlugin : BaseUnityPlugin
     {
         private static HistoryPlugin self;

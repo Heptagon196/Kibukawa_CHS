@@ -128,11 +128,13 @@ def main():
                                 base_zip_sha256=digest(archive),image_zip_sha256=image_report['package_sha256'],
                                 image_runtime_visual_tested=image_report['runtime_visual_tested'])
         if args.with_history:
-            history=read(ROOT/'out/history/manifest.json')
+            history_root=(ROOT/report.get('history_artifacts', 'out/history')).resolve()
+            require(history_root == (ROOT/'out/history').resolve() or history_root.is_relative_to(project/'bepinex/build'), 'History artifacts outside approved build directory')
+            history=read(history_root/'manifest.json')
             require(bool(history.get('source_hashes')), 'History build lacks source fingerprints')
             for relative, expected in history['source_hashes'].items():
                 require(digest(ROOT/relative)==expected,'Stale history source: '+relative)
-            history_zip=ROOT/'out/history'/(game+'-history-'+history['version']+'.zip')
+            history_zip=history_root/(game+'-history-'+history['version']+'.zip')
             dll='BepInEx/plugins/KibukawaHistory/KibukawaHistory.dll'
             with zipfile.ZipFile(history_zip) as addon, zipfile.ZipFile(io.BytesIO(content)) as base:
                 require(addon.testzip() is None,'Corrupt history ZIP')

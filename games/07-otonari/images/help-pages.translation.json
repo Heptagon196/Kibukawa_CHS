@@ -1,0 +1,372 @@
+{
+  "version": 1,
+  "bundle": "kibu7_Data/StreamingAssets/prefab/howtoplay",
+  "model_path_id": -4575662690838675561,
+  "pages": [
+    {
+      "page": 1,
+      "sprite_name": "howtoplay_keyguide_steam_00",
+      "sprite_path_id": -4765440867892052933,
+      "texture_path_id": 5675799129235673745,
+      "source_sprite_file": "images/source/howtoplay_keyguide_steam_00.png",
+      "source_texture_file": "images/source/howtoplay_keyguide_steam_00.texture.png",
+      "inspection_file": "images/source/howtoplay_keyguide_steam_00.texture.inspection.png",
+      "texture_sha256": "dffc468219f5ddeb2a3b25ef860c236d10509538b164e3b0057520ba38baef62",
+      "texture_size": [
+        930,
+        632
+      ],
+      "lines": [
+        {
+          "source": "操作説明",
+          "translation": "操作说明",
+          "kind": "heading",
+          "note": ""
+        },
+        {
+          "source": "＜探偵・癸生川凌介事件譚 Vol.7「音成刑事の捜査メモ」＞",
+          "translation": "《侦探·癸生川凌介事件谭》第七作《林居刑警的搜查笔记》",
+          "kind": "title",
+          "note": "作品副标题使用用户确认名称，不附加“小小名侦探”。"
+        },
+        {
+          "source": "STARTボタン",
+          "translation": "START键",
+          "kind": "control",
+          "note": "Ⓛ及向下箭头按原图保留，仅替换旁侧说明；R为原图肩键图标。"
+        },
+        {
+          "source": "OPTION",
+          "translation": "选项菜单",
+          "kind": "action",
+          "note": ""
+        },
+        {
+          "source": "Aボタン",
+          "translation": "A键",
+          "kind": "control",
+          "note": "Ⓛ及向下箭头按原图保留，仅替换旁侧说明；R为原图肩键图标。"
+        },
+        {
+          "source": "決定／文字送り",
+          "translation": "确定／继续显示文字",
+          "kind": "action",
+          "note": ""
+        },
+        {
+          "source": "Ⓛ スティック/方向ボタン",
+          "translation": "左摇杆／方向键",
+          "kind": "control",
+          "note": "Ⓛ及向下箭头按原图保留，仅替换旁侧说明；R为原图肩键图标。"
+        },
+        {
+          "source": "カーソル移動",
+          "translation": "移动光标",
+          "kind": "action",
+          "note": ""
+        },
+        {
+          "source": "Ⓛ↓ スティック下/方向ボタン下",
+          "translation": "左摇杆向下／下方向键",
+          "kind": "control",
+          "note": "Ⓛ及向下箭头按原图保留，仅替换旁侧说明；R为原图肩键图标。"
+        },
+        {
+          "source": "文字読み飛ばし",
+          "translation": "快进文字",
+          "kind": "action",
+          "note": ""
+        },
+        {
+          "source": "[R shoulder button icon]",
+          "translation": "[保留R肩键图标]",
+          "kind": "control",
+          "note": "Ⓛ及向下箭头按原图保留，仅替换旁侧说明；R为原图肩键图标。"
+        },
+        {
+          "source": "サウンドON・OFF切替",
+          "translation": "声音开关",
+          "kind": "action",
+          "note": ""
+        },
+        {
+          "source": "本ゲームはオートセーブに対応しておりません。",
+          "translation": "本游戏不支持自动存档。",
+          "kind": "footnote",
+          "note": ""
+        },
+        {
+          "source": "終了する際は、ゲーム内のセーブ機能をご利用ください。",
+          "translation": "退出前，请使用游戏内的存档功能。",
+          "kind": "footnote",
+          "note": ""
+        }
+      ],
+      "review_status": "visually_transcribed_and_translation_reviewed",
+      "preserve_notes": [
+        "保留表格五行及键位和动作的对应关系。",
+        "手柄页保留START、A、左摇杆和R图标；键盘页保留全部英文键帽和方向箭头。",
+        "文字快进仅按原文说明，不擅自增加“按住”或“仅跳过已读”等条件。",
+        "两页页眉、作品名及存档提示使用完全相同译文。"
+      ]
+    },
+    {
+      "page": 2,
+      "sprite_name": "howtoplay_keyguide_steam_01",
+      "sprite_path_id": -2157205289503323500,
+      "texture_path_id": -4871398046501369416,
+      "source_sprite_file": "images/source/howtoplay_keyguide_steam_01.png",
+      "source_texture_file": "images/source/howtoplay_keyguide_steam_01.texture.png",
+      "inspection_file": "images/source/howtoplay_keyguide_steam_01.texture.inspection.png",
+      "texture_sha256": "5d3d71f2b990e97d3f0918014441127e432c8a4749a3028ff66b0acd56354fcd",
+      "texture_size": [
+        930,
+        632
+      ],
+      "lines": [
+        {
+          "source": "操作説明",
+          "translation": "操作说明",
+          "kind": "heading",
+          "note": ""
+        },
+        {
+          "source": "＜探偵・癸生川凌介事件譚 Vol.7「音成刑事の捜査メモ」＞",
+          "translation": "《侦探·癸生川凌介事件谭》第七作《林居刑警的搜查笔记》",
+          "kind": "title",
+          "note": "作品副标题使用用户确认名称，不附加“小小名侦探”。"
+        },
+        {
+          "source": "ESC",
+          "translation": "ESC",
+          "kind": "keyboard_icons",
+          "note": "按原图保留键帽字母和箭头；S与下方向键下方的额外箭头为原图指示，不新增按键。"
+        },
+        {
+          "source": "OPTION",
+          "translation": "选项菜单",
+          "kind": "action",
+          "note": ""
+        },
+        {
+          "source": "Z / SPACE / L SHIFT / L CTRL",
+          "translation": "Z / SPACE / L SHIFT / L CTRL",
+          "kind": "keyboard_icons",
+          "note": "按原图保留键帽字母和箭头；S与下方向键下方的额外箭头为原图指示，不新增按键。"
+        },
+        {
+          "source": "決定／文字送り",
+          "translation": "确定／继续显示文字",
+          "kind": "action",
+          "note": ""
+        },
+        {
+          "source": "W A S D / ↑ ← ↓ →",
+          "translation": "W A S D / ↑ ← ↓ →",
+          "kind": "keyboard_icons",
+          "note": "按原图保留键帽字母和箭头；S与下方向键下方的额外箭头为原图指示，不新增按键。"
+        },
+        {
+          "source": "カーソル移動",
+          "translation": "移动光标",
+          "kind": "action",
+          "note": ""
+        },
+        {
+          "source": "S↓ / ↓↓",
+          "translation": "S↓ / ↓↓",
+          "kind": "keyboard_icons",
+          "note": "按原图保留键帽字母和箭头；S与下方向键下方的额外箭头为原图指示，不新增按键。"
+        },
+        {
+          "source": "文字読み飛ばし",
+          "translation": "快进文字",
+          "kind": "action",
+          "note": ""
+        },
+        {
+          "source": "E",
+          "translation": "E",
+          "kind": "keyboard_icons",
+          "note": "按原图保留键帽字母和箭头；S与下方向键下方的额外箭头为原图指示，不新增按键。"
+        },
+        {
+          "source": "サウンドON・OFF切替",
+          "translation": "声音开关",
+          "kind": "action",
+          "note": ""
+        },
+        {
+          "source": "本ゲームはオートセーブに対応しておりません。",
+          "translation": "本游戏不支持自动存档。",
+          "kind": "footnote",
+          "note": ""
+        },
+        {
+          "source": "終了する際は、ゲーム内のセーブ機能をご利用ください。",
+          "translation": "退出前，请使用游戏内的存档功能。",
+          "kind": "footnote",
+          "note": ""
+        }
+      ],
+      "review_status": "visually_transcribed_and_translation_reviewed",
+      "preserve_notes": [
+        "保留表格五行及键位和动作的对应关系。",
+        "手柄页保留START、A、左摇杆和R图标；键盘页保留全部英文键帽和方向箭头。",
+        "文字快进仅按原文说明，不擅自增加“按住”或“仅跳过已读”等条件。",
+        "两页页眉、作品名及存档提示使用完全相同译文。"
+      ]
+    },
+    {
+      "page": 3,
+      "sprite_name": "howtoplay_keyguide_steam_02",
+      "sprite_path_id": -1681655610047259303,
+      "texture_path_id": 9089320821116455277,
+      "source_sprite_file": "images/source/howtoplay_keyguide_steam_02.png",
+      "source_texture_file": "images/source/howtoplay_keyguide_steam_02.texture.png",
+      "inspection_file": "images/source/howtoplay_keyguide_steam_02.texture.inspection.png",
+      "texture_sha256": "2da54d6f4d72386532216b4fa6769d93bc13325367eaf7046b813317586d2fbf",
+      "texture_size": [
+        930,
+        632
+      ],
+      "lines": [
+        {
+          "source": "G-MODEアーカイブス",
+          "translation": "G-MODE Archives",
+          "kind": "brand",
+          "note": "作为项目名称的描述性中文译法；若公共图像规范已有品牌定译，请统一。"
+        },
+        {
+          "source": "「G-MODEアーカイブス」とは、",
+          "translation": "“G-MODE Archives”是一项复刻计划，",
+          "kind": "text",
+          "note": ""
+        },
+        {
+          "source": "かつてのフィーチャーフォンアプリゲームを、",
+          "translation": "将昔日功能手机上的游戏",
+          "kind": "text",
+          "note": ""
+        },
+        {
+          "source": "当時のまま忠実に再現しお届けする復刻プロジェクトです。",
+          "translation": "忠实还原，以当年的面貌呈现给玩家。",
+          "kind": "text",
+          "note": ""
+        },
+        {
+          "source": "※フィーチャーフォンアプリからの移植にあたり、",
+          "translation": "※从功能手机平台移植时，",
+          "kind": "text",
+          "note": ""
+        },
+        {
+          "source": "より快適にお楽しみいただけるよう、",
+          "translation": "为了让游玩体验更加舒适，",
+          "kind": "text",
+          "note": ""
+        },
+        {
+          "source": "操作性や機能を一部変更、調整しております。",
+          "translation": "我们对部分操作方式和功能进行了修改与调整。",
+          "kind": "text",
+          "note": ""
+        },
+        {
+          "source": "※ゲーム内の操作説明・メニューも当時のままとなっておりますため",
+          "translation": "※游戏内的操作说明和菜单也保留了当年的内容。",
+          "kind": "text",
+          "note": ""
+        },
+        {
+          "source": "本ソフトでの操作方法は、当メニュー内の「あそびかた」をご参照下さい。",
+          "translation": "本软件的操作方法，请参阅当前菜单中的“玩法说明”。",
+          "kind": "text",
+          "note": ""
+        }
+      ],
+      "review_status": "visually_transcribed_and_translation_reviewed",
+      "preserve_notes": [
+        "保留G-MODE拉丁字母及原段落分组。",
+        "原图视觉折行不构成句子边界，后续排版可按中文自然换行。",
+        "第3页“玩法说明”须与暂停菜单「あそびかた」最终译文一致。"
+      ]
+    },
+    {
+      "page": 4,
+      "sprite_name": "howtoplay_keyguide_steam_03",
+      "sprite_path_id": 3696767756959561293,
+      "texture_path_id": 3906932961385487885,
+      "source_sprite_file": "images/source/howtoplay_keyguide_steam_03.png",
+      "source_texture_file": "images/source/howtoplay_keyguide_steam_03.texture.png",
+      "inspection_file": "images/source/howtoplay_keyguide_steam_03.texture.inspection.png",
+      "texture_sha256": "f8b7ccd1a65694c2f5197fee59354846c5164d18142101cb8eabd0db646b52a0",
+      "texture_size": [
+        930,
+        632
+      ],
+      "lines": [
+        {
+          "source": "G-MODEアーカイブス",
+          "translation": "G-MODE Archives",
+          "kind": "brand",
+          "note": "与第3页统一。"
+        },
+        {
+          "source": "＜注意＞",
+          "translation": "注意",
+          "kind": "heading",
+          "note": ""
+        },
+        {
+          "source": "本ゲーム内には、当時のアプリを忠実に再現していることから、",
+          "translation": "由于本游戏忠实还原了当年的手机游戏，",
+          "kind": "text",
+          "note": ""
+        },
+        {
+          "source": "下記のような機能しないメニューやボタンが表示されている場合があります。",
+          "translation": "部分菜单或按钮可能仍会显示，但已无法使用，例如：",
+          "kind": "text",
+          "note": ""
+        },
+        {
+          "source": "（「WEB（サイト）」「カタログ」「バックライト」…等）",
+          "translation": "（“WEB（网站）”“游戏目录”“背光”等）",
+          "kind": "text",
+          "note": ""
+        },
+        {
+          "source": "また、ヘルプ内等に通信料に関する説明が含まれている場合がございますが、",
+          "translation": "此外，帮助等内容中可能保留了有关通信费用的说明，",
+          "kind": "text",
+          "note": ""
+        },
+        {
+          "source": "本ゲームによって通信料が別途発生することはございません。",
+          "translation": "但本游戏不会额外收取通信费用。",
+          "kind": "text",
+          "note": ""
+        }
+      ],
+      "review_status": "visually_transcribed_and_translation_reviewed",
+      "preserve_notes": [
+        "保留G-MODE拉丁字母及原段落分组。",
+        "原图视觉折行不构成句子边界，后续排版可按中文自然换行。",
+        "第3页“玩法说明”须与暂停菜单「あそびかた」最终译文一致。"
+      ]
+    }
+  ],
+  "review": {
+    "source": "Four real Sprite references and their original Texture2D payloads, visually reviewed one page at a time.",
+    "style": "series/style.md read; series/glossary.json and local locked glossary searched for relevant UI/brand terms (no explicit matching entries found).",
+    "extraction_note": "Sprite.image output applies tight-mesh masking. White text cannot be read reliably in the tool when transparency is ignored. Original Texture2D PNGs preserved unchanged; separate .texture.inspection.png files composite the alpha over a dark background strictly for reading. No translated graphics produced.",
+    "limitations": [
+      "No game-window or runtime validation.",
+      "G-MODE 档案 is a descriptive translation pending project-wide image brand convention; menu label 玩法说明 must match final UI cache."
+    ],
+    "complete": true
+  },
+  "coordinator_note": "G-MODE Archives保留品牌英文；玩法说明与界面统一。所有44行内容译审完成，仅为文字稿，不是汉化图片。"
+}

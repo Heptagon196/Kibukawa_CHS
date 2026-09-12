@@ -1,0 +1,108 @@
+{
+  "extracted_excluded_count": 2416,
+  "decision": "All retained excluded after literal/method and serialized node context review.",
+  "additional_template_exclusions": [
+    3174,
+    3189,
+    3237,
+    3238
+  ],
+  "ascii_additions": {
+    "reason": "Append six visible ASCII labels missed by JP regex; existing IDs and sources unchanged",
+    "entries": [
+      {
+        "text_index": 5648,
+        "source_text": "Now Loading...",
+        "location": {
+          "kind": "assembly",
+          "file": "kibu7_Data/Managed/Assembly-CSharp.dll",
+          "token": 100663798,
+          "instruction": 74,
+          "method": "System.Void appli1.CanvasEx::Paint(Socotra.UI.StGraphics)"
+        },
+        "group": "assembly_ui.txt",
+        "excluded": false,
+        "reason": "Reviewed player-facing ASCII loading/sound label; paired width measurement uses the same literal"
+      },
+      {
+        "text_index": 5649,
+        "source_text": "Now Loading...",
+        "location": {
+          "kind": "assembly",
+          "file": "kibu7_Data/Managed/Assembly-CSharp.dll",
+          "token": 100663798,
+          "instruction": 79,
+          "method": "System.Void appli1.CanvasEx::Paint(Socotra.UI.StGraphics)"
+        },
+        "group": "assembly_ui.txt",
+        "excluded": false,
+        "reason": "Reviewed player-facing ASCII loading/sound label; paired width measurement uses the same literal"
+      },
+      {
+        "text_index": 5650,
+        "source_text": "OFF",
+        "location": {
+          "kind": "assembly",
+          "file": "kibu7_Data/Managed/Assembly-CSharp.dll",
+          "token": 100663798,
+          "instruction": 416,
+          "method": "System.Void appli1.CanvasEx::Paint(Socotra.UI.StGraphics)"
+        },
+        "group": "assembly_ui.txt",
+        "excluded": false,
+        "reason": "Reviewed player-facing ASCII loading/sound label; paired width measurement uses the same literal"
+      },
+      {
+        "text_index": 5651,
+        "source_text": "OFF",
+        "location": {
+          "kind": "assembly",
+          "file": "kibu7_Data/Managed/Assembly-CSharp.dll",
+          "token": 100663798,
+          "instruction": 421,
+          "method": "System.Void appli1.CanvasEx::Paint(Socotra.UI.StGraphics)"
+        },
+        "group": "assembly_ui.txt",
+        "excluded": false,
+        "reason": "Reviewed player-facing ASCII loading/sound label; paired width measurement uses the same literal"
+      },
+      {
+        "text_index": 5652,
+        "source_text": "ON",
+        "location": {
+          "kind": "assembly",
+          "file": "kibu7_Data/Managed/Assembly-CSharp.dll",
+          "token": 100663798,
+          "instruction": 450,
+          "method": "System.Void appli1.CanvasEx::Paint(Socotra.UI.StGraphics)"
+        },
+        "group": "assembly_ui.txt",
+        "excluded": false,
+        "reason": "Reviewed player-facing ASCII loading/sound label; paired width measurement uses the same literal"
+      },
+      {
+        "text_index": 5653,
+        "source_text": "ON",
+        "location": {
+          "kind": "assembly",
+          "file": "kibu7_Data/Managed/Assembly-CSharp.dll",
+          "token": 100663798,
+          "instruction": 455,
+          "method": "System.Void appli1.CanvasEx::Paint(Socotra.UI.StGraphics)"
+        },
+        "group": "assembly_ui.txt",
+        "excluded": false,
+        "reason": "Reviewed player-facing ASCII loading/sound label; paired width measurement uses the same literal"
+      }
+    ]
+  },
+  "input_ui_display_only_ids": [
+    3414,
+    3415,
+    3416,
+    3417
+  ],
+  "limitations": "These four Japanese category strings are lookup keys; a future runtime display hook must translate them, never modify the logical keys. Four help raster pages are text-transcribed, image replacements not produced.",
+  "full_audit_sha256": "0f1c1f0e105b684fe6644f9d77c476ce86e81af60884fbab02b294d986d0c5b8",
+  "source_of_full_audit": "reports/exclusion-review.json"
+}

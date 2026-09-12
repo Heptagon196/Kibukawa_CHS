@@ -1,0 +1,1144 @@
+{
+  "game": "kibu7",
+  "cache_sha256": "9e3aae9903bf235122cc3249af6340370c305302fc7ae51af88573c8fe8f570c",
+  "method": "静态脚本顺序候选检查；未还原分支及说话人边界，不等同完整发言验证；不自动修正。",
+  "counts": {
+    "spacing_edge": 30,
+    "spacing_unusual": 9,
+    "spacing_inside": 8,
+    "spacing_layout": 9,
+    "quote_unclosed": 5,
+    "quote_unmatched_close": 2
+  },
+  "findings": [
+    {
+      "id": 20,
+      "rule": "spacing_edge",
+      "detail": "首尾空白：复核原文折行缩进是否误入译文",
+      "source": "　　　序 章",
+      "target": "　　　序章",
+      "location": {
+        "file": "kibu7_Data/StreamingAssets/scratchpad",
+        "asset": "otonari.res",
+        "member": "scn0",
+        "kind": "script",
+        "offset": 379,
+        "instruction": 378,
+        "opcode": 72,
+        "argument": 0
+      },
+      "review_reason": "原固定页面缩进、列间距、菜单对齐或楼层动画占位；已核原槽位，实机定位待用户验证。"
+    },
+    {
+      "id": 20,
+      "rule": "spacing_unusual",
+      "detail": "连续空白、制表符或不可见空格：复核排版用途",
+      "source": "　　　序 章",
+      "target": "　　　序章",
+      "location": {
+        "file": "kibu7_Data/StreamingAssets/scratchpad",
+        "asset": "otonari.res",
+        "member": "scn0",
+        "kind": "script",
+        "offset": 379,
+        "instruction": 378,
+        "opcode": 72,
+        "argument": 0
+      },
+      "review_reason": "原固定页面缩进、列间距、菜单对齐或楼层动画占位；已核原槽位，实机定位待用户验证。"
+    },
+    {
+      "id": 21,
+      "rule": "spacing_edge",
+      "detail": "首尾空白：复核原文折行缩进是否误入译文",
+      "source": " めぐりあいチワワ",
+      "target": "　邂逅吉娃娃",
+      "location": {
+        "file": "kibu7_Data/StreamingAssets/scratchpad",
+        "asset": "otonari.res",
+        "member": "scn0",
+        "kind": "script",
+        "offset": 393,
+        "instruction": 392,
+        "opcode": 72,
+        "argument": 0
+      },
+      "review_reason": "原固定页面缩进、列间距、菜单对齐或楼层动画占位；已核原槽位，实机定位待用户验证。"
+    },
+    {
+      "id": 25,
+      "rule": "spacing_edge",
+      "detail": "首尾空白：复核原文折行缩进是否误入译文",
+      "source": " 鞠浜台駅前派出所",
+      "target": " 鞠滨台站前派出所",
+      "location": {
+        "file": "kibu7_Data/StreamingAssets/scratchpad",
+        "asset": "otonari.res",
+        "member": "scn0",
+        "kind": "script",
+        "offset": 493,
+        "instruction": 492,
+        "opcode": 72,
+        "argument": 0
+      },
+      "review_reason": "原固定页面缩进、列间距、菜单对齐或楼层动画占位；已核原槽位，实机定位待用户验证。"
+    },
+    {
+      "id": 140,
+      "rule": "spacing_edge",
+      "detail": "首尾空白：复核原文折行缩进是否误入译文",
+      "source": "　 ＜操作説明＞",
+      "target": "　〈操作说明〉",
+      "location": {
+        "file": "kibu7_Data/StreamingAssets/scratchpad",
+        "asset": "otonari.res",
+        "member": "scn0",
+        "kind": "script",
+        "offset": 2667,
+        "instruction": 2666,
+        "opcode": 72,
+        "argument": 0
+      },
+      "review_reason": "原固定页面缩进、列间距、菜单对齐或楼层动画占位；已核原槽位，实机定位待用户验证。"
+    },
+    {
+      "id": 198,
+      "rule": "spacing_edge",
+      "detail": "首尾空白：复核原文折行缩进是否误入译文",
+      "source": "　　 駅前広場",
+      "target": "　　 站前广场",
+      "location": {
+        "file": "kibu7_Data/StreamingAssets/scratchpad",
+        "asset": "otonari.res",
+        "member": "scn0",
+        "kind": "script",
+        "offset": 3806,
+        "instruction": 3805,
+        "opcode": 72,
+        "argument": 0
+      },
+      "review_reason": "原固定页面缩进、列间距、菜单对齐或楼层动画占位；已核原槽位，实机定位待用户验证。"
+    },
+    {
+      "id": 198,
+      "rule": "spacing_unusual",
+      "detail": "连续空白、制表符或不可见空格：复核排版用途",
+      "source": "　　 駅前広場",
+      "target": "　　 站前广场",
+      "location": {
+        "file": "kibu7_Data/StreamingAssets/scratchpad",
+        "asset": "otonari.res",
+        "member": "scn0",
+        "kind": "script",
+        "offset": 3806,
+        "instruction": 3805,
+        "opcode": 72,
+        "argument": 0
+      },
+      "review_reason": "原固定页面缩进、列间距、菜单对齐或楼层动画占位；已核原槽位，实机定位待用户验证。"
+    },
+    {
+      "id": 483,
+      "rule": "spacing_edge",
+      "detail": "首尾空白：复核原文折行缩进是否误入译文",
+      "source": "　１Ｆ　フロント",
+      "target": "　１楼　前台",
+      "location": {
+        "file": "kibu7_Data/StreamingAssets/scratchpad",
+        "asset": "otonari.res",
+        "member": "scn0",
+        "kind": "script",
+        "offset": 9343,
+        "instruction": 9342,
+        "opcode": 72,
+        "argument": 0
+      },
+      "review_reason": "原固定页面缩进、列间距、菜单对齐或楼层动画占位；已核原槽位，实机定位待用户验证。"
+    },
+    {
+      "id": 483,
+      "rule": "spacing_inside",
+      "detail": "中文之间存在空白",
+      "source": "　１Ｆ　フロント",
+      "target": "　１楼　前台",
+      "location": {
+        "file": "kibu7_Data/StreamingAssets/scratchpad",
+        "asset": "otonari.res",
+        "member": "scn0",
+        "kind": "script",
+        "offset": 9343,
+        "instruction": 9342,
+        "opcode": 72,
+        "argument": 0
+      },
+      "review_reason": "原固定页面缩进、列间距、菜单对齐或楼层动画占位；已核原槽位，实机定位待用户验证。"
+    },
+    {
+      "id": 507,
+      "rule": "spacing_layout",
+      "detail": "纯空白条目：复核是否为刻意排版，不自动删除",
+      "source": "　　　　",
+      "target": "　　　　",
+      "location": {
+        "file": "kibu7_Data/StreamingAssets/scratchpad",
+        "asset": "otonari.res",
+        "member": "scn0",
+        "kind": "script",
+        "offset": 9710,
+        "instruction": 9709,
+        "opcode": 72,
+        "argument": 0
+      },
+      "review_reason": "原固定页面缩进、列间距、菜单对齐或楼层动画占位；已核原槽位，实机定位待用户验证。"
+    },
+    {
+      "id": 509,
+      "rule": "spacing_layout",
+      "detail": "纯空白条目：复核是否为刻意排版，不自动删除",
+      "source": "　　　　",
+      "target": "　　　　",
+      "location": {
+        "file": "kibu7_Data/StreamingAssets/scratchpad",
+        "asset": "otonari.res",
+        "member": "scn0",
+        "kind": "script",
+        "offset": 9741,
+        "instruction": 9740,
+        "opcode": 72,
+        "argument": 0
+      },
+      "review_reason": "原固定页面缩进、列间距、菜单对齐或楼层动画占位；已核原槽位，实机定位待用户验证。"
+    },
+    {
+      "id": 511,
+      "rule": "spacing_layout",
+      "detail": "纯空白条目：复核是否为刻意排版，不自动删除",
+      "source": "　　　　",
+      "target": "　　　　",
+      "location": {
+        "file": "kibu7_Data/StreamingAssets/scratchpad",
+        "asset": "otonari.res",
+        "member": "scn0",
+        "kind": "script",
+        "offset": 9771,
+        "instruction": 9770,
+        "opcode": 72,
+        "argument": 0
+      },
+      "review_reason": "原固定页面缩进、列间距、菜单对齐或楼层动画占位；已核原槽位，实机定位待用户验证。"
+    },
+    {
+      "id": 513,
+      "rule": "spacing_layout",
+      "detail": "纯空白条目：复核是否为刻意排版，不自动删除",
+      "source": "　　　　",
+      "target": "　　　　",
+      "location": {
+        "file": "kibu7_Data/StreamingAssets/scratchpad",
+        "asset": "otonari.res",
+        "member": "scn0",
+        "kind": "script",
+        "offset": 9800,
+        "instruction": 9799,
+        "opcode": 72,
+        "argument": 0
+      },
+      "review_reason": "原固定页面缩进、列间距、菜单对齐或楼层动画占位；已核原槽位，实机定位待用户验证。"
+    },
+    {
+      "id": 515,
+      "rule": "spacing_layout",
+      "detail": "纯空白条目：复核是否为刻意排版，不自动删除",
+      "source": "　　　　",
+      "target": "　　　　",
+      "location": {
+        "file": "kibu7_Data/StreamingAssets/scratchpad",
+        "asset": "otonari.res",
+        "member": "scn0",
+        "kind": "script",
+        "offset": 9828,
+        "instruction": 9827,
+        "opcode": 72,
+        "argument": 0
+      },
+      "review_reason": "原固定页面缩进、列间距、菜单对齐或楼层动画占位；已核原槽位，实机定位待用户验证。"
+    },
+    {
+      "id": 517,
+      "rule": "spacing_layout",
+      "detail": "纯空白条目：复核是否为刻意排版，不自动删除",
+      "source": "　　　　",
+      "target": "　　　　",
+      "location": {
+        "file": "kibu7_Data/StreamingAssets/scratchpad",
+        "asset": "otonari.res",
+        "member": "scn0",
+        "kind": "script",
+        "offset": 9855,
+        "instruction": 9854,
+        "opcode": 72,
+        "argument": 0
+      },
+      "review_reason": "原固定页面缩进、列间距、菜单对齐或楼层动画占位；已核原槽位，实机定位待用户验证。"
+    },
+    {
+      "id": 519,
+      "rule": "spacing_layout",
+      "detail": "纯空白条目：复核是否为刻意排版，不自动删除",
+      "source": "　　　　",
+      "target": "　　　　",
+      "location": {
+        "file": "kibu7_Data/StreamingAssets/scratchpad",
+        "asset": "otonari.res",
+        "member": "scn0",
+        "kind": "script",
+        "offset": 9881,
+        "instruction": 9880,
+        "opcode": 72,
+        "argument": 0
+      },
+      "review_reason": "原固定页面缩进、列间距、菜单对齐或楼层动画占位；已核原槽位，实机定位待用户验证。"
+    },
+    {
+      "id": 521,
+      "rule": "spacing_layout",
+      "detail": "纯空白条目：复核是否为刻意排版，不自动删除",
+      "source": "　　　　",
+      "target": "　　　　",
+      "location": {
+        "file": "kibu7_Data/StreamingAssets/scratchpad",
+        "asset": "otonari.res",
+        "member": "scn0",
+        "kind": "script",
+        "offset": 9906,
+        "instruction": 9905,
+        "opcode": 72,
+        "argument": 0
+      },
+      "review_reason": "原固定页面缩进、列间距、菜单对齐或楼层动画占位；已核原槽位，实机定位待用户验证。"
+    },
+    {
+      "id": 523,
+      "rule": "spacing_layout",
+      "detail": "纯空白条目：复核是否为刻意排版，不自动删除",
+      "source": "　　　　",
+      "target": "　　　　",
+      "location": {
+        "file": "kibu7_Data/StreamingAssets/scratchpad",
+        "asset": "otonari.res",
+        "member": "scn0",
+        "kind": "script",
+        "offset": 9930,
+        "instruction": 9929,
+        "opcode": 72,
+        "argument": 0
+      },
+      "review_reason": "原固定页面缩进、列间距、菜单对齐或楼层动画占位；已核原槽位，实机定位待用户验证。"
+    },
+    {
+      "id": 625,
+      "rule": "spacing_edge",
+      "detail": "首尾空白：复核原文折行缩进是否误入译文",
+      "source": "　 ９Ｆ　廊下",
+      "target": "　９楼　走廊",
+      "location": {
+        "file": "kibu7_Data/StreamingAssets/scratchpad",
+        "asset": "otonari.res",
+        "member": "scn0",
+        "kind": "script",
+        "offset": 11996,
+        "instruction": 11995,
+        "opcode": 72,
+        "argument": 0
+      },
+      "review_reason": "原固定页面缩进、列间距、菜单对齐或楼层动画占位；已核原槽位，实机定位待用户验证。"
+    },
+    {
+      "id": 625,
+      "rule": "spacing_inside",
+      "detail": "中文之间存在空白",
+      "source": "　 ９Ｆ　廊下",
+      "target": "　９楼　走廊",
+      "location": {
+        "file": "kibu7_Data/StreamingAssets/scratchpad",
+        "asset": "otonari.res",
+        "member": "scn0",
+        "kind": "script",
+        "offset": 11996,
+        "instruction": 11995,
+        "opcode": 72,
+        "argument": 0
+      },
+      "review_reason": "原固定页面缩进、列间距、菜单对齐或楼层动画占位；已核原槽位，实机定位待用户验证。"
+    },
+    {
+      "id": 659,
+      "rule": "spacing_edge",
+      "detail": "首尾空白：复核原文折行缩进是否误入译文",
+      "source": "　１Ｆ　フロント",
+      "target": "　１楼　前台",
+      "location": {
+        "file": "kibu7_Data/StreamingAssets/scratchpad",
+        "asset": "otonari.res",
+        "member": "scn1",
+        "kind": "script",
+        "offset": 41,
+        "instruction": 40,
+        "opcode": 72,
+        "argument": 0
+      },
+      "review_reason": "原固定页面缩进、列间距、菜单对齐或楼层动画占位；已核原槽位，实机定位待用户验证。"
+    },
+    {
+      "id": 659,
+      "rule": "spacing_inside",
+      "detail": "中文之间存在空白",
+      "source": "　１Ｆ　フロント",
+      "target": "　１楼　前台",
+      "location": {
+        "file": "kibu7_Data/StreamingAssets/scratchpad",
+        "asset": "otonari.res",
+        "member": "scn1",
+        "kind": "script",
+        "offset": 41,
+        "instruction": 40,
+        "opcode": 72,
+        "argument": 0
+      },
+      "review_reason": "原固定页面缩进、列间距、菜单对齐或楼层动画占位；已核原槽位，实机定位待用户验证。"
+    },
+    {
+      "id": 835,
+      "rule": "spacing_edge",
+      "detail": "首尾空白：复核原文折行缩进是否误入译文",
+      "source": "　 ９Ｆ　廊下",
+      "target": "　９楼　走廊",
+      "location": {
+        "file": "kibu7_Data/StreamingAssets/scratchpad",
+        "asset": "otonari.res",
+        "member": "scn1",
+        "kind": "script",
+        "offset": 3091,
+        "instruction": 3090,
+        "opcode": 72,
+        "argument": 0
+      },
+      "review_reason": "原固定页面缩进、列间距、菜单对齐或楼层动画占位；已核原槽位，实机定位待用户验证。"
+    },
+    {
+      "id": 835,
+      "rule": "spacing_inside",
+      "detail": "中文之间存在空白",
+      "source": "　 ９Ｆ　廊下",
+      "target": "　９楼　走廊",
+      "location": {
+        "file": "kibu7_Data/StreamingAssets/scratchpad",
+        "asset": "otonari.res",
+        "member": "scn1",
+        "kind": "script",
+        "offset": 3091,
+        "instruction": 3090,
+        "opcode": 72,
+        "argument": 0
+      },
+      "review_reason": "原固定页面缩进、列间距、菜单对齐或楼层动画占位；已核原槽位，实机定位待用户验证。"
+    },
+    {
+      "id": 1269,
+      "rule": "spacing_edge",
+      "detail": "首尾空白：复核原文折行缩进是否误入译文",
+      "source": "　　　１ 章",
+      "target": "　　　第一章",
+      "location": {
+        "file": "kibu7_Data/StreamingAssets/scratchpad",
+        "asset": "otonari.res",
+        "member": "scn1",
+        "kind": "script",
+        "offset": 10867,
+        "instruction": 10866,
+        "opcode": 72,
+        "argument": 0
+      },
+      "review_reason": "原固定页面缩进、列间距、菜单对齐或楼层动画占位；已核原槽位，实机定位待用户验证。"
+    },
+    {
+      "id": 1269,
+      "rule": "spacing_unusual",
+      "detail": "连续空白、制表符或不可见空格：复核排版用途",
+      "source": "　　　１ 章",
+      "target": "　　　第一章",
+      "location": {
+        "file": "kibu7_Data/StreamingAssets/scratchpad",
+        "asset": "otonari.res",
+        "member": "scn1",
+        "kind": "script",
+        "offset": 10867,
+        "instruction": 10866,
+        "opcode": 72,
+        "argument": 0
+      },
+      "review_reason": "原固定页面缩进、列间距、菜单对齐或楼层动画占位；已核原槽位，实机定位待用户验证。"
+    },
+    {
+      "id": 1270,
+      "rule": "spacing_edge",
+      "detail": "首尾空白：复核原文折行缩进是否误入译文",
+      "source": "　 密室の眠り姫",
+      "target": "　密室里的睡美人",
+      "location": {
+        "file": "kibu7_Data/StreamingAssets/scratchpad",
+        "asset": "otonari.res",
+        "member": "scn1",
+        "kind": "script",
+        "offset": 10881,
+        "instruction": 10880,
+        "opcode": 72,
+        "argument": 0
+      },
+      "review_reason": "原固定页面缩进、列间距、菜单对齐或楼层动画占位；已核原槽位，实机定位待用户验证。"
+    },
+    {
+      "id": 1272,
+      "rule": "spacing_edge",
+      "detail": "首尾空白：复核原文折行缩进是否误入译文",
+      "source": "　903号　伊崎部屋",
+      "target": "　903号　伊崎房间",
+      "location": {
+        "file": "kibu7_Data/StreamingAssets/scratchpad",
+        "asset": "otonari.res",
+        "member": "scn1",
+        "kind": "script",
+        "offset": 10945,
+        "instruction": 10944,
+        "opcode": 72,
+        "argument": 0
+      },
+      "review_reason": "原固定页面缩进、列间距、菜单对齐或楼层动画占位；已核原槽位，实机定位待用户验证。"
+    },
+    {
+      "id": 1272,
+      "rule": "spacing_inside",
+      "detail": "中文之间存在空白",
+      "source": "　903号　伊崎部屋",
+      "target": "　903号　伊崎房间",
+      "location": {
+        "file": "kibu7_Data/StreamingAssets/scratchpad",
+        "asset": "otonari.res",
+        "member": "scn1",
+        "kind": "script",
+        "offset": 10945,
+        "instruction": 10944,
+        "opcode": 72,
+        "argument": 0
+      },
+      "review_reason": "原固定页面缩进、列间距、菜单对齐或楼层动画占位；已核原槽位，实机定位待用户验证。"
+    },
+    {
+      "id": 1523,
+      "rule": "spacing_edge",
+      "detail": "首尾空白：复核原文折行缩进是否误入译文",
+      "source": "　　　２ 章",
+      "target": "　　　第二章",
+      "location": {
+        "file": "kibu7_Data/StreamingAssets/scratchpad",
+        "asset": "otonari.res",
+        "member": "scn2",
+        "kind": "script",
+        "offset": 23,
+        "instruction": 22,
+        "opcode": 72,
+        "argument": 0
+      },
+      "review_reason": "原固定页面缩进、列间距、菜单对齐或楼层动画占位；已核原槽位，实机定位待用户验证。"
+    },
+    {
+      "id": 1523,
+      "rule": "spacing_unusual",
+      "detail": "连续空白、制表符或不可见空格：复核排版用途",
+      "source": "　　　２ 章",
+      "target": "　　　第二章",
+      "location": {
+        "file": "kibu7_Data/StreamingAssets/scratchpad",
+        "asset": "otonari.res",
+        "member": "scn2",
+        "kind": "script",
+        "offset": 23,
+        "instruction": 22,
+        "opcode": 72,
+        "argument": 0
+      },
+      "review_reason": "原固定页面缩进、列间距、菜单对齐或楼层动画占位；已核原槽位，实机定位待用户验证。"
+    },
+    {
+      "id": 1524,
+      "rule": "spacing_edge",
+      "detail": "首尾空白：复核原文折行缩进是否误入译文",
+      "source": "　　 二つの皿",
+      "target": "　　两只盘子",
+      "location": {
+        "file": "kibu7_Data/StreamingAssets/scratchpad",
+        "asset": "otonari.res",
+        "member": "scn2",
+        "kind": "script",
+        "offset": 37,
+        "instruction": 36,
+        "opcode": 72,
+        "argument": 0
+      },
+      "review_reason": "原固定页面缩进、列间距、菜单对齐或楼层动画占位；已核原槽位，实机定位待用户验证。"
+    },
+    {
+      "id": 1524,
+      "rule": "spacing_unusual",
+      "detail": "连续空白、制表符或不可见空格：复核排版用途",
+      "source": "　　 二つの皿",
+      "target": "　　两只盘子",
+      "location": {
+        "file": "kibu7_Data/StreamingAssets/scratchpad",
+        "asset": "otonari.res",
+        "member": "scn2",
+        "kind": "script",
+        "offset": 37,
+        "instruction": 36,
+        "opcode": 72,
+        "argument": 0
+      },
+      "review_reason": "原固定页面缩进、列间距、菜单对齐或楼层动画占位；已核原槽位，实机定位待用户验证。"
+    },
+    {
+      "id": 1525,
+      "rule": "spacing_edge",
+      "detail": "首尾空白：复核原文折行缩进是否误入译文",
+      "source": "　 シャングリラ",
+      "target": "　　香格里拉",
+      "location": {
+        "file": "kibu7_Data/StreamingAssets/scratchpad",
+        "asset": "otonari.res",
+        "member": "scn2",
+        "kind": "script",
+        "offset": 82,
+        "instruction": 81,
+        "opcode": 72,
+        "argument": 0
+      },
+      "review_reason": "原固定页面缩进、列间距、菜单对齐或楼层动画占位；已核原槽位，实机定位待用户验证。"
+    },
+    {
+      "id": 1525,
+      "rule": "spacing_unusual",
+      "detail": "连续空白、制表符或不可见空格：复核排版用途",
+      "source": "　 シャングリラ",
+      "target": "　　香格里拉",
+      "location": {
+        "file": "kibu7_Data/StreamingAssets/scratchpad",
+        "asset": "otonari.res",
+        "member": "scn2",
+        "kind": "script",
+        "offset": 82,
+        "instruction": 81,
+        "opcode": 72,
+        "argument": 0
+      },
+      "review_reason": "原固定页面缩进、列间距、菜单对齐或楼层动画占位；已核原槽位，实机定位待用户验证。"
+    },
+    {
+      "id": 1942,
+      "rule": "spacing_edge",
+      "detail": "首尾空白：复核原文折行缩进是否误入译文",
+      "source": "　　 橋町通り",
+      "target": "　　桥町街",
+      "location": {
+        "file": "kibu7_Data/StreamingAssets/scratchpad",
+        "asset": "otonari.res",
+        "member": "scn2",
+        "kind": "script",
+        "offset": 8285,
+        "instruction": 8284,
+        "opcode": 72,
+        "argument": 0
+      },
+      "review_reason": "原固定页面缩进、列间距、菜单对齐或楼层动画占位；已核原槽位，实机定位待用户验证。"
+    },
+    {
+      "id": 1942,
+      "rule": "spacing_unusual",
+      "detail": "连续空白、制表符或不可见空格：复核排版用途",
+      "source": "　　 橋町通り",
+      "target": "　　桥町街",
+      "location": {
+        "file": "kibu7_Data/StreamingAssets/scratchpad",
+        "asset": "otonari.res",
+        "member": "scn2",
+        "kind": "script",
+        "offset": 8285,
+        "instruction": 8284,
+        "opcode": 72,
+        "argument": 0
+      },
+      "review_reason": "原固定页面缩进、列间距、菜单对齐或楼层动画占位；已核原槽位，实机定位待用户验证。"
+    },
+    {
+      "id": 2157,
+      "rule": "spacing_edge",
+      "detail": "首尾空白：复核原文折行缩进是否误入译文",
+      "source": "　１Ｆ　フロント",
+      "target": "　１楼　前台",
+      "location": {
+        "file": "kibu7_Data/StreamingAssets/scratchpad",
+        "asset": "otonari.res",
+        "member": "scn2",
+        "kind": "script",
+        "offset": 12234,
+        "instruction": 12233,
+        "opcode": 72,
+        "argument": 0
+      },
+      "review_reason": "原固定页面缩进、列间距、菜单对齐或楼层动画占位；已核原槽位，实机定位待用户验证。"
+    },
+    {
+      "id": 2157,
+      "rule": "spacing_inside",
+      "detail": "中文之间存在空白",
+      "source": "　１Ｆ　フロント",
+      "target": "　１楼　前台",
+      "location": {
+        "file": "kibu7_Data/StreamingAssets/scratchpad",
+        "asset": "otonari.res",
+        "member": "scn2",
+        "kind": "script",
+        "offset": 12234,
+        "instruction": 12233,
+        "opcode": 72,
+        "argument": 0
+      },
+      "review_reason": "原固定页面缩进、列间距、菜单对齐或楼层动画占位；已核原槽位，实机定位待用户验证。"
+    },
+    {
+      "id": 2192,
+      "rule": "spacing_edge",
+      "detail": "首尾空白：复核原文折行缩进是否误入译文",
+      "source": "　 ９Ｆ　廊下",
+      "target": "　９楼　走廊",
+      "location": {
+        "file": "kibu7_Data/StreamingAssets/scratchpad",
+        "asset": "otonari.res",
+        "member": "scn2",
+        "kind": "script",
+        "offset": 12957,
+        "instruction": 12956,
+        "opcode": 72,
+        "argument": 0
+      },
+      "review_reason": "原固定页面缩进、列间距、菜单对齐或楼层动画占位；已核原槽位，实机定位待用户验证。"
+    },
+    {
+      "id": 2192,
+      "rule": "spacing_inside",
+      "detail": "中文之间存在空白",
+      "source": "　 ９Ｆ　廊下",
+      "target": "　９楼　走廊",
+      "location": {
+        "file": "kibu7_Data/StreamingAssets/scratchpad",
+        "asset": "otonari.res",
+        "member": "scn2",
+        "kind": "script",
+        "offset": 12957,
+        "instruction": 12956,
+        "opcode": 72,
+        "argument": 0
+      },
+      "review_reason": "原固定页面缩进、列间距、菜单对齐或楼层动画占位；已核原槽位，实机定位待用户验证。"
+    },
+    {
+      "id": 2284,
+      "rule": "spacing_edge",
+      "detail": "首尾空白：复核原文折行缩进是否误入译文",
+      "source": "　　　３ 章",
+      "target": "　　　第三章",
+      "location": {
+        "file": "kibu7_Data/StreamingAssets/scratchpad",
+        "asset": "otonari.res",
+        "member": "scn3",
+        "kind": "script",
+        "offset": 523,
+        "instruction": 522,
+        "opcode": 72,
+        "argument": 0
+      },
+      "review_reason": "原固定页面缩进、列间距、菜单对齐或楼层动画占位；已核原槽位，实机定位待用户验证。"
+    },
+    {
+      "id": 2284,
+      "rule": "spacing_unusual",
+      "detail": "连续空白、制表符或不可见空格：复核排版用途",
+      "source": "　　　３ 章",
+      "target": "　　　第三章",
+      "location": {
+        "file": "kibu7_Data/StreamingAssets/scratchpad",
+        "asset": "otonari.res",
+        "member": "scn3",
+        "kind": "script",
+        "offset": 523,
+        "instruction": 522,
+        "opcode": 72,
+        "argument": 0
+      },
+      "review_reason": "原固定页面缩进、列间距、菜单对齐或楼层动画占位；已核原槽位，实机定位待用户验证。"
+    },
+    {
+      "id": 2285,
+      "rule": "spacing_edge",
+      "detail": "首尾空白：复核原文折行缩进是否误入译文",
+      "source": "　ちいさな名探偵",
+      "target": "　小小名侦探",
+      "location": {
+        "file": "kibu7_Data/StreamingAssets/scratchpad",
+        "asset": "otonari.res",
+        "member": "scn3",
+        "kind": "script",
+        "offset": 537,
+        "instruction": 536,
+        "opcode": 72,
+        "argument": 0
+      },
+      "review_reason": "原固定页面缩进、列间距、菜单对齐或楼层动画占位；已核原槽位，实机定位待用户验证。"
+    },
+    {
+      "id": 2287,
+      "rule": "spacing_edge",
+      "detail": "首尾空白：复核原文折行缩进是否误入译文",
+      "source": "　１Ｆ　フロント",
+      "target": "　１楼　前台",
+      "location": {
+        "file": "kibu7_Data/StreamingAssets/scratchpad",
+        "asset": "otonari.res",
+        "member": "scn3",
+        "kind": "script",
+        "offset": 595,
+        "instruction": 594,
+        "opcode": 72,
+        "argument": 0
+      },
+      "review_reason": "原固定页面缩进、列间距、菜单对齐或楼层动画占位；已核原槽位，实机定位待用户验证。"
+    },
+    {
+      "id": 2287,
+      "rule": "spacing_inside",
+      "detail": "中文之间存在空白",
+      "source": "　１Ｆ　フロント",
+      "target": "　１楼　前台",
+      "location": {
+        "file": "kibu7_Data/StreamingAssets/scratchpad",
+        "asset": "otonari.res",
+        "member": "scn3",
+        "kind": "script",
+        "offset": 595,
+        "instruction": 594,
+        "opcode": 72,
+        "argument": 0
+      },
+      "review_reason": "原固定页面缩进、列间距、菜单对齐或楼层动画占位；已核原槽位，实机定位待用户验证。"
+    },
+    {
+      "id": 2661,
+      "rule": "quote_unclosed",
+      "detail": "遇到同层新引号前未闭合；须按完整发言复核",
+      "source": "｢自分のキーと",
+      "target": "“把自己钥匙上的房号牌和",
+      "location": {
+        "file": "kibu7_Data/StreamingAssets/scratchpad",
+        "asset": "otonari.res",
+        "member": "scn3",
+        "kind": "script",
+        "offset": 7852,
+        "instruction": 7851,
+        "opcode": 72,
+        "argument": 0
+      },
+      "review_reason": "原脚本互斥分支/向前回跳共享句尾造成静态引号误报；已按原路线审读，保留各运行分支完整引号。"
+    },
+    {
+      "id": 2677,
+      "rule": "quote_unclosed",
+      "detail": "遇到同层新引号前未闭合；须按完整发言复核",
+      "source": "｢自分のキーと",
+      "target": "“把自己钥匙上的房",
+      "location": {
+        "file": "kibu7_Data/StreamingAssets/scratchpad",
+        "asset": "otonari.res",
+        "member": "scn3",
+        "kind": "script",
+        "offset": 8166,
+        "instruction": 8165,
+        "opcode": 72,
+        "argument": 0
+      },
+      "review_reason": "原脚本互斥分支/向前回跳共享句尾造成静态引号误报；已按原路线审读，保留各运行分支完整引号。"
+    },
+    {
+      "id": 2726,
+      "rule": "quote_unclosed",
+      "detail": "遇到同层新引号前未闭合；须按完整发言复核",
+      "source": "｢被害者を殺す前に",
+      "target": "“你在杀害被害人之前，",
+      "location": {
+        "file": "kibu7_Data/StreamingAssets/scratchpad",
+        "asset": "otonari.res",
+        "member": "scn3",
+        "kind": "script",
+        "offset": 9212,
+        "instruction": 9211,
+        "opcode": 72,
+        "argument": 0
+      },
+      "review_reason": "原脚本互斥分支/向前回跳共享句尾造成静态引号误报；已按原路线审读，保留各运行分支完整引号。"
+    },
+    {
+      "id": 2727,
+      "rule": "quote_unclosed",
+      "detail": "遇到同层新引号前未闭合；须按完整发言复核",
+      "source": "｢被害者を殺した後に",
+      "target": "“你在杀害被害人之后，",
+      "location": {
+        "file": "kibu7_Data/StreamingAssets/scratchpad",
+        "asset": "otonari.res",
+        "member": "scn3",
+        "kind": "script",
+        "offset": 9235,
+        "instruction": 9234,
+        "opcode": 72,
+        "argument": 0
+      },
+      "review_reason": "原脚本互斥分支/向前回跳共享句尾造成静态引号误报；已按原路线审读，保留各运行分支完整引号。"
+    },
+    {
+      "id": 2728,
+      "rule": "quote_unclosed",
+      "detail": "遇到同层新引号前未闭合；须按完整发言复核",
+      "source": "｢鍵を取りに来た後に",
+      "target": "“你来取钥匙之后，",
+      "location": {
+        "file": "kibu7_Data/StreamingAssets/scratchpad",
+        "asset": "otonari.res",
+        "member": "scn3",
+        "kind": "script",
+        "offset": 9260,
+        "instruction": 9259,
+        "opcode": 72,
+        "argument": 0
+      },
+      "review_reason": "原脚本互斥分支/向前回跳共享句尾造成静态引号误报；已按原路线审读，保留各运行分支完整引号。"
+    },
+    {
+      "id": 2990,
+      "rule": "quote_unmatched_close",
+      "detail": "后引号无匹配或嵌套次序不符",
+      "source": "ツメは甘ぇがな｡",
+      "target": "就是还不够周全。”",
+      "location": {
+        "file": "kibu7_Data/StreamingAssets/scratchpad",
+        "asset": "otonari.res",
+        "member": "scn3",
+        "kind": "script",
+        "offset": 14394,
+        "instruction": 14393,
+        "opcode": 72,
+        "argument": 0
+      },
+      "review_reason": "原脚本互斥分支/向前回跳共享句尾造成静态引号误报；已按原路线审读，保留各运行分支完整引号。"
+    },
+    {
+      "id": 2993,
+      "rule": "quote_unmatched_close",
+      "detail": "后引号无匹配或嵌套次序不符",
+      "source": "しゃべるんだな｡",
+      "target": "再开口吧。”",
+      "location": {
+        "file": "kibu7_Data/StreamingAssets/scratchpad",
+        "asset": "otonari.res",
+        "member": "scn3",
+        "kind": "script",
+        "offset": 14458,
+        "instruction": 14457,
+        "opcode": 72,
+        "argument": 0
+      },
+      "review_reason": "原脚本互斥分支/向前回跳共享句尾造成静态引号误报；已按原路线审读，保留各运行分支完整引号。"
+    },
+    {
+      "id": 3065,
+      "rule": "spacing_edge",
+      "detail": "首尾空白：复核原文折行缩进是否误入译文",
+      "source": "　　 おしまい",
+      "target": "　　　完",
+      "location": {
+        "file": "kibu7_Data/StreamingAssets/scratchpad",
+        "asset": "otonari.res",
+        "member": "scn3",
+        "kind": "script",
+        "offset": 15735,
+        "instruction": 15734,
+        "opcode": 72,
+        "argument": 0
+      },
+      "review_reason": "原固定页面缩进、列间距、菜单对齐或楼层动画占位；已核原槽位，实机定位待用户验证。"
+    },
+    {
+      "id": 3065,
+      "rule": "spacing_unusual",
+      "detail": "连续空白、制表符或不可见空格：复核排版用途",
+      "source": "　　 おしまい",
+      "target": "　　　完",
+      "location": {
+        "file": "kibu7_Data/StreamingAssets/scratchpad",
+        "asset": "otonari.res",
+        "member": "scn3",
+        "kind": "script",
+        "offset": 15735,
+        "instruction": 15734,
+        "opcode": 72,
+        "argument": 0
+      },
+      "review_reason": "原固定页面缩进、列间距、菜单对齐或楼层动画占位；已核原槽位，实机定位待用户验证。"
+    },
+    {
+      "id": 3126,
+      "rule": "spacing_edge",
+      "detail": "首尾空白：复核原文折行缩进是否误入译文",
+      "source": "　･足りない破片",
+      "target": "　·缺少的碎片",
+      "location": {
+        "file": "kibu7_Data/StreamingAssets/file",
+        "asset": "subscn",
+        "part": 2,
+        "kind": "script",
+        "offset": 70,
+        "instruction": 69,
+        "opcode": 72,
+        "argument": 0
+      },
+      "review_reason": "原固定页面缩进、列间距、菜单对齐或楼层动画占位；已核原槽位，实机定位待用户验证。"
+    },
+    {
+      "id": 3128,
+      "rule": "spacing_edge",
+      "detail": "首尾空白：复核原文折行缩进是否误入译文",
+      "source": "　･伊崎の忘れ物",
+      "target": "　·伊崎遗忘的东西",
+      "location": {
+        "file": "kibu7_Data/StreamingAssets/file",
+        "asset": "subscn",
+        "part": 2,
+        "kind": "script",
+        "offset": 109,
+        "instruction": 108,
+        "opcode": 72,
+        "argument": 0
+      },
+      "review_reason": "原固定页面缩进、列间距、菜单对齐或楼层动画占位；已核原槽位，实机定位待用户验证。"
+    },
+    {
+      "id": 3130,
+      "rule": "spacing_edge",
+      "detail": "首尾空白：复核原文折行缩进是否误入译文",
+      "source": "　･向井の口論",
+      "target": "　·向井的争吵",
+      "location": {
+        "file": "kibu7_Data/StreamingAssets/file",
+        "asset": "subscn",
+        "part": 2,
+        "kind": "script",
+        "offset": 148,
+        "instruction": 147,
+        "opcode": 72,
+        "argument": 0
+      },
+      "review_reason": "原固定页面缩进、列间距、菜单对齐或楼层动画占位；已核原槽位，实机定位待用户验证。"
+    },
+    {
+      "id": 3132,
+      "rule": "spacing_edge",
+      "detail": "首尾空白：复核原文折行缩进是否误入译文",
+      "source": "　･汚い何か",
+      "target": "　·脏兮兮的东西",
+      "location": {
+        "file": "kibu7_Data/StreamingAssets/file",
+        "asset": "subscn",
+        "part": 2,
+        "kind": "script",
+        "offset": 185,
+        "instruction": 184,
+        "opcode": 72,
+        "argument": 0
+      },
+      "review_reason": "原固定页面缩进、列间距、菜单对齐或楼层动画占位；已核原槽位，实机定位待用户验证。"
+    },
+    {
+      "id": 3134,
+      "rule": "spacing_edge",
+      "detail": "首尾空白：复核原文折行缩进是否误入译文",
+      "source": "　･不確定なアリバイ",
+      "target": "　·不确定的不在场证明",
+      "location": {
+        "file": "kibu7_Data/StreamingAssets/file",
+        "asset": "subscn",
+        "part": 2,
+        "kind": "script",
+        "offset": 220,
+        "instruction": 219,
+        "opcode": 72,
+        "argument": 0
+      },
+      "review_reason": "原固定页面缩进、列间距、菜单对齐或楼层动画占位；已核原槽位，实机定位待用户验证。"
+    },
+    {
+      "id": 3136,
+      "rule": "spacing_edge",
+      "detail": "首尾空白：复核原文折行缩进是否误入译文",
+      "source": "　･二つの皿",
+      "target": "　·两只盘子",
+      "location": {
+        "file": "kibu7_Data/StreamingAssets/file",
+        "asset": "subscn",
+        "part": 2,
+        "kind": "script",
+        "offset": 263,
+        "instruction": 262,
+        "opcode": 72,
+        "argument": 0
+      },
+      "review_reason": "原固定页面缩进、列间距、菜单对齐或楼层动画占位；已核原槽位，实机定位待用户验证。"
+    },
+    {
+      "id": 5623,
+      "rule": "spacing_edge",
+      "detail": "首尾空白：复核原文折行缩进是否误入译文",
+      "source": "サウンド　",
+      "target": "声音　",
+      "location": {
+        "kind": "assembly",
+        "file": "kibu7_Data/Managed/Assembly-CSharp.dll",
+        "token": 100663798,
+        "instruction": 598,
+        "method": "System.Void appli1.CanvasEx::Paint(Socotra.UI.StGraphics)"
+      },
+      "review_reason": "原固定页面缩进、列间距、菜单对齐或楼层动画占位；已核原槽位，实机定位待用户验证。"
+    },
+    {
+      "id": 5624,
+      "rule": "spacing_edge",
+      "detail": "首尾空白：复核原文折行缩进是否误入译文",
+      "source": "サウンド　",
+      "target": "声音　",
+      "location": {
+        "kind": "assembly",
+        "file": "kibu7_Data/Managed/Assembly-CSharp.dll",
+        "token": 100663798,
+        "instruction": 603,
+        "method": "System.Void appli1.CanvasEx::Paint(Socotra.UI.StGraphics)"
+      },
+      "review_reason": "原固定页面缩进、列间距、菜单对齐或楼层动画占位；已核原槽位，实机定位待用户验证。"
+    }
+  ],
+  "scope": "Reviewed candidates for this exact source/target snapshot, not a blanket rule suppression."
+}

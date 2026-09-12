@@ -1,3 +1,4 @@
+﻿param([string]$Game, [string]$PluginPath, [switch]$Unrestricted)
 $ErrorActionPreference = 'Stop'
 $series = [IO.Path]::GetFullPath((Join-Path $PSScriptRoot '../../..'))
 Add-Type -Path (Join-Path $series 'bin/ilspy/tools/net6.0/any/Mono.Cecil.dll')
@@ -7,15 +8,16 @@ function Method($type, $name, $signature) {
     if ($found.Count -ne 1 -or !$found[0].HasBody) { throw "Missing method $($type.FullName).$name($signature)" }
 }
 foreach ($entry in $config.games.PSObject.Properties) {
-    if (!$entry.Value.enabled) { continue }
-    $pluginPath = Join-Path $series "out/history/$($entry.Name)/KibukawaHistory.dll"
-    $plugin = [Mono.Cecil.AssemblyDefinition]::ReadAssembly($pluginPath)
+    if (!$entry.Value.enabled -or ($Game -and $entry.Name -ne $Game)) { continue }
+    $resolvedPluginPath = if ($PluginPath) { $PluginPath } else { Join-Path $series "out/history/$($entry.Name)/KibukawaHistory.dll" }
+    $plugin = [Mono.Cecil.AssemblyDefinition]::ReadAssembly($resolvedPluginPath)
     try {
         $processes = @($plugin.MainModule.GetType('KibukawaHistory.HistoryPlugin').CustomAttributes | Where-Object { $_.AttributeType.FullName -eq 'BepInEx.BepInProcess' } | ForEach-Object { $_.ConstructorArguments[0].Value })
-        if (("$($entry.Name).exe") -notin $processes) { throw "History plugin excludes $($entry.Name)" }
+        if ($Unrestricted -and $processes.Count -ne 0) { throw "History plugin still restricts process names" }
+        if ($processes.Count -gt 0 -and ("$($entry.Name).exe") -notin $processes) { throw "History plugin excludes $($entry.Name)" }
     } finally { $plugin.Dispose() }
-    $game = [IO.Path]::GetFullPath((Join-Path $series $entry.Value.installation))
-    $asm = [Mono.Cecil.AssemblyDefinition]::ReadAssembly((Join-Path $game "$($entry.Name)_Data/Managed/Assembly-CSharp.dll"))
+    $installationPath = [IO.Path]::GetFullPath((Join-Path $series $entry.Value.installation))
+    $asm = [Mono.Cecil.AssemblyDefinition]::ReadAssembly((Join-Path $installationPath "$($entry.Name)_Data/Managed/Assembly-CSharp.dll"))
     try {
         $canvases = @($asm.MainModule.Types | Where-Object { $_.FullName -in @('CanvasEx','appli1.CanvasEx','appli2.CanvasEx') })
         if (!$canvases.Count) { throw 'No canvas' }

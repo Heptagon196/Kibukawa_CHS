@@ -39,3 +39,15 @@ tools/migrations/
 games/*/images/title-source/
 
 games/*/images/source/
+
+# Seventh-game authoritative tagged translation draft
+!games/07-otonari/work/dialogue-tagged.json
+!games/07-otonari/README.md
+
+
+# Seventh-game image generation intermediates
+games/07-otonari/images/title-zh.before-subtitle.png
+games/07-otonari/images/title-zh.exact.png
+games/07-otonari/images/title-zh.generated.png
+games/07-otonari/images/title-zh.subtitle-generated.png
+games/07-otonari/review/initial-merge.py.txt

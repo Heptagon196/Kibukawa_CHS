@@ -1,0 +1,38 @@
+{
+  "date": "2026-09-12",
+  "scope": "Offline checks only; no game window operated and no earlier-game project files changed.",
+  "games": "kibu1-kibu6",
+  "translation_plugins_compile": "pass",
+  "history_plugins_compile_and_unrestricted_metadata": "pass",
+  "synthetic_reflow_tests": "pass",
+  "full_replays_unmodified_tests": [
+    "kibu3",
+    "kibu4",
+    "kibu6"
+  ],
+  "full_replays_corrected_test_copies": {
+    "kibu1": {
+      "code": 0,
+      "output": "Full replay: 6317 body commands; 2683 page snapshots; 40187 characters conserved.\nPASS: 17786 real-engine dialogue reflow assertions.\n",
+      "original_test_sha256": "cf0b4ffbace269d74ec57709c3014db7246012ff2c61fe81c1c779f164c756f4",
+      "copied_test_sha256": "ef1a358346bb3a948cefb14c8588c9a279d4bf74cce1c9e06f3ee7c0d3d70919",
+      "change": "Only copied test page limit corrected from speaker ? 4 : 5 to 9 - TextLine; production and original project unchanged"
+    },
+    "kibu2": {
+      "code": 0,
+      "output": "Full replay: 7443 body commands; 3318 page snapshots; 44190 characters conserved.\nPASS: 20835 production reflow / offline fixture assertions.\n",
+      "original_test_sha256": "8a9ff1b88d544fd2d41fec4ea2bde336ab223f6c39ec2b650c5bf55154a8622c",
+      "copied_test_sha256": "c90575cf1989132cfeb4e1ab5feec352a99f0893f9124d4b0fe415bcaced55c2",
+      "change": "Only copied test page limit corrected from speaker ? 4 : 5 to 9 - TextLine; production and original project unchanged"
+    },
+    "kibu5": {
+      "code": 0,
+      "output": "Full replay: 5814 body commands; 2565 page snapshots; 35062 characters conserved.\nPASS: 15541 production reflow / offline fixture assertions.\n",
+      "original_test_sha256": "fdd03094c9b501b43578697d0db598b6b9d265bc4da8796632871c5b57ee56e2",
+      "copied_test_sha256": "f3f15542db8af7546ef0785f136230cef51873df550bdcf5d83c62e03ca3472d",
+      "change": "Only copied test page limit corrected from speaker ? 4 : 5 to 9 - TextLine; production and original project unchanged"
+    }
+  },
+  "history_buffer_color_coroutine_input_softkey_tests": "pass",
+  "legacy_test_note": "Games 1, 2 and 5 tests hardcoded 4/5 lines; original failures retained locally. Only out/ copies changed to actual 9-TextLine capacity; production and original test sources unchanged."
+}

@@ -1,0 +1,22 @@
+{
+  "issue": "Notebook heading/first clue merged; full-screen text incorrectly paginated at five rows",
+  "reproduction_before": [
+    "FAIL Notebook rows merged or displaced; clues=0 actual=搜查笔记·？？？ / ·？？？",
+    "FAIL Full-screen text paused before nine visible rows:6"
+  ],
+  "fix": [
+    "Preserve native subscn_3 instructions46..289 as a fixed full-screen page",
+    "Compute pagination capacity as9-TextLine; bottom dialogue remains4/5 rows and full-screen allows9"
+  ],
+  "validation": [
+    "8355 production reflow assertions",
+    "64 clue combinations, heading row0 blank row1 six clue rows2..7",
+    "Exactly one original click and final clear; no added scroll",
+    "6..9 full-screen rows no extra wait,10th row safely pauses",
+    "Longest fixed clue ends220px within240px native framebuffer"
+  ],
+  "source_evidence": "review/notebook-native-layout-evidence.json",
+  "translation_changed": false,
+  "game_window_operated": false,
+  "live_validation": "pending user"
+}

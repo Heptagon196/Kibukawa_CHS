@@ -1,0 +1,29 @@
+{
+  "preexisting_at_head": true,
+  "game": "kibu6",
+  "recorded_hash": "4526d9d82d5632dd169ab28ccae1c798a7aeef13a938cc8d44830c544d763685",
+  "actual_head_hash": "08c004c7235bb0d268e3147b88fb396563fb001658c38b403314c0633bc0af26",
+  "reason": "Sixth-game local rhyme/pinyin experiment overrides seven names, while public baseline deliberately preserves pre-experiment series names. Existing checker rejects provenance mismatch. Seventh-game work does not rewrite preceding translation or import experimental names.",
+  "status": "resolved",
+  "resolution": {
+    "date": "2026-09-11",
+    "authority": "用户要求以第六作实际使用的本地表为准",
+    "source_table": "games/06-tsuikousaku/work/glossary.locked.json",
+    "sha256": "3dd95fea842e9ac0657522d4f4bf2c2ebcb66c885d425bd056c31f6ce6d78427",
+    "changes": [
+      "同步七个人名及谜题语境说明",
+      "收录魚屋/さかなや→鱼铺",
+      "完整同步第六作配套规则",
+      "更新公共表来源哈希"
+    ],
+    "translation_files_modified": false,
+    "validation": {
+      "series_glossary": "PASS: 394 source references; hashes, mappings, aliases, rules and ambiguities",
+      "sixth_rules": "Exact match with current local table",
+      "sixth_scn1_selection": "No public/local conflicts",
+      "seventh_translation": "PASS: 3233 processed, 0 pending, 1332 click units, 98 color spans, 68 dynamic combinations",
+      "protected_files": "196 local glossary, cache, tagged dialogue and readable translation files unchanged",
+      "git_diff_check": "PASS"
+    }
+  }
+}

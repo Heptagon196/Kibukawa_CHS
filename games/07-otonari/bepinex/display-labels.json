@@ -1,0 +1,26 @@
+{
+  "schema": 1,
+  "scope": "CharacterInputKeyManager visible category button labels only. Do not replace CharacterInputKeySettings dictionary keys or kana input character tables. Applied through runtime UI display labels.",
+  "labels": [
+    {
+      "source": "ひら",
+      "target": "平假名",
+      "source_id": 3414
+    },
+    {
+      "source": "カナ",
+      "target": "片假名",
+      "source_id": 3415
+    },
+    {
+      "source": "英数",
+      "target": "字母数字",
+      "source_id": 3416
+    },
+    {
+      "source": "漢字",
+      "target": "汉字",
+      "source_id": 3417
+    }
+  ]
+}

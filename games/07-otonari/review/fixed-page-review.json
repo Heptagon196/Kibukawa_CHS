@@ -1,0 +1,468 @@
+{
+  "schema": 1,
+  "reason": "Preserve source visual lines for chapter/location cards, instruction heading and role/name/ruby credits. Remove Japanese ruby using empty strings, not null; never distribute name into ruby slot. Original opcode77 and source bytes untouched.",
+  "new_breaks": [
+    [
+      "scn0",
+      377
+    ],
+    [
+      "scn0",
+      391
+    ],
+    [
+      "scn0",
+      2684
+    ],
+    [
+      "scn1",
+      10865
+    ],
+    [
+      "scn1",
+      10879
+    ],
+    [
+      "scn2",
+      21
+    ],
+    [
+      "scn2",
+      35
+    ],
+    [
+      "scn3",
+      521
+    ],
+    [
+      "scn3",
+      535
+    ],
+    [
+      "scn3",
+      15808
+    ],
+    [
+      "scn3",
+      15820
+    ],
+    [
+      "scn3",
+      15874
+    ],
+    [
+      "scn3",
+      15886
+    ],
+    [
+      "scn3",
+      15928
+    ],
+    [
+      "scn3",
+      15940
+    ],
+    [
+      "scn3",
+      15977
+    ],
+    [
+      "scn3",
+      15989
+    ],
+    [
+      "scn3",
+      16035
+    ],
+    [
+      "scn3",
+      16042
+    ],
+    [
+      "scn3",
+      16076
+    ],
+    [
+      "scn3",
+      16083
+    ],
+    [
+      "scn0",
+      9320
+    ],
+    [
+      "scn0",
+      9341
+    ],
+    [
+      "scn0",
+      11973
+    ],
+    [
+      "scn0",
+      11994
+    ],
+    [
+      "scn1",
+      18
+    ],
+    [
+      "scn1",
+      39
+    ],
+    [
+      "scn1",
+      3068
+    ],
+    [
+      "scn1",
+      3089
+    ],
+    [
+      "scn1",
+      10922
+    ],
+    [
+      "scn1",
+      10943
+    ],
+    [
+      "scn2",
+      12211
+    ],
+    [
+      "scn2",
+      12232
+    ],
+    [
+      "scn2",
+      12934
+    ],
+    [
+      "scn2",
+      12955
+    ],
+    [
+      "scn3",
+      572
+    ],
+    [
+      "scn3",
+      593
+    ]
+  ],
+  "slot_targets": {
+    "20": "　　　序章",
+    "21": "　邂逅吉娃娃",
+    "140": "　〈操作说明〉",
+    "141": "接下来，指令中将新增",
+    "1269": "　　　第一章",
+    "1270": "　密室里的睡美人",
+    "1523": "　　　第二章",
+    "1524": "　　两只盘子",
+    "2284": "　　　第三章",
+    "2285": "　小小名侦探",
+    "3066": "被害人",
+    "3067": "伊崎修吾",
+    "3068": "",
+    "3069": "凶案现场的女性",
+    "3070": "绿川响子",
+    "3071": "",
+    "3072": "被害人的恋人",
+    "3073": "根室惠美",
+    "3074": "",
+    "3075": "被害人的朋友",
+    "3076": "中本裕辅",
+    "3077": "",
+    "3078": "酒店经理",
+    "3079": "向井",
+    "3080": "",
+    "3081": "精英刑警",
+    "3082": "八万",
+    "3083": "",
+    "482": "鞠滨大酒店",
+    "483": "　１楼　前台",
+    "624": "鞠滨大酒店",
+    "625": "　９楼　走廊",
+    "658": "鞠滨大酒店",
+    "659": "　１楼　前台",
+    "834": "鞠滨大酒店",
+    "835": "　９楼　走廊",
+    "1271": "鞠滨大酒店",
+    "1272": "　903号　伊崎房间",
+    "2156": "鞠滨大酒店",
+    "2157": "　１楼　前台",
+    "2191": "鞠滨大酒店",
+    "2192": "　９楼　走廊",
+    "2286": "鞠滨大酒店",
+    "2287": "　１楼　前台"
+  },
+  "changes": [
+    {
+      "before": {
+        "script": "scn0",
+        "end": 411,
+        "source": "　　　序 章 めぐりあいチワワ",
+        "target": "　　　序章　邂逅吉娃娃"
+      },
+      "after": {
+        "script": "scn0",
+        "end": 411,
+        "source": "　　　序 章<br=21/> めぐりあいチワワ",
+        "target": "　　　序章<br=21/>　邂逅吉娃娃"
+      }
+    },
+    {
+      "before": {
+        "script": "scn0",
+        "end": 2805,
+        "source": "　 ＜操作説明＞以降､コマンドの中に<boundary=142/><color=YELLOW>｢ﾁﾜﾜへ｣｢音成へ｣</color><boundary=143/>が追加されます｡チワワと音成刑事の視点を変えて色々とお試しください｡",
+        "target": "　 ＜操作说明＞接下来，指令中将新增<boundary=142/><color=YELLOW>“转到吉娃娃”“转到林居”</color><boundary=143/>。请切换吉娃娃和林居刑警的视角，尝试各种操作。"
+      },
+      "after": {
+        "script": "scn0",
+        "end": 2805,
+        "source": "　 ＜操作説明＞<br=141/>以降､コマンドの中に<boundary=142/><color=YELLOW>｢ﾁﾜﾜへ｣｢音成へ｣</color><boundary=143/>が追加されます｡チワワと音成刑事の視点を変えて色々とお試しください｡",
+        "target": "　〈操作说明〉<br=141/>接下来，指令中将新增<boundary=142/><color=YELLOW>“转到吉娃娃”“转到林居”</color><boundary=143/>。请切换吉娃娃和林居刑警的视角，尝试各种操作。"
+      }
+    },
+    {
+      "before": {
+        "script": "scn0",
+        "end": 9360,
+        "source": "鞠浜グランドホテル　１Ｆ　フロント",
+        "target": "鞠滨大酒店　１楼　前台"
+      },
+      "after": {
+        "script": "scn0",
+        "end": 9360,
+        "source": "鞠浜グランドホテル<br=483/>　１Ｆ　フロント",
+        "target": "鞠滨大酒店<br=483/>　１楼　前台"
+      }
+    },
+    {
+      "before": {
+        "script": "scn0",
+        "end": 12010,
+        "source": "鞠浜グランドホテル　 ９Ｆ　廊下",
+        "target": "鞠滨大酒店　９楼　走廊"
+      },
+      "after": {
+        "script": "scn0",
+        "end": 12010,
+        "source": "鞠浜グランドホテル<br=625/>　 ９Ｆ　廊下",
+        "target": "鞠滨大酒店<br=625/>　９楼　走廊"
+      }
+    },
+    {
+      "before": {
+        "script": "scn1",
+        "end": 58,
+        "source": "鞠浜グランドホテル　１Ｆ　フロント",
+        "target": "鞠滨大酒店　１楼　前台"
+      },
+      "after": {
+        "script": "scn1",
+        "end": 58,
+        "source": "鞠浜グランドホテル<br=659/>　１Ｆ　フロント",
+        "target": "鞠滨大酒店<br=659/>　１楼　前台"
+      }
+    },
+    {
+      "before": {
+        "script": "scn1",
+        "end": 3105,
+        "source": "鞠浜グランドホテル　 ９Ｆ　廊下",
+        "target": "鞠滨大酒店　９楼　走廊"
+      },
+      "after": {
+        "script": "scn1",
+        "end": 3105,
+        "source": "鞠浜グランドホテル<br=835/>　 ９Ｆ　廊下",
+        "target": "鞠滨大酒店<br=835/>　９楼　走廊"
+      }
+    },
+    {
+      "before": {
+        "script": "scn1",
+        "end": 10897,
+        "source": "　　　１ 章　 密室の眠り姫",
+        "target": "第１章　密室里的睡美人"
+      },
+      "after": {
+        "script": "scn1",
+        "end": 10897,
+        "source": "　　　１ 章<br=1270/>　 密室の眠り姫",
+        "target": "　　　第一章<br=1270/>　密室里的睡美人"
+      }
+    },
+    {
+      "before": {
+        "script": "scn1",
+        "end": 10963,
+        "source": "鞠浜グランドホテル　903号　伊崎部屋",
+        "target": "鞠滨大酒店　903号房　伊崎房间"
+      },
+      "after": {
+        "script": "scn1",
+        "end": 10963,
+        "source": "鞠浜グランドホテル<br=1272/>　903号　伊崎部屋",
+        "target": "鞠滨大酒店<br=1272/>　903号　伊崎房间"
+      }
+    },
+    {
+      "before": {
+        "script": "scn2",
+        "end": 51,
+        "source": "　　　２ 章　　 二つの皿",
+        "target": "　　　第２章　　两只盘子"
+      },
+      "after": {
+        "script": "scn2",
+        "end": 51,
+        "source": "　　　２ 章<br=1524/>　　 二つの皿",
+        "target": "　　　第二章<br=1524/>　　两只盘子"
+      }
+    },
+    {
+      "before": {
+        "script": "scn2",
+        "end": 12251,
+        "source": "鞠浜グランドホテル　１Ｆ　フロント",
+        "target": "鞠滨大酒店　１楼　前台"
+      },
+      "after": {
+        "script": "scn2",
+        "end": 12251,
+        "source": "鞠浜グランドホテル<br=2157/>　１Ｆ　フロント",
+        "target": "鞠滨大酒店<br=2157/>　１楼　前台"
+      }
+    },
+    {
+      "before": {
+        "script": "scn2",
+        "end": 12971,
+        "source": "鞠浜グランドホテル　 ９Ｆ　廊下",
+        "target": "鞠滨大酒店　９楼　走廊"
+      },
+      "after": {
+        "script": "scn2",
+        "end": 12971,
+        "source": "鞠浜グランドホテル<br=2192/>　 ９Ｆ　廊下",
+        "target": "鞠滨大酒店<br=2192/>　９楼　走廊"
+      }
+    },
+    {
+      "before": {
+        "script": "scn3",
+        "end": 554,
+        "source": "　　　３ 章　ちいさな名探偵",
+        "target": "　　　第三章　小小名侦探"
+      },
+      "after": {
+        "script": "scn3",
+        "end": 554,
+        "source": "　　　３ 章<br=2285/>　ちいさな名探偵",
+        "target": "　　　第三章<br=2285/>　小小名侦探"
+      }
+    },
+    {
+      "before": {
+        "script": "scn3",
+        "end": 612,
+        "source": "鞠浜グランドホテル　１Ｆ　フロント",
+        "target": "鞠滨大酒店　一楼　前台"
+      },
+      "after": {
+        "script": "scn3",
+        "end": 612,
+        "source": "鞠浜グランドホテル<br=2287/>　１Ｆ　フロント",
+        "target": "鞠滨大酒店<br=2287/>　１楼　前台"
+      }
+    },
+    {
+      "before": {
+        "script": "scn3",
+        "end": 15836,
+        "source": "　　 おしまい<boundary=3066/><color=YELLOW>被害者伊崎 修吾(ｲｻﾞｷ ｼｭｳｺﾞ)</color>",
+        "target": "　　　完<boundary=3066/><color=YELLOW>被害人　伊崎修吾</color>"
+      },
+      "after": {
+        "script": "scn3",
+        "end": 15836,
+        "source": "　　 おしまい<boundary=3066/><color=YELLOW>被害者</color><br=3067/><color=YELLOW>伊崎 修吾</color><br=3068/><color=YELLOW>(ｲｻﾞｷ ｼｭｳｺﾞ)</color>",
+        "target": "　　　完<boundary=3066/><color=YELLOW>被害人</color><br=3067/><color=YELLOW>伊崎修吾</color><br=3068/><color=YELLOW></color>"
+      }
+    },
+    {
+      "before": {
+        "script": "scn3",
+        "end": 15903,
+        "source": "<color=YELLOW>殺害現場にいた女性緑川 響子(ﾐﾄﾞﾘｶﾜ ｷｮｳｺ)</color>",
+        "target": "<color=YELLOW>凶案现场的女性　绿川响子</color>"
+      },
+      "after": {
+        "script": "scn3",
+        "end": 15903,
+        "source": "<color=YELLOW>殺害現場にいた女性</color><br=3070/><color=YELLOW>緑川 響子</color><br=3071/><color=YELLOW>(ﾐﾄﾞﾘｶﾜ ｷｮｳｺ)</color>",
+        "target": "<color=YELLOW>凶案现场的女性</color><br=3070/><color=YELLOW>绿川响子</color><br=3071/><color=YELLOW></color>"
+      }
+    },
+    {
+      "before": {
+        "script": "scn3",
+        "end": 15952,
+        "source": "<color=YELLOW>被害者の恋人根室 恵美(ﾈﾑﾛ ｴﾐ)</color>",
+        "target": "<color=YELLOW>被害人的恋人　根室惠美</color>"
+      },
+      "after": {
+        "script": "scn3",
+        "end": 15952,
+        "source": "<color=YELLOW>被害者の恋人</color><br=3073/><color=YELLOW>根室 恵美</color><br=3074/><color=YELLOW>(ﾈﾑﾛ ｴﾐ)</color>",
+        "target": "<color=YELLOW>被害人的恋人</color><br=3073/><color=YELLOW>根室惠美</color><br=3074/><color=YELLOW></color>"
+      }
+    },
+    {
+      "before": {
+        "script": "scn3",
+        "end": 16004,
+        "source": "<color=YELLOW>被害者の友人中本 裕輔(ﾅｶﾓﾄ ﾕｳｽｹ)</color>",
+        "target": "<color=YELLOW>被害人的朋友　中本裕辅</color>"
+      },
+      "after": {
+        "script": "scn3",
+        "end": 16004,
+        "source": "<color=YELLOW>被害者の友人</color><br=3076/><color=YELLOW>中本 裕輔</color><br=3077/><color=YELLOW>(ﾅｶﾓﾄ ﾕｳｽｹ)</color>",
+        "target": "<color=YELLOW>被害人的朋友</color><br=3076/><color=YELLOW>中本裕辅</color><br=3077/><color=YELLOW></color>"
+      }
+    },
+    {
+      "before": {
+        "script": "scn3",
+        "end": 16051,
+        "source": "<color=YELLOW>ホテルマネージャー向井(ﾑｶｲ)</color>",
+        "target": "<color=YELLOW>酒店经理　向井</color>"
+      },
+      "after": {
+        "script": "scn3",
+        "end": 16051,
+        "source": "<color=YELLOW>ホテルマネージャー</color><br=3079/><color=YELLOW>向井</color><br=3080/><color=YELLOW>(ﾑｶｲ)</color>",
+        "target": "<color=YELLOW>酒店经理</color><br=3079/><color=YELLOW>向井</color><br=3080/><color=YELLOW></color>"
+      }
+    },
+    {
+      "before": {
+        "script": "scn3",
+        "end": 16094,
+        "source": "<color=YELLOW>キャリア刑事八萬(ﾔﾖﾛｽﾞ)</color>",
+        "target": "<color=YELLOW>精英刑警　八万</color>"
+      },
+      "after": {
+        "script": "scn3",
+        "end": 16094,
+        "source": "<color=YELLOW>キャリア刑事</color><br=3082/><color=YELLOW>八萬</color><br=3083/><color=YELLOW>(ﾔﾖﾛｽﾞ)</color>",
+        "target": "<color=YELLOW>精英刑警</color><br=3082/><color=YELLOW>八万</color><br=3083/><color=YELLOW></color>"
+      }
+    }
+  ]
+}
