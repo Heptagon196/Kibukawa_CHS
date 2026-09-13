@@ -1,0 +1,1449 @@
+{
+  "script": "c3_00",
+  "batch": "c3_00.part1.trans.json",
+  "note": "Independent verification: for each entry decide whether ``target`` is the faithful rendering of ``source`` as its own display line. Report shifts, omissions, additions and mistranslations. An entry with ``emphasis`` is drawn in several colours: ``emphasis`` is the source split and ``runs`` the Chinese split, index for index, and it is the run with a non-null colour that the game highlights. See work/parallel/VERIFIER_BRIEF.md.",
+  "units": [
+    {
+      "offset": 13,
+      "kind": "line",
+      "limit": 9,
+      "source": "１９９６年６月某日",
+      "target": "１９９６年６月某日"
+    },
+    {
+      "offset": 37,
+      "kind": "line",
+      "limit": 9,
+      "source": "天気、雨",
+      "target": "天气：雨"
+    },
+    {
+      "offset": 51,
+      "kind": "line",
+      "limit": 9,
+      "source": "　",
+      "target": "　"
+    },
+    {
+      "offset": 72,
+      "kind": "line",
+      "limit": 9,
+      "source": "螻川内家　居間",
+      "target": "蝼川内家　客厅"
+    },
+    {
+      "offset": 158,
+      "kind": "line",
+      "limit": 9,
+      "source": "…あの、もうひとつ",
+      "target": "…那个，还能再"
+    },
+    {
+      "offset": 182,
+      "kind": "line",
+      "limit": 9,
+      "source": "お尋ねしてもいい",
+      "target": "问您一个问题"
+    },
+    {
+      "offset": 222,
+      "kind": "line",
+      "limit": 9,
+      "source": "でしょうか。",
+      "target": "吗？"
+    },
+    {
+      "offset": 240,
+      "kind": "line",
+      "limit": 11,
+      "source": "忠雄さんの行方を探る",
+      "target": "为了追查忠雄先生"
+    },
+    {
+      "offset": 286,
+      "kind": "line",
+      "limit": 11,
+      "source": "ために、聞いておきたい",
+      "target": "的下落，我想先问清"
+    },
+    {
+      "offset": 314,
+      "kind": "line",
+      "limit": 11,
+      "source": "んですが…",
+      "target": "一件事…"
+    },
+    {
+      "offset": 332,
+      "kind": "line",
+      "limit": 7,
+      "source": "なんでしょう。",
+      "target": "请问吧。"
+    },
+    {
+      "offset": 356,
+      "kind": "line",
+      "limit": 10,
+      "source": "２５年前に何があった",
+      "target": "能告诉我 25 年前"
+    },
+    {
+      "offset": 388,
+      "kind": "line",
+      "limit": 10,
+      "source": "のか、教えていただけ",
+      "target": "发生过什么事"
+    },
+    {
+      "offset": 414,
+      "kind": "line",
+      "limit": 10,
+      "source": "ませんか。",
+      "target": "吗？"
+    },
+    {
+      "offset": 442,
+      "kind": "line",
+      "limit": 3,
+      "source": "……！",
+      "target": "……！"
+    },
+    {
+      "offset": 456,
+      "kind": "line",
+      "limit": 9,
+      "source": "話を伺っていると…",
+      "target": "听您刚才所说…"
+    },
+    {
+      "offset": 500,
+      "kind": "line",
+      "limit": 10,
+      "source": "どうも、２５年前から",
+      "target": "忠雄先生似乎从"
+    },
+    {
+      "offset": 526,
+      "kind": "line",
+      "limit": 10,
+      "source": "忠雄さんが変わったと",
+      "target": "25 年前开始变了"
+    },
+    {
+      "offset": 552,
+      "kind": "line",
+      "limit": 10,
+      "source": "いうことなので…",
+      "target": "个人…"
+    },
+    {
+      "offset": 574,
+      "kind": "line",
+      "limit": 11,
+      "source": "その時に何があったのか",
+      "target": "所以我想知道，那时"
+    },
+    {
+      "offset": 602,
+      "kind": "line",
+      "limit": 11,
+      "source": "教えて欲しいんです。",
+      "target": "究竟发生了什么。"
+    },
+    {
+      "offset": 630,
+      "kind": "line",
+      "limit": 4,
+      "source": "………。",
+      "target": "………"
+    },
+    {
+      "offset": 646,
+      "kind": "line",
+      "limit": 8,
+      "source": "これは、僕個人の",
+      "target": "这只是我个人的"
+    },
+    {
+      "offset": 668,
+      "kind": "line",
+      "limit": 8,
+      "source": "考えですが…",
+      "target": "想法…"
+    },
+    {
+      "offset": 686,
+      "kind": "line",
+      "limit": 9,
+      "source": "あなたが忠雄さんを",
+      "target": "您会下定决心"
+    },
+    {
+      "offset": 723,
+      "kind": "line",
+      "limit": 9,
+      "source": "生涯信頼していくと",
+      "target": "一辈子信任"
+    },
+    {
+      "offset": 753,
+      "kind": "line",
+      "limit": 9,
+      "source": "心に決めたのも…",
+      "target": "忠雄先生…"
+    },
+    {
+      "offset": 775,
+      "kind": "line",
+      "limit": 8,
+      "source": "その時の出来事が",
+      "target": "恐怕也和当时"
+    },
+    {
+      "offset": 797,
+      "kind": "line",
+      "limit": 8,
+      "source": "関係してるのでは",
+      "target": "发生的事情"
+    },
+    {
+      "offset": 819,
+      "kind": "line",
+      "limit": 8,
+      "source": "ないでしょうか。",
+      "target": "有关吧？"
+    },
+    {
+      "offset": 850,
+      "kind": "line",
+      "limit": 4,
+      "source": "………。",
+      "target": "………"
+    },
+    {
+      "offset": 880,
+      "kind": "line",
+      "limit": 10,
+      "source": "第３節",
+      "target": "第３节"
+    },
+    {
+      "offset": 892,
+      "kind": "line",
+      "limit": 10,
+      "source": "　",
+      "target": "　"
+    },
+    {
+      "offset": 900,
+      "kind": "line",
+      "limit": 10,
+      "source": "『別の人と別の家で』",
+      "target": "“与别人，在别的家”"
+    },
+    {
+      "offset": 995,
+      "kind": "choice",
+      "limit": 0,
+      "source": "場所移動",
+      "target": "移动地点"
+    },
+    {
+      "offset": 1007,
+      "kind": "choice",
+      "limit": 0,
+      "source": "話す",
+      "target": "交谈"
+    },
+    {
+      "offset": 1015,
+      "kind": "choice",
+      "limit": 0,
+      "source": "視る",
+      "target": "观察"
+    },
+    {
+      "offset": 1023,
+      "kind": "choice",
+      "limit": 0,
+      "source": "中断する",
+      "target": "中断"
+    },
+    {
+      "offset": 1082,
+      "kind": "line",
+      "limit": 4,
+      "source": "………。",
+      "target": "………"
+    },
+    {
+      "offset": 1110,
+      "kind": "line",
+      "limit": 10,
+      "source": "２５年前に、いったい",
+      "target": "25 年前，究竟"
+    },
+    {
+      "offset": 1136,
+      "kind": "line",
+      "limit": 10,
+      "source": "何があったのか…。",
+      "target": "发生了什么…"
+    },
+    {
+      "offset": 1160,
+      "kind": "line",
+      "limit": 4,
+      "source": "それは…",
+      "target": "难道是…"
+    },
+    {
+      "offset": 1186,
+      "kind": "choice",
+      "limit": 0,
+      "source": "結婚に関係してますね？",
+      "target": "与结婚有关吧？"
+    },
+    {
+      "offset": 1221,
+      "kind": "choice",
+      "limit": 0,
+      "source": "出産に関係してますね？",
+      "target": "与生产有关吧？"
+    },
+    {
+      "offset": 1256,
+      "kind": "choice",
+      "limit": 0,
+      "source": "借金に関係してますね？",
+      "target": "与欠债有关吧？"
+    },
+    {
+      "offset": 1282,
+      "kind": "line",
+      "limit": 11,
+      "source": "…いや、まずは今の",
+      "target": "…不，先"
+    },
+    {
+      "offset": 1306,
+      "kind": "line",
+      "limit": 11,
+      "source": "反応をよく視てみよう。",
+      "target": "把反应看仔细吧。",
+      "runs": [
+        "把反应",
+        "看仔细吧。"
+      ],
+      "emphasis": [
+        {
+          "colour": null,
+          "text": "反応をよく"
+        },
+        {
+          "colour": 2,
+          "text": "視てみよう。"
+        }
+      ]
+    },
+    {
+      "offset": 1365,
+      "kind": "line",
+      "limit": 11,
+      "source": "結婚に関係してますね？",
+      "target": "与结婚有关吧？"
+    },
+    {
+      "offset": 1401,
+      "kind": "line",
+      "limit": 4,
+      "source": "………。",
+      "target": "………"
+    },
+    {
+      "offset": 1440,
+      "kind": "line",
+      "limit": 11,
+      "source": "出産に関係してますね？",
+      "target": "与生产有关吧？"
+    },
+    {
+      "offset": 1476,
+      "kind": "line",
+      "limit": 4,
+      "source": "………。",
+      "target": "………"
+    },
+    {
+      "offset": 1515,
+      "kind": "line",
+      "limit": 11,
+      "source": "借金に関係してますね？",
+      "target": "与欠债有关吧？"
+    },
+    {
+      "offset": 1551,
+      "kind": "line",
+      "limit": 4,
+      "source": "………。",
+      "target": "………"
+    },
+    {
+      "offset": 1595,
+      "kind": "line",
+      "limit": 9,
+      "source": "やはり…暁さんの",
+      "target": "果然…晓先生"
+    },
+    {
+      "offset": 1637,
+      "kind": "line",
+      "limit": 9,
+      "source": "出産の時に、何かが",
+      "target": "出生时发生过"
+    },
+    {
+      "offset": 1661,
+      "kind": "line",
+      "limit": 9,
+      "source": "あったんですね。",
+      "target": "什么吧。"
+    },
+    {
+      "offset": 1685,
+      "kind": "line",
+      "limit": 4,
+      "source": "………。",
+      "target": "………"
+    },
+    {
+      "offset": 1709,
+      "kind": "line",
+      "limit": 10,
+      "source": "…なんだか、心の底を",
+      "target": "…总觉得内心深处"
+    },
+    {
+      "offset": 1735,
+      "kind": "line",
+      "limit": 10,
+      "source": "見透かされているよう",
+      "target": "都被您看透了"
+    },
+    {
+      "offset": 1761,
+      "kind": "line",
+      "limit": 10,
+      "source": "ですね。",
+      "target": "呢。"
+    },
+    {
+      "offset": 1775,
+      "kind": "line",
+      "limit": 8,
+      "source": "不思議な探偵さん",
+      "target": "真是一位奇妙的"
+    },
+    {
+      "offset": 1797,
+      "kind": "line",
+      "limit": 8,
+      "source": "ですこと…。",
+      "target": "侦探…"
+    },
+    {
+      "offset": 1817,
+      "kind": "line",
+      "limit": 11,
+      "source": "話して…もらえますね。",
+      "target": "您愿意说了…对吧。"
+    },
+    {
+      "offset": 1857,
+      "kind": "line",
+      "limit": 4,
+      "source": "………。",
+      "target": "………"
+    },
+    {
+      "offset": 1882,
+      "kind": "line",
+      "limit": 10,
+      "source": "あれは…そうですね。",
+      "target": "那是…让我想想。"
+    },
+    {
+      "offset": 1908,
+      "kind": "line",
+      "limit": 10,
+      "source": "…２５年前、私が暁を",
+      "target": "…25 年前，我怀上"
+    },
+    {
+      "offset": 1961,
+      "kind": "line",
+      "limit": 10,
+      "source": "身籠もり、半年ほど",
+      "target": "晓大约半年"
+    },
+    {
+      "offset": 1996,
+      "kind": "line",
+      "limit": 10,
+      "source": "経った頃でしょうか。",
+      "target": "的时候吧。"
+    },
+    {
+      "offset": 2038,
+      "kind": "line",
+      "limit": 10,
+      "source": "私は車の運転中に",
+      "target": "我开车时"
+    },
+    {
+      "offset": 2060,
+      "kind": "line",
+      "limit": 10,
+      "source": "交通事故に巻き込まれ",
+      "target": "卷入交通事故，"
+    },
+    {
+      "offset": 2086,
+      "kind": "line",
+      "limit": 10,
+      "source": "大怪我を負い…",
+      "target": "受了重伤…"
+    },
+    {
+      "offset": 2124,
+      "kind": "line",
+      "limit": 11,
+      "source": "意識不明の重体に",
+      "target": "昏迷不醒，病情危重",
+      "runs": [
+        "昏迷不醒，",
+        "病情危重"
+      ],
+      "emphasis": [
+        {
+          "colour": null,
+          "text": "意識不明の"
+        },
+        {
+          "colour": 2,
+          "text": "重体に"
+        }
+      ]
+    },
+    {
+      "offset": 2159,
+      "kind": "line",
+      "limit": 11,
+      "source": "なってしまったんです。",
+      "target": "到了生死关头。"
+    },
+    {
+      "offset": 2189,
+      "kind": "line",
+      "limit": 11,
+      "source": "妊娠中に、事故に…!?",
+      "target": "怀孕时出了车祸…！？"
+    },
+    {
+      "offset": 2227,
+      "kind": "line",
+      "limit": 11,
+      "source": "なにぶん、事故の瞬間",
+      "target": "毕竟从事故发生的"
+    },
+    {
+      "offset": 2253,
+      "kind": "line",
+      "limit": 11,
+      "source": "からずっと、意識がない",
+      "target": "那一刻起，我就一直"
+    },
+    {
+      "offset": 2281,
+      "kind": "line",
+      "limit": 11,
+      "source": "状態が続いたもので…",
+      "target": "没有意识…"
+    },
+    {
+      "offset": 2307,
+      "kind": "line",
+      "limit": 9,
+      "source": "その時のことは、",
+      "target": "所以当时的事，"
+    },
+    {
+      "offset": 2329,
+      "kind": "line",
+      "limit": 9,
+      "source": "ハッキリと覚えては",
+      "target": "我也记得不太"
+    },
+    {
+      "offset": 2353,
+      "kind": "line",
+      "limit": 9,
+      "source": "いないのですが…。",
+      "target": "清楚…"
+    },
+    {
+      "offset": 2387,
+      "kind": "line",
+      "limit": 11,
+      "source": "どうもかなりの重体で、",
+      "target": "据说我的伤势很重，"
+    },
+    {
+      "offset": 2415,
+      "kind": "line",
+      "limit": 11,
+      "source": "お腹の子供どころか…",
+      "target": "别说腹中的孩子…"
+    },
+    {
+      "offset": 2441,
+      "kind": "line",
+      "limit": 11,
+      "source": "私自身の命すら危うい、",
+      "target": "就连我自己都性命"
+    },
+    {
+      "offset": 2469,
+      "kind": "line",
+      "limit": 11,
+      "source": "という状態だったんだ",
+      "target": "垂危。"
+    },
+    {
+      "offset": 2495,
+      "kind": "line",
+      "limit": 11,
+      "source": "そうです。",
+      "target": "听说是这样。"
+    },
+    {
+      "offset": 2513,
+      "kind": "line",
+      "limit": 3,
+      "source": "……。",
+      "target": "……"
+    },
+    {
+      "offset": 2527,
+      "kind": "line",
+      "limit": 11,
+      "source": "ですが…おぼろげながら",
+      "target": "不过…当我隐约"
+    },
+    {
+      "offset": 2555,
+      "kind": "line",
+      "limit": 11,
+      "source": "意識が戻った時には…",
+      "target": "恢复意识时…"
+    },
+    {
+      "offset": 2581,
+      "kind": "line",
+      "limit": 11,
+      "source": "なんとなく自分でも、",
+      "target": "我自己不知为何，"
+    },
+    {
+      "offset": 2616,
+      "kind": "line",
+      "limit": 11,
+      "source": "諦めはついていました。",
+      "target": "已经看开了。"
+    },
+    {
+      "offset": 2652,
+      "kind": "line",
+      "limit": 7,
+      "source": "…そういうもの",
+      "target": "…人会这样"
+    },
+    {
+      "offset": 2672,
+      "kind": "line",
+      "limit": 7,
+      "source": "なんですか。",
+      "target": "吗？"
+    },
+    {
+      "offset": 2692,
+      "kind": "line",
+      "limit": 7,
+      "source": "そう…ですね。",
+      "target": "会…吧。"
+    },
+    {
+      "offset": 2730,
+      "kind": "line",
+      "limit": 11,
+      "source": "気が付いたとき、そこが",
+      "target": "醒来时，我知道"
+    },
+    {
+      "offset": 2758,
+      "kind": "line",
+      "limit": 11,
+      "source": "病院のベッドだという",
+      "target": "自己正躺在医院"
+    },
+    {
+      "offset": 2784,
+      "kind": "line",
+      "limit": 11,
+      "source": "ことはわかりました。",
+      "target": "的病床上。"
+    },
+    {
+      "offset": 2810,
+      "kind": "line",
+      "limit": 11,
+      "source": "なんとなく…自分が",
+      "target": "我也隐约想起…"
+    },
+    {
+      "offset": 2834,
+      "kind": "line",
+      "limit": 11,
+      "source": "事故に遭ったという",
+      "target": "自己遭遇了"
+    },
+    {
+      "offset": 2874,
+      "kind": "line",
+      "limit": 11,
+      "source": "ことも思い出しました。",
+      "target": "车祸。"
+    },
+    {
+      "offset": 2902,
+      "kind": "line",
+      "limit": 11,
+      "source": "見ると、全身にくまなく",
+      "target": "一看，全身上下"
+    },
+    {
+      "offset": 2930,
+      "kind": "line",
+      "limit": 11,
+      "source": "チューブやコードが",
+      "target": "接满了各种管子"
+    },
+    {
+      "offset": 2954,
+      "kind": "line",
+      "limit": 11,
+      "source": "付けられていて…",
+      "target": "和电线…"
+    },
+    {
+      "offset": 2976,
+      "kind": "line",
+      "limit": 11,
+      "source": "でも…身体の感覚は",
+      "target": "可是…身体的感觉",
+      "runs": [
+        "可是…",
+        "身体的感觉"
+      ],
+      "emphasis": [
+        {
+          "colour": null,
+          "text": "でも…"
+        },
+        {
+          "colour": 2,
+          "text": "身体の感覚は"
+        }
+      ]
+    },
+    {
+      "offset": 3028,
+      "kind": "line",
+      "limit": 11,
+      "source": "まるでなかったんです。",
+      "target": "却完全消失了。"
+    },
+    {
+      "offset": 3067,
+      "kind": "line",
+      "limit": 10,
+      "source": "身体の感覚が…ない？",
+      "target": "身体…没有感觉？"
+    },
+    {
+      "offset": 3101,
+      "kind": "line",
+      "limit": 4,
+      "source": "はい…。",
+      "target": "是的…"
+    },
+    {
+      "offset": 3115,
+      "kind": "line",
+      "limit": 10,
+      "source": "自分の手足どころか、",
+      "target": "不只是手脚，"
+    },
+    {
+      "offset": 3141,
+      "kind": "line",
+      "limit": 10,
+      "source": "目や口を動かすことも",
+      "target": "连眼睛和嘴"
+    },
+    {
+      "offset": 3167,
+      "kind": "line",
+      "limit": 10,
+      "source": "できなくなっていて…",
+      "target": "都动不了…"
+    },
+    {
+      "offset": 3193,
+      "kind": "line",
+      "limit": 11,
+      "source": "身体があるのかどうかも",
+      "target": "我甚至感觉不到"
+    },
+    {
+      "offset": 3248,
+      "kind": "line",
+      "limit": 11,
+      "source": "わからなくなりました。",
+      "target": "自己有没有身体。"
+    },
+    {
+      "offset": 3276,
+      "kind": "line",
+      "limit": 11,
+      "source": "まるで…自分が頭だけの",
+      "target": "仿佛…自己只剩下"
+    },
+    {
+      "offset": 3304,
+      "kind": "line",
+      "limit": 11,
+      "source": "存在になってしまった",
+      "target": "一颗头颅，"
+    },
+    {
+      "offset": 3330,
+      "kind": "line",
+      "limit": 11,
+      "source": "ような感覚でした。",
+      "target": "就是那种感觉。"
+    },
+    {
+      "offset": 3356,
+      "kind": "line",
+      "limit": 3,
+      "source": "……。",
+      "target": "……"
+    },
+    {
+      "offset": 3370,
+      "kind": "line",
+      "limit": 7,
+      "source": "そう思った時…",
+      "target": "想到这里…"
+    },
+    {
+      "offset": 3390,
+      "kind": "line",
+      "limit": 11,
+      "source": "ああ、私は死ぬんだな…",
+      "target": "我便觉得，啊…"
+    },
+    {
+      "offset": 3418,
+      "kind": "line",
+      "limit": 11,
+      "source": "と感じました。",
+      "target": "我要死了。"
+    },
+    {
+      "offset": 3438,
+      "kind": "line",
+      "limit": 9,
+      "source": "不思議なもので、",
+      "target": "奇怪的是，"
+    },
+    {
+      "offset": 3460,
+      "kind": "line",
+      "limit": 9,
+      "source": "怖さはまったく感じ",
+      "target": "我完全没有感到"
+    },
+    {
+      "offset": 3484,
+      "kind": "line",
+      "limit": 9,
+      "source": "ませんでした。",
+      "target": "害怕。"
+    },
+    {
+      "offset": 3504,
+      "kind": "line",
+      "limit": 10,
+      "source": "自然と、理解した…と",
+      "target": "该说是自然就明白了"
+    },
+    {
+      "offset": 3530,
+      "kind": "line",
+      "limit": 10,
+      "source": "言うんでしょうか。",
+      "target": "吧。"
+    },
+    {
+      "offset": 3556,
+      "kind": "line",
+      "limit": 10,
+      "source": "死を、理解…ですか。",
+      "target": "明白死亡…吗？"
+    },
+    {
+      "offset": 3584,
+      "kind": "line",
+      "limit": 7,
+      "source": "…そうですね。",
+      "target": "…是啊。"
+    },
+    {
+      "offset": 3604,
+      "kind": "line",
+      "limit": 10,
+      "source": "身体はちゃんと、",
+      "target": "身体会清楚地"
+    },
+    {
+      "offset": 3626,
+      "kind": "line",
+      "limit": 10,
+      "source": "死期がわかっていて…",
+      "target": "知道死期…"
+    },
+    {
+      "offset": 3652,
+      "kind": "line",
+      "limit": 11,
+      "source": "その時がきたら、自然と",
+      "target": "等那一刻来临，"
+    },
+    {
+      "offset": 3680,
+      "kind": "line",
+      "limit": 11,
+      "source": "受け容れるように",
+      "target": "人就会自然地"
+    },
+    {
+      "offset": 3718,
+      "kind": "line",
+      "limit": 11,
+      "source": "なってるみたいです。",
+      "target": "接受死亡。"
+    },
+    {
+      "offset": 3746,
+      "kind": "line",
+      "limit": 9,
+      "source": "はあ、なるほど…。",
+      "target": "哦，原来如此…"
+    },
+    {
+      "offset": 3770,
+      "kind": "line",
+      "limit": 10,
+      "source": "でも…実際はこうして",
+      "target": "可是…您最后还是"
+    },
+    {
+      "offset": 3796,
+      "kind": "line",
+      "limit": 10,
+      "source": "助かったんですよね。",
+      "target": "像这样活下来了。"
+    },
+    {
+      "offset": 3822,
+      "kind": "line",
+      "limit": 10,
+      "source": "母子共に。",
+      "target": "母子都平安。"
+    },
+    {
+      "offset": 3840,
+      "kind": "line",
+      "limit": 8,
+      "source": "それなんですが…",
+      "target": "问题就在这里…"
+    },
+    {
+      "offset": 3862,
+      "kind": "line",
+      "limit": 10,
+      "source": "それからのくわしい",
+      "target": "此后详细的"
+    },
+    {
+      "offset": 3897,
+      "kind": "line",
+      "limit": 10,
+      "source": "経緯は、私には",
+      "target": "经过，我也"
+    },
+    {
+      "offset": 3923,
+      "kind": "line",
+      "limit": 10,
+      "source": "わからないんですが…",
+      "target": "不太清楚…"
+    },
+    {
+      "offset": 3949,
+      "kind": "line",
+      "limit": 11,
+      "source": "気が付けば、すごい",
+      "target": "回过神来，我已经"
+    },
+    {
+      "offset": 3973,
+      "kind": "line",
+      "limit": 11,
+      "source": "設備の病院に転院されて",
+      "target": "被转进设备极其先进"
+    },
+    {
+      "offset": 4001,
+      "kind": "line",
+      "limit": 11,
+      "source": "いたり…",
+      "target": "的医院…"
+    },
+    {
+      "offset": 4015,
+      "kind": "line",
+      "limit": 10,
+      "source": "集中治療室という所に",
+      "target": "还被送进了"
+    },
+    {
+      "offset": 4041,
+      "kind": "line",
+      "limit": 10,
+      "source": "入れられたりして",
+      "target": "所谓的重症监护室"
+    },
+    {
+      "offset": 4063,
+      "kind": "line",
+      "limit": 10,
+      "source": "いたようなんです。",
+      "target": "接受治疗。"
+    },
+    {
+      "offset": 4117,
+      "kind": "line",
+      "limit": 11,
+      "source": "その頃も、まだ意識は",
+      "target": "那时您仍然"
+    },
+    {
+      "offset": 4143,
+      "kind": "line",
+      "limit": 11,
+      "source": "うつろだったんですか？",
+      "target": "意识模糊吗？"
+    },
+    {
+      "offset": 4173,
+      "kind": "line",
+      "limit": 10,
+      "source": "意識はだいぶハッキリ",
+      "target": "意识已经清醒了"
+    },
+    {
+      "offset": 4199,
+      "kind": "line",
+      "limit": 10,
+      "source": "していたんですが…",
+      "target": "许多，可是…"
+    },
+    {
+      "offset": 4223,
+      "kind": "line",
+      "limit": 11,
+      "source": "生きよう、という気力が",
+      "target": "似乎还是缺少"
+    },
+    {
+      "offset": 4258,
+      "kind": "line",
+      "limit": 11,
+      "source": "乏しかったような感じ",
+      "target": "活下去的意志。"
+    },
+    {
+      "offset": 4290,
+      "kind": "line",
+      "limit": 11,
+      "source": "だった気がします。",
+      "target": "我记得是这样。"
+    },
+    {
+      "offset": 4316,
+      "kind": "line",
+      "limit": 5,
+      "source": "なるほど。",
+      "target": "原来如此。"
+    },
+    {
+      "offset": 4332,
+      "kind": "line",
+      "limit": 10,
+      "source": "なすがままに、治療を",
+      "target": "您只是任由医生"
+    },
+    {
+      "offset": 4358,
+      "kind": "line",
+      "limit": 10,
+      "source": "受けていただけなん",
+      "target": "为您治疗而已"
+    },
+    {
+      "offset": 4382,
+      "kind": "line",
+      "limit": 10,
+      "source": "ですね。",
+      "target": "吧。"
+    },
+    {
+      "offset": 4398,
+      "kind": "line",
+      "limit": 4,
+      "source": "…はい。",
+      "target": "…是的。"
+    },
+    {
+      "offset": 4412,
+      "kind": "line",
+      "limit": 11,
+      "source": "なのでその頃は、自分が",
+      "target": "所以当时，我自己"
+    },
+    {
+      "offset": 4440,
+      "kind": "line",
+      "limit": 11,
+      "source": "そんな有様なので…",
+      "target": "都成了那副样子…"
+    },
+    {
+      "offset": 4464,
+      "kind": "line",
+      "limit": 10,
+      "source": "お腹の子供は、もう",
+      "target": "便以为腹中的孩子"
+    },
+    {
+      "offset": 4488,
+      "kind": "line",
+      "limit": 10,
+      "source": "とっくに死んでいると",
+      "target": "早就已经"
+    },
+    {
+      "offset": 4514,
+      "kind": "line",
+      "limit": 10,
+      "source": "思っていました。",
+      "target": "死了。"
+    },
+    {
+      "offset": 4536,
+      "kind": "line",
+      "limit": 7,
+      "source": "…と言うより、",
+      "target": "…或者说，"
+    },
+    {
+      "offset": 4556,
+      "kind": "line",
+      "limit": 10,
+      "source": "妊娠をしていたという",
+      "target": "就连自己曾经怀孕"
+    },
+    {
+      "offset": 4582,
+      "kind": "line",
+      "limit": 10,
+      "source": "ことすら、頭の中から",
+      "target": "这件事，也从脑海中"
+    },
+    {
+      "offset": 4608,
+      "kind": "line",
+      "limit": 10,
+      "source": "完全に消えてました。",
+      "target": "彻底消失了。"
+    },
+    {
+      "offset": 4634,
+      "kind": "line",
+      "limit": 4,
+      "source": "なので…",
+      "target": "所以…"
+    },
+    {
+      "offset": 4650,
+      "kind": "line",
+      "limit": 5,
+      "source": "…なので？",
+      "target": "…所以？"
+    },
+    {
+      "offset": 4686,
+      "kind": "line",
+      "limit": 11,
+      "source": "実は私のお腹の子供が、",
+      "target": "其实，我腹中的孩子"
+    },
+    {
+      "offset": 4714,
+      "kind": "line",
+      "limit": 11,
+      "source": "帝王切開で取り出されて",
+      "target": "早已通过剖宫产"
+    },
+    {
+      "offset": 4742,
+      "kind": "line",
+      "limit": 11,
+      "source": "いて…",
+      "target": "被取出…"
+    },
+    {
+      "offset": 4754,
+      "kind": "line",
+      "limit": 10,
+      "source": "別室で治療を受け、",
+      "target": "在另一个房间"
+    },
+    {
+      "offset": 4778,
+      "kind": "line",
+      "limit": 10,
+      "source": "五体満足に育っている",
+      "target": "接受治疗，四肢健全"
+    },
+    {
+      "offset": 4804,
+      "kind": "line",
+      "limit": 10,
+      "source": "ことを知ったとき…",
+      "target": "地成长着。"
+    },
+    {
+      "offset": 4828,
+      "kind": "line",
+      "limit": 10,
+      "source": "はじめて、心の底から",
+      "target": "得知此事时…我才"
+    },
+    {
+      "offset": 4854,
+      "kind": "line",
+      "limit": 10,
+      "source": "生きたいと思うように",
+      "target": "第一次从心底"
+    },
+    {
+      "offset": 4880,
+      "kind": "line",
+      "limit": 10,
+      "source": "なったんです。",
+      "target": "想要活下去。"
+    },
+    {
+      "offset": 4902,
+      "kind": "line",
+      "limit": 9,
+      "source": "ああ、それで",
+      "target": "啊，所以您才"
+    },
+    {
+      "offset": 4920,
+      "kind": "line",
+      "limit": 9,
+      "source": "助かったんですね。",
+      "target": "活了下来。"
+    },
+    {
+      "offset": 4946,
+      "kind": "line",
+      "limit": 9,
+      "source": "そして…私と子供を",
+      "target": "而为了救我"
+    },
+    {
+      "offset": 4970,
+      "kind": "line",
+      "limit": 9,
+      "source": "救うために、",
+      "target": "和孩子…"
+    },
+    {
+      "offset": 4988,
+      "kind": "line",
+      "limit": 11,
+      "source": "看病をしたり病院の世話",
+      "target": "一直照顾我、为医院"
+    },
+    {
+      "offset": 5016,
+      "kind": "line",
+      "limit": 11,
+      "source": "をしてくれたりと、力を",
+      "target": "的事奔走，竭尽全力"
+    },
+    {
+      "offset": 5044,
+      "kind": "line",
+      "limit": 11,
+      "source": "尽くしてくれたのが…",
+      "target": "帮助我们的人…"
+    },
+    {
+      "offset": 5100,
+      "kind": "line",
+      "limit": 7,
+      "source": "今の夫、忠雄",
+      "target": "正是我现在的"
+    },
+    {
+      "offset": 5118,
+      "kind": "line",
+      "limit": 7,
+      "source": "だったんです。",
+      "target": "丈夫忠雄。"
+    },
+    {
+      "offset": 5138,
+      "kind": "line",
+      "limit": 11,
+      "source": "あの人がいなかったら、",
+      "target": "如果没有他，"
+    },
+    {
+      "offset": 5166,
+      "kind": "line",
+      "limit": 11,
+      "source": "きっと私も子供も…",
+      "target": "我和孩子肯定…"
+    },
+    {
+      "offset": 5190,
+      "kind": "line",
+      "limit": 11,
+      "source": "あのまま助からなかった",
+      "target": "都无法活下来"
+    },
+    {
+      "offset": 5218,
+      "kind": "line",
+      "limit": 11,
+      "source": "と思います。",
+      "target": "吧。"
+    },
+    {
+      "offset": 5238,
+      "kind": "line",
+      "limit": 11,
+      "source": "そうだったんですか…。",
+      "target": "原来是这样…"
+    },
+    {
+      "offset": 5268,
+      "kind": "line",
+      "limit": 11,
+      "source": "その後は順調に回復し、",
+      "target": "之后我顺利康复，"
+    },
+    {
+      "offset": 5296,
+      "kind": "line",
+      "limit": 11,
+      "source": "リハビリを重ねたおかげ",
+      "target": "也多亏不断进行"
+    },
+    {
+      "offset": 5324,
+      "kind": "line",
+      "limit": 11,
+      "source": "もあって…",
+      "target": "复健…"
+    },
+    {
+      "offset": 5340,
+      "kind": "line",
+      "limit": 10,
+      "source": "大きな後遺症もなく、",
+      "target": "没有留下严重后遗症，"
+    },
+    {
+      "offset": 5375,
+      "kind": "line",
+      "limit": 10,
+      "source": "子供と一緒に退院する",
+      "target": "还能和孩子一起"
+    },
+    {
+      "offset": 5407,
+      "kind": "line",
+      "limit": 10,
+      "source": "ことができたんです。",
+      "target": "出院。"
+    },
+    {
+      "offset": 5442,
+      "kind": "line",
+      "limit": 10,
+      "source": "それは、よかった…。",
+      "target": "那真是太好了…"
+    },
+    {
+      "offset": 5470,
+      "kind": "line",
+      "limit": 8,
+      "source": "なのでそれ以降…",
+      "target": "所以从那以后…"
+    },
+    {
+      "offset": 5492,
+      "kind": "line",
+      "limit": 11,
+      "source": "瀕死だった私たち母子の",
+      "target": "为了濒死的我们母子"
+    },
+    {
+      "offset": 5520,
+      "kind": "line",
+      "limit": 11,
+      "source": "ために力を尽くして",
+      "target": "而竭尽全力的"
+    }
+  ]
+}

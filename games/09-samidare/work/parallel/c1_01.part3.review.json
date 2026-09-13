@@ -1,0 +1,1512 @@
+{
+  "script": "c1_01",
+  "batch": "c1_01.part3.trans.json",
+  "note": "Independent verification: for each entry decide whether ``target`` is the faithful rendering of ``source`` as its own display line. Report shifts, omissions, additions and mistranslations. An entry with ``emphasis`` is drawn in several colours: ``emphasis`` is the source split and ``runs`` the Chinese split, index for index, and it is the run with a non-null colour that the game highlights. See work/parallel/VERIFIER_BRIEF.md.",
+  "units": [
+    {
+      "offset": 11260,
+      "kind": "line",
+      "limit": 11,
+      "source": "もう少し詳しく聞かせて",
+      "target": "能再详细告诉我一些"
+    },
+    {
+      "offset": 11288,
+      "kind": "line",
+      "limit": 11,
+      "source": "もらえませんか。",
+      "target": "吗？"
+    },
+    {
+      "offset": 11312,
+      "kind": "line",
+      "limit": 3,
+      "source": "……？",
+      "target": "……？"
+    },
+    {
+      "offset": 11324,
+      "kind": "line",
+      "limit": 9,
+      "source": "…ああ、はい。別に",
+      "target": "…啊，好的。"
+    },
+    {
+      "offset": 11348,
+      "kind": "line",
+      "limit": 9,
+      "source": "構いませんけど…。",
+      "target": "没问题…"
+    },
+    {
+      "offset": 11389,
+      "kind": "line",
+      "limit": 11,
+      "source": "お金は彼女の家の救済に",
+      "target": "我打算拿这笔钱"
+    },
+    {
+      "offset": 11417,
+      "kind": "line",
+      "limit": 11,
+      "source": "使おうと思ってます。",
+      "target": "帮助她的家。"
+    },
+    {
+      "offset": 11473,
+      "kind": "line",
+      "limit": 8,
+      "source": "私は、母のことは",
+      "target": "我很尊敬"
+    },
+    {
+      "offset": 11495,
+      "kind": "line",
+      "limit": 8,
+      "source": "尊敬しています。",
+      "target": "我的母亲。"
+    },
+    {
+      "offset": 11528,
+      "kind": "line",
+      "limit": 10,
+      "source": "ほとんど女手ひとつで",
+      "target": "她几乎独自一人"
+    },
+    {
+      "offset": 11554,
+      "kind": "line",
+      "limit": 10,
+      "source": "私を育て、高校まで",
+      "target": "将我养大，还供我"
+    },
+    {
+      "offset": 11578,
+      "kind": "line",
+      "limit": 10,
+      "source": "出してくれたんです。",
+      "target": "读完了高中。"
+    },
+    {
+      "offset": 11604,
+      "kind": "line",
+      "limit": 11,
+      "source": "いや、母の場合、お金を",
+      "target": "不，母亲还得供养那个"
+    },
+    {
+      "offset": 11632,
+      "kind": "line",
+      "limit": 11,
+      "source": "せびる父がいたぶん…",
+      "target": "伸手要钱的父亲…"
+    },
+    {
+      "offset": 11658,
+      "kind": "line",
+      "limit": 10,
+      "source": "むしろ女手ひとつって",
+      "target": "反而只有我们母子"
+    },
+    {
+      "offset": 11684,
+      "kind": "line",
+      "limit": 10,
+      "source": "だけだった方が、まだ",
+      "target": "相依为命还会"
+    },
+    {
+      "offset": 11710,
+      "kind": "line",
+      "limit": 10,
+      "source": "マシだと思います。",
+      "target": "好过一些。"
+    },
+    {
+      "offset": 11734,
+      "kind": "line",
+      "limit": 9,
+      "source": "しかし数年前から",
+      "target": "但从几年前起，"
+    },
+    {
+      "offset": 11756,
+      "kind": "line",
+      "limit": 9,
+      "source": "身体も弱っていて…",
+      "target": "她的身体逐渐虚弱…"
+    },
+    {
+      "offset": 11780,
+      "kind": "line",
+      "limit": 10,
+      "source": "今は働きには出ず、",
+      "target": "现在已经不再外出"
+    },
+    {
+      "offset": 11804,
+      "kind": "line",
+      "limit": 10,
+      "source": "家のことだけをやって",
+      "target": "工作，只在家料理"
+    },
+    {
+      "offset": 11830,
+      "kind": "line",
+      "limit": 10,
+      "source": "もらっています。",
+      "target": "家务。"
+    },
+    {
+      "offset": 11852,
+      "kind": "line",
+      "limit": 11,
+      "source": "生活費は私の",
+      "target": "生活费只能靠"
+    },
+    {
+      "offset": 11870,
+      "kind": "line",
+      "limit": 11,
+      "source": "稼ぎから、どうにか…。",
+      "target": "我的收入勉强维持…"
+    },
+    {
+      "offset": 11900,
+      "kind": "line",
+      "limit": 9,
+      "source": "…なるほど。",
+      "target": "…原来如此。"
+    },
+    {
+      "offset": 11918,
+      "kind": "line",
+      "limit": 9,
+      "source": "そんなに苦しい状態",
+      "target": "你们的生活原来"
+    },
+    {
+      "offset": 11942,
+      "kind": "line",
+      "limit": 9,
+      "source": "だったんですか…。",
+      "target": "如此艰难…"
+    },
+    {
+      "offset": 11966,
+      "kind": "line",
+      "limit": 10,
+      "source": "それなのに、あなたに",
+      "target": "可即便如此，她也"
+    },
+    {
+      "offset": 11992,
+      "kind": "line",
+      "limit": 10,
+      "source": "父親の悪口は決して",
+      "target": "从不说您父亲的"
+    },
+    {
+      "offset": 12016,
+      "kind": "line",
+      "limit": 10,
+      "source": "言わなかったとは…",
+      "target": "坏话…"
+    },
+    {
+      "offset": 12040,
+      "kind": "line",
+      "limit": 7,
+      "source": "立派なお母さん",
+      "target": "您母亲真是一位"
+    },
+    {
+      "offset": 12060,
+      "kind": "line",
+      "limit": 7,
+      "source": "なんですね。",
+      "target": "了不起的人。"
+    },
+    {
+      "offset": 12080,
+      "kind": "line",
+      "limit": 9,
+      "source": "はい。",
+      "target": "是。"
+    },
+    {
+      "offset": 12092,
+      "kind": "line",
+      "limit": 9,
+      "source": "私もそう思います。",
+      "target": "我也这么认为。"
+    },
+    {
+      "offset": 12116,
+      "kind": "line",
+      "limit": 11,
+      "source": "そうでなかったらきっと",
+      "target": "要不是有她，我恐怕"
+    },
+    {
+      "offset": 12144,
+      "kind": "line",
+      "limit": 11,
+      "source": "父を憎むあまり、何を",
+      "target": "早已恨透父亲，不知会"
+    },
+    {
+      "offset": 12170,
+      "kind": "line",
+      "limit": 11,
+      "source": "してたかわかりません。",
+      "target": "做出什么事。"
+    },
+    {
+      "offset": 12198,
+      "kind": "line",
+      "limit": 11,
+      "source": "母は、何があろうと父の",
+      "target": "不论发生什么，母亲都"
+    },
+    {
+      "offset": 12226,
+      "kind": "line",
+      "limit": 11,
+      "source": "ことを信じ、そして",
+      "target": "相信父亲，而且"
+    },
+    {
+      "offset": 12250,
+      "kind": "line",
+      "limit": 11,
+      "source": "今も貫いているんです。",
+      "target": "直到现在依然如此。"
+    },
+    {
+      "offset": 12300,
+      "kind": "line",
+      "limit": 3,
+      "source": "ふむ。",
+      "target": "唔。"
+    },
+    {
+      "offset": 12314,
+      "kind": "line",
+      "limit": 9,
+      "source": "でも私から見れば…",
+      "target": "可在我看来…"
+    },
+    {
+      "offset": 12338,
+      "kind": "line",
+      "limit": 10,
+      "source": "どうしてあんな父と",
+      "target": "她为什么会和那种"
+    },
+    {
+      "offset": 12362,
+      "kind": "line",
+      "limit": 10,
+      "source": "結婚なんてしたのか、",
+      "target": "父亲结婚，我实在"
+    },
+    {
+      "offset": 12388,
+      "kind": "line",
+      "limit": 10,
+      "source": "わかりません。",
+      "target": "无法理解。"
+    },
+    {
+      "offset": 12415,
+      "kind": "line",
+      "limit": 10,
+      "source": "それだけ父の家庭への",
+      "target": "父亲对这个家所做的"
+    },
+    {
+      "offset": 12441,
+      "kind": "line",
+      "limit": 10,
+      "source": "仕打ちは、ひどいもの",
+      "target": "一切，就是如此"
+    },
+    {
+      "offset": 12467,
+      "kind": "line",
+      "limit": 10,
+      "source": "でした。",
+      "target": "过分。"
+    },
+    {
+      "offset": 12483,
+      "kind": "line",
+      "limit": 7,
+      "source": "そうですか…。",
+      "target": "这样啊…"
+    },
+    {
+      "offset": 12520,
+      "kind": "line",
+      "limit": 8,
+      "source": "今回のことでは、",
+      "target": "关于这次的事，"
+    },
+    {
+      "offset": 12542,
+      "kind": "line",
+      "limit": 8,
+      "source": "お母さんは何か",
+      "target": "您母亲说过"
+    },
+    {
+      "offset": 12562,
+      "kind": "line",
+      "limit": 8,
+      "source": "言ってましたか？",
+      "target": "什么吗？"
+    },
+    {
+      "offset": 12586,
+      "kind": "line",
+      "limit": 3,
+      "source": "母は…",
+      "target": "母亲…"
+    },
+    {
+      "offset": 12600,
+      "kind": "line",
+      "limit": 11,
+      "source": "あの人にはこうしないと",
+      "target": "那个人一定有不得不"
+    },
+    {
+      "offset": 12628,
+      "kind": "line",
+      "limit": 11,
+      "source": "ならない事情が必ず",
+      "target": "这样做的理由，"
+    },
+    {
+      "offset": 12652,
+      "kind": "line",
+      "limit": 11,
+      "source": "あるはずだから…と。",
+      "target": "所以…"
+    },
+    {
+      "offset": 12686,
+      "kind": "line",
+      "limit": 9,
+      "source": "だから、見逃せと？",
+      "target": "所以要放过他？"
+    },
+    {
+      "offset": 12712,
+      "kind": "line",
+      "limit": 9,
+      "source": "はい。",
+      "target": "是。"
+    },
+    {
+      "offset": 12726,
+      "kind": "line",
+      "limit": 9,
+      "source": "今は黙って、信じて",
+      "target": "现在先别声张，"
+    },
+    {
+      "offset": 12750,
+      "kind": "line",
+      "limit": 9,
+      "source": "待ちましょう…と。",
+      "target": "相信他，等下去…"
+    },
+    {
+      "offset": 12782,
+      "kind": "line",
+      "limit": 4,
+      "source": "ふむ…。",
+      "target": "唔…"
+    },
+    {
+      "offset": 12798,
+      "kind": "line",
+      "limit": 9,
+      "source": "ただそれも、何年も",
+      "target": "可这番话从好几年前"
+    },
+    {
+      "offset": 12822,
+      "kind": "line",
+      "limit": 9,
+      "source": "前からずっと言われ",
+      "target": "开始，她就一直"
+    },
+    {
+      "offset": 12846,
+      "kind": "line",
+      "limit": 9,
+      "source": "続けてきたことで…",
+      "target": "在对我说…"
+    },
+    {
+      "offset": 12870,
+      "kind": "line",
+      "limit": 11,
+      "source": "さすがに腑に落ちない",
+      "target": "所以我也开始觉得"
+    },
+    {
+      "offset": 12912,
+      "kind": "line",
+      "limit": 11,
+      "source": "ものを感じていました。",
+      "target": "无法接受。"
+    },
+    {
+      "offset": 12952,
+      "kind": "line",
+      "limit": 11,
+      "source": "そうですよね、そこまで",
+      "target": "也是啊，这么多年来"
+    },
+    {
+      "offset": 12980,
+      "kind": "line",
+      "limit": 11,
+      "source": "何年もずっとじゃ…。",
+      "target": "始终如此…"
+    },
+    {
+      "offset": 13008,
+      "kind": "line",
+      "limit": 11,
+      "source": "以前に一度、そのことで",
+      "target": "以前有一次，我曾"
+    },
+    {
+      "offset": 13036,
+      "kind": "line",
+      "limit": 11,
+      "source": "母を問いつめたことが",
+      "target": "就这件事追问过"
+    },
+    {
+      "offset": 13062,
+      "kind": "line",
+      "limit": 11,
+      "source": "あるんです。",
+      "target": "母亲。"
+    },
+    {
+      "offset": 13080,
+      "kind": "line",
+      "limit": 10,
+      "source": "どうしてあんな父を",
+      "target": "为什么还能相信"
+    },
+    {
+      "offset": 13104,
+      "kind": "line",
+      "limit": 10,
+      "source": "信じて待っていられる",
+      "target": "那种父亲，一直"
+    },
+    {
+      "offset": 13130,
+      "kind": "line",
+      "limit": 10,
+      "source": "んだ…って。",
+      "target": "等着他…"
+    },
+    {
+      "offset": 13167,
+      "kind": "line",
+      "limit": 8,
+      "source": "そしたら、何と？",
+      "target": "她怎么回答？"
+    },
+    {
+      "offset": 13191,
+      "kind": "line",
+      "limit": 11,
+      "source": "母はただ、自分がこの人",
+      "target": "母亲只说，自己选定了他",
+      "runs": [
+        "母亲只说，",
+        "自己选定了他"
+      ],
+      "emphasis": [
+        {
+          "colour": null,
+          "text": "母はただ、"
+        },
+        {
+          "colour": 2,
+          "text": "自分がこの人"
+        }
+      ]
+    },
+    {
+      "offset": 13226,
+      "kind": "line",
+      "limit": 11,
+      "source": "だと決めた相手だから、",
+      "target": "既然是选定的人，"
+    },
+    {
+      "offset": 13254,
+      "kind": "line",
+      "limit": 11,
+      "source": "信じているだけだ…と。",
+      "target": "便只管相信他…"
+    },
+    {
+      "offset": 13290,
+      "kind": "line",
+      "limit": 9,
+      "source": "決めた相手だから…",
+      "target": "因为是自己认定的"
+    },
+    {
+      "offset": 13314,
+      "kind": "line",
+      "limit": 9,
+      "source": "ですか。",
+      "target": "人…吗。"
+    },
+    {
+      "offset": 13330,
+      "kind": "line",
+      "limit": 4,
+      "source": "…はい。",
+      "target": "…是。"
+    },
+    {
+      "offset": 13346,
+      "kind": "line",
+      "limit": 9,
+      "source": "自分が決めた相手を",
+      "target": "如果不相信自己"
+    },
+    {
+      "offset": 13370,
+      "kind": "line",
+      "limit": 9,
+      "source": "信じないのは…",
+      "target": "选定的人…"
+    },
+    {
+      "offset": 13393,
+      "kind": "line",
+      "limit": 11,
+      "source": "自分自身を信じないのと",
+      "target": "就等于不相信"
+    },
+    {
+      "offset": 13421,
+      "kind": "line",
+      "limit": 11,
+      "source": "同じことだ、と。",
+      "target": "自己。"
+    },
+    {
+      "offset": 13451,
+      "kind": "line",
+      "limit": 11,
+      "source": "こんな信用できないもの",
+      "target": "世上到处都是这种"
+    },
+    {
+      "offset": 13479,
+      "kind": "line",
+      "limit": 11,
+      "source": "ばかりの世の中だから…",
+      "target": "无法信任的事物…"
+    },
+    {
+      "offset": 13519,
+      "kind": "line",
+      "limit": 11,
+      "source": "暁も、自分自身と、",
+      "target": "所以晓也要相信"
+    },
+    {
+      "offset": 13549,
+      "kind": "line",
+      "limit": 11,
+      "source": "自分の決めた相手くらい",
+      "target": "自己和自己选定的"
+    },
+    {
+      "offset": 13577,
+      "kind": "line",
+      "limit": 11,
+      "source": "信じ貫いて生きなさい…",
+      "target": "人，坚信不移地活下去…"
+    },
+    {
+      "offset": 13631,
+      "kind": "line",
+      "limit": 7,
+      "source": "そんなふうに",
+      "target": "她就是这样"
+    },
+    {
+      "offset": 13649,
+      "kind": "line",
+      "limit": 7,
+      "source": "言われました。",
+      "target": "教导我的。"
+    },
+    {
+      "offset": 13671,
+      "kind": "line",
+      "limit": 11,
+      "source": "なるほど…。",
+      "target": "原来如此…"
+    },
+    {
+      "offset": 13689,
+      "kind": "line",
+      "limit": 11,
+      "source": "いいことを言いますね。",
+      "target": "说得真好。"
+    },
+    {
+      "offset": 13719,
+      "kind": "line",
+      "limit": 9,
+      "source": "はい、説教をされた",
+      "target": "是，听起来像是"
+    },
+    {
+      "offset": 13743,
+      "kind": "line",
+      "limit": 9,
+      "source": "気分でした。",
+      "target": "被她教训了。"
+    },
+    {
+      "offset": 13761,
+      "kind": "line",
+      "limit": 11,
+      "source": "…なので母は、本当に",
+      "target": "…所以母亲好像对"
+    },
+    {
+      "offset": 13787,
+      "kind": "line",
+      "limit": 11,
+      "source": "父のことは何も知らない",
+      "target": "父亲的事真的"
+    },
+    {
+      "offset": 13815,
+      "kind": "line",
+      "limit": 11,
+      "source": "ようですし…",
+      "target": "一无所知…"
+    },
+    {
+      "offset": 13833,
+      "kind": "line",
+      "limit": 11,
+      "source": "信じているので、詳しく",
+      "target": "她又相信父亲，"
+    },
+    {
+      "offset": 13861,
+      "kind": "line",
+      "limit": 11,
+      "source": "聞きもしないでいる",
+      "target": "所以似乎从不细问"
+    },
+    {
+      "offset": 13885,
+      "kind": "line",
+      "limit": 11,
+      "source": "らしいんです。",
+      "target": "他的事。"
+    },
+    {
+      "offset": 13914,
+      "kind": "line",
+      "limit": 11,
+      "source": "芯の強い人なんですね。",
+      "target": "她是一位内心坚强的人。"
+    },
+    {
+      "offset": 13950,
+      "kind": "line",
+      "limit": 5,
+      "source": "ですが…。",
+      "target": "可是…"
+    },
+    {
+      "offset": 13966,
+      "kind": "line",
+      "limit": 9,
+      "source": "今までは母を立てて",
+      "target": "过去我一直尊重"
+    },
+    {
+      "offset": 13990,
+      "kind": "line",
+      "limit": 9,
+      "source": "きましたが、もう",
+      "target": "母亲的意思，可我"
+    },
+    {
+      "offset": 14012,
+      "kind": "line",
+      "limit": 9,
+      "source": "我慢も限界です。",
+      "target": "已经忍无可忍。"
+    },
+    {
+      "offset": 14034,
+      "kind": "line",
+      "limit": 8,
+      "source": "今度ばかりは、",
+      "target": "唯独这一次，"
+    },
+    {
+      "offset": 14054,
+      "kind": "line",
+      "limit": 8,
+      "source": "父を許せません。",
+      "target": "我不能原谅父亲。"
+    },
+    {
+      "offset": 14076,
+      "kind": "line",
+      "limit": 11,
+      "source": "私も母を信じて待つのが",
+      "target": "或许我也该相信母亲，"
+    },
+    {
+      "offset": 14104,
+      "kind": "line",
+      "limit": 11,
+      "source": "良いのでしょうけど…",
+      "target": "耐心等下去…"
+    },
+    {
+      "offset": 14130,
+      "kind": "line",
+      "limit": 11,
+      "source": "あのお金は、どうしても",
+      "target": "可是那笔钱，我现在"
+    },
+    {
+      "offset": 14158,
+      "kind": "line",
+      "limit": 11,
+      "source": "今必要なものなんです。",
+      "target": "无论如何都需要。"
+    },
+    {
+      "offset": 14186,
+      "kind": "line",
+      "limit": 9,
+      "source": "…なので、こうして",
+      "target": "…所以我才来到"
+    },
+    {
+      "offset": 14210,
+      "kind": "line",
+      "limit": 9,
+      "source": "相談に来たんです。",
+      "target": "这里咨询。"
+    },
+    {
+      "offset": 14236,
+      "kind": "line",
+      "limit": 9,
+      "source": "なるほど。",
+      "target": "原来如此。"
+    },
+    {
+      "offset": 14252,
+      "kind": "line",
+      "limit": 9,
+      "source": "よくわかりました。",
+      "target": "我都明白了。"
+    },
+    {
+      "offset": 14293,
+      "kind": "line",
+      "limit": 11,
+      "source": "私も母を信じて待つのが",
+      "target": "或许我也该相信母亲，"
+    },
+    {
+      "offset": 14321,
+      "kind": "line",
+      "limit": 11,
+      "source": "良いのでしょうけど…",
+      "target": "耐心等下去…"
+    },
+    {
+      "offset": 14347,
+      "kind": "line",
+      "limit": 11,
+      "source": "あのお金は、どうしても",
+      "target": "可是那笔钱，我现在"
+    },
+    {
+      "offset": 14375,
+      "kind": "line",
+      "limit": 11,
+      "source": "今必要なものなんです。",
+      "target": "无论如何都需要。"
+    },
+    {
+      "offset": 14417,
+      "kind": "line",
+      "limit": 10,
+      "source": "ところで、あの…",
+      "target": "对了，那个…"
+    },
+    {
+      "offset": 14439,
+      "kind": "line",
+      "limit": 10,
+      "source": "さっきの女の子は",
+      "target": "刚才那个女孩"
+    },
+    {
+      "offset": 14461,
+      "kind": "line",
+      "limit": 10,
+      "source": "ここの関係者ですか？",
+      "target": "和这里有关吗？"
+    },
+    {
+      "offset": 14489,
+      "kind": "line",
+      "limit": 8,
+      "source": "気になりますか？",
+      "target": "您很在意她？"
+    },
+    {
+      "offset": 14513,
+      "kind": "line",
+      "limit": 11,
+      "source": "いや、そういうわけじゃ",
+      "target": "不，我不是那个"
+    },
+    {
+      "offset": 14541,
+      "kind": "line",
+      "limit": 11,
+      "source": "ありませんけど…",
+      "target": "意思…"
+    },
+    {
+      "offset": 14563,
+      "kind": "line",
+      "limit": 9,
+      "source": "あの、ずいぶん若い",
+      "target": "只是觉得她看起来"
+    },
+    {
+      "offset": 14587,
+      "kind": "line",
+      "limit": 9,
+      "source": "印象だったもので。",
+      "target": "非常年轻。"
+    },
+    {
+      "offset": 14623,
+      "kind": "line",
+      "limit": 10,
+      "source": "彼女、あれでも僕より",
+      "target": "别看她那样，好像"
+    },
+    {
+      "offset": 14649,
+      "kind": "line",
+      "limit": 10,
+      "source": "年上みたいですよ。",
+      "target": "比我还年长。"
+    },
+    {
+      "offset": 14675,
+      "kind": "line",
+      "limit": 9,
+      "source": "ええっ、",
+      "target": "咦，"
+    },
+    {
+      "offset": 14689,
+      "kind": "line",
+      "limit": 9,
+      "source": "そうなんですか!?",
+      "target": "真的吗！？"
+    },
+    {
+      "offset": 14723,
+      "kind": "line",
+      "limit": 10,
+      "source": "どうやら複雑な事情を",
+      "target": "她似乎有着很复杂的"
+    },
+    {
+      "offset": 14749,
+      "kind": "line",
+      "limit": 10,
+      "source": "抱えてるようです。",
+      "target": "隐情。"
+    },
+    {
+      "offset": 14775,
+      "kind": "line",
+      "limit": 3,
+      "source": "は…？",
+      "target": "啊…？"
+    },
+    {
+      "offset": 14789,
+      "kind": "line",
+      "limit": 10,
+      "source": "目を離さない方が",
+      "target": "最好别把视线"
+    },
+    {
+      "offset": 14811,
+      "kind": "line",
+      "limit": 10,
+      "source": "いいかもしれないな。",
+      "target": "从她身上移开。"
+    },
+    {
+      "offset": 14839,
+      "kind": "line",
+      "limit": 4,
+      "source": "はあ…。",
+      "target": "哦…"
+    },
+    {
+      "offset": 14874,
+      "kind": "line",
+      "limit": 7,
+      "source": "もう彼女の話は",
+      "target": "那个女孩的事"
+    },
+    {
+      "offset": 14894,
+      "kind": "line",
+      "limit": 7,
+      "source": "いいでしょう。",
+      "target": "先放一边吧。"
+    },
+    {
+      "offset": 14914,
+      "kind": "line",
+      "limit": 9,
+      "source": "依頼の話を聞かせて",
+      "target": "能继续说说您的"
+    },
+    {
+      "offset": 14938,
+      "kind": "line",
+      "limit": 9,
+      "source": "いただけませんか。",
+      "target": "委托吗？"
+    },
+    {
+      "offset": 14982,
+      "kind": "line",
+      "limit": 10,
+      "source": "お父さんが勤めていた",
+      "target": "您知道父亲工作的"
+    },
+    {
+      "offset": 15008,
+      "kind": "line",
+      "limit": 10,
+      "source": "という工場がどこだか",
+      "target": "那家工厂在什么"
+    },
+    {
+      "offset": 15034,
+      "kind": "line",
+      "limit": 10,
+      "source": "わかりますか？",
+      "target": "地方吗？"
+    },
+    {
+      "offset": 15056,
+      "kind": "line",
+      "limit": 9,
+      "source": "ええと…確か小さな",
+      "target": "呃…记得是间小型"
+    },
+    {
+      "offset": 15093,
+      "kind": "line",
+      "limit": 9,
+      "source": "町工場で、名前が…",
+      "target": "小工厂，名字是…"
+    },
+    {
+      "offset": 15123,
+      "kind": "line",
+      "limit": 9,
+      "source": "…そうだ、有限会社",
+      "target": "…对了，是有限公司",
+      "runs": [
+        "…对了，是",
+        "有限公司"
+      ],
+      "emphasis": [
+        {
+          "colour": null,
+          "text": "…そうだ、"
+        },
+        {
+          "colour": 2,
+          "text": "有限会社"
+        }
+      ]
+    },
+    {
+      "offset": 15154,
+      "kind": "line",
+      "limit": 9,
+      "source": "クレフ製作所という",
+      "target": "克雷夫制作所"
+    },
+    {
+      "offset": 15184,
+      "kind": "line",
+      "limit": 9,
+      "source": "ところらしいです。",
+      "target": "这家公司。"
+    },
+    {
+      "offset": 15210,
+      "kind": "line",
+      "limit": 11,
+      "source": "クレフ製作所…ですね。",
+      "target": "克雷夫制作所…对吧。"
+    },
+    {
+      "offset": 15238,
+      "kind": "line",
+      "limit": 11,
+      "source": "わかりました。",
+      "target": "我知道了。"
+    },
+    {
+      "offset": 15260,
+      "kind": "line",
+      "limit": 11,
+      "source": "ただ、本当にそんな",
+      "target": "不过，我甚至有些怀疑"
+    },
+    {
+      "offset": 15284,
+      "kind": "line",
+      "limit": 11,
+      "source": "工場があるのかも",
+      "target": "是否真有这么一家"
+    },
+    {
+      "offset": 15306,
+      "kind": "line",
+      "limit": 11,
+      "source": "疑わしい気がしますが…",
+      "target": "工厂…"
+    },
+    {
+      "offset": 15346,
+      "kind": "line",
+      "limit": 9,
+      "source": "そのあたりも含め、",
+      "target": "连这件事一起，"
+    },
+    {
+      "offset": 15370,
+      "kind": "line",
+      "limit": 9,
+      "source": "まずは調べてみま",
+      "target": "我们先调查"
+    },
+    {
+      "offset": 15392,
+      "kind": "line",
+      "limit": 9,
+      "source": "しょうか。",
+      "target": "看看吧。"
+    },
+    {
+      "offset": 15410,
+      "kind": "line",
+      "limit": 8,
+      "source": "そうですか。",
+      "target": "这样啊。"
+    },
+    {
+      "offset": 15428,
+      "kind": "line",
+      "limit": 8,
+      "source": "…お願いします。",
+      "target": "…拜托您了。"
+    },
+    {
+      "offset": 15471,
+      "kind": "line",
+      "limit": 11,
+      "source": "父の勤めていたという",
+      "target": "父亲工作过的"
+    },
+    {
+      "offset": 15510,
+      "kind": "line",
+      "limit": 11,
+      "source": "町工場はクレフ製作所と",
+      "target": "小工厂名叫克雷夫制作所",
+      "runs": [
+        "小工厂名叫",
+        "克雷夫制作所"
+      ],
+      "emphasis": [
+        {
+          "colour": null,
+          "text": "町工場は"
+        },
+        {
+          "colour": 2,
+          "text": "クレフ製作所と"
+        }
+      ]
+    },
+    {
+      "offset": 15557,
+      "kind": "line",
+      "limit": 11,
+      "source": "いうところです。",
+      "target": "就是这家厂。"
+    },
+    {
+      "offset": 15602,
+      "kind": "line",
+      "limit": 11,
+      "source": "交際相手は森慧美という",
+      "target": "交往对象是森慧美，",
+      "runs": [
+        "交往对象是",
+        "森慧美，"
+      ],
+      "emphasis": [
+        {
+          "colour": null,
+          "text": "交際相手は"
+        },
+        {
+          "colour": 2,
+          "text": "森慧美という"
+        }
+      ]
+    },
+    {
+      "offset": 15666,
+      "kind": "line",
+      "limit": 11,
+      "source": "女性で、３ヶ月前に",
+      "target": "我们三个月前"
+    },
+    {
+      "offset": 15690,
+      "kind": "line",
+      "limit": 11,
+      "source": "知り合いました。",
+      "target": "相识。"
+    },
+    {
+      "offset": 15712,
+      "kind": "line",
+      "limit": 10,
+      "source": "美人でよく気の付く、",
+      "target": "她美丽又体贴，"
+    },
+    {
+      "offset": 15738,
+      "kind": "line",
+      "limit": 10,
+      "source": "とても素晴らしい",
+      "target": "是位非常出色的"
+    },
+    {
+      "offset": 15760,
+      "kind": "line",
+      "limit": 10,
+      "source": "女性なんです。",
+      "target": "女性。"
+    },
+    {
+      "offset": 15780,
+      "kind": "line",
+      "limit": 9,
+      "source": "…あ、これが彼女の",
+      "target": "…对了，这是她的"
+    },
+    {
+      "offset": 15804,
+      "kind": "line",
+      "limit": 9,
+      "source": "写真です。",
+      "target": "照片。"
+    },
+    {
+      "offset": 15832,
+      "kind": "line",
+      "limit": 10,
+      "source": "…へえ、これは確かに",
+      "target": "…哦，她确实是位"
+    },
+    {
+      "offset": 15867,
+      "kind": "line",
+      "limit": 10,
+      "source": "綺麗な方ですね。",
+      "target": "美女。"
+    },
+    {
+      "offset": 15897,
+      "kind": "line",
+      "limit": 11,
+      "source": "あはは、そう言われると",
+      "target": "哈哈，被您这么说，"
+    },
+    {
+      "offset": 15925,
+      "kind": "line",
+      "limit": 11,
+      "source": "私が照れちゃいますね。",
+      "target": "我都有些不好意思了。"
+    },
+    {
+      "offset": 15953,
+      "kind": "line",
+      "limit": 9,
+      "source": "ええ、もう、",
+      "target": "是啊，她可是"
+    },
+    {
+      "offset": 15971,
+      "kind": "line",
+      "limit": 9,
+      "source": "自慢の恋人ですよ。",
+      "target": "我引以为豪的恋人。"
+    },
+    {
+      "offset": 16007,
+      "kind": "line",
+      "limit": 10,
+      "source": "知り合って３ヶ月で、",
+      "target": "相识才三个月，"
+    },
+    {
+      "offset": 16033,
+      "kind": "line",
+      "limit": 10,
+      "source": "もう結婚の話になって",
+      "target": "就已经谈到"
+    },
+    {
+      "offset": 16059,
+      "kind": "line",
+      "limit": 10,
+      "source": "るんですね。",
+      "target": "结婚了啊。"
+    },
+    {
+      "offset": 16079,
+      "kind": "line",
+      "limit": 10,
+      "source": "はい、そうなんです。",
+      "target": "是，正是如此。"
+    },
+    {
+      "offset": 16105,
+      "kind": "line",
+      "limit": 11,
+      "source": "私も元々こういう家庭で",
+      "target": "我本来就在这样的"
+    },
+    {
+      "offset": 16133,
+      "kind": "line",
+      "limit": 11,
+      "source": "育ったんで、早く自分の",
+      "target": "家庭中长大，所以想"
+    },
+    {
+      "offset": 16161,
+      "kind": "line",
+      "limit": 11,
+      "source": "家庭を持ちたいんです。",
+      "target": "尽快拥有自己的家。"
+    },
+    {
+      "offset": 16189,
+      "kind": "line",
+      "limit": 10,
+      "source": "言わば、父に対する",
+      "target": "可以说是对父亲的"
+    },
+    {
+      "offset": 16213,
+      "kind": "line",
+      "limit": 10,
+      "source": "反発と言うか…一種の",
+      "target": "反抗…或者说是"
+    },
+    {
+      "offset": 16239,
+      "kind": "line",
+      "limit": 10,
+      "source": "意地、みたいな…。",
+      "target": "一种赌气吧…"
+    },
+    {
+      "offset": 16265,
+      "kind": "line",
+      "limit": 9,
+      "source": "なるほど、自分は",
+      "target": "原来如此，你想"
+    },
+    {
+      "offset": 16287,
+      "kind": "line",
+      "limit": 9,
+      "source": "キチンとした家庭を",
+      "target": "建立一个健全的"
+    },
+    {
+      "offset": 16318,
+      "kind": "line",
+      "limit": 9,
+      "source": "築くんだぞ、と。",
+      "target": "家庭。"
+    },
+    {
+      "offset": 16348,
+      "kind": "line",
+      "limit": 11,
+      "source": "はい、そんな感じです。",
+      "target": "是，差不多就是这样。"
+    },
+    {
+      "offset": 16376,
+      "kind": "line",
+      "limit": 11,
+      "source": "彼女も結婚願望が強くて",
+      "target": "她也很想结婚，"
+    },
+    {
+      "offset": 16404,
+      "kind": "line",
+      "limit": 11,
+      "source": "結婚の話は早くから",
+      "target": "所以我们很早就"
+    },
+    {
+      "offset": 16428,
+      "kind": "line",
+      "limit": 11,
+      "source": "していました。",
+      "target": "谈过这件事。"
+    },
+    {
+      "offset": 16455,
+      "kind": "line",
+      "limit": 10,
+      "source": "で、そろそろ具体的な",
+      "target": "正当我们准备开始"
+    },
+    {
+      "offset": 16481,
+      "kind": "line",
+      "limit": 10,
+      "source": "話をしていこうという",
+      "target": "讨论具体安排"
+    },
+    {
+      "offset": 16507,
+      "kind": "line",
+      "limit": 10,
+      "source": "頃だったんですが…",
+      "target": "的时候…"
+    },
+    {
+      "offset": 16531,
+      "kind": "line",
+      "limit": 11,
+      "source": "実は最近、彼女の両親が",
+      "target": "其实最近，她的父母"
+    },
+    {
+      "offset": 16559,
+      "kind": "line",
+      "limit": 11,
+      "source": "経営していた洋品店が",
+      "target": "经营的服装店"
+    },
+    {
+      "offset": 16592,
+      "kind": "line",
+      "limit": 11,
+      "source": "潰れてしまったらしく…",
+      "target": "似乎倒闭了…"
+    },
+    {
+      "offset": 16628,
+      "kind": "line",
+      "limit": 11,
+      "source": "多額の借金だけが残って",
+      "target": "只留下了一大笔"
+    },
+    {
+      "offset": 16662,
+      "kind": "line",
+      "limit": 11,
+      "source": "しまったそうなんです。",
+      "target": "债务。"
+    },
+    {
+      "offset": 16692,
+      "kind": "line",
+      "limit": 9,
+      "source": "うわ…、それはまた",
+      "target": "啊…这可真是"
+    },
+    {
+      "offset": 16716,
+      "kind": "line",
+      "limit": 9,
+      "source": "なんとも不運な…。",
+      "target": "太不幸了…"
+    },
+    {
+      "offset": 16742,
+      "kind": "line",
+      "limit": 11,
+      "source": "家がそんな状態だったら",
+      "target": "家里变成这种状况，"
+    },
+    {
+      "offset": 16770,
+      "kind": "line",
+      "limit": 11,
+      "source": "娘の結婚どころじゃない",
+      "target": "自然顾不上女儿结婚"
+    }
+  ]
+}

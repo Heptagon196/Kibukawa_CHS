@@ -1,0 +1,1885 @@
+{
+  "schema": 1,
+  "game": "kibu8",
+  "addressing": "asset_file + serialized_file + path_id + exact UTF-8 source guard; byte_offset is UTF-8 payload relative to object; length_prefix_offset is signed little-endian int32 length; serialized_byte_offset is inside decompressed SerializedFile, never outer compressed bundle offset",
+  "scan_inventory": "research/ui-scan/inventory.json",
+  "entries": [
+    {
+      "asset_file": "kibu8_Data/level0",
+      "serialized_file": "level0",
+      "path_id": 135,
+      "object_byte_start": 16184,
+      "byte_offset": 132,
+      "length_prefix_offset": 128,
+      "serialized_byte_offset": 16316,
+      "script_class": "Text",
+      "game_object_name": "AutoSave(Text)",
+      "fields": [
+        "m_Text"
+      ],
+      "field_evidence": "inferred from identical bundled prefab layout; stripped type tree",
+      "source_text": "本ゲームはオートセーブに対応しておりません。\r\n終了する際は、ゲーム内のセーブ機能をご利用ください。",
+      "classification": "existing_localization_duplicate",
+      "target_text": "本游戏不支持自动存档。\r\n退出时，请使用游戏内的存档功能。",
+      "note": "独立序列化副本；译文与已有 localization 一致。是否需运行时回退由构建层处理。"
+    },
+    {
+      "asset_file": "kibu8_Data/resources.assets",
+      "serialized_file": "resources.assets",
+      "path_id": 1900,
+      "object_byte_start": 3844720,
+      "byte_offset": 60,
+      "length_prefix_offset": 56,
+      "serialized_byte_offset": 3844780,
+      "script_class": "TitleDataModel",
+      "game_object_name": null,
+      "fields": [
+        "titleData.tilteName"
+      ],
+      "field_evidence": "inferred from identical bundled prefab layout; stripped type tree",
+      "source_text": "探偵・癸生川凌介事件譚\r\nVol.8「仮面幻影殺人事件」",
+      "classification": "player_ui_serialized",
+      "target_text": "侦探·癸生川凌介事件谭\r\n第八作《假面幻影杀人事件》",
+      "note": "可显示的 Text 或 TitleDataModel 字段；未操作窗口确认具体可达场景。"
+    },
+    {
+      "asset_file": "kibu8_Data/resources.assets",
+      "serialized_file": "resources.assets",
+      "path_id": 1900,
+      "object_byte_start": 3844720,
+      "byte_offset": 136,
+      "length_prefix_offset": 132,
+      "serialized_byte_offset": 3844856,
+      "script_class": "TitleDataModel",
+      "game_object_name": null,
+      "fields": [
+        "titleData.aboutGame"
+      ],
+      "field_evidence": "inferred from identical bundled prefab layout; stripped type tree",
+      "source_text": "ジャンル：推理アドベンチャー\r\n幻影に抱かれ、私は仮面をかぶる…\r\n仮想世界と現実世界で絡み合う、謎の連続殺人事件。",
+      "classification": "player_ui_serialized",
+      "target_text": "类型：推理冒险\r\n幻影将我拥入怀中，我戴上了假面……\r\n虚拟世界与现实世界相互交织的神秘连环杀人案。",
+      "note": "可显示的 Text 或 TitleDataModel 字段；未操作窗口确认具体可达场景。"
+    },
+    {
+      "asset_file": "kibu8_Data/resources.assets",
+      "serialized_file": "resources.assets",
+      "path_id": 1909,
+      "object_byte_start": 3879944,
+      "byte_offset": 132,
+      "length_prefix_offset": 128,
+      "serialized_byte_offset": 3880076,
+      "script_class": "Text",
+      "game_object_name": "KeyName01(Text)",
+      "fields": [
+        "m_Text"
+      ],
+      "field_evidence": "inferred from identical bundled prefab layout; stripped type tree",
+      "source_text": "ボタン名",
+      "classification": "excluded_template",
+      "target_text": null,
+      "note": "默认占位内容：按钮名/说明字数样例/样例玩家/动态排行榜标题/游戏简介或标题模板，不能作为实际游戏文本替换。"
+    },
+    {
+      "asset_file": "kibu8_Data/resources.assets",
+      "serialized_file": "resources.assets",
+      "path_id": 1937,
+      "object_byte_start": 3882984,
+      "byte_offset": 132,
+      "length_prefix_offset": 128,
+      "serialized_byte_offset": 3883116,
+      "script_class": "Text",
+      "game_object_name": "Label(Text)",
+      "fields": [
+        "m_Text"
+      ],
+      "field_evidence": "inferred from identical bundled prefab layout; stripped type tree",
+      "source_text": "ウィンドウ設定",
+      "classification": "player_ui_serialized",
+      "target_text": "窗口设置",
+      "note": "可显示的 Text 或 TitleDataModel 字段；未操作窗口确认具体可达场景。"
+    },
+    {
+      "asset_file": "kibu8_Data/resources.assets",
+      "serialized_file": "resources.assets",
+      "path_id": 1943,
+      "object_byte_start": 3883568,
+      "byte_offset": 132,
+      "length_prefix_offset": 128,
+      "serialized_byte_offset": 3883700,
+      "script_class": "Text",
+      "game_object_name": "KeyDetail(Text)",
+      "fields": [
+        "m_Text"
+      ],
+      "field_evidence": "inferred from identical bundled prefab layout; stripped type tree",
+      "source_text": "説明１６字６７８９０１２３４５６",
+      "classification": "excluded_template",
+      "target_text": null,
+      "note": "默认占位内容：按钮名/说明字数样例/样例玩家/动态排行榜标题/游戏简介或标题模板，不能作为实际游戏文本替换。"
+    },
+    {
+      "asset_file": "kibu8_Data/resources.assets",
+      "serialized_file": "resources.assets",
+      "path_id": 1971,
+      "object_byte_start": 3886336,
+      "byte_offset": 132,
+      "length_prefix_offset": 128,
+      "serialized_byte_offset": 3886468,
+      "script_class": "Text",
+      "game_object_name": "Label(Text)",
+      "fields": [
+        "m_Text"
+      ],
+      "field_evidence": "inferred from identical bundled prefab layout; stripped type tree",
+      "source_text": "フルスクリーン",
+      "classification": "existing_assembly_duplicate",
+      "target_text": "全屏",
+      "note": "独立序列化副本；已有托管字面量相同，不增加新的术语。"
+    },
+    {
+      "asset_file": "kibu8_Data/resources.assets",
+      "serialized_file": "resources.assets",
+      "path_id": 1998,
+      "object_byte_start": 3889328,
+      "byte_offset": 132,
+      "length_prefix_offset": 128,
+      "serialized_byte_offset": 3889460,
+      "script_class": "Text",
+      "game_object_name": "PlayerName(Text)",
+      "fields": [
+        "m_Text"
+      ],
+      "field_evidence": "inferred from identical bundled prefab layout; stripped type tree",
+      "source_text": "１プライヤー名",
+      "classification": "excluded_template",
+      "target_text": null,
+      "note": "默认占位内容：按钮名/说明字数样例/样例玩家/动态排行榜标题/游戏简介或标题模板，不能作为实际游戏文本替换。"
+    },
+    {
+      "asset_file": "kibu8_Data/resources.assets",
+      "serialized_file": "resources.assets",
+      "path_id": 2055,
+      "object_byte_start": 3895312,
+      "byte_offset": 132,
+      "length_prefix_offset": 128,
+      "serialized_byte_offset": 3895444,
+      "script_class": "Text",
+      "game_object_name": "RankingTitle(Text)",
+      "fields": [
+        "m_Text"
+      ],
+      "field_evidence": "inferred from identical bundled prefab layout; stripped type tree",
+      "source_text": "ランキング名",
+      "classification": "excluded_template",
+      "target_text": null,
+      "note": "默认占位内容：按钮名/说明字数样例/样例玩家/动态排行榜标题/游戏简介或标题模板，不能作为实际游戏文本替换。"
+    },
+    {
+      "asset_file": "kibu8_Data/resources.assets",
+      "serialized_file": "resources.assets",
+      "path_id": 2056,
+      "object_byte_start": 3895464,
+      "byte_offset": 132,
+      "length_prefix_offset": 128,
+      "serialized_byte_offset": 3895596,
+      "script_class": "Text",
+      "game_object_name": "Message(Text)",
+      "fields": [
+        "m_Text"
+      ],
+      "field_evidence": "inferred from identical bundled prefab layout; stripped type tree",
+      "source_text": "入力して下さい",
+      "classification": "player_ui_serialized",
+      "target_text": "请输入",
+      "note": "可显示的 Text 或 TitleDataModel 字段；未操作窗口确认具体可达场景。"
+    },
+    {
+      "asset_file": "kibu8_Data/resources.assets",
+      "serialized_file": "resources.assets",
+      "path_id": 2078,
+      "object_byte_start": 3897528,
+      "byte_offset": 132,
+      "length_prefix_offset": 128,
+      "serialized_byte_offset": 3897660,
+      "script_class": "Text",
+      "game_object_name": "KeyName01(Text)",
+      "fields": [
+        "m_Text"
+      ],
+      "field_evidence": "inferred from identical bundled prefab layout; stripped type tree",
+      "source_text": "ボタン名",
+      "classification": "excluded_template",
+      "target_text": null,
+      "note": "默认占位内容：按钮名/说明字数样例/样例玩家/动态排行榜标题/游戏简介或标题模板，不能作为实际游戏文本替换。"
+    },
+    {
+      "asset_file": "kibu8_Data/resources.assets",
+      "serialized_file": "resources.assets",
+      "path_id": 2095,
+      "object_byte_start": 3899856,
+      "byte_offset": 132,
+      "length_prefix_offset": 128,
+      "serialized_byte_offset": 3899988,
+      "script_class": "Text",
+      "game_object_name": "KeyDetail(Text)",
+      "fields": [
+        "m_Text"
+      ],
+      "field_evidence": "inferred from identical bundled prefab layout; stripped type tree",
+      "source_text": "説明１６字６７８９０１２３４５６",
+      "classification": "excluded_template",
+      "target_text": null,
+      "note": "默认占位内容：按钮名/说明字数样例/样例玩家/动态排行榜标题/游戏简介或标题模板，不能作为实际游戏文本替换。"
+    },
+    {
+      "asset_file": "kibu8_Data/resources.assets",
+      "serialized_file": "resources.assets",
+      "path_id": 2099,
+      "object_byte_start": 3900576,
+      "byte_offset": 132,
+      "length_prefix_offset": 128,
+      "serialized_byte_offset": 3900708,
+      "script_class": "Text",
+      "game_object_name": "KeyName01(Text)",
+      "fields": [
+        "m_Text"
+      ],
+      "field_evidence": "inferred from identical bundled prefab layout; stripped type tree",
+      "source_text": "ボタン名",
+      "classification": "excluded_template",
+      "target_text": null,
+      "note": "默认占位内容：按钮名/说明字数样例/样例玩家/动态排行榜标题/游戏简介或标题模板，不能作为实际游戏文本替换。"
+    },
+    {
+      "asset_file": "kibu8_Data/resources.assets",
+      "serialized_file": "resources.assets",
+      "path_id": 2111,
+      "object_byte_start": 3901624,
+      "byte_offset": 132,
+      "length_prefix_offset": 128,
+      "serialized_byte_offset": 3901756,
+      "script_class": "Text",
+      "game_object_name": "Text",
+      "fields": [
+        "m_Text"
+      ],
+      "field_evidence": "inferred from identical bundled prefab layout; stripped type tree",
+      "source_text": "セーブデータクリア",
+      "classification": "excluded_debug_ui",
+      "target_text": null,
+      "note": "debugmenu 预制体中的调试控件；resources.assets 为对应副本，不列入玩家界面译文。"
+    },
+    {
+      "asset_file": "kibu8_Data/resources.assets",
+      "serialized_file": "resources.assets",
+      "path_id": 2141,
+      "object_byte_start": 3904616,
+      "byte_offset": 132,
+      "length_prefix_offset": 128,
+      "serialized_byte_offset": 3904748,
+      "script_class": "Text",
+      "game_object_name": "DialogTitle(Text)",
+      "fields": [
+        "m_Text"
+      ],
+      "field_evidence": "inferred from identical bundled prefab layout; stripped type tree",
+      "source_text": "操作説明",
+      "classification": "player_ui_serialized",
+      "target_text": "操作说明",
+      "note": "可显示的 Text 或 TitleDataModel 字段；未操作窗口确认具体可达场景。"
+    },
+    {
+      "asset_file": "kibu8_Data/resources.assets",
+      "serialized_file": "resources.assets",
+      "path_id": 2184,
+      "object_byte_start": 3909560,
+      "byte_offset": 132,
+      "length_prefix_offset": 128,
+      "serialized_byte_offset": 3909692,
+      "script_class": "Text",
+      "game_object_name": "Label(Text)",
+      "fields": [
+        "m_Text"
+      ],
+      "field_evidence": "inferred from identical bundled prefab layout; stripped type tree",
+      "source_text": "前編をプレイ",
+      "classification": "player_ui_serialized",
+      "target_text": "开始前篇",
+      "note": "可显示的 Text 或 TitleDataModel 字段；未操作窗口确认具体可达场景。"
+    },
+    {
+      "asset_file": "kibu8_Data/resources.assets",
+      "serialized_file": "resources.assets",
+      "path_id": 2204,
+      "object_byte_start": 3911752,
+      "byte_offset": 132,
+      "length_prefix_offset": 128,
+      "serialized_byte_offset": 3911884,
+      "script_class": "Text",
+      "game_object_name": "ListName(Text) ",
+      "fields": [
+        "m_Text"
+      ],
+      "field_evidence": "inferred from identical bundled prefab layout; stripped type tree",
+      "source_text": "プレイヤー名",
+      "classification": "player_ui_serialized",
+      "target_text": "玩家名称",
+      "note": "可显示的 Text 或 TitleDataModel 字段；未操作窗口确认具体可达场景。"
+    },
+    {
+      "asset_file": "kibu8_Data/resources.assets",
+      "serialized_file": "resources.assets",
+      "path_id": 2227,
+      "object_byte_start": 3914504,
+      "byte_offset": 132,
+      "length_prefix_offset": 128,
+      "serialized_byte_offset": 3914636,
+      "script_class": "Text",
+      "game_object_name": "KeyDetail(Text)",
+      "fields": [
+        "m_Text"
+      ],
+      "field_evidence": "inferred from identical bundled prefab layout; stripped type tree",
+      "source_text": "説明１６字６７８９０１２３４５６",
+      "classification": "excluded_template",
+      "target_text": null,
+      "note": "默认占位内容：按钮名/说明字数样例/样例玩家/动态排行榜标题/游戏简介或标题模板，不能作为实际游戏文本替换。"
+    },
+    {
+      "asset_file": "kibu8_Data/resources.assets",
+      "serialized_file": "resources.assets",
+      "path_id": 2230,
+      "object_byte_start": 3914776,
+      "byte_offset": 132,
+      "length_prefix_offset": 128,
+      "serialized_byte_offset": 3914908,
+      "script_class": "Text",
+      "game_object_name": "Label(Text)",
+      "fields": [
+        "m_Text"
+      ],
+      "field_evidence": "inferred from identical bundled prefab layout; stripped type tree",
+      "source_text": "タイムスケール",
+      "classification": "excluded_debug_ui",
+      "target_text": null,
+      "note": "debugmenu 预制体中的调试控件；resources.assets 为对应副本，不列入玩家界面译文。"
+    },
+    {
+      "asset_file": "kibu8_Data/resources.assets",
+      "serialized_file": "resources.assets",
+      "path_id": 2247,
+      "object_byte_start": 3916888,
+      "byte_offset": 132,
+      "length_prefix_offset": 128,
+      "serialized_byte_offset": 3917020,
+      "script_class": "Text",
+      "game_object_name": "GetRanking(Text)",
+      "fields": [
+        "m_Text"
+      ],
+      "field_evidence": "inferred from identical bundled prefab layout; stripped type tree",
+      "source_text": "ランキングを取得する",
+      "classification": "existing_localization_duplicate",
+      "target_text": "获取排行榜",
+      "note": "独立序列化副本；译文与已有 localization 一致。是否需运行时回退由构建层处理。"
+    },
+    {
+      "asset_file": "kibu8_Data/resources.assets",
+      "serialized_file": "resources.assets",
+      "path_id": 2248,
+      "object_byte_start": 3917056,
+      "byte_offset": 132,
+      "length_prefix_offset": 128,
+      "serialized_byte_offset": 3917188,
+      "script_class": "Text",
+      "game_object_name": "KeyName01(Text)",
+      "fields": [
+        "m_Text"
+      ],
+      "field_evidence": "inferred from identical bundled prefab layout; stripped type tree",
+      "source_text": "ボタン名",
+      "classification": "excluded_template",
+      "target_text": null,
+      "note": "默认占位内容：按钮名/说明字数样例/样例玩家/动态排行榜标题/游戏简介或标题模板，不能作为实际游戏文本替换。"
+    },
+    {
+      "asset_file": "kibu8_Data/resources.assets",
+      "serialized_file": "resources.assets",
+      "path_id": 2259,
+      "object_byte_start": 3918864,
+      "byte_offset": 132,
+      "length_prefix_offset": 128,
+      "serialized_byte_offset": 3918996,
+      "script_class": "Text",
+      "game_object_name": "Label(Text)",
+      "fields": [
+        "m_Text"
+      ],
+      "field_evidence": "inferred from identical bundled prefab layout; stripped type tree",
+      "source_text": "はい",
+      "classification": "existing_localization_duplicate",
+      "target_text": "是",
+      "note": "独立序列化副本；译文与已有 localization 一致。是否需运行时回退由构建层处理。"
+    },
+    {
+      "asset_file": "kibu8_Data/resources.assets",
+      "serialized_file": "resources.assets",
+      "path_id": 2270,
+      "object_byte_start": 3920144,
+      "byte_offset": 132,
+      "length_prefix_offset": 128,
+      "serialized_byte_offset": 3920276,
+      "script_class": "Text",
+      "game_object_name": "Title(Text)",
+      "fields": [
+        "m_Text"
+      ],
+      "field_evidence": "inferred from identical bundled prefab layout; stripped type tree",
+      "source_text": "アーカイブスタイトル",
+      "classification": "excluded_template",
+      "target_text": null,
+      "note": "默认占位内容：按钮名/说明字数样例/样例玩家/动态排行榜标题/游戏简介或标题模板，不能作为实际游戏文本替换。"
+    },
+    {
+      "asset_file": "kibu8_Data/resources.assets",
+      "serialized_file": "resources.assets",
+      "path_id": 2277,
+      "object_byte_start": 3921096,
+      "byte_offset": 132,
+      "length_prefix_offset": 128,
+      "serialized_byte_offset": 3921228,
+      "script_class": "Text",
+      "game_object_name": "Label(Text)",
+      "fields": [
+        "m_Text"
+      ],
+      "field_evidence": "inferred from identical bundled prefab layout; stripped type tree",
+      "source_text": "あそびかた",
+      "classification": "existing_localization_duplicate",
+      "target_text": "游戏玩法",
+      "note": "独立序列化副本；译文与已有 localization 一致。是否需运行时回退由构建层处理。"
+    },
+    {
+      "asset_file": "kibu8_Data/resources.assets",
+      "serialized_file": "resources.assets",
+      "path_id": 2284,
+      "object_byte_start": 3922752,
+      "byte_offset": 132,
+      "length_prefix_offset": 128,
+      "serialized_byte_offset": 3922884,
+      "script_class": "Text",
+      "game_object_name": "Label(Text)",
+      "fields": [
+        "m_Text"
+      ],
+      "field_evidence": "inferred from identical bundled prefab layout; stripped type tree",
+      "source_text": "タイトルに戻る",
+      "classification": "existing_localization_duplicate",
+      "target_text": "返回标题画面",
+      "note": "独立序列化副本；译文与已有 localization 一致。是否需运行时回退由构建层处理。"
+    },
+    {
+      "asset_file": "kibu8_Data/resources.assets",
+      "serialized_file": "resources.assets",
+      "path_id": 2287,
+      "object_byte_start": 3923496,
+      "byte_offset": 132,
+      "length_prefix_offset": 128,
+      "serialized_byte_offset": 3923628,
+      "script_class": "Text",
+      "game_object_name": "Label(Text)",
+      "fields": [
+        "m_Text"
+      ],
+      "field_evidence": "inferred from identical bundled prefab layout; stripped type tree",
+      "source_text": "フィルタ",
+      "classification": "existing_localization_duplicate",
+      "target_text": "滤镜",
+      "note": "独立序列化副本；译文与已有 localization 一致。是否需运行时回退由构建层处理。"
+    },
+    {
+      "asset_file": "kibu8_Data/resources.assets",
+      "serialized_file": "resources.assets",
+      "path_id": 2291,
+      "object_byte_start": 3924328,
+      "byte_offset": 132,
+      "length_prefix_offset": 128,
+      "serialized_byte_offset": 3924460,
+      "script_class": "Text",
+      "game_object_name": "Label(Text)",
+      "fields": [
+        "m_Text"
+      ],
+      "field_evidence": "inferred from identical bundled prefab layout; stripped type tree",
+      "source_text": "フレーム",
+      "classification": "existing_localization_duplicate",
+      "target_text": "边框",
+      "note": "独立序列化副本；译文与已有 localization 一致。是否需运行时回退由构建层处理。"
+    },
+    {
+      "asset_file": "kibu8_Data/resources.assets",
+      "serialized_file": "resources.assets",
+      "path_id": 2300,
+      "object_byte_start": 3925640,
+      "byte_offset": 132,
+      "length_prefix_offset": 128,
+      "serialized_byte_offset": 3925772,
+      "script_class": "Text",
+      "game_object_name": "KeyDetail(Text)",
+      "fields": [
+        "m_Text"
+      ],
+      "field_evidence": "inferred from identical bundled prefab layout; stripped type tree",
+      "source_text": "説明１６字６７８９０１２３４５６",
+      "classification": "excluded_template",
+      "target_text": null,
+      "note": "默认占位内容：按钮名/说明字数样例/样例玩家/动态排行榜标题/游戏简介或标题模板，不能作为实际游戏文本替换。"
+    },
+    {
+      "asset_file": "kibu8_Data/resources.assets",
+      "serialized_file": "resources.assets",
+      "path_id": 2335,
+      "object_byte_start": 3929928,
+      "byte_offset": 132,
+      "length_prefix_offset": 128,
+      "serialized_byte_offset": 3930060,
+      "script_class": "Text",
+      "game_object_name": "Label(Text)",
+      "fields": [
+        "m_Text"
+      ],
+      "field_evidence": "inferred from identical bundled prefab layout; stripped type tree",
+      "source_text": "後編をプレイ",
+      "classification": "player_ui_serialized",
+      "target_text": "开始后篇",
+      "note": "可显示的 Text 或 TitleDataModel 字段；未操作窗口确认具体可达场景。"
+    },
+    {
+      "asset_file": "kibu8_Data/resources.assets",
+      "serialized_file": "resources.assets",
+      "path_id": 2339,
+      "object_byte_start": 3930520,
+      "byte_offset": 132,
+      "length_prefix_offset": 128,
+      "serialized_byte_offset": 3930652,
+      "script_class": "Text",
+      "game_object_name": "Label(Text)",
+      "fields": [
+        "m_Text"
+      ],
+      "field_evidence": "inferred from identical bundled prefab layout; stripped type tree",
+      "source_text": "ゲームを終了する",
+      "classification": "player_ui_serialized",
+      "target_text": "退出游戏",
+      "note": "可显示的 Text 或 TitleDataModel 字段；未操作窗口确认具体可达场景。"
+    },
+    {
+      "asset_file": "kibu8_Data/resources.assets",
+      "serialized_file": "resources.assets",
+      "path_id": 2349,
+      "object_byte_start": 3931384,
+      "byte_offset": 132,
+      "length_prefix_offset": 128,
+      "serialized_byte_offset": 3931516,
+      "script_class": "Text",
+      "game_object_name": "KeyName01(Text)",
+      "fields": [
+        "m_Text"
+      ],
+      "field_evidence": "inferred from identical bundled prefab layout; stripped type tree",
+      "source_text": "ボタン名",
+      "classification": "excluded_template",
+      "target_text": null,
+      "note": "默认占位内容：按钮名/说明字数样例/样例玩家/动态排行榜标题/游戏简介或标题模板，不能作为实际游戏文本替换。"
+    },
+    {
+      "asset_file": "kibu8_Data/resources.assets",
+      "serialized_file": "resources.assets",
+      "path_id": 2359,
+      "object_byte_start": 3932216,
+      "byte_offset": 132,
+      "length_prefix_offset": 128,
+      "serialized_byte_offset": 3932348,
+      "script_class": "Text",
+      "game_object_name": "KeyName01(Text)",
+      "fields": [
+        "m_Text"
+      ],
+      "field_evidence": "inferred from identical bundled prefab layout; stripped type tree",
+      "source_text": "ボタン名",
+      "classification": "excluded_template",
+      "target_text": null,
+      "note": "默认占位内容：按钮名/说明字数样例/样例玩家/动态排行榜标题/游戏简介或标题模板，不能作为实际游戏文本替换。"
+    },
+    {
+      "asset_file": "kibu8_Data/resources.assets",
+      "serialized_file": "resources.assets",
+      "path_id": 2374,
+      "object_byte_start": 3933616,
+      "byte_offset": 132,
+      "length_prefix_offset": 128,
+      "serialized_byte_offset": 3933748,
+      "script_class": "Text",
+      "game_object_name": "Label(Text)",
+      "fields": [
+        "m_Text"
+      ],
+      "field_evidence": "inferred from identical bundled prefab layout; stripped type tree",
+      "source_text": "ランキング",
+      "classification": "existing_localization_duplicate",
+      "target_text": "排行榜",
+      "note": "独立序列化副本；译文与已有 localization 一致。是否需运行时回退由构建层处理。"
+    },
+    {
+      "asset_file": "kibu8_Data/resources.assets",
+      "serialized_file": "resources.assets",
+      "path_id": 2388,
+      "object_byte_start": 3935448,
+      "byte_offset": 132,
+      "length_prefix_offset": 128,
+      "serialized_byte_offset": 3935580,
+      "script_class": "Text",
+      "game_object_name": "Label(Text)",
+      "fields": [
+        "m_Text"
+      ],
+      "field_evidence": "inferred from identical bundled prefab layout; stripped type tree",
+      "source_text": "後編をプレイ",
+      "classification": "player_ui_serialized",
+      "target_text": "开始后篇",
+      "note": "可显示的 Text 或 TitleDataModel 字段；未操作窗口确认具体可达场景。"
+    },
+    {
+      "asset_file": "kibu8_Data/resources.assets",
+      "serialized_file": "resources.assets",
+      "path_id": 2389,
+      "object_byte_start": 3935600,
+      "byte_offset": 132,
+      "length_prefix_offset": 128,
+      "serialized_byte_offset": 3935732,
+      "script_class": "Text",
+      "game_object_name": "KeyDetail(Text)",
+      "fields": [
+        "m_Text"
+      ],
+      "field_evidence": "inferred from identical bundled prefab layout; stripped type tree",
+      "source_text": "説明１６字６７８９０１２３４５６",
+      "classification": "excluded_template",
+      "target_text": null,
+      "note": "默认占位内容：按钮名/说明字数样例/样例玩家/动态排行榜标题/游戏简介或标题模板，不能作为实际游戏文本替换。"
+    },
+    {
+      "asset_file": "kibu8_Data/resources.assets",
+      "serialized_file": "resources.assets",
+      "path_id": 2406,
+      "object_byte_start": 3937112,
+      "byte_offset": 132,
+      "length_prefix_offset": 128,
+      "serialized_byte_offset": 3937244,
+      "script_class": "Text",
+      "game_object_name": "Label(Text)",
+      "fields": [
+        "m_Text"
+      ],
+      "field_evidence": "inferred from identical bundled prefab layout; stripped type tree",
+      "source_text": "決定",
+      "classification": "existing_assembly_duplicate",
+      "target_text": "确定",
+      "note": "独立序列化副本；已有托管字面量相同，不增加新的术语。"
+    },
+    {
+      "asset_file": "kibu8_Data/resources.assets",
+      "serialized_file": "resources.assets",
+      "path_id": 2417,
+      "object_byte_start": 3938384,
+      "byte_offset": 132,
+      "length_prefix_offset": 128,
+      "serialized_byte_offset": 3938516,
+      "script_class": "Text",
+      "game_object_name": "Label(Text)",
+      "fields": [
+        "m_Text"
+      ],
+      "field_evidence": "inferred from identical bundled prefab layout; stripped type tree",
+      "source_text": "導入編をプレイ",
+      "classification": "player_ui_serialized",
+      "target_text": "开始序篇",
+      "note": "可显示的 Text 或 TitleDataModel 字段；未操作窗口确认具体可达场景。"
+    },
+    {
+      "asset_file": "kibu8_Data/resources.assets",
+      "serialized_file": "resources.assets",
+      "path_id": 2433,
+      "object_byte_start": 3940184,
+      "byte_offset": 132,
+      "length_prefix_offset": 128,
+      "serialized_byte_offset": 3940316,
+      "script_class": "Text",
+      "game_object_name": "KeyDetail(Text)",
+      "fields": [
+        "m_Text"
+      ],
+      "field_evidence": "inferred from identical bundled prefab layout; stripped type tree",
+      "source_text": "説明１６字６７８９０１２３４５６",
+      "classification": "excluded_template",
+      "target_text": null,
+      "note": "默认占位内容：按钮名/说明字数样例/样例玩家/动态排行榜标题/游戏简介或标题模板，不能作为实际游戏文本替换。"
+    },
+    {
+      "asset_file": "kibu8_Data/resources.assets",
+      "serialized_file": "resources.assets",
+      "path_id": 2513,
+      "object_byte_start": 3949408,
+      "byte_offset": 132,
+      "length_prefix_offset": 128,
+      "serialized_byte_offset": 3949540,
+      "script_class": "Text",
+      "game_object_name": "KeyDetail(Text)",
+      "fields": [
+        "m_Text"
+      ],
+      "field_evidence": "inferred from identical bundled prefab layout; stripped type tree",
+      "source_text": "説明１６字６７８９０１２３４５６",
+      "classification": "excluded_template",
+      "target_text": null,
+      "note": "默认占位内容：按钮名/说明字数样例/样例玩家/动态排行榜标题/游戏简介或标题模板，不能作为实际游戏文本替换。"
+    },
+    {
+      "asset_file": "kibu8_Data/resources.assets",
+      "serialized_file": "resources.assets",
+      "path_id": 2515,
+      "object_byte_start": 3949648,
+      "byte_offset": 132,
+      "length_prefix_offset": 128,
+      "serialized_byte_offset": 3949780,
+      "script_class": "Text",
+      "game_object_name": "KeyDetail(Text)",
+      "fields": [
+        "m_Text"
+      ],
+      "field_evidence": "inferred from identical bundled prefab layout; stripped type tree",
+      "source_text": "説明１６字６７８９０１２３４５６",
+      "classification": "excluded_template",
+      "target_text": null,
+      "note": "默认占位内容：按钮名/说明字数样例/样例玩家/动态排行榜标题/游戏简介或标题模板，不能作为实际游戏文本替换。"
+    },
+    {
+      "asset_file": "kibu8_Data/resources.assets",
+      "serialized_file": "resources.assets",
+      "path_id": 2527,
+      "object_byte_start": 3950992,
+      "byte_offset": 132,
+      "length_prefix_offset": 128,
+      "serialized_byte_offset": 3951124,
+      "script_class": "Text",
+      "game_object_name": "AboutGame(Text)",
+      "fields": [
+        "m_Text"
+      ],
+      "field_evidence": "inferred from identical bundled prefab layout; stripped type tree",
+      "source_text": "リリース：20XX年XX月\r\nジャンル：XXXXXXXゲーム\r\nXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "classification": "excluded_template",
+      "target_text": null,
+      "note": "默认占位内容：按钮名/说明字数样例/样例玩家/动态排行榜标题/游戏简介或标题模板，不能作为实际游戏文本替换。"
+    },
+    {
+      "asset_file": "kibu8_Data/resources.assets",
+      "serialized_file": "resources.assets",
+      "path_id": 2537,
+      "object_byte_start": 3952472,
+      "byte_offset": 132,
+      "length_prefix_offset": 128,
+      "serialized_byte_offset": 3952604,
+      "script_class": "Text",
+      "game_object_name": "AutoSave(Text)",
+      "fields": [
+        "m_Text"
+      ],
+      "field_evidence": "inferred from identical bundled prefab layout; stripped type tree",
+      "source_text": "本ゲームはオートセーブに対応しておりません。\r\n終了する際は、ゲーム内のセーブ機能をご利用ください。",
+      "classification": "existing_localization_duplicate",
+      "target_text": "本游戏不支持自动存档。\r\n退出时，请使用游戏内的存档功能。",
+      "note": "独立序列化副本；译文与已有 localization 一致。是否需运行时回退由构建层处理。"
+    },
+    {
+      "asset_file": "kibu8_Data/resources.assets",
+      "serialized_file": "resources.assets",
+      "path_id": 2540,
+      "object_byte_start": 3952952,
+      "byte_offset": 132,
+      "length_prefix_offset": 128,
+      "serialized_byte_offset": 3953084,
+      "script_class": "Text",
+      "game_object_name": "KeyDetail(Text)",
+      "fields": [
+        "m_Text"
+      ],
+      "field_evidence": "inferred from identical bundled prefab layout; stripped type tree",
+      "source_text": "説明１６字６７８９０１２３４５６",
+      "classification": "excluded_template",
+      "target_text": null,
+      "note": "默认占位内容：按钮名/说明字数样例/样例玩家/动态排行榜标题/游戏简介或标题模板，不能作为实际游戏文本替换。"
+    },
+    {
+      "asset_file": "kibu8_Data/resources.assets",
+      "serialized_file": "resources.assets",
+      "path_id": 2554,
+      "object_byte_start": 3954504,
+      "byte_offset": 132,
+      "length_prefix_offset": 128,
+      "serialized_byte_offset": 3954636,
+      "script_class": "Text",
+      "game_object_name": "KeyName01(Text)",
+      "fields": [
+        "m_Text"
+      ],
+      "field_evidence": "inferred from identical bundled prefab layout; stripped type tree",
+      "source_text": "ボタン名",
+      "classification": "excluded_template",
+      "target_text": null,
+      "note": "默认占位内容：按钮名/说明字数样例/样例玩家/动态排行榜标题/游戏简介或标题模板，不能作为实际游戏文本替换。"
+    },
+    {
+      "asset_file": "kibu8_Data/resources.assets",
+      "serialized_file": "resources.assets",
+      "path_id": 2578,
+      "object_byte_start": 3957568,
+      "byte_offset": 132,
+      "length_prefix_offset": 128,
+      "serialized_byte_offset": 3957700,
+      "script_class": "Text",
+      "game_object_name": "Label(Text)",
+      "fields": [
+        "m_Text"
+      ],
+      "field_evidence": "inferred from identical bundled prefab layout; stripped type tree",
+      "source_text": "導入編をプレイ",
+      "classification": "player_ui_serialized",
+      "target_text": "开始序篇",
+      "note": "可显示的 Text 或 TitleDataModel 字段；未操作窗口确认具体可达场景。"
+    },
+    {
+      "asset_file": "kibu8_Data/resources.assets",
+      "serialized_file": "resources.assets",
+      "path_id": 2596,
+      "object_byte_start": 3959424,
+      "byte_offset": 132,
+      "length_prefix_offset": 128,
+      "serialized_byte_offset": 3959556,
+      "script_class": "Text",
+      "game_object_name": "KeyName01(Text)",
+      "fields": [
+        "m_Text"
+      ],
+      "field_evidence": "inferred from identical bundled prefab layout; stripped type tree",
+      "source_text": "ボタン名",
+      "classification": "excluded_template",
+      "target_text": null,
+      "note": "默认占位内容：按钮名/说明字数样例/样例玩家/动态排行榜标题/游戏简介或标题模板，不能作为实际游戏文本替换。"
+    },
+    {
+      "asset_file": "kibu8_Data/resources.assets",
+      "serialized_file": "resources.assets",
+      "path_id": 2620,
+      "object_byte_start": 3961752,
+      "byte_offset": 132,
+      "length_prefix_offset": 128,
+      "serialized_byte_offset": 3961884,
+      "script_class": "Text",
+      "game_object_name": "Label(Text)",
+      "fields": [
+        "m_Text"
+      ],
+      "field_evidence": "inferred from identical bundled prefab layout; stripped type tree",
+      "source_text": "閉じる",
+      "classification": "existing_localization_duplicate",
+      "target_text": "关闭",
+      "note": "独立序列化副本；译文与已有 localization 一致。是否需运行时回退由构建层处理。"
+    },
+    {
+      "asset_file": "kibu8_Data/resources.assets",
+      "serialized_file": "resources.assets",
+      "path_id": 2639,
+      "object_byte_start": 3963832,
+      "byte_offset": 132,
+      "length_prefix_offset": 128,
+      "serialized_byte_offset": 3963964,
+      "script_class": "Text",
+      "game_object_name": "Label(Text)",
+      "fields": [
+        "m_Text"
+      ],
+      "field_evidence": "inferred from identical bundled prefab layout; stripped type tree",
+      "source_text": "前編をプレイ",
+      "classification": "player_ui_serialized",
+      "target_text": "开始前篇",
+      "note": "可显示的 Text 或 TitleDataModel 字段；未操作窗口确认具体可达场景。"
+    },
+    {
+      "asset_file": "kibu8_Data/resources.assets",
+      "serialized_file": "resources.assets",
+      "path_id": 2645,
+      "object_byte_start": 3964520,
+      "byte_offset": 132,
+      "length_prefix_offset": 128,
+      "serialized_byte_offset": 3964652,
+      "script_class": "Text",
+      "game_object_name": "Label(Text)",
+      "fields": [
+        "m_Text"
+      ],
+      "field_evidence": "inferred from identical bundled prefab layout; stripped type tree",
+      "source_text": "いいえ",
+      "classification": "existing_localization_duplicate",
+      "target_text": "否",
+      "note": "独立序列化副本；译文与已有 localization 一致。是否需运行时回退由构建层处理。"
+    },
+    {
+      "asset_file": "kibu8_Data/resources.assets",
+      "serialized_file": "resources.assets",
+      "path_id": 2655,
+      "object_byte_start": 3966328,
+      "byte_offset": 132,
+      "length_prefix_offset": 128,
+      "serialized_byte_offset": 3966460,
+      "script_class": "Text",
+      "game_object_name": "KeyName01(Text)",
+      "fields": [
+        "m_Text"
+      ],
+      "field_evidence": "inferred from identical bundled prefab layout; stripped type tree",
+      "source_text": "ボタン名",
+      "classification": "excluded_template",
+      "target_text": null,
+      "note": "默认占位内容：按钮名/说明字数样例/样例玩家/动态排行榜标题/游戏简介或标题模板，不能作为实际游戏文本替换。"
+    },
+    {
+      "asset_file": "kibu8_Data/resources.assets",
+      "serialized_file": "resources.assets",
+      "path_id": 2658,
+      "object_byte_start": 3966744,
+      "byte_offset": 132,
+      "length_prefix_offset": 128,
+      "serialized_byte_offset": 3966876,
+      "script_class": "Text",
+      "game_object_name": "DialogSubTitle(Text)",
+      "fields": [
+        "m_Text"
+      ],
+      "field_evidence": "inferred from identical bundled prefab layout; stripped type tree",
+      "source_text": "＜ゲーム画面＞",
+      "classification": "player_ui_serialized",
+      "target_text": "＜游戏画面＞",
+      "note": "可显示的 Text 或 TitleDataModel 字段；未操作窗口确认具体可达场景。"
+    },
+    {
+      "asset_file": "kibu8_Data/StreamingAssets/prefab/appliarchive",
+      "serialized_file": "CAB-652414950741834c3fd6b50c50c2a25e",
+      "path_id": 5695021365385870228,
+      "object_byte_start": 5643544,
+      "byte_offset": 132,
+      "length_prefix_offset": 128,
+      "serialized_byte_offset": 5643676,
+      "script_class": "Text",
+      "game_object_name": "AutoSave(Text)",
+      "fields": [
+        "m_Text"
+      ],
+      "source_text": "本ゲームはオートセーブに対応しておりません。\r\n終了する際は、ゲーム内のセーブ機能をご利用ください。",
+      "classification": "existing_localization_duplicate",
+      "target_text": "本游戏不支持自动存档。\r\n退出时，请使用游戏内的存档功能。",
+      "note": "独立序列化副本；译文与已有 localization 一致。是否需运行时回退由构建层处理。"
+    },
+    {
+      "asset_file": "kibu8_Data/StreamingAssets/prefab/characterinput",
+      "serialized_file": "CAB-fe3b07fa4f7b2f7a9770b515d2054c23",
+      "path_id": -8478574590543501365,
+      "object_byte_start": 89440,
+      "byte_offset": 132,
+      "length_prefix_offset": 128,
+      "serialized_byte_offset": 89572,
+      "script_class": "Text",
+      "game_object_name": "Label(Text)",
+      "fields": [
+        "m_Text"
+      ],
+      "source_text": "決定",
+      "classification": "existing_assembly_duplicate",
+      "target_text": "确定",
+      "note": "独立序列化副本；已有托管字面量相同，不增加新的术语。"
+    },
+    {
+      "asset_file": "kibu8_Data/StreamingAssets/prefab/characterinput",
+      "serialized_file": "CAB-fe3b07fa4f7b2f7a9770b515d2054c23",
+      "path_id": -3684327433370328028,
+      "object_byte_start": 96872,
+      "byte_offset": 132,
+      "length_prefix_offset": 128,
+      "serialized_byte_offset": 97004,
+      "script_class": "Text",
+      "game_object_name": "Message(Text)",
+      "fields": [
+        "m_Text"
+      ],
+      "source_text": "入力して下さい",
+      "classification": "player_ui_serialized",
+      "target_text": "请输入",
+      "note": "可显示的 Text 或 TitleDataModel 字段；未操作窗口确认具体可达场景。"
+    },
+    {
+      "asset_file": "kibu8_Data/StreamingAssets/prefab/debugmenu",
+      "serialized_file": "CAB-bf4d86a924e671def981d1d111e3073b",
+      "path_id": -2767511036770453348,
+      "object_byte_start": 37488,
+      "byte_offset": 132,
+      "length_prefix_offset": 128,
+      "serialized_byte_offset": 37620,
+      "script_class": "Text",
+      "game_object_name": "Text",
+      "fields": [
+        "m_Text"
+      ],
+      "source_text": "セーブデータクリア",
+      "classification": "excluded_debug_ui",
+      "target_text": null,
+      "note": "debugmenu 预制体中的调试控件；resources.assets 为对应副本，不列入玩家界面译文。"
+    },
+    {
+      "asset_file": "kibu8_Data/StreamingAssets/prefab/debugmenu",
+      "serialized_file": "CAB-bf4d86a924e671def981d1d111e3073b",
+      "path_id": 1655895465069479446,
+      "object_byte_start": 41872,
+      "byte_offset": 132,
+      "length_prefix_offset": 128,
+      "serialized_byte_offset": 42004,
+      "script_class": "Text",
+      "game_object_name": "Label(Text)",
+      "fields": [
+        "m_Text"
+      ],
+      "source_text": "タイムスケール",
+      "classification": "excluded_debug_ui",
+      "target_text": null,
+      "note": "debugmenu 预制体中的调试控件；resources.assets 为对应副本，不列入玩家界面译文。"
+    },
+    {
+      "asset_file": "kibu8_Data/StreamingAssets/prefab/dialogcommon",
+      "serialized_file": "CAB-fb7eade525a30b6d047bf66a57fbb87a",
+      "path_id": 4547170711099306885,
+      "object_byte_start": 5417000,
+      "byte_offset": 132,
+      "length_prefix_offset": 128,
+      "serialized_byte_offset": 5417132,
+      "script_class": "Text",
+      "game_object_name": "Label(Text)",
+      "fields": [
+        "m_Text"
+      ],
+      "source_text": "はい",
+      "classification": "existing_localization_duplicate",
+      "target_text": "是",
+      "note": "独立序列化副本；译文与已有 localization 一致。是否需运行时回退由构建层处理。"
+    },
+    {
+      "asset_file": "kibu8_Data/StreamingAssets/prefab/dialogcommon",
+      "serialized_file": "CAB-fb7eade525a30b6d047bf66a57fbb87a",
+      "path_id": 8613410861694739278,
+      "object_byte_start": 5427104,
+      "byte_offset": 132,
+      "length_prefix_offset": 128,
+      "serialized_byte_offset": 5427236,
+      "script_class": "Text",
+      "game_object_name": "Label(Text)",
+      "fields": [
+        "m_Text"
+      ],
+      "source_text": "いいえ",
+      "classification": "existing_localization_duplicate",
+      "target_text": "否",
+      "note": "独立序列化副本；译文与已有 localization 一致。是否需运行时回退由构建层处理。"
+    },
+    {
+      "asset_file": "kibu8_Data/StreamingAssets/prefab/howtoplay",
+      "serialized_file": "CAB-e3757e80cf8b417b1173abe6726d1dab",
+      "path_id": -8895864421939800363,
+      "object_byte_start": 51272,
+      "byte_offset": 132,
+      "length_prefix_offset": 128,
+      "serialized_byte_offset": 51404,
+      "script_class": "Text",
+      "game_object_name": "DialogSubTitle(Text)",
+      "fields": [
+        "m_Text"
+      ],
+      "source_text": "＜ゲーム画面＞",
+      "classification": "player_ui_serialized",
+      "target_text": "＜游戏画面＞",
+      "note": "可显示的 Text 或 TitleDataModel 字段；未操作窗口确认具体可达场景。"
+    },
+    {
+      "asset_file": "kibu8_Data/StreamingAssets/prefab/howtoplay",
+      "serialized_file": "CAB-e3757e80cf8b417b1173abe6726d1dab",
+      "path_id": -5482321752351124916,
+      "object_byte_start": 61304,
+      "byte_offset": 132,
+      "length_prefix_offset": 128,
+      "serialized_byte_offset": 61436,
+      "script_class": "Text",
+      "game_object_name": "KeyName01(Text)",
+      "fields": [
+        "m_Text"
+      ],
+      "source_text": "ボタン名",
+      "classification": "excluded_template",
+      "target_text": null,
+      "note": "默认占位内容：按钮名/说明字数样例/样例玩家/动态排行榜标题/游戏简介或标题模板，不能作为实际游戏文本替换。"
+    },
+    {
+      "asset_file": "kibu8_Data/StreamingAssets/prefab/howtoplay",
+      "serialized_file": "CAB-e3757e80cf8b417b1173abe6726d1dab",
+      "path_id": -3486574843017822929,
+      "object_byte_start": 79696,
+      "byte_offset": 132,
+      "length_prefix_offset": 128,
+      "serialized_byte_offset": 79828,
+      "script_class": "Text",
+      "game_object_name": "KeyDetail(Text)",
+      "fields": [
+        "m_Text"
+      ],
+      "source_text": "説明１６字６７８９０１２３４５６",
+      "classification": "excluded_template",
+      "target_text": null,
+      "note": "默认占位内容：按钮名/说明字数样例/样例玩家/动态排行榜标题/游戏简介或标题模板，不能作为实际游戏文本替换。"
+    },
+    {
+      "asset_file": "kibu8_Data/StreamingAssets/prefab/howtoplay",
+      "serialized_file": "CAB-e3757e80cf8b417b1173abe6726d1dab",
+      "path_id": -2332477748818397068,
+      "object_byte_start": 119424,
+      "byte_offset": 132,
+      "length_prefix_offset": 128,
+      "serialized_byte_offset": 119556,
+      "script_class": "Text",
+      "game_object_name": "KeyName01(Text)",
+      "fields": [
+        "m_Text"
+      ],
+      "source_text": "ボタン名",
+      "classification": "excluded_template",
+      "target_text": null,
+      "note": "默认占位内容：按钮名/说明字数样例/样例玩家/动态排行榜标题/游戏简介或标题模板，不能作为实际游戏文本替换。"
+    },
+    {
+      "asset_file": "kibu8_Data/StreamingAssets/prefab/howtoplay",
+      "serialized_file": "CAB-e3757e80cf8b417b1173abe6726d1dab",
+      "path_id": -2014348387397545756,
+      "object_byte_start": 120160,
+      "byte_offset": 132,
+      "length_prefix_offset": 128,
+      "serialized_byte_offset": 120292,
+      "script_class": "Text",
+      "game_object_name": "KeyDetail(Text)",
+      "fields": [
+        "m_Text"
+      ],
+      "source_text": "説明１６字６７８９０１２３４５６",
+      "classification": "excluded_template",
+      "target_text": null,
+      "note": "默认占位内容：按钮名/说明字数样例/样例玩家/动态排行榜标题/游戏简介或标题模板，不能作为实际游戏文本替换。"
+    },
+    {
+      "asset_file": "kibu8_Data/StreamingAssets/prefab/howtoplay",
+      "serialized_file": "CAB-e3757e80cf8b417b1173abe6726d1dab",
+      "path_id": -1950801429505489325,
+      "object_byte_start": 120416,
+      "byte_offset": 132,
+      "length_prefix_offset": 128,
+      "serialized_byte_offset": 120548,
+      "script_class": "Text",
+      "game_object_name": "KeyName01(Text)",
+      "fields": [
+        "m_Text"
+      ],
+      "source_text": "ボタン名",
+      "classification": "excluded_template",
+      "target_text": null,
+      "note": "默认占位内容：按钮名/说明字数样例/样例玩家/动态排行榜标题/游戏简介或标题模板，不能作为实际游戏文本替换。"
+    },
+    {
+      "asset_file": "kibu8_Data/StreamingAssets/prefab/howtoplay",
+      "serialized_file": "CAB-e3757e80cf8b417b1173abe6726d1dab",
+      "path_id": -345098765654231487,
+      "object_byte_start": 125192,
+      "byte_offset": 132,
+      "length_prefix_offset": 128,
+      "serialized_byte_offset": 125324,
+      "script_class": "Text",
+      "game_object_name": "KeyDetail(Text)",
+      "fields": [
+        "m_Text"
+      ],
+      "source_text": "説明１６字６７８９０１２３４５６",
+      "classification": "excluded_template",
+      "target_text": null,
+      "note": "默认占位内容：按钮名/说明字数样例/样例玩家/动态排行榜标题/游戏简介或标题模板，不能作为实际游戏文本替换。"
+    },
+    {
+      "asset_file": "kibu8_Data/StreamingAssets/prefab/howtoplay",
+      "serialized_file": "CAB-e3757e80cf8b417b1173abe6726d1dab",
+      "path_id": 230859893157096036,
+      "object_byte_start": 132120,
+      "byte_offset": 132,
+      "length_prefix_offset": 128,
+      "serialized_byte_offset": 132252,
+      "script_class": "Text",
+      "game_object_name": "KeyDetail(Text)",
+      "fields": [
+        "m_Text"
+      ],
+      "source_text": "説明１６字６７８９０１２３４５６",
+      "classification": "excluded_template",
+      "target_text": null,
+      "note": "默认占位内容：按钮名/说明字数样例/样例玩家/动态排行榜标题/游戏简介或标题模板，不能作为实际游戏文本替换。"
+    },
+    {
+      "asset_file": "kibu8_Data/StreamingAssets/prefab/howtoplay",
+      "serialized_file": "CAB-e3757e80cf8b417b1173abe6726d1dab",
+      "path_id": 699989804891366738,
+      "object_byte_start": 132416,
+      "byte_offset": 132,
+      "length_prefix_offset": 128,
+      "serialized_byte_offset": 132548,
+      "script_class": "Text",
+      "game_object_name": "KeyName01(Text)",
+      "fields": [
+        "m_Text"
+      ],
+      "source_text": "ボタン名",
+      "classification": "excluded_template",
+      "target_text": null,
+      "note": "默认占位内容：按钮名/说明字数样例/样例玩家/动态排行榜标题/游戏简介或标题模板，不能作为实际游戏文本替换。"
+    },
+    {
+      "asset_file": "kibu8_Data/StreamingAssets/prefab/howtoplay",
+      "serialized_file": "CAB-e3757e80cf8b417b1173abe6726d1dab",
+      "path_id": 1711084364150166552,
+      "object_byte_start": 137648,
+      "byte_offset": 132,
+      "length_prefix_offset": 128,
+      "serialized_byte_offset": 137780,
+      "script_class": "Text",
+      "game_object_name": "DialogTitle(Text)",
+      "fields": [
+        "m_Text"
+      ],
+      "source_text": "操作説明",
+      "classification": "player_ui_serialized",
+      "target_text": "操作说明",
+      "note": "可显示的 Text 或 TitleDataModel 字段；未操作窗口确认具体可达场景。"
+    },
+    {
+      "asset_file": "kibu8_Data/StreamingAssets/prefab/howtoplay",
+      "serialized_file": "CAB-e3757e80cf8b417b1173abe6726d1dab",
+      "path_id": 2600218472014137504,
+      "object_byte_start": 140368,
+      "byte_offset": 132,
+      "length_prefix_offset": 128,
+      "serialized_byte_offset": 140500,
+      "script_class": "Text",
+      "game_object_name": "KeyDetail(Text)",
+      "fields": [
+        "m_Text"
+      ],
+      "source_text": "説明１６字６７８９０１２３４５６",
+      "classification": "excluded_template",
+      "target_text": null,
+      "note": "默认占位内容：按钮名/说明字数样例/样例玩家/动态排行榜标题/游戏简介或标题模板，不能作为实际游戏文本替换。"
+    },
+    {
+      "asset_file": "kibu8_Data/StreamingAssets/prefab/howtoplay",
+      "serialized_file": "CAB-e3757e80cf8b417b1173abe6726d1dab",
+      "path_id": 3388531595412388202,
+      "object_byte_start": 141592,
+      "byte_offset": 132,
+      "length_prefix_offset": 128,
+      "serialized_byte_offset": 141724,
+      "script_class": "Text",
+      "game_object_name": "KeyDetail(Text)",
+      "fields": [
+        "m_Text"
+      ],
+      "source_text": "説明１６字６７８９０１２３４５６",
+      "classification": "excluded_template",
+      "target_text": null,
+      "note": "默认占位内容：按钮名/说明字数样例/样例玩家/动态排行榜标题/游戏简介或标题模板，不能作为实际游戏文本替换。"
+    },
+    {
+      "asset_file": "kibu8_Data/StreamingAssets/prefab/howtoplay",
+      "serialized_file": "CAB-e3757e80cf8b417b1173abe6726d1dab",
+      "path_id": 4714628615588949106,
+      "object_byte_start": 3818064,
+      "byte_offset": 132,
+      "length_prefix_offset": 128,
+      "serialized_byte_offset": 3818196,
+      "script_class": "Text",
+      "game_object_name": "KeyDetail(Text)",
+      "fields": [
+        "m_Text"
+      ],
+      "source_text": "説明１６字６７８９０１２３４５６",
+      "classification": "excluded_template",
+      "target_text": null,
+      "note": "默认占位内容：按钮名/说明字数样例/样例玩家/动态排行榜标题/游戏简介或标题模板，不能作为实际游戏文本替换。"
+    },
+    {
+      "asset_file": "kibu8_Data/StreamingAssets/prefab/howtoplay",
+      "serialized_file": "CAB-e3757e80cf8b417b1173abe6726d1dab",
+      "path_id": 5162356265525361090,
+      "object_byte_start": 3819648,
+      "byte_offset": 132,
+      "length_prefix_offset": 128,
+      "serialized_byte_offset": 3819780,
+      "script_class": "Text",
+      "game_object_name": "KeyName01(Text)",
+      "fields": [
+        "m_Text"
+      ],
+      "source_text": "ボタン名",
+      "classification": "excluded_template",
+      "target_text": null,
+      "note": "默认占位内容：按钮名/说明字数样例/样例玩家/动态排行榜标题/游戏简介或标题模板，不能作为实际游戏文本替换。"
+    },
+    {
+      "asset_file": "kibu8_Data/StreamingAssets/prefab/howtoplay",
+      "serialized_file": "CAB-e3757e80cf8b417b1173abe6726d1dab",
+      "path_id": 5219351021291052407,
+      "object_byte_start": 3819792,
+      "byte_offset": 132,
+      "length_prefix_offset": 128,
+      "serialized_byte_offset": 3819924,
+      "script_class": "Text",
+      "game_object_name": "KeyName01(Text)",
+      "fields": [
+        "m_Text"
+      ],
+      "source_text": "ボタン名",
+      "classification": "excluded_template",
+      "target_text": null,
+      "note": "默认占位内容：按钮名/说明字数样例/样例玩家/动态排行榜标题/游戏简介或标题模板，不能作为实际游戏文本替换。"
+    },
+    {
+      "asset_file": "kibu8_Data/StreamingAssets/prefab/howtoplay",
+      "serialized_file": "CAB-e3757e80cf8b417b1173abe6726d1dab",
+      "path_id": 5286491661312998138,
+      "object_byte_start": 3819936,
+      "byte_offset": 132,
+      "length_prefix_offset": 128,
+      "serialized_byte_offset": 3820068,
+      "script_class": "Text",
+      "game_object_name": "KeyName01(Text)",
+      "fields": [
+        "m_Text"
+      ],
+      "source_text": "ボタン名",
+      "classification": "excluded_template",
+      "target_text": null,
+      "note": "默认占位内容：按钮名/说明字数样例/样例玩家/动态排行榜标题/游戏简介或标题模板，不能作为实际游戏文本替换。"
+    },
+    {
+      "asset_file": "kibu8_Data/StreamingAssets/prefab/howtoplay",
+      "serialized_file": "CAB-e3757e80cf8b417b1173abe6726d1dab",
+      "path_id": 5604128720435555489,
+      "object_byte_start": 3820832,
+      "byte_offset": 132,
+      "length_prefix_offset": 128,
+      "serialized_byte_offset": 3820964,
+      "script_class": "Text",
+      "game_object_name": "KeyName01(Text)",
+      "fields": [
+        "m_Text"
+      ],
+      "source_text": "ボタン名",
+      "classification": "excluded_template",
+      "target_text": null,
+      "note": "默认占位内容：按钮名/说明字数样例/样例玩家/动态排行榜标题/游戏简介或标题模板，不能作为实际游戏文本替换。"
+    },
+    {
+      "asset_file": "kibu8_Data/StreamingAssets/prefab/howtoplay",
+      "serialized_file": "CAB-e3757e80cf8b417b1173abe6726d1dab",
+      "path_id": 6438006245125513116,
+      "object_byte_start": 3822304,
+      "byte_offset": 132,
+      "length_prefix_offset": 128,
+      "serialized_byte_offset": 3822436,
+      "script_class": "Text",
+      "game_object_name": "KeyDetail(Text)",
+      "fields": [
+        "m_Text"
+      ],
+      "source_text": "説明１６字６７８９０１２３４５６",
+      "classification": "excluded_template",
+      "target_text": null,
+      "note": "默认占位内容：按钮名/说明字数样例/样例玩家/动态排行榜标题/游戏简介或标题模板，不能作为实际游戏文本替换。"
+    },
+    {
+      "asset_file": "kibu8_Data/StreamingAssets/prefab/howtoplay",
+      "serialized_file": "CAB-e3757e80cf8b417b1173abe6726d1dab",
+      "path_id": 7927662044010650791,
+      "object_byte_start": 3838648,
+      "byte_offset": 132,
+      "length_prefix_offset": 128,
+      "serialized_byte_offset": 3838780,
+      "script_class": "Text",
+      "game_object_name": "KeyDetail(Text)",
+      "fields": [
+        "m_Text"
+      ],
+      "source_text": "説明１６字６７８９０１２３４５６",
+      "classification": "excluded_template",
+      "target_text": null,
+      "note": "默认占位内容：按钮名/说明字数样例/样例玩家/动态排行榜标题/游戏简介或标题模板，不能作为实际游戏文本替换。"
+    },
+    {
+      "asset_file": "kibu8_Data/StreamingAssets/prefab/howtoplay",
+      "serialized_file": "CAB-e3757e80cf8b417b1173abe6726d1dab",
+      "path_id": 8818132833340580271,
+      "object_byte_start": 3840288,
+      "byte_offset": 132,
+      "length_prefix_offset": 128,
+      "serialized_byte_offset": 3840420,
+      "script_class": "Text",
+      "game_object_name": "KeyName01(Text)",
+      "fields": [
+        "m_Text"
+      ],
+      "source_text": "ボタン名",
+      "classification": "excluded_template",
+      "target_text": null,
+      "note": "默认占位内容：按钮名/说明字数样例/样例玩家/动态排行榜标题/游戏简介或标题模板，不能作为实际游戏文本替换。"
+    },
+    {
+      "asset_file": "kibu8_Data/StreamingAssets/prefab/ranking",
+      "serialized_file": "CAB-c7fa42ebbbb04fdd35420beab4c182e1",
+      "path_id": -8448997471937278061,
+      "object_byte_start": 66224,
+      "byte_offset": 132,
+      "length_prefix_offset": 128,
+      "serialized_byte_offset": 66356,
+      "script_class": "Text",
+      "game_object_name": "RankingTitle(Text)",
+      "fields": [
+        "m_Text"
+      ],
+      "source_text": "ランキング名",
+      "classification": "excluded_template",
+      "target_text": null,
+      "note": "默认占位内容：按钮名/说明字数样例/样例玩家/动态排行榜标题/游戏简介或标题模板，不能作为实际游戏文本替换。"
+    },
+    {
+      "asset_file": "kibu8_Data/StreamingAssets/prefab/ranking",
+      "serialized_file": "CAB-c7fa42ebbbb04fdd35420beab4c182e1",
+      "path_id": -4554840038117330623,
+      "object_byte_start": 74288,
+      "byte_offset": 132,
+      "length_prefix_offset": 128,
+      "serialized_byte_offset": 74420,
+      "script_class": "Text",
+      "game_object_name": "PlayerName(Text)",
+      "fields": [
+        "m_Text"
+      ],
+      "source_text": "１プライヤー名",
+      "classification": "excluded_template",
+      "target_text": null,
+      "note": "默认占位内容：按钮名/说明字数样例/样例玩家/动态排行榜标题/游戏简介或标题模板，不能作为实际游戏文本替换。"
+    },
+    {
+      "asset_file": "kibu8_Data/StreamingAssets/prefab/ranking",
+      "serialized_file": "CAB-c7fa42ebbbb04fdd35420beab4c182e1",
+      "path_id": -4430843436246271825,
+      "object_byte_start": 75888,
+      "byte_offset": 132,
+      "length_prefix_offset": 128,
+      "serialized_byte_offset": 76020,
+      "script_class": "Text",
+      "game_object_name": "ListName(Text) ",
+      "fields": [
+        "m_Text"
+      ],
+      "source_text": "プレイヤー名",
+      "classification": "player_ui_serialized",
+      "target_text": "玩家名称",
+      "note": "可显示的 Text 或 TitleDataModel 字段；未操作窗口确认具体可达场景。"
+    },
+    {
+      "asset_file": "kibu8_Data/StreamingAssets/prefab/ranking",
+      "serialized_file": "CAB-c7fa42ebbbb04fdd35420beab4c182e1",
+      "path_id": -3855871573848306851,
+      "object_byte_start": 76488,
+      "byte_offset": 132,
+      "length_prefix_offset": 128,
+      "serialized_byte_offset": 76620,
+      "script_class": "Text",
+      "game_object_name": "GetRanking(Text)",
+      "fields": [
+        "m_Text"
+      ],
+      "source_text": "ランキングを取得する",
+      "classification": "existing_localization_duplicate",
+      "target_text": "获取排行榜",
+      "note": "独立序列化副本；译文与已有 localization 一致。是否需运行时回退由构建层处理。"
+    },
+    {
+      "asset_file": "kibu8_Data/StreamingAssets/prefab/setting",
+      "serialized_file": "CAB-22c599125268baeab230d2fa4808a8d8",
+      "path_id": -7205063247996567837,
+      "object_byte_start": 103464,
+      "byte_offset": 132,
+      "length_prefix_offset": 128,
+      "serialized_byte_offset": 103596,
+      "script_class": "Text",
+      "game_object_name": "Label(Text)",
+      "fields": [
+        "m_Text"
+      ],
+      "source_text": "あそびかた",
+      "classification": "existing_localization_duplicate",
+      "target_text": "游戏玩法",
+      "note": "独立序列化副本；译文与已有 localization 一致。是否需运行时回退由构建层处理。"
+    },
+    {
+      "asset_file": "kibu8_Data/StreamingAssets/prefab/setting",
+      "serialized_file": "CAB-22c599125268baeab230d2fa4808a8d8",
+      "path_id": -6887113074723800094,
+      "object_byte_start": 103808,
+      "byte_offset": 132,
+      "length_prefix_offset": 128,
+      "serialized_byte_offset": 103940,
+      "script_class": "Text",
+      "game_object_name": "Label(Text)",
+      "fields": [
+        "m_Text"
+      ],
+      "source_text": "ランキング",
+      "classification": "existing_localization_duplicate",
+      "target_text": "排行榜",
+      "note": "独立序列化副本；译文与已有 localization 一致。是否需运行时回退由构建层处理。"
+    },
+    {
+      "asset_file": "kibu8_Data/StreamingAssets/prefab/setting",
+      "serialized_file": "CAB-22c599125268baeab230d2fa4808a8d8",
+      "path_id": -6292098416172069944,
+      "object_byte_start": 107744,
+      "byte_offset": 132,
+      "length_prefix_offset": 128,
+      "serialized_byte_offset": 107876,
+      "script_class": "Text",
+      "game_object_name": "Label(Text)",
+      "fields": [
+        "m_Text"
+      ],
+      "source_text": "ウィンドウ設定",
+      "classification": "player_ui_serialized",
+      "target_text": "窗口设置",
+      "note": "可显示的 Text 或 TitleDataModel 字段；未操作窗口确认具体可达场景。"
+    },
+    {
+      "asset_file": "kibu8_Data/StreamingAssets/prefab/setting",
+      "serialized_file": "CAB-22c599125268baeab230d2fa4808a8d8",
+      "path_id": -4643525705000225494,
+      "object_byte_start": 109504,
+      "byte_offset": 132,
+      "length_prefix_offset": 128,
+      "serialized_byte_offset": 109636,
+      "script_class": "Text",
+      "game_object_name": "Label(Text)",
+      "fields": [
+        "m_Text"
+      ],
+      "source_text": "閉じる",
+      "classification": "existing_localization_duplicate",
+      "target_text": "关闭",
+      "note": "独立序列化副本；译文与已有 localization 一致。是否需运行时回退由构建层处理。"
+    },
+    {
+      "asset_file": "kibu8_Data/StreamingAssets/prefab/setting",
+      "serialized_file": "CAB-22c599125268baeab230d2fa4808a8d8",
+      "path_id": 2519883586162367605,
+      "object_byte_start": 1824184,
+      "byte_offset": 132,
+      "length_prefix_offset": 128,
+      "serialized_byte_offset": 1824316,
+      "script_class": "Text",
+      "game_object_name": "Label(Text)",
+      "fields": [
+        "m_Text"
+      ],
+      "source_text": "タイトルに戻る",
+      "classification": "existing_localization_duplicate",
+      "target_text": "返回标题画面",
+      "note": "独立序列化副本；译文与已有 localization 一致。是否需运行时回退由构建层处理。"
+    },
+    {
+      "asset_file": "kibu8_Data/StreamingAssets/prefab/setting",
+      "serialized_file": "CAB-22c599125268baeab230d2fa4808a8d8",
+      "path_id": 4357581573248285856,
+      "object_byte_start": 1827536,
+      "byte_offset": 132,
+      "length_prefix_offset": 128,
+      "serialized_byte_offset": 1827668,
+      "script_class": "Text",
+      "game_object_name": "Label(Text)",
+      "fields": [
+        "m_Text"
+      ],
+      "source_text": "ゲームを終了する",
+      "classification": "player_ui_serialized",
+      "target_text": "退出游戏",
+      "note": "可显示的 Text 或 TitleDataModel 字段；未操作窗口确认具体可达场景。"
+    },
+    {
+      "asset_file": "kibu8_Data/StreamingAssets/prefab/setting",
+      "serialized_file": "CAB-22c599125268baeab230d2fa4808a8d8",
+      "path_id": 5280492569267428395,
+      "object_byte_start": 1828928,
+      "byte_offset": 132,
+      "length_prefix_offset": 128,
+      "serialized_byte_offset": 1829060,
+      "script_class": "Text",
+      "game_object_name": "Label(Text)",
+      "fields": [
+        "m_Text"
+      ],
+      "source_text": "フレーム",
+      "classification": "existing_localization_duplicate",
+      "target_text": "边框",
+      "note": "独立序列化副本；译文与已有 localization 一致。是否需运行时回退由构建层处理。"
+    },
+    {
+      "asset_file": "kibu8_Data/StreamingAssets/prefab/setting",
+      "serialized_file": "CAB-22c599125268baeab230d2fa4808a8d8",
+      "path_id": 7310922922802765533,
+      "object_byte_start": 1835008,
+      "byte_offset": 132,
+      "length_prefix_offset": 128,
+      "serialized_byte_offset": 1835140,
+      "script_class": "Text",
+      "game_object_name": "Label(Text)",
+      "fields": [
+        "m_Text"
+      ],
+      "source_text": "フィルタ",
+      "classification": "existing_localization_duplicate",
+      "target_text": "滤镜",
+      "note": "独立序列化副本；译文与已有 localization 一致。是否需运行时回退由构建层处理。"
+    },
+    {
+      "asset_file": "kibu8_Data/StreamingAssets/prefab/title",
+      "serialized_file": "CAB-506d2df3971391be4c31a0826a4dbca6",
+      "path_id": -7927416965275801584,
+      "object_byte_start": 87280,
+      "byte_offset": 132,
+      "length_prefix_offset": 128,
+      "serialized_byte_offset": 87412,
+      "script_class": "Text",
+      "game_object_name": "AboutGame(Text)",
+      "fields": [
+        "m_Text"
+      ],
+      "source_text": "リリース：20XX年XX月\r\nジャンル：XXXXXXXゲーム\r\nXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "classification": "excluded_template",
+      "target_text": null,
+      "note": "默认占位内容：按钮名/说明字数样例/样例玩家/动态排行榜标题/游戏简介或标题模板，不能作为实际游戏文本替换。"
+    },
+    {
+      "asset_file": "kibu8_Data/StreamingAssets/prefab/title",
+      "serialized_file": "CAB-506d2df3971391be4c31a0826a4dbca6",
+      "path_id": -7326145242164320123,
+      "object_byte_start": 89120,
+      "byte_offset": 132,
+      "length_prefix_offset": 128,
+      "serialized_byte_offset": 89252,
+      "script_class": "Text",
+      "game_object_name": "Label(Text)",
+      "fields": [
+        "m_Text"
+      ],
+      "source_text": "後編をプレイ",
+      "classification": "player_ui_serialized",
+      "target_text": "开始后篇",
+      "note": "可显示的 Text 或 TitleDataModel 字段；未操作窗口确认具体可达场景。"
+    },
+    {
+      "asset_file": "kibu8_Data/StreamingAssets/prefab/title",
+      "serialized_file": "CAB-506d2df3971391be4c31a0826a4dbca6",
+      "path_id": -4004251034275478254,
+      "object_byte_start": 1867952,
+      "byte_offset": 132,
+      "length_prefix_offset": 128,
+      "serialized_byte_offset": 1868084,
+      "script_class": "Text",
+      "game_object_name": "Label(Text)",
+      "fields": [
+        "m_Text"
+      ],
+      "source_text": "前編をプレイ",
+      "classification": "player_ui_serialized",
+      "target_text": "开始前篇",
+      "note": "可显示的 Text 或 TitleDataModel 字段；未操作窗口确认具体可达场景。"
+    },
+    {
+      "asset_file": "kibu8_Data/StreamingAssets/prefab/title",
+      "serialized_file": "CAB-506d2df3971391be4c31a0826a4dbca6",
+      "path_id": -3599738786564664700,
+      "object_byte_start": 1869008,
+      "byte_offset": 132,
+      "length_prefix_offset": 128,
+      "serialized_byte_offset": 1869140,
+      "script_class": "Text",
+      "game_object_name": "Title(Text)",
+      "fields": [
+        "m_Text"
+      ],
+      "source_text": "アーカイブスタイトル",
+      "classification": "excluded_template",
+      "target_text": null,
+      "note": "默认占位内容：按钮名/说明字数样例/样例玩家/动态排行榜标题/游戏简介或标题模板，不能作为实际游戏文本替换。"
+    },
+    {
+      "asset_file": "kibu8_Data/StreamingAssets/prefab/title",
+      "serialized_file": "CAB-506d2df3971391be4c31a0826a4dbca6",
+      "path_id": 3262750257444320481,
+      "object_byte_start": 1932336,
+      "byte_offset": 132,
+      "length_prefix_offset": 128,
+      "serialized_byte_offset": 1932468,
+      "script_class": "Text",
+      "game_object_name": "Label(Text)",
+      "fields": [
+        "m_Text"
+      ],
+      "source_text": "前編をプレイ",
+      "classification": "player_ui_serialized",
+      "target_text": "开始前篇",
+      "note": "可显示的 Text 或 TitleDataModel 字段；未操作窗口确认具体可达场景。"
+    },
+    {
+      "asset_file": "kibu8_Data/StreamingAssets/prefab/title",
+      "serialized_file": "CAB-506d2df3971391be4c31a0826a4dbca6",
+      "path_id": 3762270808345738797,
+      "object_byte_start": 1933024,
+      "byte_offset": 60,
+      "length_prefix_offset": 56,
+      "serialized_byte_offset": 1933084,
+      "script_class": "TitleDataModel",
+      "game_object_name": null,
+      "fields": [
+        "titleData.tilteName"
+      ],
+      "source_text": "探偵・癸生川凌介事件譚\r\nVol.8「仮面幻影殺人事件」",
+      "classification": "player_ui_serialized",
+      "target_text": "侦探·癸生川凌介事件谭\r\n第八作《假面幻影杀人事件》",
+      "note": "可显示的 Text 或 TitleDataModel 字段；未操作窗口确认具体可达场景。"
+    },
+    {
+      "asset_file": "kibu8_Data/StreamingAssets/prefab/title",
+      "serialized_file": "CAB-506d2df3971391be4c31a0826a4dbca6",
+      "path_id": 3762270808345738797,
+      "object_byte_start": 1933024,
+      "byte_offset": 136,
+      "length_prefix_offset": 132,
+      "serialized_byte_offset": 1933160,
+      "script_class": "TitleDataModel",
+      "game_object_name": null,
+      "fields": [
+        "titleData.aboutGame"
+      ],
+      "source_text": "ジャンル：推理アドベンチャー\r\n幻影に抱かれ、私は仮面をかぶる…\r\n仮想世界と現実世界で絡み合う、謎の連続殺人事件。",
+      "classification": "player_ui_serialized",
+      "target_text": "类型：推理冒险\r\n幻影将我拥入怀中，我戴上了假面……\r\n虚拟世界与现实世界相互交织的神秘连环杀人案。",
+      "note": "可显示的 Text 或 TitleDataModel 字段；未操作窗口确认具体可达场景。"
+    },
+    {
+      "asset_file": "kibu8_Data/StreamingAssets/prefab/title",
+      "serialized_file": "CAB-506d2df3971391be4c31a0826a4dbca6",
+      "path_id": 5189348336404782598,
+      "object_byte_start": 5567064,
+      "byte_offset": 132,
+      "length_prefix_offset": 128,
+      "serialized_byte_offset": 5567196,
+      "script_class": "Text",
+      "game_object_name": "Label(Text)",
+      "fields": [
+        "m_Text"
+      ],
+      "source_text": "後編をプレイ",
+      "classification": "player_ui_serialized",
+      "target_text": "开始后篇",
+      "note": "可显示的 Text 或 TitleDataModel 字段；未操作窗口确认具体可达场景。"
+    },
+    {
+      "asset_file": "kibu8_Data/StreamingAssets/prefab/title",
+      "serialized_file": "CAB-506d2df3971391be4c31a0826a4dbca6",
+      "path_id": 5541098499431540623,
+      "object_byte_start": 5567816,
+      "byte_offset": 132,
+      "length_prefix_offset": 128,
+      "serialized_byte_offset": 5567948,
+      "script_class": "Text",
+      "game_object_name": "Label(Text)",
+      "fields": [
+        "m_Text"
+      ],
+      "source_text": "導入編をプレイ",
+      "classification": "player_ui_serialized",
+      "target_text": "开始序篇",
+      "note": "可显示的 Text 或 TitleDataModel 字段；未操作窗口确认具体可达场景。"
+    },
+    {
+      "asset_file": "kibu8_Data/StreamingAssets/prefab/title",
+      "serialized_file": "CAB-506d2df3971391be4c31a0826a4dbca6",
+      "path_id": 6459479745979849674,
+      "object_byte_start": 5569720,
+      "byte_offset": 132,
+      "length_prefix_offset": 128,
+      "serialized_byte_offset": 5569852,
+      "script_class": "Text",
+      "game_object_name": "Label(Text)",
+      "fields": [
+        "m_Text"
+      ],
+      "source_text": "導入編をプレイ",
+      "classification": "player_ui_serialized",
+      "target_text": "开始序篇",
+      "note": "可显示的 Text 或 TitleDataModel 字段；未操作窗口确认具体可达场景。"
+    },
+    {
+      "asset_file": "kibu8_Data/StreamingAssets/prefab/window",
+      "serialized_file": "CAB-8c2453c7956791f59ac771bfae632c6f",
+      "path_id": 1939946658418343807,
+      "object_byte_start": 1791704,
+      "byte_offset": 132,
+      "length_prefix_offset": 128,
+      "serialized_byte_offset": 1791836,
+      "script_class": "Text",
+      "game_object_name": "Label(Text)",
+      "fields": [
+        "m_Text"
+      ],
+      "source_text": "フルスクリーン",
+      "classification": "existing_assembly_duplicate",
+      "target_text": "全屏",
+      "note": "独立序列化副本；已有托管字面量相同，不增加新的术语。"
+    }
+  ],
+  "counts": {
+    "existing_localization_duplicate": 21,
+    "player_ui_serialized": 28,
+    "excluded_template": 44,
+    "existing_assembly_duplicate": 4,
+    "excluded_debug_ui": 4
+  },
+  "runtime_tested": false
+}

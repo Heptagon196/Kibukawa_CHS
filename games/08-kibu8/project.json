@@ -1,0 +1,53 @@
+{
+  "schema": 1,
+  "id": "kibu8",
+  "adapter": "gmode-20050817",
+  "source_fingerprints": "work/manifest.json",
+  "translation": "work/cache.json",
+  "glossary": "work/glossary.locked.json",
+  "bepinex": {
+    "profile": "mono-win-x64-5.4.23.5",
+    "managed": "kibu8_Data/Managed",
+    "assembly": "Kibu8ZhCN.dll",
+    "plugin_directory": "Kibu8ZhCN",
+    "references": [
+      "mscorlib.dll",
+      "netstandard.dll",
+      "System.dll",
+      "System.Core.dll",
+      "UnityEngine.dll",
+      "UnityEngine.CoreModule.dll",
+      "UnityEngine.UI.dll",
+      "UnityEngine.UIModule.dll",
+      "UnityEngine.TextRenderingModule.dll",
+      "UnityEngine.ImageConversionModule.dll"
+    ]
+  },
+  "compatibility": {
+    "stage": "installed_awaiting_user_test",
+    "runtime_tested": false,
+    "release_ready": false,
+    "hooks_ready": true,
+    "translation_complete": false,
+    "adapter_reviewed": true,
+    "notes": "Offline runtime binding and display-buffer integration reviewed; immutable original script/save offsets; image localization and user runtime acceptance pending.",
+    "bootstrap_verified": true,
+    "container_verified": true,
+    "text_draft_complete": true,
+    "semantic_draft_reviewed": true,
+    "installed_version": "0.2.0"
+  },
+  "layout": {
+    "chinese_layout_verified": false,
+    "offline_verified": true
+  },
+  "translation_title": "假面幻影杀人事件",
+  "translation_title_status": "provisional",
+  "resource_containers": [
+    "scratch3_1.dat",
+    "scratch3_2.dat",
+    "scratch3_3.dat"
+  ],
+  "source_title": "仮面幻影殺人事件",
+  "approved_empty_layout_text": {}
+}

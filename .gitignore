@@ -51,3 +51,30 @@ games/07-otonari/images/title-zh.exact.png
 games/07-otonari/images/title-zh.generated.png
 games/07-otonari/images/title-zh.subtitle-generated.png
 games/07-otonari/review/initial-merge.py.txt
+
+# Eighth-game authoritative drafts and review evidence
+!games/08-kibu8/work/dialogue-tagged.json
+!games/08-kibu8/work/ui-*.json
+!games/08-kibu8/work/ui-*.md
+!games/08-kibu8/work/TRANSLATOR_INSTRUCTIONS.md
+!games/08-kibu8/work/review-decisions.json
+!games/08-kibu8/work/coordinator-refinements.json
+!games/08-kibu8/work/review-summary.json
+!games/08-kibu8/work/batches/
+!games/08-kibu8/work/reviews/
+
+games/08-kibu8/build/
+!games/08-kibu8/work/build-terminology-fixes.json
+
+# Shared downloadable font sources
+engine/fonts/cache/
+
+# Ninth-game authoritative drafts and runtime fixtures
+!games/09-samidare/work/dialogue-tagged.json
+!games/09-samidare/work/ui-*.json
+!games/09-samidare/work/smoke-lines.json
+!games/09-samidare/work/smoke-ui.json
+!games/09-samidare/work/emphasis.json
+!games/09-samidare/work/parallel/
+
+.cache/

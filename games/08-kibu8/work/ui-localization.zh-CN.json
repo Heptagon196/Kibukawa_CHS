@@ -1,0 +1,132 @@
+{
+  "schema": 1,
+  "game": "kibu8",
+  "source_asset": "kibu8_Data/StreamingAssets/localization",
+  "source_sha256": "adc9f98fb55f1de231aaec1c07d578da5ab26369c9782725bb1c1a3db4a0725e",
+  "text_asset": "Localization",
+  "path_id": 4376395339544084534,
+  "source_column": "ja",
+  "row_numbering": "One-based CSV data record excluding header and blank records; embedded newline remains within one record.",
+  "entries": [
+    {
+      "row": 1,
+      "key": "pause_menu_label_howtoplay",
+      "source_text": "あそびかた",
+      "target_text": "游戏玩法",
+      "classification": "player_ui",
+      "review_status": "translated_reviewed"
+    },
+    {
+      "row": 2,
+      "key": "pause_menu_label_frame",
+      "source_text": "フレーム",
+      "target_text": "边框",
+      "classification": "player_ui",
+      "review_status": "translated_reviewed"
+    },
+    {
+      "row": 3,
+      "key": "pause_menu_label_filter",
+      "source_text": "フィルタ",
+      "target_text": "滤镜",
+      "classification": "player_ui",
+      "review_status": "translated_reviewed"
+    },
+    {
+      "row": 4,
+      "key": "pause_menu_label_ranking",
+      "source_text": "ランキング",
+      "target_text": "排行榜",
+      "classification": "player_ui",
+      "review_status": "translated_reviewed"
+    },
+    {
+      "row": 5,
+      "key": "pause_menu_label_backtitle",
+      "source_text": "タイトルに戻る",
+      "target_text": "返回标题画面",
+      "classification": "player_ui",
+      "review_status": "translated_reviewed"
+    },
+    {
+      "row": 6,
+      "key": "pause_menu_label_close",
+      "source_text": "閉じる",
+      "target_text": "关闭",
+      "classification": "player_ui",
+      "review_status": "translated_reviewed"
+    },
+    {
+      "row": 7,
+      "key": "common_dialog_titlescreen_msg",
+      "source_text": "タイトル画面に戻りますか？",
+      "target_text": "要返回标题画面吗？",
+      "classification": "player_ui",
+      "review_status": "translated_reviewed"
+    },
+    {
+      "row": 8,
+      "key": "common_dialog_disconnected_msg",
+      "source_text": "ネットワークから切断されました",
+      "target_text": "网络连接已断开",
+      "classification": "player_ui",
+      "review_status": "translated_reviewed"
+    },
+    {
+      "row": 9,
+      "key": "common_dialog_exit_game_msg",
+      "source_text": "ゲームを終了しますか？",
+      "target_text": "要退出游戏吗？",
+      "classification": "player_ui",
+      "review_status": "translated_reviewed"
+    },
+    {
+      "row": 10,
+      "key": "common_dialog_yes_label",
+      "source_text": "はい",
+      "target_text": "是",
+      "classification": "player_ui",
+      "review_status": "translated_reviewed"
+    },
+    {
+      "row": 11,
+      "key": "common_dialog_no_label",
+      "source_text": "いいえ",
+      "target_text": "否",
+      "classification": "player_ui",
+      "review_status": "translated_reviewed"
+    },
+    {
+      "row": 12,
+      "key": "loading_autosave_msg",
+      "source_text": "本ゲームはオートセーブに対応しておりません。\n終了する際は、ゲーム内のセーブ機能をご利用ください。",
+      "target_text": "本游戏不支持自动存档。\r\n退出时，请使用游戏内的存档功能。",
+      "classification": "player_ui",
+      "review_status": "translated_reviewed"
+    },
+    {
+      "row": 13,
+      "key": "ranking_get_ranking_msg",
+      "source_text": "ランキングを取得する",
+      "target_text": "获取排行榜",
+      "classification": "player_ui",
+      "review_status": "translated_reviewed"
+    },
+    {
+      "row": 14,
+      "key": "ranking_load_ranking_msg",
+      "source_text": "Loading...",
+      "target_text": "加载中……",
+      "classification": "player_ui",
+      "review_status": "translated_reviewed"
+    },
+    {
+      "row": 15,
+      "key": "ranking_unranked_label",
+      "source_text": "ランク外",
+      "target_text": "未上榜",
+      "classification": "player_ui",
+      "review_status": "translated_reviewed"
+    }
+  ]
+}

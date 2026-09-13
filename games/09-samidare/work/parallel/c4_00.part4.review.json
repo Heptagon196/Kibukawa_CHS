@@ -1,0 +1,1463 @@
+{
+  "script": "c4_00",
+  "batch": "c4_00.part4.trans.json",
+  "note": "Independent verification: for each entry decide whether ``target`` is the faithful rendering of ``source`` as its own display line. Report shifts, omissions, additions and mistranslations. An entry with ``emphasis`` is drawn in several colours: ``emphasis`` is the source split and ``runs`` the Chinese split, index for index, and it is the run with a non-null colour that the game highlights. See work/parallel/VERIFIER_BRIEF.md.",
+  "units": [
+    {
+      "offset": 14841,
+      "kind": "choice",
+      "limit": 0,
+      "source": "話す",
+      "target": "交谈"
+    },
+    {
+      "offset": 14849,
+      "kind": "choice",
+      "limit": 0,
+      "source": "中断する",
+      "target": "中断"
+    },
+    {
+      "offset": 14864,
+      "kind": "choice",
+      "limit": 0,
+      "source": "事件の概要",
+      "target": "案件概况"
+    },
+    {
+      "offset": 14917,
+      "kind": "line",
+      "limit": 4,
+      "source": "…まず！",
+      "target": "…首先！"
+    },
+    {
+      "offset": 14931,
+      "kind": "line",
+      "limit": 10,
+      "source": "クレフ製作所の社長、",
+      "target": "克雷夫制作所社长"
+    },
+    {
+      "offset": 14966,
+      "kind": "line",
+      "limit": 10,
+      "source": "尼子啓三の正体は…",
+      "target": "尼子启三的身份……"
+    },
+    {
+      "offset": 15013,
+      "kind": "line",
+      "limit": 10,
+      "source": "伝説の詐欺師、極ギサ",
+      "target": "传说中的“极恶骗”"
+    },
+    {
+      "offset": 15057,
+      "kind": "line",
+      "limit": 10,
+      "source": "本人だったのだ！",
+      "target": "正是他本人！"
+    },
+    {
+      "offset": 15081,
+      "kind": "line",
+      "limit": 11,
+      "source": "…私も、まさか社長が",
+      "target": "……连我也没想到"
+    },
+    {
+      "offset": 15107,
+      "kind": "line",
+      "limit": 11,
+      "source": "そんな人物だとは、",
+      "target": "社长竟然会是"
+    },
+    {
+      "offset": 15131,
+      "kind": "line",
+      "limit": 11,
+      "source": "思ってもいなかった…。",
+      "target": "那样的人物……"
+    },
+    {
+      "offset": 15161,
+      "kind": "line",
+      "limit": 11,
+      "source": "忠雄さんがそれを知った",
+      "target": "忠雄先生得知此事"
+    },
+    {
+      "offset": 15189,
+      "kind": "line",
+      "limit": 11,
+      "source": "のは、３ヶ月くらい前の",
+      "target": "是大约３个月前",
+      "runs": [
+        "是",
+        "大约３个月前"
+      ],
+      "emphasis": [
+        {
+          "colour": null,
+          "text": "のは、"
+        },
+        {
+          "colour": 2,
+          "text": "３ヶ月くらい前の"
+        }
+      ]
+    },
+    {
+      "offset": 15230,
+      "kind": "line",
+      "limit": 11,
+      "source": "ことですよね。",
+      "target": "对吧。"
+    },
+    {
+      "offset": 15252,
+      "kind": "line",
+      "limit": 4,
+      "source": "…ああ。",
+      "target": "……嗯。"
+    },
+    {
+      "offset": 15266,
+      "kind": "line",
+      "limit": 11,
+      "source": "この工場で、銃器密造を",
+      "target": "这家工厂在秘密制枪",
+      "runs": [
+        "这家工厂在",
+        "秘密制枪"
+      ],
+      "emphasis": [
+        {
+          "colour": null,
+          "text": "この工場で、"
+        },
+        {
+          "colour": 2,
+          "text": "銃器密造を"
+        }
+      ]
+    },
+    {
+      "offset": 15307,
+      "kind": "line",
+      "limit": 11,
+      "source": "してることを、ふとした",
+      "target": "忠雄偶然"
+    },
+    {
+      "offset": 15335,
+      "kind": "line",
+      "limit": 11,
+      "source": "ことから知ってしまい…",
+      "target": "得知此事……"
+    },
+    {
+      "offset": 15363,
+      "kind": "line",
+      "limit": 10,
+      "source": "これは悪いことだと…",
+      "target": "认为这是犯罪……"
+    },
+    {
+      "offset": 15389,
+      "kind": "line",
+      "limit": 10,
+      "source": "その証拠となる書類を",
+      "target": "便将证据文件",
+      "runs": [
+        "便将",
+        "证据文件"
+      ],
+      "emphasis": [
+        {
+          "colour": null,
+          "text": "その"
+        },
+        {
+          "colour": 2,
+          "text": "証拠となる書類を"
+        }
+      ]
+    },
+    {
+      "offset": 15428,
+      "kind": "line",
+      "limit": 10,
+      "source": "盗んでしまった。",
+      "target": "偷了出来。"
+    },
+    {
+      "offset": 15452,
+      "kind": "line",
+      "limit": 9,
+      "source": "警察に届け出ようと",
+      "target": "是想交给警方"
+    },
+    {
+      "offset": 15476,
+      "kind": "line",
+      "limit": 9,
+      "source": "したのですね。",
+      "target": "对吧。"
+    },
+    {
+      "offset": 15496,
+      "kind": "line",
+      "limit": 10,
+      "source": "忠雄さんの自宅で、",
+      "target": "在忠雄先生家中"
+    },
+    {
+      "offset": 15520,
+      "kind": "line",
+      "limit": 10,
+      "source": "それを発見しました。",
+      "target": "找到了那些文件。"
+    },
+    {
+      "offset": 15548,
+      "kind": "line",
+      "limit": 11,
+      "source": "…ちょっとした",
+      "target": "……我只是出于"
+    },
+    {
+      "offset": 15568,
+      "kind": "line",
+      "limit": 11,
+      "source": "正義感のつもりだった。",
+      "target": "一点正义感。"
+    },
+    {
+      "offset": 15598,
+      "kind": "line",
+      "limit": 8,
+      "source": "いや、その行動は",
+      "target": "不，那样做"
+    },
+    {
+      "offset": 15620,
+      "kind": "line",
+      "limit": 8,
+      "source": "正しい！",
+      "target": "是对的！"
+    },
+    {
+      "offset": 15644,
+      "kind": "line",
+      "limit": 9,
+      "source": "…だが、相手が",
+      "target": "……但对手"
+    },
+    {
+      "offset": 15664,
+      "kind": "line",
+      "limit": 9,
+      "source": "ちょっと悪かった。",
+      "target": "惹错了对手。"
+    },
+    {
+      "offset": 15690,
+      "kind": "line",
+      "limit": 11,
+      "source": "…なにせ、裏社会の顔は",
+      "target": "……毕竟，他在地下世界"
+    },
+    {
+      "offset": 15718,
+      "kind": "line",
+      "limit": 11,
+      "source": "とてつもなく広い。",
+      "target": "人脉广得惊人。"
+    },
+    {
+      "offset": 15742,
+      "kind": "line",
+      "limit": 11,
+      "source": "四方八方から手を回され",
+      "target": "四处都布下人手，"
+    },
+    {
+      "offset": 15770,
+      "kind": "line",
+      "limit": 11,
+      "source": "忠雄さんは逃げ切れず、",
+      "target": "忠雄先生逃脱不了，"
+    },
+    {
+      "offset": 15798,
+      "kind": "line",
+      "limit": 11,
+      "source": "追い込まれていった。",
+      "target": "渐渐被逼入绝境。"
+    },
+    {
+      "offset": 15826,
+      "kind": "line",
+      "limit": 5,
+      "source": "…………。",
+      "target": "…………"
+    },
+    {
+      "offset": 15844,
+      "kind": "line",
+      "limit": 11,
+      "source": "それで一度、家族の住む",
+      "target": "于是他曾去过一次"
+    },
+    {
+      "offset": 15874,
+      "kind": "line",
+      "limit": 11,
+      "source": "自宅にも訪れている。",
+      "target": "家人居住的家。"
+    },
+    {
+      "offset": 15906,
+      "kind": "line",
+      "limit": 11,
+      "source": "…暁君が会ったときだ。",
+      "target": "……就是晓见过他那次。"
+    },
+    {
+      "offset": 15956,
+      "kind": "line",
+      "limit": 8,
+      "source": "あっ、あの時…！",
+      "target": "啊，是那次……！"
+    },
+    {
+      "offset": 15978,
+      "kind": "line",
+      "limit": 9,
+      "source": "…でも、父が別宅に",
+      "target": "……可父亲既然"
+    },
+    {
+      "offset": 16002,
+      "kind": "line",
+      "limit": 9,
+      "source": "住んでいたのなら…",
+      "target": "住在别处……"
+    },
+    {
+      "offset": 16026,
+      "kind": "line",
+      "limit": 10,
+      "source": "その尼子という男は、",
+      "target": "那个叫尼子的男人"
+    },
+    {
+      "offset": 16072,
+      "kind": "line",
+      "limit": 10,
+      "source": "どうしてうちの場所が",
+      "target": "怎么会知道"
+    },
+    {
+      "offset": 16098,
+      "kind": "line",
+      "limit": 10,
+      "source": "わかったんですか？",
+      "target": "我们家的地址？"
+    },
+    {
+      "offset": 16122,
+      "kind": "line",
+      "limit": 10,
+      "source": "…そこまで調べたって",
+      "target": "……难道他连这里"
+    },
+    {
+      "offset": 16148,
+      "kind": "line",
+      "limit": 10,
+      "source": "ことですか？",
+      "target": "都调查过？"
+    },
+    {
+      "offset": 16168,
+      "kind": "line",
+      "limit": 10,
+      "source": "いや、そうじゃない。",
+      "target": "不，并非如此。"
+    },
+    {
+      "offset": 16194,
+      "kind": "line",
+      "limit": 10,
+      "source": "実は尼子は、それ以前",
+      "target": "其实在那之前",
+      "runs": [
+        "其实",
+        "在那之前"
+      ],
+      "emphasis": [
+        {
+          "colour": null,
+          "text": "実は尼子は、"
+        },
+        {
+          "colour": 2,
+          "text": "それ以前"
+        }
+      ]
+    },
+    {
+      "offset": 16247,
+      "kind": "line",
+      "limit": 10,
+      "source": "から知っていたのだ。",
+      "target": "尼子就已经知道了。"
+    },
+    {
+      "offset": 16279,
+      "kind": "line",
+      "limit": 7,
+      "source": "…実に偶然に。",
+      "target": "……纯属偶然。"
+    },
+    {
+      "offset": 16301,
+      "kind": "line",
+      "limit": 10,
+      "source": "えっ、どうして…!?",
+      "target": "咦，为什么……！？"
+    },
+    {
+      "offset": 16327,
+      "kind": "line",
+      "limit": 4,
+      "source": "………。",
+      "target": "…………"
+    },
+    {
+      "offset": 16353,
+      "kind": "line",
+      "limit": 11,
+      "source": "その話は、今はひとまず",
+      "target": "这件事现在先"
+    },
+    {
+      "offset": 16381,
+      "kind": "line",
+      "limit": 11,
+      "source": "置いておこう！",
+      "target": "放到一边！"
+    },
+    {
+      "offset": 16403,
+      "kind": "line",
+      "limit": 11,
+      "source": "そうして、忠雄さんが、",
+      "target": "后来，忠雄先生"
+    },
+    {
+      "offset": 16431,
+      "kind": "line",
+      "limit": 11,
+      "source": "もう逃れられないと観念",
+      "target": "认为再也逃不掉"
+    },
+    {
+      "offset": 16459,
+      "kind": "line",
+      "limit": 11,
+      "source": "した時…",
+      "target": "的时候……"
+    },
+    {
+      "offset": 16473,
+      "kind": "line",
+      "limit": 7,
+      "source": "ひとつの事件が",
+      "target": "发生了"
+    },
+    {
+      "offset": 16493,
+      "kind": "line",
+      "limit": 7,
+      "source": "起こりました。",
+      "target": "一起事件。"
+    },
+    {
+      "offset": 16515,
+      "kind": "line",
+      "limit": 9,
+      "source": "そう、それこそが…",
+      "target": "对，那正是……"
+    },
+    {
+      "offset": 16539,
+      "kind": "line",
+      "limit": 10,
+      "source": "…尼子啓三の暗殺だ。",
+      "target": "……尼子启三被暗杀。",
+      "runs": [
+        "……尼子启三被",
+        "暗杀。"
+      ],
+      "emphasis": [
+        {
+          "colour": null,
+          "text": "…尼子啓三の"
+        },
+        {
+          "colour": 2,
+          "text": "暗殺だ。"
+        }
+      ]
+    },
+    {
+      "offset": 16617,
+      "kind": "line",
+      "limit": 9,
+      "source": "あっ…！",
+      "target": "啊……！"
+    },
+    {
+      "offset": 16631,
+      "kind": "line",
+      "limit": 9,
+      "source": "何者かに消された…",
+      "target": "被某个人灭口……"
+    },
+    {
+      "offset": 16655,
+      "kind": "line",
+      "limit": 9,
+      "source": "というやつ？",
+      "target": "是那件事？"
+    },
+    {
+      "offset": 16685,
+      "kind": "line",
+      "limit": 11,
+      "source": "そうだ。",
+      "target": "是的。"
+    },
+    {
+      "offset": 16699,
+      "kind": "line",
+      "limit": 11,
+      "source": "それにより、忠雄さんは",
+      "target": "这让忠雄先生"
+    },
+    {
+      "offset": 16727,
+      "kind": "line",
+      "limit": 11,
+      "source": "九死に一生を得る。",
+      "target": "侥幸逃过一劫。"
+    },
+    {
+      "offset": 16751,
+      "kind": "line",
+      "limit": 11,
+      "source": "…ちなみに、警察に",
+      "target": "……顺带一提，"
+    },
+    {
+      "offset": 16775,
+      "kind": "line",
+      "limit": 11,
+      "source": "届け出た証拠は不充分で",
+      "target": "交给警方的证据不足，"
+    },
+    {
+      "offset": 16803,
+      "kind": "line",
+      "limit": 11,
+      "source": "結局却下されている。",
+      "target": "最后不予受理。"
+    },
+    {
+      "offset": 16831,
+      "kind": "line",
+      "limit": 8,
+      "source": "…その通りです。",
+      "target": "……正是如此。"
+    },
+    {
+      "offset": 16855,
+      "kind": "line",
+      "limit": 8,
+      "source": "ど、どうして…？",
+      "target": "为、为什么……？"
+    },
+    {
+      "offset": 16889,
+      "kind": "line",
+      "limit": 11,
+      "source": "工場で作っていたのは",
+      "target": "工厂制造的"
+    },
+    {
+      "offset": 16917,
+      "kind": "line",
+      "limit": 11,
+      "source": "パーツであって、銃では",
+      "target": "只是零件，并非枪",
+      "runs": [
+        "只是零件，",
+        "并非枪"
+      ],
+      "emphasis": [
+        {
+          "colour": null,
+          "text": "パーツであって、"
+        },
+        {
+          "colour": 2,
+          "text": "銃では"
+        }
+      ]
+    },
+    {
+      "offset": 16964,
+      "kind": "line",
+      "limit": 11,
+      "source": "ないからだ！",
+      "target": "而已！"
+    },
+    {
+      "offset": 16984,
+      "kind": "line",
+      "limit": 3,
+      "source": "…え？",
+      "target": "…咦？"
+    },
+    {
+      "offset": 16998,
+      "kind": "line",
+      "limit": 10,
+      "source": "これらは銃の状態に",
+      "target": "这些零件只有"
+    },
+    {
+      "offset": 17022,
+      "kind": "line",
+      "limit": 10,
+      "source": "組み立てて、はじめて",
+      "target": "组装成完整枪械后"
+    },
+    {
+      "offset": 17048,
+      "kind": "line",
+      "limit": 10,
+      "source": "銃だと言える。",
+      "target": "才能称为枪。"
+    },
+    {
+      "offset": 17068,
+      "kind": "line",
+      "limit": 11,
+      "source": "実は…パーツごとに",
+      "target": "其实……每件零件"
+    },
+    {
+      "offset": 17092,
+      "kind": "line",
+      "limit": 11,
+      "source": "バラバラの状態ならば…",
+      "target": "若是分散的状态……"
+    },
+    {
+      "offset": 17120,
+      "kind": "line",
+      "limit": 11,
+      "source": "それは単なる金属片で",
+      "target": "就只是普通的金属件，",
+      "runs": [
+        "就只是普通的",
+        "金属件，"
+      ],
+      "emphasis": [
+        {
+          "colour": null,
+          "text": "それは単なる"
+        },
+        {
+          "colour": 2,
+          "text": "金属片で"
+        }
+      ]
+    },
+    {
+      "offset": 17159,
+      "kind": "line",
+      "limit": 11,
+      "source": "しかないので、輸出入も",
+      "target": "因此进出口也"
+    },
+    {
+      "offset": 17187,
+      "kind": "line",
+      "limit": 11,
+      "source": "容易に行えるんです。",
+      "target": "十分容易。"
+    },
+    {
+      "offset": 17215,
+      "kind": "line",
+      "limit": 4,
+      "source": "あっ…。",
+      "target": "啊……"
+    },
+    {
+      "offset": 17241,
+      "kind": "line",
+      "limit": 10,
+      "source": "銃のパーツが１００個",
+      "target": "假设需要１００个"
+    },
+    {
+      "offset": 17267,
+      "kind": "line",
+      "limit": 10,
+      "source": "必要ならば…",
+      "target": "枪械零件……"
+    },
+    {
+      "offset": 17285,
+      "kind": "line",
+      "limit": 10,
+      "source": "１００件の工場で",
+      "target": "就让１００家工厂"
+    },
+    {
+      "offset": 17307,
+      "kind": "line",
+      "limit": 10,
+      "source": "それそれ別に製造して",
+      "target": "分别制造不同零件"
+    },
+    {
+      "offset": 17333,
+      "kind": "line",
+      "limit": 10,
+      "source": "いたってわけだ。",
+      "target": "就是这么回事。"
+    },
+    {
+      "offset": 17355,
+      "kind": "line",
+      "limit": 11,
+      "source": "ひとつの工場だけ摘発",
+      "target": "只查封一家工厂……"
+    },
+    {
+      "offset": 17381,
+      "kind": "line",
+      "limit": 11,
+      "source": "しても…証拠不充分だ。",
+      "target": "证据依然不足。"
+    },
+    {
+      "offset": 17411,
+      "kind": "line",
+      "limit": 12,
+      "source": "そんな…。",
+      "target": "怎么会……"
+    },
+    {
+      "offset": 17427,
+      "kind": "line",
+      "limit": 12,
+      "source": "じゃあ、父の苦労は…!?",
+      "target": "那父亲的努力……！？"
+    },
+    {
+      "offset": 17467,
+      "kind": "line",
+      "limit": 11,
+      "source": "残念ながら、尼子を敵に",
+      "target": "很遗憾，这只让他"
+    },
+    {
+      "offset": 17515,
+      "kind": "line",
+      "limit": 11,
+      "source": "回すことになっただけ",
+      "target": "成了尼子的敌人。"
+    },
+    {
+      "offset": 17541,
+      "kind": "line",
+      "limit": 11,
+      "source": "だということになる。",
+      "target": "就是这么回事。"
+    },
+    {
+      "offset": 17569,
+      "kind": "line",
+      "limit": 5,
+      "source": "…………。",
+      "target": "…………"
+    },
+    {
+      "offset": 17597,
+      "kind": "line",
+      "limit": 11,
+      "source": "そして、ここで敵に",
+      "target": "而正因为在这里"
+    },
+    {
+      "offset": 17621,
+      "kind": "line",
+      "limit": 11,
+      "source": "回してしまったことで…",
+      "target": "与尼子为敌……"
+    },
+    {
+      "offset": 17649,
+      "kind": "line",
+      "limit": 11,
+      "source": "後に、大きな厄いを",
+      "target": "后来，一场大祸",
+      "runs": [
+        "后来，一场",
+        "大祸"
+      ],
+      "emphasis": [
+        {
+          "colour": null,
+          "text": "後に、大きな"
+        },
+        {
+          "colour": 2,
+          "text": "厄いを"
+        }
+      ]
+    },
+    {
+      "offset": 17701,
+      "kind": "line",
+      "limit": 11,
+      "source": "招くことになったのだ。",
+      "target": "便降临了。"
+    },
+    {
+      "offset": 17731,
+      "kind": "line",
+      "limit": 3,
+      "source": "…!?",
+      "target": "…！？"
+    },
+    {
+      "offset": 17759,
+      "kind": "line",
+      "limit": 9,
+      "source": "その、厄いって…？",
+      "target": "那场大祸是……？"
+    },
+    {
+      "offset": 17811,
+      "kind": "line",
+      "limit": 9,
+      "source": "実は…尼子には、",
+      "target": "其实……尼子有"
+    },
+    {
+      "offset": 17853,
+      "kind": "line",
+      "limit": 9,
+      "source": "ふたりの娘がいた。",
+      "target": "两个女儿。",
+      "runs": [
+        "两个",
+        "女儿。"
+      ],
+      "emphasis": [
+        {
+          "colour": null,
+          "text": "ふたりの"
+        },
+        {
+          "colour": 2,
+          "text": "娘がいた。"
+        }
+      ]
+    },
+    {
+      "offset": 17890,
+      "kind": "line",
+      "limit": 9,
+      "source": "実の娘じゃない。",
+      "target": "并非亲生。"
+    },
+    {
+      "offset": 17917,
+      "kind": "line",
+      "limit": 9,
+      "source": "棄てられていた子を",
+      "target": "都是他收养的"
+    },
+    {
+      "offset": 17947,
+      "kind": "line",
+      "limit": 9,
+      "source": "拾ったものだ。",
+      "target": "弃婴。"
+    },
+    {
+      "offset": 17969,
+      "kind": "line",
+      "limit": 9,
+      "source": "…捨て子を、育てて",
+      "target": "……他把弃婴"
+    },
+    {
+      "offset": 17993,
+      "kind": "line",
+      "limit": 9,
+      "source": "いたんですか？",
+      "target": "养大了吗？"
+    },
+    {
+      "offset": 18015,
+      "kind": "line",
+      "limit": 10,
+      "source": "そう言うと、聞こえは",
+      "target": "这么说听起来"
+    },
+    {
+      "offset": 18041,
+      "kind": "line",
+      "limit": 10,
+      "source": "いいですが…。",
+      "target": "像件好事……"
+    },
+    {
+      "offset": 18071,
+      "kind": "line",
+      "limit": 11,
+      "source": "多くの犯罪で、その娘を",
+      "target": "可他培养女儿，"
+    },
+    {
+      "offset": 18099,
+      "kind": "line",
+      "limit": 11,
+      "source": "利用するために育てて",
+      "target": "是为了在各种犯罪中"
+    },
+    {
+      "offset": 18125,
+      "kind": "line",
+      "limit": 11,
+      "source": "いたようです。",
+      "target": "利用她们。"
+    },
+    {
+      "offset": 18147,
+      "kind": "line",
+      "limit": 6,
+      "source": "…ひどい…。",
+      "target": "太过分了……"
+    },
+    {
+      "offset": 18167,
+      "kind": "line",
+      "limit": 11,
+      "source": "娘はそれぞれ違う名前と",
+      "target": "两个女儿各用不同姓名",
+      "runs": [
+        "两个女儿各用",
+        "不同姓名"
+      ],
+      "emphasis": [
+        {
+          "colour": null,
+          "text": "娘はそれぞれ"
+        },
+        {
+          "colour": 2,
+          "text": "違う名前と"
+        }
+      ]
+    },
+    {
+      "offset": 18210,
+      "kind": "line",
+      "limit": 11,
+      "source": "違う生活という環境で",
+      "target": "过着不同生活，"
+    },
+    {
+      "offset": 18242,
+      "kind": "line",
+      "limit": 11,
+      "source": "育てられた。",
+      "target": "环境也不同。"
+    },
+    {
+      "offset": 18270,
+      "kind": "line",
+      "limit": 11,
+      "source": "…つまり、尼子啓三では",
+      "target": "……也就是说，尼子"
+    },
+    {
+      "offset": 18335,
+      "kind": "line",
+      "limit": 11,
+      "source": "ない別人の娘として、",
+      "target": "一直以别人的女儿",
+      "runs": [
+        "一直以",
+        "别人的女儿"
+      ],
+      "emphasis": [
+        {
+          "colour": null,
+          "text": "ない"
+        },
+        {
+          "colour": 2,
+          "text": "別人の娘として、"
+        }
+      ]
+    },
+    {
+      "offset": 18374,
+      "kind": "line",
+      "limit": 11,
+      "source": "ずっと育てていたのだ。",
+      "target": "身份养育她们。"
+    },
+    {
+      "offset": 18412,
+      "kind": "line",
+      "limit": 11,
+      "source": "…いくつも名前を使い",
+      "target": "……他使用着"
+    },
+    {
+      "offset": 18438,
+      "kind": "line",
+      "limit": 11,
+      "source": "分けていた男だ。",
+      "target": "许多不同姓名。"
+    },
+    {
+      "offset": 18460,
+      "kind": "line",
+      "limit": 11,
+      "source": "それくらい容易だろう。",
+      "target": "做到这点很容易。"
+    },
+    {
+      "offset": 18500,
+      "kind": "line",
+      "limit": 11,
+      "source": "二重、三重の生活です。",
+      "target": "过着双重、三重生活。"
+    },
+    {
+      "offset": 18528,
+      "kind": "line",
+      "limit": 11,
+      "source": "ある時は詐欺師、また",
+      "target": "有时是骗子，"
+    },
+    {
+      "offset": 18554,
+      "kind": "line",
+      "limit": 11,
+      "source": "ある時は町工場の社長。",
+      "target": "有时是小工厂的社长。"
+    },
+    {
+      "offset": 18582,
+      "kind": "line",
+      "limit": 11,
+      "source": "そして…",
+      "target": "而且……"
+    },
+    {
+      "offset": 18596,
+      "kind": "line",
+      "limit": 11,
+      "source": "そして、またある時は",
+      "target": "有时又是个父亲，"
+    },
+    {
+      "offset": 18622,
+      "kind": "line",
+      "limit": 11,
+      "source": "全国を旅して回る風来人",
+      "target": "浪迹全国的漂泊者",
+      "runs": [
+        "浪迹全国的",
+        "漂泊者"
+      ],
+      "emphasis": [
+        {
+          "colour": null,
+          "text": "全国を旅して回る"
+        },
+        {
+          "colour": 2,
+          "text": "風来人"
+        }
+      ]
+    },
+    {
+      "offset": 18657,
+      "kind": "line",
+      "limit": 11,
+      "source": "の父親…。",
+      "target": "……"
+    },
+    {
+      "offset": 18681,
+      "kind": "line",
+      "limit": 5,
+      "source": "風来人…？",
+      "target": "漂泊者…？"
+    },
+    {
+      "offset": 18699,
+      "kind": "line",
+      "limit": 11,
+      "source": "家にいれないからだ。",
+      "target": "因为他不能待在家。"
+    },
+    {
+      "offset": 18725,
+      "kind": "line",
+      "limit": 11,
+      "source": "そういうことにして",
+      "target": "这样说"
+    },
+    {
+      "offset": 18749,
+      "kind": "line",
+      "limit": 11,
+      "source": "おいた方が都合がいい。",
+      "target": "对他更方便。"
+    },
+    {
+      "offset": 18779,
+      "kind": "line",
+      "limit": 5,
+      "source": "あ、あの…",
+      "target": "那、那个…"
+    },
+    {
+      "offset": 18802,
+      "kind": "line",
+      "limit": 10,
+      "source": "そ、そういう人物に…",
+      "target": "这、这样的人……"
+    },
+    {
+      "offset": 18828,
+      "kind": "line",
+      "limit": 10,
+      "source": "ひとつ、心当たりが",
+      "target": "我倒是想到"
+    },
+    {
+      "offset": 18852,
+      "kind": "line",
+      "limit": 10,
+      "source": "あるんですけど…。",
+      "target": "一个……"
+    },
+    {
+      "offset": 18878,
+      "kind": "line",
+      "limit": 5,
+      "source": "…正解だ。",
+      "target": "…答对了。"
+    },
+    {
+      "offset": 18896,
+      "kind": "line",
+      "limit": 7,
+      "source": "ま、まさか…。",
+      "target": "难、难道……"
+    },
+    {
+      "offset": 18916,
+      "kind": "line",
+      "limit": 7,
+      "source": "そんな…。",
+      "target": "怎么会……"
+    },
+    {
+      "offset": 18932,
+      "kind": "line",
+      "limit": 5,
+      "source": "…父さん！",
+      "target": "……父亲！"
+    },
+    {
+      "offset": 18950,
+      "kind": "line",
+      "limit": 5,
+      "source": "…………。",
+      "target": "…………"
+    },
+    {
+      "offset": 18968,
+      "kind": "line",
+      "limit": 9,
+      "source": "これで、話は",
+      "target": "这样一来，"
+    },
+    {
+      "offset": 18986,
+      "kind": "line",
+      "limit": 9,
+      "source": "つながりましたね。",
+      "target": "一切都连起来了。"
+    },
+    {
+      "offset": 19019,
+      "kind": "line",
+      "limit": 9,
+      "source": "尼子啓三の、別の",
+      "target": "尼子启三使用的"
+    },
+    {
+      "offset": 19064,
+      "kind": "line",
+      "limit": 9,
+      "source": "名前のひとつこそ…",
+      "target": "另一个姓名就是……"
+    },
+    {
+      "offset": 19090,
+      "kind": "line",
+      "limit": 9,
+      "source": "水島寅男なんです。",
+      "target": "水岛寅男。"
+    },
+    {
+      "offset": 19150,
+      "kind": "line",
+      "limit": 5,
+      "source": "…………。",
+      "target": "…………"
+    },
+    {
+      "offset": 19166,
+      "kind": "line",
+      "limit": 8,
+      "source": "そ、祖父が…!?",
+      "target": "祖、祖父……！？"
+    },
+    {
+      "offset": 19186,
+      "kind": "line",
+      "limit": 11,
+      "source": "じゃ、じゃあ…母が…。",
+      "target": "那、那么……母亲……",
+      "runs": [
+        "那、那么……",
+        "母亲……"
+      ],
+      "emphasis": [
+        {
+          "colour": null,
+          "text": "じゃ、じゃあ…"
+        },
+        {
+          "colour": 2,
+          "text": "母が…。"
+        }
+      ]
+    },
+    {
+      "offset": 19227,
+      "kind": "line",
+      "limit": 11,
+      "source": "母が詐欺師だというのも",
+      "target": "母亲是骗子一事"
+    },
+    {
+      "offset": 19255,
+      "kind": "line",
+      "limit": 11,
+      "source": "もしかして…。",
+      "target": "难道也是……"
+    },
+    {
+      "offset": 19286,
+      "kind": "line",
+      "limit": 9,
+      "source": "尼子の教えが生きて",
+      "target": "尼子的“教诲”"
+    },
+    {
+      "offset": 19343,
+      "kind": "line",
+      "limit": 9,
+      "source": "いることだろう。",
+      "target": "恐怕仍留在她身上。"
+    },
+    {
+      "offset": 19367,
+      "kind": "line",
+      "limit": 9,
+      "source": "そんな、しかし…。",
+      "target": "怎么会，可是……"
+    },
+    {
+      "offset": 19393,
+      "kind": "line",
+      "limit": 11,
+      "source": "どうやら、そういうこと",
+      "target": "看来，"
+    },
+    {
+      "offset": 19421,
+      "kind": "line",
+      "limit": 11,
+      "source": "だったようだな。",
+      "target": "的确是这样。"
+    },
+    {
+      "offset": 19443,
+      "kind": "line",
+      "limit": 10,
+      "source": "私が父と思って追って",
+      "target": "我当成父亲"
+    },
+    {
+      "offset": 19469,
+      "kind": "line",
+      "limit": 10,
+      "source": "いた人物が…",
+      "target": "一直追寻的人……"
+    },
+    {
+      "offset": 19487,
+      "kind": "line",
+      "limit": 11,
+      "source": "実は、勤めていた工場の",
+      "target": "居然就是我曾工作过"
+    },
+    {
+      "offset": 19515,
+      "kind": "line",
+      "limit": 11,
+      "source": "社長だったとはな。",
+      "target": "的工厂社长。"
+    },
+    {
+      "offset": 19539,
+      "kind": "line",
+      "limit": 11,
+      "source": "変装していたとは言え、",
+      "target": "即便他变了装，"
+    },
+    {
+      "offset": 19567,
+      "kind": "line",
+      "limit": 11,
+      "source": "まったく気付かなかった",
+      "target": "完全没能察觉的自己"
+    },
+    {
+      "offset": 19595,
+      "kind": "line",
+      "limit": 11,
+      "source": "自分が悔しい。",
+      "target": "真让我懊悔。"
+    },
+    {
+      "offset": 19627,
+      "kind": "line",
+      "limit": 11,
+      "source": "伝説的な詐欺師だ！",
+      "target": "他可是传说中的骗子！"
+    },
+    {
+      "offset": 19651,
+      "kind": "line",
+      "limit": 11,
+      "source": "そう簡単にバレるような",
+      "target": "怎么可能轻易"
+    },
+    {
+      "offset": 19679,
+      "kind": "line",
+      "limit": 11,
+      "source": "ことはないだろう！",
+      "target": "被人识破！"
+    },
+    {
+      "offset": 19713,
+      "kind": "line",
+      "limit": 7,
+      "source": "…恥じることは",
+      "target": "……你不必"
+    },
+    {
+      "offset": 19733,
+      "kind": "line",
+      "limit": 7,
+      "source": "ありません。",
+      "target": "为此羞愧。"
+    },
+    {
+      "offset": 19753,
+      "kind": "line",
+      "limit": 5,
+      "source": "そうか…。",
+      "target": "这样啊……"
+    },
+    {
+      "offset": 19771,
+      "kind": "line",
+      "limit": 10,
+      "source": "母は、そのことは…。",
+      "target": "母亲知道这件事……？"
+    },
+    {
+      "offset": 19799,
+      "kind": "line",
+      "limit": 11,
+      "source": "おそらく、尼子から",
+      "target": "恐怕她只是"
+    },
+    {
+      "offset": 19845,
+      "kind": "line",
+      "limit": 11,
+      "source": "言われたことに無理やり",
+      "target": "被迫遵照尼子"
+    },
+    {
+      "offset": 19873,
+      "kind": "line",
+      "limit": 11,
+      "source": "従わされていただけで…",
+      "target": "的命令行事……"
+    },
+    {
+      "offset": 19901,
+      "kind": "line",
+      "limit": 11,
+      "source": "…父親がそんな有名な",
+      "target": "……父亲是那样有名的"
+    },
+    {
+      "offset": 19927,
+      "kind": "line",
+      "limit": 11,
+      "source": "詐欺師だとは、思っても",
+      "target": "骗子，她恐怕也没"
+    }
+  ]
+}

@@ -56,3 +56,9 @@ TSV 头是格式版本、游戏进程名、原程序集 SHA256、scratchpad SHA2
 这些不等同于游戏窗口验收。替换成功日志为 `Replaced image <canvas>:<index> with independently owned RGBA texture`。
 
 图片为原游戏素材的中文本地化衍生资源，原作图像权利归原权利人，非代码 MIT 许可内容。
+
+## 公共美术素材
+
+可复用的 UI 图片现在放在 `engine/ui-assets`，其 README 说明样式、原图指纹和引用方法。第八作构建器支持 `sharedAsset`，前作构建器尚未接入该字段；不应把新字段直接写入未适配的旧作配置。图片替换运行时继续保留在本目录及相应引擎适配器。
+
+第八、九作的 Unity 包装层按资源名路由图片，公共入口为 `gmode-v2/src/NamedImageRuntime.cs`。它支持 `CanvasEx.LoadGraphic` 与 `CanvasEx.Image_createImage`；章节写成 `*` 时不依赖 `AppliArchive.AppliIndex`，因此第九作这种单篇包装也可复用。配置若含具体章节号，运行时仍强制校验 `AppliIndex`，避免旧作静默串图。

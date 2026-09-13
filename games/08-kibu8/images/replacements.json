@@ -1,0 +1,168 @@
+{
+  "schema": 1,
+  "game": "kibu8",
+  "images": [
+    {
+      "id": "title-0",
+      "png": "title-0-zh.png",
+      "size": [
+        240,
+        240
+      ],
+      "sources": [
+        {
+          "loader": "Image_createImage",
+          "name": "/title.jpg",
+          "appliIndex": 0
+        }
+      ]
+    },
+    {
+      "id": "title-1",
+      "png": "title-1-zh.png",
+      "size": [
+        240,
+        240
+      ],
+      "sources": [
+        {
+          "loader": "Image_createImage",
+          "name": "/title.jpg",
+          "appliIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "title-2",
+      "png": "title-2-zh.png",
+      "size": [
+        240,
+        240
+      ],
+      "sources": [
+        {
+          "loader": "Image_createImage",
+          "name": "/title.jpg",
+          "appliIndex": 2
+        }
+      ]
+    },
+    {
+      "id": "title-menu0",
+      "size": [
+        109,
+        17
+      ],
+      "sources": [
+        {
+          "loader": "Image_createImage",
+          "name": "/title_menu00.gif"
+        }
+      ],
+      "sharedAsset": "classic-240/title-menu0"
+    },
+    {
+      "id": "title-menu1",
+      "size": [
+        109,
+        17
+      ],
+      "sources": [
+        {
+          "loader": "Image_createImage",
+          "name": "/title_menu01.gif"
+        }
+      ],
+      "sharedAsset": "classic-240/title-menu1"
+    },
+    {
+      "id": "title-menu2",
+      "size": [
+        109,
+        17
+      ],
+      "sources": [
+        {
+          "loader": "Image_createImage",
+          "name": "/title_menu02.gif"
+        }
+      ],
+      "sharedAsset": "classic-240/title-menu2"
+    },
+    {
+      "id": "option",
+      "size": [
+        240,
+        240
+      ],
+      "sources": [
+        {
+          "loader": "LoadGraphic",
+          "name": "option.jpg"
+        }
+      ],
+      "sharedAsset": "classic-240/option"
+    },
+    {
+      "id": "memo-background",
+      "png": "memo-bg-zh.png",
+      "size": [
+        240,
+        240
+      ],
+      "sources": [
+        {
+          "loader": "Image_createImage",
+          "name": "/memo_bg.jpg"
+        }
+      ]
+    },
+    {
+      "id": "memo-profile",
+      "png": "memo-profile-zh.png",
+      "size": [
+        208,
+        88
+      ],
+      "sources": [
+        {
+          "loader": "Image_createImage",
+          "name": "/memo_l00.gif"
+        }
+      ]
+    },
+    {
+      "id": "memo-tab",
+      "png": "memo-tab-zh.png",
+      "size": [
+        18,
+        40
+      ],
+      "sources": [
+        {
+          "loader": "Image_createImage",
+          "name": "/memo_l02.gif"
+        }
+      ],
+      "sourceSize": [
+        18,
+        32
+      ]
+    },
+    {
+      "id": "memo-person-tab",
+      "png": "memo-person-zh.png",
+      "size": [
+        18,
+        40
+      ],
+      "sources": [
+        {
+          "loader": "Image_createImage",
+          "name": "/memo_l01.gif"
+        }
+      ]
+    }
+  ],
+  "shellCover": "titleimage-zh.png"
+}

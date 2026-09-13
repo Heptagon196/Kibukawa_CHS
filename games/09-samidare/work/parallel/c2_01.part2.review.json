@@ -1,0 +1,1092 @@
+{
+  "script": "c2_01",
+  "batch": "c2_01.part2.trans.json",
+  "note": "Independent verification: for each entry decide whether ``target`` is the faithful rendering of ``source`` as its own display line. Report shifts, omissions, additions and mistranslations. An entry with ``emphasis`` is drawn in several colours: ``emphasis`` is the source split and ``runs`` the Chinese split, index for index, and it is the run with a non-null colour that the game highlights. See work/parallel/VERIFIER_BRIEF.md.",
+  "units": [
+    {
+      "offset": 4072,
+      "kind": "line",
+      "limit": 10,
+      "source": "僕の貯金が見つからな",
+      "target": "找不到我的存款，"
+    },
+    {
+      "offset": 4098,
+      "kind": "line",
+      "limit": 10,
+      "source": "かったら、結婚は…？",
+      "target": "我们就不能结婚？"
+    },
+    {
+      "offset": 4126,
+      "kind": "line",
+      "limit": 5,
+      "source": "…………。",
+      "target": "…………"
+    },
+    {
+      "offset": 4142,
+      "kind": "line",
+      "limit": 10,
+      "source": "…残念だけど、諦めた",
+      "target": "…虽然遗憾，我觉得"
+    },
+    {
+      "offset": 4188,
+      "kind": "line",
+      "limit": 10,
+      "source": "方がいいと思う。",
+      "target": "还是放弃比较好。"
+    },
+    {
+      "offset": 4212,
+      "kind": "line",
+      "limit": 5,
+      "source": "そんな…！",
+      "target": "怎么会…！"
+    },
+    {
+      "offset": 4239,
+      "kind": "line",
+      "limit": 11,
+      "source": "でも…ほら、婚姻届けを",
+      "target": "可是…你看，只是提交"
+    },
+    {
+      "offset": 4267,
+      "kind": "line",
+      "limit": 11,
+      "source": "出すだけなら、お金が",
+      "target": "结婚登记的话，"
+    },
+    {
+      "offset": 4293,
+      "kind": "line",
+      "limit": 11,
+      "source": "なくてもできるし…",
+      "target": "没钱也能办…"
+    },
+    {
+      "offset": 4317,
+      "kind": "line",
+      "limit": 11,
+      "source": "それに、どんな貧乏でも",
+      "target": "而且不管多穷，"
+    },
+    {
+      "offset": 4345,
+      "kind": "line",
+      "limit": 11,
+      "source": "幸せに暮らすことは",
+      "target": "人都能过得"
+    },
+    {
+      "offset": 4369,
+      "kind": "line",
+      "limit": 11,
+      "source": "できるんだから。",
+      "target": "幸福。"
+    },
+    {
+      "offset": 4391,
+      "kind": "line",
+      "limit": 10,
+      "source": "現に、うちの家庭も",
+      "target": "我家以前就是"
+    },
+    {
+      "offset": 4415,
+      "kind": "line",
+      "limit": 10,
+      "source": "そうだったわけだし。",
+      "target": "这样过来的。"
+    },
+    {
+      "offset": 4441,
+      "kind": "line",
+      "limit": 11,
+      "source": "お金に執着した生き方を",
+      "target": "执着于金钱的生活，"
+    },
+    {
+      "offset": 4495,
+      "kind": "line",
+      "limit": 11,
+      "source": "しても、良いことなんて",
+      "target": "不会带来任何"
+    },
+    {
+      "offset": 4523,
+      "kind": "line",
+      "limit": 11,
+      "source": "何もないんだよ。",
+      "target": "好事。"
+    },
+    {
+      "offset": 4545,
+      "kind": "line",
+      "limit": 11,
+      "source": "ありきたりの言葉だけど",
+      "target": "虽然是句老话，"
+    },
+    {
+      "offset": 4573,
+      "kind": "line",
+      "limit": 11,
+      "source": "ほら、愛さえあれば、",
+      "target": "你看，只要有爱，"
+    },
+    {
+      "offset": 4599,
+      "kind": "line",
+      "limit": 11,
+      "source": "お金がなくたって…！",
+      "target": "就算没有钱也…！"
+    },
+    {
+      "offset": 4627,
+      "kind": "line",
+      "limit": 3,
+      "source": "……。",
+      "target": "……"
+    },
+    {
+      "offset": 4639,
+      "kind": "line",
+      "limit": 10,
+      "source": "…もちろん、わたしも",
+      "target": "…我当然也不觉得"
+    },
+    {
+      "offset": 4665,
+      "kind": "line",
+      "limit": 10,
+      "source": "世の中、お金がすべて",
+      "target": "这世上金钱就是"
+    },
+    {
+      "offset": 4691,
+      "kind": "line",
+      "limit": 10,
+      "source": "だとは思わないし…",
+      "target": "一切…"
+    },
+    {
+      "offset": 4715,
+      "kind": "line",
+      "limit": 10,
+      "source": "できることなら、",
+      "target": "如果可以，"
+    },
+    {
+      "offset": 4750,
+      "kind": "line",
+      "limit": 10,
+      "source": "螻川内さんと結婚して",
+      "target": "我也想和蝼川内先生"
+    },
+    {
+      "offset": 4782,
+      "kind": "line",
+      "limit": 10,
+      "source": "一緒に暮らしたいよ。",
+      "target": "结婚，一起生活。"
+    },
+    {
+      "offset": 4810,
+      "kind": "line",
+      "limit": 4,
+      "source": "なら…！",
+      "target": "那就…！"
+    },
+    {
+      "offset": 4826,
+      "kind": "line",
+      "limit": 10,
+      "source": "でも…気持ちだけじゃ",
+      "target": "可是…我觉得，"
+    },
+    {
+      "offset": 4852,
+      "kind": "line",
+      "limit": 10,
+      "source": "どうにもならない",
+      "target": "终究还是有些事情"
+    },
+    {
+      "offset": 4874,
+      "kind": "line",
+      "limit": 10,
+      "source": "ことって…",
+      "target": "光靠感情…"
+    },
+    {
+      "offset": 4890,
+      "kind": "line",
+      "limit": 10,
+      "source": "やっぱ、あると思う。",
+      "target": "解决不了。"
+    },
+    {
+      "offset": 4916,
+      "kind": "line",
+      "limit": 11,
+      "source": "それに、最低限、絶対に",
+      "target": "而且连最低限度"
+    },
+    {
+      "offset": 4944,
+      "kind": "line",
+      "limit": 11,
+      "source": "必要な分のお金もない",
+      "target": "绝对需要的钱"
+    },
+    {
+      "offset": 4970,
+      "kind": "line",
+      "limit": 11,
+      "source": "って状態だと…",
+      "target": "都没有的话…"
+    },
+    {
+      "offset": 4990,
+      "kind": "line",
+      "limit": 10,
+      "source": "必ずケンカになるよ。",
+      "target": "我们一定会吵架。"
+    },
+    {
+      "offset": 5018,
+      "kind": "line",
+      "limit": 4,
+      "source": "……!?",
+      "target": "……！？"
+    },
+    {
+      "offset": 5030,
+      "kind": "line",
+      "limit": 10,
+      "source": "ケンカに…なるかな？",
+      "target": "会…吵架吗？"
+    },
+    {
+      "offset": 5058,
+      "kind": "line",
+      "limit": 4,
+      "source": "…うん。",
+      "target": "…嗯。"
+    },
+    {
+      "offset": 5072,
+      "kind": "line",
+      "limit": 8,
+      "source": "わたし、やだよ。",
+      "target": "我不想那样。"
+    },
+    {
+      "offset": 5094,
+      "kind": "line",
+      "limit": 11,
+      "source": "お腹が空いてもいいけど",
+      "target": "挨饿也没关系，"
+    },
+    {
+      "offset": 5135,
+      "kind": "line",
+      "limit": 11,
+      "source": "螻川内さんとケンカは",
+      "target": "但我不想和"
+    },
+    {
+      "offset": 5167,
+      "kind": "line",
+      "limit": 11,
+      "source": "したくないから…。",
+      "target": "蝼川内先生吵架…"
+    },
+    {
+      "offset": 5191,
+      "kind": "line",
+      "limit": 9,
+      "source": "そんなの、幸せとは",
+      "target": "那样不能叫"
+    },
+    {
+      "offset": 5215,
+      "kind": "line",
+      "limit": 9,
+      "source": "言えないよ。",
+      "target": "幸福。"
+    },
+    {
+      "offset": 5235,
+      "kind": "line",
+      "limit": 11,
+      "source": "でも、うちの両親は別に",
+      "target": "可是我父母似乎"
+    },
+    {
+      "offset": 5263,
+      "kind": "line",
+      "limit": 11,
+      "source": "大丈夫そうだけど…。",
+      "target": "一直过得很好…"
+    },
+    {
+      "offset": 5291,
+      "kind": "line",
+      "limit": 10,
+      "source": "…あなたのご両親は、",
+      "target": "…你的父母真的是"
+    },
+    {
+      "offset": 5317,
+      "kind": "line",
+      "limit": 10,
+      "source": "本当に特別な例だと",
+      "target": "非常特殊的"
+    },
+    {
+      "offset": 5341,
+      "kind": "line",
+      "limit": 10,
+      "source": "思う。",
+      "target": "例子。"
+    },
+    {
+      "offset": 5353,
+      "kind": "line",
+      "limit": 11,
+      "source": "わたしは…自信ないよ。",
+      "target": "我…没有信心。"
+    },
+    {
+      "offset": 5383,
+      "kind": "line",
+      "limit": 3,
+      "source": "……。",
+      "target": "……"
+    },
+    {
+      "offset": 5397,
+      "kind": "line",
+      "limit": 11,
+      "source": "わたしだって別に、",
+      "target": "我并不是想要"
+    },
+    {
+      "offset": 5421,
+      "kind": "line",
+      "limit": 11,
+      "source": "ゴージャスな生活を",
+      "target": "过什么奢华的"
+    },
+    {
+      "offset": 5445,
+      "kind": "line",
+      "limit": 11,
+      "source": "望んでるわけじゃない。",
+      "target": "生活。"
+    },
+    {
+      "offset": 5473,
+      "kind": "line",
+      "limit": 8,
+      "source": "…最低限、必要な",
+      "target": "…只要最低限度"
+    },
+    {
+      "offset": 5495,
+      "kind": "line",
+      "limit": 8,
+      "source": "だけでいいの。",
+      "target": "所需的钱就好。"
+    },
+    {
+      "offset": 5515,
+      "kind": "line",
+      "limit": 10,
+      "source": "人並みに生活ができる",
+      "target": "至少得维持普通人的"
+    },
+    {
+      "offset": 5541,
+      "kind": "line",
+      "limit": 10,
+      "source": "くらいは、どうしても",
+      "target": "生活，这些钱"
+    },
+    {
+      "offset": 5567,
+      "kind": "line",
+      "limit": 10,
+      "source": "必要だから…。",
+      "target": "无论如何都需要…"
+    },
+    {
+      "offset": 5587,
+      "kind": "line",
+      "limit": 8,
+      "source": "…でも、ほら。",
+      "target": "…可是你看。"
+    },
+    {
+      "offset": 5607,
+      "kind": "line",
+      "limit": 8,
+      "source": "今ってマイナスの",
+      "target": "我们现在处于"
+    },
+    {
+      "offset": 5629,
+      "kind": "line",
+      "limit": 8,
+      "source": "状態でしょ？",
+      "target": "负债状态吧？"
+    },
+    {
+      "offset": 5647,
+      "kind": "line",
+      "limit": 11,
+      "source": "この先、どんなに働いて",
+      "target": "以后不管怎么工作，"
+    },
+    {
+      "offset": 5675,
+      "kind": "line",
+      "limit": 11,
+      "source": "どんなに稼いでも…",
+      "target": "赚到再多钱…"
+    },
+    {
+      "offset": 5699,
+      "kind": "line",
+      "limit": 11,
+      "source": "そのお金は、右から左に",
+      "target": "也只会转手就"
+    },
+    {
+      "offset": 5727,
+      "kind": "line",
+      "limit": 11,
+      "source": "消えていくだけだよ？",
+      "target": "消失掉，对吧？"
+    },
+    {
+      "offset": 5755,
+      "kind": "line",
+      "limit": 3,
+      "source": "……。",
+      "target": "……"
+    },
+    {
+      "offset": 5767,
+      "kind": "line",
+      "limit": 4,
+      "source": "じゃあ…",
+      "target": "那么…"
+    },
+    {
+      "offset": 5781,
+      "kind": "line",
+      "limit": 11,
+      "source": "じゃあ、このまま僕の",
+      "target": "那么，如果一直"
+    },
+    {
+      "offset": 5807,
+      "kind": "line",
+      "limit": 11,
+      "source": "貯金が見つからないまま",
+      "target": "找不到我的存款，"
+    },
+    {
+      "offset": 5835,
+      "kind": "line",
+      "limit": 11,
+      "source": "だったら、君は…",
+      "target": "你会…"
+    },
+    {
+      "offset": 5866,
+      "kind": "line",
+      "limit": 11,
+      "source": "慧美さんは…それに",
+      "target": "慧美…还有"
+    },
+    {
+      "offset": 5896,
+      "kind": "line",
+      "limit": 11,
+      "source": "君の家は、どうなるの？",
+      "target": "你家会怎么样？"
+    },
+    {
+      "offset": 5926,
+      "kind": "line",
+      "limit": 4,
+      "source": "………。",
+      "target": "………"
+    },
+    {
+      "offset": 5940,
+      "kind": "line",
+      "limit": 6,
+      "source": "とりあえず…",
+      "target": "总之…"
+    },
+    {
+      "offset": 5958,
+      "kind": "line",
+      "limit": 11,
+      "source": "わたしがとにかく働いて",
+      "target": "我会拼命工作，"
+    },
+    {
+      "offset": 5986,
+      "kind": "line",
+      "limit": 11,
+      "source": "できるだけ返せるよう、",
+      "target": "争取尽可能多"
+    },
+    {
+      "offset": 6014,
+      "kind": "line",
+      "limit": 11,
+      "source": "頑張ってみようと思う。",
+      "target": "还一些钱。"
+    },
+    {
+      "offset": 6044,
+      "kind": "line",
+      "limit": 10,
+      "source": "さ、慧美さんが働いて",
+      "target": "可、可就算慧美"
+    },
+    {
+      "offset": 6090,
+      "kind": "line",
+      "limit": 10,
+      "source": "返すって言っても…",
+      "target": "工作还债…"
+    },
+    {
+      "offset": 6114,
+      "kind": "line",
+      "limit": 7,
+      "source": "ま、まさか…。",
+      "target": "难、难道…"
+    },
+    {
+      "offset": 6136,
+      "kind": "line",
+      "limit": 4,
+      "source": "うん…。",
+      "target": "嗯…"
+    },
+    {
+      "offset": 6150,
+      "kind": "line",
+      "limit": 11,
+      "source": "…女のわたしにできる",
+      "target": "…女人能做的"
+    },
+    {
+      "offset": 6176,
+      "kind": "line",
+      "limit": 11,
+      "source": "割のいい仕事と言えば、",
+      "target": "高报酬工作，"
+    },
+    {
+      "offset": 6209,
+      "kind": "line",
+      "limit": 11,
+      "source": "そういう仕事だよ。",
+      "target": "就是那种工作。"
+    },
+    {
+      "offset": 6274,
+      "kind": "line",
+      "limit": 3,
+      "source": "……！",
+      "target": "……！"
+    },
+    {
+      "offset": 6298,
+      "kind": "line",
+      "limit": 11,
+      "source": "こう、少しばかり美人に",
+      "target": "得感谢妈妈把我"
+    },
+    {
+      "offset": 6326,
+      "kind": "line",
+      "limit": 11,
+      "source": "生んでくれたお母さんに",
+      "target": "生得还算有几分"
+    },
+    {
+      "offset": 6354,
+      "kind": "line",
+      "limit": 11,
+      "source": "感謝しなくちゃね。",
+      "target": "姿色呢。"
+    },
+    {
+      "offset": 6380,
+      "kind": "line",
+      "limit": 5,
+      "source": "そんな…！",
+      "target": "怎么能…！"
+    },
+    {
+      "offset": 6396,
+      "kind": "line",
+      "limit": 5,
+      "source": "…いやだ！",
+      "target": "…不行！"
+    },
+    {
+      "offset": 6412,
+      "kind": "line",
+      "limit": 11,
+      "source": "…やめてくれ、",
+      "target": "…别这样，"
+    },
+    {
+      "offset": 6432,
+      "kind": "line",
+      "limit": 11,
+      "source": "そんなの耐えられない！",
+      "target": "我无法忍受！"
+    },
+    {
+      "offset": 6472,
+      "kind": "line",
+      "limit": 11,
+      "source": "でも、そうでもしないと",
+      "target": "可是，不这么做"
+    },
+    {
+      "offset": 6500,
+      "kind": "line",
+      "limit": 11,
+      "source": "とても返せないから…",
+      "target": "根本还不清…"
+    },
+    {
+      "offset": 6526,
+      "kind": "line",
+      "limit": 10,
+      "source": "さもなければ、一生、",
+      "target": "要不就得一辈子"
+    },
+    {
+      "offset": 6552,
+      "kind": "line",
+      "limit": 10,
+      "source": "借金から逃げながら",
+      "target": "躲着债务"
+    },
+    {
+      "offset": 6576,
+      "kind": "line",
+      "limit": 10,
+      "source": "暮らすか…",
+      "target": "生活…"
+    },
+    {
+      "offset": 6592,
+      "kind": "line",
+      "limit": 10,
+      "source": "あとは、一家揃って…",
+      "target": "再不然，全家一起…"
+    },
+    {
+      "offset": 6636,
+      "kind": "line",
+      "limit": 9,
+      "source": "……ううん。",
+      "target": "……不。"
+    },
+    {
+      "offset": 6654,
+      "kind": "line",
+      "limit": 9,
+      "source": "これは言えないね。",
+      "target": "这话不能说。"
+    },
+    {
+      "offset": 6678,
+      "kind": "line",
+      "limit": 9,
+      "source": "…でも、どのみち",
+      "target": "…但无论如何，"
+    },
+    {
+      "offset": 6713,
+      "kind": "line",
+      "limit": 9,
+      "source": "螻川内さんとはもう",
+      "target": "我都再也见不到"
+    },
+    {
+      "offset": 6743,
+      "kind": "line",
+      "limit": 9,
+      "source": "会えなくなるよ。",
+      "target": "蝼川内先生了。"
+    },
+    {
+      "offset": 6767,
+      "kind": "line",
+      "limit": 7,
+      "source": "…う、うぅ…。",
+      "target": "…呜、呜呜…"
+    },
+    {
+      "offset": 6787,
+      "kind": "line",
+      "limit": 9,
+      "source": "そんな君に対して、",
+      "target": "面对这样的你，"
+    },
+    {
+      "offset": 6811,
+      "kind": "line",
+      "limit": 9,
+      "source": "僕ができることは",
+      "target": "难道我什么"
+    },
+    {
+      "offset": 6833,
+      "kind": "line",
+      "limit": 9,
+      "source": "何もないのか…!?",
+      "target": "也做不了吗…！？"
+    },
+    {
+      "offset": 6857,
+      "kind": "line",
+      "limit": 5,
+      "source": "…だから…",
+      "target": "…所以…"
+    },
+    {
+      "offset": 6873,
+      "kind": "line",
+      "limit": 10,
+      "source": "明日までに５００万円",
+      "target": "只要明天之前"
+    },
+    {
+      "offset": 6899,
+      "kind": "line",
+      "limit": 10,
+      "source": "さえ返せれば、すべて",
+      "target": "还上５００万日元，"
+    },
+    {
+      "offset": 6925,
+      "kind": "line",
+      "limit": 10,
+      "source": "解決するんだよ…。",
+      "target": "一切就解决了…"
+    },
+    {
+      "offset": 6958,
+      "kind": "line",
+      "limit": 7,
+      "source": "結局、それしか",
+      "target": "到头来，只有"
+    },
+    {
+      "offset": 6978,
+      "kind": "line",
+      "limit": 7,
+      "source": "ないんだね…。",
+      "target": "这一个办法…"
+    },
+    {
+      "offset": 7000,
+      "kind": "line",
+      "limit": 4,
+      "source": "うん…。",
+      "target": "嗯…"
+    },
+    {
+      "offset": 7027,
+      "kind": "line",
+      "limit": 8,
+      "source": "螻川内さんだけが",
+      "target": "我只能依靠"
+    },
+    {
+      "offset": 7055,
+      "kind": "line",
+      "limit": 8,
+      "source": "頼りなんだよ。",
+      "target": "蝼川内先生。"
+    },
+    {
+      "offset": 7077,
+      "kind": "line",
+      "limit": 3,
+      "source": "……。",
+      "target": "……"
+    },
+    {
+      "offset": 7106,
+      "kind": "line",
+      "limit": 10,
+      "source": "お金さえ返せれば、",
+      "target": "只要把钱还上，"
+    },
+    {
+      "offset": 7130,
+      "kind": "line",
+      "limit": 10,
+      "source": "結婚だってできるよ。",
+      "target": "我们也能结婚。"
+    },
+    {
+      "offset": 7156,
+      "kind": "line",
+      "limit": 11,
+      "source": "わたしも、螻川内さんと",
+      "target": "我也想和蝼川内先生"
+    },
+    {
+      "offset": 7208,
+      "kind": "line",
+      "limit": 11,
+      "source": "結婚したいよ…。",
+      "target": "结婚…"
+    },
+    {
+      "offset": 7259,
+      "kind": "line",
+      "limit": 7,
+      "source": "…あ、そうだ。",
+      "target": "…啊，对了。"
+    },
+    {
+      "offset": 7279,
+      "kind": "line",
+      "limit": 10,
+      "source": "あの…結婚する前に、",
+      "target": "那个…结婚之前，"
+    },
+    {
+      "offset": 7305,
+      "kind": "line",
+      "limit": 10,
+      "source": "君の両親に挨拶をして",
+      "target": "我想先去拜访"
+    },
+    {
+      "offset": 7353,
+      "kind": "line",
+      "limit": 10,
+      "source": "おきたいんだけど…。",
+      "target": "你的父母…"
+    },
+    {
+      "offset": 7381,
+      "kind": "line",
+      "limit": 11,
+      "source": "…ごめん。",
+      "target": "…对不起。"
+    },
+    {
+      "offset": 7397,
+      "kind": "line",
+      "limit": 11,
+      "source": "うちの両親、今、それ",
+      "target": "我父母现在顾不上"
+    },
+    {
+      "offset": 7423,
+      "kind": "line",
+      "limit": 11,
+      "source": "どころじゃないから…。",
+      "target": "这种事…"
+    },
+    {
+      "offset": 7453,
+      "kind": "line",
+      "limit": 9,
+      "source": "そ、そうだよね…。",
+      "target": "也、也是啊…"
+    },
+    {
+      "offset": 7477,
+      "kind": "line",
+      "limit": 9,
+      "source": "ごめん…。",
+      "target": "对不起…"
+    },
+    {
+      "offset": 7504,
+      "kind": "line",
+      "limit": 11,
+      "source": "う、うちの母親にも",
+      "target": "那要不要也先"
+    },
+    {
+      "offset": 7539,
+      "kind": "line",
+      "limit": 11,
+      "source": "挨拶をしておくかい…？",
+      "target": "见见我母亲…？"
+    },
+    {
+      "offset": 7575,
+      "kind": "line",
+      "limit": 11,
+      "source": "でも…こんなわたしじゃ",
+      "target": "可是…我现在这样"
+    },
+    {
+      "offset": 7603,
+      "kind": "line",
+      "limit": 11,
+      "source": "申し訳なくて、合わせる",
+      "target": "实在太失礼，没脸"
+    },
+    {
+      "offset": 7631,
+      "kind": "line",
+      "limit": 11,
+      "source": "顔がないよ。",
+      "target": "去见她。"
+    },
+    {
+      "offset": 7662,
+      "kind": "line",
+      "limit": 10,
+      "source": "螻川内さんの家も、",
+      "target": "蝼川内先生家里"
+    },
+    {
+      "offset": 7692,
+      "kind": "line",
+      "limit": 10,
+      "source": "お金で苦労してたって",
+      "target": "也曾为钱发愁，"
+    },
+    {
+      "offset": 7718,
+      "kind": "line",
+      "limit": 10,
+      "source": "言ってたよね？",
+      "target": "对吧？"
+    },
+    {
+      "offset": 7738,
+      "kind": "line",
+      "limit": 11,
+      "source": "それなのにわたし、また",
+      "target": "可我又要因为钱"
+    },
+    {
+      "offset": 7766,
+      "kind": "line",
+      "limit": 11,
+      "source": "お金で迷惑かけて…。",
+      "target": "给你添麻烦…"
+    },
+    {
+      "offset": 7794,
+      "kind": "line",
+      "limit": 9,
+      "source": "わ、わかった。",
+      "target": "我、我明白了。"
+    },
+    {
+      "offset": 7814,
+      "kind": "line",
+      "limit": 9,
+      "source": "じゃあ、今回の件が",
+      "target": "那就等这件事"
+    },
+    {
+      "offset": 7838,
+      "kind": "line",
+      "limit": 9,
+      "source": "片付いたら、で…。",
+      "target": "解决以后再说…"
+    },
+    {
+      "offset": 7874,
+      "kind": "line",
+      "limit": 9,
+      "source": "うん。早く",
+      "target": "嗯。希望能"
+    },
+    {
+      "offset": 7890,
+      "kind": "line",
+      "limit": 9,
+      "source": "そうなるといいね。",
+      "target": "早点解决。"
+    },
+    {
+      "offset": 7935,
+      "kind": "line",
+      "limit": 10,
+      "source": "結婚も危ういんだから",
+      "target": "婚事都岌岌可危了，"
+    },
+    {
+      "offset": 7961,
+      "kind": "line",
+      "limit": 10,
+      "source": "今は両親の話はやめて",
+      "target": "现在先别谈父母"
+    },
+    {
+      "offset": 7987,
+      "kind": "line",
+      "limit": 10,
+      "source": "おこうよ。",
+      "target": "的事吧。"
+    },
+    {
+      "offset": 8005,
+      "kind": "line",
+      "limit": 2,
+      "source": "…。",
+      "target": "…"
+    },
+    {
+      "offset": 8021,
+      "kind": "choice",
+      "limit": 0,
+      "source": "森慧美",
+      "target": "森慧美"
+    },
+    {
+      "offset": 8049,
+      "kind": "line",
+      "limit": 10,
+      "source": "正直、私にはもったい",
+      "target": "老实说，她好得"
+    },
+    {
+      "offset": 8075,
+      "kind": "line",
+      "limit": 10,
+      "source": "ないくらいの素敵な",
+      "target": "甚至令我觉得"
+    },
+    {
+      "offset": 8099,
+      "kind": "line",
+      "limit": 10,
+      "source": "女性だ。",
+      "target": "自己配不上她。"
+    }
+  ]
+}

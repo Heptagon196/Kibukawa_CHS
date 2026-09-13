@@ -1,0 +1,98 @@
+{
+  "schema": 1,
+  "source_relative": "kibu9_Data/StreamingAssets/localization",
+  "asset": "Localization",
+  "note": "The game's own UI/label CSV (Key/ja/en). The en column is reference only and is never the translation source. The runtime replaces Steezy.Localize.Localization::Get by key, so only target is needed here.",
+  "entries": [
+    {
+      "key": "pause_menu_label_howtoplay",
+      "source": "あそびかた",
+      "target": "",
+      "reference": "How to play"
+    },
+    {
+      "key": "pause_menu_label_frame",
+      "source": "フレーム",
+      "target": "",
+      "reference": "Frame"
+    },
+    {
+      "key": "pause_menu_label_filter",
+      "source": "フィルタ",
+      "target": "",
+      "reference": "Filter"
+    },
+    {
+      "key": "pause_menu_label_ranking",
+      "source": "ランキング",
+      "target": "",
+      "reference": "Ranking"
+    },
+    {
+      "key": "pause_menu_label_backtitle",
+      "source": "タイトルに戻る",
+      "target": "",
+      "reference": "Title screen"
+    },
+    {
+      "key": "pause_menu_label_close",
+      "source": "閉じる",
+      "target": "",
+      "reference": "Resume"
+    },
+    {
+      "key": "common_dialog_titlescreen_msg",
+      "source": "タイトル画面に戻りますか？",
+      "target": "",
+      "reference": "Back to title screen?"
+    },
+    {
+      "key": "common_dialog_disconnected_msg",
+      "source": "ネットワークから切断されました",
+      "target": "",
+      "reference": "You have been disconnected from the Internet"
+    },
+    {
+      "key": "common_dialog_exit_game_msg",
+      "source": "ゲームを終了しますか？",
+      "target": "",
+      "reference": "Do you want to exit the game?"
+    },
+    {
+      "key": "common_dialog_yes_label",
+      "source": "はい",
+      "target": "",
+      "reference": "Yes"
+    },
+    {
+      "key": "common_dialog_no_label",
+      "source": "いいえ",
+      "target": "",
+      "reference": "No"
+    },
+    {
+      "key": "loading_autosave_msg",
+      "source": "本ゲームはオートセーブに対応しておりません。\n終了する際は、ゲーム内のセーブ機能をご利用ください。",
+      "target": "",
+      "reference": "This game does not support auto-save.\nPlease make sure to save before closing the game."
+    },
+    {
+      "key": "ranking_get_ranking_msg",
+      "source": "ランキングを取得する",
+      "target": "",
+      "reference": "Get Ranking"
+    },
+    {
+      "key": "ranking_load_ranking_msg",
+      "source": "Loading...",
+      "target": "",
+      "reference": "Loading..."
+    },
+    {
+      "key": "ranking_unranked_label",
+      "source": "ランク外",
+      "target": "",
+      "reference": "Unranked"
+    }
+  ]
+}

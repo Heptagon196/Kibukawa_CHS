@@ -1,0 +1,890 @@
+{
+  "schema": 1,
+  "game": "kibu8",
+  "source_asset": "kibu8_Data/Managed/Assembly-CSharp.dll",
+  "source_inventory": "research/assembly-strings.json",
+  "addressing": "method token plus zero-based IL instruction ordinal, with exact source text guard",
+  "entries": [
+    {
+      "token": 100663333,
+      "instruction": 11,
+      "method": "System.Void CharacterInputDialog::<InputConfirm>b__25_0(UnityEngine.GameObject)",
+      "source_text": "「{0}」で宜しいですか？",
+      "target_text": "确定使用“{0}”吗？",
+      "classification": "player_ui",
+      "review_status": "translated_reviewed"
+    },
+    {
+      "token": 100663346,
+      "instruction": 64,
+      "method": "System.Void CharacterInputKeyManager::Init()",
+      "source_text": "削除",
+      "target_text": "删除",
+      "classification": "player_ui",
+      "review_status": "translated_reviewed"
+    },
+    {
+      "token": 100663346,
+      "instruction": 86,
+      "method": "System.Void CharacterInputKeyManager::Init()",
+      "source_text": "決定",
+      "target_text": "确定",
+      "classification": "player_ui",
+      "review_status": "translated_reviewed"
+    },
+    {
+      "token": 100663348,
+      "instruction": 9,
+      "method": "System.Void CharacterInputKeyManager::ChangeKey(System.String,System.Boolean)",
+      "source_text": "漢字",
+      "target_text": "漢字",
+      "classification": "technical_sentinel",
+      "review_status": "preserve_technical"
+    },
+    {
+      "token": 100663352,
+      "instruction": 2,
+      "method": "System.Boolean CharacterInputKeyManager::ChangeKanjiPageNext()",
+      "source_text": "漢字",
+      "target_text": "漢字",
+      "classification": "technical_sentinel",
+      "review_status": "preserve_technical"
+    },
+    {
+      "token": 100663353,
+      "instruction": 2,
+      "method": "System.Boolean CharacterInputKeyManager::ChangeKanjiPagePrev()",
+      "source_text": "漢字",
+      "target_text": "漢字",
+      "classification": "technical_sentinel",
+      "review_status": "preserve_technical"
+    },
+    {
+      "token": 100663355,
+      "instruction": 74,
+      "method": "System.Void CharacterInputKeyManager::LoopNavigation(CharacterInputKeyItem/Direction)",
+      "source_text": "漢字",
+      "target_text": "漢字",
+      "classification": "technical_sentinel",
+      "review_status": "preserve_technical"
+    },
+    {
+      "token": 100663476,
+      "instruction": 4,
+      "method": "System.Void WindowDialog::.ctor()",
+      "source_text": "フルスクリーン",
+      "target_text": "全屏",
+      "classification": "player_ui",
+      "review_status": "translated_reviewed"
+    },
+    {
+      "token": 100663735,
+      "instruction": 12,
+      "method": "System.Void CanvasEx::PaintKakin(Socotra.UI.StGraphics)",
+      "source_text": "課金チェック中…",
+      "target_text": "正在检查付费状态……",
+      "classification": "legacy_service_ui",
+      "review_status": "translated_reviewed"
+    },
+    {
+      "token": 100663735,
+      "instruction": 21,
+      "method": "System.Void CanvasEx::PaintKakin(Socotra.UI.StGraphics)",
+      "source_text": "ゲームランチに登録",
+      "target_text": "尚未注册",
+      "classification": "legacy_service_ui",
+      "review_status": "provisional_service_name",
+      "note": "ゲームランチ 服务名暂按字面译为游戏午餐；两个同屏显示行一起阅读。未确认该旧手机服务界面在移植版是否可达。"
+    },
+    {
+      "token": 100663735,
+      "instruction": 29,
+      "method": "System.Void CanvasEx::PaintKakin(Socotra.UI.StGraphics)",
+      "source_text": "されていません。　",
+      "target_text": "游戏午餐服务。",
+      "classification": "legacy_service_ui",
+      "review_status": "provisional_service_name",
+      "note": "ゲームランチ 服务名暂按字面译为游戏午餐；两个同屏显示行一起阅读。未确认该旧手机服务界面在移植版是否可达。"
+    },
+    {
+      "token": 100663735,
+      "instruction": 38,
+      "method": "System.Void CanvasEx::PaintKakin(Socotra.UI.StGraphics)",
+      "source_text": "ネットワークの接続に",
+      "target_text": "网络连接",
+      "classification": "legacy_service_ui",
+      "review_status": "translated_reviewed"
+    },
+    {
+      "token": 100663735,
+      "instruction": 46,
+      "method": "System.Void CanvasEx::PaintKakin(Socotra.UI.StGraphics)",
+      "source_text": "失敗しました。　　　",
+      "target_text": "失败。",
+      "classification": "legacy_service_ui",
+      "review_status": "translated_reviewed"
+    },
+    {
+      "token": 100663737,
+      "instruction": 356,
+      "method": "System.Void CanvasEx::Game_title()",
+      "source_text": "戻る",
+      "target_text": "返回",
+      "classification": "player_ui",
+      "review_status": "translated_reviewed"
+    },
+    {
+      "token": 100663737,
+      "instruction": 638,
+      "method": "System.Void CanvasEx::Game_title()",
+      "source_text": "ﾒﾆｭｰ",
+      "target_text": "菜单",
+      "classification": "player_ui",
+      "review_status": "translated_reviewed"
+    },
+    {
+      "token": 100663737,
+      "instruction": 654,
+      "method": "System.Void CanvasEx::Game_title()",
+      "source_text": "戻る",
+      "target_text": "返回",
+      "classification": "player_ui",
+      "review_status": "translated_reviewed"
+    },
+    {
+      "token": 100663746,
+      "instruction": 39,
+      "method": "System.Void CanvasEx::PaintMenu(Socotra.UI.StGraphics)",
+      "source_text": "　 サウンド",
+      "target_text": "声音",
+      "classification": "player_ui",
+      "review_status": "translated_reviewed"
+    },
+    {
+      "token": 100663746,
+      "instruction": 61,
+      "method": "System.Void CanvasEx::PaintMenu(Socotra.UI.StGraphics)",
+      "source_text": "　 BGM設定",
+      "target_text": "背景音乐设置",
+      "classification": "player_ui",
+      "review_status": "translated_reviewed"
+    },
+    {
+      "token": 100663746,
+      "instruction": 83,
+      "method": "System.Void CanvasEx::PaintMenu(Socotra.UI.StGraphics)",
+      "source_text": "　　SE設定",
+      "target_text": "音效设置",
+      "classification": "player_ui",
+      "review_status": "translated_reviewed"
+    },
+    {
+      "token": 100663746,
+      "instruction": 105,
+      "method": "System.Void CanvasEx::PaintMenu(Socotra.UI.StGraphics)",
+      "source_text": "タイトルに戻る",
+      "target_text": "返回标题画面",
+      "classification": "player_ui",
+      "review_status": "translated_reviewed"
+    },
+    {
+      "token": 100663746,
+      "instruction": 127,
+      "method": "System.Void CanvasEx::PaintMenu(Socotra.UI.StGraphics)",
+      "source_text": "ON",
+      "target_text": "开",
+      "classification": "player_ui",
+      "review_status": "translated_reviewed"
+    },
+    {
+      "token": 100663746,
+      "instruction": 148,
+      "method": "System.Void CanvasEx::PaintMenu(Socotra.UI.StGraphics)",
+      "source_text": "OFF",
+      "target_text": "关",
+      "classification": "player_ui",
+      "review_status": "translated_reviewed"
+    },
+    {
+      "token": 100663746,
+      "instruction": 482,
+      "method": "System.Void CanvasEx::PaintMenu(Socotra.UI.StGraphics)",
+      "source_text": "ロードします。よろしいですか？",
+      "target_text": "要读取存档吗？",
+      "classification": "player_ui",
+      "review_status": "translated_reviewed"
+    },
+    {
+      "token": 100663746,
+      "instruction": 493,
+      "method": "System.Void CanvasEx::PaintMenu(Socotra.UI.StGraphics)",
+      "source_text": "はい",
+      "target_text": "是",
+      "classification": "player_ui",
+      "review_status": "translated_reviewed"
+    },
+    {
+      "token": 100663746,
+      "instruction": 500,
+      "method": "System.Void CanvasEx::PaintMenu(Socotra.UI.StGraphics)",
+      "source_text": "いいえ",
+      "target_text": "否",
+      "classification": "player_ui",
+      "review_status": "translated_reviewed"
+    },
+    {
+      "token": 100663746,
+      "instruction": 521,
+      "method": "System.Void CanvasEx::PaintMenu(Socotra.UI.StGraphics)",
+      "source_text": "はい",
+      "target_text": "是",
+      "classification": "player_ui",
+      "review_status": "translated_reviewed"
+    },
+    {
+      "token": 100663746,
+      "instruction": 533,
+      "method": "System.Void CanvasEx::PaintMenu(Socotra.UI.StGraphics)",
+      "source_text": "いいえ",
+      "target_text": "否",
+      "classification": "player_ui",
+      "review_status": "translated_reviewed"
+    },
+    {
+      "token": 100663746,
+      "instruction": 557,
+      "method": "System.Void CanvasEx::PaintMenu(Socotra.UI.StGraphics)",
+      "source_text": "　　ロード",
+      "target_text": "读取存档",
+      "classification": "player_ui",
+      "review_status": "translated_reviewed"
+    },
+    {
+      "token": 100663746,
+      "instruction": 577,
+      "method": "System.Void CanvasEx::PaintMenu(Socotra.UI.StGraphics)",
+      "source_text": "ゲームを続ける",
+      "target_text": "继续游戏",
+      "classification": "player_ui",
+      "review_status": "translated_reviewed"
+    },
+    {
+      "token": 100663746,
+      "instruction": 615,
+      "method": "System.Void CanvasEx::PaintMenu(Socotra.UI.StGraphics)",
+      "source_text": "ロードします。よろしいですか？",
+      "target_text": "要读取存档吗？",
+      "classification": "player_ui",
+      "review_status": "translated_reviewed"
+    },
+    {
+      "token": 100663746,
+      "instruction": 626,
+      "method": "System.Void CanvasEx::PaintMenu(Socotra.UI.StGraphics)",
+      "source_text": "はい",
+      "target_text": "是",
+      "classification": "player_ui",
+      "review_status": "translated_reviewed"
+    },
+    {
+      "token": 100663746,
+      "instruction": 633,
+      "method": "System.Void CanvasEx::PaintMenu(Socotra.UI.StGraphics)",
+      "source_text": "いいえ",
+      "target_text": "否",
+      "classification": "player_ui",
+      "review_status": "translated_reviewed"
+    },
+    {
+      "token": 100663746,
+      "instruction": 654,
+      "method": "System.Void CanvasEx::PaintMenu(Socotra.UI.StGraphics)",
+      "source_text": "はい",
+      "target_text": "是",
+      "classification": "player_ui",
+      "review_status": "translated_reviewed"
+    },
+    {
+      "token": 100663746,
+      "instruction": 666,
+      "method": "System.Void CanvasEx::PaintMenu(Socotra.UI.StGraphics)",
+      "source_text": "いいえ",
+      "target_text": "否",
+      "classification": "player_ui",
+      "review_status": "translated_reviewed"
+    },
+    {
+      "token": 100663746,
+      "instruction": 686,
+      "method": "System.Void CanvasEx::PaintMenu(Socotra.UI.StGraphics)",
+      "source_text": "タイトルに戻る",
+      "target_text": "返回标题画面",
+      "classification": "player_ui",
+      "review_status": "translated_reviewed"
+    },
+    {
+      "token": 100663746,
+      "instruction": 706,
+      "method": "System.Void CanvasEx::PaintMenu(Socotra.UI.StGraphics)",
+      "source_text": "タイトル画面に戻ります。",
+      "target_text": "即将返回标题画面。",
+      "classification": "player_ui",
+      "review_status": "translated_reviewed"
+    },
+    {
+      "token": 100663746,
+      "instruction": 713,
+      "method": "System.Void CanvasEx::PaintMenu(Socotra.UI.StGraphics)",
+      "source_text": "よろしいですか？",
+      "target_text": "确定吗？",
+      "classification": "player_ui",
+      "review_status": "translated_reviewed"
+    },
+    {
+      "token": 100663746,
+      "instruction": 724,
+      "method": "System.Void CanvasEx::PaintMenu(Socotra.UI.StGraphics)",
+      "source_text": "はい",
+      "target_text": "是",
+      "classification": "player_ui",
+      "review_status": "translated_reviewed"
+    },
+    {
+      "token": 100663746,
+      "instruction": 731,
+      "method": "System.Void CanvasEx::PaintMenu(Socotra.UI.StGraphics)",
+      "source_text": "いいえ",
+      "target_text": "否",
+      "classification": "player_ui",
+      "review_status": "translated_reviewed"
+    },
+    {
+      "token": 100663746,
+      "instruction": 752,
+      "method": "System.Void CanvasEx::PaintMenu(Socotra.UI.StGraphics)",
+      "source_text": "はい",
+      "target_text": "是",
+      "classification": "player_ui",
+      "review_status": "translated_reviewed"
+    },
+    {
+      "token": 100663746,
+      "instruction": 764,
+      "method": "System.Void CanvasEx::PaintMenu(Socotra.UI.StGraphics)",
+      "source_text": "いいえ",
+      "target_text": "否",
+      "classification": "player_ui",
+      "review_status": "translated_reviewed"
+    },
+    {
+      "token": 100663748,
+      "instruction": 14,
+      "method": "System.Void CanvasEx::PaintInit(Socotra.UI.StGraphics)",
+      "source_text": "データ展開中",
+      "target_text": "正在解压数据",
+      "classification": "player_ui",
+      "review_status": "translated_reviewed"
+    },
+    {
+      "token": 100663749,
+      "instruction": 21,
+      "method": "System.Void CanvasEx::PaintDocomo(Socotra.UI.StGraphics)",
+      "source_text": "データ確認中…",
+      "target_text": "正在检查数据……",
+      "classification": "legacy_service_ui",
+      "review_status": "translated_reviewed"
+    },
+    {
+      "token": 100663749,
+      "instruction": 282,
+      "method": "System.Void CanvasEx::PaintDocomo(Socotra.UI.StGraphics)",
+      "source_text": "画像ダウンロード",
+      "target_text": "下载图像",
+      "classification": "legacy_service_ui",
+      "review_status": "translated_reviewed"
+    },
+    {
+      "token": 100663749,
+      "instruction": 541,
+      "method": "System.Void CanvasEx::PaintDocomo(Socotra.UI.StGraphics)",
+      "source_text": "音楽ダウンロード",
+      "target_text": "下载音乐",
+      "classification": "legacy_service_ui",
+      "review_status": "translated_reviewed"
+    },
+    {
+      "token": 100663749,
+      "instruction": 800,
+      "method": "System.Void CanvasEx::PaintDocomo(Socotra.UI.StGraphics)",
+      "source_text": "ダウンロード成功",
+      "target_text": "下载成功",
+      "classification": "legacy_service_ui",
+      "review_status": "translated_reviewed"
+    },
+    {
+      "token": 100663749,
+      "instruction": 813,
+      "method": "System.Void CanvasEx::PaintDocomo(Socotra.UI.StGraphics)",
+      "source_text": "ダウンロードに失敗",
+      "target_text": "下载",
+      "classification": "legacy_service_ui",
+      "review_status": "translated_reviewed"
+    },
+    {
+      "token": 100663749,
+      "instruction": 821,
+      "method": "System.Void CanvasEx::PaintDocomo(Socotra.UI.StGraphics)",
+      "source_text": "しました。",
+      "target_text": "失败。",
+      "classification": "legacy_service_ui",
+      "review_status": "translated_reviewed"
+    },
+    {
+      "token": 100663749,
+      "instruction": 829,
+      "method": "System.Void CanvasEx::PaintDocomo(Socotra.UI.StGraphics)",
+      "source_text": "移動中や電波が弱い場合",
+      "target_text": "移动中或信号较弱时，",
+      "classification": "legacy_service_ui",
+      "review_status": "translated_reviewed"
+    },
+    {
+      "token": 100663749,
+      "instruction": 837,
+      "method": "System.Void CanvasEx::PaintDocomo(Socotra.UI.StGraphics)",
+      "source_text": "起こりやすい現象です。",
+      "target_text": "容易出现这种情况。",
+      "classification": "legacy_service_ui",
+      "review_status": "translated_reviewed"
+    },
+    {
+      "token": 100663749,
+      "instruction": 845,
+      "method": "System.Void CanvasEx::PaintDocomo(Socotra.UI.StGraphics)",
+      "source_text": "再度起動してください。",
+      "target_text": "请重新启动。",
+      "classification": "legacy_service_ui",
+      "review_status": "translated_reviewed"
+    },
+    {
+      "token": 100663749,
+      "instruction": 854,
+      "method": "System.Void CanvasEx::PaintDocomo(Socotra.UI.StGraphics)",
+      "source_text": "シナリオダウンロード",
+      "target_text": "下载剧情",
+      "classification": "legacy_service_ui",
+      "review_status": "translated_reviewed"
+    },
+    {
+      "token": 100663756,
+      "instruction": 53,
+      "method": "System.Void CanvasEx::PaintLoad(Socotra.UI.StGraphics)",
+      "source_text": "ロードします。よろしいですか？",
+      "target_text": "要读取存档吗？",
+      "classification": "player_ui",
+      "review_status": "translated_reviewed"
+    },
+    {
+      "token": 100663756,
+      "instruction": 64,
+      "method": "System.Void CanvasEx::PaintLoad(Socotra.UI.StGraphics)",
+      "source_text": "はい",
+      "target_text": "是",
+      "classification": "player_ui",
+      "review_status": "translated_reviewed"
+    },
+    {
+      "token": 100663756,
+      "instruction": 71,
+      "method": "System.Void CanvasEx::PaintLoad(Socotra.UI.StGraphics)",
+      "source_text": "いいえ",
+      "target_text": "否",
+      "classification": "player_ui",
+      "review_status": "translated_reviewed"
+    },
+    {
+      "token": 100663756,
+      "instruction": 91,
+      "method": "System.Void CanvasEx::PaintLoad(Socotra.UI.StGraphics)",
+      "source_text": "はい",
+      "target_text": "是",
+      "classification": "player_ui",
+      "review_status": "translated_reviewed"
+    },
+    {
+      "token": 100663756,
+      "instruction": 103,
+      "method": "System.Void CanvasEx::PaintLoad(Socotra.UI.StGraphics)",
+      "source_text": "いいえ",
+      "target_text": "否",
+      "classification": "player_ui",
+      "review_status": "translated_reviewed"
+    },
+    {
+      "token": 100663784,
+      "instruction": 20,
+      "method": "System.Void CanvasEx::KOMANDO()",
+      "source_text": "戻る",
+      "target_text": "返回",
+      "classification": "player_ui",
+      "review_status": "translated_reviewed"
+    },
+    {
+      "token": 100663784,
+      "instruction": 21,
+      "method": "System.Void CanvasEx::KOMANDO()",
+      "source_text": "ﾒﾆｭｰ",
+      "target_text": "菜单",
+      "classification": "player_ui",
+      "review_status": "translated_reviewed"
+    },
+    {
+      "token": 100663784,
+      "instruction": 26,
+      "method": "System.Void CanvasEx::KOMANDO()",
+      "source_text": "ﾒﾆｭｰ",
+      "target_text": "菜单",
+      "classification": "player_ui",
+      "review_status": "translated_reviewed"
+    },
+    {
+      "token": 100663785,
+      "instruction": 9,
+      "method": "System.Void CanvasEx::CHOUBUN_KOMANDO()",
+      "source_text": "戻る",
+      "target_text": "返回",
+      "classification": "player_ui",
+      "review_status": "translated_reviewed"
+    },
+    {
+      "token": 100663785,
+      "instruction": 10,
+      "method": "System.Void CanvasEx::CHOUBUN_KOMANDO()",
+      "source_text": "ﾒﾆｭｰ",
+      "target_text": "菜单",
+      "classification": "player_ui",
+      "review_status": "translated_reviewed"
+    },
+    {
+      "token": 100663785,
+      "instruction": 15,
+      "method": "System.Void CanvasEx::CHOUBUN_KOMANDO()",
+      "source_text": "ﾒﾆｭｰ",
+      "target_text": "菜单",
+      "classification": "player_ui",
+      "review_status": "translated_reviewed"
+    },
+    {
+      "token": 100663791,
+      "instruction": 11,
+      "method": "System.Boolean CanvasEx::SEEBU_MAIN()",
+      "source_text": "戻る",
+      "target_text": "返回",
+      "classification": "player_ui",
+      "review_status": "translated_reviewed"
+    },
+    {
+      "token": 100663791,
+      "instruction": 12,
+      "method": "System.Boolean CanvasEx::SEEBU_MAIN()",
+      "source_text": "ﾒﾆｭｰ",
+      "target_text": "菜单",
+      "classification": "player_ui",
+      "review_status": "translated_reviewed"
+    },
+    {
+      "token": 100663791,
+      "instruction": 74,
+      "method": "System.Boolean CanvasEx::SEEBU_MAIN()",
+      "source_text": "ﾒﾆｭｰ",
+      "target_text": "菜单",
+      "classification": "player_ui",
+      "review_status": "translated_reviewed"
+    },
+    {
+      "token": 100663791,
+      "instruction": 99,
+      "method": "System.Boolean CanvasEx::SEEBU_MAIN()",
+      "source_text": "変えないでお願いします",
+      "target_text": "変えないでお願いします",
+      "classification": "technical_sentinel",
+      "review_status": "preserve_technical"
+    },
+    {
+      "token": 100663791,
+      "instruction": 100,
+      "method": "System.Boolean CanvasEx::SEEBU_MAIN()",
+      "source_text": "ﾒﾆｭｰ",
+      "target_text": "菜单",
+      "classification": "player_ui",
+      "review_status": "translated_reviewed"
+    },
+    {
+      "token": 100663794,
+      "instruction": 57,
+      "method": "System.Boolean CanvasEx::CheckSaveData(System.Int32)",
+      "source_text": "未登録",
+      "target_text": "空存档",
+      "classification": "player_ui",
+      "review_status": "translated_reviewed"
+    },
+    {
+      "token": 100663795,
+      "instruction": 815,
+      "method": "System.Void CanvasEx::LoadData(System.Int32)",
+      "source_text": "停止",
+      "target_text": "停止",
+      "classification": "technical_sentinel",
+      "review_status": "preserve_technical"
+    },
+    {
+      "token": 100663820,
+      "instruction": 5,
+      "method": "System.Void CanvasEx::SASIKAE(System.String,System.String)",
+      "source_text": "消去",
+      "target_text": "消去",
+      "classification": "technical_sentinel",
+      "review_status": "preserve_technical"
+    },
+    {
+      "token": 100663823,
+      "instruction": 12,
+      "method": "System.Void CanvasEx::KUTI()",
+      "source_text": "全",
+      "target_text": "全",
+      "classification": "technical_sentinel",
+      "review_status": "preserve_technical"
+    },
+    {
+      "token": 100663825,
+      "instruction": 13,
+      "method": "System.Void CanvasEx::KYOKU()",
+      "source_text": "停止",
+      "target_text": "停止",
+      "classification": "technical_sentinel",
+      "review_status": "preserve_technical"
+    },
+    {
+      "token": 100663825,
+      "instruction": 25,
+      "method": "System.Void CanvasEx::KYOKU()",
+      "source_text": "ＦＯ",
+      "target_text": "ＦＯ",
+      "classification": "technical_sentinel",
+      "review_status": "preserve_technical"
+    },
+    {
+      "token": 100663826,
+      "instruction": 7,
+      "method": "System.Void CanvasEx::KYOKU_sub(System.String,System.String)",
+      "source_text": "停止",
+      "target_text": "停止",
+      "classification": "technical_sentinel",
+      "review_status": "preserve_technical"
+    },
+    {
+      "token": 100663826,
+      "instruction": 19,
+      "method": "System.Void CanvasEx::KYOKU_sub(System.String,System.String)",
+      "source_text": "ＦＯ",
+      "target_text": "ＦＯ",
+      "classification": "technical_sentinel",
+      "review_status": "preserve_technical"
+    },
+    {
+      "token": 100663827,
+      "instruction": 11,
+      "method": "System.Void CanvasEx::OTO()",
+      "source_text": "停止",
+      "target_text": "停止",
+      "classification": "technical_sentinel",
+      "review_status": "preserve_technical"
+    },
+    {
+      "token": 100663844,
+      "instruction": 39,
+      "method": "System.Void CanvasEx::RISUTO_MAIN()",
+      "source_text": "戻る",
+      "target_text": "返回",
+      "classification": "player_ui",
+      "review_status": "translated_reviewed"
+    },
+    {
+      "token": 100663844,
+      "instruction": 40,
+      "method": "System.Void CanvasEx::RISUTO_MAIN()",
+      "source_text": "ﾒﾆｭｰ",
+      "target_text": "菜单",
+      "classification": "player_ui",
+      "review_status": "translated_reviewed"
+    },
+    {
+      "token": 100663844,
+      "instruction": 262,
+      "method": "System.Void CanvasEx::RISUTO_MAIN()",
+      "source_text": "ﾒﾆｭｰ",
+      "target_text": "菜单",
+      "classification": "player_ui",
+      "review_status": "translated_reviewed"
+    },
+    {
+      "token": 100663848,
+      "instruction": 7,
+      "method": "System.Void CanvasEx::SoftKeyMenu(System.String,System.String)",
+      "source_text": "変えないでお願いします",
+      "target_text": "変えないでお願いします",
+      "classification": "technical_sentinel",
+      "review_status": "preserve_technical"
+    },
+    {
+      "token": 100663848,
+      "instruction": 15,
+      "method": "System.Void CanvasEx::SoftKeyMenu(System.String,System.String)",
+      "source_text": "戻る",
+      "target_text": "返回",
+      "classification": "player_ui",
+      "review_status": "translated_reviewed",
+      "note": "This literal is also a comparison key. Keep consistent with every translated 戻る producer; do not apply unrelated global replacements."
+    },
+    {
+      "token": 100663864,
+      "instruction": 16,
+      "method": "System.Void CanvasEx::.cctor()",
+      "source_text": "戻る",
+      "target_text": "返回",
+      "classification": "player_ui",
+      "review_status": "translated_reviewed"
+    },
+    {
+      "token": 100667214,
+      "instruction": 1025,
+      "method": "System.Boolean CanvasEx/<Game>d__323::MoveNext()",
+      "source_text": "ﾒﾆｭｰ",
+      "target_text": "菜单",
+      "classification": "player_ui",
+      "review_status": "translated_reviewed"
+    },
+    {
+      "token": 100667214,
+      "instruction": 1290,
+      "method": "System.Boolean CanvasEx/<Game>d__323::MoveNext()",
+      "source_text": "戻る",
+      "target_text": "返回",
+      "classification": "player_ui",
+      "review_status": "translated_reviewed"
+    },
+    {
+      "token": 100667214,
+      "instruction": 1766,
+      "method": "System.Boolean CanvasEx/<Game>d__323::MoveNext()",
+      "source_text": "戻る",
+      "target_text": "返回",
+      "classification": "player_ui",
+      "review_status": "translated_reviewed"
+    },
+    {
+      "token": 100667214,
+      "instruction": 1767,
+      "method": "System.Boolean CanvasEx/<Game>d__323::MoveNext()",
+      "source_text": "ﾒﾆｭｰ",
+      "target_text": "菜单",
+      "classification": "player_ui",
+      "review_status": "translated_reviewed"
+    },
+    {
+      "token": 100667214,
+      "instruction": 1772,
+      "method": "System.Boolean CanvasEx/<Game>d__323::MoveNext()",
+      "source_text": "ﾒﾆｭｰ",
+      "target_text": "菜单",
+      "classification": "player_ui",
+      "review_status": "translated_reviewed"
+    },
+    {
+      "token": 100667214,
+      "instruction": 2016,
+      "method": "System.Boolean CanvasEx/<Game>d__323::MoveNext()",
+      "source_text": "ﾒﾆｭｰ",
+      "target_text": "菜单",
+      "classification": "player_ui",
+      "review_status": "translated_reviewed"
+    },
+    {
+      "token": 100667214,
+      "instruction": 2475,
+      "method": "System.Boolean CanvasEx/<Game>d__323::MoveNext()",
+      "source_text": "戻る",
+      "target_text": "返回",
+      "classification": "player_ui",
+      "review_status": "translated_reviewed"
+    },
+    {
+      "token": 100667214,
+      "instruction": 2476,
+      "method": "System.Boolean CanvasEx/<Game>d__323::MoveNext()",
+      "source_text": "ﾒﾆｭｰ",
+      "target_text": "菜单",
+      "classification": "player_ui",
+      "review_status": "translated_reviewed"
+    },
+    {
+      "token": 100667214,
+      "instruction": 2481,
+      "method": "System.Boolean CanvasEx/<Game>d__323::MoveNext()",
+      "source_text": "ﾒﾆｭｰ",
+      "target_text": "菜单",
+      "classification": "player_ui",
+      "review_status": "translated_reviewed"
+    },
+    {
+      "token": 100667226,
+      "instruction": 344,
+      "method": "System.Boolean CanvasEx/<Load_game>d__331::MoveNext()",
+      "source_text": "ﾒﾆｭｰ",
+      "target_text": "菜单",
+      "classification": "player_ui",
+      "review_status": "translated_reviewed"
+    },
+    {
+      "token": 100667238,
+      "instruction": 459,
+      "method": "System.Boolean CanvasEx/<Game_command>d__334::MoveNext()",
+      "source_text": "ﾒﾆｭｰ",
+      "target_text": "菜单",
+      "classification": "player_ui",
+      "review_status": "translated_reviewed"
+    },
+    {
+      "token": 100667238,
+      "instruction": 510,
+      "method": "System.Boolean CanvasEx/<Game_command>d__334::MoveNext()",
+      "source_text": "ﾒﾆｭｰ",
+      "target_text": "菜单",
+      "classification": "player_ui",
+      "review_status": "translated_reviewed"
+    },
+    {
+      "token": 100667268,
+      "instruction": 77,
+      "method": "System.Boolean CanvasEx/<BUNSYOU_JINGLE>d__428::MoveNext()",
+      "source_text": "停止",
+      "target_text": "停止",
+      "classification": "technical_sentinel",
+      "review_status": "preserve_technical"
+    },
+    {
+      "token": 100667268,
+      "instruction": 80,
+      "method": "System.Boolean CanvasEx/<BUNSYOU_JINGLE>d__428::MoveNext()",
+      "source_text": "停止",
+      "target_text": "停止",
+      "classification": "technical_sentinel",
+      "review_status": "preserve_technical"
+    }
+  ],
+  "absent_requested_literals": [
+    "Now Loading",
+    "Now Loading..."
+  ],
+  "excluded_scope": "Input character keyboard tables, asset identifiers, diagnostics and unrelated framework literals are not translation entries."
+}

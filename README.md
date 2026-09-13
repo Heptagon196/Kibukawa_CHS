@@ -39,7 +39,10 @@
 ```text
 engine/core/                    译文包模型、二进制读取
 engine/bepinex/                 公共框架依赖、编译、组包与校验
-engine/adapters/gmode-v1/src/   文字协程、菜单记忆、点阵绘制
+engine/adapters/gmode-v1/src/   前七作所用引擎的文字协程、菜单记忆、点阵绘制
+engine/adapters/gmode-20050817/ 第八作所用引擎的场景解析、运行时挂钩、排版与菜单记忆
+engine/adapters/gmode-20050117/ 第九作所用引擎的场景容器、指令解析与运行时（未实机验证）
+engine/adapters/gmode-v2/      20050817 与 20050117 共用的脚本框架（字节游标、SJIS 解码、标签表、指令循环、scratch 成员表）
 series/                        系列人物译名与文风原则
 games/01-kamen-gensou/
   project.json                 作品声明、审校路径、已验证排版参数

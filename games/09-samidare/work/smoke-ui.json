@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "purpose": "Runtime smoke fixture for the UI half of the pack. Entries without a key replace literals the game hard-codes (the soft-key array); entries with a key drive Steezy.Localize.Localization::Get. Authoritative UI localization will live in work/ui-localization.zh-CN.json.",
+  "entries": [
+    { "source": "戻る", "target": "返回" },
+    { "key": "pause_menu_label_close", "source": "閉じる", "target": "继续游戏" },
+    { "key": "common_dialog_yes_label", "source": "はい", "target": "是" },
+    { "key": "common_dialog_no_label", "source": "いいえ", "target": "否" }
+  ]
+}

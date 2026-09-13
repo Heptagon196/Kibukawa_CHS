@@ -1,0 +1,1526 @@
+{
+  "script": "c0_01",
+  "batch": "c0_01.part1.trans.json",
+  "note": "Independent verification: for each entry decide whether ``target`` is the faithful rendering of ``source`` as its own display line. Report shifts, omissions, additions and mistranslations. An entry with ``emphasis`` is drawn in several colours: ``emphasis`` is the source split and ``runs`` the Chinese split, index for index, and it is the run with a non-null colour that the game highlights. See work/parallel/VERIFIER_BRIEF.md.",
+  "units": [
+    {
+      "offset": 55,
+      "kind": "line",
+      "limit": 11,
+      "source": "お便りの返事…ですか？",
+      "target": "回复来信…吗？"
+    },
+    {
+      "offset": 103,
+      "kind": "line",
+      "limit": 10,
+      "source": "うん、そうそう。",
+      "target": "嗯，对对。"
+    },
+    {
+      "offset": 125,
+      "kind": "line",
+      "limit": 10,
+      "source": "アプリで遊んだ人から",
+      "target": "玩过这款应用的"
+    },
+    {
+      "offset": 151,
+      "kind": "line",
+      "limit": 10,
+      "source": "質問が来てるんで…",
+      "target": "玩家寄来了问题…"
+    },
+    {
+      "offset": 175,
+      "kind": "line",
+      "limit": 11,
+      "source": "伊綱君に、その返答を",
+      "target": "所以想请伊纲"
+    },
+    {
+      "offset": 201,
+      "kind": "line",
+      "limit": 11,
+      "source": "して欲しいってわけだ。",
+      "target": "回答一下。"
+    },
+    {
+      "offset": 229,
+      "kind": "line",
+      "limit": 11,
+      "source": "まあ、サイトで公開する",
+      "target": "差不多就是发布在"
+    },
+    {
+      "offset": 257,
+      "kind": "line",
+      "limit": 11,
+      "source": "インタビューみたいな",
+      "target": "网站上的采访"
+    },
+    {
+      "offset": 283,
+      "kind": "line",
+      "limit": 11,
+      "source": "ものかな。",
+      "target": "吧。"
+    },
+    {
+      "offset": 299,
+      "kind": "line",
+      "limit": 8,
+      "source": "いよっ、人気者！",
+      "target": "哟，大红人！"
+    },
+    {
+      "offset": 323,
+      "kind": "line",
+      "limit": 9,
+      "source": "なんで私がそこまで",
+      "target": "我为什么非得"
+    },
+    {
+      "offset": 347,
+      "kind": "line",
+      "limit": 9,
+      "source": "しないといけないん",
+      "target": "做到这种地步"
+    },
+    {
+      "offset": 371,
+      "kind": "line",
+      "limit": 9,
+      "source": "ですか。",
+      "target": "啊。"
+    },
+    {
+      "offset": 396,
+      "kind": "line",
+      "limit": 11,
+      "source": "生王さんが勝手に",
+      "target": "明明是生王先生"
+    },
+    {
+      "offset": 424,
+      "kind": "line",
+      "limit": 11,
+      "source": "作ってるゲームなのに。",
+      "target": "擅自做的游戏。"
+    },
+    {
+      "offset": 461,
+      "kind": "line",
+      "limit": 11,
+      "source": "まあまあ、これから",
+      "target": "好啦，等会我念问题，"
+    },
+    {
+      "offset": 485,
+      "kind": "line",
+      "limit": 11,
+      "source": "読み上げるものに口頭で",
+      "target": "你口头回答"
+    },
+    {
+      "offset": 513,
+      "kind": "line",
+      "limit": 11,
+      "source": "返答すればいいからさ。",
+      "target": "就行了。"
+    },
+    {
+      "offset": 541,
+      "kind": "line",
+      "limit": 8,
+      "source": "録音だけ、させて",
+      "target": "不过得让我"
+    },
+    {
+      "offset": 563,
+      "kind": "line",
+      "limit": 8,
+      "source": "もらうけど。",
+      "target": "录下来。"
+    },
+    {
+      "offset": 581,
+      "kind": "line",
+      "limit": 10,
+      "source": "こういう地道な宣伝が",
+      "target": "这种踏实的宣传"
+    },
+    {
+      "offset": 607,
+      "kind": "line",
+      "limit": 10,
+      "source": "探偵の商売繁盛にも",
+      "target": "也能让侦探生意"
+    },
+    {
+      "offset": 631,
+      "kind": "line",
+      "limit": 10,
+      "source": "つながるわけだ。",
+      "target": "兴隆起来。"
+    },
+    {
+      "offset": 653,
+      "kind": "line",
+      "limit": 5,
+      "source": "…たぶん。",
+      "target": "…大概。"
+    },
+    {
+      "offset": 671,
+      "kind": "line",
+      "limit": 5,
+      "source": "んもう…。",
+      "target": "真是的…"
+    },
+    {
+      "offset": 689,
+      "kind": "line",
+      "limit": 10,
+      "source": "さあ、それでは今週も",
+      "target": "好了，本周也让我们"
+    },
+    {
+      "offset": 715,
+      "kind": "line",
+      "limit": 10,
+      "source": "いってみましょう！",
+      "target": "开始吧！"
+    },
+    {
+      "offset": 749,
+      "kind": "line",
+      "limit": 11,
+      "source": "皆さんお待ちかね！",
+      "target": "各位期待已久！"
+    },
+    {
+      "offset": 773,
+      "kind": "line",
+      "limit": 11,
+      "source": "直撃！伊綱さんに",
+      "target": "直击！伊纲小姐的"
+    },
+    {
+      "offset": 795,
+      "kind": "line",
+      "limit": 11,
+      "source": "４つの質問コーナー!!",
+      "target": "四问四答环节！！"
+    },
+    {
+      "offset": 821,
+      "kind": "line",
+      "limit": 9,
+      "source": "いよっ！　拍手!!",
+      "target": "好！鼓掌！！"
+    },
+    {
+      "offset": 845,
+      "kind": "line",
+      "limit": 3,
+      "source": "……。",
+      "target": "……"
+    },
+    {
+      "offset": 871,
+      "kind": "choice",
+      "limit": 0,
+      "source": "お便り読む",
+      "target": "读来信"
+    },
+    {
+      "offset": 885,
+      "kind": "choice",
+      "limit": 0,
+      "source": "中断する",
+      "target": "中断"
+    },
+    {
+      "offset": 906,
+      "kind": "line",
+      "limit": 11,
+      "source": "さて、どの質問から",
+      "target": "先问哪个问题"
+    },
+    {
+      "offset": 930,
+      "kind": "line",
+      "limit": 11,
+      "source": "ぶつけてみようかな…。",
+      "target": "好呢…"
+    },
+    {
+      "offset": 976,
+      "kind": "choice",
+      "limit": 0,
+      "source": "事務所の経営について",
+      "target": "关于事务所的经营"
+    },
+    {
+      "offset": 1009,
+      "kind": "choice",
+      "limit": 0,
+      "source": "これまでの事件で…",
+      "target": "迄今的案件…"
+    },
+    {
+      "offset": 1040,
+      "kind": "choice",
+      "limit": 0,
+      "source": "引越しはどうなった？",
+      "target": "搬家怎么样了？"
+    },
+    {
+      "offset": 1073,
+      "kind": "choice",
+      "limit": 0,
+      "source": "伊綱ちゃんＬＯＶＥ！",
+      "target": "伊纲妹妹ＬＯＶＥ！"
+    },
+    {
+      "offset": 1102,
+      "kind": "line",
+      "limit": 10,
+      "source": "こちらはリュウタさん",
+      "target": "这是龙太先生的",
+      "runs": [
+        "这是",
+        "龙太先生的"
+      ],
+      "emphasis": [
+        {
+          "colour": null,
+          "text": "こちらは"
+        },
+        {
+          "colour": 2,
+          "text": "リュウタさん"
+        }
+      ]
+    },
+    {
+      "offset": 1141,
+      "kind": "line",
+      "limit": 10,
+      "source": "からのメールです！",
+      "target": "邮件！"
+    },
+    {
+      "offset": 1165,
+      "kind": "line",
+      "limit": 10,
+      "source": "ええと…",
+      "target": "嗯…"
+    },
+    {
+      "offset": 1181,
+      "kind": "line",
+      "limit": 11,
+      "source": "こんにちは、いつも",
+      "target": "你好，我一直都在"
+    },
+    {
+      "offset": 1205,
+      "kind": "line",
+      "limit": 11,
+      "source": "楽しくアプリで遊ばせて",
+      "target": "愉快地玩这款"
+    },
+    {
+      "offset": 1233,
+      "kind": "line",
+      "limit": 11,
+      "source": "もらっています。",
+      "target": "应用。"
+    },
+    {
+      "offset": 1256,
+      "kind": "line",
+      "limit": 11,
+      "source": "いやあ、どうも",
+      "target": "哎呀，真是"
+    },
+    {
+      "offset": 1276,
+      "kind": "line",
+      "limit": 11,
+      "source": "ありがとうございます！",
+      "target": "非常感谢！"
+    },
+    {
+      "offset": 1306,
+      "kind": "line",
+      "limit": 8,
+      "source": "…なんかひとりで",
+      "target": "…你一个人"
+    },
+    {
+      "offset": 1328,
+      "kind": "line",
+      "limit": 8,
+      "source": "楽しそうですね。",
+      "target": "倒挺开心的。"
+    },
+    {
+      "offset": 1354,
+      "kind": "line",
+      "limit": 10,
+      "source": "ところで、伊綱さんに",
+      "target": "我想问伊纲小姐"
+    },
+    {
+      "offset": 1380,
+      "kind": "line",
+      "limit": 10,
+      "source": "質問があります。",
+      "target": "一个问题。"
+    },
+    {
+      "offset": 1405,
+      "kind": "line",
+      "limit": 11,
+      "source": "癸生川探偵事務所には",
+      "target": "听说癸生川侦探"
+    },
+    {
+      "offset": 1431,
+      "kind": "line",
+      "limit": 11,
+      "source": "仕事があまり来ないそう",
+      "target": "事务所没什么"
+    },
+    {
+      "offset": 1459,
+      "kind": "line",
+      "limit": 11,
+      "source": "ですけど、",
+      "target": "委托，"
+    },
+    {
+      "offset": 1478,
+      "kind": "line",
+      "limit": 9,
+      "source": "伊綱さんたちは",
+      "target": "伊纲小姐你们"
+    },
+    {
+      "offset": 1498,
+      "kind": "line",
+      "limit": 9,
+      "source": "どうやって生計を",
+      "target": "究竟靠什么"
+    },
+    {
+      "offset": 1520,
+      "kind": "line",
+      "limit": 9,
+      "source": "立ててるんですか？",
+      "target": "维持生计？"
+    },
+    {
+      "offset": 1545,
+      "kind": "line",
+      "limit": 10,
+      "source": "…ということですが？",
+      "target": "…他这么问哦？"
+    },
+    {
+      "offset": 1573,
+      "kind": "line",
+      "limit": 10,
+      "source": "えっ？　なんですか",
+      "target": "咦？为什么"
+    },
+    {
+      "offset": 1597,
+      "kind": "line",
+      "limit": 10,
+      "source": "私が答えるんですか？",
+      "target": "要我回答？"
+    },
+    {
+      "offset": 1625,
+      "kind": "line",
+      "limit": 9,
+      "source": "あまり仕事は",
+      "target": "听说你们"
+    },
+    {
+      "offset": 1643,
+      "kind": "line",
+      "limit": 9,
+      "source": "来ないそうですが。",
+      "target": "没什么委托。"
+    },
+    {
+      "offset": 1669,
+      "kind": "line",
+      "limit": 9,
+      "source": "大きなお世話です。",
+      "target": "要你多管。"
+    },
+    {
+      "offset": 1695,
+      "kind": "line",
+      "limit": 11,
+      "source": "確かあれですよね、この",
+      "target": "我记得这家事务所"
+    },
+    {
+      "offset": 1723,
+      "kind": "line",
+      "limit": 11,
+      "source": "事務所にはオーナーが",
+      "target": "有位老板",
+      "runs": [
+        "有位",
+        "老板"
+      ],
+      "emphasis": [
+        {
+          "colour": null,
+          "text": "事務所には"
+        },
+        {
+          "colour": 2,
+          "text": "オーナーが"
+        }
+      ]
+    },
+    {
+      "offset": 1762,
+      "kind": "line",
+      "limit": 11,
+      "source": "いるんですよね？",
+      "target": "吧？"
+    },
+    {
+      "offset": 1786,
+      "kind": "line",
+      "limit": 10,
+      "source": "ええまあ、そうです。",
+      "target": "嗯，是有。"
+    },
+    {
+      "offset": 1822,
+      "kind": "line",
+      "limit": 10,
+      "source": "私も会ったことないし",
+      "target": "我也没见过本人，"
+    },
+    {
+      "offset": 1848,
+      "kind": "line",
+      "limit": 10,
+      "source": "詳しいことは知らない",
+      "target": "不太清楚详情"
+    },
+    {
+      "offset": 1874,
+      "kind": "line",
+      "limit": 10,
+      "source": "んですが…",
+      "target": "…"
+    },
+    {
+      "offset": 1905,
+      "kind": "line",
+      "limit": 11,
+      "source": "御堂丸将云っていう人が",
+      "target": "一个叫御堂丸将云的人"
+    },
+    {
+      "offset": 1959,
+      "kind": "line",
+      "limit": 11,
+      "source": "この事務所のオーナー",
+      "target": "似乎是这间事务所的"
+    },
+    {
+      "offset": 1985,
+      "kind": "line",
+      "limit": 11,
+      "source": "らしくて…",
+      "target": "老板…"
+    },
+    {
+      "offset": 2011,
+      "kind": "line",
+      "limit": 11,
+      "source": "家賃や私たちの給料は、",
+      "target": "无论有没有委托，"
+    },
+    {
+      "offset": 2039,
+      "kind": "line",
+      "limit": 11,
+      "source": "仕事の有無に関わらず",
+      "target": "房租和我们的工资"
+    },
+    {
+      "offset": 2065,
+      "kind": "line",
+      "limit": 11,
+      "source": "払ってもらってます。",
+      "target": "都由他支付。"
+    },
+    {
+      "offset": 2091,
+      "kind": "line",
+      "limit": 11,
+      "source": "先生と、何やら関わりが",
+      "target": "他好像与老师"
+    },
+    {
+      "offset": 2119,
+      "kind": "line",
+      "limit": 11,
+      "source": "ある人らしいですが…。",
+      "target": "有什么关系…"
+    },
+    {
+      "offset": 2149,
+      "kind": "line",
+      "limit": 11,
+      "source": "謎のオーナーですか。",
+      "target": "神秘的老板吗。"
+    },
+    {
+      "offset": 2175,
+      "kind": "line",
+      "limit": 11,
+      "source": "これは気になりますね。",
+      "target": "真令人在意。"
+    },
+    {
+      "offset": 2205,
+      "kind": "line",
+      "limit": 10,
+      "source": "わざとらしいですよ。",
+      "target": "演得太假了。"
+    },
+    {
+      "offset": 2233,
+      "kind": "line",
+      "limit": 10,
+      "source": "ということは、仕事を",
+      "target": "也就是说，就算"
+    },
+    {
+      "offset": 2259,
+      "kind": "line",
+      "limit": 10,
+      "source": "しなくても、食うには",
+      "target": "不工作，也不用"
+    },
+    {
+      "offset": 2285,
+      "kind": "line",
+      "limit": 10,
+      "source": "困らない、と？",
+      "target": "担心吃饭？"
+    },
+    {
+      "offset": 2317,
+      "kind": "line",
+      "limit": 11,
+      "source": "まあ、なので先生なんか",
+      "target": "嗯，所以老师有时"
+    },
+    {
+      "offset": 2345,
+      "kind": "line",
+      "limit": 11,
+      "source": "ずっと寝てたりする日も",
+      "target": "一整天都在"
+    },
+    {
+      "offset": 2373,
+      "kind": "line",
+      "limit": 11,
+      "source": "ありますけど…",
+      "target": "睡觉…"
+    },
+    {
+      "offset": 2393,
+      "kind": "line",
+      "limit": 11,
+      "source": "私はできるだけ、仕事で",
+      "target": "但我尽量只用"
+    },
+    {
+      "offset": 2421,
+      "kind": "line",
+      "limit": 11,
+      "source": "稼いだお金だけを",
+      "target": "自己工作赚来的"
+    },
+    {
+      "offset": 2443,
+      "kind": "line",
+      "limit": 11,
+      "source": "使うようにしてます。",
+      "target": "钱。"
+    },
+    {
+      "offset": 2471,
+      "kind": "line",
+      "limit": 10,
+      "source": "おお、立派ですねえ。",
+      "target": "哦，真了不起。"
+    },
+    {
+      "offset": 2509,
+      "kind": "line",
+      "limit": 10,
+      "source": "でも、もらえると",
+      "target": "不过，他给我们的"
+    },
+    {
+      "offset": 2531,
+      "kind": "line",
+      "limit": 10,
+      "source": "言っても最低限の賃金",
+      "target": "只是最低工资，"
+    },
+    {
+      "offset": 2557,
+      "kind": "line",
+      "limit": 10,
+      "source": "しか出ないので…",
+      "target": "所以…"
+    },
+    {
+      "offset": 2579,
+      "kind": "line",
+      "limit": 11,
+      "source": "備品や消耗品などは",
+      "target": "办公用品和耗材"
+    },
+    {
+      "offset": 2603,
+      "kind": "line",
+      "limit": 11,
+      "source": "自分たちで調達しないと",
+      "target": "都得由我们自己"
+    },
+    {
+      "offset": 2631,
+      "kind": "line",
+      "limit": 11,
+      "source": "いけないんですよ。",
+      "target": "准备。"
+    },
+    {
+      "offset": 2665,
+      "kind": "line",
+      "limit": 9,
+      "source": "ほら、最近の悪事は",
+      "target": "你看，现在的犯罪"
+    },
+    {
+      "offset": 2689,
+      "kind": "line",
+      "limit": 9,
+      "source": "手口が巧妙になって",
+      "target": "手法越来越"
+    },
+    {
+      "offset": 2713,
+      "kind": "line",
+      "limit": 9,
+      "source": "きているので…",
+      "target": "高明…"
+    },
+    {
+      "offset": 2733,
+      "kind": "line",
+      "limit": 11,
+      "source": "新しい道具や機材が",
+      "target": "没有新工具和设备，"
+    },
+    {
+      "offset": 2757,
+      "kind": "line",
+      "limit": 11,
+      "source": "ないと、太刀打ち",
+      "target": "有时根本无法"
+    },
+    {
+      "offset": 2779,
+      "kind": "line",
+      "limit": 11,
+      "source": "できないこともあって。",
+      "target": "应付。"
+    },
+    {
+      "offset": 2807,
+      "kind": "line",
+      "limit": 11,
+      "source": "なので最新の機材を",
+      "target": "所以我想备齐"
+    },
+    {
+      "offset": 2831,
+      "kind": "line",
+      "limit": 11,
+      "source": "揃えたいんですけど…。",
+      "target": "最新设备…"
+    },
+    {
+      "offset": 2861,
+      "kind": "line",
+      "limit": 10,
+      "source": "ははあ、なるほど。",
+      "target": "哦，原来如此。"
+    },
+    {
+      "offset": 2885,
+      "kind": "line",
+      "limit": 10,
+      "source": "ハイテク犯罪にも対応",
+      "target": "也需要应对"
+    },
+    {
+      "offset": 2911,
+      "kind": "line",
+      "limit": 10,
+      "source": "する必要があると。",
+      "target": "高科技犯罪啊。"
+    },
+    {
+      "offset": 2937,
+      "kind": "line",
+      "limit": 11,
+      "source": "そういうことです。",
+      "target": "就是这样。"
+    },
+    {
+      "offset": 2961,
+      "kind": "line",
+      "limit": 11,
+      "source": "最新の探知機とかも",
+      "target": "最新型的探测器"
+    },
+    {
+      "offset": 2985,
+      "kind": "line",
+      "limit": 11,
+      "source": "欲しいじゃないですか。",
+      "target": "也很想要吧。"
+    },
+    {
+      "offset": 3013,
+      "kind": "line",
+      "limit": 10,
+      "source": "でも今の稼ぎじゃ、",
+      "target": "可凭现在的收入，"
+    },
+    {
+      "offset": 3037,
+      "kind": "line",
+      "limit": 10,
+      "source": "とてもそこまでは手が",
+      "target": "完全负担不起"
+    },
+    {
+      "offset": 3063,
+      "kind": "line",
+      "limit": 10,
+      "source": "回らないんですよ。",
+      "target": "这些。"
+    },
+    {
+      "offset": 3089,
+      "kind": "line",
+      "limit": 10,
+      "source": "そういうものは、",
+      "target": "这种东西毕竟"
+    },
+    {
+      "offset": 3111,
+      "kind": "line",
+      "limit": 10,
+      "source": "特殊な機材ですから",
+      "target": "是特殊设备，"
+    },
+    {
+      "offset": 3135,
+      "kind": "line",
+      "limit": 10,
+      "source": "高いんですよねえ…。",
+      "target": "很贵啊…"
+    },
+    {
+      "offset": 3163,
+      "kind": "line",
+      "limit": 7,
+      "source": "そうなんです。",
+      "target": "就是啊。"
+    },
+    {
+      "offset": 3183,
+      "kind": "line",
+      "limit": 11,
+      "source": "今欲しい機材を全部",
+      "target": "要备齐现在想要的"
+    },
+    {
+      "offset": 3207,
+      "kind": "line",
+      "limit": 11,
+      "source": "揃えるには、３００万円",
+      "target": "全部设备，大约需要"
+    },
+    {
+      "offset": 3235,
+      "kind": "line",
+      "limit": 11,
+      "source": "くらい必要なんです。",
+      "target": "３００万日元。"
+    },
+    {
+      "offset": 3263,
+      "kind": "line",
+      "limit": 8,
+      "source": "うひゃあ！",
+      "target": "哇啊！"
+    },
+    {
+      "offset": 3279,
+      "kind": "line",
+      "limit": 8,
+      "source": "そ、それはまた",
+      "target": "那、那还真"
+    },
+    {
+      "offset": 3299,
+      "kind": "line",
+      "limit": 8,
+      "source": "大変ですねえ…。",
+      "target": "不容易啊…"
+    },
+    {
+      "offset": 3333,
+      "kind": "line",
+      "limit": 10,
+      "source": "なので仕事ください。",
+      "target": "所以请给我们委托。"
+    },
+    {
+      "offset": 3361,
+      "kind": "line",
+      "limit": 10,
+      "source": "ははあ、結局そうなる",
+      "target": "哈哈，结果还是"
+    },
+    {
+      "offset": 3387,
+      "kind": "line",
+      "limit": 10,
+      "source": "わけなんですね。",
+      "target": "落到这里啊。"
+    },
+    {
+      "offset": 3409,
+      "kind": "line",
+      "limit": 11,
+      "source": "皆さんも、困ったことが",
+      "target": "各位若有烦恼，"
+    },
+    {
+      "offset": 3437,
+      "kind": "line",
+      "limit": 11,
+      "source": "あったら鞠浜台の癸生川",
+      "target": "请来鞠滨台的"
+    },
+    {
+      "offset": 3508,
+      "kind": "line",
+      "limit": 11,
+      "source": "探偵事務所へ！",
+      "target": "癸生川侦探事务所！"
+    },
+    {
+      "offset": 3530,
+      "kind": "line",
+      "limit": 11,
+      "source": "相談だけでもＯＫです！",
+      "target": "只咨询也可以！"
+    },
+    {
+      "offset": 3558,
+      "kind": "line",
+      "limit": 11,
+      "source": "お気軽にどうぞっ！",
+      "target": "欢迎随时光临！"
+    },
+    {
+      "offset": 3584,
+      "kind": "line",
+      "limit": 11,
+      "source": "はい、どうもありがとう",
+      "target": "好，非常感谢"
+    },
+    {
+      "offset": 3612,
+      "kind": "line",
+      "limit": 11,
+      "source": "ございました。",
+      "target": "你的回答。"
+    },
+    {
+      "offset": 3646,
+      "kind": "line",
+      "limit": 10,
+      "source": "ええと、こちらは",
+      "target": "嗯，这一封"
+    },
+    {
+      "offset": 3668,
+      "kind": "line",
+      "limit": 10,
+      "source": "無記名の方からです。",
+      "target": "来自匿名人士。"
+    },
+    {
+      "offset": 3707,
+      "kind": "line",
+      "limit": 11,
+      "source": "生王さん、こんにちは。",
+      "target": "生王先生，你好。"
+    },
+    {
+      "offset": 3742,
+      "kind": "line",
+      "limit": 10,
+      "source": "…はい、こんにちは！",
+      "target": "…你好！"
+    },
+    {
+      "offset": 3770,
+      "kind": "line",
+      "limit": 10,
+      "source": "それがやりたかったん",
+      "target": "你就是想演"
+    },
+    {
+      "offset": 3796,
+      "kind": "line",
+      "limit": 10,
+      "source": "じゃないですか？",
+      "target": "这一出吧？"
+    },
+    {
+      "offset": 3818,
+      "kind": "line",
+      "limit": 10,
+      "source": "もしかして。",
+      "target": "难道说。"
+    },
+    {
+      "offset": 3840,
+      "kind": "line",
+      "limit": 11,
+      "source": "これまで多くの事件が",
+      "target": "至今已有许多案件"
+    },
+    {
+      "offset": 3866,
+      "kind": "line",
+      "limit": 11,
+      "source": "アプリになりましたが…",
+      "target": "被做成了应用…"
+    },
+    {
+      "offset": 3897,
+      "kind": "line",
+      "limit": 11,
+      "source": "まだアプリになってない",
+      "target": "尚未被做成应用的"
+    },
+    {
+      "offset": 3925,
+      "kind": "line",
+      "limit": 11,
+      "source": "事件は、どれくらい",
+      "target": "案件还有多少"
+    },
+    {
+      "offset": 3949,
+      "kind": "line",
+      "limit": 11,
+      "source": "あるんでしょうか？",
+      "target": "呢？"
+    },
+    {
+      "offset": 3976,
+      "kind": "line",
+      "limit": 10,
+      "source": "また、いちばん印象に",
+      "target": "另外，最令你"
+    },
+    {
+      "offset": 4002,
+      "kind": "line",
+      "limit": 10,
+      "source": "残ってる事件はどんな",
+      "target": "印象深刻的是"
+    },
+    {
+      "offset": 4028,
+      "kind": "line",
+      "limit": 10,
+      "source": "事件ですか？",
+      "target": "哪起案件？"
+    },
+    {
+      "offset": 4049,
+      "kind": "line",
+      "limit": 10,
+      "source": "伊綱さんにもぜひ",
+      "target": "请务必问问"
+    },
+    {
+      "offset": 4071,
+      "kind": "line",
+      "limit": 10,
+      "source": "聞いてみてください。",
+      "target": "伊纲小姐。"
+    },
+    {
+      "offset": 4098,
+      "kind": "line",
+      "limit": 9,
+      "source": "…とまあ、そういう",
+      "target": "…大概就是"
+    },
+    {
+      "offset": 4122,
+      "kind": "line",
+      "limit": 9,
+      "source": "質問ですが。",
+      "target": "这样的问题。"
+    },
+    {
+      "offset": 4142,
+      "kind": "line",
+      "limit": 10,
+      "source": "いや、言えるわけ",
+      "target": "不，这种事情"
+    },
+    {
+      "offset": 4164,
+      "kind": "line",
+      "limit": 10,
+      "source": "ないじゃないですか、",
+      "target": "怎么可能"
+    },
+    {
+      "offset": 4190,
+      "kind": "line",
+      "limit": 10,
+      "source": "そんなの。",
+      "target": "说得出口。"
+    },
+    {
+      "offset": 4208,
+      "kind": "line",
+      "limit": 10,
+      "source": "アプリにされた事件は",
+      "target": "被做成应用的案件"
+    },
+    {
+      "offset": 4234,
+      "kind": "line",
+      "limit": 10,
+      "source": "基本的に僕が関わった",
+      "target": "基本都只有我"
+    },
+    {
+      "offset": 4260,
+      "kind": "line",
+      "limit": 10,
+      "source": "ものだけなので…",
+      "target": "参与的那些…"
+    },
+    {
+      "offset": 4282,
+      "kind": "line",
+      "limit": 10,
+      "source": "伊綱さんは普段から",
+      "target": "伊纲平时还做过"
+    },
+    {
+      "offset": 4306,
+      "kind": "line",
+      "limit": 10,
+      "source": "他に多くの調査をして",
+      "target": "许多其他调查"
+    },
+    {
+      "offset": 4332,
+      "kind": "line",
+      "limit": 10,
+      "source": "いるんですよね？",
+      "target": "吧？"
+    },
+    {
+      "offset": 4356,
+      "kind": "line",
+      "limit": 7,
+      "source": "やってますよ。",
+      "target": "当然做过。"
+    },
+    {
+      "offset": 4397,
+      "kind": "line",
+      "limit": 10,
+      "source": "音成さんから相談を",
+      "target": "林居先生也经常"
+    },
+    {
+      "offset": 4427,
+      "kind": "line",
+      "limit": 10,
+      "source": "持ち掛けられることも",
+      "target": "来找我们商量"
+    },
+    {
+      "offset": 4453,
+      "kind": "line",
+      "limit": 10,
+      "source": "多いですし…。",
+      "target": "事情…"
+    },
+    {
+      "offset": 4473,
+      "kind": "line",
+      "limit": 11,
+      "source": "ここでは言えないような",
+      "target": "也有些案件不能"
+    },
+    {
+      "offset": 4501,
+      "kind": "line",
+      "limit": 11,
+      "source": "事件もありましたし…。",
+      "target": "在这里说…"
+    },
+    {
+      "offset": 4531,
+      "kind": "line",
+      "limit": 10,
+      "source": "言えないような事件！",
+      "target": "不能说的案件！"
+    },
+    {
+      "offset": 4569,
+      "kind": "line",
+      "limit": 8,
+      "source": "言えないですよ。",
+      "target": "就是不能说。"
+    },
+    {
+      "offset": 4593,
+      "kind": "line",
+      "limit": 4,
+      "source": "ちっ…。",
+      "target": "啧…"
+    },
+    {
+      "offset": 4607,
+      "kind": "line",
+      "limit": 9,
+      "source": "で、いちばん印象に",
+      "target": "那最令你"
+    },
+    {
+      "offset": 4631,
+      "kind": "line",
+      "limit": 9,
+      "source": "残ってる事件は？",
+      "target": "印象深刻的案件呢？"
+    },
+    {
+      "offset": 4655,
+      "kind": "line",
+      "limit": 11,
+      "source": "どれも印象深いですよ。",
+      "target": "每一件都印象深刻。"
+    },
+    {
+      "offset": 4683,
+      "kind": "line",
+      "limit": 11,
+      "source": "軽微な事件なんて",
+      "target": "没有哪起案件"
+    },
+    {
+      "offset": 4705,
+      "kind": "line",
+      "limit": 11,
+      "source": "ありませんでしたし。",
+      "target": "是微不足道的。"
+    },
+    {
+      "offset": 4733,
+      "kind": "line",
+      "limit": 8,
+      "source": "でもほら、",
+      "target": "不过，你看，"
+    },
+    {
+      "offset": 4754,
+      "kind": "line",
+      "limit": 8,
+      "source": "強いて言うなら。",
+      "target": "非要选的话。"
+    },
+    {
+      "offset": 4794,
+      "kind": "line",
+      "limit": 10,
+      "source": "うーん…。",
+      "target": "唔…"
+    },
+    {
+      "offset": 4810,
+      "kind": "line",
+      "limit": 10,
+      "source": "だとするとやっぱり…",
+      "target": "那果然还是…"
+    },
+    {
+      "offset": 4847,
+      "kind": "line",
+      "limit": 11,
+      "source": "生王さんが散々な目に",
+      "target": "五年前让生王先生"
+    },
+    {
+      "offset": 4884,
+      "kind": "line",
+      "limit": 11,
+      "source": "遭った、５年前の",
+      "target": "吃尽苦头的"
+    },
+    {
+      "offset": 4929,
+      "kind": "line",
+      "limit": 11,
+      "source": "永劫会事件ですかねえ。",
+      "target": "永劫会事件吧。"
+    },
+    {
+      "offset": 4971,
+      "kind": "line",
+      "limit": 9,
+      "source": "うぐっ、それは…。",
+      "target": "唔，那件事…"
+    },
+    {
+      "offset": 5007,
+      "kind": "line",
+      "limit": 10,
+      "source": "あの時は生王さん、",
+      "target": "听说当时生王先生"
+    },
+    {
+      "offset": 5053,
+      "kind": "line",
+      "limit": 10,
+      "source": "すごいことになってた",
+      "target": "遭遇了非常"
+    },
+    {
+      "offset": 5079,
+      "kind": "line",
+      "limit": 10,
+      "source": "らしいですからねぇ。",
+      "target": "不得了的事呢。"
+    },
+    {
+      "offset": 5107,
+      "kind": "line",
+      "limit": 10,
+      "source": "ええい、それはいい！",
+      "target": "够了，不说这个！"
+    },
+    {
+      "offset": 5133,
+      "kind": "line",
+      "limit": 10,
+      "source": "おわりおわり、",
+      "target": "结束结束，"
+    },
+    {
+      "offset": 5153,
+      "kind": "line",
+      "limit": 10,
+      "source": "この話おわりっ!!",
+      "target": "这个话题到此结束！！"
+    },
+    {
+      "offset": 5189,
+      "kind": "line",
+      "limit": 9,
+      "source": "ええと…。",
+      "target": "嗯…"
+    },
+    {
+      "offset": 5205,
+      "kind": "line",
+      "limit": 9,
+      "source": "こちらはらっこさん",
+      "target": "这一封来自海獭先生",
+      "runs": [
+        "这一封来自",
+        "海獭先生"
+      ],
+      "emphasis": [
+        {
+          "colour": null,
+          "text": "こちらは"
+        },
+        {
+          "colour": 2,
+          "text": "らっこさん"
+        }
+      ]
+    },
+    {
+      "offset": 5242,
+      "kind": "line",
+      "limit": 9,
+      "source": "からのお便り。",
+      "target": "来信。"
+    },
+    {
+      "offset": 5264,
+      "kind": "line",
+      "limit": 11,
+      "source": "伊綱さんは、事務所の",
+      "target": "伊纲小姐说过"
+    },
+    {
+      "offset": 5290,
+      "kind": "line",
+      "limit": 11,
+      "source": "日当たりや風通しが悪い",
+      "target": "事务所采光和通风"
+    },
+    {
+      "offset": 5318,
+      "kind": "line",
+      "limit": 11,
+      "source": "と言っていましたが…",
+      "target": "都很差…"
+    },
+    {
+      "offset": 5347,
+      "kind": "line",
+      "limit": 10,
+      "source": "まだステキな部屋には",
+      "target": "还不能搬去"
+    },
+    {
+      "offset": 5373,
+      "kind": "line",
+      "limit": 10,
+      "source": "引越せないんですか？",
+      "target": "漂亮的房间吗？"
+    },
+    {
+      "offset": 5402,
+      "kind": "line",
+      "limit": 8,
+      "source": "なんですかこれ、",
+      "target": "这算什么，"
+    },
+    {
+      "offset": 5424,
+      "kind": "line",
+      "limit": 8,
+      "source": "イヤミですか？",
+      "target": "讽刺我吗？"
+    },
+    {
+      "offset": 5444,
+      "kind": "line",
+      "limit": 8,
+      "source": "イヤミですよ！",
+      "target": "就是讽刺你！"
+    },
+    {
+      "offset": 5466,
+      "kind": "line",
+      "limit": 5,
+      "source": "まあまあ。",
+      "target": "好啦好啦。"
+    },
+    {
+      "offset": 5482,
+      "kind": "line",
+      "limit": 9,
+      "source": "以前、そんなような",
+      "target": "你以前不是说过"
+    },
+    {
+      "offset": 5506,
+      "kind": "line",
+      "limit": 9,
+      "source": "ことを言ってたじゃ",
+      "target": "类似的话"
+    },
+    {
+      "offset": 5530,
+      "kind": "line",
+      "limit": 9,
+      "source": "ないですか。",
+      "target": "吗？"
+    },
+    {
+      "offset": 5550,
+      "kind": "line",
+      "limit": 11,
+      "source": "引越さないんじゃなくて",
+      "target": "不是不想搬，"
+    },
+    {
+      "offset": 5578,
+      "kind": "line",
+      "limit": 11,
+      "source": "引越せないんです。",
+      "target": "是搬不了。"
+    },
+    {
+      "offset": 5604,
+      "kind": "line",
+      "limit": 11,
+      "source": "おおっ、新説登場か!?",
+      "target": "哦，出现新说法了！？"
+    },
+    {
+      "offset": 5630,
+      "kind": "line",
+      "limit": 9,
+      "source": "それはどういうこと",
+      "target": "这是怎么一回"
+    },
+    {
+      "offset": 5654,
+      "kind": "line",
+      "limit": 9,
+      "source": "なんでしょうか？",
+      "target": "事呢？"
+    }
+  ]
+}

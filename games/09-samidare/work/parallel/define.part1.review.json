@@ -1,0 +1,147 @@
+{
+  "script": "define",
+  "batch": "define.part1.trans.json",
+  "note": "Independent verification: for each entry decide whether ``target`` is the faithful rendering of ``source`` as its own display line. Report shifts, omissions, additions and mistranslations. An entry with ``emphasis`` is drawn in several colours: ``emphasis`` is the source split and ``runs`` the Chinese split, index for index, and it is the run with a non-null colour that the game highlights. See work/parallel/VERIFIER_BRIEF.md.",
+  "units": [
+    {
+      "offset": 85,
+      "kind": "name",
+      "limit": 0,
+      "source": "(涼二)",
+      "target": "（凉二）"
+    },
+    {
+      "offset": 108,
+      "kind": "name",
+      "limit": 0,
+      "source": "(伊綱)",
+      "target": "（伊纲）"
+    },
+    {
+      "offset": 131,
+      "kind": "name",
+      "limit": 0,
+      "source": "(癸生川)",
+      "target": "（癸生川）"
+    },
+    {
+      "offset": 156,
+      "kind": "name",
+      "limit": 0,
+      "source": "(螻川内)",
+      "target": "（蝼川内）"
+    },
+    {
+      "offset": 181,
+      "kind": "name",
+      "limit": 0,
+      "source": "(螻川内)",
+      "target": "（蝼川内）"
+    },
+    {
+      "offset": 206,
+      "kind": "name",
+      "limit": 0,
+      "source": "(泉)",
+      "target": "（泉）"
+    },
+    {
+      "offset": 227,
+      "kind": "name",
+      "limit": 0,
+      "source": "(慧美)",
+      "target": "（慧美）"
+    },
+    {
+      "offset": 250,
+      "kind": "name",
+      "limit": 0,
+      "source": "(莉沙)",
+      "target": "（莉沙）"
+    },
+    {
+      "offset": 273,
+      "kind": "name",
+      "limit": 0,
+      "source": "(綾子)",
+      "target": "（绫子）"
+    },
+    {
+      "offset": 296,
+      "kind": "name",
+      "limit": 0,
+      "source": "(男性)",
+      "target": "（男性）"
+    },
+    {
+      "offset": 319,
+      "kind": "name",
+      "limit": 0,
+      "source": "(少年)",
+      "target": "（少年）"
+    },
+    {
+      "offset": 342,
+      "kind": "name",
+      "limit": 0,
+      "source": "(女性)",
+      "target": "（女性）"
+    },
+    {
+      "offset": 365,
+      "kind": "name",
+      "limit": 0,
+      "source": "(暁)",
+      "target": "（晓）"
+    },
+    {
+      "offset": 386,
+      "kind": "name",
+      "limit": 0,
+      "source": "(男性)",
+      "target": "（男性）"
+    },
+    {
+      "offset": 409,
+      "kind": "name",
+      "limit": 0,
+      "source": "(生王)",
+      "target": "（生王）"
+    },
+    {
+      "offset": 432,
+      "kind": "name",
+      "limit": 0,
+      "source": "(私)",
+      "target": "（我）"
+    },
+    {
+      "offset": 453,
+      "kind": "name",
+      "limit": 0,
+      "source": "(慧美の母)",
+      "target": "（慧美母亲）"
+    },
+    {
+      "offset": 480,
+      "kind": "name",
+      "limit": 0,
+      "source": "(慧美の父)",
+      "target": "（慧美父亲）"
+    },
+    {
+      "offset": 507,
+      "kind": "name",
+      "limit": 0,
+      "source": "(男性)",
+      "target": "（男性）"
+    },
+    {
+      "offset": 530,
+      "kind": "name",
+      "limit": 0,
+      "source": "(慧美)",
+      "target": "（慧美）"
+    }
+  ]
+}

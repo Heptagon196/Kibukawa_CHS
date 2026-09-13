@@ -1,0 +1,917 @@
+{
+  "script": "c5_00",
+  "batch": "c5_00.part2.trans.json",
+  "note": "Independent verification: for each entry decide whether ``target`` is the faithful rendering of ``source`` as its own display line. Report shifts, omissions, additions and mistranslations. An entry with ``emphasis`` is drawn in several colours: ``emphasis`` is the source split and ``runs`` the Chinese split, index for index, and it is the run with a non-null colour that the game highlights. See work/parallel/VERIFIER_BRIEF.md.",
+  "units": [
+    {
+      "offset": 4739,
+      "kind": "line",
+      "limit": 9,
+      "source": "木戸真樹夫",
+      "target": "木户真树夫"
+    },
+    {
+      "offset": 4755,
+      "kind": "line",
+      "limit": 9,
+      "source": "堀井大介",
+      "target": "堀井大介"
+    },
+    {
+      "offset": 4785,
+      "kind": "line",
+      "limit": 8,
+      "source": "背景グラフィック",
+      "target": "背景美术"
+    },
+    {
+      "offset": 4808,
+      "kind": "line",
+      "limit": 8,
+      "source": "小川敬徳",
+      "target": "小川敬德"
+    },
+    {
+      "offset": 4822,
+      "kind": "line",
+      "limit": 8,
+      "source": "浅羽俊光",
+      "target": "浅羽俊光"
+    },
+    {
+      "offset": 4852,
+      "kind": "line",
+      "limit": 4,
+      "source": "音楽",
+      "target": "音乐"
+    },
+    {
+      "offset": 4863,
+      "kind": "line",
+      "limit": 4,
+      "source": "石山貴也",
+      "target": "石山贵也"
+    },
+    {
+      "offset": 4893,
+      "kind": "line",
+      "limit": 7,
+      "source": "ネーミング協力",
+      "target": "命名协助"
+    },
+    {
+      "offset": 4914,
+      "kind": "line",
+      "limit": 7,
+      "source": "螻川内智子",
+      "target": "蝼川内智子"
+    },
+    {
+      "offset": 4930,
+      "kind": "line",
+      "limit": 7,
+      "source": "森慧美",
+      "target": "森慧美"
+    },
+    {
+      "offset": 4942,
+      "kind": "line",
+      "limit": 7,
+      "source": "小野寺莉沙",
+      "target": "小野寺莉沙"
+    },
+    {
+      "offset": 4958,
+      "kind": "line",
+      "limit": 7,
+      "source": "屋良春彦",
+      "target": "屋良春彦"
+    },
+    {
+      "offset": 4972,
+      "kind": "line",
+      "limit": 7,
+      "source": "尼子寛",
+      "target": "尼子宽"
+    },
+    {
+      "offset": 5000,
+      "kind": "line",
+      "limit": 4,
+      "source": "デバッグ",
+      "target": "调试"
+    },
+    {
+      "offset": 5015,
+      "kind": "line",
+      "limit": 4,
+      "source": "長澤孟",
+      "target": "长泽孟"
+    },
+    {
+      "offset": 5027,
+      "kind": "line",
+      "limit": 4,
+      "source": "守岡大寿",
+      "target": "守冈大寿"
+    },
+    {
+      "offset": 5057,
+      "kind": "line",
+      "limit": 5,
+      "source": "ＳＧＬ編成",
+      "target": "ＳＧＬ编排"
+    },
+    {
+      "offset": 5074,
+      "kind": "line",
+      "limit": 5,
+      "source": "関本俊",
+      "target": "关本俊"
+    },
+    {
+      "offset": 5102,
+      "kind": "line",
+      "limit": 6,
+      "source": "キャリア担当",
+      "target": "运营商负责人"
+    },
+    {
+      "offset": 5121,
+      "kind": "line",
+      "limit": 6,
+      "source": "西村孝弘",
+      "target": "西村孝弘"
+    },
+    {
+      "offset": 5135,
+      "kind": "line",
+      "limit": 6,
+      "source": "小芦隆",
+      "target": "小芦隆"
+    },
+    {
+      "offset": 5147,
+      "kind": "line",
+      "limit": 6,
+      "source": "星野英律",
+      "target": "星野英律"
+    },
+    {
+      "offset": 5177,
+      "kind": "line",
+      "limit": 5,
+      "source": "制作進行",
+      "target": "制作管理"
+    },
+    {
+      "offset": 5192,
+      "kind": "line",
+      "limit": 5,
+      "source": "高田扶示人",
+      "target": "高田扶示人"
+    },
+    {
+      "offset": 5224,
+      "kind": "line",
+      "limit": 4,
+      "source": "監督",
+      "target": "监督"
+    },
+    {
+      "offset": 5235,
+      "kind": "line",
+      "limit": 4,
+      "source": "石山貴也",
+      "target": "石山贵也"
+    },
+    {
+      "offset": 5265,
+      "kind": "line",
+      "limit": 10,
+      "source": "制作・著作",
+      "target": "制作·著作"
+    },
+    {
+      "offset": 5282,
+      "kind": "line",
+      "limit": 10,
+      "source": "元気モバイル株式会社",
+      "target": "元气移动株式会社"
+    },
+    {
+      "offset": 5343,
+      "kind": "line",
+      "limit": 10,
+      "source": "１９９９年１２月某日",
+      "target": "１９９９年１２月某日"
+    },
+    {
+      "offset": 5369,
+      "kind": "line",
+      "limit": 10,
+      "source": "天気、雨",
+      "target": "天气：雨"
+    },
+    {
+      "offset": 5383,
+      "kind": "line",
+      "limit": 10,
+      "source": "　",
+      "target": "　"
+    },
+    {
+      "offset": 5402,
+      "kind": "line",
+      "limit": 10,
+      "source": "癸生川探偵事務所",
+      "target": "癸生川侦探事务所"
+    },
+    {
+      "offset": 5451,
+      "kind": "name",
+      "limit": 0,
+      "source": "(霊崎朱)",
+      "target": "（灵崎朱）"
+    },
+    {
+      "offset": 5476,
+      "kind": "name",
+      "limit": 0,
+      "source": "(老人)",
+      "target": "（老人）"
+    },
+    {
+      "offset": 5504,
+      "kind": "line",
+      "limit": 6,
+      "source": "は、はーい！",
+      "target": "来、来啦！"
+    },
+    {
+      "offset": 5535,
+      "kind": "line",
+      "limit": 10,
+      "source": "…よ、ようこそ",
+      "target": "…欢、欢迎来到"
+    },
+    {
+      "offset": 5566,
+      "kind": "line",
+      "limit": 10,
+      "source": "癸生川探偵事務所へ！",
+      "target": "癸生川侦探事务所！"
+    },
+    {
+      "offset": 5600,
+      "kind": "line",
+      "limit": 5,
+      "source": "…………。",
+      "target": "…………。"
+    },
+    {
+      "offset": 5618,
+      "kind": "line",
+      "limit": 10,
+      "source": "あ、あの…ご、",
+      "target": "那、那个…请、"
+    },
+    {
+      "offset": 5638,
+      "kind": "line",
+      "limit": 10,
+      "source": "ご依頼でしょうか…？",
+      "target": "请问是有委托吗…？"
+    },
+    {
+      "offset": 5666,
+      "kind": "line",
+      "limit": 4,
+      "source": "………。",
+      "target": "………。"
+    },
+    {
+      "offset": 5680,
+      "kind": "line",
+      "limit": 5,
+      "source": "…ふーん。",
+      "target": "…哦——。"
+    },
+    {
+      "offset": 5698,
+      "kind": "line",
+      "limit": 10,
+      "source": "あ、あの…どういった",
+      "target": "那、那个…请问"
+    },
+    {
+      "offset": 5724,
+      "kind": "line",
+      "limit": 10,
+      "source": "ご用件でしょうか…？",
+      "target": "有什么事吗…？"
+    },
+    {
+      "offset": 5750,
+      "kind": "line",
+      "limit": 9,
+      "source": "新米ですが、私が",
+      "target": "虽然我是新人，"
+    },
+    {
+      "offset": 5772,
+      "kind": "line",
+      "limit": 9,
+      "source": "話を伺いますよっ！",
+      "target": "不过我来听您说！"
+    },
+    {
+      "offset": 5818,
+      "kind": "line",
+      "limit": 11,
+      "source": "…そっか、あなたが…。",
+      "target": "…这样啊，你就是…。"
+    },
+    {
+      "offset": 5848,
+      "kind": "line",
+      "limit": 5,
+      "source": "…えっ!?",
+      "target": "…咦！？"
+    },
+    {
+      "offset": 5862,
+      "kind": "line",
+      "limit": 10,
+      "source": "あ、あの…どういった",
+      "target": "那、那个…请问"
+    },
+    {
+      "offset": 5888,
+      "kind": "line",
+      "limit": 10,
+      "source": "ご依頼でしょうか？",
+      "target": "有什么委托？"
+    },
+    {
+      "offset": 5914,
+      "kind": "line",
+      "limit": 11,
+      "source": "…ああ、ごめんなさい！",
+      "target": "…啊，对不起！"
+    },
+    {
+      "offset": 5942,
+      "kind": "line",
+      "limit": 10,
+      "source": "あのですね、えっと…",
+      "target": "这个嘛，那个…"
+    },
+    {
+      "offset": 5968,
+      "kind": "line",
+      "limit": 11,
+      "source": "ここから鞠浜公会堂には",
+      "target": "请问从这里要怎么"
+    },
+    {
+      "offset": 5996,
+      "kind": "line",
+      "limit": 11,
+      "source": "どう行けばいいのか、",
+      "target": "去鞠滨公会堂，"
+    },
+    {
+      "offset": 6022,
+      "kind": "line",
+      "limit": 11,
+      "source": "わかりますか…？",
+      "target": "你知道吗…？"
+    },
+    {
+      "offset": 6046,
+      "kind": "line",
+      "limit": 4,
+      "source": "えっ…？",
+      "target": "咦…？"
+    },
+    {
+      "offset": 6060,
+      "kind": "line",
+      "limit": 11,
+      "source": "あ、ああ、鞠浜公会堂は",
+      "target": "啊、啊，鞠滨公会堂"
+    },
+    {
+      "offset": 6088,
+      "kind": "line",
+      "limit": 11,
+      "source": "まず鞠浜台駅から電車で",
+      "target": "先从鞠滨台站坐电车"
+    },
+    {
+      "offset": 6116,
+      "kind": "line",
+      "limit": 11,
+      "source": "２駅目の…",
+      "target": "到第二站…"
+    },
+    {
+      "offset": 6132,
+      "kind": "line",
+      "limit": 10,
+      "source": "…あ、鞠浜台駅までは",
+      "target": "…啊，你知道怎么"
+    },
+    {
+      "offset": 6158,
+      "kind": "line",
+      "limit": 10,
+      "source": "わかりますかっ？",
+      "target": "去鞠滨台站吗？"
+    },
+    {
+      "offset": 6180,
+      "kind": "line",
+      "limit": 7,
+      "source": "あの、ですね…",
+      "target": "那个，我说…"
+    },
+    {
+      "offset": 6247,
+      "kind": "line",
+      "limit": 5,
+      "source": "…あーあ。",
+      "target": "…唉。"
+    },
+    {
+      "offset": 6263,
+      "kind": "line",
+      "limit": 11,
+      "source": "涼二さんが死んじゃった",
+      "target": "凉二先生已经死了"
+    },
+    {
+      "offset": 6291,
+      "kind": "line",
+      "limit": 11,
+      "source": "って話、本当だった",
+      "target": "这件事，看来"
+    },
+    {
+      "offset": 6315,
+      "kind": "line",
+      "limit": 11,
+      "source": "みたーい。",
+      "target": "是真的啊——。"
+    },
+    {
+      "offset": 6331,
+      "kind": "line",
+      "limit": 10,
+      "source": "あたしの、生涯の",
+      "target": "能配得上做我"
+    },
+    {
+      "offset": 6353,
+      "kind": "line",
+      "limit": 10,
+      "source": "パートナーに相応しい",
+      "target": "一辈子的搭档"
+    },
+    {
+      "offset": 6399,
+      "kind": "line",
+      "limit": 10,
+      "source": "のは…",
+      "target": "的人…"
+    },
+    {
+      "offset": 6411,
+      "kind": "line",
+      "limit": 9,
+      "source": "やっぱ涼二さんしか",
+      "target": "果然只有"
+    },
+    {
+      "offset": 6435,
+      "kind": "line",
+      "limit": 9,
+      "source": "いないと思ったのに",
+      "target": "凉二先生"
+    },
+    {
+      "offset": 6459,
+      "kind": "line",
+      "limit": 9,
+      "source": "なー。",
+      "target": "才行呢——。"
+    },
+    {
+      "offset": 6471,
+      "kind": "line",
+      "limit": 8,
+      "source": "せっかく、分かり",
+      "target": "为了让他一眼"
+    },
+    {
+      "offset": 6493,
+      "kind": "line",
+      "limit": 8,
+      "source": "やすいように…",
+      "target": "就认出我…"
+    },
+    {
+      "offset": 6513,
+      "kind": "line",
+      "limit": 9,
+      "source": "こうして、３年前と",
+      "target": "我还特意和３年前",
+      "runs": [
+        "我还特意",
+        "和３年前"
+      ],
+      "emphasis": [
+        {
+          "colour": null,
+          "text": "こうして、"
+        },
+        {
+          "colour": 2,
+          "text": "３年前と"
+        }
+      ]
+    },
+    {
+      "offset": 6544,
+      "kind": "line",
+      "limit": 9,
+      "source": "同じ格好で来たって",
+      "target": "穿得一模一样"
+    },
+    {
+      "offset": 6574,
+      "kind": "line",
+      "limit": 9,
+      "source": "いうのにぃ…。",
+      "target": "才过来的呢…。"
+    },
+    {
+      "offset": 6594,
+      "kind": "line",
+      "limit": 4,
+      "source": "はぁ…。",
+      "target": "唉…。"
+    },
+    {
+      "offset": 6630,
+      "kind": "line",
+      "limit": 7,
+      "source": "…しかもさー。",
+      "target": "…而且啊。"
+    },
+    {
+      "offset": 6650,
+      "kind": "line",
+      "limit": 10,
+      "source": "涼二さんが命を呈して",
+      "target": "凉二先生豁出性命"
+    },
+    {
+      "offset": 6676,
+      "kind": "line",
+      "limit": 10,
+      "source": "守った女っつーから…",
+      "target": "保护的女人…"
+    },
+    {
+      "offset": 6702,
+      "kind": "line",
+      "limit": 11,
+      "source": "どんだけスゴイ女なのか",
+      "target": "我还以为该是个"
+    },
+    {
+      "offset": 6730,
+      "kind": "line",
+      "limit": 11,
+      "source": "と思ってたのにさー。",
+      "target": "多厉害的女人呢。"
+    },
+    {
+      "offset": 6756,
+      "kind": "line",
+      "limit": 8,
+      "source": "…なぁに、あの、",
+      "target": "…谁知那个"
+    },
+    {
+      "offset": 6778,
+      "kind": "line",
+      "limit": 8,
+      "source": "田舎臭い小娘!!",
+      "target": "土气的小丫头！！"
+    },
+    {
+      "offset": 6798,
+      "kind": "line",
+      "limit": 10,
+      "source": "…むしろ、あの小娘が",
+      "target": "…要是那个丫头"
+    },
+    {
+      "offset": 6824,
+      "kind": "line",
+      "limit": 10,
+      "source": "死んじゃえば良かった",
+      "target": "当时死掉了"
+    },
+    {
+      "offset": 6850,
+      "kind": "line",
+      "limit": 10,
+      "source": "のになー…。",
+      "target": "该多好啊…。"
+    },
+    {
+      "offset": 6868,
+      "kind": "line",
+      "limit": 11,
+      "source": "ああん、もう！",
+      "target": "真是的！"
+    },
+    {
+      "offset": 6888,
+      "kind": "line",
+      "limit": 11,
+      "source": "ホントもったいなーい！",
+      "target": "真是太可惜啦！"
+    },
+    {
+      "offset": 6916,
+      "kind": "line",
+      "limit": 10,
+      "source": "涼二さんと一緒なら、",
+      "target": "要是和凉二先生"
+    },
+    {
+      "offset": 6942,
+      "kind": "line",
+      "limit": 10,
+      "source": "裏社会を牛耳ることも",
+      "target": "搭档，连黑道"
+    },
+    {
+      "offset": 6968,
+      "kind": "line",
+      "limit": 10,
+      "source": "できたのになー。",
+      "target": "都能一手遮天呢。"
+    },
+    {
+      "offset": 6990,
+      "kind": "line",
+      "limit": 10,
+      "source": "ああっ！　考えれば",
+      "target": "啊！越想"
+    },
+    {
+      "offset": 7014,
+      "kind": "line",
+      "limit": 10,
+      "source": "考えるほど、悔しいっ",
+      "target": "我就越不甘心，"
+    },
+    {
+      "offset": 7040,
+      "kind": "line",
+      "limit": 10,
+      "source": "たらありゃしない！",
+      "target": "简直气死我了！"
+    },
+    {
+      "offset": 7067,
+      "kind": "line",
+      "limit": 9,
+      "source": "…あの小娘、ホント",
+      "target": "…那个小丫头"
+    },
+    {
+      "offset": 7091,
+      "kind": "line",
+      "limit": 9,
+      "source": "ムカつくなー。",
+      "target": "真让人火大。"
+    },
+    {
+      "offset": 7118,
+      "kind": "line",
+      "limit": 10,
+      "source": "殺しちゃおっかな…。",
+      "target": "要不要杀了她呢…。"
+    },
+    {
+      "offset": 7153,
+      "kind": "line",
+      "limit": 11,
+      "source": "…それは簡単だけど、",
+      "target": "…那倒很简单，"
+    },
+    {
+      "offset": 7179,
+      "kind": "line",
+      "limit": 11,
+      "source": "でも、それじゃあ",
+      "target": "可光是那样"
+    },
+    {
+      "offset": 7201,
+      "kind": "line",
+      "limit": 11,
+      "source": "腹の虫は収まらないな。",
+      "target": "还不够解我的气。"
+    },
+    {
+      "offset": 7232,
+      "kind": "line",
+      "limit": 8,
+      "source": "…よし、決めた！",
+      "target": "…好，就这么办！"
+    },
+    {
+      "offset": 7254,
+      "kind": "line",
+      "limit": 7,
+      "source": "いなくなった",
+      "target": "代替已经不在的"
+    },
+    {
+      "offset": 7274,
+      "kind": "line",
+      "limit": 7,
+      "source": "彼の代わりに…",
+      "target": "他…"
+    },
+    {
+      "offset": 7300,
+      "kind": "line",
+      "limit": 9,
+      "source": "徹底的に、イジめて",
+      "target": "我要彻底地欺负她，"
+    },
+    {
+      "offset": 7324,
+      "kind": "line",
+      "limit": 9,
+      "source": "イジめて、イジめ",
+      "target": "欺负她，再狠狠"
+    },
+    {
+      "offset": 7346,
+      "kind": "line",
+      "limit": 9,
+      "source": "まくってあげよっ！",
+      "target": "地欺负她！"
+    },
+    {
+      "offset": 7370,
+      "kind": "line",
+      "limit": 6,
+      "source": "…あ、でも。",
+      "target": "…啊，不过。"
+    },
+    {
+      "offset": 7388,
+      "kind": "line",
+      "limit": 11,
+      "source": "今のあの娘じゃ、まだ",
+      "target": "现在的她还太小，"
+    },
+    {
+      "offset": 7414,
+      "kind": "line",
+      "limit": 11,
+      "source": "イジめ甲斐がないから…",
+      "target": "欺负起来没意思…"
+    },
+    {
+      "offset": 7460,
+      "kind": "line",
+      "limit": 10,
+      "source": "もう少し成長するのを",
+      "target": "就再等她"
+    },
+    {
+      "offset": 7486,
+      "kind": "line",
+      "limit": 10,
+      "source": "待ってあげよっかな。",
+      "target": "长大一点吧。"
+    },
+    {
+      "offset": 7512,
+      "kind": "line",
+      "limit": 10,
+      "source": "優しいなぁ、あたし。",
+      "target": "我真温柔啊。"
+    },
+    {
+      "offset": 7538,
+      "kind": "line",
+      "limit": 5,
+      "source": "…ふふっ。",
+      "target": "…呵呵。"
+    },
+    {
+      "offset": 7554,
+      "kind": "line",
+      "limit": 6,
+      "source": "うふふふっ。",
+      "target": "呵呵呵呵。"
+    },
+    {
+      "offset": 7572,
+      "kind": "line",
+      "limit": 7,
+      "source": "あははははっ！",
+      "target": "啊哈哈哈哈！"
+    },
+    {
+      "offset": 7612,
+      "kind": "line",
+      "limit": 11,
+      "source": "…ああ、すみません。",
+      "target": "…啊，对不起。"
+    },
+    {
+      "offset": 7638,
+      "kind": "line",
+      "limit": 11,
+      "source": "そこのお嬢さん、少し",
+      "target": "那边的姑娘，我想"
+    },
+    {
+      "offset": 7664,
+      "kind": "line",
+      "limit": 11,
+      "source": "道を尋ねたいのだが…。",
+      "target": "问个路…。"
+    },
+    {
+      "offset": 7697,
+      "kind": "line",
+      "limit": 7,
+      "source": "…えっ？",
+      "target": "…咦？"
+    },
+    {
+      "offset": 7711,
+      "kind": "line",
+      "limit": 7,
+      "source": "あたしですか？",
+      "target": "在叫我吗？"
+    },
+    {
+      "offset": 7731,
+      "kind": "line",
+      "limit": 7,
+      "source": "…はいはい、",
+      "target": "…好吧，"
+    },
+    {
+      "offset": 7749,
+      "kind": "line",
+      "limit": 7,
+      "source": "いいですよっ。",
+      "target": "没问题。"
+    },
+    {
+      "offset": 7829,
+      "kind": "line",
+      "limit": 9,
+      "source": "…それで、どこまで",
+      "target": "…那么，您想去"
+    },
+    {
+      "offset": 7853,
+      "kind": "line",
+      "limit": 9,
+      "source": "行きたいんですか？",
+      "target": "什么地方？"
+    },
+    {
+      "offset": 7877,
+      "kind": "line",
+      "limit": 9,
+      "source": "…おじいさんっ。",
+      "target": "…老爷爷。"
+    },
+    {
+      "offset": 7943,
+      "kind": "line",
+      "limit": 5,
+      "source": "－　了　－",
+      "target": "－　完　－"
+    }
+  ]
+}

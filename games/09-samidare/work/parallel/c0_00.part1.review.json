@@ -1,0 +1,1596 @@
+{
+  "script": "c0_00",
+  "batch": "c0_00.part1.trans.json",
+  "note": "Independent verification: for each entry decide whether ``target`` is the faithful rendering of ``source`` as its own display line. Report shifts, omissions, additions and mistranslations. An entry with ``emphasis`` is drawn in several colours: ``emphasis`` is the source split and ``runs`` the Chinese split, index for index, and it is the run with a non-null colour that the game highlights. See work/parallel/VERIFIER_BRIEF.md.",
+  "units": [
+    {
+      "offset": 24,
+      "kind": "line",
+      "limit": 9,
+      "source": "２００４年６月某日",
+      "target": "２００４年６月某日"
+    },
+    {
+      "offset": 48,
+      "kind": "line",
+      "limit": 9,
+      "source": "天気、雨",
+      "target": "天气：雨"
+    },
+    {
+      "offset": 62,
+      "kind": "line",
+      "limit": 9,
+      "source": "　",
+      "target": "　"
+    },
+    {
+      "offset": 81,
+      "kind": "line",
+      "limit": 9,
+      "source": "鞠浜市鞠浜台",
+      "target": "鞠滨市鞠滨台"
+    },
+    {
+      "offset": 172,
+      "kind": "line",
+      "limit": 9,
+      "source": "…もう、何日も雨が",
+      "target": "…这雨已经下了"
+    },
+    {
+      "offset": 196,
+      "kind": "line",
+      "limit": 9,
+      "source": "続いていた。",
+      "target": "好多天了。"
+    },
+    {
+      "offset": 214,
+      "kind": "line",
+      "limit": 9,
+      "source": "ニュースによれば、",
+      "target": "据新闻说，"
+    },
+    {
+      "offset": 238,
+      "kind": "line",
+      "limit": 9,
+      "source": "およそ８年ぶりの",
+      "target": "大约是８年来"
+    },
+    {
+      "offset": 269,
+      "kind": "line",
+      "limit": 9,
+      "source": "豪雨らしい。",
+      "target": "最大的一场暴雨。"
+    },
+    {
+      "offset": 293,
+      "kind": "line",
+      "limit": 10,
+      "source": "元々、ここ鞠浜台は",
+      "target": "原本，鞠滨台这里"
+    },
+    {
+      "offset": 343,
+      "kind": "line",
+      "limit": 10,
+      "source": "海が近いので、常に",
+      "target": "离海很近，所以"
+    },
+    {
+      "offset": 367,
+      "kind": "line",
+      "limit": 10,
+      "source": "湿度は高めなのだが…",
+      "target": "湿度一直偏高…"
+    },
+    {
+      "offset": 393,
+      "kind": "line",
+      "limit": 11,
+      "source": "更にこの大雨が加わり、",
+      "target": "再加上这场暴雨，"
+    },
+    {
+      "offset": 421,
+      "kind": "line",
+      "limit": 11,
+      "source": "街全体が淡く霞んで",
+      "target": "整座城市都淡淡地"
+    },
+    {
+      "offset": 481,
+      "kind": "line",
+      "limit": 11,
+      "source": "しまった感じがする。",
+      "target": "笼上了一层雾。"
+    },
+    {
+      "offset": 507,
+      "kind": "line",
+      "limit": 11,
+      "source": "広がる雨空はその",
+      "target": "漫天的雨云将那"
+    },
+    {
+      "offset": 536,
+      "kind": "line",
+      "limit": 11,
+      "source": "鈍い色を一面に広げ、",
+      "target": "铅灰色铺展开来，"
+    },
+    {
+      "offset": 568,
+      "kind": "line",
+      "limit": 11,
+      "source": "街の色彩を奪っていた。",
+      "target": "夺走了城市的色彩。"
+    },
+    {
+      "offset": 618,
+      "kind": "line",
+      "limit": 5,
+      "source": "…泣くと。",
+      "target": "…人哭过，"
+    },
+    {
+      "offset": 634,
+      "kind": "line",
+      "limit": 10,
+      "source": "泣くと、その人の心は",
+      "target": "心灵便会"
+    },
+    {
+      "offset": 660,
+      "kind": "line",
+      "limit": 10,
+      "source": "洗われるという。",
+      "target": "得到洗涤。"
+    },
+    {
+      "offset": 682,
+      "kind": "line",
+      "limit": 11,
+      "source": "だから…泣いている人の",
+      "target": "所以…哭泣之人的"
+    },
+    {
+      "offset": 710,
+      "kind": "line",
+      "limit": 11,
+      "source": "心に、穢れはない。",
+      "target": "心中没有污秽。"
+    },
+    {
+      "offset": 752,
+      "kind": "line",
+      "limit": 5,
+      "source": "…ならば。",
+      "target": "…那么，"
+    },
+    {
+      "offset": 768,
+      "kind": "line",
+      "limit": 9,
+      "source": "ならば、この街は…",
+      "target": "那么，这座城…"
+    },
+    {
+      "offset": 792,
+      "kind": "line",
+      "limit": 11,
+      "source": "こんなにも泣かなければ",
+      "target": "莫非已污浊到"
+    },
+    {
+      "offset": 820,
+      "kind": "line",
+      "limit": 11,
+      "source": "ならないほど、汚れて",
+      "target": "不得不如此哭泣"
+    },
+    {
+      "offset": 846,
+      "kind": "line",
+      "limit": 11,
+      "source": "いるというのか。",
+      "target": "的地步了吗？"
+    },
+    {
+      "offset": 890,
+      "kind": "line",
+      "limit": 10,
+      "source": "この鈍色の空は、何が",
+      "target": "这片铅灰色天空，"
+    },
+    {
+      "offset": 938,
+      "kind": "line",
+      "limit": 10,
+      "source": "そんなに悲しいのかも",
+      "target": "也不诉说自己为何"
+    },
+    {
+      "offset": 964,
+      "kind": "line",
+      "limit": 10,
+      "source": "告げず…",
+      "target": "那般悲伤…"
+    },
+    {
+      "offset": 978,
+      "kind": "line",
+      "limit": 11,
+      "source": "ただ、泣き続けている。",
+      "target": "只是不断哭泣。"
+    },
+    {
+      "offset": 1006,
+      "kind": "line",
+      "limit": 8,
+      "source": "モノクロームの",
+      "target": "黑白色的"
+    },
+    {
+      "offset": 1026,
+      "kind": "line",
+      "limit": 8,
+      "source": "景色は、じっと…",
+      "target": "景物默默地…"
+    },
+    {
+      "offset": 1048,
+      "kind": "line",
+      "limit": 11,
+      "source": "その涙の奏でる調べを",
+      "target": "聆听着泪水奏出的"
+    },
+    {
+      "offset": 1092,
+      "kind": "line",
+      "limit": 11,
+      "source": "聞いているようだった。",
+      "target": "那一曲旋律。"
+    },
+    {
+      "offset": 1123,
+      "kind": "line",
+      "limit": 11,
+      "source": "街は、傘がほとんど役に",
+      "target": "城里暴雨如注，"
+    },
+    {
+      "offset": 1169,
+      "kind": "line",
+      "limit": 11,
+      "source": "立たないほどの大雨。",
+      "target": "伞几乎毫无用处。"
+    },
+    {
+      "offset": 1195,
+      "kind": "line",
+      "limit": 11,
+      "source": "足元ではね上がる水が",
+      "target": "脚边飞溅的积水"
+    },
+    {
+      "offset": 1221,
+      "kind": "line",
+      "limit": 11,
+      "source": "ズボンの裾を濡らし、",
+      "target": "打湿了我的裤脚，"
+    },
+    {
+      "offset": 1281,
+      "kind": "line",
+      "limit": 11,
+      "source": "私の足取りを重くする。",
+      "target": "令我的脚步更沉重。"
+    },
+    {
+      "offset": 1311,
+      "kind": "line",
+      "limit": 11,
+      "source": "うう、しまった。",
+      "target": "唔，失策了。"
+    },
+    {
+      "offset": 1333,
+      "kind": "line",
+      "limit": 11,
+      "source": "よりによってこんな日に",
+      "target": "偏偏挑这种日子"
+    },
+    {
+      "offset": 1361,
+      "kind": "line",
+      "limit": 11,
+      "source": "するんじゃなかった…。",
+      "target": "来，真不该…"
+    },
+    {
+      "offset": 1391,
+      "kind": "line",
+      "limit": 11,
+      "source": "私は少し後悔しながらも",
+      "target": "我有些后悔，"
+    },
+    {
+      "offset": 1419,
+      "kind": "line",
+      "limit": 11,
+      "source": "いつもの道を通って…",
+      "target": "却仍沿着熟悉的路…"
+    },
+    {
+      "offset": 1474,
+      "kind": "line",
+      "limit": 10,
+      "source": "ここ、鞠浜台にある",
+      "target": "来到鞠滨台的"
+    },
+    {
+      "offset": 1537,
+      "kind": "line",
+      "limit": 10,
+      "source": "癸生川探偵事務所へと",
+      "target": "癸生川侦探事务所。"
+    },
+    {
+      "offset": 1575,
+      "kind": "line",
+      "limit": 10,
+      "source": "やって来たのだった。",
+      "target": "我还是来了。"
+    },
+    {
+      "offset": 1619,
+      "kind": "line",
+      "limit": 8,
+      "source": "序　節",
+      "target": "序　节"
+    },
+    {
+      "offset": 1631,
+      "kind": "line",
+      "limit": 8,
+      "source": "　",
+      "target": "　"
+    },
+    {
+      "offset": 1639,
+      "kind": "line",
+      "limit": 8,
+      "source": "『彼の代わりに』",
+      "target": "“代替他”"
+    },
+    {
+      "offset": 1705,
+      "kind": "line",
+      "limit": 7,
+      "source": "はーい！",
+      "target": "来啦！"
+    },
+    {
+      "offset": 1719,
+      "kind": "line",
+      "limit": 7,
+      "source": "はいはいっ!!",
+      "target": "来了来了！！"
+    },
+    {
+      "offset": 1737,
+      "kind": "line",
+      "limit": 9,
+      "source": "…あっ、しまった。",
+      "target": "…糟了。"
+    },
+    {
+      "offset": 1761,
+      "kind": "line",
+      "limit": 9,
+      "source": "ええっと…。",
+      "target": "呃…"
+    },
+    {
+      "offset": 1781,
+      "kind": "line",
+      "limit": 3,
+      "source": "…ん？",
+      "target": "…嗯？"
+    },
+    {
+      "offset": 1795,
+      "kind": "line",
+      "limit": 11,
+      "source": "あの、カギ開いてるんで",
+      "target": "那个，门没锁，"
+    },
+    {
+      "offset": 1823,
+      "kind": "line",
+      "limit": 11,
+      "source": "どうぞ入ってください！",
+      "target": "请直接进来吧！"
+    },
+    {
+      "offset": 1851,
+      "kind": "line",
+      "limit": 9,
+      "source": "…あああんもうっ！",
+      "target": "…真是的！"
+    },
+    {
+      "offset": 1875,
+      "kind": "line",
+      "limit": 9,
+      "source": "待て、こらっ！",
+      "target": "站住，别跑！"
+    },
+    {
+      "offset": 1897,
+      "kind": "line",
+      "limit": 9,
+      "source": "…な、何事だ…!?",
+      "target": "…怎、怎么回事！？"
+    },
+    {
+      "offset": 1950,
+      "kind": "line",
+      "limit": 10,
+      "source": "はいどうも生王です。",
+      "target": "嗨，是我，生王。"
+    },
+    {
+      "offset": 1998,
+      "kind": "line",
+      "limit": 10,
+      "source": "失礼しますよ。",
+      "target": "打扰了。"
+    },
+    {
+      "offset": 2018,
+      "kind": "line",
+      "limit": 10,
+      "source": "…ってあれ、伊綱君？",
+      "target": "…咦，伊纲？"
+    },
+    {
+      "offset": 2064,
+      "kind": "line",
+      "limit": 10,
+      "source": "どこいった？",
+      "target": "跑哪去了？"
+    },
+    {
+      "offset": 2099,
+      "kind": "line",
+      "limit": 3,
+      "source": "……。",
+      "target": "……"
+    },
+    {
+      "offset": 2113,
+      "kind": "line",
+      "limit": 9,
+      "source": "おや、この子は…？",
+      "target": "咦，这孩子是…？"
+    },
+    {
+      "offset": 2142,
+      "kind": "choice",
+      "limit": 0,
+      "source": "辺り見回す",
+      "target": "环视四周"
+    },
+    {
+      "offset": 2156,
+      "kind": "choice",
+      "limit": 0,
+      "source": "話す",
+      "target": "交谈"
+    },
+    {
+      "offset": 2164,
+      "kind": "choice",
+      "limit": 0,
+      "source": "調べる",
+      "target": "调查"
+    },
+    {
+      "offset": 2183,
+      "kind": "choice",
+      "limit": 0,
+      "source": "呼ぶ",
+      "target": "呼叫"
+    },
+    {
+      "offset": 2191,
+      "kind": "choice",
+      "limit": 0,
+      "source": "考える",
+      "target": "思考"
+    },
+    {
+      "offset": 2201,
+      "kind": "choice",
+      "limit": 0,
+      "source": "中断する",
+      "target": "中断"
+    },
+    {
+      "offset": 2251,
+      "kind": "line",
+      "limit": 8,
+      "source": "ええと、君は…？",
+      "target": "那个，你是…？"
+    },
+    {
+      "offset": 2293,
+      "kind": "line",
+      "limit": 8,
+      "source": "…おじさん、誰？",
+      "target": "…大叔，你是谁？",
+      "runs": [
+        "…",
+        "大叔，你是谁？"
+      ],
+      "emphasis": [
+        {
+          "colour": null,
+          "text": "…"
+        },
+        {
+          "colour": 2,
+          "text": "おじさん、誰？"
+        }
+      ]
+    },
+    {
+      "offset": 2330,
+      "kind": "line",
+      "limit": 3,
+      "source": "…!!",
+      "target": "…！！"
+    },
+    {
+      "offset": 2340,
+      "kind": "line",
+      "limit": 7,
+      "source": "…そ、そうか。",
+      "target": "…这、这样啊。"
+    },
+    {
+      "offset": 2362,
+      "kind": "line",
+      "limit": 7,
+      "source": "おじさんって",
+      "target": "大叔…"
+    },
+    {
+      "offset": 2386,
+      "kind": "line",
+      "limit": 7,
+      "source": "僕のことか…。",
+      "target": "说的是我啊…"
+    },
+    {
+      "offset": 2408,
+      "kind": "line",
+      "limit": 2,
+      "source": "…？",
+      "target": "…？"
+    },
+    {
+      "offset": 2420,
+      "kind": "line",
+      "limit": 10,
+      "source": "ああ、そうだよなあ…",
+      "target": "也是啊…"
+    },
+    {
+      "offset": 2446,
+      "kind": "line",
+      "limit": 11,
+      "source": "もう普通におじさんって",
+      "target": "我已经到了会被人"
+    },
+    {
+      "offset": 2474,
+      "kind": "line",
+      "limit": 11,
+      "source": "呼ばれちゃうのかぁ…。",
+      "target": "叫大叔的年纪啊…"
+    },
+    {
+      "offset": 2502,
+      "kind": "line",
+      "limit": 8,
+      "source": "ああ、なんだか",
+      "target": "唉，心里突然"
+    },
+    {
+      "offset": 2522,
+      "kind": "line",
+      "limit": 8,
+      "source": "せつないなあ…。",
+      "target": "有点难受…"
+    },
+    {
+      "offset": 2546,
+      "kind": "line",
+      "limit": 7,
+      "source": "…ねえ、誰さ？",
+      "target": "…所以你是谁？"
+    },
+    {
+      "offset": 2568,
+      "kind": "line",
+      "limit": 7,
+      "source": "うん、うん…。",
+      "target": "嗯，嗯…"
+    },
+    {
+      "offset": 2590,
+      "kind": "line",
+      "limit": 3,
+      "source": "……。",
+      "target": "……"
+    },
+    {
+      "offset": 2613,
+      "kind": "line",
+      "limit": 11,
+      "source": "まあ、聞きたまえ少年。",
+      "target": "少年，你且听我说。"
+    },
+    {
+      "offset": 2641,
+      "kind": "line",
+      "limit": 11,
+      "source": "君くらいの年なら、",
+      "target": "在你这个年纪，"
+    },
+    {
+      "offset": 2665,
+      "kind": "line",
+      "limit": 11,
+      "source": "大人はみんなおじさんに",
+      "target": "或许觉得大人全是"
+    },
+    {
+      "offset": 2693,
+      "kind": "line",
+      "limit": 11,
+      "source": "見えるんだろうけども…",
+      "target": "大叔，可是…"
+    },
+    {
+      "offset": 2723,
+      "kind": "line",
+      "limit": 8,
+      "source": "…おじさん？",
+      "target": "…大叔？"
+    },
+    {
+      "offset": 2741,
+      "kind": "line",
+      "limit": 8,
+      "source": "なに言ってんの？",
+      "target": "你说什么呢？"
+    },
+    {
+      "offset": 2765,
+      "kind": "line",
+      "limit": 6,
+      "source": "だけどもっ！",
+      "target": "可是！"
+    },
+    {
+      "offset": 2783,
+      "kind": "line",
+      "limit": 8,
+      "source": "いいかい、坊や。",
+      "target": "听好了，小朋友。"
+    },
+    {
+      "offset": 2823,
+      "kind": "line",
+      "limit": 9,
+      "source": "僕が、人間のできた",
+      "target": "好在我是个"
+    },
+    {
+      "offset": 2847,
+      "kind": "line",
+      "limit": 9,
+      "source": "優しい人だったから",
+      "target": "成熟又温柔的"
+    },
+    {
+      "offset": 2871,
+      "kind": "line",
+      "limit": 9,
+      "source": "良かったものの…",
+      "target": "大好人…"
+    },
+    {
+      "offset": 2893,
+      "kind": "line",
+      "limit": 11,
+      "source": "もっと血の気の多い",
+      "target": "换个脾气火爆的人，"
+    },
+    {
+      "offset": 2917,
+      "kind": "line",
+      "limit": 11,
+      "source": "人だったら、今頃",
+      "target": "你现在早就"
+    },
+    {
+      "offset": 2939,
+      "kind": "line",
+      "limit": 11,
+      "source": "ひどい目に遭わされて…",
+      "target": "吃尽苦头了…"
+    },
+    {
+      "offset": 3000,
+      "kind": "line",
+      "limit": 9,
+      "source": "なに軽いショックを",
+      "target": "你怎么受了这点"
+    },
+    {
+      "offset": 3024,
+      "kind": "line",
+      "limit": 9,
+      "source": "受けてるんですか、",
+      "target": "小打击就蔫了，"
+    },
+    {
+      "offset": 3059,
+      "kind": "line",
+      "limit": 9,
+      "source": "生王おじさん。",
+      "target": "生王大叔。"
+    },
+    {
+      "offset": 3087,
+      "kind": "line",
+      "limit": 7,
+      "source": "うわあ伊綱君！",
+      "target": "哇啊伊纲！",
+      "runs": [
+        "哇啊",
+        "伊纲！"
+      ],
+      "emphasis": [
+        {
+          "colour": null,
+          "text": "うわあ"
+        },
+        {
+          "colour": 2,
+          "text": "伊綱君！"
+        }
+      ]
+    },
+    {
+      "offset": 3130,
+      "kind": "line",
+      "limit": 7,
+      "source": "いたのか！",
+      "target": "你在啊！"
+    },
+    {
+      "offset": 3148,
+      "kind": "line",
+      "limit": 11,
+      "source": "そんな、子供相手に",
+      "target": "会跟一个孩子"
+    },
+    {
+      "offset": 3172,
+      "kind": "line",
+      "limit": 11,
+      "source": "ムキになってる時点で…",
+      "target": "较真到这种地步…"
+    },
+    {
+      "offset": 3200,
+      "kind": "line",
+      "limit": 10,
+      "source": "人間ができてるなんて",
+      "target": "实在称不上"
+    },
+    {
+      "offset": 3226,
+      "kind": "line",
+      "limit": 10,
+      "source": "とても言えないと",
+      "target": "成熟稳重吧。"
+    },
+    {
+      "offset": 3248,
+      "kind": "line",
+      "limit": 10,
+      "source": "思いますけど。",
+      "target": "我觉得。"
+    },
+    {
+      "offset": 3270,
+      "kind": "line",
+      "limit": 11,
+      "source": "…いや、ほら、あれだ。",
+      "target": "…不是，那个嘛。"
+    },
+    {
+      "offset": 3298,
+      "kind": "line",
+      "limit": 11,
+      "source": "悲しいかな、人は年を",
+      "target": "我只是感叹，人终究"
+    },
+    {
+      "offset": 3324,
+      "kind": "line",
+      "limit": 11,
+      "source": "取る生き物なんだなぁ…",
+      "target": "是会变老的生物啊…"
+    },
+    {
+      "offset": 3352,
+      "kind": "line",
+      "limit": 11,
+      "source": "なんて思ってね。",
+      "target": "仅此而已。"
+    },
+    {
+      "offset": 3376,
+      "kind": "line",
+      "limit": 8,
+      "source": "生き物はみんな",
+      "target": "所有生物"
+    },
+    {
+      "offset": 3396,
+      "kind": "line",
+      "limit": 8,
+      "source": "取りますよ、年。",
+      "target": "都会变老。"
+    },
+    {
+      "offset": 3420,
+      "kind": "line",
+      "limit": 6,
+      "source": "それはいい！",
+      "target": "说得好！"
+    },
+    {
+      "offset": 3440,
+      "kind": "line",
+      "limit": 9,
+      "source": "…なんですかそれ。",
+      "target": "…这算什么。"
+    },
+    {
+      "offset": 3464,
+      "kind": "line",
+      "limit": 9,
+      "source": "先生の真似？",
+      "target": "模仿老师？"
+    },
+    {
+      "offset": 3482,
+      "kind": "line",
+      "limit": 9,
+      "source": "似てませんよ。",
+      "target": "一点也不像。"
+    },
+    {
+      "offset": 3504,
+      "kind": "line",
+      "limit": 10,
+      "source": "だからもういいって",
+      "target": "都说别再学了！"
+    },
+    {
+      "offset": 3528,
+      "kind": "line",
+      "limit": 10,
+      "source": "言ってるでしょうが！",
+      "target": "你听见没有！"
+    },
+    {
+      "offset": 3554,
+      "kind": "line",
+      "limit": 10,
+      "source": "ごめんなさいってば！",
+      "target": "我都道歉了嘛！"
+    },
+    {
+      "offset": 3582,
+      "kind": "line",
+      "limit": 4,
+      "source": "………？",
+      "target": "………？"
+    },
+    {
+      "offset": 3607,
+      "kind": "line",
+      "limit": 11,
+      "source": "いやいや、話を戻そう。",
+      "target": "好了，回到正题。"
+    },
+    {
+      "offset": 3635,
+      "kind": "line",
+      "limit": 10,
+      "source": "…で、呆れた瞳で僕を",
+      "target": "…所以，这个用"
+    },
+    {
+      "offset": 3679,
+      "kind": "line",
+      "limit": 10,
+      "source": "見るこの子はいったい",
+      "target": "无语眼神看我的"
+    },
+    {
+      "offset": 3705,
+      "kind": "line",
+      "limit": 10,
+      "source": "誰なんだい？",
+      "target": "孩子是谁？"
+    },
+    {
+      "offset": 3725,
+      "kind": "line",
+      "limit": 10,
+      "source": "その前に、彼の質問に",
+      "target": "在这之前，先好好"
+    },
+    {
+      "offset": 3751,
+      "kind": "line",
+      "limit": 10,
+      "source": "ちゃんと答えてあげて",
+      "target": "回答他的问题"
+    },
+    {
+      "offset": 3777,
+      "kind": "line",
+      "limit": 10,
+      "source": "くださいよ。",
+      "target": "吧。"
+    },
+    {
+      "offset": 3797,
+      "kind": "line",
+      "limit": 10,
+      "source": "…あっ、僕のことか。",
+      "target": "…啊，问我啊。"
+    },
+    {
+      "offset": 3823,
+      "kind": "line",
+      "limit": 10,
+      "source": "ええと…。",
+      "target": "那个…"
+    },
+    {
+      "offset": 3844,
+      "kind": "line",
+      "limit": 10,
+      "source": "おにーさんは生王正生",
+      "target": "大哥哥叫生王正生",
+      "runs": [
+        "大哥哥叫",
+        "生王正生"
+      ],
+      "emphasis": [
+        {
+          "colour": null,
+          "text": "おにーさんは"
+        },
+        {
+          "colour": 2,
+          "text": "生王正生"
+        }
+      ]
+    },
+    {
+      "offset": 3955,
+      "kind": "line",
+      "limit": 10,
+      "source": "っていって、事務所の",
+      "target": "是事务所里这些人的"
+    },
+    {
+      "offset": 3999,
+      "kind": "line",
+      "limit": 10,
+      "source": "人たちの、まあ…",
+      "target": "这个嘛…"
+    },
+    {
+      "offset": 4021,
+      "kind": "line",
+      "limit": 9,
+      "source": "友達ってとこかな？",
+      "target": "算是朋友吧？"
+    },
+    {
+      "offset": 4047,
+      "kind": "line",
+      "limit": 4,
+      "source": "友達…？",
+      "target": "朋友…？"
+    },
+    {
+      "offset": 4063,
+      "kind": "line",
+      "limit": 11,
+      "source": "友達だったんですか!?",
+      "target": "原来是朋友吗！？"
+    },
+    {
+      "offset": 4091,
+      "kind": "line",
+      "limit": 7,
+      "source": "まあ、便宜上。",
+      "target": "姑且算是。"
+    },
+    {
+      "offset": 4131,
+      "kind": "line",
+      "limit": 10,
+      "source": "でも本職はゲームを",
+      "target": "不过我的正职是"
+    },
+    {
+      "offset": 4155,
+      "kind": "line",
+      "limit": 10,
+      "source": "作ってる人だからね。",
+      "target": "做游戏。"
+    },
+    {
+      "offset": 4181,
+      "kind": "line",
+      "limit": 11,
+      "source": "ところで坊やはどんな",
+      "target": "话说小朋友喜欢"
+    },
+    {
+      "offset": 4207,
+      "kind": "line",
+      "limit": 11,
+      "source": "ゲームが好きなのかな？",
+      "target": "什么游戏？"
+    },
+    {
+      "offset": 4248,
+      "kind": "line",
+      "limit": 10,
+      "source": "癸生川凌介事件譚って",
+      "target": "《癸生川凌介事件谭》"
+    },
+    {
+      "offset": 4319,
+      "kind": "line",
+      "limit": 10,
+      "source": "面白いゲームがあるん",
+      "target": "这款游戏很有趣，"
+    },
+    {
+      "offset": 4345,
+      "kind": "line",
+      "limit": 10,
+      "source": "だけど、知ってる？",
+      "target": "你知道吗？"
+    },
+    {
+      "offset": 4371,
+      "kind": "line",
+      "limit": 6,
+      "source": "…知らない。",
+      "target": "…不知道。"
+    },
+    {
+      "offset": 4391,
+      "kind": "line",
+      "limit": 9,
+      "source": "あ、ああ、そうか…",
+      "target": "啊、啊，这样啊…"
+    },
+    {
+      "offset": 4415,
+      "kind": "line",
+      "limit": 9,
+      "source": "知らないか…。",
+      "target": "不知道啊…"
+    },
+    {
+      "offset": 4435,
+      "kind": "line",
+      "limit": 10,
+      "source": "とても面白いから",
+      "target": "真的很好玩，"
+    },
+    {
+      "offset": 4457,
+      "kind": "line",
+      "limit": 10,
+      "source": "機会があったらぜひ…",
+      "target": "有机会一定要试试…"
+    },
+    {
+      "offset": 4496,
+      "kind": "line",
+      "limit": 11,
+      "source": "生王さん、もしかして",
+      "target": "生王先生，难道你"
+    },
+    {
+      "offset": 4528,
+      "kind": "line",
+      "limit": 11,
+      "source": "子供と話すたびにそんな",
+      "target": "每次和小孩说话都"
+    },
+    {
+      "offset": 4556,
+      "kind": "line",
+      "limit": 11,
+      "source": "こと聞いてるんですか？",
+      "target": "会问这个吗？"
+    },
+    {
+      "offset": 4586,
+      "kind": "line",
+      "limit": 4,
+      "source": "…はっ！",
+      "target": "…哈！"
+    },
+    {
+      "offset": 4600,
+      "kind": "line",
+      "limit": 9,
+      "source": "しまった、無意識の",
+      "target": "糟了，不知不觉"
+    },
+    {
+      "offset": 4624,
+      "kind": "line",
+      "limit": 9,
+      "source": "うちに、つい…。",
+      "target": "就问出口了…"
+    },
+    {
+      "offset": 4648,
+      "kind": "line",
+      "limit": 10,
+      "source": "…なんか変なおじさん",
+      "target": "…真是个怪大叔"
+    },
+    {
+      "offset": 4674,
+      "kind": "line",
+      "limit": 10,
+      "source": "だね。",
+      "target": "呢。"
+    },
+    {
+      "offset": 4688,
+      "kind": "line",
+      "limit": 8,
+      "source": "そうですね、変な",
+      "target": "是啊，是个"
+    },
+    {
+      "offset": 4710,
+      "kind": "line",
+      "limit": 8,
+      "source": "おじさんですね。",
+      "target": "怪大叔。"
+    },
+    {
+      "offset": 4732,
+      "kind": "line",
+      "limit": 9,
+      "source": "もう変なおじさんで",
+      "target": "那我就当个"
+    },
+    {
+      "offset": 4756,
+      "kind": "line",
+      "limit": 9,
+      "source": "いいですよ。",
+      "target": "怪大叔吧。"
+    },
+    {
+      "offset": 4774,
+      "kind": "line",
+      "limit": 11,
+      "source": "やーい、変なおじさん！",
+      "target": "怪大叔，怪大叔！"
+    },
+    {
+      "offset": 4804,
+      "kind": "line",
+      "limit": 7,
+      "source": "変なおじさん！",
+      "target": "怪大叔！"
+    },
+    {
+      "offset": 4826,
+      "kind": "line",
+      "limit": 6,
+      "source": "イジメだ…。",
+      "target": "这是欺负人…"
+    },
+    {
+      "offset": 4855,
+      "kind": "line",
+      "limit": 8,
+      "source": "…で、この子は？",
+      "target": "…所以，这孩子？"
+    },
+    {
+      "offset": 4879,
+      "kind": "line",
+      "limit": 10,
+      "source": "それがですね。",
+      "target": "这个嘛。"
+    },
+    {
+      "offset": 4910,
+      "kind": "line",
+      "limit": 10,
+      "source": "迷子みたいなんです。",
+      "target": "好像是迷路了。"
+    },
+    {
+      "offset": 4945,
+      "kind": "line",
+      "limit": 3,
+      "source": "迷子？",
+      "target": "迷路？"
+    },
+    {
+      "offset": 4969,
+      "kind": "line",
+      "limit": 11,
+      "source": "さっき、事務所の前を",
+      "target": "刚才他独自走在"
+    },
+    {
+      "offset": 4995,
+      "kind": "line",
+      "limit": 11,
+      "source": "ひとりで歩いてたんで",
+      "target": "事务所门口，"
+    },
+    {
+      "offset": 5021,
+      "kind": "line",
+      "limit": 11,
+      "source": "声をかけたんですけど…",
+      "target": "我就叫住了他…"
+    },
+    {
+      "offset": 5049,
+      "kind": "line",
+      "limit": 10,
+      "source": "どうやら、親御さんと",
+      "target": "看来是和父母"
+    },
+    {
+      "offset": 5095,
+      "kind": "line",
+      "limit": 10,
+      "source": "はぐれちゃったみたい",
+      "target": "走散了。"
+    },
+    {
+      "offset": 5121,
+      "kind": "line",
+      "limit": 10,
+      "source": "なんですよ。",
+      "target": "大概是这样。"
+    },
+    {
+      "offset": 5141,
+      "kind": "line",
+      "limit": 6,
+      "source": "なるほど…。",
+      "target": "原来如此…"
+    },
+    {
+      "offset": 5161,
+      "kind": "line",
+      "limit": 3,
+      "source": "……。",
+      "target": "……"
+    },
+    {
+      "offset": 5175,
+      "kind": "line",
+      "limit": 10,
+      "source": "んで、その親御さんを",
+      "target": "所以你在帮他"
+    },
+    {
+      "offset": 5221,
+      "kind": "line",
+      "limit": 10,
+      "source": "探してるってわけか。",
+      "target": "找父母啊。"
+    },
+    {
+      "offset": 5259,
+      "kind": "line",
+      "limit": 10,
+      "source": "そうなんです。",
+      "target": "就是这样。"
+    },
+    {
+      "offset": 5279,
+      "kind": "line",
+      "limit": 10,
+      "source": "それで、話を聞こうと",
+      "target": "我正想问问情况，"
+    },
+    {
+      "offset": 5305,
+      "kind": "line",
+      "limit": 10,
+      "source": "してたんですが…",
+      "target": "可是…"
+    },
+    {
+      "offset": 5327,
+      "kind": "line",
+      "limit": 11,
+      "source": "自分の名前も何も話して",
+      "target": "他连姓名什么的"
+    },
+    {
+      "offset": 5355,
+      "kind": "line",
+      "limit": 11,
+      "source": "くれなくて、ちょっと",
+      "target": "都不肯说，"
+    },
+    {
+      "offset": 5381,
+      "kind": "line",
+      "limit": 11,
+      "source": "困ってたんですよ。",
+      "target": "真让我犯愁。"
+    },
+    {
+      "offset": 5407,
+      "kind": "line",
+      "limit": 7,
+      "source": "おやおや。",
+      "target": "哎呀呀。"
+    },
+    {
+      "offset": 5423,
+      "kind": "line",
+      "limit": 7,
+      "source": "そうなのかい？",
+      "target": "是这样吗？"
+    },
+    {
+      "offset": 5445,
+      "kind": "line",
+      "limit": 3,
+      "source": "……。",
+      "target": "……"
+    },
+    {
+      "offset": 5459,
+      "kind": "line",
+      "limit": 11,
+      "source": "持ち物を見せてもらおう",
+      "target": "想看看他的随身物品"
+    },
+    {
+      "offset": 5487,
+      "kind": "line",
+      "limit": 11,
+      "source": "としたら暴れるし…。",
+      "target": "他又会闹腾…"
+    },
+    {
+      "offset": 5533,
+      "kind": "line",
+      "limit": 8,
+      "source": "ああ、なるほど。",
+      "target": "啊，原来如此。"
+    },
+    {
+      "offset": 5555,
+      "kind": "line",
+      "limit": 10,
+      "source": "さっき僕が来たときに",
+      "target": "难怪我刚来的时候"
+    },
+    {
+      "offset": 5588,
+      "kind": "line",
+      "limit": 10,
+      "source": "慌ただしかったのは、",
+      "target": "这里乱成一团，"
+    },
+    {
+      "offset": 5620,
+      "kind": "line",
+      "limit": 10,
+      "source": "それだったのか。",
+      "target": "原来是为这个。"
+    },
+    {
+      "offset": 5642,
+      "kind": "line",
+      "limit": 11,
+      "source": "さすがの伊綱君も相手が",
+      "target": "就连伊纲遇上孩子"
+    },
+    {
+      "offset": 5670,
+      "kind": "line",
+      "limit": 11,
+      "source": "子供じゃ歯が立たない",
+      "target": "也毫无办法"
+    },
+    {
+      "offset": 5696,
+      "kind": "line",
+      "limit": 11,
+      "source": "ってわけか。",
+      "target": "啊。"
+    },
+    {
+      "offset": 5714,
+      "kind": "line",
+      "limit": 8,
+      "source": "あはは、とんだ",
+      "target": "哈哈，真是个"
+    },
+    {
+      "offset": 5745,
+      "kind": "line",
+      "limit": 8,
+      "source": "腕白少年だなあ。",
+      "target": "调皮鬼。"
+    },
+    {
+      "offset": 5775,
+      "kind": "line",
+      "limit": 9,
+      "source": "んもう、笑い事じゃ",
+      "target": "真是的，这可"
+    },
+    {
+      "offset": 5799,
+      "kind": "line",
+      "limit": 9,
+      "source": "ないですよ。",
+      "target": "不好笑。"
+    },
+    {
+      "offset": 5817,
+      "kind": "line",
+      "limit": 10,
+      "source": "早く連絡しないと、",
+      "target": "得赶快联系家长，"
+    },
+    {
+      "offset": 5850,
+      "kind": "line",
+      "limit": 10,
+      "source": "親御さんも心配してる",
+      "target": "他们一定也很担心"
+    },
+    {
+      "offset": 5882,
+      "kind": "line",
+      "limit": 10,
+      "source": "だろうし…。",
+      "target": "吧…"
+    },
+    {
+      "offset": 5902,
+      "kind": "line",
+      "limit": 7,
+      "source": "…してないよ。",
+      "target": "…他们不担心。"
+    },
+    {
+      "offset": 5924,
+      "kind": "line",
+      "limit": 4,
+      "source": "えっ…？",
+      "target": "咦…？"
+    },
+    {
+      "offset": 5947,
+      "kind": "line",
+      "limit": 11,
+      "source": "…どうせ心配なんて",
+      "target": "…反正他们一点都"
+    },
+    {
+      "offset": 5971,
+      "kind": "line",
+      "limit": 11,
+      "source": "してないから、いいよ。",
+      "target": "不担心，别管了。"
+    },
+    {
+      "offset": 6001,
+      "kind": "line",
+      "limit": 4,
+      "source": "あれま。",
+      "target": "哎呀。"
+    },
+    {
+      "offset": 6017,
+      "kind": "line",
+      "limit": 8,
+      "source": "…なにやら事情が",
+      "target": "…看来其中"
+    },
+    {
+      "offset": 6039,
+      "kind": "line",
+      "limit": 8,
+      "source": "ありそうだな。",
+      "target": "另有隐情。"
+    },
+    {
+      "offset": 6061,
+      "kind": "line",
+      "limit": 8,
+      "source": "少し、詳しく",
+      "target": "再仔细"
+    },
+    {
+      "offset": 6097,
+      "kind": "line",
+      "limit": 8,
+      "source": "聞いてみるか…。",
+      "target": "问问他吧…"
+    },
+    {
+      "offset": 6180,
+      "kind": "line",
+      "limit": 11,
+      "source": "長雨のためか、事務所の",
+      "target": "或许因为连日阴雨，"
+    },
+    {
+      "offset": 6208,
+      "kind": "line",
+      "limit": 11,
+      "source": "中は絡みつくような重い",
+      "target": "事务所里充斥着"
+    },
+    {
+      "offset": 6254,
+      "kind": "line",
+      "limit": 11,
+      "source": "空気が充ちている。",
+      "target": "黏稠而沉闷的空气。"
+    }
+  ]
+}

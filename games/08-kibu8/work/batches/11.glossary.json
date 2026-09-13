@@ -1,0 +1,265 @@
+{
+  "public_candidates": {
+    "characters": [
+      {
+        "canonical": "生王正生",
+        "render": "生王正生",
+        "aliases": [
+          "生王"
+        ],
+        "category": "person_name_or_form",
+        "status": "project_locked",
+        "first_recorded_game": "kibu1",
+        "note": "叙事者、游戏编剧。读音 イクルミ マサオ（Ikurumi Masao）；生王是姓，不是生田。",
+        "source_refs": [
+          "kibu1/characters/0",
+          "kibu2/characters/0",
+          "kibu3/characters/0",
+          "kibu4/characters/0"
+        ]
+      },
+      {
+        "canonical": "癸生川凌介",
+        "render": "癸生川凌介",
+        "aliases": [
+          "癸生川"
+        ],
+        "category": "person_name_or_form",
+        "status": "project_locked",
+        "first_recorded_game": "kibu1",
+        "note": "侦探。读音 キブカワ リョウスケ（Kibukawa Ryosuke）；先生按上下文译老师/先生。",
+        "source_refs": [
+          "kibu1/characters/1",
+          "kibu2/characters/1",
+          "kibu3/characters/1",
+          "kibu4/characters/1"
+        ]
+      },
+      {
+        "canonical": "白鷺洲伊綱",
+        "render": "白鹭洲伊纲",
+        "aliases": [
+          "白鷺洲",
+          "伊綱"
+        ],
+        "category": "person_name_or_form",
+        "status": "project_locked",
+        "first_recorded_game": "kibu1",
+        "note": "女性侦探助手。读音 サギシマ イヅナ（Sagishima Izuna）。姓为白鹭洲，不能改为白鹭岛。",
+        "usage": "白鷺洲单独出现时仅在指向伊纲的语境使用。第四作同姓亲属不能全部认作伊纲；须结合当时人物和时间线。",
+        "source_refs": [
+          "kibu1/characters/2",
+          "kibu2/characters/2",
+          "kibu3/characters/2",
+          "kibu4/characters/2"
+        ]
+      },
+      {
+        "canonical": "音成孝一",
+        "render": "林居孝一",
+        "aliases": [
+          "音成"
+        ],
+        "category": "person_name_or_form",
+        "status": "project_locked",
+        "first_recorded_game": "kibu1",
+        "note": "用户指定谐音汉化姓氏：音成单独出现译林居，全名译林居孝一；中文与邻居同音，无须译注。",
+        "source_refs": [
+          "kibu1/characters/4",
+          "kibu2/characters/4",
+          "kibu3/characters/4",
+          "kibu4/characters/4"
+        ]
+      },
+      {
+        "canonical": "瀬堂",
+        "render": "濑堂",
+        "category": "person_name_or_form",
+        "status": "project_locked",
+        "first_recorded_game": "kibu1",
+        "note": "读音 セドウ（Sedo），Genma 的游戏制作人；未见名。",
+        "source_refs": [
+          "kibu1/characters/11",
+          "kibu2/characters/11",
+          "kibu3/characters/11",
+          "kibu4/characters/11"
+        ]
+      },
+      {
+        "canonical": "みに",
+        "render": "米妮",
+        "category": "person_name_or_form",
+        "status": "project_locked",
+        "first_recorded_game": "kibu1",
+        "note": "笠见由纪乃所用网游ID；与狭川美妮的名字读音 mini 相同，保留谐音线索，不能把真实狭川和账号混同。仅实体语境替换，不能替换普通日语子串。",
+        "source_refs": [
+          "kibu1/characters/19",
+          "kibu2/characters/19",
+          "kibu3/characters/19",
+          "kibu4/characters/19"
+        ]
+      },
+      {
+        "canonical": "東真市郎",
+        "render": "东真市郎",
+        "aliases": [
+          "東"
+        ],
+        "category": "person_name_or_form",
+        "status": "project_locked",
+        "first_recorded_game": "kibu3",
+        "note": "东为姓，不能误拆为东真。",
+        "source_refs": [
+          "kibu3/characters/35"
+        ]
+      },
+      {
+        "canonical": "久美浜あみ",
+        "render": "久美滨亚美",
+        "aliases": [
+          "久美浜",
+          "あみ"
+        ],
+        "category": "person_name_or_form",
+        "status": "project_locked",
+        "first_recorded_game": "kibu3",
+        "note": "亚美为假名音译；あみあみ=亚美美，浜やん=阿滨。",
+        "source_refs": [
+          "kibu3/characters/38"
+        ]
+      }
+    ],
+    "terms": [
+      {
+        "canonical": "ゲンマ",
+        "render": "玄马",
+        "category": "company",
+        "status": "project_locked",
+        "first_recorded_game": "kibu1",
+        "source_refs": [
+          "kibu1/terms/9"
+        ]
+      },
+      {
+        "canonical": "鞠浜台",
+        "render": "鞠滨台",
+        "category": "location",
+        "status": "project_locked",
+        "first_recorded_game": "kibu1",
+        "source_refs": [
+          "kibu1/terms/17",
+          "kibu4/terms/12"
+        ]
+      },
+      {
+        "canonical": "癸生川探偵事務所",
+        "render": "癸生川侦探事务所",
+        "category": "location",
+        "status": "project_locked",
+        "first_recorded_game": "kibu1",
+        "source_refs": [
+          "kibu1/terms/20"
+        ]
+      },
+      {
+        "canonical": "話す",
+        "render": "交谈",
+        "category": "menu",
+        "status": "project_locked",
+        "first_recorded_game": "kibu1",
+        "source_refs": [
+          "kibu1/terms/29"
+        ]
+      },
+      {
+        "canonical": "見回す",
+        "render": "环顾",
+        "category": "menu",
+        "status": "project_locked",
+        "first_recorded_game": "kibu1",
+        "source_refs": [
+          "kibu1/terms/30",
+          "kibu2/terms/12",
+          "kibu3/terms/17"
+        ]
+      },
+      {
+        "canonical": "調べる",
+        "render": "调查",
+        "category": "menu",
+        "status": "project_locked",
+        "first_recorded_game": "kibu1",
+        "source_refs": [
+          "kibu1/terms/31"
+        ]
+      },
+      {
+        "canonical": "白鷺洲",
+        "render": "白鹭洲",
+        "category": "project_term",
+        "status": "project_locked",
+        "first_recorded_game": "kibu4",
+        "usage": "第四作姓氏形式，按白鹭洲处理；不能自动解析为伊纲。",
+        "source_refs": [
+          "kibu4/terms/4"
+        ]
+      },
+      {
+        "canonical": "鞠浜警察署",
+        "render": "鞠滨警署",
+        "category": "location",
+        "note": "菜单短称；鞠浜台警察署在叙述中完整译鞠滨台警署。",
+        "status": "project_locked",
+        "first_recorded_game": "kibu6",
+        "source_refs": [
+          "kibu6/terms/9"
+        ]
+      },
+      {
+        "canonical": "港公園",
+        "render": "港口公园",
+        "category": "project_term",
+        "status": "project_locked",
+        "first_recorded_game": "kibu6",
+        "source_refs": [
+          "kibu6/terms/10",
+          "kibu7/terms/9"
+        ]
+      },
+      {
+        "canonical": "鞠浜市",
+        "render": "鞠滨市",
+        "category": "project_term",
+        "note": "原文鞠浜市不擅自补台字。",
+        "status": "project_locked",
+        "first_recorded_game": "kibu6",
+        "source_refs": [
+          "kibu6/terms/19"
+        ]
+      }
+    ],
+    "non_translate": []
+  },
+  "local": {
+    "schema": 2,
+    "characters": [],
+    "terms": [
+      {
+        "canonical": "仮面幻影殺人事件",
+        "render": "假面幻影杀人事件",
+        "category": "title",
+        "status": "provisional",
+        "source_evidence": [
+          "scratch3_1.dat/c0-01.bin: spaced title text"
+        ],
+        "note": "原文标题字间全角空格用于显示；不同于第一作仮面幻想殺人事件。中文标题暂译。"
+      }
+    ],
+    "non_translate": [],
+    "rules": {
+      "public_policy": "同时读取 series/glossary.json 和 series/glossary-rules.json；新增专名与待定项留在本作，禁止改写前作译文。",
+      "review_status": "正文指令及点击边界尚待解析，不进行脱离上下文的字符串替换。"
+    }
+  },
+  "note": "Candidates only; read full rule files and context, do not infer identities from substring matches."
+}

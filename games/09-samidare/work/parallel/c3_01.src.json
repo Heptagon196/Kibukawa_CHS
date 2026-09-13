@@ -1,0 +1,5652 @@
+{
+  "script": "c3_01",
+  "note": "One entry per display line. Fill target; len(target) must not exceed limit. A unit that lists emphasis is drawn in several colours: give its target as runs, one string per colour run, so the emphasis stays on the same content. See work/STYLE_GUIDE.md.",
+  "units": [
+    {
+      "offset": 15,
+      "kind": "line",
+      "source": "１９９６年６月某日",
+      "limit": 9,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 39,
+      "kind": "line",
+      "source": "天気、雨",
+      "limit": 9,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 53,
+      "kind": "line",
+      "source": "　",
+      "limit": 9,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 61,
+      "kind": "line",
+      "source": "クレフ製作所",
+      "limit": 9,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 116,
+      "kind": "line",
+      "source": "…工場内は、もぬけの",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 149,
+      "kind": "line",
+      "source": "空だった。",
+      "limit": 10,
+      "fragments": 2,
+      "target": ""
+    },
+    {
+      "offset": 171,
+      "kind": "line",
+      "source": "正面入口には鍵が",
+      "limit": 9,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 193,
+      "kind": "line",
+      "source": "かかっていたけど…",
+      "limit": 9,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 217,
+      "kind": "line",
+      "source": "裏口が開いていたので",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 243,
+      "kind": "line",
+      "source": "少し勝手に入らせて",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 267,
+      "kind": "line",
+      "source": "もらった。",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 285,
+      "kind": "line",
+      "source": "どなたか…いますかー？",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 315,
+      "kind": "line",
+      "source": "……。",
+      "limit": 3,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 327,
+      "kind": "line",
+      "source": "…返事はない。",
+      "limit": 7,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 347,
+      "kind": "line",
+      "source": "しかし、数ヶ月前から",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 373,
+      "kind": "line",
+      "source": "突然人の出入りが",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 395,
+      "kind": "line",
+      "source": "なくなったそうだが…",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 421,
+      "kind": "line",
+      "source": "ここの従業員や経営者は",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 449,
+      "kind": "line",
+      "source": "どこに行ってしまったん",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 477,
+      "kind": "line",
+      "source": "だろうか…。",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 497,
+      "kind": "line",
+      "source": "さて、と…。",
+      "limit": 6,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 529,
+      "kind": "choice",
+      "source": "場所移動",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 541,
+      "kind": "choice",
+      "source": "辺り見回す",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 555,
+      "kind": "choice",
+      "source": "調べる",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 565,
+      "kind": "choice",
+      "source": "中断する",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 580,
+      "kind": "choice",
+      "source": "隠れる",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 626,
+      "kind": "line",
+      "source": "昼間だけど、照明が",
+      "limit": 9,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 655,
+      "kind": "line",
+      "source": "点いていないので",
+      "limit": 9,
+      "fragments": 2,
+      "target": ""
+    },
+    {
+      "offset": 683,
+      "kind": "line",
+      "source": "薄暗い。",
+      "limit": 9,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 697,
+      "kind": "line",
+      "source": "窓からの薄明かりで、",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 723,
+      "kind": "line",
+      "source": "室内の様子がぼんやりと",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 751,
+      "kind": "line",
+      "source": "浮かんでいる感じだ。",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 777,
+      "kind": "line",
+      "source": "湿気のためか、湿った",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 803,
+      "kind": "line",
+      "source": "ホコリの匂いが作業場に",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 844,
+      "kind": "line",
+      "source": "充満している。",
+      "limit": 11,
+      "fragments": 2,
+      "target": ""
+    },
+    {
+      "offset": 881,
+      "kind": "line",
+      "source": "旋盤などの機材も、",
+      "limit": 10,
+      "fragments": 2,
+      "target": ""
+    },
+    {
+      "offset": 911,
+      "kind": "line",
+      "source": "ホコリが積もったまま",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 937,
+      "kind": "line",
+      "source": "放置されていた。",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 959,
+      "kind": "line",
+      "source": "確かにこれは、使われ",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 985,
+      "kind": "line",
+      "source": "なくなってから数ヶ月は",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 1013,
+      "kind": "line",
+      "source": "経っているだろう…。",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 1048,
+      "kind": "line",
+      "source": "工場の隅を見ると、事務",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 1076,
+      "kind": "line",
+      "source": "スペースがあり、机が",
+      "limit": 11,
+      "fragments": 3,
+      "emphasis": [
+        {
+          "colour": null,
+          "text": "スペースがあり、"
+        },
+        {
+          "colour": 2,
+          "text": "机が"
+        }
+      ],
+      "target": ""
+    },
+    {
+      "offset": 1115,
+      "kind": "line",
+      "source": "いくつか並んでいた。",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 1141,
+      "kind": "line",
+      "source": "…この机も、一応",
+      "limit": 8,
+      "fragments": 3,
+      "emphasis": [
+        {
+          "colour": null,
+          "text": "…この"
+        },
+        {
+          "colour": 2,
+          "text": "机も、一応"
+        }
+      ],
+      "target": ""
+    },
+    {
+      "offset": 1176,
+      "kind": "line",
+      "source": "調べてみるか…。",
+      "limit": 8,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 1207,
+      "kind": "line",
+      "source": "かつては活気にあふれて",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 1235,
+      "kind": "line",
+      "source": "いただろう作業場も、",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 1261,
+      "kind": "line",
+      "source": "すっかり寂れている。",
+      "limit": 11,
+      "fragments": 3,
+      "target": ""
+    },
+    {
+      "offset": 1305,
+      "kind": "line",
+      "source": "かすかに射し込む光の",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 1331,
+      "kind": "line",
+      "source": "中を、小さなホコリが",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 1357,
+      "kind": "line",
+      "source": "ゆらゆら舞っていた。",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 1444,
+      "kind": "line",
+      "source": "…!?",
+      "limit": 3,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 1454,
+      "kind": "line",
+      "source": "裏口から人の気配が…！",
+      "limit": 11,
+      "fragments": 3,
+      "emphasis": [
+        {
+          "colour": null,
+          "text": "裏口から"
+        },
+        {
+          "colour": 2,
+          "text": "人の気配が…！"
+        }
+      ],
+      "target": ""
+    },
+    {
+      "offset": 1495,
+      "kind": "line",
+      "source": "…誰か来る!!",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 1513,
+      "kind": "line",
+      "source": "…まずい、",
+      "limit": 9,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 1529,
+      "kind": "line",
+      "source": "ひとまず隠れよう。",
+      "limit": 9,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 1562,
+      "kind": "line",
+      "source": "誰か入ってくる…！",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 1586,
+      "kind": "line",
+      "source": "ひとまず、機材の",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 1608,
+      "kind": "line",
+      "source": "陰にでも隠れてよう。",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 1649,
+      "kind": "choice",
+      "source": "機材",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 1657,
+      "kind": "choice",
+      "source": "床",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 1663,
+      "kind": "choice",
+      "source": "裏口",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 1680,
+      "kind": "choice",
+      "source": "事務机",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 1699,
+      "kind": "choice",
+      "source": "社員名簿",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 1720,
+      "kind": "choice",
+      "source": "金属片",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 1739,
+      "kind": "line",
+      "source": "金属や樹脂を加工する",
+      "limit": 10,
+      "fragments": 3,
+      "target": ""
+    },
+    {
+      "offset": 1796,
+      "kind": "line",
+      "source": "旋盤という機材が",
+      "limit": 10,
+      "fragments": 2,
+      "target": ""
+    },
+    {
+      "offset": 1824,
+      "kind": "line",
+      "source": "並んでいる。",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 1842,
+      "kind": "line",
+      "source": "積もったホコリから、",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 1868,
+      "kind": "line",
+      "source": "何ヶ月も使われていない",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 1896,
+      "kind": "line",
+      "source": "のがわかる。",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 1914,
+      "kind": "line",
+      "source": "それなりに高価な",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 1936,
+      "kind": "line",
+      "source": "機材を放ったらかして",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 1962,
+      "kind": "line",
+      "source": "おくということは、",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 1986,
+      "kind": "line",
+      "source": "経営難で工場が潰れた",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 2012,
+      "kind": "line",
+      "source": "というよりは…",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 2032,
+      "kind": "line",
+      "source": "従業員が突然、いなく",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 2058,
+      "kind": "line",
+      "source": "なっただけという感じが",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 2086,
+      "kind": "line",
+      "source": "する。",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 2098,
+      "kind": "line",
+      "source": "ここで、何があったの",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 2124,
+      "kind": "line",
+      "source": "だろうか…。",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 2151,
+      "kind": "line",
+      "source": "かつては精一杯働いて",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 2177,
+      "kind": "line",
+      "source": "いたであろう機材も、",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 2203,
+      "kind": "line",
+      "source": "今は生気を失っている。",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 2258,
+      "kind": "line",
+      "source": "床をよく見ると…",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 2280,
+      "kind": "line",
+      "source": "ところどころ、ホコリが",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 2308,
+      "kind": "line",
+      "source": "ない部分があった。",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 2332,
+      "kind": "line",
+      "source": "それほど積もっている",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 2358,
+      "kind": "line",
+      "source": "わけじゃないので",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 2380,
+      "kind": "line",
+      "source": "ハッキリとしないが…",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 2406,
+      "kind": "line",
+      "source": "誰かが歩いたような",
+      "limit": 9,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 2432,
+      "kind": "line",
+      "source": "足跡にも見える。",
+      "limit": 9,
+      "fragments": 2,
+      "target": ""
+    },
+    {
+      "offset": 2460,
+      "kind": "line",
+      "source": "…どうやらつい最近、",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 2486,
+      "kind": "line",
+      "source": "ここに誰かが来た",
+      "limit": 10,
+      "fragments": 2,
+      "emphasis": [
+        {
+          "colour": null,
+          "text": "ここに"
+        },
+        {
+          "colour": 2,
+          "text": "誰かが来た"
+        }
+      ],
+      "target": ""
+    },
+    {
+      "offset": 2516,
+      "kind": "line",
+      "source": "ようだ。",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 2541,
+      "kind": "line",
+      "source": "…おや？",
+      "limit": 4,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 2557,
+      "kind": "line",
+      "source": "部屋の隅の方に、",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 2581,
+      "kind": "line",
+      "source": "金属片が落ちている。",
+      "limit": 10,
+      "fragments": 2,
+      "target": ""
+    },
+    {
+      "offset": 2613,
+      "kind": "line",
+      "source": "この工場で加工した",
+      "limit": 9,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 2637,
+      "kind": "line",
+      "source": "パーツだろうか…？",
+      "limit": 9,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 2661,
+      "kind": "line",
+      "source": "…なんだか気になる。",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 2687,
+      "kind": "line",
+      "source": "少し調べてみよう。",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 2720,
+      "kind": "line",
+      "source": "床には、誰かが通った",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 2746,
+      "kind": "line",
+      "source": "ような跡があった他には",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 2774,
+      "kind": "line",
+      "source": "特に何もない。",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 2812,
+      "kind": "line",
+      "source": "裏口の鍵は開いていた。",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 2840,
+      "kind": "line",
+      "source": "単に、ここを最後に出た",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 2868,
+      "kind": "line",
+      "source": "人が閉め忘れたのか…",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 2894,
+      "kind": "line",
+      "source": "それとも誰かが意図的に",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 2922,
+      "kind": "line",
+      "source": "開けたものなのか。",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 2946,
+      "kind": "line",
+      "source": "…ともあれ、今は誰でも",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 2974,
+      "kind": "line",
+      "source": "簡単にここに出入り",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 2998,
+      "kind": "line",
+      "source": "できる状態だ。",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 3027,
+      "kind": "line",
+      "source": "裏口の鍵は開いていた。",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 3082,
+      "kind": "line",
+      "source": "机の上には文具や書類が",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 3110,
+      "kind": "line",
+      "source": "使われていたそのままの",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 3138,
+      "kind": "line",
+      "source": "形で残されていた。",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 3162,
+      "kind": "line",
+      "source": "…どうも、キチンと退去",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 3190,
+      "kind": "line",
+      "source": "したということでは",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 3214,
+      "kind": "line",
+      "source": "なさそうだ。",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 3232,
+      "kind": "line",
+      "source": "書類の多くは、受注や",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 3258,
+      "kind": "line",
+      "source": "入出庫管理など、業務に",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 3286,
+      "kind": "line",
+      "source": "関する伝票類で…",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 3308,
+      "kind": "line",
+      "source": "特に手掛かりになり",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 3332,
+      "kind": "line",
+      "source": "そうなものはなかった。",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 3369,
+      "kind": "line",
+      "source": "いくつかの引き出しを",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 3395,
+      "kind": "line",
+      "source": "調べていると、社員名簿",
+      "limit": 11,
+      "fragments": 2,
+      "emphasis": [
+        {
+          "colour": null,
+          "text": "調べていると、"
+        },
+        {
+          "colour": 2,
+          "text": "社員名簿"
+        }
+      ],
+      "target": ""
+    },
+    {
+      "offset": 3431,
+      "kind": "line",
+      "source": "が出てきた。",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 3458,
+      "kind": "line",
+      "source": "他の引き出しには、特に",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 3486,
+      "kind": "line",
+      "source": "気になるものはない。",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 3544,
+      "kind": "line",
+      "source": "…あっ。",
+      "limit": 4,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 3560,
+      "kind": "line",
+      "source": "社員名簿を開いてみると",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 3588,
+      "kind": "line",
+      "source": "いきなり目に飛び込んで",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 3616,
+      "kind": "line",
+      "source": "きた名前に驚いた。",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 3640,
+      "kind": "line",
+      "source": "そこには、",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 3658,
+      "kind": "line",
+      "source": "代表取締役　尼子啓三",
+      "limit": 10,
+      "fragments": 3,
+      "target": ""
+    },
+    {
+      "offset": 3717,
+      "kind": "line",
+      "source": "…と書かれていた。",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 3774,
+      "kind": "line",
+      "source": "尼子啓三…。",
+      "limit": 6,
+      "fragments": 3,
+      "target": ""
+    },
+    {
+      "offset": 3821,
+      "kind": "line",
+      "source": "…なるほど、忠雄さんが",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 3849,
+      "kind": "line",
+      "source": "勤めていた工場の社長",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 3875,
+      "kind": "line",
+      "source": "だったのか。",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 3893,
+      "kind": "line",
+      "source": "それなら…確かに、",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 3917,
+      "kind": "line",
+      "source": "忠雄さんを訪ねることも",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 3945,
+      "kind": "line",
+      "source": "あり得なくはない。",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 3969,
+      "kind": "line",
+      "source": "…が、直々に訪ねるほど",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 3997,
+      "kind": "line",
+      "source": "の用件なら、伝言なり",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 4023,
+      "kind": "line",
+      "source": "頼むと思うけど…。",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 4047,
+      "kind": "line",
+      "source": "となると、他人には",
+      "limit": 9,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 4071,
+      "kind": "line",
+      "source": "言えないような用件",
+      "limit": 9,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 4095,
+      "kind": "line",
+      "source": "だった、とか…？",
+      "limit": 9,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 4126,
+      "kind": "line",
+      "source": "勤務していた従業員は",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 4152,
+      "kind": "line",
+      "source": "さほど多くなく、全部で",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 4180,
+      "kind": "line",
+      "source": "１６人ほどだった。",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 4204,
+      "kind": "line",
+      "source": "そして、その中に、",
+      "limit": 9,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 4243,
+      "kind": "line",
+      "source": "螻川内忠雄の名前も",
+      "limit": 9,
+      "fragments": 3,
+      "target": ""
+    },
+    {
+      "offset": 4279,
+      "kind": "line",
+      "source": "発見した。",
+      "limit": 9,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 4295,
+      "kind": "line",
+      "source": "…確かに、ここで働いて",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 4323,
+      "kind": "line",
+      "source": "いたようだ。",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 4343,
+      "kind": "line",
+      "source": "…おや？",
+      "limit": 4,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 4359,
+      "kind": "line",
+      "source": "しかしその住所を見ると",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 4387,
+      "kind": "line",
+      "source": "現在の螻川内家とは",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 4411,
+      "kind": "line",
+      "source": "まるで違っていた。",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 4435,
+      "kind": "line",
+      "source": "…どうやら、川北市内…",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 4463,
+      "kind": "line",
+      "source": "この工場の近くに別宅を",
+      "limit": 11,
+      "fragments": 3,
+      "emphasis": [
+        {
+          "colour": null,
+          "text": "この工場の近くに"
+        },
+        {
+          "colour": 2,
+          "text": "別宅を"
+        }
+      ],
+      "target": ""
+    },
+    {
+      "offset": 4504,
+      "kind": "line",
+      "source": "持っていたらしい。",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 4535,
+      "kind": "line",
+      "source": "川北市は、鞠浜市のすぐ",
+      "limit": 11,
+      "fragments": 3,
+      "target": ""
+    },
+    {
+      "offset": 4585,
+      "kind": "line",
+      "source": "隣りに位置している。",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 4611,
+      "kind": "line",
+      "source": "…充分、通勤可能だ。",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 4654,
+      "kind": "line",
+      "source": "単身赴任するほどの",
+      "limit": 10,
+      "fragments": 2,
+      "target": ""
+    },
+    {
+      "offset": 4684,
+      "kind": "line",
+      "source": "距離ではない。",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 4706,
+      "kind": "line",
+      "source": "……。",
+      "limit": 3,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 4725,
+      "kind": "line",
+      "source": "二重生活…という言葉が",
+      "limit": 11,
+      "fragments": 2,
+      "target": ""
+    },
+    {
+      "offset": 4759,
+      "kind": "line",
+      "source": "頭に浮かんだ。",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 4779,
+      "kind": "line",
+      "source": "本来の家庭とは別に、",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 4805,
+      "kind": "line",
+      "source": "もうひとつの暮らしを",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 4831,
+      "kind": "line",
+      "source": "することだ。",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 4849,
+      "kind": "line",
+      "source": "僕がこれまでに担当した",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 4877,
+      "kind": "line",
+      "source": "調査でも、そういった",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 4903,
+      "kind": "line",
+      "source": "例が何度かあった。",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 4927,
+      "kind": "line",
+      "source": "結婚して子供もいるのに",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 4955,
+      "kind": "line",
+      "source": "別の人と別の家で同棲を",
+      "limit": 11,
+      "fragments": 3,
+      "target": ""
+    },
+    {
+      "offset": 5005,
+      "kind": "line",
+      "source": "続けていた、などで…",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 5031,
+      "kind": "line",
+      "source": "一見まじめで誠実そうな",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 5059,
+      "kind": "line",
+      "source": "人でも、実は裏でそんな",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 5087,
+      "kind": "line",
+      "source": "ことをしていたりする。",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 5115,
+      "kind": "line",
+      "source": "ひどいものになると、",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 5152,
+      "kind": "line",
+      "source": "偽名を使って…",
+      "limit": 10,
+      "fragments": 2,
+      "target": ""
+    },
+    {
+      "offset": 5179,
+      "kind": "line",
+      "source": "完全に別人になりすまし",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 5207,
+      "kind": "line",
+      "source": "そのまま何年も過ごして",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 5235,
+      "kind": "line",
+      "source": "いたという例もあった。",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 5268,
+      "kind": "line",
+      "source": "しかし、まさか…。",
+      "limit": 9,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 5294,
+      "kind": "line",
+      "source": "彼を信じて待つ、妻の",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 5320,
+      "kind": "line",
+      "source": "綾子さんの姿を思い",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 5344,
+      "kind": "line",
+      "source": "出した。",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 5358,
+      "kind": "line",
+      "source": "…とりあえず、この",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 5382,
+      "kind": "line",
+      "source": "住所は覚えといて、",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 5406,
+      "kind": "line",
+      "source": "後で行ってみよう…。",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 5454,
+      "kind": "line",
+      "source": "…いや、待てよ。",
+      "limit": 8,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 5485,
+      "kind": "line",
+      "source": "尼子は忠雄さんを訪ね",
+      "limit": 11,
+      "fragments": 2,
+      "target": ""
+    },
+    {
+      "offset": 5526,
+      "kind": "line",
+      "source": "暁さんの自宅を訪問した",
+      "limit": 11,
+      "fragments": 2,
+      "target": ""
+    },
+    {
+      "offset": 5560,
+      "kind": "line",
+      "source": "とのことだったが…",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 5584,
+      "kind": "line",
+      "source": "社員名簿の住所は違う",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 5610,
+      "kind": "line",
+      "source": "場所なのに、どうして",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 5638,
+      "kind": "line",
+      "source": "本当の住所を…？",
+      "limit": 10,
+      "fragments": 2,
+      "target": ""
+    },
+    {
+      "offset": 5675,
+      "kind": "line",
+      "source": "尼子が身元を詳しく調査",
+      "limit": 11,
+      "fragments": 2,
+      "target": ""
+    },
+    {
+      "offset": 5709,
+      "kind": "line",
+      "source": "したのだろうか…？",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 5733,
+      "kind": "line",
+      "source": "それとも、元から事情を",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 5761,
+      "kind": "line",
+      "source": "知っていたとか…？",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 5785,
+      "kind": "line",
+      "source": "だとすると、尼子と",
+      "limit": 10,
+      "fragments": 3,
+      "target": ""
+    },
+    {
+      "offset": 5829,
+      "kind": "line",
+      "source": "忠雄さんの関係は",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 5851,
+      "kind": "line",
+      "source": "何だったんだろう…？",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 5877,
+      "kind": "line",
+      "source": "…ふむぅ…。",
+      "limit": 6,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 5910,
+      "kind": "line",
+      "source": "その他、特に気になる",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 5936,
+      "kind": "line",
+      "source": "情報はなかった。",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 5970,
+      "kind": "line",
+      "source": "大きさ２センチほどの、",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 5998,
+      "kind": "line",
+      "source": "特殊加工された金属だ。",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 6026,
+      "kind": "line",
+      "source": "ホコリを払ってみると、",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 6054,
+      "kind": "line",
+      "source": "やけに複雑な形状をして",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 6082,
+      "kind": "line",
+      "source": "いるのがわかった。",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 6108,
+      "kind": "line",
+      "source": "…あれ？",
+      "limit": 4,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 6122,
+      "kind": "line",
+      "source": "このパーツ、どこかで",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 6148,
+      "kind": "line",
+      "source": "見たことあるような…。",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 6178,
+      "kind": "line",
+      "source": "…何か引っかかるものを",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 6206,
+      "kind": "line",
+      "source": "感じ、僕は記憶の",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 6228,
+      "kind": "line",
+      "source": "引き出しを探る。",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 6250,
+      "kind": "line",
+      "source": "………。",
+      "limit": 4,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 6269,
+      "kind": "line",
+      "source": "あっ…。",
+      "limit": 4,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 6285,
+      "kind": "line",
+      "source": "…思い出した。",
+      "limit": 7,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 6305,
+      "kind": "line",
+      "source": "これ、拳銃に使われて",
+      "limit": 11,
+      "fragments": 3,
+      "emphasis": [
+        {
+          "colour": null,
+          "text": "これ、"
+        },
+        {
+          "colour": 2,
+          "text": "拳銃に使われて"
+        }
+      ],
+      "target": ""
+    },
+    {
+      "offset": 6344,
+      "kind": "line",
+      "source": "いるパーツじゃないか。",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 6372,
+      "kind": "line",
+      "source": "昔、専門家の人に、分解",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 6400,
+      "kind": "line",
+      "source": "しているところを見せて",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 6428,
+      "kind": "line",
+      "source": "もらったことがあるが…",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 6456,
+      "kind": "line",
+      "source": "その時、これと同じ",
+      "limit": 9,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 6480,
+      "kind": "line",
+      "source": "パーツを見たのだ。",
+      "limit": 9,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 6504,
+      "kind": "line",
+      "source": "…しかしこれ、",
+      "limit": 7,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 6529,
+      "kind": "line",
+      "source": "本物なのか？",
+      "limit": 7,
+      "fragments": 3,
+      "target": ""
+    },
+    {
+      "offset": 6564,
+      "kind": "line",
+      "source": "…おもちゃ用にしては、",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 6592,
+      "kind": "line",
+      "source": "使っている金属の材質が",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 6620,
+      "kind": "line",
+      "source": "良すぎる気はする。",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 6644,
+      "kind": "line",
+      "source": "まさか…!?",
+      "limit": 6,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 6669,
+      "kind": "line",
+      "source": "拳銃のパーツらしき",
+      "limit": 9,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 6693,
+      "kind": "line",
+      "source": "金属片だ。",
+      "limit": 9,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 6709,
+      "kind": "line",
+      "source": "…これを、この工場で",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 6735,
+      "kind": "line",
+      "source": "作っていたのだろうか。",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 6763,
+      "kind": "line",
+      "source": "だとすると…。",
+      "limit": 7,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 6813,
+      "kind": "line",
+      "source": "僕は物陰に隠れ、",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 6835,
+      "kind": "line",
+      "source": "こっそり様子を伺う。",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 6861,
+      "kind": "line",
+      "source": "…人が入ってきて、",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 6885,
+      "kind": "line",
+      "source": "ゆっくり近付いてくる。",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 6913,
+      "kind": "line",
+      "source": "隙間から、少しだけ",
+      "limit": 9,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 6937,
+      "kind": "line",
+      "source": "姿が見えた。",
+      "limit": 9,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 6955,
+      "kind": "line",
+      "source": "あれは…。",
+      "limit": 5,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 6988,
+      "kind": "line",
+      "source": "川瀬莉沙…!?",
+      "limit": 7,
+      "fragments": 3,
+      "target": ""
+    },
+    {
+      "offset": 7042,
+      "kind": "line",
+      "source": "間違いない、彼女だ。",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 7068,
+      "kind": "line",
+      "source": "どうしてここに…？",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 7092,
+      "kind": "line",
+      "source": "しばらくして、",
+      "limit": 9,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 7112,
+      "kind": "line",
+      "source": "もうひとり工場内に",
+      "limit": 9,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 7136,
+      "kind": "line",
+      "source": "やってきた。",
+      "limit": 9,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 7154,
+      "kind": "line",
+      "source": "どうやら、待ち合わせを",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 7182,
+      "kind": "line",
+      "source": "していたようだ。",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 7204,
+      "kind": "line",
+      "source": "…話し声が聞こえる。",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 7230,
+      "kind": "line",
+      "source": "男性の声だ。",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 7248,
+      "kind": "line",
+      "source": "小声で話しているので、",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 7276,
+      "kind": "line",
+      "source": "何を言っているのか",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 7300,
+      "kind": "line",
+      "source": "までは聞き取れない。",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 7326,
+      "kind": "line",
+      "source": "相手の男性の姿は",
+      "limit": 8,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 7348,
+      "kind": "line",
+      "source": "よく見えないが…",
+      "limit": 8,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 7370,
+      "kind": "line",
+      "source": "どうやら何かを受け渡し",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 7398,
+      "kind": "line",
+      "source": "しているような感じだ。",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 7428,
+      "kind": "line",
+      "source": "…ちゃんと、約束通り",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 7454,
+      "kind": "line",
+      "source": "やっておきましたよー。",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 7482,
+      "kind": "line",
+      "source": "…ほら、見ての通り。",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 7508,
+      "kind": "line",
+      "source": "ここにはもう、",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 7528,
+      "kind": "line",
+      "source": "誰もいませんよ。",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 7552,
+      "kind": "line",
+      "source": "高くてよく通る、彼女の",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 7580,
+      "kind": "line",
+      "source": "声だけ少し聞き取れた。",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 7618,
+      "kind": "line",
+      "source": "…そうして、",
+      "limit": 9,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 7636,
+      "kind": "line",
+      "source": "２人は出て行った。",
+      "limit": 9,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 7660,
+      "kind": "line",
+      "source": "去り際に、僕は少し",
+      "limit": 9,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 7684,
+      "kind": "line",
+      "source": "顔を出して、２人の",
+      "limit": 9,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 7708,
+      "kind": "line",
+      "source": "後ろ姿を確認する。",
+      "limit": 9,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 7732,
+      "kind": "line",
+      "source": "相手は、中肉中背の",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 7758,
+      "kind": "line",
+      "source": "中年男性のようだった。",
+      "limit": 11,
+      "fragments": 2,
+      "target": ""
+    },
+    {
+      "offset": 7792,
+      "kind": "line",
+      "source": "…見覚えはない。",
+      "limit": 8,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 7824,
+      "kind": "line",
+      "source": "２人が完全に出て行った",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 7852,
+      "kind": "line",
+      "source": "のを確認し、僕は機材の",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 7880,
+      "kind": "line",
+      "source": "陰から出た。",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 7913,
+      "kind": "line",
+      "source": "…ここに誰もいないのを",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 7941,
+      "kind": "line",
+      "source": "知って、秘密の会合に",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 7967,
+      "kind": "line",
+      "source": "使っているのだろうか。",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 7995,
+      "kind": "line",
+      "source": "…しかし。",
+      "limit": 5,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 8011,
+      "kind": "line",
+      "source": "うーん…。",
+      "limit": 5,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 8027,
+      "kind": "line",
+      "source": "…なにかと、気になる",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 8053,
+      "kind": "line",
+      "source": "ことが多いな…。",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 8086,
+      "kind": "line",
+      "source": "癸生川に連絡を取って、",
+      "limit": 11,
+      "fragments": 2,
+      "target": ""
+    },
+    {
+      "offset": 8120,
+      "kind": "line",
+      "source": "情報を確認しておく",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 8144,
+      "kind": "line",
+      "source": "必要もあるしな…。",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 8168,
+      "kind": "line",
+      "source": "…ひとまず、次は",
+      "limit": 8,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 8190,
+      "kind": "line",
+      "source": "忠雄さんの住居に",
+      "limit": 8,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 8212,
+      "kind": "line",
+      "source": "行ってみるか。",
+      "limit": 8,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 8261,
+      "kind": "line",
+      "source": "１９９６年５月某日",
+      "limit": 9,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 8285,
+      "kind": "line",
+      "source": "天気、雨",
+      "limit": 9,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 8299,
+      "kind": "line",
+      "source": "　",
+      "limit": 9,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 8307,
+      "kind": "line",
+      "source": "某所にて",
+      "limit": 9,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 8337,
+      "kind": "line",
+      "source": "…おつかれさまっ。",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 8361,
+      "kind": "line",
+      "source": "バッチリ完璧でしたよ！",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 8391,
+      "kind": "line",
+      "source": "…これで…いいのか？",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 8417,
+      "kind": "line",
+      "source": "こんな簡単にお金が",
+      "limit": 9,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 8441,
+      "kind": "line",
+      "source": "手に入るのか…？",
+      "limit": 9,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 8465,
+      "kind": "line",
+      "source": "ふふっ。",
+      "limit": 4,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 8479,
+      "kind": "line",
+      "source": "他の人に教えちゃ",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 8501,
+      "kind": "line",
+      "source": "ダメですよ。",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 8519,
+      "kind": "line",
+      "source": "真似されちゃうから。",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 8547,
+      "kind": "line",
+      "source": "……………。",
+      "limit": 6,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 8590,
+      "kind": "line",
+      "source": "１９９６年６月某日",
+      "limit": 9,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 8614,
+      "kind": "line",
+      "source": "天気、雨",
+      "limit": 9,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 8628,
+      "kind": "line",
+      "source": "　",
+      "limit": 9,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 8647,
+      "kind": "line",
+      "source": "鞠浜市鞠浜台",
+      "limit": 9,
+      "fragments": 3,
+      "target": ""
+    },
+    {
+      "offset": 8692,
+      "kind": "line",
+      "source": "某喫茶店",
+      "limit": 9,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 8753,
+      "kind": "line",
+      "source": "ふう…。",
+      "limit": 4,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 8772,
+      "kind": "line",
+      "source": "…あれから数時間が",
+      "limit": 9,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 8796,
+      "kind": "line",
+      "source": "経っていた。",
+      "limit": 9,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 8817,
+      "kind": "line",
+      "source": "外はもう、日が",
+      "limit": 8,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 8837,
+      "kind": "line",
+      "source": "暮れてきている。",
+      "limit": 8,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 8859,
+      "kind": "line",
+      "source": "…あのあとも、色々と",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 8885,
+      "kind": "line",
+      "source": "思い当たる場所を",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 8907,
+      "kind": "line",
+      "source": "探し回ってみたが…",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 8931,
+      "kind": "line",
+      "source": "まったく進展は",
+      "limit": 8,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 8951,
+      "kind": "line",
+      "source": "ないままだった。",
+      "limit": 8,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 8980,
+      "kind": "line",
+      "source": "とりあえず、もう一度",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 9006,
+      "kind": "line",
+      "source": "よく考えてみるために、",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 9034,
+      "kind": "line",
+      "source": "喫茶店に来ている。",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 9060,
+      "kind": "line",
+      "source": "さて…少し",
+      "limit": 9,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 9076,
+      "kind": "line",
+      "source": "整理してみるか…。",
+      "limit": 9,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 9123,
+      "kind": "choice",
+      "source": "辺り見回す",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 9137,
+      "kind": "choice",
+      "source": "考える",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 9147,
+      "kind": "choice",
+      "source": "中断する",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 9159,
+      "kind": "line",
+      "source": "いつもと変わらず、",
+      "limit": 9,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 9183,
+      "kind": "line",
+      "source": "人のあまりいない",
+      "limit": 9,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 9205,
+      "kind": "line",
+      "source": "喫茶店だ。",
+      "limit": 9,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 9221,
+      "kind": "line",
+      "source": "静かな音楽と雨の音が",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 9247,
+      "kind": "line",
+      "source": "聞こえてくる。",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 9273,
+      "kind": "choice",
+      "source": "慧美の事",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 9285,
+      "kind": "choice",
+      "source": "父親の事",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 9297,
+      "kind": "choice",
+      "source": "お金の事",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 9309,
+      "kind": "choice",
+      "source": "探偵の事",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 9339,
+      "kind": "line",
+      "source": "慧美さん…。",
+      "limit": 6,
+      "fragments": 2,
+      "target": ""
+    },
+    {
+      "offset": 9363,
+      "kind": "line",
+      "source": "…気が付くと、いつも",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 9389,
+      "kind": "line",
+      "source": "彼女のことを考えて",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 9413,
+      "kind": "line",
+      "source": "いた。",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 9425,
+      "kind": "line",
+      "source": "…しかし、あんな美人で",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 9453,
+      "kind": "line",
+      "source": "素敵な人が…",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 9471,
+      "kind": "line",
+      "source": "どうして僕なんかと",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 9495,
+      "kind": "line",
+      "source": "付き合ってくれている",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 9521,
+      "kind": "line",
+      "source": "のだろうか…。",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 9541,
+      "kind": "line",
+      "source": "それを考えると、",
+      "limit": 9,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 9563,
+      "kind": "line",
+      "source": "いつも不安になる。",
+      "limit": 9,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 9587,
+      "kind": "line",
+      "source": "３ヶ月くらい前に、",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 9611,
+      "kind": "line",
+      "source": "ふとしたことから",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 9633,
+      "kind": "line",
+      "source": "映画館で知り合って…",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 9659,
+      "kind": "line",
+      "source": "そのあと、思い切って",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 9685,
+      "kind": "line",
+      "source": "電話番号を聞き出して…",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 9713,
+      "kind": "line",
+      "source": "食事に誘って、ＯＫして",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 9741,
+      "kind": "line",
+      "source": "もらえた時は、どれほど",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 9769,
+      "kind": "line",
+      "source": "舞い上がったことか。",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 9795,
+      "kind": "line",
+      "source": "話をしていても、趣味や",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 9823,
+      "kind": "line",
+      "source": "好みがバッチリ合って…",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 9851,
+      "kind": "line",
+      "source": "おなじもので、一緒に",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 9877,
+      "kind": "line",
+      "source": "笑ったり楽しんだり",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 9901,
+      "kind": "line",
+      "source": "できる貴重な存在だ。",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 9927,
+      "kind": "line",
+      "source": "ずっと彼女と一緒に",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 9951,
+      "kind": "line",
+      "source": "過ごしたいと、思った。",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 9979,
+      "kind": "line",
+      "source": "…だから、彼女から",
+      "limit": 9,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 10003,
+      "kind": "line",
+      "source": "お金の相談をされた",
+      "limit": 9,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 10027,
+      "kind": "line",
+      "source": "時も…",
+      "limit": 9,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 10039,
+      "kind": "line",
+      "source": "自分が力になれるならと",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 10067,
+      "kind": "line",
+      "source": "喜んでＯＫしたのだ。",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 10093,
+      "kind": "line",
+      "source": "…だから、彼女のために",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 10121,
+      "kind": "line",
+      "source": "早く貯金を見つけない",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 10147,
+      "kind": "line",
+      "source": "といけない。",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 10174,
+      "kind": "line",
+      "source": "彼女は今頃、どうしてる",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 10202,
+      "kind": "line",
+      "source": "だろうか…。",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 10220,
+      "kind": "line",
+      "source": "家族を励ましている",
+      "limit": 9,
+      "fragments": 3,
+      "target": ""
+    },
+    {
+      "offset": 10262,
+      "kind": "line",
+      "source": "のかもしれないな。",
+      "limit": 9,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 10286,
+      "kind": "line",
+      "source": "…彼女の、今後の運命が",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 10314,
+      "kind": "line",
+      "source": "かかってるんだ。",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 10336,
+      "kind": "line",
+      "source": "頑張らないと…。",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 10379,
+      "kind": "line",
+      "source": "…思えば、父親のことは",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 10407,
+      "kind": "line",
+      "source": "何も知らずに、ここまで",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 10435,
+      "kind": "line",
+      "source": "育ってきた。",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 10453,
+      "kind": "line",
+      "source": "…と言うより、知りたい",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 10481,
+      "kind": "line",
+      "source": "とも思っていなかった。",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 10509,
+      "kind": "line",
+      "source": "何が好きで、嫌いで…",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 10535,
+      "kind": "line",
+      "source": "どういう生き方をして",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 10561,
+      "kind": "line",
+      "source": "きたのか、とか…",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 10583,
+      "kind": "line",
+      "source": "身近な存在のはずなのに",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 10611,
+      "kind": "line",
+      "source": "何も知らないでいる。",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 10637,
+      "kind": "line",
+      "source": "…やっぱり、これは",
+      "limit": 9,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 10661,
+      "kind": "line",
+      "source": "異常なのだろうか。",
+      "limit": 9,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 10685,
+      "kind": "line",
+      "source": "しかし…これまで父の",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 10711,
+      "kind": "line",
+      "source": "してきたことは、やはり",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 10739,
+      "kind": "line",
+      "source": "許せない。",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 10755,
+      "kind": "line",
+      "source": "一度、徹底的に話し合う",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 10783,
+      "kind": "line",
+      "source": "べきだとは思うが…。",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 10809,
+      "kind": "line",
+      "source": "まったく、どこに",
+      "limit": 8,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 10831,
+      "kind": "line",
+      "source": "いるのやら…。",
+      "limit": 8,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 10860,
+      "kind": "line",
+      "source": "…もし。",
+      "limit": 4,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 10874,
+      "kind": "line",
+      "source": "もしも、父が犯人では",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 10900,
+      "kind": "line",
+      "source": "ないとしたら、どうだ？",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 10928,
+      "kind": "line",
+      "source": "…いや、だとしたら",
+      "limit": 9,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 10952,
+      "kind": "line",
+      "source": "他に誰が犯人だと",
+      "limit": 9,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 10974,
+      "kind": "line",
+      "source": "いうんだ。",
+      "limit": 9,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 10990,
+      "kind": "line",
+      "source": "まさか、母が…？",
+      "limit": 8,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 11012,
+      "kind": "line",
+      "source": "…いや、家の通帳が",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 11036,
+      "kind": "line",
+      "source": "全て盗まれているのだ。",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 11064,
+      "kind": "line",
+      "source": "母がそんなことをする",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 11090,
+      "kind": "line",
+      "source": "意味がない。",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 11108,
+      "kind": "line",
+      "source": "やはり、父しかいない。",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 11145,
+      "kind": "line",
+      "source": "早く捜さなければ…。",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 11189,
+      "kind": "line",
+      "source": "もし今日中にお金が",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 11213,
+      "kind": "line",
+      "source": "見つからなかったら…",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 11239,
+      "kind": "line",
+      "source": "仕方ない、僕が借金して",
+      "limit": 11,
+      "fragments": 3,
+      "emphasis": [
+        {
+          "colour": null,
+          "text": "仕方ない、僕が"
+        },
+        {
+          "colour": 2,
+          "text": "借金して"
+        }
+      ],
+      "target": ""
+    },
+    {
+      "offset": 11280,
+      "kind": "line",
+      "source": "でも用意しないとな…。",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 11308,
+      "kind": "line",
+      "source": "しかし５００万もの大金",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 11336,
+      "kind": "line",
+      "source": "そうそう貸してくれる",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 11362,
+      "kind": "line",
+      "source": "ところもないから…",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 11386,
+      "kind": "line",
+      "source": "いくつもの金融機関から",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 11414,
+      "kind": "line",
+      "source": "借りれるだけ借りて、",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 11440,
+      "kind": "line",
+      "source": "工面するしかないか…。",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 11468,
+      "kind": "line",
+      "source": "しかし、そういう怪しい",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 11496,
+      "kind": "line",
+      "source": "所は、法外な利子を請求",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 11524,
+      "kind": "line",
+      "source": "してきたり…",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 11542,
+      "kind": "line",
+      "source": "暴力団紛いの連中から",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 11568,
+      "kind": "line",
+      "source": "厳しい取り立てを",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 11590,
+      "kind": "line",
+      "source": "されると聞くけど…。",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 11616,
+      "kind": "line",
+      "source": "…………。",
+      "limit": 5,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 11632,
+      "kind": "line",
+      "source": "…いや、貯金さえ戻って",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 11660,
+      "kind": "line",
+      "source": "くれば、すぐに返済は",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 11686,
+      "kind": "line",
+      "source": "できるんだ。",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 11704,
+      "kind": "line",
+      "source": "大丈夫だろう。",
+      "limit": 7,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 11733,
+      "kind": "line",
+      "source": "しかし、偶然貯金と借金",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 11761,
+      "kind": "line",
+      "source": "の金額が同じだったのは",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 11789,
+      "kind": "line",
+      "source": "助かったと言うか…",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 11813,
+      "kind": "line",
+      "source": "足りなかったら、",
+      "limit": 9,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 11835,
+      "kind": "line",
+      "source": "あぶなかったな…。",
+      "limit": 9,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 11886,
+      "kind": "line",
+      "source": "やっぱ、探偵という",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 11910,
+      "kind": "line",
+      "source": "職業は、変わった人物が",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 11938,
+      "kind": "line",
+      "source": "多いのだろうか…。",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 11962,
+      "kind": "line",
+      "source": "２人とも、それぞれ",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 11986,
+      "kind": "line",
+      "source": "違う意味でとても",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 12008,
+      "kind": "line",
+      "source": "不思議な人だったが…",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 12034,
+      "kind": "line",
+      "source": "なんだか、信用しても",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 12060,
+      "kind": "line",
+      "source": "いいような気はする。",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 12095,
+      "kind": "line",
+      "source": "そういえばさっき、",
+      "limit": 9,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 12119,
+      "kind": "line",
+      "source": "探偵事務所で会った",
+      "limit": 9,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 12143,
+      "kind": "line",
+      "source": "女の子…",
+      "limit": 9,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 12157,
+      "kind": "line",
+      "source": "あの子も不思議な感じの",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 12185,
+      "kind": "line",
+      "source": "する人だったなあ…。",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 12211,
+      "kind": "line",
+      "source": "なんとなく、どこかで",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 12237,
+      "kind": "line",
+      "source": "会ったことがある",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 12259,
+      "kind": "line",
+      "source": "ような感じもするけど。",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 12287,
+      "kind": "line",
+      "source": "…まあ、これは",
+      "limit": 8,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 12307,
+      "kind": "line",
+      "source": "気のせいだろう。",
+      "limit": 8,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 12338,
+      "kind": "line",
+      "source": "しかし…探偵さんの",
+      "limit": 9,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 12362,
+      "kind": "line",
+      "source": "報告はどこで聞けば",
+      "limit": 9,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 12386,
+      "kind": "line",
+      "source": "いいのだろう。",
+      "limit": 9,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 12406,
+      "kind": "line",
+      "source": "やっぱりおとなしく、",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 12432,
+      "kind": "line",
+      "source": "事務所で待ってるべき",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 12458,
+      "kind": "line",
+      "source": "だったのか…？",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 12543,
+      "kind": "line",
+      "source": "…と、その瞬間。",
+      "limit": 8,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 12565,
+      "kind": "line",
+      "source": "突然、店のドアが",
+      "limit": 9,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 12587,
+      "kind": "line",
+      "source": "バタン！と大きな",
+      "limit": 9,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 12609,
+      "kind": "line",
+      "source": "音を立てて開いた。",
+      "limit": 9,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 12633,
+      "kind": "line",
+      "source": "…かと思うと。",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 12653,
+      "kind": "line",
+      "source": "それと同時に良く通る",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 12679,
+      "kind": "line",
+      "source": "大きな声が鳴り響いた。",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 12722,
+      "kind": "line",
+      "source": "螻川内君はいるか！",
+      "limit": 9,
+      "fragments": 2,
+      "target": ""
+    },
+    {
+      "offset": 12754,
+      "kind": "line",
+      "source": "えっ…!?",
+      "limit": 5,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 12796,
+      "kind": "line",
+      "source": "驚いてドアを見ると、",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 12822,
+      "kind": "line",
+      "source": "さっきの癸生川という",
+      "limit": 10,
+      "fragments": 3,
+      "target": ""
+    },
+    {
+      "offset": 12870,
+      "kind": "line",
+      "source": "探偵が立っていた。",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 12894,
+      "kind": "line",
+      "source": "店内の視線を、完全に",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 12920,
+      "kind": "line",
+      "source": "独り占めしている…。",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 12948,
+      "kind": "line",
+      "source": "おお、そこか！",
+      "limit": 7,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 12968,
+      "kind": "line",
+      "source": "そこにいたか！",
+      "limit": 7,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 13000,
+      "kind": "line",
+      "source": "するとこの探偵は、",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 13024,
+      "kind": "line",
+      "source": "呆然とするウェイターに",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 13052,
+      "kind": "line",
+      "source": "向かって…",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 13070,
+      "kind": "line",
+      "source": "注文いいか！",
+      "limit": 6,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 13088,
+      "kind": "line",
+      "source": "僕は紅茶だ！",
+      "limit": 6,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 13106,
+      "kind": "line",
+      "source": "英語で言うなら、",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 13128,
+      "kind": "line",
+      "source": "アイアム・ティーだ!!",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 13156,
+      "kind": "line",
+      "source": "…と、意味のわからない",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 13184,
+      "kind": "line",
+      "source": "ことを告げながら、",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 13208,
+      "kind": "line",
+      "source": "つかつかと私の席に",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 13232,
+      "kind": "line",
+      "source": "やってきて、向かいの",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 13258,
+      "kind": "line",
+      "source": "椅子に腰を下ろした。",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 13284,
+      "kind": "line",
+      "source": "…周囲の目が痛い。",
+      "limit": 9,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 13325,
+      "kind": "line",
+      "source": "さて無一文君！",
+      "limit": 7,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 13347,
+      "kind": "line",
+      "source": "け、螻川内です。",
+      "limit": 11,
+      "fragments": 3,
+      "target": ""
+    },
+    {
+      "offset": 13393,
+      "kind": "line",
+      "source": "さっきそう呼んでたじゃ",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 13421,
+      "kind": "line",
+      "source": "ないですか。",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 13451,
+      "kind": "line",
+      "source": "それはいい！",
+      "limit": 6,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 13471,
+      "kind": "line",
+      "source": "………。",
+      "limit": 4,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 13490,
+      "kind": "choice",
+      "source": "話す",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 13498,
+      "kind": "choice",
+      "source": "中断する",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 13522,
+      "kind": "choice",
+      "source": "お金の行方",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 13545,
+      "kind": "choice",
+      "source": "尼子の事",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 13557,
+      "kind": "choice",
+      "source": "ここの事",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 13580,
+      "kind": "line",
+      "source": "そういえば…どうして",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 13606,
+      "kind": "line",
+      "source": "私がここにいることが",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 13632,
+      "kind": "line",
+      "source": "わかったんですか？",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 13658,
+      "kind": "line",
+      "source": "そんなの聞き込みすれば",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 13686,
+      "kind": "line",
+      "source": "すぐにわかる。",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 13708,
+      "kind": "line",
+      "source": "そ、それだけで…!?",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 13734,
+      "kind": "line",
+      "source": "まあ、それはいい。",
+      "limit": 9,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 13758,
+      "kind": "line",
+      "source": "こんな話をしてる",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 13780,
+      "kind": "line",
+      "source": "場合でもないだろう？",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 13808,
+      "kind": "line",
+      "source": "あ、そ…そうでした。",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 13854,
+      "kind": "line",
+      "source": "あの、それで…",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 13874,
+      "kind": "line",
+      "source": "お金の行方については",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 13900,
+      "kind": "line",
+      "source": "どうでしょうか…？",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 13926,
+      "kind": "line",
+      "source": "結論から言う！",
+      "limit": 7,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 13946,
+      "kind": "line",
+      "source": "５００万円はもう",
+      "limit": 8,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 13968,
+      "kind": "line",
+      "source": "戻ってこないかも",
+      "limit": 8,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 13990,
+      "kind": "line",
+      "source": "しれない！",
+      "limit": 8,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 14008,
+      "kind": "line",
+      "source": "え、えっ…!?",
+      "limit": 7,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 14028,
+      "kind": "line",
+      "source": "もう一度言う！",
+      "limit": 7,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 14048,
+      "kind": "line",
+      "source": "５００万円はもう",
+      "limit": 8,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 14070,
+      "kind": "line",
+      "source": "戻ってこないかも",
+      "limit": 8,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 14092,
+      "kind": "line",
+      "source": "しれない！",
+      "limit": 8,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 14108,
+      "kind": "line",
+      "source": "…残念ながら、覚悟して",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 14136,
+      "kind": "line",
+      "source": "おいた方がいい。",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 14160,
+      "kind": "line",
+      "source": "そ、そんな…。",
+      "limit": 7,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 14180,
+      "kind": "line",
+      "source": "どうして…!?",
+      "limit": 7,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 14210,
+      "kind": "line",
+      "source": "使ってしまったお金は",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 14236,
+      "kind": "line",
+      "source": "戻らないということだ。",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 14264,
+      "kind": "line",
+      "source": "覆水盆に返らずんば",
+      "limit": 9,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 14288,
+      "kind": "line",
+      "source": "虎児を得ずだ。",
+      "limit": 9,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 14308,
+      "kind": "line",
+      "source": "英語で言うなら、",
+      "limit": 9,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 14330,
+      "kind": "line",
+      "source": "ミルク・ダズント・",
+      "limit": 9,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 14354,
+      "kind": "line",
+      "source": "リターンだ！",
+      "limit": 9,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 14374,
+      "kind": "line",
+      "source": "そ、そんなことを",
+      "limit": 9,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 14396,
+      "kind": "line",
+      "source": "言われたって、納得",
+      "limit": 9,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 14420,
+      "kind": "line",
+      "source": "できませんよ！",
+      "limit": 9,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 14440,
+      "kind": "line",
+      "source": "理由を…説明して",
+      "limit": 8,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 14462,
+      "kind": "line",
+      "source": "ください。",
+      "limit": 8,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 14478,
+      "kind": "line",
+      "source": "や、やっぱり…",
+      "limit": 7,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 14498,
+      "kind": "line",
+      "source": "父がお金を使い込んで",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 14524,
+      "kind": "line",
+      "source": "いたんですか？",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 14556,
+      "kind": "line",
+      "source": "惜しい！",
+      "limit": 4,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 14572,
+      "kind": "line",
+      "source": "お、惜しい…？",
+      "limit": 7,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 14620,
+      "kind": "line",
+      "source": "ついこのあいだ、僕は",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 14646,
+      "kind": "line",
+      "source": "とある伝説の詐欺師の",
+      "limit": 10,
+      "fragments": 3,
+      "emphasis": [
+        {
+          "colour": null,
+          "text": "とある"
+        },
+        {
+          "colour": 2,
+          "text": "伝説の詐欺師の"
+        }
+      ],
+      "target": ""
+    },
+    {
+      "offset": 14685,
+      "kind": "line",
+      "source": "調査をしたのだよ。",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 14711,
+      "kind": "line",
+      "source": "えっ…？",
+      "limit": 4,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 14725,
+      "kind": "line",
+      "source": "な、なんですか突然。",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 14751,
+      "kind": "line",
+      "source": "あ、あの…それが",
+      "limit": 9,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 14773,
+      "kind": "line",
+      "source": "今回の件と何か…？",
+      "limit": 9,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 14799,
+      "kind": "line",
+      "source": "まあ、聞きたまえ。",
+      "limit": 9,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 14842,
+      "kind": "line",
+      "source": "その詐欺師というのは",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 14868,
+      "kind": "line",
+      "source": "戦後の昔から全国的に",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 14894,
+      "kind": "line",
+      "source": "活動していて…",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 14914,
+      "kind": "line",
+      "source": "その巧妙な手口と、",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 14938,
+      "kind": "line",
+      "source": "絶対に証拠を残さない",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 14964,
+      "kind": "line",
+      "source": "徹底したやり方で…",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 14988,
+      "kind": "line",
+      "source": "今の今まで、一度",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 15010,
+      "kind": "line",
+      "source": "たりとも捕まることが",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 15036,
+      "kind": "line",
+      "source": "なければ…",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 15052,
+      "kind": "line",
+      "source": "誰ひとり、その正体を",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 15078,
+      "kind": "line",
+      "source": "知るものがいなかった",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 15104,
+      "kind": "line",
+      "source": "らしい。",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 15118,
+      "kind": "line",
+      "source": "特に変装が得意だった",
+      "limit": 11,
+      "fragments": 3,
+      "emphasis": [
+        {
+          "colour": null,
+          "text": "特に"
+        },
+        {
+          "colour": 2,
+          "text": "変装が得意だった"
+        }
+      ],
+      "target": ""
+    },
+    {
+      "offset": 15157,
+      "kind": "line",
+      "source": "ようで、うまくその身を",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 15185,
+      "kind": "line",
+      "source": "隠しているのだ。",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 15207,
+      "kind": "line",
+      "source": "そういったことから",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 15231,
+      "kind": "line",
+      "source": "伝説の詐欺師…極ギサと",
+      "limit": 11,
+      "fragments": 4,
+      "emphasis": [
+        {
+          "colour": null,
+          "text": "伝説の詐欺師…"
+        },
+        {
+          "colour": 2,
+          "text": "極ギサと"
+        }
+      ],
+      "target": ""
+    },
+    {
+      "offset": 15285,
+      "kind": "line",
+      "source": "呼ばれていた。",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 15315,
+      "kind": "line",
+      "source": "裏の世界では、",
+      "limit": 9,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 15335,
+      "kind": "line",
+      "source": "ちょっとした有名人",
+      "limit": 9,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 15359,
+      "kind": "line",
+      "source": "だったらしいぞ。",
+      "limit": 9,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 15383,
+      "kind": "line",
+      "source": "はあ…。そんな人が",
+      "limit": 9,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 15407,
+      "kind": "line",
+      "source": "いたんですか…。",
+      "limit": 9,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 15441,
+      "kind": "line",
+      "source": "年齢不詳。本名不詳。",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 15467,
+      "kind": "line",
+      "source": "性別不詳。住所不定",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 15491,
+      "kind": "line",
+      "source": "…ということだが、",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 15515,
+      "kind": "line",
+      "source": "これまでの調べでは、",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 15543,
+      "kind": "line",
+      "source": "７０歳くらいの男性だと",
+      "limit": 11,
+      "fragments": 2,
+      "target": ""
+    },
+    {
+      "offset": 15577,
+      "kind": "line",
+      "source": "わかっていた。",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 15599,
+      "kind": "line",
+      "source": "ずいぶん年なんですね。",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 15639,
+      "kind": "line",
+      "source": "なにせ５０年以上も",
+      "limit": 9,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 15663,
+      "kind": "line",
+      "source": "現役だったからね。",
+      "limit": 9,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 15687,
+      "kind": "line",
+      "source": "ただ、その犯行場所も",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 15713,
+      "kind": "line",
+      "source": "犯行手口も決まった",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 15737,
+      "kind": "line",
+      "source": "ものはなく…",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 15755,
+      "kind": "line",
+      "source": "毎回毎回、違う方法で",
+      "limit": 11,
+      "fragments": 3,
+      "emphasis": [
+        {
+          "colour": null,
+          "text": "毎回毎回、"
+        },
+        {
+          "colour": 2,
+          "text": "違う方法で"
+        }
+      ],
+      "target": ""
+    },
+    {
+      "offset": 15794,
+      "kind": "line",
+      "source": "見事に金品を巻き上げて",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 15822,
+      "kind": "line",
+      "source": "去っていくわけだ。",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 15846,
+      "kind": "line",
+      "source": "しかも、証拠を残さず。",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 15876,
+      "kind": "line",
+      "source": "はあ…。",
+      "limit": 4,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 15902,
+      "kind": "line",
+      "source": "時には、あまりにも",
+      "limit": 9,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 15926,
+      "kind": "line",
+      "source": "捕まらないので…",
+      "limit": 9,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 15948,
+      "kind": "line",
+      "source": "もしかすると、そんな",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 15974,
+      "kind": "line",
+      "source": "人物は元々いないんじゃ",
+      "limit": 11,
+      "fragments": 5,
+      "target": ""
+    },
+    {
+      "offset": 16040,
+      "kind": "line",
+      "source": "ないかとも言われた。",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 16068,
+      "kind": "line",
+      "source": "ははあ…。都市伝説",
+      "limit": 9,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 16092,
+      "kind": "line",
+      "source": "みたいなものだと？",
+      "limit": 9,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 16118,
+      "kind": "line",
+      "source": "しかし、その極ギサの兄",
+      "limit": 11,
+      "fragments": 4,
+      "target": ""
+    },
+    {
+      "offset": 16177,
+      "kind": "line",
+      "source": "という人物は、確かに",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 16203,
+      "kind": "line",
+      "source": "存在していたのだ。",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 16227,
+      "kind": "line",
+      "source": "数々の名前や身分を",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 16251,
+      "kind": "line",
+      "source": "使い分け、変装もし、",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 16277,
+      "kind": "line",
+      "source": "巧みに隠れていた。",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 16303,
+      "kind": "line",
+      "source": "そうなんですか…。",
+      "limit": 9,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 16339,
+      "kind": "line",
+      "source": "…で、その人物を捜し",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 16365,
+      "kind": "line",
+      "source": "出せという依頼をされて",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 16393,
+      "kind": "line",
+      "source": "しまったのだよ。",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 16417,
+      "kind": "line",
+      "source": "えっ…!?",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 16431,
+      "kind": "line",
+      "source": "そんな、何十年も",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 16453,
+      "kind": "line",
+      "source": "バレずにいた人を…？",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 16481,
+      "kind": "line",
+      "source": "さすがに苦労した！",
+      "limit": 9,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 16522,
+      "kind": "line",
+      "source": "しかし突き止めた！",
+      "limit": 9,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 16548,
+      "kind": "line",
+      "source": "突き止めたんですか!?",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 16576,
+      "kind": "line",
+      "source": "突き止めたのだ！",
+      "limit": 8,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 16600,
+      "kind": "line",
+      "source": "それは、すごい…。",
+      "limit": 9,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 16626,
+      "kind": "line",
+      "source": "驚くのは早い！",
+      "limit": 7,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 16646,
+      "kind": "line",
+      "source": "その伝説の詐欺師、",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 16677,
+      "kind": "line",
+      "source": "極ギサの兄が、現在",
+      "limit": 11,
+      "fragments": 4,
+      "target": ""
+    },
+    {
+      "offset": 16725,
+      "kind": "line",
+      "source": "名乗っていた名前こそ…",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 16764,
+      "kind": "line",
+      "source": "尼子啓三だったのだ！",
+      "limit": 10,
+      "fragments": 3,
+      "target": ""
+    },
+    {
+      "offset": 16833,
+      "kind": "line",
+      "source": "ええええっ…!?",
+      "limit": 8,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 16866,
+      "kind": "line",
+      "source": "逆に言うなら、",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 16895,
+      "kind": "line",
+      "source": "尼子啓三という男は…",
+      "limit": 10,
+      "fragments": 3,
+      "target": ""
+    },
+    {
+      "offset": 16944,
+      "kind": "line",
+      "source": "一般人の仮面をかぶった",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 16972,
+      "kind": "line",
+      "source": "大詐欺師だったのだよ！",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 17002,
+      "kind": "line",
+      "source": "そうだったんですか…。",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 17030,
+      "kind": "line",
+      "source": "じゃあ…そんな人物が、",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 17058,
+      "kind": "line",
+      "source": "父を訪ねて来たって",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 17082,
+      "kind": "line",
+      "source": "ことですか!?",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 17102,
+      "kind": "line",
+      "source": "そうなる！",
+      "limit": 5,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 17120,
+      "kind": "line",
+      "source": "…………。",
+      "limit": 5,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 17157,
+      "kind": "line",
+      "source": "しかし、尼子はもう",
+      "limit": 11,
+      "fragments": 3,
+      "target": ""
+    },
+    {
+      "offset": 17203,
+      "kind": "line",
+      "source": "２ヶ月前に死んでいた。",
+      "limit": 11,
+      "fragments": 2,
+      "target": ""
+    },
+    {
+      "offset": 17239,
+      "kind": "line",
+      "source": "し、死んで…!?",
+      "limit": 8,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 17261,
+      "kind": "line",
+      "source": "殺されたようだ。",
+      "limit": 8,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 17283,
+      "kind": "line",
+      "source": "何者かによって。",
+      "limit": 8,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 17307,
+      "kind": "line",
+      "source": "…………。",
+      "limit": 5,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 17344,
+      "kind": "line",
+      "source": "尼子の足取りを追って",
+      "limit": 10,
+      "fragments": 2,
+      "target": ""
+    },
+    {
+      "offset": 17376,
+      "kind": "line",
+      "source": "いたのだが…",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 17394,
+      "kind": "line",
+      "source": "２ヶ月前のある日からの",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 17422,
+      "kind": "line",
+      "source": "痕跡が、完全に途切れて",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 17450,
+      "kind": "line",
+      "source": "いたのだ。",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 17466,
+      "kind": "line",
+      "source": "どんなに調べても、",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 17490,
+      "kind": "line",
+      "source": "それは掴めなかった。",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 17516,
+      "kind": "line",
+      "source": "…つまり。",
+      "limit": 5,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 17532,
+      "kind": "line",
+      "source": "完全に証拠を残さずに",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 17560,
+      "kind": "line",
+      "source": "消されている。",
+      "limit": 10,
+      "fragments": 2,
+      "target": ""
+    },
+    {
+      "offset": 17586,
+      "kind": "line",
+      "source": "…玄人の仕業だよ。",
+      "limit": 9,
+      "fragments": 3,
+      "target": ""
+    },
+    {
+      "offset": 17628,
+      "kind": "line",
+      "source": "突き止めるまでが依頼",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 17654,
+      "kind": "line",
+      "source": "だったから、犯人までは",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 17682,
+      "kind": "line",
+      "source": "調べてないが。",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 17704,
+      "kind": "line",
+      "source": "…………。",
+      "limit": 5,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 17720,
+      "kind": "line",
+      "source": "つまり、裏社会の誰かが",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 17748,
+      "kind": "line",
+      "source": "こっそり始末した…と？",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 17778,
+      "kind": "line",
+      "source": "そういうことだ。",
+      "limit": 8,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 17802,
+      "kind": "line",
+      "source": "ホントにそんな世界が",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 17828,
+      "kind": "line",
+      "source": "あるんですね…。",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 17862,
+      "kind": "line",
+      "source": "僕も踏み込みたくは",
+      "limit": 9,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 17886,
+      "kind": "line",
+      "source": "なかったんだがね。",
+      "limit": 9,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 17910,
+      "kind": "line",
+      "source": "…そして、話は",
+      "limit": 9,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 17930,
+      "kind": "line",
+      "source": "ここからが本題だ！",
+      "limit": 9,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 17956,
+      "kind": "line",
+      "source": "は、はあ…。",
+      "limit": 6,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 17993,
+      "kind": "line",
+      "source": "…いや。",
+      "limit": 8,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 18007,
+      "kind": "line",
+      "source": "ここじゃないな。",
+      "limit": 8,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 18031,
+      "kind": "line",
+      "source": "…え？",
+      "limit": 3,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 18045,
+      "kind": "line",
+      "source": "ひとまず、場所を移す！",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 18073,
+      "kind": "line",
+      "source": "詳しくは移動しながら",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 18099,
+      "kind": "line",
+      "source": "説明しよう！",
+      "limit": 10,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 18117,
+      "kind": "line",
+      "source": "…行くぞ！",
+      "limit": 5,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 18135,
+      "kind": "line",
+      "source": "は、はあ…",
+      "limit": 5,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 18163,
+      "kind": "line",
+      "source": "探偵は、置かれた紅茶を",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 18191,
+      "kind": "line",
+      "source": "熱いまま一気に飲み干し",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 18219,
+      "kind": "line",
+      "source": "席を立った。",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 18271,
+      "kind": "choice",
+      "source": "セーブする",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 18285,
+      "kind": "choice",
+      "source": "ゲームに戻る",
+      "limit": 11,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 18314,
+      "kind": "line",
+      "source": "セーブしました。",
+      "limit": 8,
+      "fragments": 1,
+      "target": ""
+    },
+    {
+      "offset": 18350,
+      "kind": "line",
+      "source": "セーブに失敗しました。",
+      "limit": 11,
+      "fragments": 3,
+      "emphasis": [
+        {
+          "colour": null,
+          "text": "セーブに"
+        },
+        {
+          "colour": 7,
+          "text": "失敗"
+        },
+        {
+          "colour": 3,
+          "text": "しました。"
+        }
+      ],
+      "target": ""
+    }
+  ]
+}

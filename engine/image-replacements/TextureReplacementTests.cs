@@ -95,7 +95,7 @@ public class TextureReplacementTests
                 writer.Write(full);
             }
             int warnings=0;
-            texture.Initialize(path,delegate(string message) { warnings++; });
+            texture.Initialize(path,delegate(string message) { warnings++; },0,0,true);
             var original=new FakeImage(220,128);
             Check(texture.Replace(null)==null);
             Check(FakeImage.created==0);
@@ -112,22 +112,28 @@ public class TextureReplacementTests
             Check(translated.Texture.mipmapCount==1 && translated.factoryTexture.destroyed);
             Check(translated.Texture.pixels[127*220].r==255 && original.Texture.pixels[127*220].r==0);
             Check(ReferenceEquals(translated,texture.Replace(original)) && FakeImage.created==1);
+            var notebookSource=new FakeImage(220,128);
+            var notebookImage=(FakeImage)texture.Replace(notebookSource);
+            Check(!translated.disposed && !translated.Texture.destroyed);
+            Check(ReferenceEquals(translated,texture.Replace(original)));
+            notebookImage.Dispose();
+            Check(!translated.disposed && !translated.Texture.destroyed);
             texture.Reset();
             Check(translated.disposed && !original.disposed);
             Check(translated.Texture.destroyed && !original.Texture.destroyed);
-            texture.Initialize(path,delegate(string message) { warnings++; });
+            texture.Initialize(path,delegate(string message) { warnings++; },0,0,true);
             original.Texture.unreadable=true;
             translated=(FakeImage)texture.Replace(original);
             Check(!ReferenceEquals(original,translated) && warnings==0);
             Check(translated.Texture.pixels[127*220].r==255 && !original.disposed);
             Check(ReferenceEquals(translated,texture.Replace(original)));
             var transparent=File.ReadAllBytes(path); transparent[15]=0; File.WriteAllBytes(path,transparent);
-            texture.Initialize(path,delegate(string message) { warnings++; });
+            texture.Initialize(path,delegate(string message) { warnings++; },0,0,true);
             Check(translated.disposed && warnings==0);
             var alphaImage=(FakeImage)texture.Replace(original);
             Check(!ReferenceEquals(alphaImage,original) && alphaImage.Texture.pixels[127*220].a==0);
             File.WriteAllBytes(path,new byte[2]);
-            texture.Initialize(path,delegate(string message) { warnings++; });
+            texture.Initialize(path,delegate(string message) { warnings++; },0,0,true);
             Check(warnings==1 && ReferenceEquals(original,texture.Replace(original)));
             Console.WriteLine("PASS: " + checks + " replacement image orientation, alpha, isolation, cache and failure assertions.");
         }

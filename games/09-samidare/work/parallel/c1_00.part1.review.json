@@ -1,0 +1,1351 @@
+{
+  "script": "c1_00",
+  "batch": "c1_00.part1.trans.json",
+  "note": "Independent verification: for each entry decide whether ``target`` is the faithful rendering of ``source`` as its own display line. Report shifts, omissions, additions and mistranslations. An entry with ``emphasis`` is drawn in several colours: ``emphasis`` is the source split and ``runs`` the Chinese split, index for index, and it is the run with a non-null colour that the game highlights. See work/parallel/VERIFIER_BRIEF.md.",
+  "units": [
+    {
+      "offset": 35,
+      "kind": "line",
+      "limit": 11,
+      "source": "そして男性は、８年前の",
+      "target": "随后，男人缓缓讲起"
+    },
+    {
+      "offset": 63,
+      "kind": "line",
+      "limit": 11,
+      "source": "出来事を、ゆっくりと",
+      "target": "八年前发生的"
+    },
+    {
+      "offset": 89,
+      "kind": "line",
+      "limit": 11,
+      "source": "語りはじめた。",
+      "target": "事情。"
+    },
+    {
+      "offset": 130,
+      "kind": "line",
+      "limit": 10,
+      "source": "…以後は、その話や",
+      "target": "…此后的内容，"
+    },
+    {
+      "offset": 154,
+      "kind": "line",
+      "limit": 10,
+      "source": "後日談をもとに、私、",
+      "target": "是我生王依据"
+    },
+    {
+      "offset": 191,
+      "kind": "line",
+      "limit": 10,
+      "source": "生王が再編したもの",
+      "target": "他的讲述与后日谈"
+    },
+    {
+      "offset": 221,
+      "kind": "line",
+      "limit": 10,
+      "source": "である。",
+      "target": "重新编排而成。"
+    },
+    {
+      "offset": 273,
+      "kind": "line",
+      "limit": 11,
+      "source": "その日も、今日のように",
+      "target": "据说那天也和今天"
+    },
+    {
+      "offset": 301,
+      "kind": "line",
+      "limit": 11,
+      "source": "記録的な大雨の日だった",
+      "target": "一样，下着创纪录的"
+    },
+    {
+      "offset": 329,
+      "kind": "line",
+      "limit": 11,
+      "source": "らしく…",
+      "target": "暴雨…"
+    },
+    {
+      "offset": 343,
+      "kind": "line",
+      "limit": 10,
+      "source": "空は、その一面を",
+      "target": "天空被染成"
+    },
+    {
+      "offset": 376,
+      "kind": "line",
+      "limit": 10,
+      "source": "鈍色に染めていた…。",
+      "target": "一片铅灰…"
+    },
+    {
+      "offset": 422,
+      "kind": "line",
+      "limit": 9,
+      "source": "１９９６年６月某日",
+      "target": "１９９６年６月某日"
+    },
+    {
+      "offset": 446,
+      "kind": "line",
+      "limit": 9,
+      "source": "天気、雨",
+      "target": "天气：雨"
+    },
+    {
+      "offset": 460,
+      "kind": "line",
+      "limit": 9,
+      "source": "　",
+      "target": "　"
+    },
+    {
+      "offset": 479,
+      "kind": "line",
+      "limit": 9,
+      "source": "鞠浜市鞠浜台",
+      "target": "鞠滨市鞠滨台"
+    },
+    {
+      "offset": 571,
+      "kind": "line",
+      "limit": 8,
+      "source": "癸生川探偵事務所",
+      "target": "癸生川侦探事务所"
+    },
+    {
+      "offset": 658,
+      "kind": "line",
+      "limit": 6,
+      "source": "…ただいま。",
+      "target": "…我回来了。"
+    },
+    {
+      "offset": 676,
+      "kind": "line",
+      "limit": 8,
+      "source": "おーい、癸生川。",
+      "target": "喂，癸生川。"
+    },
+    {
+      "offset": 720,
+      "kind": "line",
+      "limit": 8,
+      "source": "…いないのか？",
+      "target": "…不在吗？"
+    },
+    {
+      "offset": 742,
+      "kind": "line",
+      "limit": 4,
+      "source": "………。",
+      "target": "………"
+    },
+    {
+      "offset": 756,
+      "kind": "line",
+      "limit": 7,
+      "source": "…やれやれ。",
+      "target": "…真是的。"
+    },
+    {
+      "offset": 774,
+      "kind": "line",
+      "limit": 7,
+      "source": "もうこんなに",
+      "target": "才几天就"
+    },
+    {
+      "offset": 792,
+      "kind": "line",
+      "limit": 7,
+      "source": "散らかってる。",
+      "target": "乱成这样。"
+    },
+    {
+      "offset": 812,
+      "kind": "line",
+      "limit": 10,
+      "source": "まったくあいつは…。",
+      "target": "那家伙真是…"
+    },
+    {
+      "offset": 843,
+      "kind": "line",
+      "limit": 11,
+      "source": "僕の名前は白鷺洲涼二。",
+      "target": "我叫白鹭洲凉二。",
+      "runs": [
+        "我叫",
+        "白鹭洲凉二。"
+      ],
+      "emphasis": [
+        {
+          "colour": null,
+          "text": "僕の名前は"
+        },
+        {
+          "colour": 2,
+          "text": "白鷺洲涼二。"
+        }
+      ]
+    },
+    {
+      "offset": 913,
+      "kind": "line",
+      "limit": 11,
+      "source": "この癸生川探偵事務所で",
+      "target": "在这间癸生川"
+    },
+    {
+      "offset": 941,
+      "kind": "line",
+      "limit": 11,
+      "source": "助手を務めている。",
+      "target": "侦探事务所担任助手。"
+    },
+    {
+      "offset": 965,
+      "kind": "line",
+      "limit": 11,
+      "source": "数日がかりの調査が",
+      "target": "一项历时数日的"
+    },
+    {
+      "offset": 989,
+      "kind": "line",
+      "limit": 11,
+      "source": "終わり、久しぶりに",
+      "target": "调查结束后，我久违地"
+    },
+    {
+      "offset": 1013,
+      "kind": "line",
+      "limit": 11,
+      "source": "事務所に戻って来たが…",
+      "target": "回到事务所…"
+    },
+    {
+      "offset": 1041,
+      "kind": "line",
+      "limit": 10,
+      "source": "たった数日でこの",
+      "target": "可短短几天就"
+    },
+    {
+      "offset": 1063,
+      "kind": "line",
+      "limit": 10,
+      "source": "散らかりようは、",
+      "target": "乱成这样，"
+    },
+    {
+      "offset": 1085,
+      "kind": "line",
+      "limit": 10,
+      "source": "さすがに呆れてくる。",
+      "target": "实在让人无语。"
+    },
+    {
+      "offset": 1111,
+      "kind": "line",
+      "limit": 11,
+      "source": "連日の大雨による湿気も",
+      "target": "连日暴雨带来湿气，"
+    },
+    {
+      "offset": 1139,
+      "kind": "line",
+      "limit": 11,
+      "source": "あって、部屋の中は不快",
+      "target": "让屋内的状况"
+    },
+    {
+      "offset": 1167,
+      "kind": "line",
+      "limit": 11,
+      "source": "極まりない状態だった。",
+      "target": "难受到了极点。"
+    },
+    {
+      "offset": 1197,
+      "kind": "line",
+      "limit": 9,
+      "source": "…ケホッ、ケホッ！",
+      "target": "…咳、咳！"
+    },
+    {
+      "offset": 1223,
+      "kind": "line",
+      "limit": 10,
+      "source": "空気も澱んでいるな。",
+      "target": "空气也不流通。"
+    },
+    {
+      "offset": 1267,
+      "kind": "line",
+      "limit": 11,
+      "source": "ひとまず換気からか…。",
+      "target": "先开窗通风吧…"
+    },
+    {
+      "offset": 1309,
+      "kind": "line",
+      "limit": 10,
+      "source": "第１節",
+      "target": "第１节"
+    },
+    {
+      "offset": 1321,
+      "kind": "line",
+      "limit": 10,
+      "source": "　",
+      "target": "　"
+    },
+    {
+      "offset": 1329,
+      "kind": "line",
+      "limit": 10,
+      "source": "『決めた相手だから』",
+      "target": "“因为我认定了他”"
+    },
+    {
+      "offset": 1405,
+      "kind": "choice",
+      "limit": 0,
+      "source": "辺り見回す",
+      "target": "环视四周"
+    },
+    {
+      "offset": 1419,
+      "kind": "choice",
+      "limit": 0,
+      "source": "調べる",
+      "target": "调查"
+    },
+    {
+      "offset": 1429,
+      "kind": "choice",
+      "limit": 0,
+      "source": "呼ぶ",
+      "target": "呼叫"
+    },
+    {
+      "offset": 1437,
+      "kind": "choice",
+      "limit": 0,
+      "source": "中断する",
+      "target": "中断"
+    },
+    {
+      "offset": 1458,
+      "kind": "line",
+      "limit": 11,
+      "source": "書籍や書類、衣類などが",
+      "target": "书籍、文件和衣物"
+    },
+    {
+      "offset": 1486,
+      "kind": "line",
+      "limit": 11,
+      "source": "これでもかというほど",
+      "target": "多得夸张，"
+    },
+    {
+      "offset": 1512,
+      "kind": "line",
+      "limit": 11,
+      "source": "散らかっている。",
+      "target": "散落得到处都是。"
+    },
+    {
+      "offset": 1534,
+      "kind": "line",
+      "limit": 11,
+      "source": "元々風通しが悪いせいも",
+      "target": "原本就通风不良，"
+    },
+    {
+      "offset": 1562,
+      "kind": "line",
+      "limit": 11,
+      "source": "あるのだが、若干カビの",
+      "target": "屋里甚至隐约"
+    },
+    {
+      "offset": 1597,
+      "kind": "line",
+      "limit": 11,
+      "source": "匂いもする。",
+      "target": "带着霉味。"
+    },
+    {
+      "offset": 1621,
+      "kind": "line",
+      "limit": 11,
+      "source": "仮にも応接がこれでは",
+      "target": "会客区乱成这样，"
+    },
+    {
+      "offset": 1647,
+      "kind": "line",
+      "limit": 11,
+      "source": "もし依頼人が来ても",
+      "target": "就算委托人来了"
+    },
+    {
+      "offset": 1671,
+      "kind": "line",
+      "limit": 11,
+      "source": "招き入れられないな…。",
+      "target": "也没法请进来…"
+    },
+    {
+      "offset": 1708,
+      "kind": "line",
+      "limit": 10,
+      "source": "ひどい有様だが、隣の",
+      "target": "虽然已经惨不忍睹，"
+    },
+    {
+      "offset": 1734,
+      "kind": "line",
+      "limit": 10,
+      "source": "彼の自室に比べれば、",
+      "target": "但比起隔壁他的"
+    },
+    {
+      "offset": 1760,
+      "kind": "line",
+      "limit": 10,
+      "source": "まだマシだろう。",
+      "target": "房间还算好。"
+    },
+    {
+      "offset": 1788,
+      "kind": "choice",
+      "limit": 0,
+      "source": "床",
+      "target": "地板"
+    },
+    {
+      "offset": 1794,
+      "kind": "choice",
+      "limit": 0,
+      "source": "応接",
+      "target": "会客区"
+    },
+    {
+      "offset": 1802,
+      "kind": "choice",
+      "limit": 0,
+      "source": "机",
+      "target": "书桌"
+    },
+    {
+      "offset": 1808,
+      "kind": "choice",
+      "limit": 0,
+      "source": "本棚",
+      "target": "书架"
+    },
+    {
+      "offset": 1825,
+      "kind": "line",
+      "limit": 11,
+      "source": "まさに足の踏み場もない",
+      "target": "真是连落脚的地方"
+    },
+    {
+      "offset": 1853,
+      "kind": "line",
+      "limit": 11,
+      "source": "というような状態だ。",
+      "target": "都没有。"
+    },
+    {
+      "offset": 1888,
+      "kind": "line",
+      "limit": 10,
+      "source": "癸生川は基本的に、",
+      "target": "癸生川基本从不会"
+    },
+    {
+      "offset": 1918,
+      "kind": "line",
+      "limit": 10,
+      "source": "出したものを片付ける",
+      "target": "把拿出来的东西"
+    },
+    {
+      "offset": 1944,
+      "kind": "line",
+      "limit": 10,
+      "source": "ということをしない。",
+      "target": "收回去。"
+    },
+    {
+      "offset": 1970,
+      "kind": "line",
+      "limit": 7,
+      "source": "…と言うより。",
+      "target": "…不如说，"
+    },
+    {
+      "offset": 1990,
+      "kind": "line",
+      "limit": 11,
+      "source": "必要がなくなったものは",
+      "target": "东西一旦没用了，"
+    },
+    {
+      "offset": 2018,
+      "kind": "line",
+      "limit": 11,
+      "source": "そのまま手を離すだけ",
+      "target": "他只会当场"
+    },
+    {
+      "offset": 2093,
+      "kind": "line",
+      "limit": 11,
+      "source": "なのである。",
+      "target": "松手。"
+    },
+    {
+      "offset": 2111,
+      "kind": "line",
+      "limit": 10,
+      "source": "それでウロウロと歩き",
+      "target": "他又会四处走动，"
+    },
+    {
+      "offset": 2137,
+      "kind": "line",
+      "limit": 10,
+      "source": "回るので、その結果",
+      "target": "于是地板自然而然"
+    },
+    {
+      "offset": 2161,
+      "kind": "line",
+      "limit": 10,
+      "source": "床は自然とこうなる。",
+      "target": "就成了这样。"
+    },
+    {
+      "offset": 2187,
+      "kind": "line",
+      "limit": 6,
+      "source": "…やれやれ。",
+      "target": "…真是的。"
+    },
+    {
+      "offset": 2214,
+      "kind": "line",
+      "limit": 11,
+      "source": "床の見えている面積の",
+      "target": "能看见地板的面积"
+    },
+    {
+      "offset": 2240,
+      "kind": "line",
+      "limit": 11,
+      "source": "方が、圧倒的に少ない。",
+      "target": "少得可怜。"
+    },
+    {
+      "offset": 2286,
+      "kind": "line",
+      "limit": 11,
+      "source": "僕が中古のアンティーク",
+      "target": "这是我跑遍二手"
+    },
+    {
+      "offset": 2314,
+      "kind": "line",
+      "limit": 11,
+      "source": "ショップを巡って探した",
+      "target": "古董店才找到的"
+    },
+    {
+      "offset": 2342,
+      "kind": "line",
+      "limit": 11,
+      "source": "応接セットだ。",
+      "target": "会客桌椅。"
+    },
+    {
+      "offset": 2362,
+      "kind": "line",
+      "limit": 10,
+      "source": "実はその値段では",
+      "target": "其实它的品质"
+    },
+    {
+      "offset": 2384,
+      "kind": "line",
+      "limit": 10,
+      "source": "有り得ないくらいの",
+      "target": "高级得与价格"
+    },
+    {
+      "offset": 2408,
+      "kind": "line",
+      "limit": 10,
+      "source": "高級品だったのだが…",
+      "target": "完全不相称…"
+    },
+    {
+      "offset": 2434,
+      "kind": "line",
+      "limit": 11,
+      "source": "この惨状を見ると、",
+      "target": "可看到这副惨状，"
+    },
+    {
+      "offset": 2482,
+      "kind": "line",
+      "limit": 11,
+      "source": "せめて人を座らせて",
+      "target": "实在让人想至少"
+    },
+    {
+      "offset": 2506,
+      "kind": "line",
+      "limit": 11,
+      "source": "あげたいと思わされる。",
+      "target": "让谁坐一坐。"
+    },
+    {
+      "offset": 2536,
+      "kind": "line",
+      "limit": 11,
+      "source": "…高級品が泣いてるな。",
+      "target": "…高级家具都哭了。"
+    },
+    {
+      "offset": 2564,
+      "kind": "line",
+      "limit": 11,
+      "source": "ごめんよ。",
+      "target": "对不起啊。"
+    },
+    {
+      "offset": 2589,
+      "kind": "line",
+      "limit": 11,
+      "source": "手前の長ソファは、よく",
+      "target": "靠外的长沙发，"
+    },
+    {
+      "offset": 2628,
+      "kind": "line",
+      "limit": 11,
+      "source": "癸生川のベッドにされて",
+      "target": "经常被癸生川"
+    },
+    {
+      "offset": 2662,
+      "kind": "line",
+      "limit": 11,
+      "source": "いる。",
+      "target": "当作床。"
+    },
+    {
+      "offset": 2674,
+      "kind": "line",
+      "limit": 11,
+      "source": "…よくここで寝れるな、",
+      "target": "…亏他睡得着，"
+    },
+    {
+      "offset": 2702,
+      "kind": "line",
+      "limit": 11,
+      "source": "しかし。",
+      "target": "真是的。"
+    },
+    {
+      "offset": 2745,
+      "kind": "line",
+      "limit": 11,
+      "source": "癸生川専用のデスクだ。",
+      "target": "这是癸生川专用的桌子。"
+    },
+    {
+      "offset": 2779,
+      "kind": "line",
+      "limit": 11,
+      "source": "彼は自分以外の人間が",
+      "target": "对于别人"
+    },
+    {
+      "offset": 2805,
+      "kind": "line",
+      "limit": 11,
+      "source": "この机に触るのを極度に",
+      "target": "碰这张桌子一事，"
+    },
+    {
+      "offset": 2833,
+      "kind": "line",
+      "limit": 11,
+      "source": "嫌う。",
+      "target": "他极度厌恶。"
+    },
+    {
+      "offset": 2845,
+      "kind": "line",
+      "limit": 10,
+      "source": "なので、勝手に物を",
+      "target": "所以要是擅自"
+    },
+    {
+      "offset": 2869,
+      "kind": "line",
+      "limit": 10,
+      "source": "置いたり、片付けたり",
+      "target": "在上面放东西，"
+    },
+    {
+      "offset": 2895,
+      "kind": "line",
+      "limit": 10,
+      "source": "しようものなら…",
+      "target": "或帮他收拾…"
+    },
+    {
+      "offset": 2917,
+      "kind": "line",
+      "limit": 11,
+      "source": "顔を大きく歪め、あから",
+      "target": "他就会整张脸扭曲，"
+    },
+    {
+      "offset": 2963,
+      "kind": "line",
+      "limit": 11,
+      "source": "さまにイヤそうな顔を",
+      "target": "一直明摆着露出"
+    },
+    {
+      "offset": 2989,
+      "kind": "line",
+      "limit": 11,
+      "source": "ずっと浮かべ続ける。",
+      "target": "厌恶的表情。"
+    },
+    {
+      "offset": 3015,
+      "kind": "line",
+      "limit": 11,
+      "source": "何があろうとも、ずっと",
+      "target": "无论发生什么，"
+    },
+    {
+      "offset": 3043,
+      "kind": "line",
+      "limit": 11,
+      "source": "その顔を見せられるのは",
+      "target": "都得一直看着那张脸，"
+    },
+    {
+      "offset": 3071,
+      "kind": "line",
+      "limit": 11,
+      "source": "正直たまらなかった。",
+      "target": "实在受不了。"
+    },
+    {
+      "offset": 3097,
+      "kind": "line",
+      "limit": 11,
+      "source": "…という割には、さほど",
+      "target": "…话虽如此，他似乎"
+    },
+    {
+      "offset": 3125,
+      "kind": "line",
+      "limit": 11,
+      "source": "大切に扱っているわけ",
+      "target": "也没把桌子当成"
+    },
+    {
+      "offset": 3151,
+      "kind": "line",
+      "limit": 11,
+      "source": "でもなさそうだけど。",
+      "target": "宝贝。"
+    },
+    {
+      "offset": 3177,
+      "kind": "line",
+      "limit": 11,
+      "source": "一体何にこだわっている",
+      "target": "他到底在坚持"
+    },
+    {
+      "offset": 3205,
+      "kind": "line",
+      "limit": 11,
+      "source": "のか…彼のことはやはり",
+      "target": "什么…果然还是"
+    },
+    {
+      "offset": 3233,
+      "kind": "line",
+      "limit": 11,
+      "source": "よくわからない。",
+      "target": "搞不懂。"
+    },
+    {
+      "offset": 3264,
+      "kind": "line",
+      "limit": 10,
+      "source": "その一件以来、この机",
+      "target": "从那次以后，"
+    },
+    {
+      "offset": 3290,
+      "kind": "line",
+      "limit": 10,
+      "source": "だけは極力触らない",
+      "target": "我尽量不去碰"
+    },
+    {
+      "offset": 3314,
+      "kind": "line",
+      "limit": 10,
+      "source": "ようにしている。",
+      "target": "这张桌子。"
+    },
+    {
+      "offset": 3354,
+      "kind": "line",
+      "limit": 9,
+      "source": "資料の整理のために",
+      "target": "这是为整理资料"
+    },
+    {
+      "offset": 3378,
+      "kind": "line",
+      "limit": 9,
+      "source": "用意した本棚だが…",
+      "target": "准备的书架…"
+    },
+    {
+      "offset": 3413,
+      "kind": "line",
+      "limit": 10,
+      "source": "癸生川の手にかかると",
+      "target": "可到了癸生川手里，"
+    },
+    {
+      "offset": 3445,
+      "kind": "line",
+      "limit": 10,
+      "source": "こんなものは必要ない",
+      "target": "这种东西仿佛"
+    },
+    {
+      "offset": 3471,
+      "kind": "line",
+      "limit": 10,
+      "source": "ように思えてくる。",
+      "target": "根本不需要。"
+    },
+    {
+      "offset": 3495,
+      "kind": "line",
+      "limit": 11,
+      "source": "彼はこれだけ散らかった",
+      "target": "即便这里"
+    },
+    {
+      "offset": 3523,
+      "kind": "line",
+      "limit": 11,
+      "source": "状態であっても…",
+      "target": "已经乱成这样…"
+    },
+    {
+      "offset": 3545,
+      "kind": "line",
+      "limit": 10,
+      "source": "更には、もっと",
+      "target": "甚至在更加"
+    },
+    {
+      "offset": 3565,
+      "kind": "line",
+      "limit": 10,
+      "source": "散らかっている、彼の",
+      "target": "杂乱的私人房间"
+    },
+    {
+      "offset": 3591,
+      "kind": "line",
+      "limit": 10,
+      "source": "自室内であっても…",
+      "target": "里…"
+    },
+    {
+      "offset": 3615,
+      "kind": "line",
+      "limit": 10,
+      "source": "目的の物を、いとも",
+      "target": "他也能轻而易举"
+    },
+    {
+      "offset": 3639,
+      "kind": "line",
+      "limit": 10,
+      "source": "簡単に発見してしまう",
+      "target": "找到想要的东西，"
+    },
+    {
+      "offset": 3665,
+      "kind": "line",
+      "limit": 10,
+      "source": "のである。",
+      "target": "从不失手。"
+    },
+    {
+      "offset": 3681,
+      "kind": "line",
+      "limit": 11,
+      "source": "まるで、これが整理整頓",
+      "target": "仿佛这里本来就是"
+    },
+    {
+      "offset": 3709,
+      "kind": "line",
+      "limit": 11,
+      "source": "された状態であるかの",
+      "target": "整理得井井有条的"
+    },
+    {
+      "offset": 3735,
+      "kind": "line",
+      "limit": 11,
+      "source": "ように、だ。",
+      "target": "状态。"
+    },
+    {
+      "offset": 3753,
+      "kind": "line",
+      "limit": 10,
+      "source": "恐らく、その",
+      "target": "大概是因为"
+    },
+    {
+      "offset": 3771,
+      "kind": "line",
+      "limit": 10,
+      "source": "並々ならぬ推理力で…",
+      "target": "他那非凡的推理能力…"
+    },
+    {
+      "offset": 3797,
+      "kind": "line",
+      "limit": 11,
+      "source": "これらの散らかり方にも",
+      "target": "能瞬间从这些"
+    },
+    {
+      "offset": 3825,
+      "kind": "line",
+      "limit": 11,
+      "source": "瞬時に法則性を見付けて",
+      "target": "杂乱之中发现"
+    },
+    {
+      "offset": 3853,
+      "kind": "line",
+      "limit": 11,
+      "source": "しまうからであろう。",
+      "target": "某种规律吧。"
+    },
+    {
+      "offset": 3879,
+      "kind": "line",
+      "limit": 10,
+      "source": "だから彼は、これだけ",
+      "target": "所以即使这里"
+    },
+    {
+      "offset": 3905,
+      "kind": "line",
+      "limit": 10,
+      "source": "散らかっていても、",
+      "target": "乱成这副样子，"
+    },
+    {
+      "offset": 3929,
+      "kind": "line",
+      "limit": 10,
+      "source": "まったく困らない。",
+      "target": "他也丝毫不犯难。"
+    },
+    {
+      "offset": 3953,
+      "kind": "line",
+      "limit": 10,
+      "source": "困らないから、",
+      "target": "既然不为难，"
+    },
+    {
+      "offset": 3973,
+      "kind": "line",
+      "limit": 10,
+      "source": "片付ける必要もない。",
+      "target": "也就不必收拾。"
+    },
+    {
+      "offset": 3999,
+      "kind": "line",
+      "limit": 9,
+      "source": "…なので、本棚も",
+      "target": "…所以书架也"
+    },
+    {
+      "offset": 4021,
+      "kind": "line",
+      "limit": 9,
+      "source": "必要ないのである。",
+      "target": "不需要。"
+    },
+    {
+      "offset": 4054,
+      "kind": "line",
+      "limit": 10,
+      "source": "僕が部屋を片付ける",
+      "target": "它只有在我帮忙"
+    },
+    {
+      "offset": 4078,
+      "kind": "line",
+      "limit": 10,
+      "source": "時にだけ必要になる、",
+      "target": "收拾房间时"
+    },
+    {
+      "offset": 4104,
+      "kind": "line",
+      "limit": 10,
+      "source": "本棚だ。",
+      "target": "才有用。"
+    },
+    {
+      "offset": 4130,
+      "kind": "choice",
+      "limit": 0,
+      "source": "癸生川",
+      "target": "癸生川"
+    },
+    {
+      "offset": 4151,
+      "kind": "line",
+      "limit": 9,
+      "source": "おーい、癸生川。",
+      "target": "喂，癸生川。"
+    },
+    {
+      "offset": 4195,
+      "kind": "line",
+      "limit": 9,
+      "source": "…部屋にいるのか？",
+      "target": "…你在房里吗？"
+    },
+    {
+      "offset": 4219,
+      "kind": "line",
+      "limit": 3,
+      "source": "……。",
+      "target": "……"
+    },
+    {
+      "offset": 4233,
+      "kind": "line",
+      "limit": 11,
+      "source": "…呼びかけても",
+      "target": "…喊了也"
+    },
+    {
+      "offset": 4253,
+      "kind": "line",
+      "limit": 11,
+      "source": "返事はない。",
+      "target": "没人回应。"
+    },
+    {
+      "offset": 4271,
+      "kind": "line",
+      "limit": 11,
+      "source": "寝てるのか、あるいは…",
+      "target": "是在睡觉，还是…"
+    },
+    {
+      "offset": 4299,
+      "kind": "line",
+      "limit": 11,
+      "source": "部屋を片付けさせられる",
+      "target": "不想被我逼着"
+    },
+    {
+      "offset": 4327,
+      "kind": "line",
+      "limit": 11,
+      "source": "のがイヤで、逃げたか…",
+      "target": "收拾房间，逃走了…"
+    },
+    {
+      "offset": 4355,
+      "kind": "line",
+      "limit": 11,
+      "source": "だな。",
+      "target": "吧。"
+    },
+    {
+      "offset": 4376,
+      "kind": "line",
+      "limit": 10,
+      "source": "出てきたらまず部屋を",
+      "target": "等他出来，得先让他"
+    },
+    {
+      "offset": 4402,
+      "kind": "line",
+      "limit": 10,
+      "source": "片付けさせないとな。",
+      "target": "把房间收拾好。"
+    },
+    {
+      "offset": 4428,
+      "kind": "line",
+      "limit": 10,
+      "source": "…まったく。",
+      "target": "…真是的。"
+    },
+    {
+      "offset": 4547,
+      "kind": "line",
+      "limit": 8,
+      "source": "…おや？",
+      "target": "…咦？"
+    },
+    {
+      "offset": 4561,
+      "kind": "line",
+      "limit": 8,
+      "source": "誰か来たのかな？",
+      "target": "有人来了？"
+    },
+    {
+      "offset": 4583,
+      "kind": "line",
+      "limit": 11,
+      "source": "こういう時に依頼人でも",
+      "target": "这种时候若是委托人"
+    },
+    {
+      "offset": 4611,
+      "kind": "line",
+      "limit": 11,
+      "source": "少し困るんだが…。",
+      "target": "就有点难办了…"
+    },
+    {
+      "offset": 4637,
+      "kind": "line",
+      "limit": 5,
+      "source": "…はーい。",
+      "target": "…来了。"
+    },
+    {
+      "offset": 4662,
+      "kind": "line",
+      "limit": 9,
+      "source": "あの、こんにちは！",
+      "target": "你好！"
+    },
+    {
+      "offset": 4697,
+      "kind": "line",
+      "limit": 9,
+      "source": "川瀬莉沙です！",
+      "target": "我是川濑莉沙！"
+    },
+    {
+      "offset": 4739,
+      "kind": "line",
+      "limit": 10,
+      "source": "…ああ、君か。",
+      "target": "…啊，是你。"
+    },
+    {
+      "offset": 4759,
+      "kind": "line",
+      "limit": 10,
+      "source": "もう大丈夫なのかい？",
+      "target": "身体没事了吗？"
+    },
+    {
+      "offset": 4787,
+      "kind": "line",
+      "limit": 9,
+      "source": "ああ、涼二さん！",
+      "target": "啊，凉二先生！"
+    },
+    {
+      "offset": 4809,
+      "kind": "line",
+      "limit": 9,
+      "source": "憶えててくれてたん",
+      "target": "您还记得我"
+    },
+    {
+      "offset": 4833,
+      "kind": "line",
+      "limit": 9,
+      "source": "ですね！",
+      "target": "啊！"
+    },
+    {
+      "offset": 4847,
+      "kind": "line",
+      "limit": 10,
+      "source": "ありがとう、嬉しい！",
+      "target": "谢谢，我好高兴！"
+    },
+    {
+      "offset": 4873,
+      "kind": "line",
+      "limit": 10,
+      "source": "あ、あの…上がっても",
+      "target": "那、那个…我能"
+    },
+    {
+      "offset": 4899,
+      "kind": "line",
+      "limit": 10,
+      "source": "いいですか？",
+      "target": "进去吗？"
+    },
+    {
+      "offset": 4917,
+      "kind": "line",
+      "limit": 10,
+      "source": "外、すごい雨で…。",
+      "target": "外面雨好大…"
+    },
+    {
+      "offset": 4943,
+      "kind": "line",
+      "limit": 9,
+      "source": "…まあ、ちょっと",
+      "target": "…里面有点"
+    },
+    {
+      "offset": 4965,
+      "kind": "line",
+      "limit": 9,
+      "source": "散らかってるけど…",
+      "target": "乱…"
+    },
+    {
+      "offset": 4989,
+      "kind": "line",
+      "limit": 8,
+      "source": "それで良ければ。",
+      "target": "你不介意就好。"
+    },
+    {
+      "offset": 5013,
+      "kind": "line",
+      "limit": 10,
+      "source": "あは、大丈夫ですよ。",
+      "target": "哈哈，没关系。"
+    },
+    {
+      "offset": 5039,
+      "kind": "line",
+      "limit": 10,
+      "source": "お邪魔しますっ。",
+      "target": "打扰了。"
+    },
+    {
+      "offset": 5102,
+      "kind": "line",
+      "limit": 10,
+      "source": "あらら、ホントに",
+      "target": "哎呀，真的"
+    },
+    {
+      "offset": 5124,
+      "kind": "line",
+      "limit": 10,
+      "source": "散らかってますねー。",
+      "target": "很乱呢。"
+    },
+    {
+      "offset": 5152,
+      "kind": "line",
+      "limit": 8,
+      "source": "まあ…ね。",
+      "target": "这个嘛…"
+    },
+    {
+      "offset": 5168,
+      "kind": "line",
+      "limit": 8,
+      "source": "だから言ったろ？",
+      "target": "我说过了吧？"
+    },
+    {
+      "offset": 5202,
+      "kind": "line",
+      "limit": 8,
+      "source": "ふふ、あたしなら",
+      "target": "呵呵，我不会"
+    },
+    {
+      "offset": 5224,
+      "kind": "line",
+      "limit": 8,
+      "source": "気にしませんから",
+      "target": "在意这些，"
+    },
+    {
+      "offset": 5246,
+      "kind": "line",
+      "limit": 8,
+      "source": "大丈夫ですよっ。",
+      "target": "没关系的。"
+    },
+    {
+      "offset": 5278,
+      "kind": "line",
+      "limit": 9,
+      "source": "あ、何ならあたし、",
+      "target": "不然的话，"
+    },
+    {
+      "offset": 5302,
+      "kind": "line",
+      "limit": 9,
+      "source": "片付けましょうか？",
+      "target": "我来收拾好吗？"
+    }
+  ]
+}

@@ -1,0 +1,408 @@
+{
+  "schema": 2,
+  "characters": [
+    {
+      "canonical": "泉",
+      "render": "泉",
+      "category": "person",
+      "status": "confirmed_local",
+      "note": "序节登场的男孩，仅知名字为泉。原文在祖父到场后才揭示名字，前文不得提前补名；未给出姓氏，不自行推测。",
+      "reading": "いずみ",
+      "source_evidence": ["c0_00:18944", "c0_00:19670"]
+    },
+    {
+      "canonical": "御堂丸将云",
+      "render": "御堂丸将云",
+      "category": "person",
+      "status": "confirmed_local",
+      "note": "癸生川侦探事务所的老板，与癸生川有某种关系；本作此处尚未揭示详情。",
+      "reading": "みどうまる しょううん",
+      "source_evidence": ["c0_01:1905"]
+    },
+    {
+      "canonical": "白鷺洲涼二",
+      "render": "白鹭洲凉二",
+      "aliases": ["涼二"],
+      "category": "person",
+      "status": "confirmed_local",
+      "note": "八年前曾与癸生川并肩工作的男性侦探助手，白鹭洲伊纲的丈夫。序节先只介绍其姓名与旧职，直到 c0_01:10745 才由伊纲说出夫妻关系；前文不能凭同姓提前点明。",
+      "reading": "さぎしま りょうじ",
+      "source_evidence": ["c0_01:10277", "c0_01:10745"]
+    },
+    {
+      "canonical": "川瀬莉沙",
+      "render": "川濑莉沙",
+      "aliases": ["莉沙"],
+      "category": "person",
+      "status": "confirmed_local",
+      "note": "被白鹭洲凉二救助后频繁造访事务所的年轻女性；对白鹭洲称“凉二先生”。这是灵崎朱当时使用的身份，但在第四节揭晓前必须继续译作川濑莉沙／莉沙，不能提前改用真名。",
+      "reading": "かわせ りさ",
+      "source_evidence": ["c1_00:8310", "c5_00:6513"]
+    },
+    {
+      "canonical": "螻川内",
+      "render": "蝼川内",
+      "category": "person",
+      "status": "confirmed_local",
+      "note": "为兑现八年前约定而来访的男性，即蝼川内晓。序节当下线只公开姓氏，不能在闪回报出全名前提前补名。",
+      "reading": "けらかわち",
+      "source_evidence": ["c0_01:9824"]
+    },
+    {
+      "canonical": "螻川内暁",
+      "render": "蝼川内晓",
+      "aliases": ["暁"],
+      "category": "person",
+      "status": "confirmed_local",
+      "note": "25岁的公司职员，蝼川内忠雄与绫子之子、森慧美的交往对象。全名在第一节闪回中才公开；序节的来访者仍按原文只称蝼川内。",
+      "source_evidence": ["c1_01:3962", "c1_01:4010"]
+    },
+    {
+      "canonical": "螻川内忠雄",
+      "render": "蝼川内忠雄",
+      "aliases": ["忠雄"],
+      "category": "person",
+      "status": "confirmed_local",
+      "note": "晓的父亲、绫子的丈夫，曾在克雷夫制作所工作。故事前半以失踪并涉嫌拿走存折的人出现，真相揭晓前不得把动机写死。",
+      "source_evidence": ["c1_01:5381", "c4_00:1313"]
+    },
+    {
+      "canonical": "螻川内綾子",
+      "render": "蝼川内绫子",
+      "aliases": ["綾子"],
+      "category": "person",
+      "status": "confirmed_local",
+      "note": "晓的母亲、忠雄的妻子，娘家姓水岛。水岛绫子是同一人物的旧姓全名；两个全名按剧情当时说法分别保留。",
+      "source_evidence": ["c2_00:16430", "c3_00:16431"]
+    },
+    {
+      "canonical": "水島綾子",
+      "render": "水岛绫子",
+      "category": "person_form",
+      "status": "confirmed_local",
+      "note": "蝼川内绫子的旧姓全名。第三节追查身世时才出现，前文不得提前用旧姓暗示她与水岛寅男、灵崎朱的关系。",
+      "source_evidence": ["c3_00:15872", "c3_00:16374"]
+    },
+    {
+      "canonical": "水島寅男",
+      "render": "水岛寅男",
+      "aliases": ["寅男"],
+      "category": "person_form",
+      "status": "confirmed_local",
+      "note": "绫子记忆中的父亲姓名；第四节才揭晓这是尼子启三使用的另一个姓名。揭晓前按原文保留水岛寅男，不提前替换为尼子启三。",
+      "source_evidence": ["c2_00:13578", "c4_00:19090"]
+    },
+    {
+      "canonical": "森慧美",
+      "render": "森慧美",
+      "aliases": ["慧美"],
+      "category": "person",
+      "status": "confirmed_local",
+      "note": "晓相识三个月的交往对象，向他诉说父母服装店倒闭并急需五百万日元。称呼按说话人与场景使用慧美、慧美小姐或新闻中的森女士。",
+      "source_evidence": ["c1_01:15602", "c1_01:16531"]
+    },
+    {
+      "canonical": "尼子啓三",
+      "render": "尼子启三",
+      "aliases": ["尼子"],
+      "category": "person",
+      "status": "confirmed_local",
+      "note": "克雷夫制作所代表董事，第四节揭晓为传说中的骗子“极恶骗”，并曾使用水岛寅男等身份。前文仅按当时掌握的姓名和身份翻译。原文 c3_01:16118、16677 两处写作“极ギサの兄”，与后文身份说明矛盾，译文按原文保留“极恶骗的哥哥”。",
+      "source_evidence": ["c1_01:8433", "c3_01:3658", "c4_00:15013"]
+    },
+    {
+      "canonical": "霊崎朱",
+      "render": "灵崎朱",
+      "category": "person",
+      "status": "confirmed_local",
+      "note": "尼子启三收养并训练的第二个女儿，也是绫子遗弃的亲生女儿、晓的姐姐；曾使用川濑莉沙身份。第四节才揭露姓名与亲缘，之前不得提前点破。",
+      "reading": "たまさき あや",
+      "source_evidence": ["c3_00:15661", "c4_00:21422", "c4_00:21518"]
+    },
+    {
+      "canonical": "螻川内泉",
+      "render": "蝼川内泉",
+      "category": "person_form",
+      "status": "confirmed_local",
+      "note": "终节A才由晓猜出的孩子全名。序节只知道名为泉，不能把姓氏提前补入男孩称呼。",
+      "reading": "けらかわち いずみ",
+      "source_evidence": ["c5_00:4211"]
+    },
+    {
+      "canonical": "リュウタ",
+      "render": "龙太",
+      "category": "fan_name",
+      "status": "provisional",
+      "note": "玩家来信署名，未给出汉字，本作暂按常见名字音译。",
+      "source_evidence": ["c0_01:1102"]
+    },
+    {
+      "canonical": "らっこ",
+      "render": "海獭",
+      "category": "fan_name",
+      "status": "confirmed_local",
+      "note": "玩家来信署名，按日语普通词含义翻译。",
+      "source_evidence": ["c0_01:5205"]
+    }
+  ],
+  "terms": [
+    {
+      "canonical": "五月雨は鈍色の調べ",
+      "render": "五月雨是铅灰的旋律",
+      "category": "title",
+      "status": "confirmed_local",
+      "note": "用户已确认第九作中文标题。标题图读音为さみだれ／にびいろ／しらべ。",
+      "source_evidence": ["title.gif"]
+    },
+    {
+      "canonical": "鈍色",
+      "render": "铅灰",
+      "aliases": ["鈍い色"],
+      "category": "motif",
+      "status": "confirmed_local",
+      "note": "与作品标题的色彩母题统一；正文按句法使用铅灰、铅灰色。",
+      "source_evidence": ["c0_00:536", "c0_00:890"]
+    },
+    {
+      "canonical": "序節",
+      "render": "序节",
+      "category": "chapter_heading",
+      "status": "confirmed_local",
+      "source_evidence": ["c0_00:1619"]
+    },
+    {
+      "canonical": "彼の代わりに",
+      "render": "代替他",
+      "category": "chapter_title",
+      "status": "confirmed_local",
+      "note": "序节标题，已随用户确认的样章风格锁定。",
+      "source_evidence": ["c0_00:1639"]
+    },
+    {
+      "canonical": "決めた相手だから",
+      "render": "因为我认定了他",
+      "category": "chapter_title",
+      "status": "confirmed_local",
+      "note": "第一节标题。保留原文“选定并认定某人”的主观意味。",
+      "source_evidence": ["c1_00:1329"]
+    },
+    {
+      "canonical": "第１節",
+      "render": "第１节",
+      "category": "chapter_heading",
+      "status": "confirmed_local",
+      "source_evidence": ["c1_00:1309"]
+    },
+    {
+      "canonical": "第２節",
+      "render": "第２节",
+      "category": "chapter_heading",
+      "status": "confirmed_local",
+      "source_evidence": ["c2_00:1004"]
+    },
+    {
+      "canonical": "必ずケンカになる",
+      "render": "一定会吵起来",
+      "category": "chapter_title",
+      "status": "confirmed_local",
+      "source_evidence": ["c2_00:1024"]
+    },
+    {
+      "canonical": "第３節",
+      "render": "第３节",
+      "category": "chapter_heading",
+      "status": "confirmed_local",
+      "source_evidence": ["c3_00:880"]
+    },
+    {
+      "canonical": "別の人と別の家で",
+      "render": "与别人，在别的家",
+      "category": "chapter_title",
+      "status": "confirmed_local",
+      "source_evidence": ["c3_00:900"]
+    },
+    {
+      "canonical": "第４節",
+      "render": "第４节",
+      "category": "chapter_heading",
+      "status": "confirmed_local",
+      "source_evidence": ["c4_00:851"]
+    },
+    {
+      "canonical": "おわりにしよう",
+      "render": "做个了断吧",
+      "category": "chapter_title",
+      "status": "confirmed_local",
+      "source_evidence": ["c4_00:871"]
+    },
+    {
+      "canonical": "終節Ａ",
+      "render": "终节Ａ",
+      "category": "chapter_heading",
+      "status": "confirmed_local",
+      "source_evidence": ["c5_00:59"]
+    },
+    {
+      "canonical": "終節Ｂ",
+      "render": "终节Ｂ",
+      "category": "chapter_heading",
+      "status": "confirmed_local",
+      "source_evidence": ["c5_01:59"]
+    },
+    {
+      "canonical": "なんなりと",
+      "render": "尽管吩咐",
+      "category": "chapter_title",
+      "status": "confirmed_local",
+      "note": "终节B标题，照应伊纲表示愿意代替已故白鹭洲承担一切的说法。",
+      "source_evidence": ["c5_01:79"]
+    },
+    {
+      "canonical": "オーナー",
+      "render": "老板",
+      "category": "role",
+      "status": "confirmed_local",
+      "note": "指御堂丸将云作为癸生川侦探事务所的所有者和资助者；正文统一称老板。",
+      "source_evidence": ["c0_01:1723", "c0_01:1959"]
+    },
+    {
+      "canonical": "永劫会事件",
+      "render": "永劫会事件",
+      "category": "case_name",
+      "status": "confirmed_local",
+      "note": "沿用公共术语永劫会。",
+      "source_evidence": ["c0_01:4929"]
+    },
+    {
+      "canonical": "五月雨",
+      "render": "五月雨",
+      "category": "motif",
+      "status": "confirmed_local",
+      "note": "作品标题与终节雨季意象的固定写法；不在正文另换成梅雨或五月的雨。",
+      "source_evidence": ["c5_00:4419", "c5_01:3905"]
+    },
+    {
+      "canonical": "癸生川凌介事件譚",
+      "render": "癸生川凌介事件谭",
+      "category": "series_title",
+      "status": "confirmed_local",
+      "source_evidence": ["c0_00:4248"]
+    },
+    {
+      "canonical": "メルマガ",
+      "render": "电子报",
+      "category": "publication",
+      "status": "confirmed_local",
+      "note": "指事务所发布的电子邮件通讯，正文采用简短的电子报。",
+      "source_evidence": ["c0_00:6300"]
+    },
+    {
+      "canonical": "極ギサ",
+      "render": "极恶骗",
+      "category": "criminal_alias",
+      "status": "confirmed_local",
+      "note": "传说级骗子的称号，中文以“极恶骗”保留原文压缩式诨名。第四节揭晓此人就是尼子启三；c3_01 两处“极ギサの兄”属于原文内部矛盾，译文不擅自改写。",
+      "source_evidence": ["c3_01:15231", "c3_01:16118", "c4_00:15013"]
+    },
+    {
+      "canonical": "預金通帳",
+      "render": "存折",
+      "category": "clue_object",
+      "status": "confirmed_local",
+      "note": "晓失窃的银行存折；上下文简称通帳、貯金通帳时同样译存折。存折与其中五百万日元存款不可混为物品和金额。",
+      "source_evidence": ["c2_00:585", "c2_00:1585"]
+    },
+    {
+      "canonical": "鞠浜市",
+      "render": "鞠滨市",
+      "category": "place_name",
+      "status": "confirmed_local",
+      "note": "沿用系列公共译名。",
+      "source_evidence": ["c0_00:81"]
+    },
+    {
+      "canonical": "鞠浜台",
+      "render": "鞠滨台",
+      "category": "place_name",
+      "status": "confirmed_local",
+      "note": "鞠滨市内地名，沿用系列公共译名。",
+      "source_evidence": ["c0_00:81"]
+    },
+    {
+      "canonical": "中央町",
+      "render": "中央町",
+      "category": "place_name",
+      "status": "confirmed_local",
+      "source_evidence": ["c2_00:70"]
+    },
+    {
+      "canonical": "川北市",
+      "render": "川北市",
+      "category": "place_name",
+      "status": "confirmed_local",
+      "source_evidence": ["c3_00:20456"]
+    },
+    {
+      "canonical": "鞠浜台駅",
+      "render": "鞠滨台站",
+      "category": "location",
+      "status": "confirmed_local",
+      "source_evidence": ["c5_00:6088"]
+    },
+    {
+      "canonical": "鞠浜公会堂",
+      "render": "鞠滨公会堂",
+      "category": "location",
+      "status": "confirmed_local",
+      "source_evidence": ["c5_00:5968"]
+    },
+    {
+      "canonical": "癸生川探偵事務所",
+      "render": "癸生川侦探事务所",
+      "category": "location",
+      "status": "confirmed_local",
+      "note": "沿用系列公共译名。",
+      "source_evidence": ["c0_00:1537"]
+    },
+    {
+      "canonical": "螻川内家",
+      "render": "蝼川内家",
+      "category": "location",
+      "status": "confirmed_local",
+      "source_evidence": ["c2_00:107"]
+    },
+    {
+      "canonical": "クレフ製作所",
+      "render": "克雷夫制作所",
+      "category": "company_name",
+      "status": "confirmed_local",
+      "note": "忠雄曾工作的町工厂，代表董事为尼子启三。原文也出现“有限会社クレフ製作所”，中文仍用此固定名称。",
+      "source_evidence": ["c1_01:15154", "c3_01:61"]
+    },
+    {
+      "canonical": "クロス製作所",
+      "render": "克罗斯制作所",
+      "category": "wrong_choice_company",
+      "status": "confirmed_local",
+      "note": "回忆工厂名时的错误选项，必须保留为与正确答案不同的名称。",
+      "source_evidence": ["c3_00:10575"]
+    },
+    {
+      "canonical": "クラム製作所",
+      "render": "克拉姆制作所",
+      "category": "wrong_choice_company",
+      "status": "confirmed_local",
+      "note": "回忆工厂名时的错误选项，必须保留为与正确答案不同的名称。",
+      "source_evidence": ["c3_00:10600"]
+    },
+    {
+      "canonical": "元気モバイル株式会社",
+      "render": "元气移动株式会社",
+      "category": "company_name",
+      "status": "confirmed_local",
+      "note": "制作人员表中的制作与著作公司名称。",
+      "source_evidence": ["c5_00:5282", "c5_01:4745"]
+    }
+  ],
+  "non_translate": []
+}

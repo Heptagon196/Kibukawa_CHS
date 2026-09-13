@@ -1,0 +1,3468 @@
+{
+  "schema": 1,
+  "batch": 7,
+  "units": [
+    {
+      "id": "scratch3_2.dat/c2-03:71",
+      "kind": "display",
+      "source": "<color=2>２００３年</color><color=0>　　癸生川探偵事務所</color>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:120",
+      "kind": "dialogue",
+      "source": "<color=0>…さて、それじゃひとまず</color><row/><color=0>今後の捜査方針を決めましょう。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:333:arg0",
+      "kind": "choice",
+      "source": "港公園での通り魔事件",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:366:arg0",
+      "kind": "choice",
+      "source": "狭稲市での放火殺人事件",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:401:arg0",
+      "kind": "choice",
+      "source": "マンション転落死事件",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:434:arg0",
+      "kind": "choice",
+      "source": "ネットゲーム内の殺人事件",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:471:arg0",
+      "kind": "choice",
+      "source": "政治家の汚職事件",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:500:arg0",
+      "kind": "choice",
+      "source": "癸生川意味不明事件",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:522",
+      "kind": "dialogue",
+      "source": "<color=0>ひとまず伊綱君と話して</color><row/><color=0>状況の整理をしておこう。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:662",
+      "kind": "dialogue",
+      "source": "<color=0>ひとまず、これから私たちが</color><row/><color=0>すべきことをまとめましょうか。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:811",
+      "kind": "dialogue",
+      "source": "<color=0>うん、そうだね。なんだか</color><row/><color=0>ごちゃごちゃしてきた…。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:950",
+      "kind": "dialogue",
+      "source": "<color=0>まず突き止めるのは、</color><color=2>久我さんは</color><row/><color=2>なぜ亡くなったか</color><color=0>、です。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:1102",
+      "kind": "dialogue",
+      "source": "<color=0>自殺か事故であれば、その</color><row/><color=0>原因を探ること、そして…</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:1229",
+      "kind": "dialogue",
+      "source": "<color=0>もし他殺であれば、その犯人を</color><row/><color=0>探すことが最終目的です。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:1366",
+      "kind": "dialogue",
+      "source": "<color=0>いいですか？　まずは</color><row/><color=0>そこを見失わないでくださいね。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:1500",
+      "kind": "dialogue",
+      "source": "<color=0>う、うん。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:1545",
+      "kind": "dialogue",
+      "source": "<color=0>そして今、事件が</color><row/><color=0>複雑になっているのは…</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:1657",
+      "kind": "dialogue",
+      "source": "<color=0>久我さんを中心に、</color><color=2>３つの</color><row/><color=2>事件</color><color=0>が起こっているからです。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:1794",
+      "kind": "dialogue",
+      "source": "<color=0>さあ生王さん、それは</color><row/><color=0>どんな事件ですか？</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:1908",
+      "kind": "dialogue",
+      "source": "<color=0>ええと…。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:1949",
+      "kind": "dialogue",
+      "source": "<color=0>そうですね、それが発端です。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:2034",
+      "kind": "dialogue",
+      "source": "<color=0>この事件からして、とても</color><row/><color=0>不可解なことが多すぎます。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:2168",
+      "kind": "dialogue",
+      "source": "<color=0>姿を見ていない、という証言が</color><row/><color=0>久我さんのウソだとするなら…</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:2315",
+      "kind": "dialogue",
+      "source": "<color=0>彼はなぜ、そんなウソを</color><row/><color=0>ついたのか…だね。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:2437",
+      "kind": "dialogue",
+      "source": "<color=0>そうですね。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:2472",
+      "kind": "dialogue",
+      "source": "<color=0>ウソじゃなかったら、本当に</color><row/><color=0>姿の見えない犯人ですから。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:2611",
+      "kind": "dialogue",
+      "source": "<color=0>あと、それから…。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:2682",
+      "kind": "dialogue",
+      "source": "<color=0>ん？　そうですか？</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:2732",
+      "kind": "dialogue",
+      "source": "<color=0>その事件と久我さんの</color><row/><color=0>どこにつながりが…？</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:2841",
+      "kind": "dialogue",
+      "source": "<color=0>あ、ないか…。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:2883",
+      "kind": "dialogue",
+      "source": "<color=0>ないですよね？</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:2925",
+      "kind": "dialogue",
+      "source": "<color=0>ええと、だとすると…。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:3006",
+      "kind": "dialogue",
+      "source": "<color=0>そうですね。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:3041",
+      "kind": "dialogue",
+      "source": "<color=0>これを忘れちゃいけません。</color><row/><color=0>久我さんが命を失った事件です。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:3188",
+      "kind": "dialogue",
+      "source": "<color=0>不可解な部分が多いので、</color><row/><color=0>慎重に捜査していきましょう。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:3327",
+      "kind": "dialogue",
+      "source": "<color=0>そうだね。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:3357",
+      "kind": "dialogue",
+      "source": "<color=0>あとは…。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:3418",
+      "kind": "dialogue",
+      "source": "<color=0>はい、そうです。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:3463",
+      "kind": "dialogue",
+      "source": "<color=0>久我さんの操作するキャラが</color><row/><color=0>ほぼ同時刻に亡くなってます。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:3607",
+      "kind": "dialogue",
+      "source": "<color=0>死の直前までゲームをしてた</color><row/><color=0>ことからも、関係は深そうだね。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:3754",
+      "kind": "dialogue",
+      "source": "<color=0>それと…。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:3815",
+      "kind": "dialogue",
+      "source": "<color=0>生王さん、違いますよ。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:3885",
+      "kind": "dialogue",
+      "source": "<color=0>それ、さっきの週刊誌に</color><row/><color=0>載ってただけじゃないですか。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:4019",
+      "kind": "dialogue",
+      "source": "<color=0>あ、そうか。いやあ、</color><row/><color=0>なんか印象が強くてさ。あはは。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:4163",
+      "kind": "dialogue",
+      "source": "<color=0>んもう、しっかりしてください。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:4264",
+      "kind": "dialogue",
+      "source": "<color=0>いや、確かに意味不明ですけど</color><row/><color=0>それは関係ありませんよ！</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:4403",
+      "kind": "dialogue",
+      "source": "<color=0>いやごめん、なんとなく…。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:4473",
+      "kind": "dialogue",
+      "source": "<color=0>ええと、だから…。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:4571",
+      "kind": "dialogue",
+      "source": "<color=0>…と、これで３つか。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:4628",
+      "kind": "dialogue",
+      "source": "<color=0>はい、その３つです。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:4696",
+      "kind": "dialogue",
+      "source": "<color=0>私たちはひとまず、久我さんが</color><row/><color=0>亡くなる直前まで遊んでた…</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:4838",
+      "kind": "dialogue",
+      "source": "<color=0>ＭＯに何か隠されていないか、</color><row/><color=0>そこから探ろうとしています。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:4995",
+      "kind": "dialogue",
+      "source": "<color=0>…ここまで、いいですか？</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:5062",
+      "kind": "dialogue",
+      "source": "<color=0>うん、大丈夫。</color><row/><color=0>…たぶん。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:5140",
+      "kind": "dialogue",
+      "source": "<color=0>さて、それじゃあここからは</color><row/><color=0>少し捜査範囲を広げましょうか。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:5300",
+      "kind": "dialogue",
+      "source": "<color=0>まずは、もう一度</color><color=2>ＭＯに</color><row/><color=2>ログイン</color><color=0>して…</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:5397",
+      "kind": "dialogue",
+      "source": "<color=0>アイナさんのことを、詳しく</color><row/><color=0>調べる必要がありますね。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:5529",
+      "kind": "dialogue",
+      "source": "<color=0>できれば、関係者に直接会って</color><row/><color=0>話を聞きたいところですが…。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:5678",
+      "kind": "dialogue",
+      "source": "<color=0>ネットゲームの性質上、</color><row/><color=0>それは難しいかもね。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:5792",
+      "kind": "dialogue",
+      "source": "<color=0>そうですねえ。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:5842",
+      "kind": "dialogue",
+      "source": "<color=0>それから久我さんの</color><color=2>事件現場</color><color=0>も</color><row/><color=0>もう少し調査してみましょうか。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:5994",
+      "kind": "dialogue",
+      "source": "<color=0>通り魔事件のあった</color><color=2>港公園</color><color=0>と、</color><row/><color=0>さっきの</color><color=2>ウッズタウン</color><color=0>ですね。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:6141",
+      "kind": "dialogue",
+      "source": "<color=0>あ、ＭＯにログインしたい時は</color><row/><color=2>事務所のパソコン</color><color=0>から行けます。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:6300",
+      "kind": "dialogue",
+      "source": "<color=0>…とまあ、だいたい</color><row/><color=0>こんなところでしょうか。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:6414",
+      "kind": "dialogue",
+      "source": "<color=0>そうだね、まずはその辺から</color><row/><color=0>当たってみようか。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:6543",
+      "kind": "dialogue",
+      "source": "<color=0>それじゃあ、捜査を</color><row/><color=0>始めましょう！</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:6678",
+      "kind": "display",
+      "source": "<color=2>２００３年</color><color=0>　　癸生川探偵事務所</color>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:6727",
+      "kind": "dialogue",
+      "source": "<color=0>事務所に戻ってきましたよ。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:6886:arg1",
+      "kind": "menu_prompt",
+      "source": "調べる",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:6897:arg0",
+      "kind": "choice",
+      "source": "伊綱",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:6905:arg0",
+      "kind": "choice",
+      "source": "観葉植物",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:6917:arg0",
+      "kind": "choice",
+      "source": "応接セット",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:6931:arg0",
+      "kind": "choice",
+      "source": "電話",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:6939:arg0",
+      "kind": "choice",
+      "source": "窓",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:6954:arg0",
+      "kind": "choice",
+      "source": "机",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:6969:arg1",
+      "kind": "menu_prompt",
+      "source": "パソコン",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:6982:arg0",
+      "kind": "choice",
+      "source": "ＭＯへ入る",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:6999:arg0",
+      "kind": "choice",
+      "source": "港公園",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:7009:arg0",
+      "kind": "choice",
+      "source": "ウッズタウン",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:7027",
+      "kind": "dialogue",
+      "source": "<color=0>ひとまず私たちが調べるのは、</color><row/><color=0>久我さんの事件ではなくて…</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:7169",
+      "kind": "dialogue",
+      "source": "<color=0>アイナさんの事件、と言った方が</color><row/><color=0>的確かもしれませんね。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:7323",
+      "kind": "dialogue",
+      "source": "<color=0>難事件の捜査とあって、心なしか</color><row/><color=0>張り切ってるように見える。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:7473",
+      "kind": "dialogue",
+      "source": "<color=0>ややこしい名前の観葉植物が、</color><row/><color=0>さりげなく置かれている。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:7610",
+      "kind": "dialogue",
+      "source": "<color=0>伊綱君がマメに世話するからか、</color><row/><color=0>日当たりが悪くても元気だ。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:7760",
+      "kind": "dialogue",
+      "source": "<color=0>立派な応接セットだが、</color><row/><color=0>よく見るとボロが目立つ。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:7882",
+      "kind": "dialogue",
+      "source": "<color=0>どっしりとした造りが、</color><row/><color=0>事務所の雰囲気に合っている。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:8027",
+      "kind": "dialogue",
+      "source": "<color=0>特に電話する用事はないな。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:8100",
+      "kind": "dialogue",
+      "source": "<color=0>この部屋は建物の裏側にあたり、</color><row/><color=0>窓は北西に面している。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:8237",
+      "kind": "dialogue",
+      "source": "<color=0>なんとなく湿っぽい…。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:8302",
+      "kind": "dialogue",
+      "source": "<color=0>…おや？　なにやら紙切れが</color><row/><color=0>落ちてるようだけど…？</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:8431",
+      "kind": "dialogue",
+      "source": "<color=0>あれ、いつの間に…？</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:8486",
+      "kind": "dialogue",
+      "source": "<color=0>ありゃ、これって事務所の家賃の</color><row/><color=0>領収書じゃないですか。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:8623",
+      "kind": "dialogue",
+      "source": "<color=0>んもう、先生が放ったらかしに</color><row/><color=0>してたみたいですね。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:8752",
+      "kind": "dialogue",
+      "source": "<color=0>ん、家賃…？</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:8787",
+      "kind": "dialogue",
+      "source": "<color=0>ここって賃貸だったの…？</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:8864",
+      "kind": "dialogue",
+      "source": "<color=0>そりゃそうですよ。</color><row/><color=0>誰が買うんですか。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:8963",
+      "kind": "dialogue",
+      "source": "<color=0>ああ、いや、</color><row/><color=0>こう言っちゃなんだけども…</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:9065",
+      "kind": "dialogue",
+      "source": "<color=0>こんなんでよく家賃なんて</color><row/><color=0>払ってられるねえ。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:9189",
+      "kind": "dialogue",
+      "source": "<color=0>割と失礼ですね、それ。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:9251",
+      "kind": "dialogue",
+      "source": "<color=0>いや、まあ…素朴な疑問と</color><row/><color=0>いうことでひとつ穏便に…。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:9395",
+      "kind": "dialogue",
+      "source": "<color=0>………。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:9433",
+      "kind": "dialogue",
+      "source": "<color=0>…でも、私も前に、気になって</color><row/><color=0>調べたことがあるんですよ。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:9575",
+      "kind": "dialogue",
+      "source": "<color=0>家賃、誰がどうやって</color><row/><color=0>支払ってるのかな…って。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:9692",
+      "kind": "dialogue",
+      "source": "<color=0>私の給料も毎月ちゃんと</color><row/><color=0>振り込まれてますし…。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:9811",
+      "kind": "dialogue",
+      "source": "<color=0>…あれ？　癸生川が払ってる</color><row/><color=0>わけじゃないの…？</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:9950",
+      "kind": "dialogue",
+      "source": "<color=0>それがですね…。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:9995",
+      "kind": "dialogue",
+      "source": "<color=0>どうも、</color><color=2>オーナー</color><color=0>は別の人</color><row/><color=0>らしいんですよね。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:10109",
+      "kind": "dialogue",
+      "source": "<color=0>ええっ、ここ、</color><row/><color=0>オーナーがいるんだ!?</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:10216",
+      "kind": "dialogue",
+      "source": "<color=0>家賃の振り込み人とか、契約者を</color><row/><color=0>探ってみたところ…</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:10343",
+      "kind": "dialogue",
+      "source": "<color=2>御堂丸将云</color><color=0>…っていう</color><row/><color=0>名前になってるんですよね…。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:10494",
+      "kind": "dialogue",
+      "source": "<color=0>…だ、誰？　それ…？</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:10561",
+      "kind": "dialogue",
+      "source": "<color=0>謎です。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:10586",
+      "kind": "dialogue",
+      "source": "<color=0>先生に聞いても、</color><row/><color=0>しらばっくれるばかりで…。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:10700",
+      "kind": "dialogue",
+      "source": "<color=0>そうか、だから依頼がなくても</color><row/><color=0>食うには困らないのか…。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:10845",
+      "kind": "dialogue",
+      "source": "<color=0>この事務所は謎が多いなあ…。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:10935",
+      "kind": "dialogue",
+      "source": "<color=0>…まあ、なので深く考えるのは</color><row/><color=0>やめることにしました。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:11067",
+      "kind": "dialogue",
+      "source": "<color=0>さ、捜査に戻りましょう。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:11134",
+      "kind": "dialogue",
+      "source": "<color=0>うーむ…。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:11175",
+      "kind": "dialogue",
+      "source": "<color=3>捜査メモの</color><color=2>１ページ目</color><color=3>が</color><row/><color=3>追加されました。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:11297",
+      "kind": "dialogue",
+      "source": "<color=0>そういえば、さっきのあと</color><row/><color=0>イベントはどうなったんですか？</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:11441",
+      "kind": "dialogue",
+      "source": "<color=0>結局あのまま、イベントは</color><row/><color=2>終了</color><color=0>になっちゃったようだね。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:11578",
+      "kind": "dialogue",
+      "source": "<color=0>アルマダさんも、あれから</color><row/><color=0>帰ってこなかったし…</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:11695",
+      "kind": "dialogue",
+      "source": "<color=0>イベントの主催者がいなくなると</color><row/><color=0>強制的に終わっちゃうみたい。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:11862",
+      "kind": "dialogue",
+      "source": "<color=0>そうですか…。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:11902",
+      "kind": "dialogue",
+      "source": "<color=0>アルマダさんも、何があったのか</color><row/><color=0>気になりまよね…。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:12039",
+      "kind": "dialogue",
+      "source": "<color=0>今回のイベントをずっと楽しみに</color><row/><color=0>してたようなのに、</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:12166",
+      "kind": "dialogue",
+      "source": "<color=0>あんな中途半端な所で</color><row/><color=0>いなくなっちゃうなんて。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:12285",
+      "kind": "dialogue",
+      "source": "<color=0>やっぱり、久我さんがあんな</color><row/><color=0>ことになってたわけだから…</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:12430",
+      "kind": "dialogue",
+      "source": "<color=0>慌ててゲームから抜け落ちて</color><row/><color=0>出て行ったんじゃないかなあ？</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:12587",
+      "kind": "dialogue",
+      "source": "<color=0>そうですね、ふたりは実際に</color><row/><color=0>知り合いだと言ってましたし…。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:12744",
+      "kind": "dialogue",
+      "source": "<color=0>どのみち、アルマダさんなら何か</color><row/><color=0>知ってるかもしれませんね。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:12891",
+      "kind": "dialogue",
+      "source": "<color=0>いたら話を聞いてみましょう。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:12968",
+      "kind": "dialogue",
+      "source": "<color=0>うん、いればいいけど…。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:13118",
+      "kind": "display",
+      "source": "<color=2>２００３年</color><color=0>　　癸生川探偵事務所</color>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:13199",
+      "kind": "display",
+      "source": "<color=2>２００３年</color><color=0>　　港公園</color>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:13233",
+      "kind": "dialogue",
+      "source": "<color=0>港公園です。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:13357:arg1",
+      "kind": "menu_prompt",
+      "source": "調べる",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:13368:arg0",
+      "kind": "choice",
+      "source": "伊綱",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:13376:arg0",
+      "kind": "choice",
+      "source": "敷地",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:13384:arg0",
+      "kind": "choice",
+      "source": "船",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:13390:arg0",
+      "kind": "choice",
+      "source": "空",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:13399:arg0",
+      "kind": "choice",
+      "source": "癸生川探偵事務所",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:13419:arg0",
+      "kind": "choice",
+      "source": "ウッズタウン",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:13455",
+      "kind": "dialogue",
+      "source": "<color=0>音成さんの話によれば、事件は</color><row/><color=0>この辺で起きたみたいですね。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:13604",
+      "kind": "dialogue",
+      "source": "<color=0>えっ、こんな中心地で？</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:13666",
+      "kind": "dialogue",
+      "source": "<color=0>見ての通り、隠れられそうな</color><row/><color=0>場所なんてありませんね。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:13800",
+      "kind": "dialogue",
+      "source": "<color=0>これは、確かにそうだな…。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:13881",
+      "kind": "dialogue",
+      "source": "<color=0>深夜遅くに、こんな場所で</color><row/><color=0>人と会う約束をするって…</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:14021",
+      "kind": "dialogue",
+      "source": "<color=0>いったい、どういう事情が</color><row/><color=0>あるんでしょうね…。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:14140",
+      "kind": "dialogue",
+      "source": "<color=0>そうだよなぁ…。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:14185",
+      "kind": "dialogue",
+      "source": "<color=0>単なる逢い引きってことも</color><row/><color=0>ないだろうし。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:14299",
+      "kind": "dialogue",
+      "source": "<color=0>久我さんのメモにあった文からも</color><row/><color=0>その可能性は低いですよね。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:14448",
+      "kind": "dialogue",
+      "source": "<color=2>「ようやく発見か？」</color><color=0>…だっけ？</color><row/><color=0>なにを探していたんだろう？</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:14597",
+      "kind": "dialogue",
+      "source": "<color=0>発見か？…という言い方も</color><row/><color=0>少し気になりますね。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:14727",
+      "kind": "dialogue",
+      "source": "<color=0>まるで…本人も、探しものが</color><row/><color=0>何なのか分かってないような…。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:14876",
+      "kind": "dialogue",
+      "source": "<color=0>なるほど…。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:14922",
+      "kind": "dialogue",
+      "source": "<color=0>特に手掛かりになりそうなものは</color><row/><color=0>ありませんね…。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:15047",
+      "kind": "dialogue",
+      "source": "<color=0>青空の下でも、</color><row/><color=0>難事件の捜査中でも…</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:15139",
+      "kind": "dialogue",
+      "source": "<color=0>彼女は相変わらず、</color><row/><color=0>やけにケロリとしている。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:15254",
+      "kind": "dialogue",
+      "source": "<color=0>港公園は、その広い敷地も</color><row/><color=0>大きな特徴になっている。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:15381",
+      "kind": "dialogue",
+      "source": "<color=0>公園を一周するだけでも、</color><row/><color=0>相当な運動量になりそうだ。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:15516",
+      "kind": "dialogue",
+      "source": "<color=0>ここ、港公園に永久停泊している</color><row/><color=0>大型帆船の海悠丸だ。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:15648",
+      "kind": "dialogue",
+      "source": "<color=0>鞠浜市のシンボルとして</color><row/><color=0>観光名所にもなっている。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:15773",
+      "kind": "dialogue",
+      "source": "<color=0>素晴らしい晴天だ。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:15823",
+      "kind": "dialogue",
+      "source": "<color=0>こんな日は、本でも読みながら</color><row/><color=0>昼寝できると最高に幸せだろう。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:15987",
+      "kind": "dialogue",
+      "source": "<color=0>港公園は、鞠浜市の湾岸部にある</color><row/><color=0>広大な敷地の市立公園だ。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:16129",
+      "kind": "dialogue",
+      "source": "<color=0>休日の昼下がりなどは、</color><row/><color=0>多くの人で賑わいを見せる。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:16265",
+      "kind": "dialogue",
+      "source": "<color=0>春の心地よい潮風が</color><row/><color=0>すっと頬をなぜていく。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:16372",
+      "kind": "dialogue",
+      "source": "<color=0>事件の捜査でなければ、のんびり</color><row/><color=0>散歩を楽しみたいところだ。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:16553",
+      "kind": "display",
+      "source": "<color=2>２００３年</color><color=0>　　ウッズタウン</color>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:16596",
+      "kind": "dialogue",
+      "source": "<color=0>鞠浜市狩川町、</color><row/><color=0>ウッズタウン前です。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:16777:arg1",
+      "kind": "menu_prompt",
+      "source": "調べる",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:16788:arg0",
+      "kind": "choice",
+      "source": "伊綱",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:16796:arg0",
+      "kind": "choice",
+      "source": "事件現場",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:16808:arg0",
+      "kind": "choice",
+      "source": "植え込み",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:16820:arg0",
+      "kind": "choice",
+      "source": "建物",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:16828:arg0",
+      "kind": "choice",
+      "source": "遠景",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:16839:arg0",
+      "kind": "choice",
+      "source": "癸生川探偵事務所",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:16859:arg0",
+      "kind": "choice",
+      "source": "港公園",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:16889",
+      "kind": "dialogue",
+      "source": "<color=0>それじゃあ、付近の住民に</color><row/><color=0>軽く聞き込みしてみましょうか。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:17033",
+      "kind": "dialogue",
+      "source": "<color=0>そうだね。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:17096",
+      "kind": "dialogue",
+      "source": "<color=0>生王さん、数人に</color><row/><color=0>聞き込みしてみたんですけど…</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:17225",
+      "kind": "dialogue",
+      "source": "<color=0>どうだった？</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:17262",
+      "kind": "dialogue",
+      "source": "<color=0>昨日の晩、ここの敷地内で…</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:17332",
+      "kind": "dialogue",
+      "source": "<color=0>不審な</color><color=2>仮面の男</color><color=0>を見た、という</color><row/><color=0>証言を何人かから聞けました。</color><ctrl=2B/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:17489",
+      "kind": "dialogue",
+      "source": "<color=0>仮面の男…？</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:17526",
+      "kind": "dialogue",
+      "source": "<color=0>さっきここで会った少年も、</color><row/><color=0>そんなことを言ってましたよね。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:17675",
+      "kind": "dialogue",
+      "source": "<color=0>それ、本当なら何と言うか…</color><row/><color=0>あからさまに怪しいけど…。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:17824",
+      "kind": "dialogue",
+      "source": "<color=0>怪しすぎて、逆に</color><row/><color=0>怪しくないくらいですよね。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:17946",
+      "kind": "dialogue",
+      "source": "<color=0>…ですが、ちょっと</color><row/><color=0>引っかかりませんか？</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:18050",
+      "kind": "dialogue",
+      "source": "<color=0>え？　何が…？</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:18102",
+      "kind": "dialogue",
+      "source": "<color=0>ほら、さっきもＭＯで</color><row/><color=0>気になった雑誌の記事が…。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:18226",
+      "kind": "dialogue",
+      "source": "<color=0>雑誌って、ウイマリの？</color><row/><color=0>ってことは、あれか？</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:18358:arg0",
+      "kind": "choice",
+      "source": "ネットゲームの記事",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:18389:arg0",
+      "kind": "choice",
+      "source": "放火殺人事件の記事",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:18420:arg0",
+      "kind": "choice",
+      "source": "政治家の記事",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:18445:arg0",
+      "kind": "choice",
+      "source": "アイドルの記事",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:18463:arg0",
+      "kind": "choice",
+      "source": "都市伝説の記事",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:18490:arg0",
+      "kind": "choice",
+      "source": "新スポットの記事",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:18519",
+      "kind": "dialogue",
+      "source": "<color=0>あの、ネットゲームの記事かな？</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:18617",
+      "kind": "dialogue",
+      "source": "<color=0>放火殺人事件の話かな？</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:18695",
+      "kind": "dialogue",
+      "source": "<color=0>わかった、政治家の</color><row/><color=0>汚職事件の記事だ！</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:18810",
+      "kind": "dialogue",
+      "source": "<color=0>あの、水沼みゆき…ていう</color><row/><color=0>アイドルの記事だな！</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:18945",
+      "kind": "dialogue",
+      "source": "<color=0>そうか、関係ないと思ってた</color><row/><color=0>ネットファミレスの記事が今…！</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:19110",
+      "kind": "dialogue",
+      "source": "<color=0>違いますよ、どうして今</color><row/><color=0>それが出てくるんですか！</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:19234",
+      "kind": "dialogue",
+      "source": "<color=0>うう、違ったか…。</color><row/><color=0>となると、ええと…。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:19358",
+      "kind": "dialogue",
+      "source": "<color=0>あ、そうだ、</color><color=2>Ｍ２</color><color=0>の話だ！</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:19433",
+      "kind": "dialogue",
+      "source": "<color=0>確かに記事にも、夜中に</color><row/><color=0>仮面の男が徘徊するとか…。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:19570",
+      "kind": "dialogue",
+      "source": "<color=0>…しかも、そうだ。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:19620",
+      "kind": "dialogue",
+      "source": "<color=0>久我さんの通り魔事件の話なんて</color><row/><color=0>Ｍ２の話そのものじゃないか。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:19772",
+      "kind": "dialogue",
+      "source": "<color=0>深夜、姿が見えない犯人、それに</color><row/><color=0>斬りつけられた…ってあたりが。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:19945",
+      "kind": "dialogue",
+      "source": "<color=0>そうです、それです！</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:20000",
+      "kind": "dialogue",
+      "source": "<color=0>でも、それだけじゃなくて…</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:20083",
+      "kind": "dialogue",
+      "source": "<color=0>そのウワサ話の中にひとつ、</color><row/><color=0>異質なものがありましたよね…。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:20232",
+      "kind": "dialogue",
+      "source": "<color=0>異質なもの…？</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:20292",
+      "kind": "dialogue",
+      "source": "<color=0>私たちも、ゲームをやってて</color><row/><color=0>偶然知ったことですが…。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:20426",
+      "kind": "dialogue",
+      "source": "<color=0>あっ…！</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:20465",
+      "kind": "dialogue",
+      "source": "<color=2>（３）</color><row/><color=2>あるネットゲームをプレイすると</color><row/><color=2>遭遇する、という噂もある。</color><row/><color=2>実際、それで遭遇した者も</color><row/><color=2>多いというが…。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:20763",
+      "kind": "display",
+      "source": "<color=2>２００３年</color><color=0>　　ウッズタウン</color>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:20809",
+      "kind": "dialogue",
+      "source": "<color=0>そうだ、もしかしてそのゲームは</color><row/><color=2>ＭＯ</color><color=0>のことなのか…!?</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:20943",
+      "kind": "dialogue",
+      "source": "<color=0>久我さんがプレイしていた</color><row/><color=0>ゲームも、ＭＯです。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:21062",
+      "kind": "dialogue",
+      "source": "<color=0>…!!</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:21089",
+      "kind": "dialogue",
+      "source": "<color=0>もちろん、ウワサ話に過ぎないと</color><row/><color=0>言ってしまえばそれまでですし、</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:21246",
+      "kind": "dialogue",
+      "source": "<color=0>今回の死因は飛び降りですから、</color><row/><color=0>完全には一致しませんけど…</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:21403",
+      "kind": "dialogue",
+      "source": "<color=0>今回の話の関連といい、</color><row/><color=0>どうも気になるんですよね。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:21532",
+      "kind": "dialogue",
+      "source": "<color=0>なるほど…。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:21586",
+      "kind": "dialogue",
+      "source": "<color=0>聞き込みによれば、昨夜の</color><row/><color=0>その仮面の男の目撃話が…</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:21713",
+      "kind": "dialogue",
+      "source": "<color=0>実際に、Ｍ２のウワサ話と</color><row/><color=0>結びつけられてるようですね。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:21850",
+      "kind": "dialogue",
+      "source": "<color=0>周囲では今、そんな話で</color><row/><color=0>持ちきりですよ。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:21954",
+      "kind": "dialogue",
+      "source": "<color=0>そうなんだ…。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:21994",
+      "kind": "dialogue",
+      "source": "<color=0>きっとウワサってこういうふうに</color><row/><color=0>広まっていくんだろうなあ…。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:22161",
+      "kind": "dialogue",
+      "source": "<color=0>そうですね、お友達にも</color><row/><color=0>教えてあげたらどうですか？</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:22290",
+      "kind": "dialogue",
+      "source": "<color=0>…まあ、ヤツは別に言わなくても</color><row/><color=0>分かってると思うけど…。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:22443",
+      "kind": "dialogue",
+      "source": "<color=0>他には特に、気になる話題は</color><row/><color=0>ありませんでしたよ。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:22568",
+      "kind": "dialogue",
+      "source": "<color=0>緊迫した空気の現場にいても、</color><row/><color=0>伊綱君は余裕の表情だ。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:22703",
+      "kind": "dialogue",
+      "source": "<color=0>ブルーシートで囲われた現場には</color><row/><color=0>今も人だかりが残っている。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:22859",
+      "kind": "dialogue",
+      "source": "<color=0>遺体はもう運び出されているので</color><row/><color=0>もう後処理だけみたいだけど…。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:23018",
+      "kind": "dialogue",
+      "source": "<color=0>相変わらず、</color><row/><color=0>ヤジ馬って多いねえ。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:23107",
+      "kind": "dialogue",
+      "source": "<color=0>多くの人には、事件というものが</color><row/><color=0>それだけ珍しいんでしょうね。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:23269",
+      "kind": "dialogue",
+      "source": "<color=0>ですが…珍しいということは、</color><row/><color=0>自身には無関係ってことです。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:23418",
+      "kind": "dialogue",
+      "source": "<color=0>…あ、そうか。考えもしない</color><row/><color=0>ようなことだから、珍しいのか。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:23575",
+      "kind": "dialogue",
+      "source": "<color=0>事故や事件は、常に身近に</color><row/><color=0>起こり得ることだってことを…</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:23716",
+      "kind": "dialogue",
+      "source": "<color=0>こういう機会に少しでも</color><row/><color=0>意識してほしいですね。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:23842",
+      "kind": "dialogue",
+      "source": "<color=0>さほど大事件ではないからか、</color><row/><color=0>報道陣の姿は見あたらない。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:23987",
+      "kind": "dialogue",
+      "source": "<color=0>落下地点に、</color><row/><color=0>この木があったなら…</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:24074",
+      "kind": "dialogue",
+      "source": "<color=0>もしかしたら、久我さんの命は</color><row/><color=0>助かったのかもしれないな。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:24219",
+      "kind": "dialogue",
+      "source": "<color=0>久我さんの住んでいた部屋が、</color><row/><color=0>ここからも見える。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:24344",
+      "kind": "dialogue",
+      "source": "<color=0>遠くに、鞠浜市の北部に連なる</color><row/><color=0>久峰山がみえる。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:24473",
+      "kind": "dialogue",
+      "source": "<color=0>この辺りは、都市部から</color><row/><color=0>やや離れた閑静な地域だ。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:24607",
+      "kind": "dialogue",
+      "source": "<color=0>人だかりは減ってきたが、</color><row/><color=0>張りつめた空気は残っている。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:24744",
+      "kind": "dialogue",
+      "source": "<color=0>人々の不安が、ざわざわという</color><row/><color=0>音となって響いているようだ。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:24936",
+      "kind": "dialogue",
+      "source": "<color=0>緊張感が漂う事件現場だ。</color><row/><color=0>自然と、気も引き締まって…</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:25083:arg1",
+      "kind": "name",
+      "source": "(女性)",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:25108",
+      "kind": "dialogue",
+      "source": "<color=0>あーっ、伊綱ちゃんじゃないの！</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:25203",
+      "kind": "dialogue",
+      "source": "<color=0>ぶっ!?</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:25246",
+      "kind": "dialogue",
+      "source": "<color=0>あっ、</color><color=2>矢口</color><color=0>さん！</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:25309",
+      "kind": "dialogue",
+      "source": "<color=0>んっもう、久しぶりじゃない！</color><row/><color=0>どうよ、元気？</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:25436",
+      "kind": "dialogue",
+      "source": "<color=0>はい元気ですよ。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:25481",
+      "kind": "dialogue",
+      "source": "<color=0>あの時はホント、</color><row/><color=0>お世話になりました。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:25590",
+      "kind": "dialogue",
+      "source": "<color=0>いいのよ、そんなこと！</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:25650",
+      "kind": "dialogue",
+      "source": "<color=0>でもこんなトコで会うなんて</color><row/><color=0>奇遇よねー！</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:25775",
+      "kind": "dialogue",
+      "source": "<color=0>あは、そうですね。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:25827",
+      "kind": "dialogue",
+      "source": "<color=0>やっぱり、ここで起こった</color><row/><color=0>飛び降り事件の調査してるの？</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:25976",
+      "kind": "dialogue",
+      "source": "<color=0>あ、飛び降り事件だってこと</color><row/><color=0>知ってるんですか？</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:26108",
+      "kind": "dialogue",
+      "source": "<color=0>ふふふ、あたしのアンテナを</color><row/><color=0>ナメてもらっちゃ困るわよ！</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:26276",
+      "kind": "dialogue",
+      "source": "<color=0>彼女の名前は、</color><color=2>矢口床子</color><color=0>。</color><row/><color=0>フリーのジャーナリストだ。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:26424",
+      "kind": "dialogue",
+      "source": "<color=0>以前、</color><color=2>海楼館</color><color=0>という所を訪れた際</color><row/><color=0>同じ招待客として知り合った。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:26590",
+      "kind": "dialogue",
+      "source": "<color=0>好奇心で物事へ首を突っ込む傍ら</color><row/><color=0>伊綱君へのツッコミも鋭い。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:26745",
+      "kind": "dialogue",
+      "source": "<color=0>なお、前髪が揃っているが本人は</color><row/><color=0>ファッションだと言い張る。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:26907",
+      "kind": "dialogue",
+      "source": "<color=3>人物リストに、</color><row/><color=2>矢口床子</color><color=3>が追加されました。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:27068",
+      "kind": "display",
+      "source": "<color=2>２００３年</color><color=0>　　ウッズタウン</color>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:27111",
+      "kind": "dialogue",
+      "source": "<color=0>…ってもまあ、あたしもさっき</color><row/><color=0>偶然に知ったんだけどね。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:27250",
+      "kind": "dialogue",
+      "source": "<color=0>あ、なんだ。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:27397:arg1",
+      "kind": "menu_prompt",
+      "source": "話す",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:27406:arg0",
+      "kind": "choice",
+      "source": "伊綱",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:27414:arg0",
+      "kind": "choice",
+      "source": "矢口",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:27422:arg1",
+      "kind": "menu_prompt",
+      "source": "調べる",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:27433:arg0",
+      "kind": "choice",
+      "source": "伊綱",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:27441:arg0",
+      "kind": "choice",
+      "source": "矢口",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:27449:arg0",
+      "kind": "choice",
+      "source": "矢口の・・",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:27474",
+      "kind": "dialogue",
+      "source": "<color=0>矢口さんと会うのも</color><row/><color=0>久しぶりですね。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:27571",
+      "kind": "dialogue",
+      "source": "<color=0>ひとまず、移動しましょうか。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:27660",
+      "kind": "dialogue",
+      "source": "<color=0>それで、知床さんは</color><row/><color=0>ここで何してるんですか？</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:27794",
+      "kind": "dialogue",
+      "source": "<color=0>矢口よ！　矢口床子！</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:27869",
+      "kind": "dialogue",
+      "source": "<color=0>…いやね、取材で近くまで来たら</color><row/><color=0>何やら賑やかだったからさ。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:28035",
+      "kind": "dialogue",
+      "source": "<color=0>…あっ、そうだわ！</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:28098",
+      "kind": "dialogue",
+      "source": "<color=0>そんなことよりも伊綱ちゃん！</color><row/><color=0>今ちょっといいかしら!?</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:28242",
+      "kind": "dialogue",
+      "source": "<color=0>えっ…な、何ですか？</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:28309",
+      "kind": "dialogue",
+      "source": "<color=0>今やってる取材なんだけどさ、</color><row/><color=0>ちょっと話を聞いて欲しいのよ！</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:28474",
+      "kind": "dialogue",
+      "source": "<color=0>なんつーかちょっと…取材内容で</color><row/><color=0>相談したいことがあるのよね。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:28639",
+      "kind": "dialogue",
+      "source": "<color=0>そんなに手間は</color><row/><color=0>とらせないからさ！　ね？</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:28743",
+      "kind": "dialogue",
+      "source": "<color=0>えっと…。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:28783",
+      "kind": "dialogue",
+      "source": "<color=0>生王さん、どうします？</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:28855",
+      "kind": "dialogue",
+      "source": "<color=0>うーん…。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:28888:arg0",
+      "kind": "choice",
+      "source": "少しくらいならいいかな",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:28914:arg0",
+      "kind": "choice",
+      "source": "今はそれどころじゃない",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:28955",
+      "kind": "dialogue",
+      "source": "<color=0>まあ、生王さんが何と言おうと</color><row/><color=0>私は話を聞きますけどね。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:29104",
+      "kind": "dialogue",
+      "source": "<color=0>なんだよ！</color><row/><color=0>じゃあ聞かなくていいじゃん！</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:29221",
+      "kind": "dialogue",
+      "source": "<color=0>というわけで、いいですよ。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:29293",
+      "kind": "dialogue",
+      "source": "<color=0>あらー、ありがとう！</color><row/><color=0>助かるわ！</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:29375",
+      "kind": "dialogue",
+      "source": "<color=0>じゃ、ちょっと遠いけど</color><row/><color=2>鞠浜台駅</color><color=0>まで出ましょうか。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:29502",
+      "kind": "dialogue",
+      "source": "<color=0>ひいきにしてるお店があるのよ。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:29592",
+      "kind": "dialogue",
+      "source": "<color=0>あ、それで大丈夫？</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:29657",
+      "kind": "dialogue",
+      "source": "<color=0>はい、大丈夫ですよ。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:29723",
+      "kind": "dialogue",
+      "source": "<color=0>詳しいことは向こうで話すわ。</color><row/><color=0>とにかく行きましょ！</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:29850",
+      "kind": "dialogue",
+      "source": "<color=0>車、あっちに停めてあるから</color><row/><color=0>準備できたら言ってね。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:29980",
+      "kind": "dialogue",
+      "source": "<color=0>伊綱君の様子は普段通りだ。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:30050",
+      "kind": "dialogue",
+      "source": "<color=0>いや、あまりあれこれ思うと</color><row/><color=0>読まれるからやめておこう…。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:30195",
+      "kind": "dialogue",
+      "source": "<color=0>相変わらず、見事に</color><row/><color=0>前髪が揃っているなあ。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:30302",
+      "kind": "dialogue",
+      "source": "<color=0>本人はファッションだと</color><row/><color=0>言うけど…むむむ。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:30421",
+      "kind": "dialogue",
+      "source": "<color=0>うむむ…いやしかし、この胸、</color><row/><color=0>大きさはどのくらいだろう…。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:30568",
+      "kind": "dialogue",
+      "source": "<color=0>さすがに、直接尋ねるのは</color><row/><color=0>なかなか勇気がいるしな…。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:30706",
+      "kind": "dialogue",
+      "source": "<color=0>セクハラになるし…。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:30772",
+      "kind": "dialogue",
+      "source": "<color=0>いやいや、</color><row/><color=0>しかしまたこれは……。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:30861",
+      "kind": "dialogue",
+      "source": "<color=0>生王さん、よだれ出てますよ。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:30948",
+      "kind": "dialogue",
+      "source": "<color=0>…!!</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:30963",
+      "kind": "dialogue",
+      "source": "<color=0>あ…で、出てないじゃないか！</color><row/><color=0>そんないい加減なことを…。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:31120",
+      "kind": "dialogue",
+      "source": "<color=0>どうしたんですか？</color><row/><color=0>なにか心当たりでも？</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:31224",
+      "kind": "dialogue",
+      "source": "<color=0>くっ…。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:31267",
+      "kind": "dialogue",
+      "source": "<color=0>じゃ、行くわよ！</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:31314",
+      "kind": "dialogue",
+      "source": "<color=0>はーい。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:31342:arg0",
+      "kind": "choice",
+      "source": "鞠浜台駅前",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:31422",
+      "kind": "display",
+      "source": "<color=2>２００３年</color><color=0>　　鞠浜台駅前</color>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:31462",
+      "kind": "dialogue",
+      "source": "<color=0>えっと…。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:31492",
+      "kind": "dialogue",
+      "source": "<color=0>そうそう、確かこっちよ！</color><row/><color=2>パストラール</color><color=0>ていうお店なの。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:31631",
+      "kind": "dialogue",
+      "source": "<color=0>オススメのお店なのに、</color><row/><color=0>覚えてないんですか？</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:31758",
+      "kind": "dialogue",
+      "source": "<color=0>あはは、まあいいじゃない！</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:31828",
+      "kind": "dialogue",
+      "source": "<color=0>実はあたしも２回目なのよ！</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:31908",
+      "kind": "dialogue",
+      "source": "<color=0>さ、いくわよ！</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:31973",
+      "kind": "dialogue",
+      "source": "<color=0>うん…？　今のお店、</color><row/><color=0>どっかで聞いたような…。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:32146",
+      "kind": "display",
+      "source": "<color=2>２００３年</color><color=0>　　パストラール</color>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:32189",
+      "kind": "dialogue",
+      "source": "<color=0>こっちこっち！</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:32229",
+      "kind": "dialogue",
+      "source": "<color=0>ここ、いつも空いてるから</color><row/><color=0>打ち合わせとかにいいのよー。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:32387",
+      "kind": "dialogue",
+      "source": "<color=0>あ、この店って…。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:32449",
+      "kind": "dialogue",
+      "source": "<color=0>あら、知ってるの？</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:32499",
+      "kind": "dialogue",
+      "source": "<color=0>珍しいものね、</color><row/><color=0>ネットレストランなんて。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:32614",
+      "kind": "dialogue",
+      "source": "<color=0>ウェイトレスさんの制服も</color><row/><color=0>すごくカワイイのよ、ほら！</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:32761",
+      "kind": "dialogue",
+      "source": "<color=0>わあ、ホントだ。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:32808",
+      "kind": "dialogue",
+      "source": "<color=0>うわぁ…。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:32838",
+      "kind": "dialogue",
+      "source": "<color=0>いや、確かに</color><row/><color=0>あの制服はすごい…。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:32925",
+      "kind": "dialogue",
+      "source": "<color=0>うーん、あれはちょっと…</color><row/><color=0>放送できないんじゃないか？</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:33069",
+      "kind": "dialogue",
+      "source": "<color=0>どこに放送するんですか？</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:33136",
+      "kind": "dialogue",
+      "source": "<color=0>いや、ほら、例えだけど。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:33207",
+      "kind": "dialogue",
+      "source": "<color=0>あれ、ウェイトレスと言うよりも</color><row/><color=0>メイド…なのか…？</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:33334",
+      "kind": "dialogue",
+      "source": "<color=0>ちょっと…刺激が強すぎて</color><row/><color=0>見せられないよなぁ。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:33466",
+      "kind": "dialogue",
+      "source": "<color=0>あは、良かったですね。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:33539",
+      "kind": "dialogue",
+      "source": "<color=0>せっかくですから、思う存分</color><row/><color=0>楽しむといいんじゃないですか？</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:33688",
+      "kind": "dialogue",
+      "source": "<color=0>いやいやいや、何を言う！</color><row/><color=0>別にそういう目的じゃないし！</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:33827",
+      "kind": "dialogue",
+      "source": "<color=0>ねえ、それはいいからさー、</color><row/><color=0>ほら、あっち座りましょ。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:33971",
+      "kind": "dialogue",
+      "source": "<color=0>あ、それにしても…。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:34026",
+      "kind": "dialogue",
+      "source": "<color=0>ここって、「ウイマリ」で</color><row/><color=0>紹介されてた店だよね。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:34160",
+      "kind": "dialogue",
+      "source": "<color=0>そうですね、まさか実際に来る</color><row/><color=0>なんて思ってませんでしたよ。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:34309",
+      "kind": "dialogue",
+      "source": "<color=0>でも…いつも空いてるってことは</color><row/><color=0>やっぱ繁盛してないのか…？</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:34475",
+      "kind": "dialogue",
+      "source": "<color=0>あは、世の中そううまくは</color><row/><color=0>いかないってことですね。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:34604",
+      "kind": "dialogue",
+      "source": "<color=0>ちょっとー、何してんのー？</color><row/><color=0>こっちよ、こっちー！</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:34760",
+      "kind": "dialogue",
+      "source": "<color=0>…さて、それじゃさっそく</color><row/><color=0>本題に入るわよ！</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:34988:arg1",
+      "kind": "menu_prompt",
+      "source": "矢口",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:34997:arg0",
+      "kind": "choice",
+      "source": "取材の内容",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:35020:arg0",
+      "kind": "choice",
+      "source": "羽沢家事件",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:35043:arg0",
+      "kind": "choice",
+      "source": "海楼館事件",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:35057:arg0",
+      "kind": "choice",
+      "source": "前髪",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:35065:arg1",
+      "kind": "menu_prompt",
+      "source": "調べる",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:35076:arg0",
+      "kind": "choice",
+      "source": "矢口",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:35084:arg0",
+      "kind": "choice",
+      "source": "矢口の・・",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:35098:arg1",
+      "kind": "menu_prompt",
+      "source": "呼ぶ",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:35107:arg0",
+      "kind": "choice",
+      "source": "伊綱",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:35215:arg1",
+      "kind": "menu_prompt",
+      "source": "調べる",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:35226:arg0",
+      "kind": "choice",
+      "source": "伊綱",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:35234:arg1",
+      "kind": "menu_prompt",
+      "source": "呼ぶ",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:35243:arg0",
+      "kind": "choice",
+      "source": "矢口",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:35253",
+      "kind": "dialogue",
+      "source": "<color=0>…とまあ、とりあえず</color><row/><color=0>話はこれくらいかな？</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:35443",
+      "kind": "dialogue",
+      "source": "<color=0>…で、どんな取材で</color><row/><color=0>何を困ってるんですか？</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:35552",
+      "kind": "dialogue",
+      "source": "<color=0>うん、あのね…</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:35592",
+      "kind": "dialogue",
+      "source": "<color=0>実はこんど、担当の雑誌で</color><row/><color=2>少年犯罪特集</color><color=0>をするらしくて…。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:35736",
+      "kind": "dialogue",
+      "source": "<color=0>うはあ、そっちもか…。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:35798",
+      "kind": "dialogue",
+      "source": "<color=0>…ん？　どしたの？</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:35850",
+      "kind": "dialogue",
+      "source": "<color=0>いえいえ、何でもないですよ。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:35938",
+      "kind": "dialogue",
+      "source": "<color=0>…で、矢口さんは</color><row/><color=0>どんな記事を書くんですか？</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:36065",
+      "kind": "dialogue",
+      "source": "<color=0>なんかね、過去に起こった事件は</color><row/><color=0>今どうなってるのか、て特集で…</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:36222",
+      "kind": "dialogue",
+      "source": "<color=0>昔、話題になった事件の関係者に</color><row/><color=0>アポ取ってるんだけどさ…。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:36369",
+      "kind": "dialogue",
+      "source": "<color=0>なんかこう…難しいのよ。</color><row/><color=0>扱いが。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:36466",
+      "kind": "dialogue",
+      "source": "<color=0>確かに難しそうですね…。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:36540",
+      "kind": "dialogue",
+      "source": "<color=0>ほら、被害者とか犯人の家族とか</color><row/><color=0>事件の関係者にとっては…</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:36682",
+      "kind": "dialogue",
+      "source": "<color=0>それこそ一生忘れられない</color><row/><color=0>出来事だったりするわけでしょ？</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:36824",
+      "kind": "dialogue",
+      "source": "<color=0>それを、無関係のあたしたちが</color><row/><color=0>むし返していいのかな…って。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:36971",
+      "kind": "dialogue",
+      "source": "<color=0>ようやく立ち直りかけてるのを</color><row/><color=0>また傷つけたりしないかな…</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:37123",
+      "kind": "dialogue",
+      "source": "<color=0>…とかさ、色々考えちゃって</color><row/><color=0>なんだか気が乗らないのよねー。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:37285",
+      "kind": "dialogue",
+      "source": "<color=0>うーん…。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:37325",
+      "kind": "dialogue",
+      "source": "<color=0>もちろん、事件の内容や凶悪さで</color><row/><color=0>変わってくることですけど…</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:37472",
+      "kind": "dialogue",
+      "source": "<color=0>確かに、関係者のプライバシーを</color><row/><color=0>侵害するのはいけません。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:37614",
+      "kind": "dialogue",
+      "source": "<color=0>特に最近は、被害者の個人情報が</color><row/><color=0>どんどん暴かれる傾向ですし。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:37791",
+      "kind": "dialogue",
+      "source": "<color=0>ああ、そうよね、確かに…。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:37861",
+      "kind": "dialogue",
+      "source": "<color=0>事件の被害にあった上に、</color><row/><color=0>私生活まで暴かれちゃうのよね。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:38005",
+      "kind": "dialogue",
+      "source": "<color=0>ですので、あくまでもそこは</color><row/><color=0>最低限守った上で、ですけど…。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:38170",
+      "kind": "dialogue",
+      "source": "<color=0>…例えばどんなに凶悪な</color><row/><color=0>重大事件が起こったとしても…</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:38302",
+      "kind": "dialogue",
+      "source": "<color=0>犯人が逮捕されて、ニュースとか</color><row/><color=0>メディアで報道されなくなると、</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:38459",
+      "kind": "dialogue",
+      "source": "<color=0>もう</color><color=2>終わったもの</color><color=0>、みたいに</color><row/><color=0>感じちゃうじゃないですか。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:38598",
+      "kind": "dialogue",
+      "source": "<color=0>そうね。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:38625",
+      "kind": "dialogue",
+      "source": "<color=0>でも、事件というのは、</color><color=2>犯人さえ</color><row/><color=2>逮捕すれば終わり</color><color=0>じゃなくて、</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:38777",
+      "kind": "dialogue",
+      "source": "<color=0>事件が凶悪であればあるほど、</color><row/><color=0>大きな</color><color=2>傷跡</color><color=0>を残すんです！</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:38914",
+      "kind": "dialogue",
+      "source": "<color=0>それこそ、一生消えない傷に</color><row/><color=0>なるかもしれません。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:39036",
+      "kind": "dialogue",
+      "source": "<color=0>…軽い気持ちで起こした犯罪が、</color><row/><color=0>どれほど深い傷を残すのか。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:39193",
+      "kind": "dialogue",
+      "source": "<color=0>それこそ…報道が伝えるべき</color><row/><color=0>ことなんじゃないでしょうか。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:39337",
+      "kind": "dialogue",
+      "source": "<color=0>そっか…なるほど。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:39389",
+      "kind": "dialogue",
+      "source": "<color=0>そういう意味では、殺人事件の</color><row/><color=0>ほんとうの被害者っていうのは…</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:39541",
+      "kind": "dialogue",
+      "source": "<color=0>亡くなった方の関係者じゃ</color><row/><color=0>ないかとも思うんです、私。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:39675",
+      "kind": "dialogue",
+      "source": "<color=0>確かに、そうよね…。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:39730",
+      "kind": "dialogue",
+      "source": "<color=0>さすが多くの事件に触れてきた</color><row/><color=0>だけあって、説得力あるわ。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:39886",
+      "kind": "dialogue",
+      "source": "<color=0>じゃあ、関係者に話を聞くときも</color><row/><color=0>そういった趣旨を伝えてみるわ。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:40043",
+      "kind": "dialogue",
+      "source": "<color=0>うん、それならなんか</color><row/><color=0>いけそうな気がしてきたわ！</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:40177",
+      "kind": "dialogue",
+      "source": "<color=0>…それから、忘れちゃいけない</color><row/><color=0>大事なことが、もうひとつ。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:40321",
+      "kind": "dialogue",
+      "source": "<color=0>あら、なあに？</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:40373",
+      "kind": "dialogue",
+      "source": "<color=0>そういった事件の残した傷跡を</color><row/><color=0>少しでも埋めるのが…</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:40500",
+      "kind": "dialogue",
+      "source": "<color=0>私たち、</color><color=2>探偵</color><color=0>の仕事なんですよ！</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:40580",
+      "kind": "dialogue",
+      "source": "<color=0>警察はそんなところまで</color><row/><color=0>フォローしてくれませんからね！</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:40737",
+      "kind": "dialogue",
+      "source": "<color=0>…ってことも、ちゃんと記事に</color><row/><color=0>書いておいてくださいね！</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:40876",
+      "kind": "dialogue",
+      "source": "<color=0>あはは、わかったわ！</color><row/><color=0>任せといて！</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:40992",
+      "kind": "dialogue",
+      "source": "<color=0>…それで、矢口さんはどんな</color><row/><color=0>事件を取材するつもりなの？</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:41141",
+      "kind": "dialogue",
+      "source": "<color=0>それが聞いてよ。あたしは</color><row/><color=0>軽い事件が良かったのに…</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:41268",
+      "kind": "dialogue",
+      "source": "<color=0>デスクの命令で、すごいのに</color><row/><color=0>なっちゃったのよ。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:41385",
+      "kind": "dialogue",
+      "source": "<color=0>ほら、覚えてるでしょ？</color><row/><color=0>３年前の</color><color=2>羽沢家放火殺人事件</color><color=0>。</color><ctrl=2B/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:41545",
+      "kind": "dialogue",
+      "source": "<color=0>えっ、あの事件…ですか？</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:41625",
+      "kind": "dialogue",
+      "source": "<color=0>そうなのよ、みんなが知ってる</color><row/><color=0>事件の方がいいとか言ってさ。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:41772",
+      "kind": "dialogue",
+      "source": "<color=0>３年も前だから、ほどよく</color><row/><color=0>忘れてるんじゃないか、って。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:41921",
+      "kind": "dialogue",
+      "source": "<color=0>…………。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:41953",
+      "kind": "dialogue",
+      "source": "<color=0>…おや？　どうしたんだ…？</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:42050",
+      "kind": "dialogue",
+      "source": "<color=0>あ、でも…。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:42087",
+      "kind": "dialogue",
+      "source": "<color=0>ん？</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:42104",
+      "kind": "dialogue",
+      "source": "<color=0>ちょうど今週の「ウイマリ」に</color><row/><color=0>そんな記事が載ってたよ。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:42256",
+      "kind": "dialogue",
+      "source": "<color=0>あら、うそっ!?</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:42298",
+      "kind": "dialogue",
+      "source": "<color=0>少年犯罪特集の中に、３年前の</color><row/><color=0>放火殺人事件に関する話で…</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:42440",
+      "kind": "dialogue",
+      "source": "<color=0>なんだっけ、犯人の中学生Ａは</color><row/><color=0>もう社会復帰してる…とか。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:42599",
+      "kind": "dialogue",
+      "source": "<color=0>載ってましたね。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:42656",
+      "kind": "dialogue",
+      "source": "<color=0>あちゃー、そりゃまいったわ！</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:42733",
+      "kind": "dialogue",
+      "source": "<color=0>他の事件じゃダメなんですか？</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:42823",
+      "kind": "dialogue",
+      "source": "<color=0>…いやね、実はもう事件関係者に</color><row/><color=0>アポを取っちゃったのよ。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:42965",
+      "kind": "dialogue",
+      "source": "<color=0>それで今日、このあと</color><row/><color=0>会うことになってて。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:43074",
+      "kind": "dialogue",
+      "source": "<color=0>あ、そうなんだ…。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:43139",
+      "kind": "dialogue",
+      "source": "<color=0>…まあ、一応話を聞くだけ</color><row/><color=0>聞いてみるわ！</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:43262",
+      "kind": "dialogue",
+      "source": "<color=0>あれ？　でも、矢口さん…。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:43334",
+      "kind": "dialogue",
+      "source": "<color=0>なあに？</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:43361",
+      "kind": "dialogue",
+      "source": "<color=0>前は、お店とかのレポート記事が</color><row/><color=0>専門だって言ってなかったっけ？</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:43520",
+      "kind": "dialogue",
+      "source": "<color=0>ああ、そうなのよ！</color><row/><color=0>実はそれなんだけどね。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:43640",
+      "kind": "dialogue",
+      "source": "<color=0>前に、例の</color><color=2>海楼館での事件</color><color=0>を</color><row/><color=0>記事にしたら、妙に評判良くて…</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:43820",
+      "kind": "dialogue",
+      "source": "<color=0>そしたらこんな、事件記事まで</color><row/><color=0>頼まれるようになっちゃったの！</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:43974",
+      "kind": "dialogue",
+      "source": "<color=0>あらら…。</color><row/><color=0>そりゃまた、なんとも…。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:44096",
+      "kind": "dialogue",
+      "source": "<color=0>お仕事もらえるのはいいんだけど</color><row/><color=0>事件記事って書き方に困るのよ。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:44273",
+      "kind": "dialogue",
+      "source": "<color=0>で、この事件なんだけど…。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:44356",
+      "kind": "dialogue",
+      "source": "<color=0>少年犯罪って犯人の情報は完全に</color><row/><color=0>シャットアウトされるじゃない？</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:44513",
+      "kind": "dialogue",
+      "source": "<color=0>特にこの事件の場合、犯人の</color><color=2>年齢</color><row/><color=0>以外、なにひとつ情報がなくて…</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:44670",
+      "kind": "dialogue",
+      "source": "<color=0>ホント、謎の多い事件なのよね。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:44752",
+      "kind": "dialogue",
+      "source": "<color=0>ああ、そうだったねえ。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:44812",
+      "kind": "dialogue",
+      "source": "<color=0>ネットで探ろうにも、大小様々な</color><row/><color=0>ウワサ話が氾濫してて…</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:44959",
+      "kind": "dialogue",
+      "source": "<color=0>どれもこれも信憑性の</color><row/><color=0>カケラもなかったし…。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:45099",
+      "kind": "dialogue",
+      "source": "<color=0>そうなのよ！</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:45134",
+      "kind": "dialogue",
+      "source": "<color=0>きっと情報を遮断したことが、</color><row/><color=0>逆に風聞を広めたんだと思うわ！</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:45308",
+      "kind": "dialogue",
+      "source": "<color=0>ああ、そうかも。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:45353",
+      "kind": "dialogue",
+      "source": "<color=0>そのおかげで、なおさらに真実が</color><row/><color=0>ぼかされてる感じだしなあ…。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:45516",
+      "kind": "dialogue",
+      "source": "<color=0>うちの業界でもこの件に関しては</color><row/><color=0>タブー視されてるフシがあるの。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:45683",
+      "kind": "dialogue",
+      "source": "<color=0>きっと、何かが</color><row/><color=0>隠されてるんだわ…。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:45807",
+      "kind": "dialogue",
+      "source": "<color=0>あの事件では、ホント</color><row/><color=0>散々な目にあったわ。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:45930",
+      "kind": "dialogue",
+      "source": "<color=0>元はと言えば、変な招待状を</color><row/><color=0>受け取ったのが始まりよね。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:46081",
+      "kind": "dialogue",
+      "source": "<color=0>海楼館事件。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:46141",
+      "kind": "dialogue",
+      "source": "<color=0>…それは、</color><color=2>多摩ヶ原斎樹</color><color=0>という</color><row/><color=0>一風変わった建築家が、</color><row/><color=0>すべての発端であった。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:46348",
+      "kind": "dialogue",
+      "source": "<color=0>複雑な経緯から大手建築会社の</color><row/><color=0>社長に就任してしまったという</color><row/><color=0>その人物は、</color><ctrl=3A/><color=0>持てる権力と奇抜な</color><row/><color=0>センスを活かして、変わった</color><row/><color=0>建築物をいくつも建てたという。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:46716",
+      "kind": "dialogue",
+      "source": "<color=0>我々が訪れることになった</color><row/><color=2>海楼館</color><color=0>も、そのひとつだった。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:46867",
+      "kind": "dialogue",
+      "source": "<color=0>海のど真ん中に半分沈んだ状態で</color><row/><color=0>建てられたその館には、</color><ctrl=3B/><row/><color=0>やはり奇怪な仕掛けが</color><row/><color=0>隠されていたのである。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:47113",
+      "kind": "dialogue",
+      "source": "<color=0>そこで突如起こった殺人事件。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:47188",
+      "kind": "dialogue",
+      "source": "<color=0>我々はどうにかその事件の謎を</color><row/><color=0>解き明かし、無事に帰ることが</color><row/><color=0>できたのである。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:47377",
+      "kind": "dialogue",
+      "source": "<color=0>それが、今年の</color><row/><color=0>１月の出来事だった…。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:47516",
+      "kind": "display",
+      "source": "<color=2>２００３年</color><color=0>　　パストラール</color>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:47559",
+      "kind": "dialogue",
+      "source": "<color=0>はあ…もうあんな出来事は</color><row/><color=0>こりごりだわ。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:47713",
+      "kind": "dialogue",
+      "source": "<color=0>それはそうと、矢口さん</color><row/><color=0>前髪揃ってますよ。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:47832",
+      "kind": "dialogue",
+      "source": "<color=0>これは揃えてるの！</color><row/><color=0>ファッションよ、ファッション！</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:47959",
+      "kind": "dialogue",
+      "source": "<color=0>ていうか、今そんな話</color><row/><color=0>関係ないじゃないの！</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:48077",
+      "kind": "dialogue",
+      "source": "<color=0>あっ、矢口さん大変！</color><row/><color=0>前髪が短くなってる！</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:48199",
+      "kind": "dialogue",
+      "source": "<color=0>えっ、うそっ!?</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:48249",
+      "kind": "dialogue",
+      "source": "<color=0>…って、これはわざと！</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:48309",
+      "kind": "dialogue",
+      "source": "<color=0>んもう、何度言ったら</color><row/><color=0>わかるのよ！</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:48396",
+      "kind": "dialogue",
+      "source": "<color=0>ていうか、話の途中で</color><row/><color=0>腰を折らないで！</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:48510",
+      "kind": "dialogue",
+      "source": "<color=0>生王さん、ちょっと</color><row/><color=0>悪ノリしすぎじゃないですか？</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:48642",
+      "kind": "dialogue",
+      "source": "<color=0>そんなこと言ったら失礼です！</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:48717",
+      "kind": "dialogue",
+      "source": "<color=0>矢口さんの前髪の話は、もう</color><row/><color=0>２度と言っちゃいけませんよ！</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:48859",
+      "kind": "dialogue",
+      "source": "<color=0>絶対に、絶対に言っちゃ</color><row/><color=0>いけませんからね！</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:48968",
+      "kind": "dialogue",
+      "source": "<color=0>…………。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:49040",
+      "kind": "dialogue",
+      "source": "<color=0>あ、知床さん。ちょっと前髪で</color><row/><color=0>紙に直線引いてもらえますか？</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:49212",
+      "kind": "dialogue",
+      "source": "<color=0>あらー、お安いご用よ！</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:49272",
+      "kind": "dialogue",
+      "source": "<color=0>こう、紙と髪を合わせてね、</color><row/><color=0>すすすーっとね…</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:49394",
+      "kind": "dialogue",
+      "source": "<color=0>…って、そんなことできる</color><row/><color=0>わけないでしょ、ばかっ!!</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:49521",
+      "kind": "dialogue",
+      "source": "<color=0>それから、や・ぐ・ち！</color><row/><color=0>あたしは矢口床子よ！</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:49633",
+      "kind": "dialogue",
+      "source": "<color=0>何やらせるのよ、もう！</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:49708",
+      "kind": "dialogue",
+      "source": "<color=0>くふふっ。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:49740",
+      "kind": "dialogue",
+      "source": "<color=0>………。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:49784",
+      "kind": "dialogue",
+      "source": "<color=0>さすがにもうやめておこう。</color><row/><color=0>繰り返しは３度までらしいし。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:49967",
+      "kind": "dialogue",
+      "source": "<color=0>ひとまず、矢口さんに</color><row/><color=0>取材の内容を聞きましょう。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:50094",
+      "kind": "dialogue",
+      "source": "<color=0>…どうかした？</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:50136",
+      "kind": "dialogue",
+      "source": "<color=0>まさか、あの事件が…。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:50198",
+      "kind": "dialogue",
+      "source": "<color=0>…ん？</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:50230",
+      "kind": "dialogue",
+      "source": "<color=0>…ん？　って、なんですか？</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:50300",
+      "kind": "dialogue",
+      "source": "<color=0>別になんでもないですよ。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:50367",
+      "kind": "dialogue",
+      "source": "<color=0>いや、でも今…。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:50427",
+      "kind": "dialogue",
+      "source": "<color=0>なんでもないですよっ！</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:50489",
+      "kind": "dialogue",
+      "source": "<color=0>ハイハイ…。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:50536",
+      "kind": "dialogue",
+      "source": "<color=0>んもう、なんでもないって</color><row/><color=0>言ってるじゃないですか！</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:50665",
+      "kind": "dialogue",
+      "source": "<color=0>わかったから！</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:50716",
+      "kind": "dialogue",
+      "source": "<color=0>まあ、私は探偵の素晴らしささえ</color><row/><color=0>書いてもらえれば、それで。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:50865",
+      "kind": "dialogue",
+      "source": "<color=0>ずるがしこいなあ…。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:50935",
+      "kind": "dialogue",
+      "source": "<color=0>そんな事件もありましたね。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:51036",
+      "kind": "dialogue",
+      "source": "<color=0>…あ、そういえば生王さん！</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:51118",
+      "kind": "dialogue",
+      "source": "<color=0>…ん？</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:51150",
+      "kind": "dialogue",
+      "source": "<color=0>あれから私、</color><color=2>多摩ヶ原斎樹</color><color=0>氏に</color><row/><color=0>ついて、少し調べてみたんです。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:51322",
+      "kind": "dialogue",
+      "source": "<color=0>多摩ヶ原って…あの、</color><row/><color=0>海楼館を設計した、あの人？</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:51458",
+      "kind": "dialogue",
+      "source": "<color=0>はい、そうです。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:51503",
+      "kind": "dialogue",
+      "source": "<color=0>あの人が、他にどんな建物を</color><row/><color=0>造ったのか、気になったんで…。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:51667",
+      "kind": "dialogue",
+      "source": "<color=0>ああ、言われてみれば確かに</color><row/><color=0>ちょっと気になるわね！</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:51794",
+      "kind": "dialogue",
+      "source": "<color=0>あんな変わった建物が、まだ</color><row/><color=0>他にもあるってことなのかしら？</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:51943",
+      "kind": "dialogue",
+      "source": "<color=0>…で、何か分かったの？</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:52005",
+      "kind": "dialogue",
+      "source": "<color=0>生王さん…２年くらい前に行った</color><row/><color=2>「月城邸」</color><color=0>、覚えてますか？</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:52178",
+      "kind": "dialogue",
+      "source": "<color=0>いやもう、覚えてるも何も</color><row/><color=0>あの</color><color=2>城</color><color=0>では…</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:52279",
+      "kind": "dialogue",
+      "source": "<color=0>伊綱君は行方不明になるし、</color><row/><color=0>大変な事件だったじゃないか。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:52421",
+      "kind": "dialogue",
+      "source": "<color=0>…って、まさか!?</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:52476",
+      "kind": "dialogue",
+      "source": "<color=0>…そうです。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:52511",
+      "kind": "dialogue",
+      "source": "<color=0>あの</color><color=2>月の城</color><color=0>は、多摩ヶ原斎樹氏が</color><row/><color=0>再築したものなんだそうです。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:52665",
+      "kind": "dialogue",
+      "source": "<color=0>そうだったのか…。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:52715",
+      "kind": "dialogue",
+      "source": "<color=0>でも確かに、あんな建物を</color><row/><color=0>建てる人なんて他にいなそうだ。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:52857",
+      "kind": "dialogue",
+      "source": "<color=0>なるほどねえ…。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:52904",
+      "kind": "dialogue",
+      "source": "<color=0>でも、それだけじゃなくて…</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:52974",
+      "kind": "dialogue",
+      "source": "<color=0>…そう考えると、ひとつの</color><row/><color=0>共通点が浮かび上がるんです。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:53111",
+      "kind": "dialogue",
+      "source": "<color=0>生王さん、分かりますか…？</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:53193",
+      "kind": "dialogue",
+      "source": "<color=0>共通点って…？</color><row/><color=0>“海楼館”と“月の城”の？</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:53302",
+      "kind": "dialogue",
+      "source": "<color=0>はい。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:53322",
+      "kind": "dialogue",
+      "source": "<color=0>多摩ヶ原氏の他にもうひとり、</color><row/><color=0>両方に関わっていた人物…。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:53466",
+      "kind": "dialogue",
+      "source": "<color=0>えっ…？</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:53491",
+      "kind": "dialogue",
+      "source": "<color=0>…あっ!!</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:53516",
+      "kind": "dialogue",
+      "source": "<color=0>…いや、でも、</color><row/><color=0>それは…偶然じゃないのか!?</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:53635",
+      "kind": "dialogue",
+      "source": "<color=0>私には分かりません。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:53690",
+      "kind": "dialogue",
+      "source": "<color=0>ただ、調べる価値は</color><row/><color=0>ありそうですよ。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:53784",
+      "kind": "dialogue",
+      "source": "<color=0>…………。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:53829",
+      "kind": "dialogue",
+      "source": "<color=0>調べによると、多摩ヶ原斎樹氏の</color><row/><color=0>建物はあと</color><color=2>３棟</color><color=0>あるそうです。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:53989",
+      "kind": "dialogue",
+      "source": "<color=0>あと３つも…。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:54051",
+      "kind": "dialogue",
+      "source": "<color=0>いつか…探してみたいですね。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:54137",
+      "kind": "dialogue",
+      "source": "<color=3>捜査メモの</color><color=2>１２ページ目</color><color=3>が</color><row/><color=3>追加されました。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:54282",
+      "kind": "dialogue",
+      "source": "<color=0>はい、無駄話はここまで。</color><row/><color=0>矢口さんの話を聞きましょ。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:54417",
+      "kind": "dialogue",
+      "source": "<color=0>そういえば、ちょっと前に</color><row/><color=0>伊綱君に聞いたんだけど…。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:54549",
+      "kind": "dialogue",
+      "source": "<color=0>矢口さんと音成さんって、</color><row/><color=0>同い年なんだよな…。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:54666",
+      "kind": "dialogue",
+      "source": "<color=0>…この世代、なにかあるのか!?</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:54744",
+      "kind": "dialogue",
+      "source": "<color=0>…き、聞いた話によれば、</color><row/><color=0>胸が大きいと肩がこるので…</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:54876",
+      "kind": "dialogue",
+      "source": "<color=0>机の上に乗せたりして休むことも</color><row/><color=0>あるそうだけど、本当かな…？</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:55040",
+      "kind": "dialogue",
+      "source": "<color=0>面倒そうな顔ひとつせず、</color><row/><color=0>矢口さんの話につきあっている。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:55182",
+      "kind": "dialogue",
+      "source": "<color=0>なんだかんだ言って、</color><row/><color=0>伊綱君も人づきあいがいい。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:55313",
+      "kind": "dialogue",
+      "source": "<color=0>面倒そうな顔ひとつせず、</color><row/><color=0>矢口さんの話につきあっている。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:55497",
+      "kind": "dialogue",
+      "source": "<color=0>はい、なんですか？</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:55583",
+      "kind": "dialogue",
+      "source": "<color=0>………。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:55644",
+      "kind": "dialogue",
+      "source": "<color=0>ええ、話の続きね。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:55750",
+      "kind": "dialogue",
+      "source": "<color=0>矢口さんの話って何だろう。</color><row/><color=0>まさか取材されたりなんて…？</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:55895",
+      "kind": "dialogue",
+      "source": "<color=0>しかし、少年犯罪特集ねえ…。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:55970",
+      "kind": "dialogue",
+      "source": "<color=0>また重そうなテーマを</color><row/><color=0>押しつけられたみたいだなあ…。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:56105",
+      "kind": "dialogue",
+      "source": "<color=0>羽沢家放火殺人事件か…</color><row/><color=0>確かに謎の多い事件らしいなあ。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:56245",
+      "kind": "dialogue",
+      "source": "<color=0>海楼館事件の時は、</color><row/><color=0>本当に大変だったなあ…。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:56360",
+      "kind": "dialogue",
+      "source": "<color=0>ひとまず、矢口さんの話は</color><row/><color=0>このくらいかな…？</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:56484",
+      "kind": "dialogue",
+      "source": "<color=0>伊綱君、やけに絶対を</color><row/><color=0>強調してたけど…</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:56581",
+      "kind": "dialogue",
+      "source": "<color=0>これって、もしかして…。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:56649",
+      "kind": "dialogue",
+      "source": "<color=0>やっぱりさっきの注意は</color><row/><color=0>ネタ振りだったか…。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:56761",
+      "kind": "dialogue",
+      "source": "<color=0>しかしノリのいい人だなあ。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:56869",
+      "kind": "dialogue",
+      "source": "<color=0>じゃあ、話も済んだようなので</color><row/><color=0>僕らはそろそろ…。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:56993",
+      "kind": "dialogue",
+      "source": "<color=0>あっ、そうね！</color><row/><color=0>引き留めちゃってごめんなさい！</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:57123",
+      "kind": "dialogue",
+      "source": "<color=0>おかげで記事が書けそうよ、</color><row/><color=0>ありがとね！</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:57240",
+      "kind": "dialogue",
+      "source": "<color=0>いえいえ、お役に立てて</color><row/><color=0>嬉しいですよ。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:57346",
+      "kind": "dialogue",
+      "source": "<color=0>じゃ、あたしも取材に行くわ。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:57421",
+      "kind": "dialogue",
+      "source": "<color=0>ここは払っておくから、</color><row/><color=0>また何かあったらよろしくね！</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:57555",
+      "kind": "dialogue",
+      "source": "<color=0>はーい。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:57605",
+      "kind": "dialogue",
+      "source": "<color=0>じゃ、私たちも捜査に</color><row/><color=0>戻りましょうか。</color><ctrl=2E/>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:57715:arg0",
+      "kind": "choice",
+      "source": "癸生川探偵事務所",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:57735:arg0",
+      "kind": "choice",
+      "source": "港公園",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:57745:arg0",
+      "kind": "choice",
+      "source": "ウッズタウン",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:57774",
+      "kind": "dialogue",
+      "source": "<color=2>セーブしました。</color>",
+      "target": ""
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:57893",
+      "kind": "dialogue",
+      "source": "<color=0>えらー</color><ctrl=2E/>",
+      "target": ""
+    }
+  ]
+}

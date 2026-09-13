@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "purpose": "Runtime smoke fixture, NOT a release translation. A handful of opening lines from c0_00 used to prove the pack -> plugin -> atlas chain end to end. The authoritative draft is work/dialogue-tagged.json and supersedes this file: every line shared with it carries the draft's own wording, so the two can never disagree.",
+  "offsets": "script-relative BUNSYOU offsets in the extracted file/c0_00.bin",
+  "units": [
+    { "script": "c0_00", "offset": 24,  "source": "２００４年６月某日", "target": "２００４年６月某日" },
+    { "script": "c0_00", "offset": 48,  "source": "天気、雨", "target": "天气、雨" },
+    { "script": "c0_00", "offset": 62,  "source": "　", "target": "　" },
+    { "script": "c0_00", "offset": 81,  "source": "鞠浜市鞠浜台", "target": "鞠滨市鞠滨台" },
+    { "script": "c0_00", "offset": 172, "source": "…もう、何日も雨が", "target": "…这雨已经下了" },
+    { "script": "c0_00", "offset": 196, "source": "続いていた。", "target": "好多天了。" },
+    { "script": "c0_00", "offset": 214, "source": "ニュースによれば、", "target": "据新闻说，" },
+    { "script": "c0_00", "offset": 238, "source": "およそ８年ぶりの", "target": "大约是８年来" },
+    { "script": "c0_00", "offset": 269, "source": "豪雨らしい。", "target": "最大的一场暴雨。" },
+    { "script": "c0_00", "offset": 293, "source": "元々、ここ鞠浜台は", "target": "原本，鞠滨台这里" },
+    { "script": "c0_00", "offset": 343, "source": "海が近いので、常に", "target": "离海很近，所以" },
+    { "script": "c0_00", "offset": 367, "source": "湿度は高めなのだが…", "target": "湿度一直偏高…" },
+    { "script": "c0_00", "offset": 393, "source": "更にこの大雨が加わり、", "target": "再加上这场暴雨，" },
+    { "script": "c0_00", "offset": 421, "source": "街全体が淡く霞んで", "target": "整座城市都淡淡地" },
+    { "script": "c0_00", "offset": 481, "source": "しまった感じがする。", "target": "笼上了一层雾。" },
+    { "script": "c0_00", "offset": 2142, "source": "辺り見回す", "target": "环视四周" },
+    { "script": "c0_00", "offset": 2156, "source": "話す", "target": "交谈" },
+    { "script": "c0_00", "offset": 2164, "source": "調べる", "target": "调查" },
+    { "script": "c0_00", "offset": 2201, "source": "中断する", "target": "中断" },
+    { "script": "c0_00", "offset": 2293, "source": "…おじさん、誰？", "target": "…大叔，你是谁？",
+      "runs": ["…", "大叔，你是谁？"] },
+    { "script": "c0_00", "offset": 21644, "source": "セーブに失敗しました。", "target": "保存失败了。",
+      "runs": ["保存", "失败", "了。"] },
+    { "script": "c5_01", "offset": 20, "source": "(螻川内)", "target": "(蝼川内)" }
+  ]
+}

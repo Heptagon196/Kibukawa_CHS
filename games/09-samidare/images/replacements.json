@@ -1,0 +1,29 @@
+{
+  "schema": 1,
+  "game": "kibu9",
+  "title": {
+    "id": "title",
+    "png": "title-zh.png",
+    "size": [240, 240],
+    "source_texture": "title"
+  },
+  "images": [
+    {
+      "id": "title-menu0",
+      "png": "title-menu0-zh.png",
+      "size": [87, 19],
+      "sources": [
+        {"loader": "LoadGraphic", "name": "menu00.gif"}
+      ]
+    },
+    {
+      "id": "title-menu1",
+      "png": "title-menu1-zh.png",
+      "size": [87, 19],
+      "sources": [
+        {"loader": "LoadGraphic", "name": "menu01.gif"}
+      ]
+    }
+  ],
+  "shellCover": "titleimage-zh.png"
+}

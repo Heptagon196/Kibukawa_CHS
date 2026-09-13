@@ -1,0 +1,983 @@
+{
+  "schema": 1,
+  "decisions": [
+    {
+      "id": "scratch3_1.dat/c1-00:10125",
+      "batch": 1,
+      "decision": "accepted_after_coordinator_read",
+      "reason": "原文「解決に向かうと思います」是预计向解决迈进，现译「很快就能解决」增加了速度与即将破案的把握，需保留推测程度。",
+      "source": "<color=0>まあ、おそらく私の助言で</color><row/><color=0>解決に向かうと思いますけどね。</color><ctrl=2E/>",
+      "before": "<color=0>不过有了我的建议，</color><row/><color=0>案子应该很快就能解决吧。</color><ctrl=2E/>",
+      "after": "<color=0>不过有了我的建议，</color><row/><color=0>案子应该能朝着解决的方向推进吧。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-00:26019",
+      "batch": 1,
+      "decision": "accepted_after_coordinator_read",
+      "reason": "与下一点击单元合读，现译把定语「网络飞速发展所引发的」用逗号断开，形成「都是……的，信息化社会的弊端」的病句。保留当前单元只出现网络发展、下一单元才点出信息化社会弊端的顺序。",
+      "source": "<color=0>これらの少年犯罪は、急速な</color><row/><color=0>ネットワークの発展による、</color><ctrl=2E/>",
+      "before": "<color=0>这些青少年犯罪，</color><row/><color=0>都是网络飞速发展所引发的，</color><ctrl=2E/>",
+      "after": "<color=0>这些青少年犯罪，</color><row/><color=0>都是网络飞速发展带来的</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-00:26166",
+      "batch": 1,
+      "decision": "accepted_after_coordinator_read",
+      "reason": "与前一单元配套修复句法；此处是报道的总结，而非另一句无主语的「信息化社会的弊端」。保持弊端一词在本点击单元出现。",
+      "source": "<color=0>情報化社会の弊害である、</color><row/><color=0>というふうに結ばれていた。</color><ctrl=2E/>",
+      "before": "<color=0>信息化社会的弊端，</color><row/><color=0>大致是这样的说法。</color><ctrl=2E/>",
+      "after": "<color=0>信息化社会的弊端，</color><row/><color=0>文章最后这样总结道。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-00:28635",
+      "batch": 1,
+      "decision": "accepted_after_coordinator_read",
+      "reason": "「何止还是」无法自然回应上一句「还是这么差」；原文是在说不用强调一如既往，隔壁楼不消失就不会改变。",
+      "source": "<color=0>相変わらずも何も、隣のビルが</color><row/><color=0>あるうちは変わらないですよ。</color><ctrl=2E/>",
+      "before": "<color=0>何止还是，只要隔壁的楼还在，</color><row/><color=0>采光就不会变好啊。</color><ctrl=2E/>",
+      "after": "<color=0>还用说，只要隔壁的楼还在，</color><row/><color=0>采光就不会变好啊。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-00:35212",
+      "batch": 1,
+      "decision": "accepted_after_coordinator_read",
+      "reason": "「言行总能做得理直气壮」搭配不自然；原文形容人物堂而皇之地做出怪异言行，应直接描述其言行与态度。",
+      "source": "<color=0>見ての通り、突飛で奇妙な言動を</color><row/><color=0>堂々とする変わった男だが…</color><ctrl=2E/>",
+      "before": "<color=0>正如各位所见，他是个怪人，</color><row/><color=0>荒唐古怪的言行总能做得理直气壮……</color><ctrl=2E/>",
+      "after": "<color=0>正如各位所见，他是个怪人，</color><row/><color=0>言行荒唐古怪，却总是理直气壮……</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-00:40625",
+      "batch": 1,
+      "decision": "accepted_after_coordinator_read",
+      "reason": "原文否定「因为现代文化才发生」这一因果前提；「不是现代文化独有的产物」改成了是否独有的归属判断，弱化了随后要求排除此因果前提的论证。",
+      "source": "<color=0>そもそも、別に現代の文化だから</color><row/><color=0>起こっているのではない！</color><ctrl=2E/>",
+      "before": "<color=0>这些案件并不是</color><row/><color=0>现代文化独有的产物！</color><ctrl=2E/>",
+      "after": "<color=0>这些案件并不是</color><row/><color=0>因为现代文化才发生的！</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:17862",
+      "batch": 2,
+      "decision": "accepted_after_coordinator_read",
+      "reason": "此时报道明确说明初中生Ａ身份完全未公开；原文并未给出性别，译文自行用男性代词“他”，会给身份推理添加原文没有的限定。改为中性指代。",
+      "source": "<color=0>まず中学生Ａは、犯行時は１３歳</color><row/><color=0>だったため、刑法４１条の規定に</color><row/><color=0>より刑事責任を問われることは</color><row/><color=0>なかった。</color><ctrl=3B/><row/><color=0>よって、逮捕されたのではなく</color><row/><color=0>触法少年として補導され、</color><row/><color=0>児童相談所に通告された。</color><ctrl=2E/>",
+      "before": "<color=0>首先，初中生Ａ犯案时１３岁，</color><row/><color=0>根据刑法第四十一条的规定，</color><row/><color=0>无需承担</color><row/><color=0>刑事责任。</color><ctrl=3B/><row/><color=0>因此，他并非被逮捕，</color><row/><color=0>而是作为触法少年接受管教，</color><row/><color=0>并被通报给儿童咨询所。</color><ctrl=2E/>",
+      "after": "<color=0>首先，初中生Ａ犯案时１３岁，</color><row/><color=0>根据刑法第四十一条的规定，</color><row/><color=0>无需承担</color><row/><color=0>刑事责任。</color><ctrl=3B/><row/><color=0>因此，Ａ并非被逮捕，</color><row/><color=0>而是作为触法少年接受管教，</color><row/><color=0>并被通报给儿童咨询所。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:22944",
+      "batch": 2,
+      "decision": "accepted_after_coordinator_read",
+      "reason": "初中生Ａ性别尚未披露，原文没有男性代词；避免擅自把未知身份限定为男性。",
+      "source": "<color=0>今はまだ、一般人の仮面をかぶり</color><row/><color=0>自分の中に眠る狂気を抑え、</color><row/><color=0>おとなしく潜んでいるだけ</color><row/><color=0>かもしれない。</color><ctrl=2E/>",
+      "before": "<color=0>如今，他也许只是</color><row/><color=0>戴着普通人的假面，</color><row/><color=0>压抑着内心沉睡的疯狂，</color><row/><color=0>悄悄潜伏着。</color><ctrl=2E/>",
+      "after": "<color=0>如今，Ａ也许只是</color><row/><color=0>戴着普通人的假面，</color><row/><color=0>压抑着内心沉睡的疯狂，</color><row/><color=0>悄悄潜伏着。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:34331",
+      "batch": 2,
+      "decision": "accepted_after_coordinator_read",
+      "reason": "原文说其是从研究设施逃脱的人体实验受试者的末路模样，并未说“逃出来后”才变成这样；现译增加了变化发生在逃脱之后的时间关系。",
+      "source": "<color=2>（６）</color><row/><color=2>その正体は、バイオ研究施設から</color><row/><color=2>脱走した人体実験の献体者の、</color><row/><color=2>なれの果てだと言われている。</color><ctrl=2E/>",
+      "before": "<color=2>（６）</color><row/><color=2>据说，他原本是生物研究机构的</color><row/><color=2>人体实验受试者，逃出来后</color><row/><color=2>便沦落成了如今的模样。</color><ctrl=2E/>",
+      "after": "<color=2>（６）</color><row/><color=2>据说，他是从生物研究机构逃出的</color><row/><color=2>人体实验受试者，</color><row/><color=2>最终沦落成了如今的模样。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:42525",
+      "batch": 2,
+      "decision": "accepted_after_coordinator_read",
+      "reason": "“未来を案ずるどころか”是“别说担忧未来／顾不上担忧未来，眼下就已出问题”，不是“还没到担心未来的地步”。现译误为问题尚未严重到需要忧虑未来。",
+      "source": "<color=0>未来を案ずるどころか、</color><row/><color=0>今現在がまずいわけだし…。</color><ctrl=2E/>",
+      "before": "<color=0>还没到担心未来的地步，</color><row/><color=0>眼下就已经很糟了……</color><ctrl=2E/>",
+      "after": "<color=0>哪还顾得上担心未来，</color><row/><color=0>眼下就已经很糟了……</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-03:1517",
+      "batch": 3,
+      "decision": "accepted_after_coordinator_read",
+      "reason": "原文说为免各种麻烦而选择自视点，并未限定为设置过程麻烦；当前译文增加了原因。",
+      "source": "<color=0>なにかとややこしいから、</color><row/><color=2>自分視点</color><color=0>モードにしておいた。</color><ctrl=2E/>",
+      "before": "<color=0>“设置起来挺麻烦，我就选了</color><row/><color=2>第一人称</color><color=0>模式。”</color><ctrl=2E/>",
+      "after": "<color=0>“为了省去各种麻烦，就选了</color><row/><color=2>第一人称</color><color=0>模式。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-03:9048",
+      "batch": 3,
+      "decision": "accepted_after_coordinator_read",
+      "reason": "原文未指定失去乐趣的是对方；此处生王以提前解开谜题会影响游玩乐趣为借口，补出“他们”缩窄并可能改变指向，应保留原文省略。",
+      "source": "<color=0>いや、ほら。先に解いちゃったら</color><row/><color=0>楽しめないだろうし…。</color><ctrl=2E/>",
+      "before": "<color=0>“不是，你想，要是先解开了，</color><row/><color=0>他们就少了乐趣吧……”</color><ctrl=2E/>",
+      "after": "<color=0>“不是，你想，要是先解开了，</color><row/><color=0>就少了乐趣吧……”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-03:10979",
+      "batch": 3,
+      "decision": "accepted_after_coordinator_read",
+      "reason": "伊纲说解谜是本职，后文 c1-04:40650 至后一句明确呼应侦探职业；“您的”把职业直接归给游戏编剧生王。建议省略原文没有的所属代词。",
+      "source": "<color=0>んもう、謎解きは</color><row/><color=0>本職なんですから！</color><ctrl=2E/>",
+      "before": "<color=0>“真是的，解谜</color><row/><color=0>可是您的本行啊！”</color><ctrl=2E/>",
+      "after": "<color=0>“真是的，解谜</color><row/><color=0>可是本行啊！”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-04:40650",
+      "batch": 3,
+      "decision": "accepted_after_coordinator_read",
+      "reason": "伊纲自称解谜专业，下一句生王针对侦探职业吐槽。“我们”把生王也并入侦探职业；去掉自行补出的复数代词。",
+      "source": "<color=0>謎解きの本職としては黙って</color><row/><color=0>いられませんよ！</color><ctrl=2E/>",
+      "before": "<color=0>“解谜可是我们的本行，</color><row/><color=0>怎么能无动于衷！”</color><ctrl=2E/>",
+      "after": "<color=0>“身为解谜的行家，</color><row/><color=0>怎么能无动于衷！”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-05:40006",
+      "batch": 4,
+      "decision": "accepted_after_coordinator_read",
+      "reason": "原文仅说“之后解释”，没有承诺在路上说明。译为“路上再解释”擅自限定说明时机；下一场才在现场询问案情，也与这个新增承诺不合。",
+      "source": "<color=0>説明はあとです！　とにかく</color><row/><color=0>狩川町４丁目に急ぎますよ！</color><ctrl=2E/>",
+      "before": "<color=0>“路上再解释！总之，</color><row/><color=0>先赶去狩川町４丁目！”</color><ctrl=2E/>",
+      "after": "<color=0>“稍后再解释！总之，</color><row/><color=0>先赶去狩川町４丁目！”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-05:43329",
+      "batch": 4,
+      "decision": "accepted_after_coordinator_read",
+      "reason": "原文“１２階より上”明确指比１２楼更高，而“１２楼以上”通常含１２楼本层。楼层高度属于此谜题的证据，应保留原文说法，不依约１２楼的卡片推算修正角色台词。",
+      "source": "<color=0>アイナさんは１２階より上から</color><row/><color=0>落下したみたいですね。</color><ctrl=2E/>",
+      "before": "<color=0>“艾纳似乎是从１２楼之上</color><row/><color=0>坠落的呢。”</color><ctrl=2E/>",
+      "after": "<color=0>“艾纳似乎是从比１２楼更高的</color><row/><color=0>地方坠落的呢。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-05:50274",
+      "batch": 4,
+      "decision": "accepted_after_coordinator_read",
+      "reason": "原文“その部屋の真ん前”是房间正前方，并非房门前。此谜题区分玄关与阳台出入路线；遗体位于窗外一侧，添加“门”会错误定位尸体。",
+      "source": "<color=0>で、その部屋の真ん前で</color><row/><color=0>死亡していた…となると…。</color><ctrl=2E/>",
+      "before": "<color=0>然后，他又恰好死在</color><row/><color=0>那个房间门前……这么说来……”</color><ctrl=2E/>",
+      "after": "<color=0>然后，他又恰好死在</color><row/><color=0>那个房间正前方……这么说来……”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-05:58016",
+      "batch": 4,
+      "decision": "accepted_after_coordinator_read",
+      "reason": "原文颜色２同时强调“说要回房间、与朋友分开”，并在分开之后才进入 ctrl=2F。现译把“分开”移到了该控制边界之后的普通颜色中，损失了证词强调内容并后移信息。",
+      "source": "<color=7>被害者の友人からの聞き込み</color><ctrl=2F/><row/><color=7>の結果、被害者は１２時頃に</color><ctrl=3B/><row/><color=2>部屋に戻ると言って、別れた</color><ctrl=2F/><row/><color=7>という情報を手に入れた。</color><ctrl=2E/>",
+      "before": "<color=7>向受害者的朋友询问后，</color><ctrl=2F/><row/><color=7>得知受害者在１２点左右，</color><ctrl=3B/><row/><color=2>说要回自己的房间，</color><ctrl=2F/><row/><color=7>随后便与朋友分开了。</color><ctrl=2E/>",
+      "after": "<color=7>向受害者的朋友询问后，</color><ctrl=2F/><row/><color=7>得知受害者在１２点左右，</color><ctrl=3B/><row/><color=2>说要回房间，随后与朋友分开</color><ctrl=2F/><row/><color=7>，获得了这条消息。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_2.dat/c2-00:21467",
+      "batch": 5,
+      "decision": "accepted_after_coordinator_read",
+      "reason": "書記在此是协助查案时做记录的人；中文“书记”容易被理解为组织职务，偏离助手兼记录员的笑点。",
+      "source": "<color=0>生王さんは、伊綱さんの歴とした</color><row/><color=0>助手兼書記じゃないですか！</color><ctrl=2E/>",
+      "before": "<color=0>“生王先生可是伊纲小姐</color><row/><color=0>名副其实的助手兼书记啊！”</color><ctrl=2E/>",
+      "after": "<color=0>“生王先生可是伊纲小姐</color><row/><color=0>名副其实的助手兼记录员啊！”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_2.dat/c2-00:30804:arg0",
+      "batch": 5,
+      "decision": "accepted_after_coordinator_read",
+      "reason": "与450—453的“透→父ちゃん”口头圆场联动；若对白按透明音节呈现，此错误选项也应保持称呼一致。",
+      "source": "犯人は透明人間だった",
+      "before": "凶手是隐形人",
+      "after": "凶手是透明人"
+    },
+    {
+      "id": "scratch3_2.dat/c2-00:31972",
+      "batch": 5,
+      "decision": "accepted_after_coordinator_read",
+      "reason": "原文被截断的是“透明”的首音；译成“隐”使随后转向父ちゃん的同音圆场完全失去依据。与451—453联动，保留“透”并在453句外简注。",
+      "source": "<color=0>わかった！　犯人は、透…</color><ctrl=2E/>",
+      "before": "<color=0>“我知道了！凶手是隐……”</color><ctrl=2E/>",
+      "after": "<color=0>“我知道了！凶手是透……”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_2.dat/c2-00:32055",
+      "batch": 5,
+      "decision": "accepted_after_coordinator_read",
+      "reason": "承接450被打断的“透”；本处需用透明人，与453句外说明的日语同音关系对应，不能保留“隐形”造成不同词。",
+      "source": "<color=0>まさか、透明人間だった</color><row/><color=0>なんて言いませんよね…？</color><ctrl=2E/>",
+      "before": "<color=0>“你该不会想说，</color><row/><color=0>凶手是隐形人吧……？”</color><ctrl=2E/>",
+      "after": "<color=0>“你该不会想说，</color><row/><color=0>凶手是透明人吧……？”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_2.dat/c2-00:32179",
+      "batch": 5,
+      "decision": "accepted_after_coordinator_read",
+      "reason": "原文重复とう，正在搜寻可接续的词，下一句才改口父ちゃん。当前“隐”无法连接这个笑点；与450—453联动。",
+      "source": "<color=0>と、とう…とう…</color><ctrl=2E/>",
+      "before": "<color=0>“隐、隐……隐……”</color><ctrl=2E/>",
+      "after": "<color=0>“透、透……透……”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_2.dat/c2-00:32224",
+      "batch": 5,
+      "decision": "accepted_after_coordinator_read",
+      "reason": "当前notes只在译稿说明同音，不会显示给玩家；正文突然称对方“老爸”缺少理解依据。保留改口原意，在完整对白后短注日语同音，不自造中文谐音。",
+      "source": "<color=0>父ちゃん、何を言ってるんだよ！</color><row/><color=0>そんなわけないじゃないか！</color><ctrl=2E/>",
+      "before": "<color=0>“哎呀老爸，你在说什么啊！</color><row/><color=0>怎么可能呢！”</color><ctrl=2E/>",
+      "after": "<color=0>“老爸，你在说什么啊！</color><row/><color=0>怎么可能呢！”（译注：日语“透明”和“老爸”的开头同音。）</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_2.dat/c2-00:35407",
+      "batch": 5,
+      "decision": "accepted_after_coordinator_read",
+      "reason": "原文と思います明确是伊纲对被害者意图的推测；当前删去推测成了事实断言，尤其这是无证据推理环节，需保留。",
+      "source": "<color=0>つまり、このことに気付いて</color><row/><color=0>欲しかったんだと思います。</color><ctrl=2E/>",
+      "before": "<color=0>“也就是说，他希望我们</color><row/><color=0>注意到这一点。</color><ctrl=2E/>",
+      "after": "<color=0>“也就是说，我想他是希望我们</color><row/><color=0>注意到这一点。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_2.dat/c2-00:37676",
+      "batch": 5,
+      "decision": "accepted_after_coordinator_read",
+      "reason": "身辺を洗う是全面调查个人周边情况，包括生活/行为/关系；当前缩成“人际关系”无依据地限制了调查范围。",
+      "source": "<color=0>それで久我の身辺をもっと</color><row/><color=0>詳しく洗おうとしたところ…</color><ctrl=2E/>",
+      "before": "<color=0>“于是我们正打算</color><row/><color=0>更详细地调查久我的人际关系……</color><ctrl=2E/>",
+      "after": "<color=0>“于是我们正打算</color><row/><color=0>更详细地调查久我身边的情况……</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_2.dat/c2-01:7267",
+      "batch": 5,
+      "decision": "accepted_after_coordinator_read",
+      "reason": "３０メートル以上包含30米本身；“超过30米”排除了边界。推理高度阈值需准确保留。",
+      "source": "<color=0>ちなみに衝撃の強さから見て、</color><row/><color=0>３０メートル以上…</color><ctrl=2E/>",
+      "before": "<color=0>另外，从冲击的强度来看，</color><row/><color=0>坠落高度超过30米……</color><ctrl=2E/>",
+      "after": "<color=0>另外，从冲击的强度来看，</color><row/><color=0>坠落高度至少有30米……</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_2.dat/c2-01:12413",
+      "batch": 5,
+      "decision": "accepted_after_coordinator_read",
+      "reason": "いつもなら表示若在平常情况下；当前“周六午后，平日里”容易变成工作日与周六对比，原文是说平常的周六午后孩子会在此玩。",
+      "source": "<color=0>いつもなら子供たちが遊び回って</color><row/><color=0>いるのであろう土曜の昼下がり。</color><ctrl=2E/>",
+      "before": "<color=0>周六午后，平日里孩子们</color><row/><color=0>应该正在四处玩耍吧。</color><ctrl=2E/>",
+      "after": "<color=0>若是平常的周六午后，</color><row/><color=0>孩子们应该正在这里四处玩耍吧。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_2.dat/c2-02:1706:arg0",
+      "batch": 6,
+      "decision": "accepted_after_coordinator_read",
+      "reason": "菜单原文是久我受到的信任；后续437、447、461也围绕信任及信誉的变化展开。人缘会把调查主题改成受欢迎程度。",
+      "source": "久我の信頼",
+      "before": "久我的人缘",
+      "after": "久我的信誉"
+    },
+    {
+      "id": "scratch3_2.dat/c2-02:29883",
+      "batch": 6,
+      "decision": "accepted_after_coordinator_read",
+      "reason": "门锁线索记录的是开门与随后关门的两个时刻，后文据此比较十秒差。现译从开门到关门的时间可能误读为只记录时长，需明确成对的时间戳。",
+      "source": "<color=0>ドアを開けてから閉じた時間が</color><row/><color=0>セットで記録されるようですよ。</color><ctrl=2E/>",
+      "before": "<color=0>从开门到关门的时间，</color><row/><color=0>好像会成组记录下来。”</color><ctrl=2E/>",
+      "after": "<color=0>开门和随后关门的时间，</color><row/><color=0>好像会成对记录下来。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_2.dat/c2-02:30637",
+      "batch": 6,
+      "decision": "accepted_after_coordinator_read",
+      "reason": "原文只推断进屋后门立即关闭，未指认谁关门。现译新增他主动关门，把记录能证明的事实扩大为具体人的动作；本段稍后正要讨论进屋者可能并非受害人的假设。",
+      "source": "<color=0>入ってすぐ、ドアは</color><row/><color=0>閉じられたことになります。</color><ctrl=2E/>",
+      "before": "<color=0>也就是说，他进屋后</color><row/><color=0>马上就把门关上了。”</color><ctrl=2E/>",
+      "after": "<color=0>也就是说，进屋后</color><row/><color=0>门马上就关上了。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_2.dat/c2-02:49436",
+      "batch": 6,
+      "decision": "accepted_after_coordinator_read",
+      "reason": "原文是说话人确定会请人鉴定笔迹，现译也请人……吧变成建议他人执行。应保留说话人的安排及确定程度。",
+      "source": "<color=0>このメモ、あとで一応</color><row/><color=0>筆跡鑑定もしてもらいます。</color><ctrl=2E/>",
+      "before": "<color=0>“这张纸条，之后</color><row/><color=0>也请人做一下笔迹鉴定吧。”</color><ctrl=2E/>",
+      "after": "<color=0>“这张纸条，之后我也会请人</color><row/><color=0>做一下笔迹鉴定。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_2.dat/c2-03:2472",
+      "batch": 7,
+      "decision": "accepted_after_coordinator_read",
+      "reason": "姿の見えない犯人仅说凶手身影看不见；译成会隐身明确赋予隐身能力，强化了原文尚未确认的超自然解释。应保留看不见身影的表述。",
+      "source": "<color=0>ウソじゃなかったら、本当に</color><row/><color=0>姿の見えない犯人ですから。</color><ctrl=2E/>",
+      "before": "<color=0>如果不是撒谎，</color><row/><color=0>凶手就真的会隐身了。</color><ctrl=2E/>",
+      "after": "<color=0>如果不是撒谎，</color><row/><color=0>那就真是个看不见身影的凶手了。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_2.dat/c2-03mo:2920",
+      "batch": 8,
+      "decision": "accepted_after_coordinator_read",
+      "reason": "雪海豚的「いたたまれない」原在 ctrl=2F 前完整出现；译文将核心情绪判断「难受」延后到下一执行单元，只留下「看着真」。应在同一单元给出难受的判断，下一单元只保留原文语气。",
+      "source": "<color=6>イクルミ</color><color=0>：さあ…何かあった</color><ctrl=2F/><row/><color=0>みたいだけど。</color><ctrl=3B/><row/><color=15>ゆきいるか</color><color=0>：確かにコレ、</color><ctrl=2F/><row/><color=0>抜け殻みたぃで、ぃたたまれなぃ</color><ctrl=2F/><row/><color=0>よネ☆</color><ctrl=3B/><row/><color=15>ゆきいるか</color><color=0>：まさかホントに</color><ctrl=2F/><row/><color=0>死んじゃっτたりιτ…^^</color><ctrl=2E/>",
+      "before": "<color=6>伊库鲁米</color><color=0>：“谁知道呢……好像出了</color><ctrl=2F/><row/><color=0>什么事。”</color><ctrl=3B/><row/><color=15>雪海豚</color><color=0>：“确实啊，</color><ctrl=2F/><row/><color=0>这就像个空壳，看着真</color><ctrl=2F/><row/><color=0>难受呢☆”</color><ctrl=3B/><row/><color=15>雪海豚</color><color=0>：“该不会真的</color><ctrl=2F/><row/><color=0>死掉了吧……^^”</color><ctrl=2E/>",
+      "after": "<color=6>伊库鲁米</color><color=0>：“谁知道呢……好像出了</color><ctrl=2F/><row/><color=0>什么事。”</color><ctrl=3B/><row/><color=15>雪海豚</color><color=0>：“确实啊，</color><ctrl=2F/><row/><color=0>这就像个空壳，看着难受</color><ctrl=2F/><row/><color=0>呢☆”</color><ctrl=3B/><row/><color=15>雪海豚</color><color=0>：“该不会真的</color><ctrl=2F/><row/><color=0>死掉了吧……^^”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_2.dat/c2-03mo:9595",
+      "batch": 8,
+      "decision": "accepted_after_coordinator_read",
+      "reason": "「ＭＯ辞めずにいた」指因期待活动一直没有放弃玩这款游戏，现译「一直没退出ＭＯ」容易被理解为持续在线，并把ＭＯ移到下一控制单元；后面的「企画されてた」也被推迟到下一单元。修复持续游玩含义及两处信息边界。",
+      "source": "<color=6>イクルミ</color><color=0>：さっきのイベントは</color><ctrl=2F/><row/><color=0>中途半端で残念だったねえ</color><ctrl=3B/><row/><color=8>ブレット</color><color=0>：まあ、どーせをれは</color><ctrl=2F/><row/><color=0>参加してないけどな</color><ctrl=3B/><row/><color=8>ブレット</color><color=0>：ずっと前から、</color><ctrl=2F/><row/><color=0>そのためにＭＯ辞めずにいた</color><ctrl=2F/><row/><color=0>のによー</color><ctrl=3B/><row/><color=6>イクルミ</color><color=0>：あのイベントって、</color><ctrl=2F/><row/><color=0>そんな前から企画されてたもの</color><ctrl=2F/><row/><color=0>なの？</color><ctrl=3B/><row/><color=8>ブレット</color><color=0>：をれが最初に話を</color><ctrl=2F/><row/><color=0>聞いたのは</color><color=2>１ヶ月くらい前</color><color=0>だけどな。</color><ctrl=3B/><row/><color=8>ブレット</color><color=0>：春休み入ったばっか</color><ctrl=2F/><row/><color=0>だったから、３月の中頃だったぞ。</color><ctrl=2E/>",
+      "before": "<color=6>伊库鲁米</color><color=0>：“刚才的活动</color><ctrl=2F/><row/><color=0>半途而废了，真可惜啊。”</color><ctrl=3B/><row/><color=8>布雷特</color><color=0>：“反正我又</color><ctrl=2F/><row/><color=0>没参加。”</color><ctrl=3B/><row/><color=8>布雷特</color><color=0>：“我从很早以前</color><ctrl=2F/><row/><color=0>就为了这活动一直没退出</color><ctrl=2F/><row/><color=0>ＭＯ啊。”</color><ctrl=3B/><row/><color=6>伊库鲁米</color><color=0>：“那个活动</color><ctrl=2F/><row/><color=0>原来那么早就已经在</color><ctrl=2F/><row/><color=0>筹备了吗？”</color><ctrl=3B/><row/><color=8>布雷特</color><color=0>：“我第一次</color><ctrl=2F/><row/><color=0>听说是在</color><color=2>一个月左右以前</color><color=0>。”</color><ctrl=3B/><row/><color=8>布雷特</color><color=0>：“当时刚放春假，</color><ctrl=2F/><row/><color=0>所以是三月中旬。”</color><ctrl=2E/>",
+      "after": "<color=6>伊库鲁米</color><color=0>：“刚才的活动</color><ctrl=2F/><row/><color=0>半途而废了，真可惜啊。”</color><ctrl=3B/><row/><color=8>布雷特</color><color=0>：“反正我又</color><ctrl=2F/><row/><color=0>没参加。”</color><ctrl=3B/><row/><color=8>布雷特</color><color=0>：“我从很早以前</color><ctrl=2F/><row/><color=0>就为了这活动一直没放弃玩ＭＯ</color><ctrl=2F/><row/><color=0>啊。”</color><ctrl=3B/><row/><color=6>伊库鲁米</color><color=0>：“那个活动</color><ctrl=2F/><row/><color=0>原来那么早就已经在筹备</color><ctrl=2F/><row/><color=0>了吗？”</color><ctrl=3B/><row/><color=8>布雷特</color><color=0>：“我第一次</color><ctrl=2F/><row/><color=0>听说是在</color><color=2>一个月左右以前</color><color=0>。”</color><ctrl=3B/><row/><color=8>布雷特</color><color=0>：“当时刚放春假，</color><ctrl=2F/><row/><color=0>所以是三月中旬。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_2.dat/c2-03mo:21475",
+      "batch": 8,
+      "decision": "accepted_after_coordinator_read",
+      "reason": "死亡警告「そんなこと調べたら死ぬぜ」应在同一 ctrl=2F 单元内完整出现；原译把「会没命」推迟到原文仅表示转述的下一单元，改变威胁信息的出现时机。",
+      "source": "<color=8>ブレット</color><color=0>：をれウワサを聞いてた</color><ctrl=2F/><row/><color=0>から、そんなこと調べたら死ぬぜ</color><ctrl=2F/><row/><color=0>って言ったらさ</color><ctrl=3B/><row/><color=8>ブレット</color><color=0>：なら、いい…って</color><ctrl=2F/><row/><color=0>あっけなく下がったんだよ。</color><ctrl=3B/><row/><color=8>ブレット</color><color=0>：で、そいつが実は</color><ctrl=2F/><row/><color=0>アルマダだったんだよ。</color><ctrl=3B/><row/><color=8>ブレット</color><color=0>：何だったんだろうな、</color><ctrl=2F/><row/><color=0>あれ。</color><ctrl=3B/><row/><color=6>イクルミ</color><color=0>：それって、</color><ctrl=2F/><row/><color=0>いつ頃の話かな？</color><ctrl=3B/><row/><color=8>ブレット</color><color=0>：そうだな、</color><ctrl=2F/><row/><color=0>あれは２ヶ月ほど前だから…</color><ctrl=2F/><row/><color=2>２月の終わり頃</color><color=0>かな。</color><ctrl=2E/>",
+      "before": "<color=8>布雷特</color><color=0>：“我听过那个传闻，</color><ctrl=2F/><row/><color=0>就跟他说，调查这种事</color><ctrl=2F/><row/><color=0>会没命的。”</color><ctrl=3B/><row/><color=8>布雷特</color><color=0>：“他就说了句‘那就算了’，</color><ctrl=2F/><row/><color=0>干脆地走了。”</color><ctrl=3B/><row/><color=8>布雷特</color><color=0>：“结果那人其实</color><ctrl=2F/><row/><color=0>就是阿尔马达。”</color><ctrl=3B/><row/><color=8>布雷特</color><color=0>：“那到底</color><ctrl=2F/><row/><color=0>是怎么回事啊。”</color><ctrl=3B/><row/><color=6>伊库鲁米</color><color=0>：“那是</color><ctrl=2F/><row/><color=0>什么时候的事？”</color><ctrl=3B/><row/><color=8>布雷特</color><color=0>：“嗯，</color><ctrl=2F/><row/><color=0>大概两个月前……</color><ctrl=2F/><row/><color=2>二月底</color><color=0>吧。”</color><ctrl=2E/>",
+      "after": "<color=8>布雷特</color><color=0>：“我听过那个传闻，</color><ctrl=2F/><row/><color=0>调查这种事会没命的，</color><ctrl=2F/><row/><color=0>我就这么跟他说了。”</color><ctrl=3B/><row/><color=8>布雷特</color><color=0>：“他就说了句‘那就算了’，</color><ctrl=2F/><row/><color=0>干脆地走了。”</color><ctrl=3B/><row/><color=8>布雷特</color><color=0>：“结果那人其实</color><ctrl=2F/><row/><color=0>就是阿尔马达。”</color><ctrl=3B/><row/><color=8>布雷特</color><color=0>：“那到底</color><ctrl=2F/><row/><color=0>是怎么回事啊。”</color><ctrl=3B/><row/><color=6>伊库鲁米</color><color=0>：“那是</color><ctrl=2F/><row/><color=0>什么时候的事？”</color><ctrl=3B/><row/><color=8>布雷特</color><color=0>：“嗯，</color><ctrl=2F/><row/><color=0>大概两个月前……</color><ctrl=2F/><row/><color=2>二月底</color><color=0>吧。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_2.dat/c2-05:6606",
+      "batch": 9,
+      "decision": "accepted_after_coordinator_read",
+      "reason": "不登校児仅指不去上学/拒绝上学的孩子，译成逃学会增添主动违纪的判断，改变对这个畏缩少年的比喻。",
+      "source": "<color=0>学校の先生と不登校児、</color><row/><color=0>とでもいった構図にも見える。</color><ctrl=2E/>",
+      "before": "<color=0>眼前的情景简直就像</color><row/><color=0>老师在面对逃学的学生。</color><ctrl=2E/>",
+      "after": "<color=0>眼前的情景简直就像</color><row/><color=0>老师在面对不肯上学的孩子。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_2.dat/c2-05:11738",
+      "batch": 9,
+      "decision": "accepted_after_coordinator_read",
+      "reason": "此处谈现实中同住一栋公寓的人，原文没有女性代词。将来尚未明确用户身份，不能把女性游戏角色的性别加给现实住户。",
+      "source": "<color=0>いや、そもそも、あの…同じ</color><row/><color=0>マンションに住んでることも…</color><ctrl=2E/>",
+      "before": "<color=0>不，而且本来，那个……</color><row/><color=0>我连她住在同一栋公寓……</color><ctrl=2E/>",
+      "after": "<color=0>不，而且本来，那个……</color><row/><color=0>我连对方住在同一栋公寓……</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_2.dat/c2-05:14749",
+      "batch": 9,
+      "decision": "accepted_after_coordinator_read",
+      "reason": "此处指现实跳楼者，原文没有女性代词；久我为男性，且将来此时仅按账号称呼，应用中性指代保留知识范围。",
+      "source": "<color=0>ま、まさか、同じマンションに</color><row/><color=0>住んでる人だったなんて…。</color><ctrl=2E/>",
+      "before": "<color=0>“真、真没想到，</color><row/><color=0>她竟然也住在这栋公寓里……</color><ctrl=2E/>",
+      "after": "<color=0>“真、真没想到，</color><row/><color=0>对方竟然也住在这栋公寓里……</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_2.dat/c2-05:19559",
+      "batch": 9,
+      "decision": "accepted_after_coordinator_read",
+      "reason": "大怪我を負わされた只说遭人致以重伤，没有限定打击手法；打成重伤擅自缩窄致伤方式。",
+      "source": "<color=0>そして…そこで久我さんは、</color><row/><color=0>大怪我を負わされた…。</color><ctrl=2E/>",
+      "before": "<color=0>然后……久我在那里</color><row/><color=0>被人打成重伤……”</color><ctrl=2E/>",
+      "after": "<color=0>然后……久我在那里</color><row/><color=0>被人伤得很重……”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_2.dat/c2-05:20537",
+      "batch": 9,
+      "decision": "accepted_after_coordinator_read",
+      "reason": "亡くなった仅为死亡，此时仍在核实是否事故；译遇害提前把疑似事故定为他杀。",
+      "source": "<color=0>今回の事件で亡くなった、</color><row/><color=0>アイナさんのプレイヤですけど…</color><ctrl=2E/>",
+      "before": "<color=0>“这次案件中遇害的，</color><row/><color=0>也就是艾纳的玩家……</color><ctrl=2E/>",
+      "after": "<color=0>“这次事件中去世的，</color><row/><color=0>也就是艾纳的玩家……</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_2.dat/c2-05:24263",
+      "batch": 9,
+      "decision": "accepted_after_coordinator_read",
+      "reason": "キャラが死んでいた说的是艾纳这个角色死亡；她的角色误将角色称呼艾纳当成女性操作者，混淆账号与使用者。",
+      "source": "<color=2>キャラデッド</color><color=0>で、実際に</color><row/><color=0>キャラが死んでたんです…。</color><ctrl=2B/>",
+      "before": "<color=2>是角色死亡</color><color=0>状态，</color><row/><color=0>她的角色真的死了……”</color><ctrl=2B/>",
+      "after": "<color=2>是角色死亡</color><color=0>状态，</color><row/><color=0>角色真的死了……”</color><ctrl=2B/>"
+    },
+    {
+      "id": "scratch3_2.dat/c2-05:25293",
+      "batch": 9,
+      "decision": "accepted_after_coordinator_read",
+      "reason": "此处同时比较线上角色与线下使用者之死，原文未用女性代词；已知现实使用者久我为男性，不能统一用她指代。",
+      "source": "<color=0>オンラインでもオフラインでも、</color><row/><color=0>両方で殺されたってこと…？</color><ctrl=2E/>",
+      "before": "<color=0>“也就是说，线上线下，</color><row/><color=0>她都被杀了……？”</color><ctrl=2E/>",
+      "after": "<color=0>“也就是说，线上线下，</color><row/><color=0>两边都被杀了……？”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_2.dat/c2-06:15792",
+      "batch": 9,
+      "decision": "accepted_after_coordinator_read",
+      "reason": "別々に行动未断言协同分工；中文分头容易增添合作分工之意，而此处正在怀疑二人是否各自行动。",
+      "source": "<color=0>実は</color><color=2>別々に</color><color=0>行動してたのかも</color><row/><color=0>しれませんし…。</color><ctrl=2E/>",
+      "before": "<color=0>实际上是</color><color=2>分头</color><color=0>行动</color><row/><color=0>的……”</color><ctrl=2E/>",
+      "after": "<color=0>实际上是</color><color=2>各自</color><color=0>行动</color><row/><color=0>的……”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_2.dat/c2-06:16925",
+      "batch": 9,
+      "decision": "accepted_after_coordinator_read",
+      "reason": "这里是阿尔马达困在自己的游戏住所里；猫猫说连我的住所都出不去会误指猫猫的住所。用引号标明我的住所是已锁定的地点/功能名称。",
+      "source": "<color=5>ねこねこ</color><color=0>：アルマダしゃん、</color><ctrl=2F/><row/><color=0>犯罪者になっちゃったから…</color><ctrl=3B/><row/><color=5>ねこねこ</color><color=0>：大勢のプレイヤに</color><ctrl=2F/><row/><color=0>狙われてて、マイハウスから</color><ctrl=2F/><row/><color=0>出れないみたいにゃ</color><ctrl=2E/>",
+      "before": "<color=5>猫猫</color><color=0>：“阿尔马达</color><ctrl=2F/><row/><color=0>成了罪犯……”</color><ctrl=3B/><row/><color=5>猫猫</color><color=0>：“被一大群玩家</color><ctrl=2F/><row/><color=0>盯上了，好像连我的住所</color><ctrl=2F/><row/><color=0>都出不去了喵。”</color><ctrl=2E/>",
+      "after": "<color=5>猫猫</color><color=0>：“阿尔马达</color><ctrl=2F/><row/><color=0>成了罪犯……”</color><ctrl=3B/><row/><color=5>猫猫</color><color=0>：“被一大群玩家</color><ctrl=2F/><row/><color=0>盯上了，好像连‘我的住所’</color><ctrl=2F/><row/><color=0>都出不去了喵。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_2.dat/c2-06:24989",
+      "batch": 9,
+      "decision": "accepted_after_coordinator_read",
+      "reason": "カギが掛かっていた为房间上了锁，译为装着门锁漏掉锁住的状态；这是无法进入房间的推理前提。",
+      "source": "<color=6>イクルミ</color><color=0>：だったら、</color><ctrl=2F/><row/><color=0>どうやって久我さんを殺したんだ!?</color><ctrl=3B/><row/><color=6>イクルミ</color><color=0>：あの部屋には</color><ctrl=2F/><row/><color=0>特殊なカギが掛かってたはずだ。</color><ctrl=3B/><row/><color=6>イクルミ</color><color=0>：ふつうなら、</color><ctrl=2F/><row/><color=0>部屋に入ることもままならないん</color><ctrl=2F/><row/><color=0>じゃないか？</color><ctrl=3B/><row/><color=14>アルマダ</color><color=0>：そんなことか…。</color><ctrl=3B/><row/><color=14>アルマダ</color><color=0>：僕は元々、久我とは</color><ctrl=2F/><row/><color=0>顔見知りだからね。</color><ctrl=3B/><row/><color=14>アルマダ</color><color=0>：今日のイベントの</color><ctrl=2F/><row/><color=0>打ち合わせで、</color><color=2>昨夜から久我の</color><ctrl=2F/><row/><color=2>部屋に泊まってた</color><color=0>んだよ。</color><ctrl=3B/><row/><color=14>アルマダ</color><color=0>：そしてイベントの</color><ctrl=2F/><row/><color=0>時間になり、アイナのキャラを</color><ctrl=2F/><row/><color=0>殺した上で…</color><ctrl=3B/><row/><color=14>アルマダ</color><color=0>：久我本人も窓から</color><ctrl=2F/><row/><color=0>突き落としてすぐ逃げた…って</color><ctrl=2F/><row/><color=0>わけだ。</color><ctrl=3B/><row/><color=14>アルマダ</color><color=0>：簡単なことだろ？</color><ctrl=2E/>",
+      "before": "<color=6>伊库鲁米</color><color=0>：“那么，</color><ctrl=2F/><row/><color=0>你是怎么杀死久我的？！”</color><ctrl=3B/><row/><color=6>伊库鲁米</color><color=0>：“那个房间</color><ctrl=2F/><row/><color=0>应该装着特殊的门锁。”</color><ctrl=3B/><row/><color=6>伊库鲁米</color><color=0>：“一般情况下，</color><ctrl=2F/><row/><color=0>连想进房间</color><ctrl=2F/><row/><color=0>都不容易吧？”</color><ctrl=3B/><row/><color=14>阿尔马达</color><color=0>：“就问这个啊……”</color><ctrl=3B/><row/><color=14>阿尔马达</color><color=0>：“我和久我</color><ctrl=2F/><row/><color=0>本来就认识。”</color><ctrl=3B/><row/><color=14>阿尔马达</color><color=0>：“为了今天的活动，</color><ctrl=2F/><row/><color=0>一起商量，所以我</color><color=2>从昨晚起就住在久我的</color><ctrl=2F/><row/><color=2>房间里</color><color=0>了。”</color><ctrl=3B/><row/><color=14>阿尔马达</color><color=0>：“然后到了活动</color><ctrl=2F/><row/><color=0>开始的时间，我先把艾纳这个角色</color><ctrl=2F/><row/><color=0>杀掉……”</color><ctrl=3B/><row/><color=14>阿尔马达</color><color=0>：“再把久我本人从窗户</color><ctrl=2F/><row/><color=0>推下去，马上逃走……</color><ctrl=2F/><row/><color=0>就是这样。”</color><ctrl=3B/><row/><color=14>阿尔马达</color><color=0>：“很简单吧？”</color><ctrl=2E/>",
+      "after": "<color=6>伊库鲁米</color><color=0>：“那么，</color><ctrl=2F/><row/><color=0>你是怎么杀死久我的？！”</color><ctrl=3B/><row/><color=6>伊库鲁米</color><color=0>：“那个房间</color><ctrl=2F/><row/><color=0>应该上了特殊的门锁。”</color><ctrl=3B/><row/><color=6>伊库鲁米</color><color=0>：“一般情况下，</color><ctrl=2F/><row/><color=0>连想进房间</color><ctrl=2F/><row/><color=0>都不容易吧？”</color><ctrl=3B/><row/><color=14>阿尔马达</color><color=0>：“就问这个啊……”</color><ctrl=3B/><row/><color=14>阿尔马达</color><color=0>：“我和久我</color><ctrl=2F/><row/><color=0>本来就认识。”</color><ctrl=3B/><row/><color=14>阿尔马达</color><color=0>：“为了今天的活动，</color><ctrl=2F/><row/><color=0>一起商量，所以我</color><color=2>从昨晚起就住在久我的</color><ctrl=2F/><row/><color=2>房间里</color><color=0>了。”</color><ctrl=3B/><row/><color=14>阿尔马达</color><color=0>：“然后到了活动</color><ctrl=2F/><row/><color=0>开始的时间，我先把艾纳这个角色</color><ctrl=2F/><row/><color=0>杀掉……”</color><ctrl=3B/><row/><color=14>阿尔马达</color><color=0>：“再把久我本人从窗户</color><ctrl=2F/><row/><color=0>推下去，马上逃走……</color><ctrl=2F/><row/><color=0>就是这样。”</color><ctrl=3B/><row/><color=14>阿尔马达</color><color=0>：“很简单吧？”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_2.dat/c2-06:30283",
+      "batch": 9,
+      "decision": "accepted_after_coordinator_read",
+      "reason": "开门→重新安装装置→关门是关键逃离手法。原文在开门后设ctrl，再透露重新安装；现译将重新安装提前越过ctrl。",
+      "source": "<color=14>アルマダ</color><color=0>：ああ、確かに、</color><ctrl=2F/><row/><color=0>入口にそんな仕掛けがあった</color><ctrl=2F/><row/><color=0>なあ。</color><ctrl=3B/><row/><color=14>アルマダ</color><color=0>：だが設置できる</color><ctrl=2F/><row/><color=0>ということは、取り外しもできる</color><ctrl=2F/><row/><color=0>ってことだ。</color><ctrl=3B/><row/><color=14>アルマダ</color><color=0>：だから</color><color=2>装置そのもの</color><color=0>を</color><ctrl=2F/><row/><color=0>取り外して…</color><ctrl=3B/><row/><color=14>アルマダ</color><color=0>：ドアを開けてからまた</color><ctrl=2F/><row/><color=0>装置を取り付けて、ドアを閉める。</color><ctrl=3B/><row/><color=14>アルマダ</color><color=0>：それだけのことだよ。</color><ctrl=3B/><row/><color=6>イクルミ</color><color=0>：そっ、そんなことが…!?</color><ctrl=3B/><row/><color=14>アルマダ</color><color=0>：そもそも内側から</color><ctrl=2F/><row/><color=0>取り外せなかったら、</color><ctrl=2F/><row/><color=0>どうやって取り外すんだい？</color><ctrl=3B/><row/><color=6>イクルミ</color><color=0>：………。</color><ctrl=2E/>",
+      "before": "<color=14>阿尔马达</color><color=0>：“啊，确实，</color><ctrl=2F/><row/><color=0>门口是有</color><ctrl=2F/><row/><color=0>那么个装置。”</color><ctrl=3B/><row/><color=14>阿尔马达</color><color=0>：“不过，既然能装上去，</color><ctrl=2F/><row/><color=0>自然也就能拆下来，</color><ctrl=2F/><row/><color=0>不是吗？”</color><ctrl=3B/><row/><color=14>阿尔马达</color><color=0>：“所以我把</color><color=2>装置本身</color><color=0>，</color><ctrl=2F/><row/><color=0>拆了下来……”</color><ctrl=3B/><row/><color=14>阿尔马达</color><color=0>：“开门之后再装上去，</color><ctrl=2F/><row/><color=0>然后关上门。”</color><ctrl=3B/><row/><color=14>阿尔马达</color><color=0>：“就这么简单。”</color><ctrl=3B/><row/><color=6>伊库鲁米</color><color=0>：“居、居然还能这样……？！”</color><ctrl=3B/><row/><color=14>阿尔马达</color><color=0>：“说到底，如果不能从里面</color><ctrl=2F/><row/><color=0>把它拆下来，</color><ctrl=2F/><row/><color=0>那要怎么拆呢？”</color><ctrl=3B/><row/><color=6>伊库鲁米</color><color=0>：“……”</color><ctrl=2E/>",
+      "after": "<color=14>阿尔马达</color><color=0>：“啊，确实，</color><ctrl=2F/><row/><color=0>门口是有</color><ctrl=2F/><row/><color=0>那么个装置。”</color><ctrl=3B/><row/><color=14>阿尔马达</color><color=0>：“不过，既然能装上去，</color><ctrl=2F/><row/><color=0>自然也就能拆下来，</color><ctrl=2F/><row/><color=0>不是吗？”</color><ctrl=3B/><row/><color=14>阿尔马达</color><color=0>：“所以我把</color><color=2>装置本身</color><color=0>，</color><ctrl=2F/><row/><color=0>拆了下来……”</color><ctrl=3B/><row/><color=14>阿尔马达</color><color=0>：“打开门以后，</color><ctrl=2F/><row/><color=0>再装好装置，关上门。”</color><ctrl=3B/><row/><color=14>阿尔马达</color><color=0>：“就这么简单。”</color><ctrl=3B/><row/><color=6>伊库鲁米</color><color=0>：“居、居然还能这样……？！”</color><ctrl=3B/><row/><color=14>阿尔马达</color><color=0>：“说到底，如果不能从里面</color><ctrl=2F/><row/><color=0>把它拆下来，</color><ctrl=2F/><row/><color=0>那要怎么拆呢？”</color><ctrl=3B/><row/><color=6>伊库鲁米</color><color=0>：“……”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_2.dat/c2-06:50055",
+      "batch": 9,
+      "decision": "accepted_after_coordinator_read",
+      "reason": "伊纲说好像在我的住所里面会误指自己/生王的住所；实际是搜索结果中的游戏地点名称，应标明专名。",
+      "source": "<color=0>そうですね。</color><row/><color=0>マイハウスの中みたいですが。</color><ctrl=2E/>",
+      "before": "<color=0>“是啊。</color><row/><color=0>好像在我的住所里面。</color><ctrl=2E/>",
+      "after": "<color=0>“是啊。</color><row/><color=0>好像在‘我的住所’里面。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_2.dat/c3-00:10474",
+      "batch": 10,
+      "decision": "accepted_after_coordinator_read",
+      "reason": "原文在本点击单元已说出犯行手顺，下一单元才要求准确选择；现译把作案步骤延后到下一次点击，且把准确选择提前。与下一条配套恢复信息边界。",
+      "source": "<color=0>…では、今度は久我さんが、</color><row/><color=0>殺害されるまでの犯行手順を、</color><ctrl=2E/>",
+      "before": "<color=0>“……接下来，请准确选择</color><row/><color=0>凶手杀害久我先生的……</color><ctrl=2E/>",
+      "after": "<color=0>“……接下来，关于凶手</color><row/><color=0>杀害久我先生的作案步骤……</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_2.dat/c3-00:10616",
+      "batch": 10,
+      "decision": "accepted_after_coordinator_read",
+      "reason": "与前条配套：原文此点击单元为要求准确选择，不是才补出作案步骤。",
+      "source": "<color=0>正確に選んでください。</color><ctrl=2E/>",
+      "before": "<color=0>作案步骤。”</color><ctrl=2E/>",
+      "after": "<color=0>请您准确地选出来。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_2.dat/c3-00:18161",
+      "batch": 10,
+      "decision": "accepted_after_coordinator_read",
+      "reason": "原文保留と思います，是伊纲对凶手倾向的判断；现译删去主观判断标记，直接确认为事实。",
+      "source": "<color=0>うーん…アルマダには確かに、</color><row/><color=0>そんな傾向もあると思います。</color><ctrl=2E/>",
+      "before": "<color=0>“嗯……阿尔马达确实</color><row/><color=0>有这种倾向。</color><ctrl=2E/>",
+      "after": "<color=0>“嗯……我觉得阿尔马达确实</color><row/><color=0>也有这种倾向。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_2.dat/c3-00:20738",
+      "batch": 10,
+      "decision": "accepted_after_coordinator_read",
+      "reason": "原文のはずです保留推断语气，现译把久我的真正目的直接定为已确认事实；同时应仅强调真正的杀人凶手。",
+      "source": "<color=0>でも真の目的はといったら、</color><row/><color=2>本当の殺人者</color><color=0>のはずです。</color><ctrl=2E/>",
+      "before": "<color=0>“不过，他真正想找的，</color><row/><color=2>是真正的杀人凶手</color><color=0>。”</color><ctrl=2E/>",
+      "after": "<color=0>“不过，他真正想找的，应该是</color><row/><color=2>真正的杀人凶手</color><color=0>。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_2.dat/c3-01a:23180",
+      "batch": 10,
+      "decision": "accepted_after_coordinator_read",
+      "reason": "昨日は何時に起きてたよね在这里是举例复述对方准确说出某个起床时间，而不是问几点起床。现译读成询问，削弱跟踪者知道她作息的关键线索。",
+      "source": "<color=6>イクルミ</color><color=0>：…!!</color><ctrl=3B/><row/><color=13>りお</color><color=0>：すごい怖かったよ。</color><ctrl=3B/><row/><color=13>りお</color><color=0>：なんで知ってるの!?</color><ctrl=2F/><row/><color=0>…って思って。</color><ctrl=3B/><row/><color=6>イクルミ</color><color=0>：そういえば、</color><ctrl=2F/><row/><color=0>僕らが探偵であることも</color><ctrl=2F/><row/><color=0>知ってるふうだったな…。</color><ctrl=3B/><row/><color=13>りお</color><color=0>：気味悪いよね？</color><ctrl=3B/><row/><color=13>りお</color><color=0>：それからがもう…</color><ctrl=2F/><row/><color=0>大変だったんだから。</color><ctrl=3B/><row/><color=13>りお</color><color=0>：昨日は何時に起きてたよね、</color><ctrl=2F/><row/><color=0>とか…</color><ctrl=3B/><row/><color=13>りお</color><color=0>：今日はこんなテレビ見てた</color><ctrl=2F/><row/><color=0>よね…とか、毎日言ってくるの。</color><ctrl=3B/><row/><color=6>イクルミ</color><color=0>：うわあ、それはコワイ…</color><ctrl=3B/><row/><color=6>イクルミ</color><color=0>：で、それって、</color><ctrl=2F/><row/><color=0>全部当たってたの？</color><ctrl=3B/><row/><color=13>りお</color><color=0>：うん…。</color><ctrl=2F/><row/><color=0>もう、ホント気味悪くて…。</color><ctrl=3B/><row/><color=13>りお</color><color=0>：で、ＭＯ内のお友達とか</color><ctrl=2F/><row/><color=0>みんなに相談して…</color><ctrl=3B/><row/><color=13>りお</color><color=0>：それでようやく、</color><ctrl=2F/><row/><color=0>もう近付かないってことで、</color><ctrl=2F/><row/><color=0>話がついたの。</color><ctrl=3B/><row/><color=6>イクルミ</color><color=0>：そうだったのか…。</color><ctrl=2E/>",
+      "before": "<color=6>伊库鲁米</color><color=0>：“……！！”</color><ctrl=3B/><row/><color=13>莉绪</color><color=0>：“真的吓死我了。”</color><ctrl=3B/><row/><color=13>莉绪</color><color=0>：“他怎么会知道？！</color><ctrl=2F/><row/><color=0>……我当时就这么想。”</color><ctrl=3B/><row/><color=6>伊库鲁米</color><color=0>：“说起来，</color><ctrl=2F/><row/><color=0>我们是侦探这件事，</color><ctrl=2F/><row/><color=0>他好像也知道……”</color><ctrl=3B/><row/><color=13>莉绪</color><color=0>：“很诡异吧？”</color><ctrl=3B/><row/><color=13>莉绪</color><color=0>：“从那以后……</color><ctrl=2F/><row/><color=0>真是受够了。”</color><ctrl=3B/><row/><color=13>莉绪</color><color=0>：“昨天你几点起来的，对吧？</color><ctrl=2F/><row/><color=0>之类的……”</color><ctrl=3B/><row/><color=13>莉绪</color><color=0>：“今天看了这个电视节目，</color><ctrl=2F/><row/><color=0>对吧……每天都对我说这些。”</color><ctrl=3B/><row/><color=6>伊库鲁米</color><color=0>：“哇，那可真吓人……”</color><ctrl=3B/><row/><color=6>伊库鲁米</color><color=0>：“那么，那些事</color><ctrl=2F/><row/><color=0>他全说中了吗？”</color><ctrl=3B/><row/><color=13>莉绪</color><color=0>：“嗯……</color><ctrl=2F/><row/><color=0>真的毛骨悚然……”</color><ctrl=3B/><row/><color=13>莉绪</color><color=0>：“后来，我跟ＭＯ里的朋友</color><ctrl=2F/><row/><color=0>还有其他人商量……”</color><ctrl=3B/><row/><color=13>莉绪</color><color=0>：“最后总算</color><ctrl=2F/><row/><color=0>谈妥了，让他别再接近我</color><ctrl=2F/><row/><color=0>。”</color><ctrl=3B/><row/><color=6>伊库鲁米</color><color=0>：“原来如此……”</color><ctrl=2E/>",
+      "after": "<color=6>伊库鲁米</color><color=0>：“……！！”</color><ctrl=3B/><row/><color=13>莉绪</color><color=0>：“真的吓死我了。”</color><ctrl=3B/><row/><color=13>莉绪</color><color=0>：“他怎么会知道？！</color><ctrl=2F/><row/><color=0>……我当时就这么想。”</color><ctrl=3B/><row/><color=6>伊库鲁米</color><color=0>：“说起来，</color><ctrl=2F/><row/><color=0>我们是侦探这件事，</color><ctrl=2F/><row/><color=0>他好像也知道……”</color><ctrl=3B/><row/><color=13>莉绪</color><color=0>：“很诡异吧？”</color><ctrl=3B/><row/><color=13>莉绪</color><color=0>：“从那以后……</color><ctrl=2F/><row/><color=0>真是受够了。”</color><ctrl=3B/><row/><color=13>莉绪</color><color=0>：“昨天你是某点钟起床的，对吧？</color><ctrl=2F/><row/><color=0>之类的……”</color><ctrl=3B/><row/><color=13>莉绪</color><color=0>：“今天看了这个电视节目，</color><ctrl=2F/><row/><color=0>对吧……每天都对我说这些。”</color><ctrl=3B/><row/><color=6>伊库鲁米</color><color=0>：“哇，那可真吓人……”</color><ctrl=3B/><row/><color=6>伊库鲁米</color><color=0>：“那么，那些事</color><ctrl=2F/><row/><color=0>他全说中了吗？”</color><ctrl=3B/><row/><color=13>莉绪</color><color=0>：“嗯……</color><ctrl=2F/><row/><color=0>真的毛骨悚然……”</color><ctrl=3B/><row/><color=13>莉绪</color><color=0>：“后来，我跟ＭＯ里的朋友</color><ctrl=2F/><row/><color=0>还有其他人商量……”</color><ctrl=3B/><row/><color=13>莉绪</color><color=0>：“最后总算</color><ctrl=2F/><row/><color=0>谈妥了，让他别再接近我</color><ctrl=2F/><row/><color=0>。”</color><ctrl=3B/><row/><color=6>伊库鲁米</color><color=0>：“原来如此……”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_2.dat/c3-01a:41858",
+      "batch": 10,
+      "decision": "accepted_after_coordinator_read",
+      "reason": "前句说谁也不知道何为他人的幸福，又问听者明不明白；本句追问能否明白不知道这件事。现译变成能否理解自己所不知道的事情，改变话语逻辑并新增自己。",
+      "source": "<color=0>しかし分からないことが</color><row/><color=0>分かるのか!?</color><ctrl=2E/>",
+      "before": "<color=0>可你又能明白</color><row/><color=0>自己不知道的事吗？！”</color><ctrl=2E/>",
+      "after": "<color=0>可你又能明白</color><row/><color=0>‘不知道’这件事吗？！”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_2.dat/c3-01b:22677",
+      "batch": 11,
+      "decision": "accepted_after_coordinator_read",
+      "reason": "原文在指出生王与网名イクルミ同音；译为“同一个名字”使中文生王／伊库鲁米之间的关系无法理解，应说明读音相同。",
+      "source": "<color=0>えっ…？　イクルミさん!?</color><row/><color=0>…そういえば同じ名前ですよね。</color><ctrl=2E/>",
+      "before": "<color=0>“咦……？伊库鲁米？！</color><row/><color=0>……说起来，的确是同一个名字呢。”</color><ctrl=2E/>",
+      "after": "<color=0>“咦……？伊库鲁米？！</color><row/><color=0>……说起来，名字的读音的确一样呢。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_2.dat/c3-01b:26357",
+      "batch": 11,
+      "decision": "accepted_after_coordinator_read",
+      "reason": "原文是失忆者“不记得去过”，现译“应该没有去过”把记忆缺失转成对经历的判断，应保留记忆限定。",
+      "source": "<color=0>狭稲市にも行った覚えは</color><row/><color=0>無いはずなんですが…。</color><ctrl=2E/>",
+      "before": "<color=0>应该也没有去过</color><row/><color=0>狭稻市才对……”</color><ctrl=2E/>",
+      "after": "<color=0>我应该也不记得自己</color><row/><color=0>去过狭稻市才对……”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_2.dat/c3-01b:39744",
+      "batch": 11,
+      "decision": "accepted_after_coordinator_read",
+      "reason": "原文“そうです”表示听说老家未发生火灾，现译“应该”变成本人推测，应保留信息来自转述。",
+      "source": "<color=0>ですが、少なくとも実家では</color><row/><color=0>火災は起こってないそうです…。</color><ctrl=2E/>",
+      "before": "<color=0>不过，至少家里</color><row/><color=0>应该没有发生过火灾……”</color><ctrl=2E/>",
+      "after": "<color=0>不过，听说至少家里</color><row/><color=0>没有发生过火灾……”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_2.dat/c3-01e:2976",
+      "batch": 12,
+      "decision": "accepted_after_coordinator_read",
+      "reason": "原文比较的是与癸生川相识/来往的时间长短（付き合い…ずっと長い），现译改为交情深浅，改变明确的人物关系事实。",
+      "source": "<color=0>癸生川との付き合いは、</color><row/><color=0>我々よりもずっと長いらしく、</color><ctrl=2E/>",
+      "before": "<color=0>据说他和癸生川的交情，</color><row/><color=0>比我们深得多。</color><ctrl=2E/>",
+      "after": "<color=0>据说他和癸生川相识的时间，</color><row/><color=0>比我们长得多。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_2.dat/c3-01e:28686",
+      "batch": 12,
+      "decision": "accepted_after_coordinator_read",
+      "reason": "出直しましょう只表示稍后再来；现译“改天”明确推迟到另一天，原文没有跨日要求，而且这是同日自由调查提示。",
+      "source": "<color=0>今は捜査中で、いないそうです。</color><row/><color=0>出直しましょうか。</color><ctrl=2E/>",
+      "before": "<color=0>“听说他正在外面查案，不在。</color><row/><color=0>我们改天再来吧。”</color><ctrl=2E/>",
+      "after": "<color=0>“听说他正在外面查案，不在。</color><row/><color=0>我们稍后再来吧。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_2.dat/c3-02a:33041",
+      "batch": 12,
+      "decision": "accepted_after_coordinator_read",
+      "reason": "647开始的弥勒院发言在本单元结束，649已换为生王回应。现译漏掉闭引号，导致两位角色的发言混在同一引号中。",
+      "source": "<color=0>いつしかそいつは、</color><color=2>殺人鬼</color><color=0>って</color><row/><color=0>ことになってしまう。</color><ctrl=2E/>",
+      "before": "<color=0>不知不觉中，他就成了</color><color=2>杀人魔</color><color=0>。</color><row/><color=0></color><ctrl=2E/>",
+      "after": "<color=0>不知不觉中，他就成了</color><color=2>杀人魔</color><color=0>。”</color><row/><color=0></color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_2.dat/c3-02b:6861",
+      "batch": 12,
+      "decision": "accepted_after_coordinator_read",
+      "reason": "猫猫对ゆきいるか仅按游戏中的少女形象谈论，原文用あのコ等未指明男性的称谓。译文额外使用男性“他”，会把江本的现实性别带入该角色的知识范围。建议用中性的“对方”，不提前确认操作者性别。",
+      "source": "<color=6>イクルミ</color><color=0>：ゆきいるかさんについて、</color><ctrl=2F/><row/><color=0>知ってることを教えて欲しいんだけ</color><ctrl=2F/><row/><color=0>ど…</color><ctrl=3B/><row/><color=5>ねこねこ</color><color=0>：そうだにゃ～</color><ctrl=3B/><row/><color=5>ねこねこ</color><color=0>：ウチ、そんにゃ</color><ctrl=2F/><row/><color=0>仲良かったわけじゃないんだけどにゃ</color><ctrl=3B/><row/><color=5>ねこねこ</color><color=0>：あのコ、やたらと</color><ctrl=2F/><row/><color=0>妙なウワサばっかり持ってくるにゃ</color><ctrl=3B/><row/><color=6>イクルミ</color><color=0>：ああ…確かに色んな</color><ctrl=2F/><row/><color=0>ウワサをばらまいてる感じするなあ。</color><ctrl=3B/><row/><color=5>ねこねこ</color><color=0>：そーゆー時くらいしか、</color><ctrl=2F/><row/><color=0>話さないにゃぁ・ω・</color><ctrl=2E/>",
+      "before": "<color=6>伊库鲁米</color><color=0>：“关于雪海豚，</color><ctrl=2F/><row/><color=0>你知道的事能告诉我</color><ctrl=2F/><row/><color=0>吗……”</color><ctrl=3B/><row/><color=5>猫猫</color><color=0>：“我想想喵～”</color><ctrl=3B/><row/><color=5>猫猫</color><color=0>：“人家跟他</color><ctrl=2F/><row/><color=0>也没有特别要好喵。”</color><ctrl=3B/><row/><color=5>猫猫</color><color=0>：“那孩子总是</color><ctrl=2F/><row/><color=0>带来一堆奇怪的传闻喵。”</color><ctrl=3B/><row/><color=6>伊库鲁米</color><color=0>：“啊……他确实好像</color><ctrl=2F/><row/><color=0>到处在散布各种传闻。”</color><ctrl=3B/><row/><color=5>猫猫</color><color=0>：“也只有这种时候，</color><ctrl=2F/><row/><color=0>才会说上话喵・ω・”</color><ctrl=2E/>",
+      "after": "<color=6>伊库鲁米</color><color=0>：“关于雪海豚，</color><ctrl=2F/><row/><color=0>你知道的事能告诉我</color><ctrl=2F/><row/><color=0>吗……”</color><ctrl=3B/><row/><color=5>猫猫</color><color=0>：“我想想喵～”</color><ctrl=3B/><row/><color=5>猫猫</color><color=0>：“人家跟对方</color><ctrl=2F/><row/><color=0>也没有特别要好喵。”</color><ctrl=3B/><row/><color=5>猫猫</color><color=0>：“那孩子总是</color><ctrl=2F/><row/><color=0>带来一堆奇怪的传闻喵。”</color><ctrl=3B/><row/><color=6>伊库鲁米</color><color=0>：“啊……对方确实好像</color><ctrl=2F/><row/><color=0>到处在散布各种传闻。”</color><ctrl=3B/><row/><color=5>猫猫</color><color=0>：“也只有这种时候，</color><ctrl=2F/><row/><color=0>才会说上话喵・ω・”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_2.dat/c3-02b:7706",
+      "batch": 12,
+      "decision": "accepted_after_coordinator_read",
+      "reason": "猫猫对ゆきいるか仅按游戏中的少女形象谈论，原文用あのコ等未指明男性的称谓。译文额外使用男性“他”，会把江本的现实性别带入该角色的知识范围。建议用中性的“对方”，不提前确认操作者性别。",
+      "source": "<color=6>イクルミ</color><color=0>：ゆきいるかさんとは</color><ctrl=2F/><row/><color=0>どんな話題が多かった？</color><ctrl=3B/><row/><color=5>ねこねこ</color><color=0>：んー。。。</color><ctrl=3B/><row/><color=5>ねこねこ</color><color=0>：ゲームの話よりも</color><ctrl=2F/><row/><color=0>現実での話が多かったにゃあ</color><ctrl=2F/><row/><color=0>（￣ω￣</color><ctrl=3B/><row/><color=6>イクルミ</color><color=0>：たとえば…？</color><ctrl=3B/><row/><color=5>ねこねこ</color><color=0>：あのコ、アイドルとか</color><ctrl=2F/><row/><color=0>女のコが大好きみたいでにゃ（・ω・</color><ctrl=3B/><row/><color=5>ねこねこ</color><color=0>：アイドルの誰々に会った…</color><ctrl=2F/><row/><color=0>とかそんな自慢話が多かったにゃ～</color><ctrl=3B/><row/><color=6>イクルミ</color><color=0>：なるほど…。</color><ctrl=3B/><row/><color=5>ねこねこ</color><color=0>：そういえば、</color><ctrl=2F/><row/><color=0>特に</color><color=2>みぃゆ</color><color=0>が好きだって言ってた</color><ctrl=2F/><row/><color=0>にゃ（｀ω´</color><ctrl=3B/><row/><color=6>イクルミ</color><color=0>：みぃゆ？</color><ctrl=3B/><row/><color=6>イクルミ</color><color=0>：…って、あの、</color><ctrl=2F/><row/><color=0>歌手の</color><color=2>水沼みゆき</color><color=0>…だっけ？</color><ctrl=3B/><row/><color=5>ねこねこ</color><color=0>：そうにゃ、そうにゃ。</color><ctrl=2F/><row/><color=0>何度も会ってるって言ってたにゃ</color><ctrl=3B/><row/><color=6>イクルミ</color><color=0>：本当かなあ…？</color><ctrl=3B/><row/><color=5>ねこねこ</color><color=0>：どーせウソだと思うけど</color><ctrl=2F/><row/><color=0>にゃ（＾ω＾；</color><ctrl=3B/><row/><color=6>イクルミ</color><color=0>：ふむ…。</color><ctrl=2E/>",
+      "before": "<color=6>伊库鲁米</color><color=0>：“和雪海豚</color><ctrl=2F/><row/><color=0>经常聊什么话题？”</color><ctrl=3B/><row/><color=5>猫猫</color><color=0>：“嗯……”</color><ctrl=3B/><row/><color=5>猫猫</color><color=0>：“比起游戏，</color><ctrl=2F/><row/><color=0>现实里的事情聊得更多喵。</color><ctrl=2F/><row/><color=0>（￣ω￣”</color><ctrl=3B/><row/><color=6>伊库鲁米</color><color=0>：“比如……？”</color><ctrl=3B/><row/><color=5>猫猫</color><color=0>：“那孩子好像特别喜欢偶像，</color><ctrl=2F/><row/><color=0>还有女孩子喵（・ω・”</color><ctrl=3B/><row/><color=5>猫猫</color><color=0>：“他经常吹嘘，说见过某某偶像……</color><ctrl=2F/><row/><color=0>大多都是这种话喵～”</color><ctrl=3B/><row/><color=6>伊库鲁米</color><color=0>：“原来如此……”</color><ctrl=3B/><row/><color=5>猫猫</color><color=0>：“说起来，</color><ctrl=2F/><row/><color=0>他说特别喜欢</color><color=2>美优</color><color=0>，</color><ctrl=2F/><row/><color=0>喵（｀ω´”</color><ctrl=3B/><row/><color=6>伊库鲁米</color><color=0>：“美优？”</color><ctrl=3B/><row/><color=6>伊库鲁米</color><color=0>：“……就是那个，</color><ctrl=2F/><row/><color=0>歌手</color><color=2>水沼美雪</color><color=0>……对吧？”</color><ctrl=3B/><row/><color=5>猫猫</color><color=0>：“对喵，对喵。</color><ctrl=2F/><row/><color=0>他说已经见过好几次了喵。”</color><ctrl=3B/><row/><color=6>伊库鲁米</color><color=0>：“是真的吗……？”</color><ctrl=3B/><row/><color=5>猫猫</color><color=0>：“反正人家觉得是骗人的，</color><ctrl=2F/><row/><color=0>喵（＾ω＾；”</color><ctrl=3B/><row/><color=6>伊库鲁米</color><color=0>：“嗯……”</color><ctrl=2E/>",
+      "after": "<color=6>伊库鲁米</color><color=0>：“和雪海豚</color><ctrl=2F/><row/><color=0>经常聊什么话题？”</color><ctrl=3B/><row/><color=5>猫猫</color><color=0>：“嗯……”</color><ctrl=3B/><row/><color=5>猫猫</color><color=0>：“比起游戏，</color><ctrl=2F/><row/><color=0>现实里的事情聊得更多喵。</color><ctrl=2F/><row/><color=0>（￣ω￣”</color><ctrl=3B/><row/><color=6>伊库鲁米</color><color=0>：“比如……？”</color><ctrl=3B/><row/><color=5>猫猫</color><color=0>：“那孩子好像特别喜欢偶像，</color><ctrl=2F/><row/><color=0>还有女孩子喵（・ω・”</color><ctrl=3B/><row/><color=5>猫猫</color><color=0>：“对方经常吹嘘，说见过某某偶像……</color><ctrl=2F/><row/><color=0>大多都是这种话喵～”</color><ctrl=3B/><row/><color=6>伊库鲁米</color><color=0>：“原来如此……”</color><ctrl=3B/><row/><color=5>猫猫</color><color=0>：“说起来，</color><ctrl=2F/><row/><color=0>对方说特别喜欢</color><color=2>美优</color><color=0>，</color><ctrl=2F/><row/><color=0>喵（｀ω´”</color><ctrl=3B/><row/><color=6>伊库鲁米</color><color=0>：“美优？”</color><ctrl=3B/><row/><color=6>伊库鲁米</color><color=0>：“……就是那个，</color><ctrl=2F/><row/><color=0>歌手</color><color=2>水沼美雪</color><color=0>……对吧？”</color><ctrl=3B/><row/><color=5>猫猫</color><color=0>：“对喵，对喵。</color><ctrl=2F/><row/><color=0>对方说已经见过好几次了喵。”</color><ctrl=3B/><row/><color=6>伊库鲁米</color><color=0>：“是真的吗……？”</color><ctrl=3B/><row/><color=5>猫猫</color><color=0>：“反正人家觉得是骗人的，</color><ctrl=2F/><row/><color=0>喵（＾ω＾；”</color><ctrl=3B/><row/><color=6>伊库鲁米</color><color=0>：“嗯……”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_2.dat/c3-02b:10316",
+      "batch": 12,
+      "decision": "accepted_after_coordinator_read",
+      "reason": "猫猫对ゆきいるか仅按游戏中的少女形象谈论，原文用あのコ等未指明男性的称谓。译文额外使用男性“他”，会把江本的现实性别带入该角色的知识范围。建议用中性的“对方”，不提前确认操作者性别。",
+      "source": "<color=6>イクルミ</color><color=0>：ゆきいるかさんのこと、</color><ctrl=2F/><row/><color=0>何か思いだした…？</color><ctrl=3B/><row/><color=5>ねこねこ</color><color=0>：んー、そ、そうだにゃ～</color><ctrl=2F/><row/><color=0>（－ω－</color><ctrl=3B/><row/><color=5>ねこねこ</color><color=0>：ん…？　ん、ん、ん…!?</color><ctrl=2F/><row/><color=0>（￣ω￣</color><ctrl=3B/><row/><color=5>ねこねこ</color><color=0>：ひらめいたにゃ！</color><ctrl=2F/><row/><color=0>Σ（◎ω◎</color><ctrl=3B/><row/><color=6>イクルミ</color><color=0>：！</color><ctrl=3B/><row/><color=5>ねこねこ</color><color=0>：</color><color=2>メイド</color><color=0>にゃ！</color><ctrl=3B/><row/><color=6>イクルミ</color><color=0>：め、メイド…!?</color><ctrl=3B/><row/><color=5>ねこねこ</color><color=0>：よく行くネットカフェの</color><ctrl=2F/><row/><color=2>メイド</color><color=0>が大好きだって言ってた</color><ctrl=2F/><row/><color=0>にゃ！（｀ω´</color><ctrl=3B/><row/><color=5>ねこねこ</color><color=0>：つーか、だからよく</color><ctrl=2F/><row/><color=0>行ってるんだと思うけどにゃ</color><ctrl=2F/><row/><color=0>（・ω・</color><ctrl=3B/><row/><color=6>イクルミ</color><color=0>：なるほど、</color><ctrl=2F/><row/><color=0>ネットカフェとメイドか…</color><ctrl=2E/>",
+      "before": "<color=6>伊库鲁米</color><color=0>：“关于雪海豚，</color><ctrl=2F/><row/><color=0>想起什么了吗……？”</color><ctrl=3B/><row/><color=5>猫猫</color><color=0>：“嗯，那、那个喵～</color><ctrl=2F/><row/><color=0>（－ω－”</color><ctrl=3B/><row/><color=5>猫猫</color><color=0>：“嗯……？嗯，嗯，嗯……？！</color><ctrl=2F/><row/><color=0>（￣ω￣”</color><ctrl=3B/><row/><color=5>猫猫</color><color=0>：“想到了喵！</color><ctrl=2F/><row/><color=0>Σ（◎ω◎”</color><ctrl=3B/><row/><color=6>伊库鲁米</color><color=0>：“！”</color><ctrl=3B/><row/><color=5>猫猫</color><color=0>：“</color><color=2>女仆</color><color=0>喵！”</color><ctrl=3B/><row/><color=6>伊库鲁米</color><color=0>：“女、女仆……？！”</color><ctrl=3B/><row/><color=5>猫猫</color><color=0>：“他说常去的那家网咖的</color><ctrl=2F/><row/><color=2>女仆</color><color=0>，他特别喜欢</color><ctrl=2F/><row/><color=0>喵！（｀ω´”</color><ctrl=3B/><row/><color=5>猫猫</color><color=0>：“不过人家觉得，</color><ctrl=2F/><row/><color=0>他就是为这个才老去的喵。</color><ctrl=2F/><row/><color=0>（・ω・”</color><ctrl=3B/><row/><color=6>伊库鲁米</color><color=0>：“原来如此，</color><ctrl=2F/><row/><color=0>网咖和女仆啊……”</color><ctrl=2E/>",
+      "after": "<color=6>伊库鲁米</color><color=0>：“关于雪海豚，</color><ctrl=2F/><row/><color=0>想起什么了吗……？”</color><ctrl=3B/><row/><color=5>猫猫</color><color=0>：“嗯，那、那个喵～</color><ctrl=2F/><row/><color=0>（－ω－”</color><ctrl=3B/><row/><color=5>猫猫</color><color=0>：“嗯……？嗯，嗯，嗯……？！</color><ctrl=2F/><row/><color=0>（￣ω￣”</color><ctrl=3B/><row/><color=5>猫猫</color><color=0>：“想到了喵！</color><ctrl=2F/><row/><color=0>Σ（◎ω◎”</color><ctrl=3B/><row/><color=6>伊库鲁米</color><color=0>：“！”</color><ctrl=3B/><row/><color=5>猫猫</color><color=0>：“</color><color=2>女仆</color><color=0>喵！”</color><ctrl=3B/><row/><color=6>伊库鲁米</color><color=0>：“女、女仆……？！”</color><ctrl=3B/><row/><color=5>猫猫</color><color=0>：“对方说常去的那家网咖的</color><ctrl=2F/><row/><color=2>女仆</color><color=0>，对方特别喜欢</color><ctrl=2F/><row/><color=0>喵！（｀ω´”</color><ctrl=3B/><row/><color=5>猫猫</color><color=0>：“不过人家觉得，</color><ctrl=2F/><row/><color=0>对方就是为这个才老去的喵。</color><ctrl=2F/><row/><color=0>（・ω・”</color><ctrl=3B/><row/><color=6>伊库鲁米</color><color=0>：“原来如此，</color><ctrl=2F/><row/><color=0>网咖和女仆啊……”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_2.dat/c3-02c:31499",
+      "batch": 13,
+      "decision": "accepted_after_coordinator_read",
+      "reason": "本句延续伊纲的敬体口吻（将来さん／ありますし／でしょう），下一条31663转为生王的口语感想（思ってたよ）。现译引号跨过说话人转换，直到31998才闭合，应在本句结束伊纲发言。",
+      "source": "<color=0>将来さんの例もありますし、まあ</color><row/><color=0>そういう人もいるんでしょう。</color><ctrl=2E/>",
+      "before": "<color=0>“有将来先生这个例子在，</color><row/><color=0>这种人也不奇怪吧。</color><ctrl=2E/>",
+      "after": "<color=0>“有将来先生这个例子在，</color><row/><color=0>这种人也不奇怪吧。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_2.dat/c3-02c:31663",
+      "batch": 13,
+      "decision": "accepted_after_coordinator_read",
+      "reason": "与31499配套：此处已转入生王谈原先印象，需重新开启其发言引号，不能沿用上一位角色的引号。后续31998现有闭引号可保留。",
+      "source": "<color=0>しかし…絶対、本人も気さくな</color><row/><color=0>兄ちゃんだと思ってたよ…。</color><ctrl=2E/>",
+      "before": "<color=0>不过……我原本认定</color><row/><color=0>对方也是个随和的小伙子呢……</color><ctrl=2E/>",
+      "after": "<color=0>“不过……我原本认定</color><row/><color=0>对方也是个随和的小伙子呢……</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_2.dat/c3-02d:14119",
+      "batch": 13,
+      "decision": "accepted_after_coordinator_read",
+      "reason": "原文仅称アイナさん，现译新增“小姐”性别称谓；此时讨论账号艾纳与久我及其他使用者的关联，不能凭账号名添加女性身份。用账号原称即可。",
+      "source": "<color=0>特に１３時前後。</color><row/><color=0>アイナさんを殺害する際に…</color><ctrl=2E/>",
+      "before": "<color=0>尤其是１３点前后，</color><row/><color=0>杀害艾纳小姐的时候……</color><ctrl=2E/>",
+      "after": "<color=0>尤其是１３点前后，</color><row/><color=0>杀害艾纳的时候……</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_2.dat/c3-02d:16346",
+      "batch": 13,
+      "decision": "accepted_after_coordinator_read",
+      "reason": "原文アイナさん不指定性别；现译“艾纳小姐”无依据，而且下条明确把这里的艾纳与久我先生对应。删除自加性别称谓，保留推測问句。",
+      "source": "<color=0>アイナさんが、</color><color=2>アルマダの姉</color><color=0>を</color><row/><color=0>殺した…ということですか？</color><ctrl=2E/>",
+      "before": "<color=0>艾纳小姐杀了</color><color=2>阿尔马达的姐姐</color><color=0>……</color><row/><color=0>是这个意思吗？</color><ctrl=2E/>",
+      "after": "<color=0>艾纳杀了</color><color=2>阿尔马达的姐姐</color><color=0>……</color><row/><color=0>是这个意思吗？</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_2.dat/c3-02d:20004",
+      "batch": 13,
+      "decision": "accepted_after_coordinator_read",
+      "reason": "本段关键在于阿尔马达不是使用者自己的角色、而是他人的角色。现译“并不属于他，而是另一个人”语法上将角色直接等同真人，模糊账号归属与操作者的区分。建议明确“别人的角色”，不补充具体身份。",
+      "source": "<color=0>アルマダそのものが、自分の持つ</color><row/><color=0>キャラではない別人なんだ、と…</color><ctrl=2E/>",
+      "before": "<color=0>而是指，阿尔马达这个角色本身，</color><row/><color=0>并不属于他，而是另一个人……</color><ctrl=2E/>",
+      "after": "<color=0>而是指，阿尔马达本来就不是</color><row/><color=0>他自己的角色，而是别人的角色……</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_2.dat/c3-02e:4515",
+      "batch": 14,
+      "decision": "accepted_after_coordinator_read",
+      "reason": "承接上一句寻找索亚子，現場周辺にもいない省略的主语仍是索亚子；现译现场附近也没人扩大为现场无任何人，会改变现场人员/目击者范围。",
+      "source": "<color=0>現場周辺にもいないし、</color><row/><color=0>やっぱり来てないのかな…。</color><ctrl=2E/>",
+      "before": "<color=0>“现场附近也没人，</color><row/><color=0>她果然没来吗……”</color><ctrl=2E/>",
+      "after": "<color=0>“现场附近也没见到她，</color><row/><color=0>她果然没来吗……”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_2.dat/c3-04:3635",
+      "batch": 16,
+      "decision": "accepted_after_coordinator_read",
+      "reason": "把“已经杀了”移到下一个 ctrl=2F 之后，延后了杀害信息；源文该边界前已经说出杀しちゃった。",
+      "source": "<color=6>イクルミ</color><color=0>：ゆきいるかさんを</color><ctrl=2F/><row/><color=0>どこまで知ってるんだ！</color><ctrl=3B/><row/><color=6>イクルミ</color><color=0>：本当に殺すつもり</color><ctrl=2F/><row/><color=0>なのか…!?</color><ctrl=3B/><row/><color=14>アルマダ</color><color=0>：うひゃひゃ、</color><ctrl=2F/><row/><color=0>もしかするともう殺しちゃった</color><ctrl=2F/><row/><color=0>かもネ～？</color><ctrl=3B/><row/><color=6>イクルミ</color><color=0>：ええっ…!?</color><ctrl=3B/><row/><color=14>アルマダ</color><color=0>：あっはは、うろたえてる</color><ctrl=2F/><row/><color=0>ねえ。たのしー♪</color><ctrl=3B/><row/><color=6>イクルミ</color><color=0>：…くっ！</color><ctrl=2E/>",
+      "before": "<color=6>伊库鲁米</color><color=0>：你对雪海豚</color><ctrl=2F/><row/><color=0>究竟了解多少！</color><ctrl=3B/><row/><color=6>伊库鲁米</color><color=0>：你真的打算</color><ctrl=2F/><row/><color=0>杀了她吗……！？</color><ctrl=3B/><row/><color=14>阿尔马达</color><color=0>：嘻哈哈，</color><ctrl=2F/><row/><color=0>说不定我已经</color><ctrl=2F/><row/><color=0>把她杀掉了哦～？</color><ctrl=3B/><row/><color=6>伊库鲁米</color><color=0>：什么……！？</color><ctrl=3B/><row/><color=14>阿尔马达</color><color=0>：啊哈哈，你慌了</color><ctrl=2F/><row/><color=0>呢。真好玩♪</color><ctrl=3B/><row/><color=6>伊库鲁米</color><color=0>：……可恶！</color><ctrl=2E/>",
+      "after": "<color=6>伊库鲁米</color><color=0>：你对雪海豚</color><ctrl=2F/><row/><color=0>究竟了解多少！</color><ctrl=3B/><row/><color=6>伊库鲁米</color><color=0>：你真的打算</color><ctrl=2F/><row/><color=0>杀了她吗……！？</color><ctrl=3B/><row/><color=14>阿尔马达</color><color=0>：嘻哈哈，</color><ctrl=2F/><row/><color=0>说不定我已经把她杀掉了</color><ctrl=2F/><row/><color=0>也说不准哦～？</color><ctrl=3B/><row/><color=6>伊库鲁米</color><color=0>：什么……！？</color><ctrl=3B/><row/><color=14>阿尔马达</color><color=0>：啊哈哈，你慌了</color><ctrl=2F/><row/><color=0>呢。真好玩♪</color><ctrl=3B/><row/><color=6>伊库鲁米</color><color=0>：……可恶！</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_2.dat/c3-04:6190",
+      "batch": 16,
+      "decision": "accepted_after_coordinator_read",
+      "reason": "原文在 ctrl=2F 前已说出辱骂对象“那个烂女人”，译文把对象完全推迟到边界后；应保持点击内信息。",
+      "source": "<color=6>イクルミ</color><color=0>：そういえば、</color><ctrl=2F/><row/><color=0>りおさんのことだけど…</color><ctrl=3B/><row/><color=14>アルマダ</color><color=0>：ああ？　りお～!?</color><ctrl=3B/><row/><color=14>アルマダ</color><color=0>：あのクソ女の話なんて</color><ctrl=2F/><row/><color=0>すんじゃねーよ！</color><ctrl=3B/><row/><color=6>イクルミ</color><color=0>：…!?</color><ctrl=2E/>",
+      "before": "<color=6>伊库鲁米</color><color=0>：说起来，</color><ctrl=2F/><row/><color=0>关于莉绪……</color><ctrl=3B/><row/><color=14>阿尔马达</color><color=0>：啊？莉绪～！？</color><ctrl=3B/><row/><color=14>阿尔马达</color><color=0>：少跟我提</color><ctrl=2F/><row/><color=0>那个烂女人！</color><ctrl=3B/><row/><color=6>伊库鲁米</color><color=0>：……！？</color><ctrl=2E/>",
+      "after": "<color=6>伊库鲁米</color><color=0>：说起来，</color><ctrl=2F/><row/><color=0>关于莉绪……</color><ctrl=3B/><row/><color=14>阿尔马达</color><color=0>：啊？莉绪～！？</color><ctrl=3B/><row/><color=14>阿尔马达</color><color=0>：那个烂女人的事，</color><ctrl=2F/><row/><color=0>少跟我提！</color><ctrl=3B/><row/><color=6>伊库鲁米</color><color=0>：……！？</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_2.dat/c3-04:9648",
+      "batch": 16,
+      "decision": "accepted_after_coordinator_read",
+      "reason": "阿尔马达说的“鞠滨一带”被移至后一个 ctrl=2F 单元；应在原边界前保留地点。",
+      "source": "<color=6>イクルミ</color><color=0>：鞠浜台駅前で見かけた…</color><ctrl=2F/><row/><color=0>ような…</color><ctrl=3B/><row/><color=14>アルマダ</color><color=0>：なに？本当か？</color><ctrl=3B/><row/><color=14>アルマダ</color><color=0>：最近、鞠浜界隈を</color><ctrl=2F/><row/><color=0>うろついてるってウワサらしく</color><ctrl=2F/><row/><color=0>てさ・・・・</color><ctrl=2E/>",
+      "before": "<color=6>伊库鲁米</color><color=0>：我在鞠滨台站前见过她……</color><ctrl=2F/><row/><color=0>好像吧……</color><ctrl=3B/><row/><color=14>阿尔马达</color><color=0>：什么？真的吗？</color><ctrl=3B/><row/><color=14>阿尔马达</color><color=0>：最近好像有传闻说，</color><ctrl=2F/><row/><color=0>她经常在鞠滨一带</color><ctrl=2F/><row/><color=0>出没呢……</color><ctrl=2E/>",
+      "after": "<color=6>伊库鲁米</color><color=0>：我在鞠滨台站前见过她……</color><ctrl=2F/><row/><color=0>好像吧……</color><ctrl=3B/><row/><color=14>阿尔马达</color><color=0>：什么？真的吗？</color><ctrl=3B/><row/><color=14>阿尔马达</color><color=0>：最近，在鞠滨一带，</color><ctrl=2F/><row/><color=0>听说她经常出没</color><ctrl=2F/><row/><color=0>呢……</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_2.dat/c3-04:10144",
+      "batch": 16,
+      "decision": "accepted_after_coordinator_read",
+      "reason": "桥町通り公共译名为桥町街，且咖啡馆名マルグリット不应被移过 ctrl=2F 边界。",
+      "source": "<color=6>イクルミ</color><color=0>：そういや、</color><ctrl=2F/><row/><color=0>橋町通りのマルグリットっていう</color><ctrl=2F/><row/><color=0>喫茶店にいたらしいよ。</color><ctrl=3B/><row/><color=14>アルマダ</color><color=0>：なんだって!?</color><ctrl=3B/><row/><color=14>アルマダ</color><color=0>：それ、本当か!?</color><ctrl=3B/><row/><color=14>アルマダ</color><color=0>：冗談でしたじゃ、</color><ctrl=2F/><row/><color=0>シャレになんないぞ!?</color><ctrl=3B/><row/><color=6>イクルミ</color><color=0>：いや・・・、</color><ctrl=2F/><row/><color=0>た、たしかそういう話で…。</color><ctrl=3B/><row/><color=14>アルマダ</color><color=0>：お前、これがどれだけ</color><ctrl=2F/><row/><color=0>大変なことか分かってるのか!?</color><ctrl=3B/><row/><color=14>アルマダ</color><color=0>：橋町通りのマルグリット</color><ctrl=2F/><row/><color=0>っつったら、</color><ctrl=2F/><row/><color=0>あの有名俳優がオーナーで…</color><ctrl=2E/>",
+      "before": "<color=6>伊库鲁米</color><color=0>：说起来，</color><ctrl=2F/><row/><color=0>听说她去了桥町路那家</color><ctrl=2F/><row/><color=0>叫玛格丽特的咖啡馆。</color><ctrl=3B/><row/><color=14>阿尔马达</color><color=0>：什么！？</color><ctrl=3B/><row/><color=14>阿尔马达</color><color=0>：这是真的吗！？</color><ctrl=3B/><row/><color=14>阿尔马达</color><color=0>：可别说什么开玩笑，</color><ctrl=2F/><row/><color=0>这事可开不得玩笑啊！？</color><ctrl=3B/><row/><color=6>伊库鲁米</color><color=0>：不……</color><ctrl=2F/><row/><color=0>我、我记得是这么说的……</color><ctrl=3B/><row/><color=14>阿尔马达</color><color=0>：你知道这件事</color><ctrl=2F/><row/><color=0>有多重要吗！？</color><ctrl=3B/><row/><color=14>阿尔马达</color><color=0>：桥町路的玛格丽特</color><ctrl=2F/><row/><color=0>那家店，</color><ctrl=2F/><row/><color=0>老板就是那位知名演员……</color><ctrl=2E/>",
+      "after": "<color=6>伊库鲁米</color><color=0>：说起来，</color><ctrl=2F/><row/><color=0>听说她去了桥町街那家玛格丽特</color><ctrl=2F/><row/><color=0>咖啡馆。</color><ctrl=3B/><row/><color=14>阿尔马达</color><color=0>：什么！？</color><ctrl=3B/><row/><color=14>阿尔马达</color><color=0>：这是真的吗！？</color><ctrl=3B/><row/><color=14>阿尔马达</color><color=0>：可别说什么开玩笑，</color><ctrl=2F/><row/><color=0>这事可开不得玩笑啊！？</color><ctrl=3B/><row/><color=6>伊库鲁米</color><color=0>：不……</color><ctrl=2F/><row/><color=0>我、我记得是这么说的……</color><ctrl=3B/><row/><color=14>阿尔马达</color><color=0>：你知道这件事</color><ctrl=2F/><row/><color=0>有多重要吗！？</color><ctrl=3B/><row/><color=14>阿尔马达</color><color=0>：桥町街的玛格丽特</color><ctrl=2F/><row/><color=0>那家店，</color><ctrl=2F/><row/><color=0>老板就是那位知名演员……</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_2.dat/c3-04:13599",
+      "batch": 16,
+      "decision": "accepted_after_coordinator_read",
+      "reason": "原文在同一 ctrl=2F 前已给出スマートで知的な顔立ち；译文把知性信息跨到下个单元。",
+      "source": "<color=6>イクルミ</color><color=0>：いやいや、</color><ctrl=2F/><row/><color=0>とてもスマートで知的な顔立ちの</color><ctrl=2F/><row/><color=0>人なんだよね。</color><ctrl=3B/><row/><color=14>アルマダ</color><color=0>：オホッ、そうか!?</color><ctrl=3B/><row/><color=14>アルマダ</color><color=0>：ウヒョホホ、</color><ctrl=2F/><row/><color=0>それはさぞやステキな人気者なん</color><ctrl=2F/><row/><color=0>だろうねえ。</color><ctrl=2E/>",
+      "before": "<color=6>伊库鲁米</color><color=0>：没什么，</color><ctrl=2F/><row/><color=0>只是他相貌英俊，</color><ctrl=2F/><row/><color=0>看着很有智慧嘛。</color><ctrl=3B/><row/><color=14>阿尔马达</color><color=0>：哦吼，是吗！？</color><ctrl=3B/><row/><color=14>阿尔马达</color><color=0>：嘻哈哈哈，</color><ctrl=2F/><row/><color=0>那他一定是个很迷人、</color><ctrl=2F/><row/><color=0>很受欢迎的人吧。</color><ctrl=2E/>",
+      "after": "<color=6>伊库鲁米</color><color=0>：没什么，</color><ctrl=2F/><row/><color=0>他相貌俊秀，透着知性，</color><ctrl=2F/><row/><color=0>就是这么个人嘛。</color><ctrl=3B/><row/><color=14>阿尔马达</color><color=0>：哦吼，是吗！？</color><ctrl=3B/><row/><color=14>阿尔马达</color><color=0>：嘻哈哈哈，</color><ctrl=2F/><row/><color=0>那他一定是个很迷人、</color><ctrl=2F/><row/><color=0>很受欢迎的人吧。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_2.dat/c3-04:15756",
+      "batch": 16,
+      "decision": "accepted_after_coordinator_read",
+      "reason": "伊纲作为想交谈对象的名字原文在 ctrl=2F 前已出现，译文推迟到后单元。",
+      "source": "<color=6>イクルミ</color><color=0>：伊綱君についてなん</color><ctrl=2F/><row/><color=0>だけど…</color><ctrl=3B/><row/><color=14>アルマダ</color><color=0>：…!!</color><ctrl=3B/><row/><color=14>アルマダ</color><color=0>：そうだ、</color><ctrl=2F/><row/><color=0>お前なんかよりも伊綱ちゃんと</color><ctrl=2F/><row/><color=0>話させてよ！</color><ctrl=3B/><row/><color=6>イクルミ</color><color=0>：いや、伊綱君は</color><ctrl=2F/><row/><color=0>今はいなくて…</color><ctrl=3B/><row/><color=14>アルマダ</color><color=0>：フンッ、じゃあいいや。</color><ctrl=3B/><row/><color=14>アルマダ</color><color=0>：もう用ないよ。帰んな。</color><ctrl=3B/><row/><color=6>イクルミ</color><color=0>：うっ…。</color><ctrl=2E/>",
+      "before": "<color=6>伊库鲁米</color><color=0>：关于伊纲</color><ctrl=2F/><row/><color=0>的事……</color><ctrl=3B/><row/><color=14>阿尔马达</color><color=0>：……！！</color><ctrl=3B/><row/><color=14>阿尔马达</color><color=0>：对了，</color><ctrl=2F/><row/><color=0>比起你，我更想</color><ctrl=2F/><row/><color=0>和伊纲妹妹说话！</color><ctrl=3B/><row/><color=6>伊库鲁米</color><color=0>：不，伊纲</color><ctrl=2F/><row/><color=0>现在不在……</color><ctrl=3B/><row/><color=14>阿尔马达</color><color=0>：哼，那就算了。</color><ctrl=3B/><row/><color=14>阿尔马达</color><color=0>：没你的事了。走吧。</color><ctrl=3B/><row/><color=6>伊库鲁米</color><color=0>：唔……</color><ctrl=2E/>",
+      "after": "<color=6>伊库鲁米</color><color=0>：关于伊纲</color><ctrl=2F/><row/><color=0>的事……</color><ctrl=3B/><row/><color=14>阿尔马达</color><color=0>：……！！</color><ctrl=3B/><row/><color=14>阿尔马达</color><color=0>：对了，</color><ctrl=2F/><row/><color=0>比起你，我更想和伊纲妹妹</color><ctrl=2F/><row/><color=0>说话！</color><ctrl=3B/><row/><color=6>伊库鲁米</color><color=0>：不，伊纲</color><ctrl=2F/><row/><color=0>现在不在……</color><ctrl=3B/><row/><color=14>阿尔马达</color><color=0>：哼，那就算了。</color><ctrl=3B/><row/><color=14>阿尔马达</color><color=0>：没你的事了。走吧。</color><ctrl=3B/><row/><color=6>伊库鲁米</color><color=0>：唔……</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_2.dat/c3-04:25394",
+      "batch": 16,
+      "decision": "accepted_after_coordinator_read",
+      "reason": "港公園须沿用公共地名港口公园。",
+      "source": "<color=0>じゃ、港公園に行こうかな。</color><row/><color=0>ウホヒョヒヒ。</color><ctrl=2E/>",
+      "before": "<color=0>那就去港公园吧。</color><row/><color=0>哦吼嘻嘻。</color><ctrl=2E/>",
+      "after": "<color=0>那就去港口公园吧。</color><row/><color=0>哦吼嘻嘻。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_2.dat/c3-04:35872",
+      "batch": 16,
+      "decision": "accepted_after_coordinator_read",
+      "reason": "港公園公共译名为港口公园，不能缩为港公园。",
+      "source": "<color=0>つい先ほど港公園で、</color><color=2>江本の</color><row/><color=2>遺体</color><color=0>が発見されたそうです！</color><ctrl=2E/>",
+      "before": "<color=0>说是刚才在港公园发现了</color><color=2>江本的</color><row/><color=2>尸体</color><color=0>！</color><ctrl=2E/>",
+      "after": "<color=0>说是刚才在港口公园发现了</color><color=2>江本的</color><row/><color=2>尸体</color><color=0>！</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_2.dat/c3-04:36771",
+      "batch": 16,
+      "decision": "accepted_after_coordinator_read",
+      "reason": "港公園公共译名为港口公园，不能缩为港公园。",
+      "source": "<color=0>慌てて合流し、港公園へと急ぐ。</color><ctrl=2E/>",
+      "before": "<color=0>慌忙与他们会合，赶往港公园。</color><ctrl=2E/>",
+      "after": "<color=0>慌忙与他们会合，赶往港口公园。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_2.dat/c3-05:1556",
+      "batch": 16,
+      "decision": "accepted_after_coordinator_read",
+      "reason": "港公園须沿用港口公园。",
+      "source": "<color=0>港公園に来てくれって</color><row/><color=0>言われてるんだ！</color><ctrl=2E/>",
+      "before": "<color=0>她让我</color><row/><color=0>去港公园！</color><ctrl=2E/>",
+      "after": "<color=0>她让我</color><row/><color=0>去港口公园！</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_2.dat/sousamemo:2749",
+      "batch": 16,
+      "decision": "accepted_after_coordinator_read",
+      "reason": "施設在此指关押初中生Ａ的收容机构，译成设施中不符合中文，也模糊了两年半收容经历。",
+      "source": "<color=1>　大榊　　晶</color><row/><color=1>　　　　１７歳</color><row/><color=1>　　　　高校生</color><row/><color=1>中学生Ａとして、２年半の間</color><row/><color=1>施設に収容されていた少女。</color><row/><color=1>ＭＯで</color><color=11>りお</color><color=1>を操作している。</color><ctrl=2E/>",
+      "before": "<color=1>　大榊　　晶</color><row/><color=1>　　　　１７岁</color><row/><color=1>　　　　高中生</color><row/><color=1>曾以初中生Ａ的身份，</color><row/><color=1>被收容在设施中两年半的少女。</color><row/><color=1>在ＭＯ里操纵</color><color=11>莉绪</color><color=1>。</color><ctrl=2E/>",
+      "after": "<color=1>　大榊　　晶</color><row/><color=1>　　　　１７岁</color><row/><color=1>　　　　高中生</color><row/><color=1>曾以初中生Ａ的身份，</color><row/><color=1>被收容在机构中两年半的少女。</color><row/><color=1>在ＭＯ里操纵</color><color=11>莉绪</color><color=1>。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_2.dat/sousamemo:3830",
+      "batch": 16,
+      "decision": "accepted_after_coordinator_read",
+      "reason": "港公園应沿用公共地名港口公园。",
+      "source": "<color=1>中村　そあ子</color><row/><color=1>　　　　２０歳</color><row/><color=1>　　　　　無職</color><row/><color=1>港公園で出会った女性。</color><row/><color=1>とある事故の影響で、３年</color><row/><color=1>より前の記憶が欠けている。</color><ctrl=2E/>",
+      "before": "<color=1>中村　索亚子</color><row/><color=1>　　　　２０岁</color><row/><color=1>　　　　　无业</color><row/><color=1>在港公园遇到的女性。</color><row/><color=1>受某起事故影响，</color><row/><color=1>缺失了三年前以前的记忆。</color><ctrl=2E/>",
+      "after": "<color=1>中村　索亚子</color><row/><color=1>　　　　２０岁</color><row/><color=1>　　　　　无业</color><row/><color=1>在港口公园遇到的女性。</color><row/><color=1>受某起事故影响，</color><row/><color=1>缺失了三年前以前的记忆。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_2.dat/sousamemo:4144",
+      "batch": 16,
+      "decision": "accepted_after_coordinator_read",
+      "reason": "港公園应沿用公共地名港口公园。",
+      "source": "<color=1>中村　そあ子</color><row/><color=1>　　　　２０歳</color><row/><color=1>　　　　　無職</color><row/><color=1>港公園で出会った女性。</color><row/><color=1>ＭＯではカムラを操作。</color><row/><color=1>３年より前の記憶が曖昧。</color><ctrl=2E/>",
+      "before": "<color=1>中村　索亚子</color><row/><color=1>　　　　２０岁</color><row/><color=1>　　　　　无业</color><row/><color=1>在港公园遇到的女性。</color><row/><color=1>在ＭＯ里操纵卡姆拉。</color><row/><color=1>三年前以前的记忆模糊。</color><ctrl=2E/>",
+      "after": "<color=1>中村　索亚子</color><row/><color=1>　　　　２０岁</color><row/><color=1>　　　　　无业</color><row/><color=1>在港口公园遇到的女性。</color><row/><color=1>在ＭＯ里操纵卡姆拉。</color><row/><color=1>三年前以前的记忆模糊。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_2.dat/sousamemo:4448",
+      "batch": 16,
+      "decision": "accepted_after_coordinator_read",
+      "reason": "港公園应沿用公共地名港口公园。",
+      "source": "<color=1>中村　そあ子</color><row/><color=1>　　　　２０歳</color><row/><color=1>　　　　　無職</color><row/><color=1>港公園で出会った女性。</color><row/><color=1>ＭＯではカムラを操作。</color><row/><color=1>羽沢美月の双子の妹だった。</color><ctrl=2E/>",
+      "before": "<color=1>中村　索亚子</color><row/><color=1>　　　　２０岁</color><row/><color=1>　　　　　无业</color><row/><color=1>在港公园遇到的女性。</color><row/><color=1>在ＭＯ里操纵卡姆拉。</color><row/><color=1>原来是羽泽美月的双胞胎妹妹。</color><ctrl=2E/>",
+      "after": "<color=1>中村　索亚子</color><row/><color=1>　　　　２０岁</color><row/><color=1>　　　　　无业</color><row/><color=1>在港口公园遇到的女性。</color><row/><color=1>在ＭＯ里操纵卡姆拉。</color><row/><color=1>原来是羽泽美月的双胞胎妹妹。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_2.dat/sousamemo:5450",
+      "batch": 16,
+      "decision": "accepted_after_coordinator_read",
+      "reason": "港公園应沿用公共地名港口公园。",
+      "source": "<color=1>　仮面の男</color><row/><color=1>　　　　　不明</color><row/><color=1>　　　　　不明</color><row/><color=1>ウッズタウンや港公園など、</color><row/><color=1>久我に関わる事件の現場で</color><row/><color=1>目撃されている謎の人物。</color><ctrl=2E/>",
+      "before": "<color=1>　假面男子</color><row/><color=1>　　　　　不明</color><row/><color=1>　　　　　不明</color><row/><color=1>曾在伍兹城、港公园等</color><row/><color=1>与久我有关的案件现场</color><row/><color=1>被人目击的神秘人物。</color><ctrl=2E/>",
+      "after": "<color=1>　假面男子</color><row/><color=1>　　　　　不明</color><row/><color=1>　　　　　不明</color><row/><color=1>曾在伍兹城、港口公园等</color><row/><color=1>与久我有关的案件现场</color><row/><color=1>被人目击的神秘人物。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_2.dat/sousamemo:16740",
+      "batch": 16,
+      "decision": "accepted_after_coordinator_read",
+      "reason": "萨纳米建设的会長为公司董事长，公共词表明确不可译会长。并将留下了置于非强调段，颜色只强调两栋建筑名称。",
+      "source": "<color=11>多摩ヶ原斎樹の情報</color><row/><color=1>サナミ建設元会長だった彼は</color><row/><color=10>「海楼館」「月の城」</color><color=1>など、</color><row/><color=1>多くの奇怪な建物を遺した。</color><row/><color=10>残り３棟</color><color=1>ある彼の建築物にも</color><row/><color=1>謎が隠されているようだが…</color><ctrl=2E/>",
+      "before": "<color=11>多摩原斋树的情报</color><row/><color=1>曾任萨纳米建设会长的他，</color><row/><color=10>留下了“海楼馆”“月之城”</color><color=1>等</color><row/><color=1>许多奇异的建筑。</color><row/><color=10>剩下的３栋</color><color=1>建筑中，</color><row/><color=1>似乎也隐藏着谜团……</color><ctrl=2E/>",
+      "after": "<color=11>多摩原斋树的情报</color><row/><color=1>曾任萨纳米建设董事长的他，留下</color><row/><color=10>“海楼馆”“月之城”</color><color=1>等</color><row/><color=1>许多奇异的建筑。</color><row/><color=10>剩下的３栋</color><color=1>建筑中，</color><row/><color=1>似乎也隐藏着谜团……</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_3.dat/c4-04:3321",
+      "batch": 18,
+      "decision": "accepted_after_coordinator_read",
+      "reason": "原文推测无风使延烧损害降到最低；当前变为确定的空间距离“没有蔓延太远”，改变了火灾勘查信息的内容和确定程度。",
+      "source": "<color=0>ああ、事件当夜は</color><color=2>無風状態</color><color=0>で</color><row/><color=0>延焼は最小限で済んだようだな。</color><ctrl=2E/>",
+      "before": "<color=0>是啊，案发当晚</color><color=2>没有风</color><color=0>，</color><row/><color=0>所以火势没有蔓延太远。</color><ctrl=2E/>",
+      "after": "<color=0>是啊，案发当晚</color><color=2>没有风</color><color=0>，</color><row/><color=0>看来火势蔓延造成的损害已经很小了。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_3.dat/c4-04:10760",
+      "batch": 18,
+      "decision": "accepted_after_coordinator_read",
+      "reason": "原文是推测只有此处受到明显延烧，并不是本句已经确定整间烧光。此处与后续“内部起火”反转相关，需保留延烧概念及よう的判断口吻。",
+      "source": "<color=0>ああ、なぜか</color><color=2>ここだけ</color><row/><color=0>見事に延焼したようだな。</color><ctrl=2E/>",
+      "before": "<color=0>是啊，不知道为什么，</color><color=2>只有这里</color><row/><color=0>被火烧得干干净净。</color><ctrl=2E/>",
+      "after": "<color=0>是啊，不知道为什么，</color><color=2>只有这里</color><row/><color=0>似乎被蔓延过来的火烧得特别严重。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_3.dat/c4-04:23650",
+      "batch": 18,
+      "decision": "accepted_after_coordinator_read",
+      "reason": "届いてました指包裹刚刚送达，当前“就在刚才，有人寄了个”变成刚寄出；匿名包裹是线索，收件与寄件的时间不能互换。",
+      "source": "<color=0>ついさっき、薫ちゃん宛てに</color><row/><color=2>小包</color><color=0>が届いてましたわ。</color><ctrl=2E/>",
+      "before": "<color=0>就在刚才，有人寄了个</color><row/><color=2>包裹</color><color=0>给小薰。</color><ctrl=2E/>",
+      "after": "<color=0>就在刚才，寄给小薰的</color><row/><color=2>包裹</color><color=0>送到了。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_3.dat/c4-05:7930",
+      "batch": 18,
+      "decision": "accepted_after_coordinator_read",
+      "reason": "“有路人看到”在下一点击单元454才出现，当前提前放进453；需恢复当前只铺陈时间及两个房间的发言，和454一起修改。",
+      "source": "<color=0>この日の</color><color=2>１：００頃</color><color=0>に有馬少年と</color><row/><color=0>薫少年のそれぞれの部屋だけ…</color><ctrl=2E/>",
+      "before": "<color=0>当天</color><color=2>1:00左右</color><color=0>，有路人看到，</color><row/><color=0>只有有马少年和薰少年各自的房间……</color><ctrl=2E/>",
+      "after": "<color=0>当天</color><color=2>1:00左右</color><color=0>，有马少年和</color><row/><color=0>薰少年各自的房间，只有这两间……</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_3.dat/c4-05:8082",
+      "batch": 18,
+      "decision": "accepted_after_coordinator_read",
+      "reason": "与453联动：本单元才给出亮灯被路人目击的信息。重写成完整承接，避免前单元提前透露目击来源。",
+      "source": "<color=2>明かりが灯いていた</color><color=0>ことが</color><row/><color=0>通行人に目撃されていました。</color><ctrl=2E/>",
+      "before": "<color=2>还亮着灯</color><color=0>，</color><row/><color=0>这是那位路人的目击证言。</color><ctrl=2E/>",
+      "after": "<color=2>还亮着灯</color><color=0>，</color><row/><color=0>有路人目击了这一情况。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_3.dat/c4-05:12341",
+      "batch": 18,
+      "decision": "accepted_after_coordinator_read",
+      "reason": "此处问的是火源是否本在薰房内、再蔓延到有马房间；上一句已经说明薰房起火稍早。当前“最先起火的地方”变成重复询问已知先后关系，削弱两处独立起火的推理。",
+      "source": "<color=0>実は出火元は、薫の部屋だった</color><row/><color=0>…とか、そんなことは…？</color><ctrl=2E/>",
+      "before": "<color=0>其实最先起火的地方，</color><row/><color=0>是薰的房间……？</color><ctrl=2E/>",
+      "after": "<color=0>其实火源是在薰的房间</color><row/><color=0>……有没有这种可能？</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_3.dat/c4-05:22305",
+      "batch": 18,
+      "decision": "accepted_after_coordinator_read",
+      "reason": "原文把“动机没有找到”的结论留在下一点击590；当前提前加入“也没查到”，将结论跨ctrl前移，下一句又重复。",
+      "source": "<color=0>…それでも、あんなにむごい</color><row/><color=0>殺され方をするような動機は…</color><ctrl=2E/>",
+      "before": "<color=0>……可是，就算这样，也没查到</color><row/><color=0>足以让凶手用那么残忍的方式杀他的动机……</color><ctrl=2E/>",
+      "after": "<color=0>……不过，即使如此，要说让他遭到</color><row/><color=0>那样残忍杀害的动机……</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_3.dat/c4-05:26829",
+      "batch": 18,
+      "decision": "accepted_after_coordinator_read",
+      "reason": "原文そうなんです是伊纲听来的恢复情况，随后明确自己未能询问、只警方询问过一次。当前直接断言一直不能交谈，需保留信息来源的不确定程度。",
+      "source": "<color=0>それが結局、会話ができるほど</color><row/><color=0>回復しなかったそうなんです。</color><ctrl=2E/>",
+      "before": "<color=0>他一直没有康复到</color><row/><color=0>能够交谈的程度。</color><ctrl=2E/>",
+      "after": "<color=0>听说，他最终也没康复到</color><row/><color=0>能够交谈的程度。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_3.dat/c4-05:30178",
+      "batch": 18,
+      "decision": "accepted_after_coordinator_read",
+      "reason": "火がついた只说明沾煤油后着火，当前“被点燃”引入主动点火的方式/动作。此段正推理致伤过程，应保留起火这一事实而不先限定如何引燃。",
+      "source": "<color=0>その上で、火がついた…。</color><ctrl=2E/>",
+      "before": "<color=0>然后，才被点燃了……</color><ctrl=2E/>",
+      "after": "<color=0>然后，就着火了……</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_3.dat/c5-00:6228",
+      "batch": 19,
+      "decision": "accepted_after_coordinator_read",
+      "reason": "幼馴染み仅说明两人自幼相识；此处潮田薰与羽泽有马均为男孩，青梅竹马在中文中通常暗含男女两小无猜关系，容易误导人物关系。改成从小一起长大的伙伴，保留らしく的推测。",
+      "source": "<color=0>隣の潮田薫くんという人と</color><row/><color=0>羽沢有馬は、幼馴染みらしくて…</color><ctrl=2E/>",
+      "before": "<color=0>住在隔壁的潮田薰，</color><row/><color=0>和羽泽有马似乎是青梅竹马……</color><ctrl=2E/>",
+      "after": "<color=0>住在隔壁的潮田薰，</color><row/><color=0>和羽泽有马似乎是从小一起长大的伙伴……</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_3.dat/c5-01:10010",
+      "batch": 20,
+      "decision": "accepted_after_coordinator_read",
+      "reason": "原文负わされた为被动，关键推理是久我被对方正当防卫反击而受伤；现译仅称正当防卫时造成的伤，容易误读为久我本人在正当防卫，也弱化了因此隐瞒对方的因果。",
+      "source": "<color=2>正当防衛</color><color=0>によって負わされたもの</color><row/><color=0>だったからではないでしょうか。</color><ctrl=2E/>",
+      "before": "<color=2>正当防卫</color><color=0>时造成的伤，</color><row/><color=0>会不会是这样呢？</color><ctrl=2E/>",
+      "after": "<color=2>正当防卫</color><color=0>时被对方弄伤了，</color><row/><color=0>会不会正是因为这个呢？</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_3.dat/c5-01:12816",
+      "batch": 20,
+      "decision": "accepted_after_coordinator_read",
+      "reason": "しかし仅表转折；可惜增添对袭击未得手表示遗憾的态度，改变侦探复述未遂袭击的立场。",
+      "source": "<color=0>…しかしうまくいかず、</color><row/><color=0>もつれあった結果…</color><ctrl=2E/>",
+      "before": "<color=0>……可惜没能得手，</color><row/><color=0>两人扭打在一起，结果……</color><ctrl=2E/>",
+      "after": "<color=0>……却没能得手，</color><row/><color=0>两人扭打在一起，结果……</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_3.dat/c5-01:26165",
+      "batch": 20,
+      "decision": "accepted_after_coordinator_read",
+      "reason": "艾纳此前明确以男性角色被称为彼（例如batch08的カムラ/イクルミ对白）；这里使用她会引入错误性别，且正处于账号与操作者互换推理阶段，应避免把姓名误当女性身份。用角色作中性指代。",
+      "source": "<color=0>死体役をさせるため、攻撃して</color><row/><color=2>キャラデッド</color><color=0>にした…と。</color><ctrl=2E/>",
+      "before": "<color=0>于是他攻击艾纳，让她进入</color><row/><color=2>角色死亡</color><color=0>状态，扮演尸体。</color><ctrl=2E/>",
+      "after": "<color=0>于是他攻击艾纳，让角色进入</color><row/><color=2>角色死亡</color><color=0>状态，扮演尸体。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_3.dat/c5-01:31086",
+      "batch": 20,
+      "decision": "accepted_after_coordinator_read",
+      "reason": "艾纳此前明确以男性角色被称为彼（例如batch08的カムラ/イクルミ对白）；这里使用她会引入错误性别，且正处于账号与操作者互换推理阶段，应避免把姓名误当女性身份。用角色作中性指代。",
+      "source": "<color=0>アルマダを操作し、アイナを</color><row/><color=0>攻撃してキャラデッドにする。</color><ctrl=2E/>",
+      "before": "<color=0>操作阿尔马达攻击艾纳，</color><row/><color=0>让她进入角色死亡状态。</color><ctrl=2E/>",
+      "after": "<color=0>操作阿尔马达攻击艾纳，</color><row/><color=0>让角色进入角色死亡状态。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_3.dat/c5-02:13800",
+      "batch": 20,
+      "decision": "accepted_after_coordinator_read",
+      "reason": "有马和薰的遗体在中文中容易读成有马、薰两人的遗体；实际是仍活着的有马和薰一人的遗体。这正是后续身份互换推理，必须排除两人均已死的歧义。",
+      "source": "<color=0>部屋には、有馬と薫少年の</color><row/><color=0>遺体のみが残ります。</color><ctrl=2E/>",
+      "before": "<color=0>所以房间里，</color><row/><color=0>只剩下有马和薰的遗体。</color><ctrl=2E/>",
+      "after": "<color=0>所以房间里，只剩下有马本人，</color><row/><color=0>以及薰的遗体。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_3.dat/c5-02:28457",
+      "batch": 20,
+      "decision": "accepted_after_coordinator_read",
+      "reason": "あるいは～とか提出另一种可能；现译他就是为了将假设说成确定动机。保留猜测程度。",
+      "source": "<color=0>あるいは、それを証明しようと</color><row/><color=0>あのイベントを起こしたとか。</color><ctrl=2E/>",
+      "before": "<color=0>或者说，他就是为了证实这一点，</color><row/><color=0>才举办了那场活动。</color><ctrl=2E/>",
+      "after": "<color=0>或者，他也可能是为了证实这一点，</color><row/><color=0>才举办了那场活动。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_3.dat/c5-02:28953",
+      "batch": 20,
+      "decision": "accepted_after_coordinator_read",
+      "reason": "犯人を有馬に絞って表示将追查对象锁定为有马；现译已经认定凶手将调查怀疑扩大成定论，下一条仍说试图抓住把柄，应保留尚在取证的阶段。",
+      "source": "<color=0>そのあたりからも、久我さんは</color><row/><color=0>犯人を「有馬」に絞って…</color><ctrl=2E/>",
+      "before": "<color=0>从这些方面来看，久我先生</color><row/><color=0>恐怕已经认定凶手就是“有马”……</color><ctrl=2E/>",
+      "after": "<color=0>从这些方面来看，久我先生</color><row/><color=0>恐怕已经把嫌疑人锁定为“有马”……</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_2.dat/c3-02f:15018",
+      "batch": 15,
+      "decision": "accepted_after_coordinator_read",
+      "reason": "前句惊讶的是江本竟会和年轻女孩一起来；そういう扱い指大家对他的这种看法，不是说大家见到他就嫌弃。现译把惊讶缘由改成了不受欢迎。",
+      "source": "<color=0>そういう扱いをされてる人</color><row/><color=0>みたいですね…。</color><ctrl=2E/>",
+      "before": "<color=0>“看来他平时就是</color><row/><color=0>那么不招人待见……”</color><ctrl=2E/>",
+      "after": "<color=0>“看来大家就是</color><row/><color=0>这么看待他的吧……”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_2.dat/c3-02f:29593",
+      "batch": 15,
+      "decision": "accepted_after_coordinator_read",
+      "reason": "被害にあった泛指遭袭；同段随后明确提及伍兹城及港口公园两处目击。译成遇害现场会把公园袭击限定成死亡案件。",
+      "source": "<color=0>久我さんが被害にあった現場で</color><row/><color=0>目撃されている人物なんです。</color><ctrl=2E/>",
+      "before": "<color=0>只是有人在久我先生</color><row/><color=0>遇害的现场见过他。”</color><ctrl=2E/>",
+      "after": "<color=0>只是有人在久我先生</color><row/><color=0>遭到袭击的现场见过他。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_2.dat/c3-02f:31152",
+      "batch": 15,
+      "decision": "accepted_after_coordinator_read",
+      "reason": "原文转述鉴识结论是没有拆卸痕迹，现译直接确定从未拆卸，并省去了とのこと的转述性质。密室证据应保留原有证明程度。",
+      "source": "<color=0>そのどちらからも、取り外された</color><row/><color=0>跡はない、とのことですよ。</color><ctrl=2E/>",
+      "before": "<color=0>“这两个方面都能说明，</color><row/><color=0>装置没有被拆卸过。”</color><ctrl=2E/>",
+      "after": "<color=0>“据说，从这两个方面来看，</color><row/><color=0>都没有发现装置被拆卸过的痕迹。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_2.dat/c3-02f:42578",
+      "batch": 15,
+      "decision": "accepted_after_coordinator_read",
+      "reason": "前条列举伍兹城和港口公园；原文说每处目击都发生在久我相应事件之前。遇害之前会把两次袭击的各自时间关系都改成只相对死亡时刻。",
+      "source": "<color=0>どちらも、久我さんの事件が</color><row/><color=0>起こる前のことなんです。</color><ctrl=2E/>",
+      "before": "<color=0>两次都是在久我先生</color><row/><color=0>遇害之前。”</color><ctrl=2E/>",
+      "after": "<color=0>两次目击，都是在久我先生</color><row/><color=0>在当地出事之前。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_3.dat/c5-05:15512",
+      "batch": 22,
+      "decision": "accepted_after_coordinator_read",
+      "reason": "人通りのない只说明没有行人经过；终稿改成空无一人，把范围扩大为公园里一个人也没有。本段随即两人见面，后续公园管理员赶来，宜保留无往来行人的限定。",
+      "source": "<color=0>人通りのない港公園にて、</color><row/><color=0>晶は久我と再会した。</color><ctrl=2E/>",
+      "before": "<color=0>在没有行人经过的港口公园，</color><row/><color=0>晶再次见到了久我。</color><ctrl=2E/>",
+      "after": "<color=0>在没有行人经过的港口公园，</color><row/><color=0>晶再次见到了久我。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_3.dat/c4-02:35740",
+      "batch": 17,
+      "decision": "accepted_after_coordinator_read",
+      "reason": "此处癸生川打断伊纲的解释并立刻转移话题，それはいい是“那个先不管”，不是认可解释的“那就好”。系列同一口头转折应保持其不理会对方解释的语气。",
+      "source": "<color=0>それはいい！</color><ctrl=2E/>",
+      "before": "<color=0>“那就好！”</color><ctrl=2E/>",
+      "after": "<color=0>“先不管那个！”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_3.dat/c4-03:14606",
+      "batch": 17,
+      "decision": "retain_current",
+      "reason": "保留原译；建议额外引入哼与自夸语气，属于非必要润色。"
+    }
+  ]
+}

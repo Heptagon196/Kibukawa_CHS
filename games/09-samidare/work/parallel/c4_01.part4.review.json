@@ -1,0 +1,1209 @@
+{
+  "script": "c4_01",
+  "batch": "c4_01.part4.trans.json",
+  "note": "Independent verification: for each entry decide whether ``target`` is the faithful rendering of ``source`` as its own display line. Report shifts, omissions, additions and mistranslations. An entry with ``emphasis`` is drawn in several colours: ``emphasis`` is the source split and ``runs`` the Chinese split, index for index, and it is the run with a non-null colour that the game highlights. See work/parallel/VERIFIER_BRIEF.md.",
+  "units": [
+    {
+      "offset": 14988,
+      "kind": "line",
+      "limit": 11,
+      "source": "鞠浜市内に住む会社員、",
+      "target": "居住在鞠滨市的"
+    },
+    {
+      "offset": 15018,
+      "kind": "line",
+      "limit": 11,
+      "source": "森慧美さんが救出され…",
+      "target": "公司职员森慧美获救…"
+    },
+    {
+      "offset": 15067,
+      "kind": "line",
+      "limit": 10,
+      "source": "間もなく病院に運ばれ",
+      "target": "她随即被送往医院，"
+    },
+    {
+      "offset": 15093,
+      "kind": "line",
+      "limit": 10,
+      "source": "ましたが、３時間後に",
+      "target": "但于３小时后",
+      "runs": [
+        "但于",
+        "３小时后"
+      ],
+      "emphasis": [
+        {
+          "colour": null,
+          "text": "ましたが、"
+        },
+        {
+          "colour": 2,
+          "text": "３時間後に"
+        }
+      ]
+    },
+    {
+      "offset": 15126,
+      "kind": "line",
+      "limit": 10,
+      "source": "亡くなった模様です。",
+      "target": "不幸身亡。"
+    },
+    {
+      "offset": 15158,
+      "kind": "line",
+      "limit": 11,
+      "source": "警察当局では、事故の",
+      "target": "警方表示，目前仍在"
+    },
+    {
+      "offset": 15184,
+      "kind": "line",
+      "limit": 11,
+      "source": "詳しい原因を調査中だと",
+      "target": "调查事故的详细"
+    },
+    {
+      "offset": 15212,
+      "kind": "line",
+      "limit": 11,
+      "source": "いうことです。",
+      "target": "原因。"
+    },
+    {
+      "offset": 15237,
+      "kind": "line",
+      "limit": 4,
+      "source": "………？",
+      "target": "………？"
+    },
+    {
+      "offset": 15251,
+      "kind": "line",
+      "limit": 6,
+      "source": "…………え？",
+      "target": "…………啊？"
+    },
+    {
+      "offset": 15274,
+      "kind": "line",
+      "limit": 10,
+      "source": "…事故の目撃者の話に",
+      "target": "…据事故目击者称，"
+    },
+    {
+      "offset": 15300,
+      "kind": "line",
+      "limit": 10,
+      "source": "よれば、森さんの運転",
+      "target": "森女士驾驶的车辆"
+    },
+    {
+      "offset": 15326,
+      "kind": "line",
+      "limit": 10,
+      "source": "する車は、雨の中…",
+      "target": "在雨中…"
+    },
+    {
+      "offset": 15350,
+      "kind": "line",
+      "limit": 10,
+      "source": "カーブ手前でも、減速",
+      "target": "即使驶近弯道，"
+    },
+    {
+      "offset": 15376,
+      "kind": "line",
+      "limit": 10,
+      "source": "する様子がなかったと",
+      "target": "也没有减速的"
+    },
+    {
+      "offset": 15402,
+      "kind": "line",
+      "limit": 10,
+      "source": "いうことから…",
+      "target": "迹象…"
+    },
+    {
+      "offset": 15441,
+      "kind": "line",
+      "limit": 4,
+      "source": "そんな…",
+      "target": "怎么会…"
+    },
+    {
+      "offset": 15455,
+      "kind": "line",
+      "limit": 5,
+      "source": "そんな…！",
+      "target": "怎么会…！"
+    },
+    {
+      "offset": 15484,
+      "kind": "line",
+      "limit": 11,
+      "source": "…森慧美は、自身の",
+      "target": "…森慧美因自己"
+    },
+    {
+      "offset": 15528,
+      "kind": "line",
+      "limit": 11,
+      "source": "運転していた自動車の",
+      "target": "所驾驶的汽车"
+    },
+    {
+      "offset": 15556,
+      "kind": "line",
+      "limit": 11,
+      "source": "事故により、死亡した。",
+      "target": "发生事故而身亡。"
+    },
+    {
+      "offset": 15590,
+      "kind": "line",
+      "limit": 11,
+      "source": "雨のためにタイヤが滑り",
+      "target": "轮胎因雨天打滑，"
+    },
+    {
+      "offset": 15618,
+      "kind": "line",
+      "limit": 11,
+      "source": "カーブを曲がりきれず、",
+      "target": "车辆未能转过弯道，"
+    },
+    {
+      "offset": 15646,
+      "kind": "line",
+      "limit": 11,
+      "source": "そのまま電柱に衝突。",
+      "target": "直接撞上电线杆。"
+    },
+    {
+      "offset": 15672,
+      "kind": "line",
+      "limit": 11,
+      "source": "彼女は病院に搬送され",
+      "target": "她虽被送往医院，"
+    },
+    {
+      "offset": 15698,
+      "kind": "line",
+      "limit": 11,
+      "source": "たが、後に死亡。",
+      "target": "但随后死亡。"
+    },
+    {
+      "offset": 15720,
+      "kind": "line",
+      "limit": 11,
+      "source": "…幸い、彼女自身の他に",
+      "target": "…所幸除她本人外，"
+    },
+    {
+      "offset": 15748,
+      "kind": "line",
+      "limit": 11,
+      "source": "負傷者は出なかった。",
+      "target": "没有其他人受伤。"
+    },
+    {
+      "offset": 15777,
+      "kind": "line",
+      "limit": 11,
+      "source": "事故の直前、ブレーキを",
+      "target": "由于事故前没有"
+    },
+    {
+      "offset": 15805,
+      "kind": "line",
+      "limit": 11,
+      "source": "かけた痕跡がなかった",
+      "target": "留下刹车痕迹，"
+    },
+    {
+      "offset": 15831,
+      "kind": "line",
+      "limit": 11,
+      "source": "ことなどから、決死の",
+      "target": "因此也有人提出"
+    },
+    {
+      "offset": 15865,
+      "kind": "line",
+      "limit": 11,
+      "source": "自殺なのではないか…",
+      "target": "她或许是自杀…"
+    },
+    {
+      "offset": 15897,
+      "kind": "line",
+      "limit": 11,
+      "source": "という説も上がった。",
+      "target": "这样的说法。"
+    },
+    {
+      "offset": 15932,
+      "kind": "line",
+      "limit": 11,
+      "source": "しかも…その後の話で、",
+      "target": "而且…后来我才得知，"
+    },
+    {
+      "offset": 15960,
+      "kind": "line",
+      "limit": 11,
+      "source": "彼女が実は妊娠して",
+      "target": "她其实已经怀孕了",
+      "runs": [
+        "她其实已经",
+        "怀孕了"
+      ],
+      "emphasis": [
+        {
+          "colour": null,
+          "text": "彼女が実は"
+        },
+        {
+          "colour": 2,
+          "text": "妊娠して"
+        }
+      ]
+    },
+    {
+      "offset": 15997,
+      "kind": "line",
+      "limit": 11,
+      "source": "いた…ということも",
+      "target": "…就连这件事"
+    },
+    {
+      "offset": 16021,
+      "kind": "line",
+      "limit": 11,
+      "source": "知った。",
+      "target": "也是后来才知道。"
+    },
+    {
+      "offset": 16035,
+      "kind": "line",
+      "limit": 10,
+      "source": "どうやら、私には",
+      "target": "看来她一直瞒着"
+    },
+    {
+      "offset": 16057,
+      "kind": "line",
+      "limit": 10,
+      "source": "隠していたらしい…。",
+      "target": "我…"
+    },
+    {
+      "offset": 16083,
+      "kind": "line",
+      "limit": 11,
+      "source": "恐らく、言ったところで",
+      "target": "恐怕是觉得就算"
+    },
+    {
+      "offset": 16111,
+      "kind": "line",
+      "limit": 11,
+      "source": "どうにもならないから",
+      "target": "告诉我，也无济于事"
+    },
+    {
+      "offset": 16137,
+      "kind": "line",
+      "limit": 11,
+      "source": "だろう…。",
+      "target": "吧…"
+    },
+    {
+      "offset": 16153,
+      "kind": "line",
+      "limit": 10,
+      "source": "暮らしていくことも",
+      "target": "她连自己的生活"
+    },
+    {
+      "offset": 16177,
+      "kind": "line",
+      "limit": 10,
+      "source": "ままならない状態だと",
+      "target": "都难以维持，"
+    },
+    {
+      "offset": 16203,
+      "kind": "line",
+      "limit": 10,
+      "source": "いう彼女が、子供を",
+      "target": "自然不会觉得"
+    },
+    {
+      "offset": 16233,
+      "kind": "line",
+      "limit": 10,
+      "source": "育てていけるなんて",
+      "target": "自己还能把孩子"
+    },
+    {
+      "offset": 16257,
+      "kind": "line",
+      "limit": 10,
+      "source": "思うはずもない。",
+      "target": "养大。"
+    },
+    {
+      "offset": 16279,
+      "kind": "line",
+      "limit": 11,
+      "source": "…これも、原因のひとつ",
+      "target": "…这也许也是其中"
+    },
+    {
+      "offset": 16307,
+      "kind": "line",
+      "limit": 11,
+      "source": "だったのだろうか…。",
+      "target": "一个原因吧…"
+    },
+    {
+      "offset": 16333,
+      "kind": "line",
+      "limit": 11,
+      "source": "ことの真偽は、彼女が",
+      "target": "如今她已经去世，"
+    },
+    {
+      "offset": 16359,
+      "kind": "line",
+      "limit": 11,
+      "source": "亡くなった今となっては",
+      "target": "此事是真是假，"
+    },
+    {
+      "offset": 16387,
+      "kind": "line",
+      "limit": 11,
+      "source": "もうわからない。",
+      "target": "再也无从知晓。"
+    },
+    {
+      "offset": 16409,
+      "kind": "line",
+      "limit": 11,
+      "source": "…しかし。",
+      "target": "…可是。"
+    },
+    {
+      "offset": 16425,
+      "kind": "line",
+      "limit": 11,
+      "source": "とりあえず、この事故に",
+      "target": "总之，据说这场事故"
+    },
+    {
+      "offset": 16453,
+      "kind": "line",
+      "limit": 11,
+      "source": "より、彼女の両親には",
+      "target": "让她的父母拿到了"
+    },
+    {
+      "offset": 16479,
+      "kind": "line",
+      "limit": 11,
+      "source": "自動車保険の給付金が",
+      "target": "汽车保险赔偿金",
+      "runs": [
+        "汽车保险",
+        "赔偿金"
+      ],
+      "emphasis": [
+        {
+          "colour": null,
+          "text": "自動車保険の"
+        },
+        {
+          "colour": 2,
+          "text": "給付金が"
+        }
+      ]
+    },
+    {
+      "offset": 16518,
+      "kind": "line",
+      "limit": 11,
+      "source": "出たという…。",
+      "target": "…"
+    },
+    {
+      "offset": 16541,
+      "kind": "line",
+      "limit": 11,
+      "source": "これで、家族を借金から",
+      "target": "这似乎让全家终于"
+    },
+    {
+      "offset": 16569,
+      "kind": "line",
+      "limit": 11,
+      "source": "救う結果になったよう",
+      "target": "摆脱了债务，"
+    },
+    {
+      "offset": 16595,
+      "kind": "line",
+      "limit": 11,
+      "source": "だが…彼女の両親は、",
+      "target": "但…她的父母"
+    },
+    {
+      "offset": 16627,
+      "kind": "line",
+      "limit": 11,
+      "source": "まったく喜ばなかった",
+      "target": "丝毫没有为此"
+    },
+    {
+      "offset": 16653,
+      "kind": "line",
+      "limit": 11,
+      "source": "そうだ。",
+      "target": "高兴。"
+    },
+    {
+      "offset": 16667,
+      "kind": "line",
+      "limit": 7,
+      "source": "…当たり前だ。",
+      "target": "…理所当然。"
+    },
+    {
+      "offset": 16687,
+      "kind": "line",
+      "limit": 11,
+      "source": "これがもし、彼女が",
+      "target": "如果这起事故"
+    },
+    {
+      "offset": 16711,
+      "kind": "line",
+      "limit": 11,
+      "source": "わざと起こした事故だと",
+      "target": "真是她故意造成"
+    },
+    {
+      "offset": 16739,
+      "kind": "line",
+      "limit": 11,
+      "source": "いうのなら…",
+      "target": "的…"
+    },
+    {
+      "offset": 16757,
+      "kind": "line",
+      "limit": 9,
+      "source": "いちばんの親不孝を",
+      "target": "那便是最大的不孝"
+    },
+    {
+      "offset": 16781,
+      "kind": "line",
+      "limit": 9,
+      "source": "したことになる。",
+      "target": "了。"
+    },
+    {
+      "offset": 16806,
+      "kind": "line",
+      "limit": 11,
+      "source": "…もしかすると、もっと",
+      "target": "…或许，如果能更早"
+    },
+    {
+      "offset": 16834,
+      "kind": "line",
+      "limit": 11,
+      "source": "早くに気付いていれば、",
+      "target": "察觉她的打算，"
+    },
+    {
+      "offset": 16862,
+      "kind": "line",
+      "limit": 11,
+      "source": "どうにか彼女を助ける",
+      "target": "也许我还能设法"
+    },
+    {
+      "offset": 16888,
+      "kind": "line",
+      "limit": 11,
+      "source": "ことができたのかも",
+      "target": "将她救下来"
+    },
+    {
+      "offset": 16912,
+      "kind": "line",
+      "limit": 11,
+      "source": "しれない…。",
+      "target": "也说不定…"
+    },
+    {
+      "offset": 16930,
+      "kind": "line",
+      "limit": 10,
+      "source": "しかし、それも今と",
+      "target": "可如今，一切"
+    },
+    {
+      "offset": 16954,
+      "kind": "line",
+      "limit": 10,
+      "source": "なっては、すべてが",
+      "target": "都已经"
+    },
+    {
+      "offset": 16978,
+      "kind": "line",
+      "limit": 10,
+      "source": "終わったことだった。",
+      "target": "结束了。"
+    },
+    {
+      "offset": 17007,
+      "kind": "line",
+      "limit": 10,
+      "source": "…こうして。",
+      "target": "…就这样。"
+    },
+    {
+      "offset": 17025,
+      "kind": "line",
+      "limit": 10,
+      "source": "とても多くのものを",
+      "target": "这起只让人失去"
+    },
+    {
+      "offset": 17049,
+      "kind": "line",
+      "limit": 10,
+      "source": "失っただけの…今回の",
+      "target": "太多东西的事件…"
+    },
+    {
+      "offset": 17075,
+      "kind": "line",
+      "limit": 10,
+      "source": "一件は、幕を閉じた。",
+      "target": "最终落下帷幕。"
+    },
+    {
+      "offset": 17137,
+      "kind": "line",
+      "limit": 9,
+      "source": "１９９６年７月某日",
+      "target": "１９９６年７月某日"
+    },
+    {
+      "offset": 17161,
+      "kind": "line",
+      "limit": 9,
+      "source": "天気、雨",
+      "target": "天气：雨"
+    },
+    {
+      "offset": 17175,
+      "kind": "line",
+      "limit": 9,
+      "source": "　",
+      "target": "　"
+    },
+    {
+      "offset": 17194,
+      "kind": "line",
+      "limit": 9,
+      "source": "癸生川探偵事務所",
+      "target": "癸生川侦探事务所"
+    },
+    {
+      "offset": 17266,
+      "kind": "line",
+      "limit": 5,
+      "source": "…暁さん。",
+      "target": "…晓先生。"
+    },
+    {
+      "offset": 17311,
+      "kind": "line",
+      "limit": 9,
+      "source": "慧美さんの経過は",
+      "target": "听说慧美恢复得"
+    },
+    {
+      "offset": 17339,
+      "kind": "line",
+      "limit": 9,
+      "source": "順調だそうですね。",
+      "target": "很顺利。"
+    },
+    {
+      "offset": 17365,
+      "kind": "line",
+      "limit": 10,
+      "source": "はい、おかげさまで！",
+      "target": "是的，多亏了您！"
+    },
+    {
+      "offset": 17391,
+      "kind": "line",
+      "limit": 9,
+      "source": "…その節は、本当に",
+      "target": "…那次真的"
+    },
+    {
+      "offset": 17415,
+      "kind": "line",
+      "limit": 9,
+      "source": "ありがとうございま",
+      "target": "非常感谢"
+    },
+    {
+      "offset": 17439,
+      "kind": "line",
+      "limit": 9,
+      "source": "した。",
+      "target": "您。"
+    },
+    {
+      "offset": 17451,
+      "kind": "line",
+      "limit": 11,
+      "source": "もう、何とお礼を言えば",
+      "target": "我都不知道该如何"
+    },
+    {
+      "offset": 17479,
+      "kind": "line",
+      "limit": 11,
+      "source": "良いものやら…。",
+      "target": "感谢才好…"
+    },
+    {
+      "offset": 17513,
+      "kind": "line",
+      "limit": 11,
+      "source": "いえいえ、そんなに",
+      "target": "哪里，请不用"
+    },
+    {
+      "offset": 17537,
+      "kind": "line",
+      "limit": 11,
+      "source": "恐縮しないでください。",
+      "target": "这么客气。"
+    },
+    {
+      "offset": 17570,
+      "kind": "line",
+      "limit": 6,
+      "source": "…あれから。",
+      "target": "…那之后。"
+    },
+    {
+      "offset": 17588,
+      "kind": "line",
+      "limit": 11,
+      "source": "なんと白鷺洲さんが、",
+      "target": "没想到白鹭洲竟帮我"
+    },
+    {
+      "offset": 17636,
+      "kind": "line",
+      "limit": 11,
+      "source": "この事務所のオーナーで",
+      "target": "直接联系上了"
+    },
+    {
+      "offset": 17664,
+      "kind": "line",
+      "limit": 11,
+      "source": "資産家だという…",
+      "target": "这家事务所的老板，"
+    },
+    {
+      "offset": 17701,
+      "kind": "line",
+      "limit": 9,
+      "source": "御堂丸将云氏に直接",
+      "target": "那位富豪御堂丸将云"
+    },
+    {
+      "offset": 17751,
+      "kind": "line",
+      "limit": 9,
+      "source": "取り次いでくれ…",
+      "target": "先生…"
+    },
+    {
+      "offset": 17773,
+      "kind": "line",
+      "limit": 10,
+      "source": "今回必要な医療費を、",
+      "target": "他决定无息借给我"
+    },
+    {
+      "offset": 17799,
+      "kind": "line",
+      "limit": 10,
+      "source": "無利息で貸してくれる",
+      "target": "这次所需的"
+    },
+    {
+      "offset": 17825,
+      "kind": "line",
+      "limit": 10,
+      "source": "ことになったのだ。",
+      "target": "医疗费。"
+    },
+    {
+      "offset": 17849,
+      "kind": "line",
+      "limit": 11,
+      "source": "そのおかげで、慧美も",
+      "target": "多亏了这笔钱，"
+    },
+    {
+      "offset": 17895,
+      "kind": "line",
+      "limit": 11,
+      "source": "子供も一命を取り留め…",
+      "target": "慧美和孩子都保住"
+    },
+    {
+      "offset": 17923,
+      "kind": "line",
+      "limit": 9,
+      "source": "今は、順調に回復に",
+      "target": "了性命，如今正在"
+    },
+    {
+      "offset": 17947,
+      "kind": "line",
+      "limit": 9,
+      "source": "向かっている。",
+      "target": "顺利康复。"
+    },
+    {
+      "offset": 17967,
+      "kind": "line",
+      "limit": 11,
+      "source": "…もう、何度お礼を",
+      "target": "…无论道谢多少次，"
+    },
+    {
+      "offset": 17991,
+      "kind": "line",
+      "limit": 11,
+      "source": "言っても言い足りない",
+      "target": "都无法表达我的"
+    },
+    {
+      "offset": 18017,
+      "kind": "line",
+      "limit": 11,
+      "source": "くらい、感謝していた。",
+      "target": "感激之情。"
+    },
+    {
+      "offset": 18047,
+      "kind": "line",
+      "limit": 10,
+      "source": "…お金は、ゆっくりと",
+      "target": "…钱慢慢还"
+    },
+    {
+      "offset": 18073,
+      "kind": "line",
+      "limit": 10,
+      "source": "返してくれればいい",
+      "target": "就可以了。"
+    },
+    {
+      "offset": 18097,
+      "kind": "line",
+      "limit": 10,
+      "source": "そうですよ。",
+      "target": "老板是这么说的。"
+    },
+    {
+      "offset": 18115,
+      "kind": "line",
+      "limit": 11,
+      "source": "…子供を育てるのには、",
+      "target": "…抚养孩子总会有"
+    },
+    {
+      "offset": 18143,
+      "kind": "line",
+      "limit": 11,
+      "source": "何かとお金も入り用だと",
+      "target": "不少地方需要花钱，"
+    },
+    {
+      "offset": 18171,
+      "kind": "line",
+      "limit": 11,
+      "source": "思いますし…",
+      "target": "所以…"
+    },
+    {
+      "offset": 18189,
+      "kind": "line",
+      "limit": 11,
+      "source": "手がかからなくなって",
+      "target": "等孩子不再那么"
+    },
+    {
+      "offset": 18215,
+      "kind": "line",
+      "limit": 11,
+      "source": "から、返してもらえれば",
+      "target": "需要人照顾之后，"
+    },
+    {
+      "offset": 18243,
+      "kind": "line",
+      "limit": 11,
+      "source": "いいですよ。",
+      "target": "再还也行。"
+    },
+    {
+      "offset": 18271,
+      "kind": "line",
+      "limit": 11,
+      "source": "そうですね…６～７歳、",
+      "target": "是啊…等到６～７岁",
+      "runs": [
+        "是啊…等到",
+        "６～７岁"
+      ],
+      "emphasis": [
+        {
+          "colour": null,
+          "text": "そうですね…"
+        },
+        {
+          "colour": 2,
+          "text": "６～７歳、"
+        }
+      ]
+    },
+    {
+      "offset": 18322,
+      "kind": "line",
+      "limit": 11,
+      "source": "小学校に入る頃にでも…",
+      "target": "上小学时再说吧…"
+    },
+    {
+      "offset": 18350,
+      "kind": "line",
+      "limit": 11,
+      "source": "ということで。",
+      "target": "就这么办。"
+    },
+    {
+      "offset": 18372,
+      "kind": "line",
+      "limit": 9,
+      "source": "…わかりました。",
+      "target": "…我明白了。"
+    },
+    {
+      "offset": 18394,
+      "kind": "line",
+      "limit": 9,
+      "source": "必ず返しに来ます！",
+      "target": "我一定会来还钱！"
+    },
+    {
+      "offset": 18418,
+      "kind": "line",
+      "limit": 11,
+      "source": "その時は、元気な子供も",
+      "target": "到时候我会带着"
+    },
+    {
+      "offset": 18446,
+      "kind": "line",
+      "limit": 11,
+      "source": "一緒に連れてきますね！",
+      "target": "健康的孩子一起来！"
+    },
+    {
+      "offset": 18486,
+      "kind": "line",
+      "limit": 9,
+      "source": "はは、約束ですよ。",
+      "target": "哈哈，说好了。"
+    },
+    {
+      "offset": 18515,
+      "kind": "line",
+      "limit": 10,
+      "source": "この場所で、楽しみに",
+      "target": "我会在这里期待着"
+    },
+    {
+      "offset": 18580,
+      "kind": "line",
+      "limit": 10,
+      "source": "待っていますから。",
+      "target": "你们的到来。"
+    },
+    {
+      "offset": 18613,
+      "kind": "line",
+      "limit": 6,
+      "source": "はい、必ず！",
+      "target": "好，一定！"
+    },
+    {
+      "offset": 18672,
+      "kind": "line",
+      "limit": 11,
+      "source": "…そうして、私は",
+      "target": "…就这样，我"
+    },
+    {
+      "offset": 18694,
+      "kind": "line",
+      "limit": 11,
+      "source": "探偵事務所を後にした。",
+      "target": "离开了侦探事务所。"
+    },
+    {
+      "offset": 18722,
+      "kind": "line",
+      "limit": 11,
+      "source": "…梅雨もそろそろ、",
+      "target": "…梅雨季也快要"
+    },
+    {
+      "offset": 18764,
+      "kind": "line",
+      "limit": 11,
+      "source": "終わりが近付いている。",
+      "target": "结束了。"
+    },
+    {
+      "offset": 18792,
+      "kind": "line",
+      "limit": 11,
+      "source": "この長雨とも、そろそろ",
+      "target": "很快就能和这场"
+    },
+    {
+      "offset": 18820,
+      "kind": "line",
+      "limit": 11,
+      "source": "おさらばだな。",
+      "target": "连绵阴雨告别了。"
+    },
+    {
+      "offset": 18840,
+      "kind": "line",
+      "limit": 11,
+      "source": "…そんなことを考えて",
+      "target": "…这么想着时，"
+    },
+    {
+      "offset": 18866,
+      "kind": "line",
+      "limit": 11,
+      "source": "いるうちに思い出した。",
+      "target": "我突然想起一件事。"
+    },
+    {
+      "offset": 18899,
+      "kind": "line",
+      "limit": 11,
+      "source": "…ああっ、そうだった！",
+      "target": "…啊，对了！"
+    },
+    {
+      "offset": 18929,
+      "kind": "line",
+      "limit": 11,
+      "source": "しまった…肝心なことを",
+      "target": "糟了…我忘了问"
+    },
+    {
+      "offset": 18957,
+      "kind": "line",
+      "limit": 11,
+      "source": "聞くのを忘れていた。",
+      "target": "最重要的事。"
+    },
+    {
+      "offset": 18983,
+      "kind": "line",
+      "limit": 10,
+      "source": "…ま、ここから聞い",
+      "target": "…算了，从这里"
+    },
+    {
+      "offset": 19007,
+      "kind": "line",
+      "limit": 10,
+      "source": "ちゃえば、いいかな。",
+      "target": "问也行吧。"
+    },
+    {
+      "offset": 19038,
+      "kind": "line",
+      "limit": 8,
+      "source": "すいませーん！",
+      "target": "不好意思——！"
+    },
+    {
+      "offset": 19069,
+      "kind": "line",
+      "limit": 8,
+      "source": "白鷺洲さーん!!",
+      "target": "白鹭洲——！！"
+    },
+    {
+      "offset": 19097,
+      "kind": "line",
+      "limit": 11,
+      "source": "下から大声で呼ぶと、",
+      "target": "我从楼下大声呼喊，"
+    },
+    {
+      "offset": 19123,
+      "kind": "line",
+      "limit": 11,
+      "source": "彼が部屋の窓から不思議",
+      "target": "他从房间的窗户里"
+    },
+    {
+      "offset": 19151,
+      "kind": "line",
+      "limit": 11,
+      "source": "そうに顔を出した。",
+      "target": "疑惑地探出头来。"
+    },
+    {
+      "offset": 19175,
+      "kind": "line",
+      "limit": 11,
+      "source": "雨の音がうるさいので、",
+      "target": "雨声太吵，"
+    },
+    {
+      "offset": 19203,
+      "kind": "line",
+      "limit": 11,
+      "source": "自然と声が大きくなる。",
+      "target": "嗓门自然也变大了。"
+    },
+    {
+      "offset": 19233,
+      "kind": "line",
+      "limit": 9,
+      "source": "…どうしましたー？",
+      "target": "…怎么了——？"
+    },
+    {
+      "offset": 19259,
+      "kind": "line",
+      "limit": 8,
+      "source": "すみませーん！",
+      "target": "不好意思——！"
+    },
+    {
+      "offset": 19279,
+      "kind": "line",
+      "limit": 8,
+      "source": "聞きたいことが",
+      "target": "我有件事"
+    },
+    {
+      "offset": 19299,
+      "kind": "line",
+      "limit": 8,
+      "source": "あったんですー！",
+      "target": "想问——！"
+    },
+    {
+      "offset": 19323,
+      "kind": "line",
+      "limit": 3,
+      "source": "……？",
+      "target": "……？"
+    },
+    {
+      "offset": 19335,
+      "kind": "line",
+      "limit": 7,
+      "source": "なんですかー？",
+      "target": "什么事——？"
+    },
+    {
+      "offset": 19387,
+      "kind": "choice",
+      "limit": 0,
+      "source": "セーブする",
+      "target": "保存"
+    },
+    {
+      "offset": 19401,
+      "kind": "choice",
+      "limit": 0,
+      "source": "ゲームに戻る",
+      "target": "返回游戏"
+    },
+    {
+      "offset": 19430,
+      "kind": "line",
+      "limit": 8,
+      "source": "セーブしました。",
+      "target": "已保存。"
+    },
+    {
+      "offset": 19466,
+      "kind": "line",
+      "limit": 11,
+      "source": "セーブに失敗しました。",
+      "target": "保存失败。",
+      "runs": [
+        "保存",
+        "失败",
+        "。"
+      ],
+      "emphasis": [
+        {
+          "colour": null,
+          "text": "セーブに"
+        },
+        {
+          "colour": 7,
+          "text": "失敗"
+        },
+        {
+          "colour": 3,
+          "text": "しました。"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1351 @@
+{
+  "script": "c3_01",
+  "batch": "c3_01.part1.trans.json",
+  "note": "Independent verification: for each entry decide whether ``target`` is the faithful rendering of ``source`` as its own display line. Report shifts, omissions, additions and mistranslations. An entry with ``emphasis`` is drawn in several colours: ``emphasis`` is the source split and ``runs`` the Chinese split, index for index, and it is the run with a non-null colour that the game highlights. See work/parallel/VERIFIER_BRIEF.md.",
+  "units": [
+    {
+      "offset": 15,
+      "kind": "line",
+      "limit": 9,
+      "source": "１９９６年６月某日",
+      "target": "１９９６年６月某日"
+    },
+    {
+      "offset": 39,
+      "kind": "line",
+      "limit": 9,
+      "source": "天気、雨",
+      "target": "天气：雨"
+    },
+    {
+      "offset": 53,
+      "kind": "line",
+      "limit": 9,
+      "source": "　",
+      "target": "　"
+    },
+    {
+      "offset": 61,
+      "kind": "line",
+      "limit": 9,
+      "source": "クレフ製作所",
+      "target": "克雷夫制作所"
+    },
+    {
+      "offset": 116,
+      "kind": "line",
+      "limit": 10,
+      "source": "…工場内は、もぬけの",
+      "target": "…工厂里已经空无"
+    },
+    {
+      "offset": 149,
+      "kind": "line",
+      "limit": 10,
+      "source": "空だった。",
+      "target": "一人。"
+    },
+    {
+      "offset": 171,
+      "kind": "line",
+      "limit": 9,
+      "source": "正面入口には鍵が",
+      "target": "正门虽然上了"
+    },
+    {
+      "offset": 193,
+      "kind": "line",
+      "limit": 9,
+      "source": "かかっていたけど…",
+      "target": "锁…"
+    },
+    {
+      "offset": 217,
+      "kind": "line",
+      "limit": 10,
+      "source": "裏口が開いていたので",
+      "target": "但后门开着，我就"
+    },
+    {
+      "offset": 243,
+      "kind": "line",
+      "limit": 10,
+      "source": "少し勝手に入らせて",
+      "target": "擅自进来了一"
+    },
+    {
+      "offset": 267,
+      "kind": "line",
+      "limit": 10,
+      "source": "もらった。",
+      "target": "下。"
+    },
+    {
+      "offset": 285,
+      "kind": "line",
+      "limit": 11,
+      "source": "どなたか…いますかー？",
+      "target": "请问…有人吗——？"
+    },
+    {
+      "offset": 315,
+      "kind": "line",
+      "limit": 3,
+      "source": "……。",
+      "target": "……"
+    },
+    {
+      "offset": 327,
+      "kind": "line",
+      "limit": 7,
+      "source": "…返事はない。",
+      "target": "…没有回应。"
+    },
+    {
+      "offset": 347,
+      "kind": "line",
+      "limit": 10,
+      "source": "しかし、数ヶ月前から",
+      "target": "听说从几个月前"
+    },
+    {
+      "offset": 373,
+      "kind": "line",
+      "limit": 10,
+      "source": "突然人の出入りが",
+      "target": "开始，就突然没人"
+    },
+    {
+      "offset": 395,
+      "kind": "line",
+      "limit": 10,
+      "source": "なくなったそうだが…",
+      "target": "进出了…"
+    },
+    {
+      "offset": 421,
+      "kind": "line",
+      "limit": 11,
+      "source": "ここの従業員や経営者は",
+      "target": "这里的员工和经营者"
+    },
+    {
+      "offset": 449,
+      "kind": "line",
+      "limit": 11,
+      "source": "どこに行ってしまったん",
+      "target": "究竟都去了哪里"
+    },
+    {
+      "offset": 477,
+      "kind": "line",
+      "limit": 11,
+      "source": "だろうか…。",
+      "target": "呢…"
+    },
+    {
+      "offset": 497,
+      "kind": "line",
+      "limit": 6,
+      "source": "さて、と…。",
+      "target": "好了…"
+    },
+    {
+      "offset": 529,
+      "kind": "choice",
+      "limit": 0,
+      "source": "場所移動",
+      "target": "移动"
+    },
+    {
+      "offset": 541,
+      "kind": "choice",
+      "limit": 0,
+      "source": "辺り見回す",
+      "target": "环视四周"
+    },
+    {
+      "offset": 555,
+      "kind": "choice",
+      "limit": 0,
+      "source": "調べる",
+      "target": "调查"
+    },
+    {
+      "offset": 565,
+      "kind": "choice",
+      "limit": 0,
+      "source": "中断する",
+      "target": "中断"
+    },
+    {
+      "offset": 580,
+      "kind": "choice",
+      "limit": 0,
+      "source": "隠れる",
+      "target": "躲藏"
+    },
+    {
+      "offset": 626,
+      "kind": "line",
+      "limit": 9,
+      "source": "昼間だけど、照明が",
+      "target": "虽是白天，但没有"
+    },
+    {
+      "offset": 655,
+      "kind": "line",
+      "limit": 9,
+      "source": "点いていないので",
+      "target": "开灯，四周"
+    },
+    {
+      "offset": 683,
+      "kind": "line",
+      "limit": 9,
+      "source": "薄暗い。",
+      "target": "昏暗。"
+    },
+    {
+      "offset": 697,
+      "kind": "line",
+      "limit": 11,
+      "source": "窓からの薄明かりで、",
+      "target": "借着窗外透进的微光"
+    },
+    {
+      "offset": 723,
+      "kind": "line",
+      "limit": 11,
+      "source": "室内の様子がぼんやりと",
+      "target": "只能朦胧看清室内的"
+    },
+    {
+      "offset": 751,
+      "kind": "line",
+      "limit": 11,
+      "source": "浮かんでいる感じだ。",
+      "target": "样子。"
+    },
+    {
+      "offset": 777,
+      "kind": "line",
+      "limit": 11,
+      "source": "湿気のためか、湿った",
+      "target": "大概是因为湿气，"
+    },
+    {
+      "offset": 803,
+      "kind": "line",
+      "limit": 11,
+      "source": "ホコリの匂いが作業場に",
+      "target": "车间里弥漫着一股"
+    },
+    {
+      "offset": 844,
+      "kind": "line",
+      "limit": 11,
+      "source": "充満している。",
+      "target": "潮湿的灰尘味。"
+    },
+    {
+      "offset": 881,
+      "kind": "line",
+      "limit": 10,
+      "source": "旋盤などの機材も、",
+      "target": "车床等设备也都"
+    },
+    {
+      "offset": 911,
+      "kind": "line",
+      "limit": 10,
+      "source": "ホコリが積もったまま",
+      "target": "积满灰尘，就这么"
+    },
+    {
+      "offset": 937,
+      "kind": "line",
+      "limit": 10,
+      "source": "放置されていた。",
+      "target": "被丢在原地。"
+    },
+    {
+      "offset": 959,
+      "kind": "line",
+      "limit": 11,
+      "source": "確かにこれは、使われ",
+      "target": "看来这里确实已经"
+    },
+    {
+      "offset": 985,
+      "kind": "line",
+      "limit": 11,
+      "source": "なくなってから数ヶ月は",
+      "target": "停用好几个月"
+    },
+    {
+      "offset": 1013,
+      "kind": "line",
+      "limit": 11,
+      "source": "経っているだろう…。",
+      "target": "了…"
+    },
+    {
+      "offset": 1048,
+      "kind": "line",
+      "limit": 11,
+      "source": "工場の隅を見ると、事務",
+      "target": "工厂一角有个"
+    },
+    {
+      "offset": 1076,
+      "kind": "line",
+      "limit": 11,
+      "source": "スペースがあり、机が",
+      "target": "办公区，桌子",
+      "runs": [
+        "办公区，",
+        "桌子"
+      ],
+      "emphasis": [
+        {
+          "colour": null,
+          "text": "スペースがあり、"
+        },
+        {
+          "colour": 2,
+          "text": "机が"
+        }
+      ]
+    },
+    {
+      "offset": 1115,
+      "kind": "line",
+      "limit": 11,
+      "source": "いくつか並んでいた。",
+      "target": "一张张排在那里。"
+    },
+    {
+      "offset": 1141,
+      "kind": "line",
+      "limit": 8,
+      "source": "…この机も、一応",
+      "target": "…这张桌子也要查",
+      "runs": [
+        "…这张",
+        "桌子也要查"
+      ],
+      "emphasis": [
+        {
+          "colour": null,
+          "text": "…この"
+        },
+        {
+          "colour": 2,
+          "text": "机も、一応"
+        }
+      ]
+    },
+    {
+      "offset": 1176,
+      "kind": "line",
+      "limit": 8,
+      "source": "調べてみるか…。",
+      "target": "一下…"
+    },
+    {
+      "offset": 1207,
+      "kind": "line",
+      "limit": 11,
+      "source": "かつては活気にあふれて",
+      "target": "昔日想必充满活力的"
+    },
+    {
+      "offset": 1235,
+      "kind": "line",
+      "limit": 11,
+      "source": "いただろう作業場も、",
+      "target": "车间，如今也已"
+    },
+    {
+      "offset": 1261,
+      "kind": "line",
+      "limit": 11,
+      "source": "すっかり寂れている。",
+      "target": "彻底荒废。"
+    },
+    {
+      "offset": 1305,
+      "kind": "line",
+      "limit": 10,
+      "source": "かすかに射し込む光の",
+      "target": "细小的尘埃在"
+    },
+    {
+      "offset": 1331,
+      "kind": "line",
+      "limit": 10,
+      "source": "中を、小さなホコリが",
+      "target": "微弱的光线中"
+    },
+    {
+      "offset": 1357,
+      "kind": "line",
+      "limit": 10,
+      "source": "ゆらゆら舞っていた。",
+      "target": "悠悠飘舞。"
+    },
+    {
+      "offset": 1444,
+      "kind": "line",
+      "limit": 3,
+      "source": "…!?",
+      "target": "…！？"
+    },
+    {
+      "offset": 1454,
+      "kind": "line",
+      "limit": 11,
+      "source": "裏口から人の気配が…！",
+      "target": "后门那边有人…！",
+      "runs": [
+        "后门那边",
+        "有人…！"
+      ],
+      "emphasis": [
+        {
+          "colour": null,
+          "text": "裏口から"
+        },
+        {
+          "colour": 2,
+          "text": "人の気配が…！"
+        }
+      ]
+    },
+    {
+      "offset": 1495,
+      "kind": "line",
+      "limit": 11,
+      "source": "…誰か来る!!",
+      "target": "…有人来了！！"
+    },
+    {
+      "offset": 1513,
+      "kind": "line",
+      "limit": 9,
+      "source": "…まずい、",
+      "target": "…糟了，"
+    },
+    {
+      "offset": 1529,
+      "kind": "line",
+      "limit": 9,
+      "source": "ひとまず隠れよう。",
+      "target": "先躲起来吧。"
+    },
+    {
+      "offset": 1562,
+      "kind": "line",
+      "limit": 10,
+      "source": "誰か入ってくる…！",
+      "target": "有人要进来了…！"
+    },
+    {
+      "offset": 1586,
+      "kind": "line",
+      "limit": 10,
+      "source": "ひとまず、機材の",
+      "target": "先躲到设备"
+    },
+    {
+      "offset": 1608,
+      "kind": "line",
+      "limit": 10,
+      "source": "陰にでも隠れてよう。",
+      "target": "后面吧。"
+    },
+    {
+      "offset": 1649,
+      "kind": "choice",
+      "limit": 0,
+      "source": "機材",
+      "target": "设备"
+    },
+    {
+      "offset": 1657,
+      "kind": "choice",
+      "limit": 0,
+      "source": "床",
+      "target": "地板"
+    },
+    {
+      "offset": 1663,
+      "kind": "choice",
+      "limit": 0,
+      "source": "裏口",
+      "target": "后门"
+    },
+    {
+      "offset": 1680,
+      "kind": "choice",
+      "limit": 0,
+      "source": "事務机",
+      "target": "办公桌"
+    },
+    {
+      "offset": 1699,
+      "kind": "choice",
+      "limit": 0,
+      "source": "社員名簿",
+      "target": "员工名册"
+    },
+    {
+      "offset": 1720,
+      "kind": "choice",
+      "limit": 0,
+      "source": "金属片",
+      "target": "金属碎片"
+    },
+    {
+      "offset": 1739,
+      "kind": "line",
+      "limit": 10,
+      "source": "金属や樹脂を加工する",
+      "target": "这里摆着一排加工"
+    },
+    {
+      "offset": 1796,
+      "kind": "line",
+      "limit": 10,
+      "source": "旋盤という機材が",
+      "target": "金属、树脂所用的"
+    },
+    {
+      "offset": 1824,
+      "kind": "line",
+      "limit": 10,
+      "source": "並んでいる。",
+      "target": "车床。"
+    },
+    {
+      "offset": 1842,
+      "kind": "line",
+      "limit": 11,
+      "source": "積もったホコリから、",
+      "target": "从积灰的程度来看，"
+    },
+    {
+      "offset": 1868,
+      "kind": "line",
+      "limit": 11,
+      "source": "何ヶ月も使われていない",
+      "target": "已经几个月没有使用"
+    },
+    {
+      "offset": 1896,
+      "kind": "line",
+      "limit": 11,
+      "source": "のがわかる。",
+      "target": "了。"
+    },
+    {
+      "offset": 1914,
+      "kind": "line",
+      "limit": 10,
+      "source": "それなりに高価な",
+      "target": "把这么昂贵的"
+    },
+    {
+      "offset": 1936,
+      "kind": "line",
+      "limit": 10,
+      "source": "機材を放ったらかして",
+      "target": "设备放着不管，"
+    },
+    {
+      "offset": 1962,
+      "kind": "line",
+      "limit": 10,
+      "source": "おくということは、",
+      "target": "这种情况，"
+    },
+    {
+      "offset": 1986,
+      "kind": "line",
+      "limit": 10,
+      "source": "経営難で工場が潰れた",
+      "target": "与其说是经营困难"
+    },
+    {
+      "offset": 2012,
+      "kind": "line",
+      "limit": 10,
+      "source": "というよりは…",
+      "target": "导致工厂倒闭…"
+    },
+    {
+      "offset": 2032,
+      "kind": "line",
+      "limit": 11,
+      "source": "従業員が突然、いなく",
+      "target": "倒更像是员工突然"
+    },
+    {
+      "offset": 2058,
+      "kind": "line",
+      "limit": 11,
+      "source": "なっただけという感じが",
+      "target": "全都消失"
+    },
+    {
+      "offset": 2086,
+      "kind": "line",
+      "limit": 11,
+      "source": "する。",
+      "target": "了。"
+    },
+    {
+      "offset": 2098,
+      "kind": "line",
+      "limit": 10,
+      "source": "ここで、何があったの",
+      "target": "这里究竟发生了"
+    },
+    {
+      "offset": 2124,
+      "kind": "line",
+      "limit": 10,
+      "source": "だろうか…。",
+      "target": "什么…"
+    },
+    {
+      "offset": 2151,
+      "kind": "line",
+      "limit": 11,
+      "source": "かつては精一杯働いて",
+      "target": "这些设备曾经想必也"
+    },
+    {
+      "offset": 2177,
+      "kind": "line",
+      "limit": 11,
+      "source": "いたであろう機材も、",
+      "target": "在全力运转，"
+    },
+    {
+      "offset": 2203,
+      "kind": "line",
+      "limit": 11,
+      "source": "今は生気を失っている。",
+      "target": "如今却失去了生气。"
+    },
+    {
+      "offset": 2258,
+      "kind": "line",
+      "limit": 11,
+      "source": "床をよく見ると…",
+      "target": "仔细看地板…"
+    },
+    {
+      "offset": 2280,
+      "kind": "line",
+      "limit": 11,
+      "source": "ところどころ、ホコリが",
+      "target": "有些地方没有"
+    },
+    {
+      "offset": 2308,
+      "kind": "line",
+      "limit": 11,
+      "source": "ない部分があった。",
+      "target": "灰尘。"
+    },
+    {
+      "offset": 2332,
+      "kind": "line",
+      "limit": 10,
+      "source": "それほど積もっている",
+      "target": "积灰还没有厚到"
+    },
+    {
+      "offset": 2358,
+      "kind": "line",
+      "limit": 10,
+      "source": "わけじゃないので",
+      "target": "能让人看清"
+    },
+    {
+      "offset": 2380,
+      "kind": "line",
+      "limit": 10,
+      "source": "ハッキリとしないが…",
+      "target": "痕迹的程度…"
+    },
+    {
+      "offset": 2406,
+      "kind": "line",
+      "limit": 9,
+      "source": "誰かが歩いたような",
+      "target": "但看起来像是"
+    },
+    {
+      "offset": 2432,
+      "kind": "line",
+      "limit": 9,
+      "source": "足跡にも見える。",
+      "target": "有人走过的脚印。"
+    },
+    {
+      "offset": 2460,
+      "kind": "line",
+      "limit": 10,
+      "source": "…どうやらつい最近、",
+      "target": "…看来最近，"
+    },
+    {
+      "offset": 2486,
+      "kind": "line",
+      "limit": 10,
+      "source": "ここに誰かが来た",
+      "target": "这里曾有人造访",
+      "runs": [
+        "这里",
+        "曾有人造访"
+      ],
+      "emphasis": [
+        {
+          "colour": null,
+          "text": "ここに"
+        },
+        {
+          "colour": 2,
+          "text": "誰かが来た"
+        }
+      ]
+    },
+    {
+      "offset": 2516,
+      "kind": "line",
+      "limit": 10,
+      "source": "ようだ。",
+      "target": "过。"
+    },
+    {
+      "offset": 2541,
+      "kind": "line",
+      "limit": 4,
+      "source": "…おや？",
+      "target": "…咦？"
+    },
+    {
+      "offset": 2557,
+      "kind": "line",
+      "limit": 10,
+      "source": "部屋の隅の方に、",
+      "target": "房间角落里，"
+    },
+    {
+      "offset": 2581,
+      "kind": "line",
+      "limit": 10,
+      "source": "金属片が落ちている。",
+      "target": "掉着一块金属碎片。"
+    },
+    {
+      "offset": 2613,
+      "kind": "line",
+      "limit": 9,
+      "source": "この工場で加工した",
+      "target": "是这家工厂加工的"
+    },
+    {
+      "offset": 2637,
+      "kind": "line",
+      "limit": 9,
+      "source": "パーツだろうか…？",
+      "target": "零件吗…？"
+    },
+    {
+      "offset": 2661,
+      "kind": "line",
+      "limit": 10,
+      "source": "…なんだか気になる。",
+      "target": "…总觉得很在意。"
+    },
+    {
+      "offset": 2687,
+      "kind": "line",
+      "limit": 10,
+      "source": "少し調べてみよう。",
+      "target": "稍微查一查吧。"
+    },
+    {
+      "offset": 2720,
+      "kind": "line",
+      "limit": 11,
+      "source": "床には、誰かが通った",
+      "target": "地板除了有人走过的"
+    },
+    {
+      "offset": 2746,
+      "kind": "line",
+      "limit": 11,
+      "source": "ような跡があった他には",
+      "target": "痕迹外，"
+    },
+    {
+      "offset": 2774,
+      "kind": "line",
+      "limit": 11,
+      "source": "特に何もない。",
+      "target": "没有别的东西。"
+    },
+    {
+      "offset": 2812,
+      "kind": "line",
+      "limit": 11,
+      "source": "裏口の鍵は開いていた。",
+      "target": "后门没有上锁。"
+    },
+    {
+      "offset": 2840,
+      "kind": "line",
+      "limit": 11,
+      "source": "単に、ここを最後に出た",
+      "target": "可能只是最后离开"
+    },
+    {
+      "offset": 2868,
+      "kind": "line",
+      "limit": 11,
+      "source": "人が閉め忘れたのか…",
+      "target": "这里的人忘了锁…"
+    },
+    {
+      "offset": 2894,
+      "kind": "line",
+      "limit": 11,
+      "source": "それとも誰かが意図的に",
+      "target": "也可能是有人故意"
+    },
+    {
+      "offset": 2922,
+      "kind": "line",
+      "limit": 11,
+      "source": "開けたものなのか。",
+      "target": "打开的。"
+    },
+    {
+      "offset": 2946,
+      "kind": "line",
+      "limit": 11,
+      "source": "…ともあれ、今は誰でも",
+      "target": "…总之现在，谁都能"
+    },
+    {
+      "offset": 2974,
+      "kind": "line",
+      "limit": 11,
+      "source": "簡単にここに出入り",
+      "target": "轻易进出"
+    },
+    {
+      "offset": 2998,
+      "kind": "line",
+      "limit": 11,
+      "source": "できる状態だ。",
+      "target": "这里。"
+    },
+    {
+      "offset": 3027,
+      "kind": "line",
+      "limit": 11,
+      "source": "裏口の鍵は開いていた。",
+      "target": "后门没有上锁。"
+    },
+    {
+      "offset": 3082,
+      "kind": "line",
+      "limit": 11,
+      "source": "机の上には文具や書類が",
+      "target": "桌上的文具和文件"
+    },
+    {
+      "offset": 3110,
+      "kind": "line",
+      "limit": 11,
+      "source": "使われていたそのままの",
+      "target": "还保持着使用时的"
+    },
+    {
+      "offset": 3138,
+      "kind": "line",
+      "limit": 11,
+      "source": "形で残されていた。",
+      "target": "样子。"
+    },
+    {
+      "offset": 3162,
+      "kind": "line",
+      "limit": 11,
+      "source": "…どうも、キチンと退去",
+      "target": "…看来他们不像是"
+    },
+    {
+      "offset": 3190,
+      "kind": "line",
+      "limit": 11,
+      "source": "したということでは",
+      "target": "正式撤离"
+    },
+    {
+      "offset": 3214,
+      "kind": "line",
+      "limit": 11,
+      "source": "なさそうだ。",
+      "target": "这里的。"
+    },
+    {
+      "offset": 3232,
+      "kind": "line",
+      "limit": 11,
+      "source": "書類の多くは、受注や",
+      "target": "文件多是订单、"
+    },
+    {
+      "offset": 3258,
+      "kind": "line",
+      "limit": 11,
+      "source": "入出庫管理など、業務に",
+      "target": "出入库管理等业务"
+    },
+    {
+      "offset": 3286,
+      "kind": "line",
+      "limit": 11,
+      "source": "関する伝票類で…",
+      "target": "单据…"
+    },
+    {
+      "offset": 3308,
+      "kind": "line",
+      "limit": 11,
+      "source": "特に手掛かりになり",
+      "target": "没有什么能成为"
+    },
+    {
+      "offset": 3332,
+      "kind": "line",
+      "limit": 11,
+      "source": "そうなものはなかった。",
+      "target": "线索的东西。"
+    },
+    {
+      "offset": 3369,
+      "kind": "line",
+      "limit": 11,
+      "source": "いくつかの引き出しを",
+      "target": "翻找了几个抽屉后，"
+    },
+    {
+      "offset": 3395,
+      "kind": "line",
+      "limit": 11,
+      "source": "調べていると、社員名簿",
+      "target": "我找到员工名册",
+      "runs": [
+        "我找到",
+        "员工名册"
+      ],
+      "emphasis": [
+        {
+          "colour": null,
+          "text": "調べていると、"
+        },
+        {
+          "colour": 2,
+          "text": "社員名簿"
+        }
+      ]
+    },
+    {
+      "offset": 3431,
+      "kind": "line",
+      "limit": 11,
+      "source": "が出てきた。",
+      "target": "。"
+    },
+    {
+      "offset": 3458,
+      "kind": "line",
+      "limit": 11,
+      "source": "他の引き出しには、特に",
+      "target": "其他抽屉里没有"
+    },
+    {
+      "offset": 3486,
+      "kind": "line",
+      "limit": 11,
+      "source": "気になるものはない。",
+      "target": "什么值得注意。"
+    },
+    {
+      "offset": 3544,
+      "kind": "line",
+      "limit": 4,
+      "source": "…あっ。",
+      "target": "…啊。"
+    },
+    {
+      "offset": 3560,
+      "kind": "line",
+      "limit": 11,
+      "source": "社員名簿を開いてみると",
+      "target": "一翻开员工名册，"
+    },
+    {
+      "offset": 3588,
+      "kind": "line",
+      "limit": 11,
+      "source": "いきなり目に飛び込んで",
+      "target": "一个名字便猛然跃入"
+    },
+    {
+      "offset": 3616,
+      "kind": "line",
+      "limit": 11,
+      "source": "きた名前に驚いた。",
+      "target": "眼帘，令我吃惊。"
+    },
+    {
+      "offset": 3640,
+      "kind": "line",
+      "limit": 10,
+      "source": "そこには、",
+      "target": "上面写着："
+    },
+    {
+      "offset": 3658,
+      "kind": "line",
+      "limit": 10,
+      "source": "代表取締役　尼子啓三",
+      "target": "代表董事　尼子启三"
+    },
+    {
+      "offset": 3717,
+      "kind": "line",
+      "limit": 10,
+      "source": "…と書かれていた。",
+      "target": "…这几个字。"
+    },
+    {
+      "offset": 3774,
+      "kind": "line",
+      "limit": 6,
+      "source": "尼子啓三…。",
+      "target": "尼子启三…"
+    },
+    {
+      "offset": 3821,
+      "kind": "line",
+      "limit": 11,
+      "source": "…なるほど、忠雄さんが",
+      "target": "…原来如此，他是"
+    },
+    {
+      "offset": 3849,
+      "kind": "line",
+      "limit": 11,
+      "source": "勤めていた工場の社長",
+      "target": "忠雄先生工作过的"
+    },
+    {
+      "offset": 3875,
+      "kind": "line",
+      "limit": 11,
+      "source": "だったのか。",
+      "target": "工厂老板。"
+    },
+    {
+      "offset": 3893,
+      "kind": "line",
+      "limit": 11,
+      "source": "それなら…確かに、",
+      "target": "这样的话…他确实"
+    },
+    {
+      "offset": 3917,
+      "kind": "line",
+      "limit": 11,
+      "source": "忠雄さんを訪ねることも",
+      "target": "有可能去找"
+    },
+    {
+      "offset": 3945,
+      "kind": "line",
+      "limit": 11,
+      "source": "あり得なくはない。",
+      "target": "忠雄先生。"
+    },
+    {
+      "offset": 3969,
+      "kind": "line",
+      "limit": 11,
+      "source": "…が、直々に訪ねるほど",
+      "target": "…但既然要亲自登门"
+    },
+    {
+      "offset": 3997,
+      "kind": "line",
+      "limit": 11,
+      "source": "の用件なら、伝言なり",
+      "target": "有事，按理也该托人"
+    },
+    {
+      "offset": 4023,
+      "kind": "line",
+      "limit": 11,
+      "source": "頼むと思うけど…。",
+      "target": "带个话吧…"
+    },
+    {
+      "offset": 4047,
+      "kind": "line",
+      "limit": 9,
+      "source": "となると、他人には",
+      "target": "那么，难道是"
+    },
+    {
+      "offset": 4071,
+      "kind": "line",
+      "limit": 9,
+      "source": "言えないような用件",
+      "target": "不能告诉别人的"
+    },
+    {
+      "offset": 4095,
+      "kind": "line",
+      "limit": 9,
+      "source": "だった、とか…？",
+      "target": "事情…？"
+    },
+    {
+      "offset": 4126,
+      "kind": "line",
+      "limit": 11,
+      "source": "勤務していた従業員は",
+      "target": "这里的员工并不多，"
+    },
+    {
+      "offset": 4152,
+      "kind": "line",
+      "limit": 11,
+      "source": "さほど多くなく、全部で",
+      "target": "总共只有"
+    },
+    {
+      "offset": 4180,
+      "kind": "line",
+      "limit": 11,
+      "source": "１６人ほどだった。",
+      "target": "１６人左右。"
+    },
+    {
+      "offset": 4204,
+      "kind": "line",
+      "limit": 9,
+      "source": "そして、その中に、",
+      "target": "而其中，"
+    },
+    {
+      "offset": 4243,
+      "kind": "line",
+      "limit": 9,
+      "source": "螻川内忠雄の名前も",
+      "target": "我还发现了"
+    },
+    {
+      "offset": 4279,
+      "kind": "line",
+      "limit": 9,
+      "source": "発見した。",
+      "target": "蝼川内忠雄的名字。"
+    },
+    {
+      "offset": 4295,
+      "kind": "line",
+      "limit": 11,
+      "source": "…確かに、ここで働いて",
+      "target": "…看来他的确曾在"
+    },
+    {
+      "offset": 4323,
+      "kind": "line",
+      "limit": 11,
+      "source": "いたようだ。",
+      "target": "这里工作。"
+    },
+    {
+      "offset": 4343,
+      "kind": "line",
+      "limit": 4,
+      "source": "…おや？",
+      "target": "…咦？"
+    },
+    {
+      "offset": 4359,
+      "kind": "line",
+      "limit": 11,
+      "source": "しかしその住所を見ると",
+      "target": "可名册上的地址"
+    },
+    {
+      "offset": 4387,
+      "kind": "line",
+      "limit": 11,
+      "source": "現在の螻川内家とは",
+      "target": "却和现在的蝼川内家"
+    },
+    {
+      "offset": 4411,
+      "kind": "line",
+      "limit": 11,
+      "source": "まるで違っていた。",
+      "target": "完全不同。"
+    },
+    {
+      "offset": 4435,
+      "kind": "line",
+      "limit": 11,
+      "source": "…どうやら、川北市内…",
+      "target": "…地址在川北市…"
+    },
+    {
+      "offset": 4463,
+      "kind": "line",
+      "limit": 11,
+      "source": "この工場の近くに別宅を",
+      "target": "他在工厂附近另有住处",
+      "runs": [
+        "他在工厂附近",
+        "另有住处"
+      ],
+      "emphasis": [
+        {
+          "colour": null,
+          "text": "この工場の近くに"
+        },
+        {
+          "colour": 2,
+          "text": "別宅を"
+        }
+      ]
+    },
+    {
+      "offset": 4504,
+      "kind": "line",
+      "limit": 11,
+      "source": "持っていたらしい。",
+      "target": "看来是这样。"
+    },
+    {
+      "offset": 4535,
+      "kind": "line",
+      "limit": 11,
+      "source": "川北市は、鞠浜市のすぐ",
+      "target": "川北市就在鞠滨市"
+    },
+    {
+      "offset": 4585,
+      "kind": "line",
+      "limit": 11,
+      "source": "隣りに位置している。",
+      "target": "旁边。"
+    },
+    {
+      "offset": 4611,
+      "kind": "line",
+      "limit": 10,
+      "source": "…充分、通勤可能だ。",
+      "target": "…完全可以通勤。"
+    },
+    {
+      "offset": 4654,
+      "kind": "line",
+      "limit": 10,
+      "source": "単身赴任するほどの",
+      "target": "并没有远到需要"
+    },
+    {
+      "offset": 4684,
+      "kind": "line",
+      "limit": 10,
+      "source": "距離ではない。",
+      "target": "独自赴任。"
+    },
+    {
+      "offset": 4706,
+      "kind": "line",
+      "limit": 3,
+      "source": "……。",
+      "target": "……"
+    },
+    {
+      "offset": 4725,
+      "kind": "line",
+      "limit": 11,
+      "source": "二重生活…という言葉が",
+      "target": "我脑中浮现出一个词："
+    },
+    {
+      "offset": 4759,
+      "kind": "line",
+      "limit": 11,
+      "source": "頭に浮かんだ。",
+      "target": "双重生活。"
+    },
+    {
+      "offset": 4779,
+      "kind": "line",
+      "limit": 10,
+      "source": "本来の家庭とは別に、",
+      "target": "就是在原本的家庭"
+    },
+    {
+      "offset": 4805,
+      "kind": "line",
+      "limit": 10,
+      "source": "もうひとつの暮らしを",
+      "target": "之外，另过一种"
+    },
+    {
+      "offset": 4831,
+      "kind": "line",
+      "limit": 10,
+      "source": "することだ。",
+      "target": "生活。"
+    },
+    {
+      "offset": 4849,
+      "kind": "line",
+      "limit": 11,
+      "source": "僕がこれまでに担当した",
+      "target": "我以前负责的调查中"
+    },
+    {
+      "offset": 4877,
+      "kind": "line",
+      "limit": 11,
+      "source": "調査でも、そういった",
+      "target": "也遇到过几次这样的"
+    },
+    {
+      "offset": 4903,
+      "kind": "line",
+      "limit": 11,
+      "source": "例が何度かあった。",
+      "target": "例子。"
+    }
+  ]
+}

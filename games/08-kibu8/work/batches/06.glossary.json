@@ -1,0 +1,152 @@
+{
+  "public_candidates": {
+    "characters": [
+      {
+        "canonical": "生王正生",
+        "render": "生王正生",
+        "aliases": [
+          "生王"
+        ],
+        "category": "person_name_or_form",
+        "status": "project_locked",
+        "first_recorded_game": "kibu1",
+        "note": "叙事者、游戏编剧。读音 イクルミ マサオ（Ikurumi Masao）；生王是姓，不是生田。",
+        "source_refs": [
+          "kibu1/characters/0",
+          "kibu2/characters/0",
+          "kibu3/characters/0",
+          "kibu4/characters/0"
+        ]
+      },
+      {
+        "canonical": "癸生川凌介",
+        "render": "癸生川凌介",
+        "aliases": [
+          "癸生川"
+        ],
+        "category": "person_name_or_form",
+        "status": "project_locked",
+        "first_recorded_game": "kibu1",
+        "note": "侦探。读音 キブカワ リョウスケ（Kibukawa Ryosuke）；先生按上下文译老师/先生。",
+        "source_refs": [
+          "kibu1/characters/1",
+          "kibu2/characters/1",
+          "kibu3/characters/1",
+          "kibu4/characters/1"
+        ]
+      },
+      {
+        "canonical": "白鷺洲伊綱",
+        "render": "白鹭洲伊纲",
+        "aliases": [
+          "白鷺洲",
+          "伊綱"
+        ],
+        "category": "person_name_or_form",
+        "status": "project_locked",
+        "first_recorded_game": "kibu1",
+        "note": "女性侦探助手。读音 サギシマ イヅナ（Sagishima Izuna）。姓为白鹭洲，不能改为白鹭岛。",
+        "usage": "白鷺洲单独出现时仅在指向伊纲的语境使用。第四作同姓亲属不能全部认作伊纲；须结合当时人物和时间线。",
+        "source_refs": [
+          "kibu1/characters/2",
+          "kibu2/characters/2",
+          "kibu3/characters/2",
+          "kibu4/characters/2"
+        ]
+      },
+      {
+        "canonical": "音成孝一",
+        "render": "林居孝一",
+        "aliases": [
+          "音成"
+        ],
+        "category": "person_name_or_form",
+        "status": "project_locked",
+        "first_recorded_game": "kibu1",
+        "note": "用户指定谐音汉化姓氏：音成单独出现译林居，全名译林居孝一；中文与邻居同音，无须译注。",
+        "source_refs": [
+          "kibu1/characters/4",
+          "kibu2/characters/4",
+          "kibu3/characters/4",
+          "kibu4/characters/4"
+        ]
+      }
+    ],
+    "terms": [
+      {
+        "canonical": "調べる",
+        "render": "调查",
+        "category": "menu",
+        "status": "project_locked",
+        "first_recorded_game": "kibu1",
+        "source_refs": [
+          "kibu1/terms/31"
+        ]
+      },
+      {
+        "canonical": "鞠浜署",
+        "render": "鞠滨警署",
+        "category": "organization",
+        "usage": "沿用公共鞠浜地名的鞠滨写法；不能把短称擅自扩成地理全名。",
+        "status": "project_locked",
+        "first_recorded_game": "kibu5",
+        "source_refs": [
+          "kibu5/game_terms/13"
+        ],
+        "source_evidence": [
+          "scn3:3350"
+        ]
+      },
+      {
+        "canonical": "港公園",
+        "render": "港口公园",
+        "category": "project_term",
+        "status": "project_locked",
+        "first_recorded_game": "kibu6",
+        "source_refs": [
+          "kibu6/terms/10",
+          "kibu7/terms/9"
+        ]
+      }
+    ],
+    "non_translate": [
+      {
+        "canonical": "Ｒ",
+        "render": "Ｒ",
+        "category": "floor_marker",
+        "usage": "本作楼顶楼层指示符，保持源全角Ｒ。",
+        "status": "preserve_in_context",
+        "first_recorded_game": "kibu5",
+        "source_refs": [
+          "kibu5/non_translate/2"
+        ],
+        "source_evidence": [
+          "scn2:2811",
+          "scn6:6085"
+        ]
+      }
+    ]
+  },
+  "local": {
+    "schema": 2,
+    "characters": [],
+    "terms": [
+      {
+        "canonical": "仮面幻影殺人事件",
+        "render": "假面幻影杀人事件",
+        "category": "title",
+        "status": "provisional",
+        "source_evidence": [
+          "scratch3_1.dat/c0-01.bin: spaced title text"
+        ],
+        "note": "原文标题字间全角空格用于显示；不同于第一作仮面幻想殺人事件。中文标题暂译。"
+      }
+    ],
+    "non_translate": [],
+    "rules": {
+      "public_policy": "同时读取 series/glossary.json 和 series/glossary-rules.json；新增专名与待定项留在本作，禁止改写前作译文。",
+      "review_status": "正文指令及点击边界尚待解析，不进行脱离上下文的字符串替换。"
+    }
+  },
+  "note": "Candidates only; read full rule files and context, do not infer identities from substring matches."
+}

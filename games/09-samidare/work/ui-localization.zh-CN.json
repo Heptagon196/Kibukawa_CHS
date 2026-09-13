@@ -1,0 +1,102 @@
+{
+  "schema": 1,
+  "game": "kibu9",
+  "source_relative": "kibu9_Data/StreamingAssets/localization",
+  "asset": "Localization",
+  "entries": [
+    {
+      "key": "pause_menu_label_howtoplay",
+      "source": "あそびかた",
+      "target": "玩法说明",
+      "reference": "How to play"
+    },
+    {
+      "key": "pause_menu_label_frame",
+      "source": "フレーム",
+      "target": "边框",
+      "reference": "Frame"
+    },
+    {
+      "key": "pause_menu_label_filter",
+      "source": "フィルタ",
+      "target": "滤镜",
+      "reference": "Filter"
+    },
+    {
+      "key": "pause_menu_label_ranking",
+      "source": "ランキング",
+      "target": "排行榜",
+      "reference": "Ranking"
+    },
+    {
+      "key": "pause_menu_label_backtitle",
+      "source": "タイトルに戻る",
+      "target": "返回标题画面",
+      "reference": "Title screen"
+    },
+    {
+      "key": "pause_menu_label_close",
+      "source": "閉じる",
+      "target": "继续游戏",
+      "reference": "Resume"
+    },
+    {
+      "key": "common_dialog_titlescreen_msg",
+      "source": "タイトル画面に戻りますか？",
+      "target": "要返回标题画面吗？",
+      "reference": "Back to title screen?"
+    },
+    {
+      "key": "common_dialog_disconnected_msg",
+      "source": "ネットワークから切断されました",
+      "target": "网络连接已断开",
+      "reference": "You have been disconnected from the Internet"
+    },
+    {
+      "key": "common_dialog_exit_game_msg",
+      "source": "ゲームを終了しますか？",
+      "target": "要退出游戏吗？",
+      "reference": "Do you want to exit the game?"
+    },
+    {
+      "key": "common_dialog_yes_label",
+      "source": "はい",
+      "target": "是",
+      "reference": "Yes"
+    },
+    {
+      "key": "common_dialog_no_label",
+      "source": "いいえ",
+      "target": "否",
+      "reference": "No"
+    },
+    {
+      "key": "loading_autosave_msg",
+      "source": "本ゲームはオートセーブに対応しておりません。\n終了する際は、ゲーム内のセーブ機能をご利用ください。",
+      "target": "本游戏不支持自动存档。\n退出时，请使用游戏内的存档功能。",
+      "reference": "This game does not support auto-save.\nPlease make sure to save before closing the game."
+    },
+    {
+      "key": "ranking_get_ranking_msg",
+      "source": "ランキングを取得する",
+      "target": "获取排行榜",
+      "reference": "Get Ranking"
+    },
+    {
+      "key": "ranking_load_ranking_msg",
+      "source": "Loading...",
+      "target": "加载中……",
+      "reference": "Loading..."
+    },
+    {
+      "key": "ranking_unranked_label",
+      "source": "ランク外",
+      "target": "未上榜",
+      "reference": "Unranked"
+    },
+    {
+      "source": "戻る",
+      "target": "返回"
+    }
+  ]
+}

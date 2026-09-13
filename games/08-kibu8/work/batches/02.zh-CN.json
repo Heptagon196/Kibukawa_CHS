@@ -1,0 +1,4070 @@
+{
+  "schema": 1,
+  "batch": 2,
+  "units": [
+    {
+      "id": "scratch3_1.dat/c1-01:41",
+      "kind": "display",
+      "source": "<color=2>２００３年</color><color=0>　　癸生川探偵事務所</color>",
+      "target": "<color=2>２００３年</color><color=0>　　癸生川侦探事务所</color>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:171:arg1",
+      "kind": "menu_prompt",
+      "source": "調べる",
+      "target": "调查"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:182:arg0",
+      "kind": "choice",
+      "source": "癸生川",
+      "target": "癸生川"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:192:arg0",
+      "kind": "choice",
+      "source": "パソコン",
+      "target": "电脑"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:204:arg0",
+      "kind": "choice",
+      "source": "電話",
+      "target": "电话"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:212:arg0",
+      "kind": "choice",
+      "source": "応接セット",
+      "target": "会客桌椅"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:226:arg0",
+      "kind": "choice",
+      "source": "窓",
+      "target": "窗户"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:232:arg0",
+      "kind": "choice",
+      "source": "机",
+      "target": "办公桌"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:238:arg1",
+      "kind": "menu_prompt",
+      "source": "呼ぶ",
+      "target": "呼唤"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:247:arg0",
+      "kind": "choice",
+      "source": "伊綱",
+      "target": "伊纲"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:255:arg0",
+      "kind": "choice",
+      "source": "癸生川",
+      "target": "癸生川"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:278",
+      "kind": "dialogue",
+      "source": "<color=2>セーブしました。</color>",
+      "target": "<color=2>已保存。</color>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:336",
+      "kind": "dialogue",
+      "source": "<color=0>おい癸生川、</color><row/><color=0>さっき言ってた事だけど…。</color><ctrl=2E/>",
+      "target": "<color=0>“喂，癸生川，</color><row/><color=0>关于刚才说的那件事……”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:450",
+      "kind": "dialogue",
+      "source": "<color=0>んー。</color><ctrl=2E/>",
+      "target": "<color=0>“嗯——”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:472",
+      "kind": "dialogue",
+      "source": "<color=0>…ダメだ。どうにも</color><row/><color=0>話を聞く気がないらしい…。</color><ctrl=2E/>",
+      "target": "<color=0>……不行。看来他</color><row/><color=0>根本没打算听我说话……</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:607",
+      "kind": "dialogue",
+      "source": "<color=0>癸生川は週刊誌に見入っている。</color><ctrl=2E/>",
+      "target": "<color=0>癸生川正看周刊看得入迷。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:697",
+      "kind": "dialogue",
+      "source": "<color=0>なお、あのボサボサ頭は決して</color><row/><color=0>寝起きだからではなく、</color><ctrl=2E/>",
+      "target": "<color=0>顺便说一下，他那头乱发</color><row/><color=0>绝不是因为刚睡醒，</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:829",
+      "kind": "dialogue",
+      "source": "<color=0>彼の場合、普段からあんな感じで</color><row/><color=0>あれが通常なのだ。</color><ctrl=2E/>",
+      "target": "<color=0>他平时就这副模样，</color><row/><color=0>这样才是常态。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:965",
+      "kind": "dialogue",
+      "source": "<color=0>しかし…なんてポーズで</color><row/><color=0>本を読んでいるんだ…？</color><ctrl=2E/>",
+      "target": "<color=0>不过……他这是什么</color><row/><color=0>看书姿势啊……？</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:1085",
+      "kind": "dialogue",
+      "source": "<color=0>データ整理のために伊綱君が</color><row/><color=0>持ち込んだパソコン一式だ。</color><ctrl=2E/>",
+      "target": "<color=0>这是伊纲为了整理资料</color><row/><color=0>搬来的一整套电脑。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:1230",
+      "kind": "dialogue",
+      "source": "<color=0>やたら古風な趣のこの部屋で、</color><row/><color=0>この最新機器が妙に浮いている。</color><ctrl=2E/>",
+      "target": "<color=0>这间屋子的风格格外老派，</color><row/><color=0>这套最新设备在里面显得很突兀。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:1395",
+      "kind": "dialogue",
+      "source": "<color=0>これまた今時珍しい</color><row/><color=0>ダイヤル式の黒電話だ。</color><ctrl=2E/>",
+      "target": "<color=0>这也是如今少见的</color><row/><color=0>拨号盘式黑色电话。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:1505",
+      "kind": "dialogue",
+      "source": "<color=0>拾い物疑惑の応接セットは、</color><row/><color=0>ここの雰囲気に良く合っている。</color><ctrl=2E/>",
+      "target": "<color=0>这套疑似捡来的会客桌椅，</color><row/><color=0>倒与这里的氛围很搭。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:1670",
+      "kind": "dialogue",
+      "source": "<color=0>まるで昭和初期の風情だ。</color><ctrl=2E/>",
+      "target": "<color=0>简直像回到了昭和初期。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:1746",
+      "kind": "dialogue",
+      "source": "<color=0>この事務所の日当たりを悪くする</color><row/><color=0>諸悪の根源がこの外の建物だ。</color><ctrl=2E/>",
+      "target": "<color=0>事务所采光这么差，</color><row/><color=0>罪魁祸首就是窗外这栋楼。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:1918",
+      "kind": "dialogue",
+      "source": "<color=0>でも、この辺りの建物はみな、</color><row/><color=0>西洋風の造りで景観は悪くない。</color><ctrl=2E/>",
+      "target": "<color=0>不过，这一带都是西式建筑，</color><row/><color=0>景观倒还不错。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:2083",
+      "kind": "dialogue",
+      "source": "<color=0>やたら高級そうな机だが、</color><row/><color=0>もしかしたら拾い物かも…。</color><ctrl=2E/>",
+      "target": "<color=0>这张办公桌看起来相当高级，</color><row/><color=0>但说不定也是捡来的……</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:2218",
+      "kind": "dialogue",
+      "source": "<color=0>伊綱君は今、キッチンで</color><row/><color=0>紅茶を淹れている。</color><ctrl=2E/>",
+      "target": "<color=0>伊纲正在厨房</color><row/><color=0>泡红茶。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:2351",
+      "kind": "dialogue",
+      "source": "<color=0>おい、癸生川。</color><ctrl=2E/>",
+      "target": "<color=0>“喂，癸生川。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:2403",
+      "kind": "dialogue",
+      "source": "<color=0>んー。</color><ctrl=2E/>",
+      "target": "<color=0>“嗯——”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:2425",
+      "kind": "dialogue",
+      "source": "<color=0>生返事しか返ってこない…。</color><ctrl=2E/>",
+      "target": "<color=0>他只是敷衍地应了一声……</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:2500",
+      "kind": "dialogue",
+      "source": "<color=0>あのさあ、癸…</color><ctrl=2E/>",
+      "target": "<color=0>“我说啊，癸……”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:2542",
+      "kind": "dialogue",
+      "source": "<color=0>無視され続け、業を煮やした</color><row/><color=0>その時だった。</color><ctrl=2E/>",
+      "target": "<color=0>他一直无视我，</color><row/><color=0>正当我快要忍无可忍时——</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:2665",
+      "kind": "dialogue",
+      "source": "<color=0>おあひゃあああ!!</color><row/><color=0>そうか、そうだったかッ！</color><ctrl=2E/>",
+      "target": "<color=0>“哇哈哈哈！！</color><row/><color=0>原来如此，原来是这么回事！”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:2774",
+      "kind": "dialogue",
+      "source": "<color=0>…!?</color><ctrl=2E/>",
+      "target": "<color=0>“……！？”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:2789",
+      "kind": "dialogue",
+      "source": "<color=0>なんだ、どうしたんだ!?</color><ctrl=2E/>",
+      "target": "<color=0>“怎么了，出什么事了！？”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:2861",
+      "kind": "dialogue",
+      "source": "<color=0>癸生川は、突然奇声を発すると…</color><ctrl=2E/>",
+      "target": "<color=0>癸生川突然怪叫一声……</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:2951",
+      "kind": "dialogue",
+      "source": "<color=0>ものすごい速さで</color><row/><color=0>電話に向かって飛びかかり、</color><ctrl=2E/>",
+      "target": "<color=0>以惊人的速度</color><row/><color=0>朝电话扑去，</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:3072",
+      "kind": "dialogue",
+      "source": "<color=0>踊るように受話器を取り、</color><row/><color=0>舞うようにダイヤルを回した。</color><ctrl=2E/>",
+      "target": "<color=0>手舞足蹈地抄起听筒，</color><row/><color=0>又旋舞般地转起了拨号盘。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:3209",
+      "kind": "dialogue",
+      "source": "<color=0>そして、受話器に向かって</color><row/><color=0>なにやら叫んでいる…</color><ctrl=2E/>",
+      "target": "<color=0>接着，他对着听筒</color><row/><color=0>不知喊了些什么……</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:3326",
+      "kind": "dialogue",
+      "source": "<color=0>…と、思うや否や</color><row/><color=0>すぐに電話は終わり…</color><ctrl=2E/>",
+      "target": "<color=0>……我还没反应过来，</color><row/><color=0>电话就打完了……</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:3446",
+      "kind": "dialogue",
+      "source": "<color=0>この週刊誌の記事には、</color><row/><color=0>面白い</color><color=2>共通点</color><color=0>がある！</color><ctrl=2E/>",
+      "target": "<color=0>“这本周刊上的报道，</color><row/><color=0>有个有趣的</color><color=2>共同点</color><color=0>！</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:3558",
+      "kind": "dialogue",
+      "source": "<color=0>非常に面白い！</color><ctrl=2E/>",
+      "target": "<color=0>非常有趣！</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:3611",
+      "kind": "dialogue",
+      "source": "<color=0>いや、違う！</color><row/><color=0>言ってみれば</color><color=2>共通ワード</color><color=0>だ！</color><ctrl=2E/>",
+      "target": "<color=0>不，不对！</color><row/><color=0>应该说是</color><color=2>共同词语</color><color=0>！”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:3715",
+      "kind": "dialogue",
+      "source": "<color=0>…えっ？</color><row/><color=0>何を突然…!?</color><ctrl=2E/>",
+      "target": "<color=0>“……咦？</color><row/><color=0>怎么突然说这个……！？”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:3784",
+      "kind": "dialogue",
+      "source": "<color=0>それだよ、生王君！</color><row/><color=0>それだったんだ!!</color><ctrl=2E/>",
+      "target": "<color=0>“就是那个，生王！</color><row/><color=0>就是那个啊！！</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:3892",
+      "kind": "dialogue",
+      "source": "<color=0>あああ、だからもうこれは</color><row/><color=0>必要ないんだあああああッ!!</color><ctrl=2E/>",
+      "target": "<color=0>啊啊啊，所以这个</color><row/><color=0>已经用不着了啊啊啊！！”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:4052",
+      "kind": "dialogue",
+      "source": "<color=0>おい、癸生…！</color><ctrl=2E/>",
+      "target": "<color=0>“喂，癸生……！”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:4094",
+      "kind": "dialogue",
+      "source": "<color=0>癸生川はテーブルに</color><row/><color=0>さっきの雑誌を叩き付け、</color><ctrl=2E/>",
+      "target": "<color=0>癸生川把刚才那本杂志</color><row/><color=0>猛地拍在桌上，</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:4216",
+      "kind": "dialogue",
+      "source": "<color=0>「うひょー」とか叫びながら、</color><row/><color=0>走り去っていった。</color><ctrl=2E/>",
+      "target": "<color=0>一边大喊着“呜呼——”，</color><row/><color=0>一边跑了出去。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:4341",
+      "kind": "dialogue",
+      "source": "<color=0>そういえば伊綱君、僕の紅茶は</color><row/><color=0>すっかり忘れてたんだろうな…。</color><ctrl=2E/>",
+      "target": "<color=0>说起来，伊纲是不是</color><row/><color=0>彻底把我的红茶忘了啊……</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:4501",
+      "kind": "dialogue",
+      "source": "<color=0>それとも、初めから</color><row/><color=0>出す気なんて無かったのか…!?</color><ctrl=2E/>",
+      "target": "<color=0>还是说，她打从一开始</color><row/><color=0>就没打算给我泡……！？</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:4643",
+      "kind": "dialogue",
+      "source": "<color=0>先生、紅茶入りましたよ。</color><ctrl=2E/>",
+      "target": "<color=0>“老师，红茶泡好了。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:4718",
+      "kind": "dialogue",
+      "source": "<color=0>って、いないじゃないですか!!</color><ctrl=2E/>",
+      "target": "<color=0>“咦，人怎么不在啊！！”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:4795",
+      "kind": "dialogue",
+      "source": "<color=0>今、なんかものすごい勢いで</color><row/><color=0>出てったけど…。</color><ctrl=2E/>",
+      "target": "<color=0>“刚才突然风风火火地</color><row/><color=0>跑出去了……”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:4919",
+      "kind": "dialogue",
+      "source": "<color=0>まったくもう…。</color><ctrl=2E/>",
+      "target": "<color=0>“真是的……”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:4964",
+      "kind": "dialogue",
+      "source": "<color=0>先生、何か叫んでましたよね。</color><row/><color=0>なんて言ってたんですか？</color><ctrl=2E/>",
+      "target": "<color=0>“刚才老师喊了些什么吧？</color><row/><color=0>他说什么了？”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:5103",
+      "kind": "dialogue",
+      "source": "<color=0>ええと、確か…。</color><ctrl=2E/>",
+      "target": "<color=0>“呃，我记得……”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:5151:arg0",
+      "kind": "choice",
+      "source": "雑誌に面白い記事があった",
+      "target": "杂志上有篇有趣的报道"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:5179:arg0",
+      "kind": "choice",
+      "source": "記事に共通ワードがあった",
+      "target": "报道里有共同词语"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:5207:arg0",
+      "kind": "choice",
+      "source": "雑誌を見て急用を思い出した",
+      "target": "看杂志时想起了急事"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:5237:arg0",
+      "kind": "choice",
+      "source": "「うひょー」",
+      "target": "“呜呼——”"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:5255",
+      "kind": "dialogue",
+      "source": "<color=0>なんか、雑誌に面白い記事が</color><row/><color=0>あったとか、どうとか…。</color><ctrl=2E/>",
+      "target": "<color=0>“好像是说杂志上</color><row/><color=0>有篇有趣的报道什么的……”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:5399",
+      "kind": "dialogue",
+      "source": "<color=0>…そうでしたか？</color><ctrl=2E/>",
+      "target": "<color=0>“……是这样吗？”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:5444",
+      "kind": "dialogue",
+      "source": "<color=0>面白いのは記事じゃなくて、</color><row/><color=2>共通点</color><color=0>って言ってましたよ。</color><ctrl=2E/>",
+      "target": "<color=0>“他说有趣的不是报道，</color><row/><color=2>共同点</color><color=0>才有趣哦。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:5586",
+      "kind": "dialogue",
+      "source": "<color=0>ええと、なんだっけな…。確か</color><row/><color=0>急用があったとかどうとか…。</color><ctrl=2E/>",
+      "target": "<color=0>“呃，说了什么来着……</color><row/><color=0>好像是有什么急事……”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:5745",
+      "kind": "dialogue",
+      "source": "<color=0>残念、違います！</color><ctrl=2E/>",
+      "target": "<color=0>“很遗憾，错了！”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:5790",
+      "kind": "dialogue",
+      "source": "<color=0>雑誌の記事に面白い</color><color=2>共通点</color><color=0>が</color><row/><color=0>ある、って言ってたんですよ！</color><ctrl=2E/>",
+      "target": "<color=0>“他说杂志上的报道有个有趣的</color><color=2>共同点</color><color=0>，</color><row/><color=0>是这个意思！”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:5937",
+      "kind": "dialogue",
+      "source": "<color=0>確か…「うひょー」って</color><row/><color=0>叫んでたなあ。</color><ctrl=2E/>",
+      "target": "<color=0>“我记得……</color><row/><color=0>他喊的是‘呜呼——’。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:6046",
+      "kind": "dialogue",
+      "source": "<color=0>そういうことじゃないですよ！</color><ctrl=2E/>",
+      "target": "<color=0>“我问的不是这个！”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:6121",
+      "kind": "dialogue",
+      "source": "<color=0>んもう、わざと言ってませんか？</color><ctrl=2E/>",
+      "target": "<color=0>“真是的，您是故意的吧？”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:6203",
+      "kind": "dialogue",
+      "source": "<color=0>いや、その…ごめん。</color><row/><color=0>えっと…なんだったっけかな。</color><ctrl=2E/>",
+      "target": "<color=0>“不是，那个……抱歉。</color><row/><color=0>呃……到底是什么来着。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:6332",
+      "kind": "dialogue",
+      "source": "<color=0>雑誌の記事に面白い</color><color=2>共通点</color><color=0>が</color><row/><color=0>ある、って言ってたんですよ！</color><ctrl=2E/>",
+      "target": "<color=0>“他说杂志上的报道有个有趣的</color><color=2>共同点</color><color=0>，</color><row/><color=0>是这个意思！”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:6476",
+      "kind": "dialogue",
+      "source": "<color=0>な、なんだよ、そっちでも</color><row/><color=0>聞こえてたんじゃないか！</color><ctrl=2E/>",
+      "target": "<color=0>“什、什么啊，</color><row/><color=0>原来你那边也听见了！”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:6618",
+      "kind": "dialogue",
+      "source": "<color=0>そりゃあ、あれだけ大きな</color><row/><color=0>声ですからね。</color><ctrl=2E/>",
+      "target": "<color=0>“那当然，</color><row/><color=0>他喊得那么大声。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:6730",
+      "kind": "dialogue",
+      "source": "<color=0>でも、そんないい加減なことじゃ</color><row/><color=0>ダメですよ、生王さん！</color><ctrl=2E/>",
+      "target": "<color=0>“可是您这么马马虎虎的</color><row/><color=0>可不行啊，生王先生！”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:6879",
+      "kind": "dialogue",
+      "source": "<color=0>うう、なんだ？　もしかして</color><row/><color=0>試されていたのか!?</color><ctrl=2E/>",
+      "target": "<color=0>呜，什么情况？</color><row/><color=0>难道她是在考我！？</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:7001",
+      "kind": "dialogue",
+      "source": "<color=0>雑誌の記事に面白い共通点が</color><row/><color=0>あるとか、どうとか…。</color><ctrl=2E/>",
+      "target": "<color=0>“好像是说，杂志上的报道</color><row/><color=0>有什么有趣的共同点……</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:7128",
+      "kind": "dialogue",
+      "source": "<color=0>いや、</color><color=2>共通ワード</color><color=0>かな？</color><ctrl=2E/>",
+      "target": "<color=0>不对，是</color><color=2>共同词语</color><color=0>吧？</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:7188",
+      "kind": "dialogue",
+      "source": "<color=0>どうも、それのせいで何かに</color><row/><color=0>気付いた様子だったけど…。</color><ctrl=2E/>",
+      "target": "<color=0>他好像因为这个</color><row/><color=0>察觉到了什么……”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:7340",
+      "kind": "dialogue",
+      "source": "<color=0>お、よく理解できましたね。</color><row/><color=0>それなら上出来ですよ！</color><ctrl=2E/>",
+      "target": "<color=0>“哦，您理解得很准确嘛。</color><row/><color=0>这样就相当不错了！”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:7469",
+      "kind": "dialogue",
+      "source": "<color=0>えっ…？　なんだ、</color><row/><color=0>そっちにも聞こえてたの？</color><ctrl=2E/>",
+      "target": "<color=0>“咦……？什么啊，</color><row/><color=0>原来你那边也听见了？”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:7596",
+      "kind": "dialogue",
+      "source": "<color=0>そりゃあ、あれだけ大きな</color><row/><color=0>声ですからね。</color><ctrl=2E/>",
+      "target": "<color=0>“那当然，</color><row/><color=0>他喊得那么大声。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:7713",
+      "kind": "dialogue",
+      "source": "<color=0>ま、それはさておき、</color><row/><color=0>共通ワード…ですか。</color><ctrl=2E/>",
+      "target": "<color=0>“嗯，先不说这个，</color><row/><color=0>共同词语……是吗？”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:7822",
+      "kind": "dialogue",
+      "source": "<color=0>週刊誌を見てたら、突然</color><row/><color=0>どこかに電話を掛けて…。</color><ctrl=2E/>",
+      "target": "<color=0>“他看着周刊，突然就</color><row/><color=0>给什么人打了个电话……”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:7956",
+      "kind": "dialogue",
+      "source": "<color=0>電話を…？</color><ctrl=2E/>",
+      "target": "<color=0>“打电话……？”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:7988",
+      "kind": "dialogue",
+      "source": "<color=0>どこに電話をしてたかは</color><row/><color=0>ちょっと分からないけど…。</color><ctrl=2E/>",
+      "target": "<color=0>“不过，我也不知道</color><row/><color=0>他是打给谁的……”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:8130",
+      "kind": "dialogue",
+      "source": "<color=0>んー。</color><ctrl=2E/>",
+      "target": "<color=0>“嗯……”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:8150",
+      "kind": "dialogue",
+      "source": "<color=0>最近の先生の行動、</color><row/><color=0>ちょっと気になるんですよね。</color><ctrl=2E/>",
+      "target": "<color=0>“最近老师的举动，</color><row/><color=0>有点让我在意。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:8272",
+      "kind": "dialogue",
+      "source": "<color=0>またひとりで勝手に</color><row/><color=0>何かを調べてるみたいで…。</color><ctrl=2E/>",
+      "target": "<color=0>他好像又在擅自</color><row/><color=0>一个人调查什么……”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:8399",
+      "kind": "dialogue",
+      "source": "<color=0>生王さん、その週刊誌を</color><row/><color=0>もう少し調べてみましょうか。</color><ctrl=2E/>",
+      "target": "<color=0>“生王先生，我们再仔细</color><row/><color=0>看看那本周刊吧。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:8541",
+      "kind": "dialogue",
+      "source": "<color=0>その共通ワードというやつが</color><row/><color=0>わかれば…</color><ctrl=2E/>",
+      "target": "<color=0>只要找出那个所谓的</color><row/><color=0>共同词语……</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:8638",
+      "kind": "dialogue",
+      "source": "<color=0>先生がいったい何を調べてるのか</color><row/><color=0>わかるかもしれませんから。</color><ctrl=2E/>",
+      "target": "<color=0>也许就能知道，</color><row/><color=0>老师究竟在调查什么了。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:8824",
+      "kind": "display",
+      "source": "<color=2>２００３年</color><color=0>　　癸生川探偵事務所</color>",
+      "target": "<color=2>２００３年</color><color=0>　　癸生川侦探事务所</color>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:8931:arg1",
+      "kind": "menu_prompt",
+      "source": "調べる",
+      "target": "调查"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:8942:arg0",
+      "kind": "choice",
+      "source": "週刊誌",
+      "target": "周刊"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:8965",
+      "kind": "dialogue",
+      "source": "<color=2>セーブしました。</color>",
+      "target": "<color=2>已保存。</color>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:9041",
+      "kind": "dialogue",
+      "source": "<color=0>共通ワード…ということは、</color><ctrl=2E/>",
+      "target": "<color=0>“所谓共同词语……也就是说，</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:9111",
+      "kind": "dialogue",
+      "source": "<color=0>別々の記事で、同じ言葉が</color><row/><color=0>関わってるってことですよね。</color><ctrl=2E/>",
+      "target": "<color=0>不同的报道，</color><row/><color=0>与同一个词有关吧。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:9248",
+      "kind": "dialogue",
+      "source": "<color=0>その言葉が直接書かれてなくても</color><row/><color=0>よく注意してくださいね。</color><ctrl=2E/>",
+      "target": "<color=0>即使报道里没直接写出那个词，</color><row/><color=0>也要仔细留意哦。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:9392",
+      "kind": "dialogue",
+      "source": "<color=0>考え方によって、結びつく言葉</color><row/><color=0>かもしれないってことか…。</color><ctrl=2E/>",
+      "target": "<color=0>“也就是说，换个角度想，</color><row/><color=0>也许就能联想到那个词……”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:9545",
+      "kind": "dialogue",
+      "source": "<color=0>ひとまず一通りの記事を読んで</color><row/><color=0>検討してみましょうか。</color><ctrl=2E/>",
+      "target": "<color=0>“我们先把报道都读一遍，</color><row/><color=0>再来考虑吧。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:9682",
+      "kind": "dialogue",
+      "source": "<color=0>おっ、今度こそ大丈夫ですか？</color><ctrl=2E/>",
+      "target": "<color=0>“哦，这回真的有把握了？”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:9760:arg0",
+      "kind": "choice",
+      "source": "バッチリ分かった！",
+      "target": "完全明白了！"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:9782:arg0",
+      "kind": "choice",
+      "source": "もう少し確認したい…",
+      "target": "想再确认一下……"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:9808",
+      "kind": "dialogue",
+      "source": "<color=0>も、もう少し！　もう少し！</color><row/><color=0>ここまで出かかってるのに！</color><ctrl=2E/>",
+      "target": "<color=0>“再、再差一点！就差一点了！</color><row/><color=0>明明就要想出来了！”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:9947",
+      "kind": "dialogue",
+      "source": "<color=0>まるで思い出せないだけ</color><row/><color=0>みたいに言いますね。</color><ctrl=2E/>",
+      "target": "<color=0>“听您这说法，</color><row/><color=0>好像只是想不起来似的。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:10059",
+      "kind": "dialogue",
+      "source": "<color=0>ちゃんと調べてくださいよ！</color><ctrl=2E/>",
+      "target": "<color=0>“请您好好调查啦！”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:10131",
+      "kind": "dialogue",
+      "source": "<color=0>くう…。</color><ctrl=2E/>",
+      "target": "<color=0>“呜……”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:10168",
+      "kind": "dialogue",
+      "source": "<color=0>たぶん、大丈夫だと…思う。</color><ctrl=2E/>",
+      "target": "<color=0>“大概……应该没问题了。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:10238",
+      "kind": "dialogue",
+      "source": "<color=0>たぶん！</color><ctrl=2E/>",
+      "target": "<color=0>“只是大概吗！”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:10265",
+      "kind": "dialogue",
+      "source": "<color=0>じゃあ、先生の言う共通ワードは</color><row/><color=0>何だと思いますか？</color><ctrl=2E/>",
+      "target": "<color=0>“那您觉得，</color><row/><color=0>老师说的共同词语是什么？”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:10394",
+      "kind": "dialogue",
+      "source": "<color=0>え、ええと…。</color><ctrl=2E/>",
+      "target": "<color=0>“呃，这个……”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:10448",
+      "kind": "dialogue",
+      "source": "<color=0>おや…？</color><ctrl=2E/>",
+      "target": "<color=0>“咦……？”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:10485",
+      "kind": "dialogue",
+      "source": "<color=0>ん？　どうしました？</color><ctrl=2E/>",
+      "target": "<color=0>“嗯？怎么了？”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:10542",
+      "kind": "dialogue",
+      "source": "<color=0>よく見ると、この雑誌…</color><ctrl=2E/>",
+      "target": "<color=0>“仔细一看，这本杂志……</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:10602",
+      "kind": "dialogue",
+      "source": "<color=0>いくつか、ページのカドが</color><row/><color=0>折り込まれてる。</color><ctrl=2E/>",
+      "target": "<color=0>有几页的页角</color><row/><color=0>被折起来了。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:10721",
+      "kind": "dialogue",
+      "source": "<color=0>さっきはありませんでしたよ。</color><row/><color=0>先生が折ったんですかね。</color><ctrl=2E/>",
+      "target": "<color=0>“刚才还没有呢。</color><row/><color=0>是老师折的吧。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:10860",
+      "kind": "dialogue",
+      "source": "<color=0>ということは、共通点って</color><row/><color=0>このページの記事なのかな？</color><ctrl=2E/>",
+      "target": "<color=0>“这么说，有共同点的</color><row/><color=0>就是这些报道吗？”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:11007",
+      "kind": "dialogue",
+      "source": "<color=0>印を付けながら読んでたの</color><row/><color=0>かもしれないですね。</color><ctrl=2E/>",
+      "target": "<color=0>“可能是边看</color><row/><color=0>边做记号吧。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:11137",
+      "kind": "dialogue",
+      "source": "<color=0>生王さん、その記事を</color><row/><color=0>読んでみましょうよ。</color><ctrl=2E/>",
+      "target": "<color=0>“生王先生，</color><row/><color=0>我们读读这些报道吧。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:11256",
+      "kind": "dialogue",
+      "source": "<color=0>えっと…。</color><ctrl=2E/>",
+      "target": "<color=0>“嗯……”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:11294",
+      "kind": "dialogue",
+      "source": "<color=0>折られたページの記事は、</color><row/><color=0>次の６つだった。</color><ctrl=2E/>",
+      "target": "<color=0>折了页角的页面上，</color><row/><color=0>共有以下六篇报道。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:11407",
+      "kind": "dialogue",
+      "source": "<color=4>・ネットゲームのもたらす影響</color><color=0>　</color><ctrl=3B/>",
+      "target": "<color=4>・网络游戏带来的影响</color><color=0>　</color><ctrl=3B/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:11491",
+      "kind": "dialogue",
+      "source": "<color=4>・ネットゲームのもたらす影響</color><color=0>　</color><ctrl=3B/><row/><color=4>・羽沢家放火殺人事件から３年</color><color=0>　</color><ctrl=3B/>",
+      "target": "<color=4>・网络游戏带来的影响</color><color=0>　</color><ctrl=3B/><row/><color=4>・羽泽家纵火杀人案三年后</color><color=0>　</color><ctrl=3B/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:11652",
+      "kind": "dialogue",
+      "source": "<color=4>・ネットゲームのもたらす影響</color><color=0>　</color><ctrl=3B/><row/><color=4>・羽沢家放火殺人事件から３年</color><color=0>　</color><ctrl=3B/><row/><color=4>・政治家Ｆ、驚くべき裏の顔</color><color=0>　　</color><ctrl=3B/>",
+      "target": "<color=4>・网络游戏带来的影响</color><color=0>　</color><ctrl=3B/><row/><color=4>・羽泽家纵火杀人案三年后</color><color=0>　</color><ctrl=3B/><row/><color=4>・政客Ｆ，惊人的另一面</color><color=0>　　</color><ctrl=3B/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:11890",
+      "kind": "dialogue",
+      "source": "<color=4>・ネットゲームのもたらす影響</color><color=0>　</color><ctrl=3B/><row/><color=4>・羽沢家放火殺人事件から３年</color><color=0>　</color><ctrl=3B/><row/><color=4>・政治家Ｆ、驚くべき裏の顔</color><color=0>　　</color><ctrl=3B/><row/><color=4>・アイドル水沼みゆき、謎の逢瀬</color><ctrl=3B/>",
+      "target": "<color=4>・网络游戏带来的影响</color><color=0>　</color><ctrl=3B/><row/><color=4>・羽泽家纵火杀人案三年后</color><color=0>　</color><ctrl=3B/><row/><color=4>・政客Ｆ，惊人的另一面</color><color=0>　　</color><ctrl=3B/><row/><color=4>・偶像水沼美雪的神秘幽会</color><ctrl=3B/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:12213",
+      "kind": "dialogue",
+      "source": "<color=4>・ネットゲームのもたらす影響</color><color=0>　</color><ctrl=3B/><row/><color=4>・羽沢家放火殺人事件から３年</color><color=0>　</color><ctrl=3B/><row/><color=4>・政治家Ｆ、驚くべき裏の顔</color><color=0>　　</color><ctrl=3B/><row/><color=4>・アイドル水沼みゆき、謎の逢瀬</color><ctrl=3B/><row/><color=4>・都市伝説、鞠浜を騒がすＭ２！</color><ctrl=3B/>",
+      "target": "<color=4>・网络游戏带来的影响</color><color=0>　</color><ctrl=3B/><row/><color=4>・羽泽家纵火杀人案三年后</color><color=0>　</color><ctrl=3B/><row/><color=4>・政客Ｆ，惊人的另一面</color><color=0>　　</color><ctrl=3B/><row/><color=4>・偶像水沼美雪的神秘幽会</color><ctrl=3B/><row/><color=4>・都市传说，轰动鞠滨的Ｍ２！</color><ctrl=3B/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:12623",
+      "kind": "dialogue",
+      "source": "<color=4>・ネットゲームのもたらす影響</color><color=0>　</color><ctrl=3B/><row/><color=4>・羽沢家放火殺人事件から３年</color><color=0>　</color><ctrl=3B/><row/><color=4>・政治家Ｆ、驚くべき裏の顔</color><color=0>　　</color><ctrl=3B/><row/><color=4>・アイドル水沼みゆき、謎の逢瀬</color><ctrl=3B/><row/><color=4>・都市伝説、鞠浜を騒がすＭ２！</color><ctrl=3B/><row/><color=4>・鞠浜駅前に新しいスポット誕生</color><ctrl=2E/>",
+      "target": "<color=4>・网络游戏带来的影响</color><color=0>　</color><ctrl=3B/><row/><color=4>・羽泽家纵火杀人案三年后</color><color=0>　</color><ctrl=3B/><row/><color=4>・政客Ｆ，惊人的另一面</color><color=0>　　</color><ctrl=3B/><row/><color=4>・偶像水沼美雪的神秘幽会</color><ctrl=3B/><row/><color=4>・都市传说，轰动鞠滨的Ｍ２！</color><ctrl=3B/><row/><color=4>・鞠滨站前新去处诞生</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:13116",
+      "kind": "dialogue",
+      "source": "<color=0>さて、どの記事から読もうか…。</color><ctrl=2E/>",
+      "target": "<color=0>那么，先读哪篇呢……</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:13196:arg1",
+      "kind": "menu_prompt",
+      "source": "記事を読む",
+      "target": "阅读报道"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:13211:arg0",
+      "kind": "choice",
+      "source": "ネットゲーム",
+      "target": "网络游戏"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:13227:arg0",
+      "kind": "choice",
+      "source": "放火殺人事件",
+      "target": "纵火杀人案"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:13243:arg0",
+      "kind": "choice",
+      "source": "政治家の汚職",
+      "target": "政客贪腐"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:13259:arg0",
+      "kind": "choice",
+      "source": "アイドル",
+      "target": "偶像"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:13271:arg0",
+      "kind": "choice",
+      "source": "都市伝説",
+      "target": "都市传说"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:13283:arg0",
+      "kind": "choice",
+      "source": "新スポット",
+      "target": "新去处"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:13309:arg0",
+      "kind": "choice",
+      "source": "この記事をもう一度読む",
+      "target": "再读一次这篇报道"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:13335:arg0",
+      "kind": "choice",
+      "source": "もういいや",
+      "target": "不用了"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:13364",
+      "kind": "dialogue",
+      "source": "<color=0>これは特集に付随する</color><row/><color=0>記事みたいだな。</color><ctrl=2E/>",
+      "target": "<color=0>这似乎是专题的</color><row/><color=0>配套报道。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:13461",
+      "kind": "dialogue",
+      "source": "<color=0>ネットゲームについての解説と、</color><row/><color=0>その影響が書かれている。</color><ctrl=2E/>",
+      "target": "<color=0>上面介绍了网络游戏，</color><row/><color=0>以及它带来的影响。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:13623",
+      "kind": "dialogue",
+      "source": "<color=2>ネットゲームのもたらす影響</color>",
+      "target": "<color=2>网络游戏带来的影响</color>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:13705",
+      "kind": "dialogue",
+      "source": "<color=0>インターネットの普及により、</color><row/><color=0>コンピュータゲームもだいぶ</color><row/><color=0>様変わりしてきた。</color><ctrl=2E/>",
+      "target": "<color=0>随着互联网普及，</color><row/><color=0>电脑游戏的面貌</color><row/><color=0>也发生了巨大变化。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:13894",
+      "kind": "dialogue",
+      "source": "<color=0>ネットによる通信を利用して、</color><row/><color=0>遠く離れた見知らぬ人と</color><row/><color=0>対戦したり、手を取り合って</color><row/><color=0>共に戦うことができたりする、</color><row/><color=0>いわゆる</color><color=2>オンラインゲーム</color><color=0>が</color><row/><color=0>人気を集めている。</color><ctrl=2E/>",
+      "target": "<color=0>借助网络通信，</color><row/><color=0>与相隔遥远的陌生人</color><row/><color=0>展开对战，</color><row/><color=0>或携手并肩作战——</color><row/><color=0>这种所谓的</color><color=2>在线游戏</color><color=0>，</color><row/><color=0>正广受欢迎。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:14279",
+      "kind": "dialogue",
+      "source": "<color=0>自宅にいながらにして、世界中の</color><row/><color=0>人々とゲームを楽しめるのだが、</color><ctrl=3B/><row/><color=0>逆に言えば、ネットを通じて</color><row/><color=0>同好の士といくらでも出会え、</color><row/><color=0>遊べるため、</color><ctrl=3A/><color=0>自室に引きこもり、</color><row/><color=0>他人との接触を極度に避ける</color><row/><color=0>傾向が強くなってくる。</color><ctrl=2E/>",
+      "target": "<color=0>足不出户就能与世界各地的人</color><row/><color=0>一起享受游戏，</color><ctrl=3B/><row/><color=0>但反过来说，</color><row/><color=0>由于通过网络便能不断结识</color><row/><color=0>志趣相投的伙伴并一同游玩，</color><ctrl=3A/><color=0>人们愈发倾向于闭门不出，</color><row/><color=0>把自己关在房里，</color><row/><color=0>极力避免与他人接触。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:14776",
+      "kind": "dialogue",
+      "source": "<color=0>また、直接顔を合わせない交流が</color><row/><color=0>増えるため、相手の表情や仕草、</color><row/><color=0>口調から気持ちを察する能力が</color><row/><color=0>著しく衰え、</color><ctrl=3A/><color=0>自分勝手な</color><row/><color=0>振る舞いも平気で行える。</color><ctrl=3B/><row/><color=0>お互いに素顔を隠しているため、</color><row/><color=0>遠慮という感覚が狂うのだ。</color><ctrl=2E/>",
+      "target": "<color=0>此外，不直接见面的交流增多，</color><row/><color=0>会使人通过对方的表情、动作</color><row/><color=0>和语气揣摩其心情的能力</color><row/><color=0>大幅衰退，</color><ctrl=3A/><color=0>即使做出自私自利的</color><row/><color=0>举动也能毫不在意。</color><ctrl=3B/><row/><color=0>彼此都隐藏着真面目，</color><row/><color=0>也就失去了应有的分寸。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:15296",
+      "kind": "dialogue",
+      "source": "<color=0>更に、人が操作しているゆえに</color><row/><color=0>ゲームの世界のリアリティも増し</color><row/><color=0>ますます現実とゲーム世界の</color><row/><color=0>区別がつかなくなる。</color><ctrl=2E/>",
+      "target": "<color=0>而且，由于角色由真人操控，</color><row/><color=0>游戏世界的真实感也随之增强，</color><row/><color=0>让人越来越分不清</color><row/><color=0>现实与游戏世界。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:15567",
+      "kind": "dialogue",
+      "source": "<color=0>こうなってくると、</color><row/><color=0>現実世界への影響も計りしれなく</color><row/><color=0>なってこよう。</color><ctrl=3B/><row/><color=0>ちょっとしたもめ事で、</color><row/><color=0>ゲーム世界のように武器や刃物を</color><row/><color=0>振り回し、相手を傷つけることも</color><row/><color=0>いとわなくなるのだ。</color><ctrl=2E/>",
+      "target": "<color=0>发展到这种地步，</color><row/><color=0>对现实世界的影响</color><row/><color=0>恐怕也将难以估量。</color><ctrl=3B/><row/><color=0>仅仅发生一点小摩擦，</color><row/><color=0>就像在游戏中一样挥舞武器</color><row/><color=0>或刀具，毫不犹豫地</color><row/><color=0>伤害对方。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:16030",
+      "kind": "display",
+      "source": "<color=2>２００３年</color><color=0>　　癸生川探偵事務所</color>",
+      "target": "<color=2>２００３年</color><color=0>　　癸生川侦探事务所</color>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:16091",
+      "kind": "dialogue",
+      "source": "<color=0>…あらら、ゲームについて</color><row/><color=0>もう叩かれてましたね。</color><ctrl=2E/>",
+      "target": "<color=0>“……哎呀，这就开始</color><row/><color=0>批判游戏了呢。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:16215",
+      "kind": "dialogue",
+      "source": "<color=0>うはぁ、断言されてる…。</color><ctrl=2E/>",
+      "target": "<color=0>“呜哇，说得这么斩钉截铁……</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:16280",
+      "kind": "dialogue",
+      "source": "<color=0>完全に悪者扱いじゃないか。</color><row/><color=0>ひどいなあ…。</color><ctrl=2E/>",
+      "target": "<color=0>完全把游戏当成坏东西了啊。</color><row/><color=0>真过分……”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:16414:arg0",
+      "kind": "choice",
+      "source": "この記事をもう一度読む",
+      "target": "再读一次这篇报道"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:16440:arg0",
+      "kind": "choice",
+      "source": "もういいや",
+      "target": "不用了"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:16469",
+      "kind": "dialogue",
+      "source": "<color=0>特集記事でも上がった、３年前の</color><row/><color=0>放火殺人事件に関する記事だ。</color><ctrl=2E/>",
+      "target": "<color=0>这是关于三年前纵火杀人案的报道，</color><row/><color=0>专题中也提到了这起案子。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:16641",
+      "kind": "dialogue",
+      "source": "<color=2>羽沢家放火殺人事件から３年…</color>",
+      "target": "<color=2>羽泽家纵火杀人案三年后……</color>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:16728",
+      "kind": "dialogue",
+      "source": "<color=0>２０００年１月に世間を賑わせた</color><row/><color=0>狭稲市の羽沢家放火殺人事件の</color><row/><color=0>犯人、</color><color=2>中学生Ａ</color><color=0>が補導されて、</color><row/><color=0>３年以上が経過した。</color><ctrl=2E/>",
+      "target": "<color=0>２０００年１月，狭稻市</color><row/><color=0>发生了轰动社会的羽泽家</color><row/><color=0>纵火杀人案。犯人</color><color=2>初中生Ａ</color><color=0>被管教后，</color><row/><color=0>如今已经过去三年多了。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:17034",
+      "kind": "dialogue",
+      "source": "<color=0>当時は、犯人が中学生であるため</color><row/><color=0>それによって世間に与える影響と</color><row/><color=0>本人の将来を考え、強い</color><row/><color=0>報道規制が布かれた。</color><ctrl=2E/>",
+      "target": "<color=0>当时，由于犯人是初中生，</color><row/><color=0>考虑到由此造成的社会影响</color><row/><color=0>及其本人的将来，</color><row/><color=0>对新闻报道实施了严格限制。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:17312",
+      "kind": "dialogue",
+      "source": "<color=0>そのため、中学生Ａが何者かは</color><row/><color=0>いっさいが明かされず、また</color><row/><color=0>現在どのような状態にあるのかも</color><row/><color=0>すべてが不明である。</color><ctrl=2E/>",
+      "target": "<color=0>因此，初中生Ａ究竟是谁，</color><row/><color=0>完全没有公开，</color><row/><color=0>如今身处何种状态，</color><row/><color=0>也无人知晓。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:17583",
+      "kind": "dialogue",
+      "source": "<color=0>ここでは、その後の経緯を推測し</color><row/><color=0>現在その中学生Ａがどのような</color><row/><color=0>生活をしているのかを、考察</color><row/><color=0>してみたい。</color><ctrl=2E/>",
+      "target": "<color=0>在此，我们试着推测</color><row/><color=0>此后的经过，</color><row/><color=0>探讨初中生Ａ如今</color><row/><color=0>过着怎样的生活。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:17862",
+      "kind": "dialogue",
+      "source": "<color=0>まず中学生Ａは、犯行時は１３歳</color><row/><color=0>だったため、刑法４１条の規定に</color><row/><color=0>より刑事責任を問われることは</color><row/><color=0>なかった。</color><ctrl=3B/><row/><color=0>よって、逮捕されたのではなく</color><row/><color=0>触法少年として補導され、</color><row/><color=0>児童相談所に通告された。</color><ctrl=2E/>",
+      "target": "<color=0>首先，初中生Ａ犯案时１３岁，</color><row/><color=0>根据刑法第四十一条的规定，</color><row/><color=0>无需承担</color><row/><color=0>刑事责任。</color><ctrl=3B/><row/><color=0>因此，Ａ并非被逮捕，</color><row/><color=0>而是作为触法少年接受管教，</color><row/><color=0>并被通报给儿童咨询所。</color><ctrl=2E/>",
+      "notes": "此段按2003年剧中周刊立场译出当时少年法制度描述；全文为报道推测与主张，未改成现行法律说明。",
+      "review_note": "此时报道明确说明初中生Ａ身份完全未公开；原文并未给出性别，译文自行用男性代词“他”，会给身份推理添加原文没有的限定。改为中性指代。"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:18334",
+      "kind": "dialogue",
+      "source": "<color=0>児童相談所は、少年審判に</color><row/><color=0>付するのが適当と判断し、</color><row/><color=0>家庭裁判所に送致。</color><ctrl=2E/>",
+      "target": "<color=0>儿童咨询所认为</color><row/><color=0>适宜交付少年审判，</color><row/><color=0>便将其移送家庭法院。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:18540",
+      "kind": "dialogue",
+      "source": "<color=0>しかし、家庭裁判所での判事は</color><row/><color=0>すべて非公開のため、その刑罰の</color><row/><color=0>詳細は知られることがなく、</color><ctrl=3B/><row/><color=0>加害者の中学生に下された処分は</color><row/><color=0>だいたい次の通りであろうと</color><row/><color=0>一般に推察されている。</color><ctrl=2E/>",
+      "target": "<color=0>然而，家庭法院的审理</color><row/><color=0>一律不公开，具体处罚</color><row/><color=0>无从得知，</color><ctrl=3B/><row/><color=0>因此，人们普遍推测，</color><row/><color=0>这名行凶的初中生</color><row/><color=0>大致受到了如下处分。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:18978",
+      "kind": "dialogue",
+      "source": "<color=0>家屋に火を放って、そこに住む</color><row/><color=0>一家４人を惨殺し逃走、という</color><row/><color=0>残虐非道を極める犯行。</color><ctrl=3B/><row/><color=0>児童自立支援施設への収容、</color><row/><color=0>という保護処分が下された。</color><ctrl=2E/>",
+      "target": "<color=0>放火烧毁住宅，</color><row/><color=0>残杀居住在内的一家四口后逃走，</color><row/><color=0>犯行残暴至极。</color><ctrl=3B/><row/><color=0>对其作出的保护处分，</color><row/><color=0>是收容至儿童自立支援设施。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:19370",
+      "kind": "dialogue",
+      "source": "<color=0>なぜなら現時点の法ではそれが、</color><row/><color=0>１３歳の触法少年に与えられる</color><row/><color=0>最も重い刑罰だからだ。</color><ctrl=3B/><row/><color=0>これは、当時ニュースなどでも</color><row/><color=0>大々的に報道されたので、</color><row/><color=0>ご存知の方も多いであろう。</color><ctrl=2E/>",
+      "target": "<color=0>因为依照现行法律，</color><row/><color=0>这已是能对１３岁触法少年</color><row/><color=0>施加的最重处罚。</color><ctrl=3B/><row/><color=0>当时新闻曾对此</color><row/><color=0>大加报道，</color><row/><color=0>想必许多读者也都知晓。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:19792",
+      "kind": "dialogue",
+      "source": "<color=0>児童自立支援施設では、</color><row/><color=0>規則正しい生活環境の中で、</color><row/><color=0>児童精神科医などの援助を</color><row/><color=0>受けながら、特殊教育課程の</color><row/><color=0>プログラムが実施される。</color><ctrl=3B/><row/><color=0>しかしここで問題になるのは、</color><row/><color=0>その</color><color=2>収容期間</color><color=0>だ。</color><ctrl=2E/>",
+      "target": "<color=0>在儿童自立支援设施内，</color><row/><color=0>儿童将在规律的生活环境中，</color><row/><color=0>接受儿童精神科医生等人的</color><row/><color=0>援助，并参加</color><row/><color=0>特殊教育课程。</color><ctrl=3B/><row/><color=0>然而，这里的问题在于</color><row/><color=0>其</color><color=2>收容期限</color><color=0>。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:20244",
+      "kind": "dialogue",
+      "source": "<color=0>裁判所に、収容期間の</color><row/><color=0>決定権限はない。</color><ctrl=3B/><row/><color=0>よって、</color><color=2>施設の判断</color><color=0>により、</color><row/><color=0>再び今件のような非行が</color><row/><color=0>繰り返されることはないと、</color><row/><color=0>更正が認められた時点で</color><row/><color=0>仮出所となるのだ。</color><ctrl=2E/>",
+      "target": "<color=0>法院无权决定</color><row/><color=0>收容期限。</color><ctrl=3B/><row/><color=0>因此，只要</color><color=2>设施方面判断</color><color=0>，</color><row/><color=0>少年已改过自新，</color><row/><color=0>不会再度出现</color><row/><color=0>类似本案的违法行为，</color><row/><color=0>便会让其暂时出所。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:20636",
+      "kind": "dialogue",
+      "source": "<color=0>…では、実際の収容期間は</color><row/><color=0>どのくらいなのだろうか。</color><ctrl=2E/>",
+      "target": "<color=0>……那么，实际的收容期限</color><row/><color=0>究竟有多长呢？</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:20763",
+      "kind": "dialogue",
+      "source": "<color=0>今年の２月頃、件の中学生Ａが</color><row/><color=0>施設を出所し、社会復帰した</color><row/><color=0>…という</color><color=2>噂話</color><color=0>が世間を飛び交い、</color><ctrl=3B/><row/><color=0>ちょっとした問題になったことは</color><row/><color=0>覚えておいでだろうか。</color><ctrl=2E/>",
+      "target": "<color=0>今年２月前后，社会上流传起</color><row/><color=0>那名初中生Ａ已经离开设施、</color><row/><color=0>重返社会的</color><color=2>传言</color><color=0>。</color><ctrl=3B/><row/><color=0>此事曾引起一阵争议，</color><row/><color=0>各位是否还记得呢？</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:21138",
+      "kind": "dialogue",
+      "source": "<color=0>事の真偽は定かではないが、</color><row/><color=0>実はその噂は、充分</color><color=2>有り得る</color><row/><color=0>話なのである。</color><ctrl=2E/>",
+      "target": "<color=0>虽然真假尚不明确，</color><row/><color=0>但实际上，这则传言完全</color><color=2>有可能</color><row/><color=0>是真的。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:21336",
+      "kind": "dialogue",
+      "source": "<color=0>現在、１４歳以上の犯罪少年が</color><row/><color=0>収容される、少年院の収容期間が</color><row/><color=0>原則２年以内であり、</color><ctrl=3A/><color=0>また、</color><row/><color=0>成長途中の若いうちに、長期間</color><row/><color=0>施設に拘束するのは望ましくない</color><row/><color=0>という理由もあるため…</color><ctrl=2E/>",
+      "target": "<color=0>目前，用于收容１４岁以上</color><row/><color=0>犯罪少年的少年院，</color><row/><color=0>原则上收容期限不超过两年，</color><ctrl=3A/><color=0>此外，</color><row/><color=0>对于尚在成长中的年轻人，</color><row/><color=0>长期将其拘束在设施内</color><row/><color=0>并不理想，因此……</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:21783",
+      "kind": "dialogue",
+      "source": "<color=0>実際、１３歳以下の少年の場合</color><row/><color=0>どんな犯罪を犯した者でも</color><row/><color=0>２年から、長くても３年以内には</color><row/><color=0>保護監察となって出所することが</color><row/><color=0>多いのである。</color><ctrl=2E/>",
+      "target": "<color=0>实际上，１３岁以下的少年，</color><row/><color=0>无论犯下何种罪行，</color><row/><color=0>大多在两年，</color><row/><color=0>最长不超过三年内，</color><row/><color=0>便出所接受保护观察。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:22131",
+      "kind": "dialogue",
+      "source": "<color=0>…そう。</color><ctrl=3B/><row/><color=0>つまり事件から３年経過した今。</color><ctrl=3B/><row/><color=0>犯人である中学生Ａはすでに</color><row/><color=0>社会復帰しており、</color><ctrl=3A/><color=0>その正体を</color><row/><color=0>誰にも知られないまま、どこかの</color><row/><color=0>街に潜んでいたとしても、</color><row/><color=0>まったくおかしくはないのだ。</color><ctrl=2E/>",
+      "target": "<color=0>……没错。</color><ctrl=3B/><row/><color=0>也就是说，在案发三年后的今天，</color><ctrl=3B/><row/><color=0>作为犯人的初中生Ａ</color><row/><color=0>已经重返社会，</color><ctrl=3A/><color=0>隐瞒着身份，</color><row/><color=0>不为任何人所知地</color><row/><color=0>潜伏在某座城市，</color><row/><color=0>也完全不足为奇。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:22589",
+      "kind": "dialogue",
+      "source": "<color=0>しかし、ここで重要なのは、</color><row/><color=0>果たしてたった２～３年の</color><row/><color=0>更正教育だけで、本当に</color><row/><color=0>それだけの犯行をした人物が</color><row/><color=0>更正されるものなのか、</color><row/><color=0>という点である。</color><ctrl=2E/>",
+      "target": "<color=0>然而，关键的问题在于，</color><row/><color=0>对于一个犯下如此</color><row/><color=0>罪行的人，</color><row/><color=0>仅仅接受两三年的</color><row/><color=0>矫正教育，</color><row/><color=0>真的就能改过自新吗？</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:22944",
+      "kind": "dialogue",
+      "source": "<color=0>今はまだ、一般人の仮面をかぶり</color><row/><color=0>自分の中に眠る狂気を抑え、</color><row/><color=0>おとなしく潜んでいるだけ</color><row/><color=0>かもしれない。</color><ctrl=2E/>",
+      "target": "<color=0>如今，Ａ也许只是</color><row/><color=0>戴着普通人的假面，</color><row/><color=0>压抑着内心沉睡的疯狂，</color><row/><color=0>悄悄潜伏着。</color><ctrl=2E/>",
+      "review_note": "初中生Ａ性别尚未披露，原文没有男性代词；避免擅自把未知身份限定为男性。"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:23212",
+      "kind": "dialogue",
+      "source": "<color=0>我々はただ、この１６歳となった</color><row/><color=0>殺人鬼がいつ、どこで牙をむき、</color><row/><color=0>本性を現すのか、怯えながら</color><row/><color=0>暮らすほかにないのである。</color><ctrl=3B/><row/><color=0>もしかすると今、</color><row/><color=0>あなたの後ろにいる人こそが</color><row/><color=0>殺人鬼かもしれないのだ…。</color><ctrl=2E/>",
+      "target": "<color=0>这个如今１６岁的杀人魔，</color><row/><color=0>究竟何时何地会露出獠牙、</color><row/><color=0>显现本性？我们只能</color><row/><color=0>在恐惧中生活。</color><ctrl=3B/><row/><color=0>也许此刻，</color><row/><color=0>站在你身后的那个人，</color><row/><color=0>就是杀人魔……</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:23721",
+      "kind": "display",
+      "source": "<color=2>２００３年</color><color=0>　　癸生川探偵事務所</color>",
+      "target": "<color=2>２００３年</color><color=0>　　癸生川侦探事务所</color>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:23782",
+      "kind": "dialogue",
+      "source": "<color=0>…むむむ。</color><row/><color=0>これはつまり…</color><ctrl=2E/>",
+      "target": "<color=0>“……唔。</color><row/><color=0>这也就是说……</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:23849",
+      "kind": "dialogue",
+      "source": "<color=0>殺人犯が正体を隠し、どこかに</color><row/><color=0>潜んでいるかも…ってことか？</color><ctrl=2E/>",
+      "target": "<color=0>杀人犯可能正隐瞒身份，</color><row/><color=0>潜伏在某个地方……是吗？</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:23996",
+      "kind": "dialogue",
+      "source": "<color=0>なんとも、わざわざ不安をあおる</color><row/><color=0>書き方をしてるなぁ…。</color><ctrl=2E/>",
+      "target": "<color=0>这写法，简直就是</color><row/><color=0>故意煽动不安啊……”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:24145",
+      "kind": "dialogue",
+      "source": "<color=0>……。</color><ctrl=2E/>",
+      "target": "<color=0>“……”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:24192:arg0",
+      "kind": "choice",
+      "source": "この記事をもう一度読む",
+      "target": "再读一次这篇报道"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:24218:arg0",
+      "kind": "choice",
+      "source": "もういいや",
+      "target": "不用了"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:24276",
+      "kind": "dialogue",
+      "source": "<color=0>これは…放火事件の記事と</color><row/><color=0>同じページってだけだから、</color><ctrl=2E/>",
+      "target": "<color=0>“这篇……只是和纵火案的报道</color><row/><color=0>登在同一页上，</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:24408",
+      "kind": "dialogue",
+      "source": "<color=0>癸生川の言う共通点とは</color><row/><color=0>無関係かもしれないけど…。</color><ctrl=2E/>",
+      "target": "<color=0>也许与癸生川所说的</color><row/><color=0>共同点没什么关系……”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:24560",
+      "kind": "dialogue",
+      "source": "<color=0>ま、一応読んでみましょ。</color><ctrl=2E/>",
+      "target": "<color=0>“嗯，还是读读看吧。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:24627",
+      "kind": "dialogue",
+      "source": "<color=0>ええと…。</color><ctrl=2E/>",
+      "target": "<color=0>“我看看……”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:24679",
+      "kind": "dialogue",
+      "source": "<color=2>政治家Ｆ、驚くべき裏の顔</color>",
+      "target": "<color=2>政客Ｆ，惊人的另一面</color>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:24756",
+      "kind": "dialogue",
+      "source": "<color=0>地方の福祉拡充に力を入れ、</color><row/><color=0>関係者からの人望も厚かった</color><row/><color=0>政治家Ｆが、</color><ctrl=3A/><color=0>大手企業からの</color><row/><color=0>闇献金を受け取って逮捕された</color><row/><color=0>ことは、多くの人を落胆させた。</color><ctrl=2E/>",
+      "target": "<color=0>政客Ｆ一直致力于</color><row/><color=0>扩充地方福利，</color><row/><color=0>也深受相关人士信赖，</color><ctrl=3A/><color=0>却因收取大企业的</color><row/><color=0>秘密政治献金而被捕，</color><row/><color=0>令许多人深感失望。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:25109",
+      "kind": "dialogue",
+      "source": "<color=0>しかし、Ｆの裏の顔は、</color><row/><color=0>それだけではなかった。</color><ctrl=3B/><row/><color=0>普段は偽善者のマスクを</color><row/><color=0>かぶっていただけなのである。</color><ctrl=2E/>",
+      "target": "<color=0>然而，Ｆ隐藏的另一面</color><row/><color=0>远不止于此。</color><ctrl=3B/><row/><color=0>他平时不过是戴着</color><row/><color=0>伪善者的面具罢了。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:25355",
+      "kind": "dialogue",
+      "source": "<color=0>編集部独自の情報網によれば、</color><row/><color=0>Ｆは金に意地汚いことで有名で、</color><row/><color=0>他人に振る舞うことは</color><row/><color=0>絶対になかったと言う。</color><ctrl=3B/><row/><color=0>例えば…………</color><ctrl=2E/>",
+      "target": "<color=0>据本编辑部的独家消息网透露，</color><row/><color=0>Ｆ以贪财吝啬著称，</color><row/><color=0>从来不会掏钱</color><row/><color=0>招待别人。</color><ctrl=3B/><row/><color=0>比如说…………</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:25656",
+      "kind": "dialogue",
+      "source": "<color=0>…以後、記事にはその男がいかに</color><row/><color=0>金に強い執着を持っていたのか、</color><ctrl=2E/>",
+      "target": "<color=0>……后面的报道，</color><row/><color=0>便围绕那个男人多么执着于金钱，</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:25813",
+      "kind": "dialogue",
+      "source": "<color=0>意地の汚さを証明するような</color><row/><color=0>エピソードや発言を抜き出し、</color><ctrl=2E/>",
+      "target": "<color=0>摘取了一些仿佛能证明</color><row/><color=0>其贪婪吝啬的言行轶事，</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:25955",
+      "kind": "dialogue",
+      "source": "<color=0>それらが延々と綴られていた。</color><ctrl=2E/>",
+      "target": "<color=0>就这么没完没了地写下去。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:26072",
+      "kind": "display",
+      "source": "<color=2>２００３年</color><color=0>　　癸生川探偵事務所</color>",
+      "target": "<color=2>２００３年</color><color=0>　　癸生川侦探事务所</color>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:26130",
+      "kind": "dialogue",
+      "source": "<color=0>…とまあ、それだけの</color><row/><color=0>記事みたいだね。</color><ctrl=2E/>",
+      "target": "<color=0>“……嗯，这篇报道</color><row/><color=0>好像就只有这些。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:26242",
+      "kind": "dialogue",
+      "source": "<color=0>ふむ…。</color><ctrl=2E/>",
+      "target": "<color=0>“唔……”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:26269",
+      "kind": "dialogue",
+      "source": "<color=0>しかしこういう汚職も、昔から</color><row/><color=0>いっこうになくならないなぁ…。</color><ctrl=2E/>",
+      "target": "<color=0>“不过这种贪腐，</color><row/><color=0>从以前到现在就没断过啊……”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:26448:arg0",
+      "kind": "choice",
+      "source": "この記事をもう一度読む",
+      "target": "再读一次这篇报道"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:26474:arg0",
+      "kind": "choice",
+      "source": "もういいや",
+      "target": "不用了"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:26503",
+      "kind": "dialogue",
+      "source": "<color=0>僕はあまり、こういうのには</color><row/><color=0>詳しくないんだけど…</color><ctrl=2E/>",
+      "target": "<color=0>我不太了解</color><row/><color=0>这些事……</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:26625",
+      "kind": "dialogue",
+      "source": "<color=0>有名なアイドル歌手の</color><row/><color=0>スキャンダルの記事のようだ。</color><ctrl=2E/>",
+      "target": "<color=0>这似乎是一篇</color><row/><color=0>知名偶像歌手的绯闻报道。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:26752",
+      "kind": "dialogue",
+      "source": "<color=2>水沼みゆき</color><color=0>という名前だけなら、</color><row/><color=0>僕でも聞いたことがある。</color><ctrl=2E/>",
+      "target": "<color=2>水沼美雪</color><color=0>这个名字，</color><row/><color=0>连我也听说过。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:26924",
+      "kind": "dialogue",
+      "source": "<color=2>アイドル水沼みゆき、謎の逢瀬？</color>",
+      "target": "<color=2>偶像水沼美雪的神秘幽会？</color>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:27016",
+      "kind": "dialogue",
+      "source": "<color=0>２年前に鮮烈デビューを飾り、</color><row/><color=0>現在も第一線の清純派アイドル</color><row/><color=0>として大活躍中の「みぃゆ」こと</color><row/><color=2>水沼みゆき</color><color=0>。</color><ctrl=3B/><row/><color=0>来月からは全国ツアーも行われ、</color><row/><color=0>まさに波に乗っている彼女に、</color><row/><color=0>やや不穏な動きをキャッチ！</color><ctrl=2E/>",
+      "target": "<color=0>两年前惊艳出道，</color><row/><color=0>如今仍以一线清纯派偶像的身份</color><row/><color=0>活跃在舞台上的“美优”，也就是</color><row/><color=2>水沼美雪</color><color=0>。</color><ctrl=3B/><row/><color=0>她的全国巡演将于下月展开，</color><row/><color=0>事业正如日中天，我们却捕捉到</color><row/><color=0>她一些不同寻常的动向！</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:27498",
+      "kind": "dialogue",
+      "source": "<color=0>Ｎ県出身の彼女だが、実はなんと</color><row/><color=0>故郷に許嫁がいるという噂を</color><row/><color=0>耳にしたのだ！</color><ctrl=2E/>",
+      "target": "<color=0>据说，出身Ｎ县的她，</color><row/><color=0>竟然在老家</color><row/><color=0>有一位未婚夫！</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:27694",
+      "kind": "dialogue",
+      "source": "<color=0>早速我々は現地に取材に行ったが</color><row/><color=0>関係者の話ではそんな事は</color><row/><color=0>聞いたことがないと真っ向否定。</color><ctrl=3B/><row/><color=0>やはり根も葉もない噂話なのかと</color><row/><color=0>取材陣が諦めかけたその時、</color><row/><color=0>とある筋から非常に興味深い</color><row/><color=0>情報がもたらされたのである！</color><ctrl=2E/>",
+      "target": "<color=0>我们立刻赶赴当地采访，</color><row/><color=0>相关人士却断然否认，</color><row/><color=0>表示从未听说过这种事。</color><ctrl=3B/><row/><color=0>难道终究只是无稽之谈？</color><row/><color=0>正当采访组打算放弃时，</color><row/><color=0>某条消息渠道却带来了</color><row/><color=0>极其引人关注的情报！</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:28196",
+      "kind": "dialogue",
+      "source": "<color=0>彼女がここ数ヶ月の間、ひとりで</color><row/><color=0>鞠浜界隈を歩いている姿が、</color><row/><color=0>何度も目撃されているのだ！</color><ctrl=2E/>",
+      "target": "<color=0>最近几个月，</color><row/><color=0>有人多次目击她</color><row/><color=0>独自走在鞠滨一带！</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:28428",
+      "kind": "dialogue",
+      "source": "<color=0>彼女は必ずサングラスと帽子で</color><row/><color=0>変装し、素顔を隠してこそこそと</color><row/><color=0>行動している様子。</color><ctrl=3B/><row/><color=0>聞いた話では、マネージャも</color><row/><color=0>彼女がどこに何をしに行ってるか</color><row/><color=0>把握していないとの噂もある。</color><ctrl=2E/>",
+      "target": "<color=0>她每次都戴着墨镜和帽子，</color><row/><color=0>遮住真容，</color><row/><color=0>行动鬼鬼祟祟。</color><ctrl=3B/><row/><color=0>甚至有传闻说，</color><row/><color=0>连经纪人也不清楚</color><row/><color=0>她究竟去了哪里、做了什么。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:28843",
+      "kind": "dialogue",
+      "source": "<color=0>この件と許嫁との関連は</color><row/><color=0>定かではないが、何か秘密が</color><row/><color=0>隠されていそうである。</color><ctrl=2E/>",
+      "target": "<color=0>这件事与未婚夫的传闻</color><row/><color=0>是否有关尚不明确，</color><row/><color=0>但似乎隐藏着什么秘密。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:29039",
+      "kind": "dialogue",
+      "source": "<color=0>１７で故郷を飛び立ち、それから</color><row/><color=0>休むことなく飛び続けた彼女も、</color><row/><color=0>やはり時には羽を休めたいと</color><row/><color=0>いうことだろうか。</color><ctrl=3B/><row/><color=0>しかして、その止まり木には</color><row/><color=0>誰の姿があるのか！</color><ctrl=2E/>",
+      "target": "<color=0>１７岁离开故乡后，</color><row/><color=0>她便一直振翅高飞，从未停歇，</color><row/><color=0>想必也偶尔会想</color><row/><color=0>歇歇翅膀吧。</color><ctrl=3B/><row/><color=0>然而，那根栖息的树枝上，</color><row/><color=0>究竟是谁在等着她！</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:29424",
+      "kind": "dialogue",
+      "source": "<color=0>そこは誰しも</color><row/><color=0>気になるところであろう。</color><ctrl=3B/><row/><color=0>本誌はファンの期待に添えるよう</color><row/><color=0>今後も引き続き、彼女を</color><row/><color=0>追跡取材していきたいと思う。</color><ctrl=2E/>",
+      "target": "<color=0>这想必是所有人</color><row/><color=0>都关心的问题。</color><ctrl=3B/><row/><color=0>为回应粉丝的期待，</color><row/><color=0>本刊今后也将</color><row/><color=0>继续追踪采访。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:29763",
+      "kind": "display",
+      "source": "<color=2>２００３年</color><color=0>　　癸生川探偵事務所</color>",
+      "target": "<color=2>２００３年</color><color=0>　　癸生川侦探事务所</color>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:29824",
+      "kind": "dialogue",
+      "source": "<color=0>うーん…。</color><ctrl=2E/>",
+      "target": "<color=0>“唔……”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:29854",
+      "kind": "dialogue",
+      "source": "<color=0>こういった記事って、いつも</color><row/><color=0>憶測で言ってる気がするなあ。</color><ctrl=2E/>",
+      "target": "<color=0>“总觉得这类报道，</color><row/><color=0>说的全都是猜测啊。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:29996",
+      "kind": "dialogue",
+      "source": "<color=0>私生活をほじくり返すことを、</color><row/><color=0>ファンは望んでるんだろうか？</color><ctrl=2E/>",
+      "target": "<color=0>粉丝真的希望他们</color><row/><color=0>这样扒别人的私生活吗？”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:30158",
+      "kind": "dialogue",
+      "source": "<color=0>有名な人のゴシップ記事や</color><row/><color=0>スキャンダルの類って、</color><ctrl=2E/>",
+      "target": "<color=0>“名人的八卦报道</color><row/><color=0>和绯闻之类的……</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:30288",
+      "kind": "dialogue",
+      "source": "<color=0>それだけ多くの人の興味を</color><row/><color=0>引くってことですかねえ。</color><ctrl=2E/>",
+      "target": "<color=0>就是能吸引</color><row/><color=0>那么多人关注吧。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:30442:arg0",
+      "kind": "choice",
+      "source": "この記事をもう一度読む",
+      "target": "再读一次这篇报道"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:30468:arg0",
+      "kind": "choice",
+      "source": "もういいや",
+      "target": "不用了"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:30495",
+      "kind": "dialogue",
+      "source": "<color=0>世間に広まっている都市伝説を</color><row/><color=0>検証する連載コラムのようだ。</color><ctrl=2E/>",
+      "target": "<color=0>这似乎是一个探究</color><row/><color=0>广为流传的都市传说的连载专栏。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:30642",
+      "kind": "dialogue",
+      "source": "<color=0>第１回は鞠浜市を中心に囁かれる</color><row/><color=2>Ｍ２</color><color=0>と呼ばれる殺人鬼らしい。</color><ctrl=2E/>",
+      "target": "<color=0>第一期似乎讲的是鞠滨市一带盛传的</color><row/><color=2>Ｍ２</color><color=0>，一名杀人魔。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:30832",
+      "kind": "dialogue",
+      "source": "<color=2>新たなる都市伝説！</color><row/><color=2>鞠浜を騒がすＭ２とは？</color>",
+      "target": "<color=2>崭新的都市传说！</color><row/><color=2>轰动鞠滨的Ｍ２究竟是什么？</color>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:30951",
+      "kind": "dialogue",
+      "source": "<color=0>「火のない所に煙は立たない」</color><ctrl=3B/><row/><color=0>そのことわざは、都市伝説にも</color><row/><color=0>そのまま当てはまる。</color><ctrl=2E/>",
+      "target": "<color=0>“无风不起浪”</color><ctrl=3B/><row/><color=0>这句谚语，同样</color><row/><color=0>适用于都市传说。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:31150",
+      "kind": "dialogue",
+      "source": "<color=0>古くは「トイレの花子さん」から</color><row/><color=0>「人面犬」「紫の鏡」など</color><row/><color=0>様々あるが、すべての噂には</color><row/><color=0>その根源となった出来事が</color><row/><color=0>あるはずなのだ。</color><ctrl=2E/>",
+      "target": "<color=0>从流传已久的“厕所里的花子”，</color><row/><color=0>到“人面犬”“紫镜”，</color><row/><color=0>都市传说五花八门，但一切传闻</color><row/><color=0>都应该有一个</color><row/><color=0>最初的起因。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:31463",
+      "kind": "dialogue",
+      "source": "<color=0>それは、誰かが友達を驚かすため</color><row/><color=0>ついた些細なウソかもしれない。</color><ctrl=3B/><row/><color=0>あるいはちょっとした自慢話に、</color><row/><color=0>尾ヒレがついて広まっただけの</color><row/><color=0>ものかもしれない。</color><ctrl=3B/><row/><color=0>…そのルーツを探ってみようと</color><row/><color=0>試みるのが本連載の趣旨である。</color><ctrl=2E/>",
+      "target": "<color=0>那或许只是某人为吓唬朋友</color><row/><color=0>编出的一个小谎言。</color><ctrl=3B/><row/><color=0>也可能只是一番小小的炫耀，</color><row/><color=0>被添油加醋，</color><row/><color=0>最终传播开来。</color><ctrl=3B/><row/><color=0>……尝试探寻其源头，</color><row/><color=0>正是本连载的宗旨。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:31973",
+      "kind": "dialogue",
+      "source": "<color=0>さて、第１回目はやはり</color><row/><color=0>この雑誌の読者に多い鞠浜近辺の</color><row/><color=0>話題から取り上げてみよう。</color><ctrl=3B/><row/><color=0>諸君は、ここ数ヶ月の間、</color><row/><color=0>鞠浜市を中心に囁かれている</color><row/><color=2>Ｍ２</color><color=0>という殺人鬼の噂を</color><row/><color=0>聞いたことはあるだろうか。</color><ctrl=2E/>",
+      "target": "<color=0>那么，第一期还是从</color><row/><color=0>本刊读者众多的鞠滨附近</color><row/><color=0>的话题说起吧。</color><ctrl=3B/><row/><color=0>最近几个月，有个杀人魔的传闻</color><row/><color=0>以鞠滨市为中心流传，</color><row/><color=2>Ｍ２</color><color=0>就是它的名字，</color><row/><color=0>各位是否听说过呢？</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:32448",
+      "kind": "dialogue",
+      "source": "<color=0>Ｍ２とは、</color><row/><color=2>Ｍａｓｋｅｄ　Ｍｕｒｄｅｒｅｒ</color><row/><color=0>の略称であり、その訳は</color><row/><color=2>「仮面の殺人鬼」</color><color=0>といった</color><row/><color=0>ところだろう。</color><ctrl=2E/>",
+      "target": "<color=0>Ｍ２，是</color><row/><color=2>Ｍａｓｋｅｄ　Ｍｕｒｄｅｒｅｒ</color><row/><color=0>的简称，翻译过来，</color><row/><color=2>“假面杀人魔”</color><color=0>大概</color><row/><color=0>就是这个意思。</color><ctrl=2E/>",
+      "notes": "Ｍ２及其英文展开保留原字形，保证双Ｍ缩写与假面杀人魔的词义线索。"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:32743",
+      "kind": "dialogue",
+      "source": "<color=0>地域によって伝わっている内容に</color><row/><color=0>差異はあるが、共通する部分を</color><row/><color=0>まとめると次のようになる。</color><ctrl=2E/>",
+      "target": "<color=0>不同地区流传的版本</color><row/><color=0>有所差异，但将共同部分</color><row/><color=0>归纳起来，大致如下。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:32965",
+      "kind": "dialogue",
+      "source": "<color=2>（１）</color><row/><color=2>名前の通り、顔全体を隠す</color><row/><color=2>仮面をかぶった殺人鬼で、</color><row/><color=2>ボロの服をまとい、手には</color><row/><color=2>血塗れのナイフを持っている。</color><ctrl=2E/>",
+      "target": "<color=2>（１）</color><row/><color=2>顾名思义，是一名戴着</color><row/><color=2>遮住整张脸的假面的杀人魔，</color><row/><color=2>身穿破衣，手里握着</color><row/><color=2>一把血淋淋的刀。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:33251",
+      "kind": "dialogue",
+      "source": "<color=2>（２）</color><row/><color=2>常人離れした運動能力を持ち、</color><row/><color=2>走行中の自動車にも追いつける</color><row/><color=2>脚力と、塀を軽く飛び越える</color><row/><color=2>驚異的な跳躍力を持つ。</color><ctrl=2E/>",
+      "target": "<color=2>（２）</color><row/><color=2>拥有远超常人的运动能力，</color><row/><color=2>跑起来能追上行驶中的汽车，</color><row/><color=2>跳跃力惊人，</color><row/><color=2>可以轻松跃过围墙。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:33539",
+      "kind": "dialogue",
+      "source": "<color=2>（３）</color><row/><color=2>あるネットゲームをプレイすると</color><row/><color=2>遭遇する、という噂もある。</color><ctrl=3B/><row/><color=2>実際、それで遭遇した者も</color><row/><color=2>多いというが…。</color><ctrl=2E/>",
+      "target": "<color=2>（３）</color><row/><color=2>还有传闻说，玩某款网络游戏，</color><row/><color=2>就会遇见他。</color><ctrl=3B/><row/><color=2>据说，确实有不少人</color><row/><color=2>因此遭遇了他……</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:33807",
+      "kind": "dialogue",
+      "source": "<color=2>（４）</color><row/><color=2>深夜の港湾地域や住宅地など、</color><row/><color=2>静かな所を徘徊し、通りかかった</color><row/><color=2>人に無差別で襲いかかり、</color><row/><color=2>瞬く間に切り裂いて</color><row/><color=2>即座に走り去るため、その姿を</color><row/><color=2>見た者は少ない。</color><ctrl=2E/>",
+      "target": "<color=2>（４）</color><row/><color=2>深夜在港湾地区、住宅区等</color><row/><color=2>安静的地方徘徊，</color><row/><color=2>无差别地袭击路人，</color><row/><color=2>转眼间挥刀将人砍开，</color><row/><color=2>随后立刻跑走，</color><row/><color=2>因此很少有人看见他的模样。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:34217",
+      "kind": "dialogue",
+      "source": "<color=2>（５）</color><row/><color=2>太陽の光に弱く、</color><row/><color=2>夜中にしか現れない。</color><ctrl=2E/>",
+      "target": "<color=2>（５）</color><row/><color=2>害怕阳光，</color><row/><color=2>只在夜间出现。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:34331",
+      "kind": "dialogue",
+      "source": "<color=2>（６）</color><row/><color=2>その正体は、バイオ研究施設から</color><row/><color=2>脱走した人体実験の献体者の、</color><row/><color=2>なれの果てだと言われている。</color><ctrl=2E/>",
+      "target": "<color=2>（６）</color><row/><color=2>据说，他是从生物研究机构逃出的</color><row/><color=2>人体实验受试者，</color><row/><color=2>最终沦落成了如今的模样。</color><ctrl=2E/>",
+      "review_note": "原文说其是从研究设施逃脱的人体实验受试者的末路模样，并未说“逃出来后”才变成这样；现译增加了变化发生在逃脱之后的时间关系。"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:34575",
+      "kind": "dialogue",
+      "source": "<color=0>…いかがだろうか。</color><ctrl=3B/><row/><color=0>こんな者が実在するとしたら、</color><row/><color=0>確かに恐ろしいこと限りない。</color><ctrl=3B/><row/><color=0>しかし、何度も言うが噂話が</color><row/><color=0>存在する以上、何らかの要因が</color><row/><color=0>あったことは間違いないのだ。</color><ctrl=2E/>",
+      "target": "<color=0>……各位作何感想？</color><ctrl=3B/><row/><color=0>如果真有这种人存在，</color><row/><color=0>确实可怕至极。</color><ctrl=3B/><row/><color=0>然而，我要再次强调，</color><row/><color=0>既然有传闻，</color><row/><color=0>就必然存在某种起因。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:34990",
+      "kind": "dialogue",
+      "source": "<color=0>この話が生まれたきっかけを</color><row/><color=0>探ることで、見えなかった何かが</color><row/><color=0>見えてきそうな、そんな気が</color><row/><color=0>するのは私だけだろうか。</color><ctrl=2E/>",
+      "target": "<color=0>探寻这个故事诞生的契机，</color><row/><color=0>或许就能发现</color><row/><color=0>以往不曾看见的东西——</color><row/><color=0>有这种感觉的，难道只有我吗？</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:35266",
+      "kind": "dialogue",
+      "source": "<color=0>次回からはいよいよ、</color><row/><color=0>鞠浜市の中心街、鞠浜台での</color><row/><color=0>取材の様子をお伝えしよう。</color><ctrl=3B/><row/><color=0>ご期待いただきたい。</color><row/><color=0>　　　　　　（文責：ミロク）</color><ctrl=2E/>",
+      "target": "<color=0>从下一期开始，</color><row/><color=0>将为各位带来在鞠滨市中心区</color><row/><color=0>鞠滨台的实地采访报道。</color><ctrl=3B/><row/><color=0>敬请期待。</color><row/><color=0>　　　　　　（撰文：弥勒）</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:35615",
+      "kind": "display",
+      "source": "<color=2>２００３年</color><color=0>　　癸生川探偵事務所</color>",
+      "target": "<color=2>２００３年</color><color=0>　　癸生川侦探事务所</color>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:35676",
+      "kind": "dialogue",
+      "source": "<color=0>…あれ？</color><row/><color=0>この記事のライターって…。</color><ctrl=2E/>",
+      "target": "<color=0>“……咦？</color><row/><color=0>这篇报道的作者是……”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:35770",
+      "kind": "dialogue",
+      "source": "<color=0>えっと…冒頭にありますね。</color><row/><color=2>弥勒院蓮児</color><color=0>という人ですよ。</color><ctrl=2E/>",
+      "target": "<color=0>“呃……开头有写呢。</color><row/><color=2>弥勒院莲儿</color><color=0>，是这个人。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:35927",
+      "kind": "dialogue",
+      "source": "<color=0>うはあ、やっぱり…。</color><ctrl=2E/>",
+      "target": "<color=0>“哇，果然……”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:35984",
+      "kind": "dialogue",
+      "source": "<color=0>あれ？　知ってる人ですか？</color><ctrl=2E/>",
+      "target": "<color=0>“咦？您认识他？”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:36056",
+      "kind": "dialogue",
+      "source": "<color=0>うん、学生時代の友人でね。</color><ctrl=2E/>",
+      "target": "<color=0>“嗯，是学生时代的朋友。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:36126",
+      "kind": "dialogue",
+      "source": "<color=0>今はオカルトライターを</color><row/><color=0>やってるらしいんだけど…。</color><ctrl=2E/>",
+      "target": "<color=0>听说他现在</color><row/><color=0>在当灵异作家……”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:36268",
+      "kind": "dialogue",
+      "source": "<color=0>オカルトライター…？</color><ctrl=2E/>",
+      "target": "<color=0>“灵异作家……？</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:36323",
+      "kind": "dialogue",
+      "source": "<color=0>怖い話ばかりを扱ってる</color><row/><color=0>ライターなんですね。</color><ctrl=2E/>",
+      "target": "<color=0>就是专门写恐怖故事的</color><row/><color=0>作家啊。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:36437",
+      "kind": "dialogue",
+      "source": "<color=0>本人は不本意みたいだけどね。</color><ctrl=2E/>",
+      "target": "<color=0>“不过，他本人似乎并不情愿。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:36512",
+      "kind": "dialogue",
+      "source": "<color=0>頼みもしないのに、なぜか</color><row/><color=0>そんな仕事ばかり来るとか…。</color><ctrl=2E/>",
+      "target": "<color=0>明明没主动要求，</color><row/><color=0>不知为什么接到的总是这类工作……”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:36661",
+      "kind": "dialogue",
+      "source": "<color=0>へえ…。</color><ctrl=2E/>",
+      "target": "<color=0>“哦……”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:36688",
+      "kind": "dialogue",
+      "source": "<color=0>そういえば彼は学生時代から…</color><ctrl=2E/>",
+      "target": "<color=0>“说起来，他从学生时代起……</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:36763",
+      "kind": "dialogue",
+      "source": "<color=0>「災いの女神に最も愛された男」</color><row/><color=0>とか言われてたなあ。</color><ctrl=2E/>",
+      "target": "<color=0>就被人称作</color><row/><color=0>‘最受灾厄女神眷顾的男人’。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:36895",
+      "kind": "dialogue",
+      "source": "<color=0>彼の行くところ必ず厄災有り、</color><row/><color=0>みたいな、そんなヤツだよ。</color><ctrl=2E/>",
+      "target": "<color=0>他就是那种走到哪里，</color><row/><color=0>哪里就必有灾祸的人。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:37039",
+      "kind": "dialogue",
+      "source": "<color=0>なんかもう、存在そのものが</color><row/><color=0>オカルトですね、それ。</color><ctrl=2E/>",
+      "target": "<color=0>“这么一说，</color><row/><color=0>他本人的存在就很灵异了。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:37168",
+      "kind": "dialogue",
+      "source": "<color=0>そういう意味では、なるべくして</color><row/><color=0>なった仕事と言えるのかもなあ。</color><ctrl=2E/>",
+      "target": "<color=0>“从这个角度来说，</color><row/><color=0>也算命中注定要做这行吧。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:37325",
+      "kind": "dialogue",
+      "source": "<color=0>でも最近はこういった都市伝説を</color><row/><color=0>取り扱うことが多いようだね。</color><ctrl=2E/>",
+      "target": "<color=0>不过最近，他好像</color><row/><color=0>经常写这类都市传说。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:37477",
+      "kind": "dialogue",
+      "source": "<color=0>それにしても…。</color><ctrl=2E/>",
+      "target": "<color=0>“话说回来……”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:37524",
+      "kind": "dialogue",
+      "source": "<color=0>ん？</color><ctrl=2E/>",
+      "target": "<color=0>“嗯？”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:37541",
+      "kind": "dialogue",
+      "source": "<color=0>評判とは聞いてたけど、まさか</color><row/><color=0>単独連載を持つほどだとは…。</color><ctrl=2E/>",
+      "target": "<color=0>“我倒听说他颇受好评，</color><row/><color=0>但没想到居然有独立连载了……”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:37703",
+      "kind": "dialogue",
+      "source": "<color=0>あらら…生王さん、</color><row/><color=0>出し抜かれちゃってますね。</color><ctrl=2E/>",
+      "target": "<color=0>“哎呀……生王先生，</color><row/><color=0>您被他抢先一步了呢。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:37832",
+      "kind": "dialogue",
+      "source": "<color=0>むはぁ。</color><ctrl=2E/>",
+      "target": "<color=0>“呜哇。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:37868",
+      "kind": "dialogue",
+      "source": "<color=3>捜査メモの</color><color=2>８ページ目</color><color=3>が</color><row/><color=3>追加されました。</color><ctrl=2E/>",
+      "target": "<color=3>搜查笔记</color><color=2>第８页</color><color=3>已</color><row/><color=3>追加。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:38006:arg0",
+      "kind": "choice",
+      "source": "この記事をもう一度読む",
+      "target": "再读一次这篇报道"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:38032:arg0",
+      "kind": "choice",
+      "source": "他の記事を読む",
+      "target": "阅读其他报道"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:38094",
+      "kind": "dialogue",
+      "source": "<color=0>これ、都市伝説の隣のページに</color><row/><color=0>ある記事だから一緒にしたけど、</color><ctrl=2E/>",
+      "target": "<color=0>“这篇就在都市传说的报道旁边，</color><row/><color=0>我才把它也算了进来，</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:38246",
+      "kind": "dialogue",
+      "source": "<color=0>もしかするとこっちは関係ない</color><row/><color=0>かもしれないなあ。</color><ctrl=2E/>",
+      "target": "<color=0>但说不定，</color><row/><color=0>这篇其实没什么关系。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:38383",
+      "kind": "dialogue",
+      "source": "<color=0>まあ、一応見てみましょうよ。</color><ctrl=2E/>",
+      "target": "<color=0>“嗯，先看看吧。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:38458",
+      "kind": "dialogue",
+      "source": "<color=0>世の中に、ムダな情報なんて</color><row/><color=0>なにひとつないんですから。</color><ctrl=2E/>",
+      "target": "<color=0>这世上可没有</color><row/><color=0>一条真正没用的信息。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:38597",
+      "kind": "dialogue",
+      "source": "<color=0>ふむ…。</color><ctrl=2E/>",
+      "target": "<color=0>“唔……”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:38624",
+      "kind": "dialogue",
+      "source": "<color=0>内容は、鞠浜周辺にあるお店の</color><row/><color=0>連載レポートみたいだ。</color><ctrl=2E/>",
+      "target": "<color=0>内容似乎是介绍</color><row/><color=0>鞠滨周边店铺的连载。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:38785",
+      "kind": "dialogue",
+      "source": "<color=2>鞠浜駅前に新しいスポット誕生！</color>",
+      "target": "<color=2>鞠滨站前新去处诞生！</color>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:38877",
+      "kind": "dialogue",
+      "source": "<color=0>鞠浜台駅前に、これまでなかった</color><row/><color=0>新しいタイプのお店がオープン！</color><ctrl=2E/>",
+      "target": "<color=0>鞠滨台站前，一家前所未有的</color><row/><color=0>新型店铺开业了！</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:39034",
+      "kind": "dialogue",
+      "source": "<color=0>今回は、そんな新世代のネット</color><row/><color=0>レストラン、</color><color=2>『パストラール』</color><color=0>を</color><row/><color=0>紹介します♪</color><ctrl=2E/>",
+      "target": "<color=0>这次，要向大家</color><row/><color=0>介绍这家新一代网络餐厅</color><color=2>“帕斯特拉尔”</color><color=0>！</color><row/><color=0>♪</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:39225",
+      "kind": "dialogue",
+      "source": "<color=0>このお店は、簡単に言うと</color><row/><color=0>ネットカフェ、ファーストフード</color><row/><color=0>そしてファミリーレストランが</color><row/><color=0>ひとつになったという、</color><row/><color=0>今までありそうでなかった、</color><row/><color=0>この上なく便利なお店なの！</color><ctrl=2E/>",
+      "target": "<color=0>这家店，简单地说，</color><row/><color=0>就是把网吧、快餐店</color><row/><color=0>和家庭餐厅</color><row/><color=0>合而为一！</color><row/><color=0>这样的组合以往看似该有却没有，</color><row/><color=0>真是方便得不能再方便了！</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:39630",
+      "kind": "dialogue",
+      "source": "<color=0>食事はもちろん、全テーブルに</color><row/><color=0>設置されているパソコンで、</color><row/><color=0>インターネットやネットゲーム等</color><row/><color=0>様々なコンテンツ（一部有料）が</color><row/><color=0>楽しめるのはスゴイ！</color><ctrl=2E/>",
+      "target": "<color=0>用餐自不必说，</color><row/><color=0>每张桌子都装有电脑，</color><row/><color=0>可以上网、玩网络游戏，</color><row/><color=0>享用各种服务（部分收费），</color><row/><color=0>真的很棒！</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:39978",
+      "kind": "dialogue",
+      "source": "<color=0>店内はシックに彩られていて、</color><row/><color=0>ゆっくりと落ち着ける雰囲気が</color><row/><color=0>いい感じでしたヨ♪</color><ctrl=2E/>",
+      "target": "<color=0>店内装潢雅致，</color><row/><color=0>氛围安静舒适，</color><row/><color=0>让人能好好放松哦♪</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:40172",
+      "kind": "dialogue",
+      "source": "<color=0>それに、ウェイトレスの制服が</color><row/><color=0>またすっごくカワイイんです！</color><ctrl=3B/><row/><color=0>どんな服なのかは、自分の目で</color><row/><color=0>確かめてくださいね。</color><ctrl=2E/>",
+      "target": "<color=0>而且，女服务生的制服</color><row/><color=0>也超级可爱！</color><ctrl=3B/><row/><color=0>究竟是什么样的服装，</color><row/><color=0>请各位亲眼来确认吧。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:40443",
+      "kind": "dialogue",
+      "source": "<color=0>食事やお茶をするだけじゃなく、</color><row/><color=0>調べものや勉強、待ち合わせ、</color><row/><color=0>時間つぶしなど色々な用途に</color><row/><color=0>役立ちそうなお店です。</color><ctrl=2E/>",
+      "target": "<color=0>不仅可以吃饭、喝茶，</color><row/><color=0>还可以查资料、学习、</color><row/><color=0>等人、打发时间，</color><row/><color=0>用途多多。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:40719",
+      "kind": "dialogue",
+      "source": "<color=0>このページにある割引クーポンも</color><row/><color=0>利用できますので、あなたもぜひ</color><row/><color=0>一度行ってみてください！</color><ctrl=3B/><row/><color=0>超オススメ◎ですヨ！</color><ctrl=2E/>",
+      "target": "<color=0>本页还附有可用的优惠券，</color><row/><color=0>各位一定要</color><row/><color=0>亲自去体验一下！</color><ctrl=3B/><row/><color=0>超级推荐◎哦！</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:41040",
+      "kind": "display",
+      "source": "<color=2>２００３年</color><color=0>　　癸生川探偵事務所</color>",
+      "target": "<color=2>２００３年</color><color=0>　　癸生川侦探事务所</color>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:41101",
+      "kind": "dialogue",
+      "source": "<color=0>ん～…。</color><row/><color=0>確かに便利そうですけど…</color><ctrl=2E/>",
+      "target": "<color=0>“嗯……</color><row/><color=0>确实好像很方便……</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:41188",
+      "kind": "dialogue",
+      "source": "<color=0>良いトコ取りを狙い過ぎて</color><row/><color=0>なんだか節操のない店ですね。</color><ctrl=2E/>",
+      "target": "<color=0>但什么好处都想占，</color><row/><color=0>总觉得这家店有点没个准头。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:41327",
+      "kind": "dialogue",
+      "source": "<color=0>しかも、客の回転も悪そうだし</color><row/><color=0>経営的にはどうなんだろうか。</color><ctrl=2E/>",
+      "target": "<color=0>“而且客人待得那么久，</color><row/><color=0>经营上真的没问题吗？”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:41474",
+      "kind": "dialogue",
+      "source": "<color=0>…って、この記事は</color><row/><color=0>関係なさそうだなあ。</color><ctrl=2E/>",
+      "target": "<color=0>“……话说，这篇报道</color><row/><color=0>好像没什么关系啊。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:41645",
+      "kind": "dialogue",
+      "source": "<color=0>うーむ、この記事の共通点が</color><row/><color=0>ヒントになるのだろうか…。</color><ctrl=2E/>",
+      "target": "<color=0>唔，这篇报道的共同点，</color><row/><color=0>能成为线索吗……</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:41785",
+      "kind": "dialogue",
+      "source": "<color=0>ネットゲームか…。</color><ctrl=2E/>",
+      "target": "<color=0>网络游戏啊……</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:41835",
+      "kind": "dialogue",
+      "source": "<color=0>「素顔を隠す」って部分に、</color><row/><color=0>なにか意味があるような…。</color><ctrl=2E/>",
+      "target": "<color=0>“隐藏真面目”这个部分，</color><row/><color=0>似乎有什么含义……</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:41975",
+      "kind": "dialogue",
+      "source": "<color=0>普通に暮らしている人が</color><row/><color=0>殺人犯かもしれない、か…。</color><ctrl=2E/>",
+      "target": "<color=0>过着普通生活的人，</color><row/><color=0>也可能是杀人犯啊……</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:42102",
+      "kind": "dialogue",
+      "source": "<color=0>でも、人は誰しも犯罪者の顔を</color><row/><color=0>持ってるものだからなぁ…。</color><ctrl=2E/>",
+      "target": "<color=0>不过，谁都有</color><row/><color=0>犯罪者的一面啊……</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:42244",
+      "kind": "dialogue",
+      "source": "<color=0>…ん？</color><row/><color=0>別の顔を持つ…？</color><ctrl=2E/>",
+      "target": "<color=0>……嗯？</color><row/><color=0>有另一面……？</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:42323",
+      "kind": "dialogue",
+      "source": "<color=0>政治家の汚職か…。</color><ctrl=2E/>",
+      "target": "<color=0>政客贪腐啊……</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:42373",
+      "kind": "dialogue",
+      "source": "<color=0>実際、少年犯罪よりもこういった</color><row/><color=0>汚職事件の方が問題だよなぁ。</color><ctrl=2E/>",
+      "target": "<color=0>其实比起少年犯罪，</color><row/><color=0>这种贪腐案问题更大吧。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:42525",
+      "kind": "dialogue",
+      "source": "<color=0>未来を案ずるどころか、</color><row/><color=0>今現在がまずいわけだし…。</color><ctrl=2E/>",
+      "target": "<color=0>哪还顾得上担心未来，</color><row/><color=0>眼下就已经很糟了……</color><ctrl=2E/>",
+      "review_note": "“未来を案ずるどころか”是“别说担忧未来／顾不上担忧未来，眼下就已出问题”，不是“还没到担心未来的地步”。现译误为问题尚未严重到需要忧虑未来。"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:42655",
+      "kind": "dialogue",
+      "source": "<color=0>有名人も大変だよなぁ…。</color><ctrl=2E/>",
+      "target": "<color=0>名人也不容易啊……</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:42720",
+      "kind": "dialogue",
+      "source": "<color=0>街を歩くにも、バレないように</color><row/><color=0>変装とかが必要みたいだし。</color><ctrl=2E/>",
+      "target": "<color=0>好像就连上街，</color><row/><color=0>都得乔装，免得被认出来。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:42862",
+      "kind": "dialogue",
+      "source": "<color=0>…ん？　変装…？</color><ctrl=2E/>",
+      "target": "<color=0>……嗯？乔装……？</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:42910",
+      "kind": "dialogue",
+      "source": "<color=0>Ｍ２ねえ…。</color><ctrl=2E/>",
+      "target": "<color=0>Ｍ２啊……</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:42955",
+      "kind": "dialogue",
+      "source": "<color=0>ウワサとは言え、これまた</color><row/><color=0>胡散臭い話だなあ…。</color><ctrl=2E/>",
+      "target": "<color=0>虽说只是传闻，</color><row/><color=0>这故事也太可疑了……</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:43084",
+      "kind": "dialogue",
+      "source": "<color=0>そもそも、動きが素早くて</color><row/><color=0>姿を見てないと言うのに…</color><ctrl=2E/>",
+      "target": "<color=0>既然动作快得</color><row/><color=0>连样子都没看见……</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:43211",
+      "kind": "dialogue",
+      "source": "<color=0>どうして仮面をしてるのが</color><row/><color=0>分かるんだろうか。</color><ctrl=2E/>",
+      "target": "<color=0>又怎么知道</color><row/><color=0>他戴着假面呢？</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:43323",
+      "kind": "dialogue",
+      "source": "<color=0>今度、弥勒院に会ったら</color><row/><color=0>突っ込んでおこう。</color><ctrl=2E/>",
+      "target": "<color=0>下回碰到弥勒院，</color><row/><color=0>可得问问他。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:43445",
+      "kind": "dialogue",
+      "source": "<color=0>ネットレストランねぇ…。</color><row/><color=0>やっぱこれは関係ないかな？</color><ctrl=2E/>",
+      "target": "<color=0>网络餐厅啊……</color><row/><color=0>这篇果然没关系吧？</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:43589",
+      "kind": "dialogue",
+      "source": "<color=0>ふう…これで印のあった記事は</color><row/><color=0>全部読み終えたかな。</color><ctrl=2E/>",
+      "target": "<color=0>“呼……这样一来，</color><row/><color=0>有记号的报道就全读完了吧。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:43718",
+      "kind": "dialogue",
+      "source": "<color=0>そうですね、関係無さそうなのも</color><row/><color=0>ありましたけど…。</color><ctrl=2E/>",
+      "target": "<color=0>“是啊，不过有些</color><row/><color=0>似乎没什么关系……”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:43847",
+      "kind": "dialogue",
+      "source": "<color=0>さて、これらに共通する</color><row/><color=0>キーワードか…。</color><ctrl=2E/>",
+      "target": "<color=0>“那么，这些报道</color><row/><color=0>共同的关键词啊……”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:43951",
+      "kind": "dialogue",
+      "source": "<color=0>生王さん、何か気付きました？</color><ctrl=2E/>",
+      "target": "<color=0>“生王先生，您有什么发现吗？”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:44038",
+      "kind": "dialogue",
+      "source": "<color=0>そうだな…。</color><ctrl=2E/>",
+      "target": "<color=0>“这个嘛……”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:44082:arg0",
+      "kind": "choice",
+      "source": "共通ワードを見付けた！",
+      "target": "找到共同词语了！"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:44108:arg0",
+      "kind": "choice",
+      "source": "もう一度記事を読み直したい",
+      "target": "想再读一遍报道"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:44150",
+      "kind": "dialogue",
+      "source": "<color=0>んもう、さては何も</color><row/><color=0>考えてませんでしたね？</color><ctrl=2E/>",
+      "target": "<color=0>“真是的，看来您根本</color><row/><color=0>什么都没想吧？”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:44259",
+      "kind": "dialogue",
+      "source": "<color=0>うっ…。</color><ctrl=2E/>",
+      "target": "<color=0>“呜……”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:44284",
+      "kind": "dialogue",
+      "source": "<color=0>いや、ほら、念のために</color><row/><color=0>もう一度確認をね。</color><ctrl=2E/>",
+      "target": "<color=0>“不是，你看，为了保险起见，</color><row/><color=0>我想再确认一遍。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:44403",
+      "kind": "dialogue",
+      "source": "<color=0>ちゃんと考えながら</color><row/><color=0>読んだ方がいいですよ。</color><ctrl=2E/>",
+      "target": "<color=0>“您还是一边读，</color><row/><color=0>一边好好思考比较好哦。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:44510",
+      "kind": "dialogue",
+      "source": "<color=0>それじゃ、分かったらまた</color><row/><color=0>話しかけてくださいね。</color><ctrl=2E/>",
+      "target": "<color=0>那等您想明白了，</color><row/><color=0>再来找我说话吧。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:44637",
+      "kind": "dialogue",
+      "source": "<color=0>いやもうバッチリ見付けたよ！</color><row/><color=0>見付けすぎるくらいに！</color><ctrl=2E/>",
+      "target": "<color=0>“我已经彻底找到了！</color><row/><color=0>简直找过头了！”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:44771",
+      "kind": "dialogue",
+      "source": "<color=0>言葉おかしいですよ。</color><ctrl=2E/>",
+      "target": "<color=0>“您这话说得很奇怪哦。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:44826",
+      "kind": "dialogue",
+      "source": "<color=0>それじゃ、先生の言う共通ワード</color><row/><color=0>何だと思いますか？</color><ctrl=2E/>",
+      "target": "<color=0>“那么，您觉得老师说的</color><row/><color=0>共同词语是什么？”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:44955",
+      "kind": "dialogue",
+      "source": "<color=0>ええと…。</color><ctrl=2E/>",
+      "target": "<color=0>“呃……”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:44987",
+      "kind": "dialogue",
+      "source": "<color=0>これらの記事に共通する</color><row/><color=0>キーワードは…。</color><ctrl=2E/>",
+      "target": "<color=0>这些报道共同的</color><row/><color=0>关键词是……</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:45109:arg0",
+      "kind": "choice",
+      "source": "それは「ウワサ」だ！",
+      "target": "就是“传闻”！"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:45142:arg0",
+      "kind": "choice",
+      "source": "それは「犯罪者」だ！",
+      "target": "就是“犯罪者”！"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:45175:arg0",
+      "kind": "choice",
+      "source": "それは「秘密」だ！",
+      "target": "就是“秘密”！"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:45206:arg0",
+      "kind": "choice",
+      "source": "それは「怪奇現象」だ！",
+      "target": "就是“灵异现象”！"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:45232:arg0",
+      "kind": "choice",
+      "source": "それは「仮面」だ！",
+      "target": "就是“假面”！"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:45263:arg0",
+      "kind": "choice",
+      "source": "それは「空想」だ！",
+      "target": "就是“空想”！"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:45294",
+      "kind": "dialogue",
+      "source": "<color=2>「ウワサ」</color><color=0>…じゃないかな。</color><ctrl=2E/>",
+      "target": "<color=2>“‘传闻’</color><color=0>……吧。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:45379",
+      "kind": "dialogue",
+      "source": "<color=0>…ん？　どうして</color><row/><color=0>そうなるんでしょうか？</color><ctrl=2E/>",
+      "target": "<color=0>“……嗯？</color><row/><color=0>为什么这么说呢？”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:45483",
+      "kind": "dialogue",
+      "source": "<color=0>いや、ほら…例えばアイドルや</color><row/><color=0>政治家にウワサは付きものだし…</color><ctrl=2E/>",
+      "target": "<color=0>“你看……比如偶像、政客，</color><row/><color=0>总少不了各种传闻……</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:45635",
+      "kind": "dialogue",
+      "source": "<color=0>都市伝説なんて、そのものズバリ</color><row/><color=0>ウワサ話って書いてあるし…。</color><ctrl=2E/>",
+      "target": "<color=0>都市传说更是直接写明了</color><row/><color=0>就是传闻嘛……”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:45799",
+      "kind": "dialogue",
+      "source": "<color=0>他のは？</color><ctrl=2E/>",
+      "target": "<color=0>“其他的呢？”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:45826",
+      "kind": "dialogue",
+      "source": "<color=0>他のは、ええと…。</color><ctrl=2E/>",
+      "target": "<color=0>“其他的，呃……</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:45876",
+      "kind": "dialogue",
+      "source": "<color=0>実は無関係なんじゃないかなあ、</color><row/><color=0>…なんて思ってみたりとか。</color><ctrl=2E/>",
+      "target": "<color=0>我觉得……</color><row/><color=0>也许其实没什么关系吧。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:46023",
+      "kind": "dialogue",
+      "source": "<color=0>さあどうでしょう？</color><ctrl=2E/>",
+      "target": "<color=0>怎么样？”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:46085",
+      "kind": "dialogue",
+      "source": "<color=0>知りませんよ！</color><ctrl=2E/>",
+      "target": "<color=0>“我哪知道啊！”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:46143",
+      "kind": "dialogue",
+      "source": "<color=2>「犯罪者」</color><color=0>…じゃないかな。</color><ctrl=2E/>",
+      "target": "<color=2>“‘犯罪者’</color><color=0>……吧。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:46213",
+      "kind": "dialogue",
+      "source": "<color=0>放火殺人犯やＭ２ってやつは</color><row/><color=0>そのまま当てはまるし…</color><ctrl=2E/>",
+      "target": "<color=0>纵火杀人犯和Ｍ２</color><row/><color=0>都能直接对上……</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:46340",
+      "kind": "dialogue",
+      "source": "<color=0>ネットゲームの記事にも、他人を</color><row/><color=0>傷つける、とかあるし。</color><ctrl=2E/>",
+      "target": "<color=0>网络游戏的报道里，</color><row/><color=0>也说到了伤害他人。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:46477",
+      "kind": "dialogue",
+      "source": "<color=0>政治家の闇献金も違法だから</color><row/><color=0>犯罪に違いない。</color><ctrl=2E/>",
+      "target": "<color=0>政客收受秘密献金是违法行为，</color><row/><color=0>毫无疑问也是犯罪。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:46589",
+      "kind": "dialogue",
+      "source": "<color=0>アイドルやネットレストランは、</color><row/><color=0>実は無関係だったってことで。</color><ctrl=2E/>",
+      "target": "<color=0>至于偶像和网络餐厅，</color><row/><color=0>就当它们其实没关系。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:46741",
+      "kind": "dialogue",
+      "source": "<color=0>さあどうだ!?</color><ctrl=2E/>",
+      "target": "<color=0>怎么样！？”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:46791",
+      "kind": "dialogue",
+      "source": "<color=0>ですが、犯罪が記事になるのは</color><row/><color=0>当たり前だと思うんですが。</color><ctrl=2E/>",
+      "target": "<color=0>“可是，犯罪会被写成报道，</color><row/><color=0>不是理所当然的吗？”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:46935",
+      "kind": "dialogue",
+      "source": "<color=0>うっ…。</color><ctrl=2E/>",
+      "target": "<color=0>“呜……”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:46972",
+      "kind": "dialogue",
+      "source": "<color=0>それを言うなら、他にもたくさん</color><row/><color=0>犯罪者の記事はありますよ。</color><ctrl=2E/>",
+      "target": "<color=0>“照这么说，其他关于</color><row/><color=0>犯罪者的报道也有很多啊。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:47121",
+      "kind": "dialogue",
+      "source": "<color=0>うう、それもそうか…。</color><ctrl=2E/>",
+      "target": "<color=0>“呜，也是啊……”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:47199",
+      "kind": "dialogue",
+      "source": "<color=2>「秘密」</color><color=0>…じゃないかな。</color><ctrl=2E/>",
+      "target": "<color=2>“‘秘密’</color><color=0>……吧。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:47264",
+      "kind": "dialogue",
+      "source": "<color=0>少年犯罪の詳細は</color><row/><color=0>秘密になってるみたいだし、</color><ctrl=2E/>",
+      "target": "<color=0>少年犯罪的详情，</color><row/><color=0>似乎都是保密的，</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:47376",
+      "kind": "dialogue",
+      "source": "<color=0>アイドルや政治家の記事も、</color><row/><color=0>隠し事に関わってるし…。</color><ctrl=2E/>",
+      "target": "<color=0>偶像和政客的报道，</color><row/><color=0>也都涉及隐瞒的事……”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:47523",
+      "kind": "dialogue",
+      "source": "<color=0>うーん…いいセンいってるとは</color><row/><color=0>思いますが…</color><ctrl=2E/>",
+      "target": "<color=0>“嗯……方向是不错，</color><row/><color=0>可是……</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:47640",
+      "kind": "dialogue",
+      "source": "<color=0>ネットゲームや都市伝説には</color><row/><color=0>まったく絡んでこないですよ。</color><ctrl=2E/>",
+      "target": "<color=0>网络游戏和都市传说</color><row/><color=0>就完全对不上了啊。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:47784",
+      "kind": "dialogue",
+      "source": "<color=0>そうなんだよなぁ…。</color><ctrl=2E/>",
+      "target": "<color=0>“是啊……”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:47857",
+      "kind": "dialogue",
+      "source": "<color=2>「怪奇現象」</color><color=0>…じゃないかな。</color><ctrl=2E/>",
+      "target": "<color=2>“‘灵异现象’</color><color=0>……吧。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:47934",
+      "kind": "dialogue",
+      "source": "<color=0>怪奇現象？</color><ctrl=2E/>",
+      "target": "<color=0>“灵异现象？”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:47966",
+      "kind": "dialogue",
+      "source": "<color=0>そう、仮面の殺人鬼なんてまさに</color><row/><color=0>怪奇現象以外の何ものでもない！</color><ctrl=2E/>",
+      "target": "<color=0>“没错，假面杀人魔什么的，</color><row/><color=0>除了灵异现象还能是什么！”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:48135",
+      "kind": "dialogue",
+      "source": "<color=0>それ以外の記事は、怪奇現象以外</color><row/><color=0>以外の何ものでもないですよ。</color><ctrl=2E/>",
+      "target": "<color=0>“可其他报道，恰恰</color><row/><color=0>都跟灵异现象毫无关系啊。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:48295",
+      "kind": "dialogue",
+      "source": "<color=0>むはぁ。</color><ctrl=2E/>",
+      "target": "<color=0>“呜哇。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:48338",
+      "kind": "dialogue",
+      "source": "<color=2>「仮面」</color><color=0>…じゃないかな。</color><ctrl=2E/>",
+      "target": "<color=2>“‘假面’</color><color=0>……吧。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:48415",
+      "kind": "dialogue",
+      "source": "<color=0>仮面？</color><ctrl=2E/>",
+      "target": "<color=0>“假面？”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:48437",
+      "kind": "dialogue",
+      "source": "<color=0>それは言い換えればつまり、</color><row/><color=2>「別の顔」</color><color=0>ってことで。</color><ctrl=2E/>",
+      "target": "<color=0>“换句话说，</color><row/><color=2>‘另一张脸’</color><color=0>就是这个意思。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:48564",
+      "kind": "dialogue",
+      "source": "<color=0>ネットゲームも、</color><color=2>素顔を隠して</color><row/><color=0>遊ぶもの、とあるし…</color><ctrl=2E/>",
+      "target": "<color=0>网络游戏的报道说，玩家会</color><color=2>隐藏真面目</color><row/><color=0>来玩游戏……</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:48691",
+      "kind": "dialogue",
+      "source": "<color=0>放火殺人の記事にも、一般人の</color><row/><color=2>仮面</color><color=0>をかぶって…とある。</color><ctrl=2E/>",
+      "target": "<color=0>纵火杀人案的报道里，也写着戴上普通人的</color><row/><color=2>假面</color><color=0>……</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:48828",
+      "kind": "dialogue",
+      "source": "<color=0>政治家の記事も、偽善者の</color><color=2>マスク</color><row/><color=0>という言葉が出てきてるし。</color><ctrl=2E/>",
+      "target": "<color=0>政客那篇里，也有伪善者的</color><color=2>面具</color><row/><color=0>这个词。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:48990",
+      "kind": "dialogue",
+      "source": "<color=0>ああ、確かにそうですね。</color><ctrl=2E/>",
+      "target": "<color=0>“啊，确实如此。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:49057",
+      "kind": "dialogue",
+      "source": "<color=0>アイドルも</color><color=2>素顔を隠して</color><color=0>変装、</color><row/><color=0>つまりこれも仮面になるし、</color><ctrl=2E/>",
+      "target": "<color=0>“偶像也会</color><color=2>隐藏真面目</color><color=0>，乔装打扮，</color><row/><color=0>这也相当于戴上了假面，</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:49199",
+      "kind": "dialogue",
+      "source": "<color=0>Ｍ２なんてそのものズバリ、</color><row/><color=2>仮面</color><color=0>の殺人鬼だ。</color><ctrl=2E/>",
+      "target": "<color=0>Ｍ２就更直接了，</color><row/><color=2>假面</color><color=0>杀人魔嘛。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:49311",
+      "kind": "dialogue",
+      "source": "<color=0>…どうだろう？</color><ctrl=2E/>",
+      "target": "<color=0>……怎么样？”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:49363",
+      "kind": "dialogue",
+      "source": "<color=0>そうなるとネットレストランは、</color><row/><color=0>無関係ってことですね。</color><ctrl=2E/>",
+      "target": "<color=0>“这么说，网络餐厅那篇</color><row/><color=0>就是无关的了。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:49502",
+      "kind": "dialogue",
+      "source": "<color=0>うん、隣ページの都市伝説が</color><row/><color=0>メインの記事だと思うし。</color><ctrl=2E/>",
+      "target": "<color=0>“嗯，我想隔壁那页的都市传说</color><row/><color=0>才是他主要看的报道。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:49636",
+      "kind": "dialogue",
+      "source": "<color=0>うんうん、なるほど。</color><ctrl=2E/>",
+      "target": "<color=0>“嗯嗯，原来如此。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:49703",
+      "kind": "dialogue",
+      "source": "<color=2>「空想」</color><color=0>…じゃないかな。</color><ctrl=2E/>",
+      "target": "<color=2>“‘空想’</color><color=0>……吧。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:49783",
+      "kind": "dialogue",
+      "source": "<color=0>空想…？</color><ctrl=2E/>",
+      "target": "<color=0>“空想……？”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:49810",
+      "kind": "dialogue",
+      "source": "<color=0>ネットゲームはそのものズバリ</color><row/><color=0>空想世界ってことだし、</color><ctrl=2E/>",
+      "target": "<color=0>“网络游戏，</color><row/><color=0>本身就是空想世界，</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:49942",
+      "kind": "dialogue",
+      "source": "<color=0>放火殺人犯の話も憶測、つまり</color><row/><color=0>空想で話している内容だ。</color><ctrl=2E/>",
+      "target": "<color=0>纵火杀人犯的事也是推测，</color><row/><color=0>也就是空想出来的内容。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:50079",
+      "kind": "dialogue",
+      "source": "<color=0>都市伝説の話も、空想上の生物</color><row/><color=0>みたいなものだし。</color><ctrl=2E/>",
+      "target": "<color=0>都市传说讲的，</color><row/><color=0>也像是空想中的生物。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:50203",
+      "kind": "dialogue",
+      "source": "<color=0>ふむ…。</color><ctrl=2E/>",
+      "target": "<color=0>“唔……”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:50230",
+      "kind": "dialogue",
+      "source": "<color=0>アイドルも空想されることが</color><row/><color=0>多いわけだし…。</color><ctrl=2E/>",
+      "target": "<color=0>“偶像也经常</color><row/><color=0>被人拿来空想嘛……”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:50354",
+      "kind": "dialogue",
+      "source": "<color=0>うーん、だんだん</color><row/><color=0>苦しくなってきてますね。</color><ctrl=2E/>",
+      "target": "<color=0>“嗯……听起来</color><row/><color=0>越来越牵强了。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:50463",
+      "kind": "dialogue",
+      "source": "<color=0>違うかなあ。</color><ctrl=2E/>",
+      "target": "<color=0>“不对吗？”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:50513",
+      "kind": "dialogue",
+      "source": "<color=0>空想って、広く解釈できる</color><row/><color=0>言葉ですからね。</color><ctrl=2E/>",
+      "target": "<color=0>“空想这个词，</color><row/><color=0>能解释的范围太广了。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:50632",
+      "kind": "dialogue",
+      "source": "<color=0>なんか、いまひとつ</color><row/><color=0>スッキリしないです。</color><ctrl=2E/>",
+      "target": "<color=0>总觉得，</color><row/><color=0>还不够贴切。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:50736",
+      "kind": "dialogue",
+      "source": "<color=0>そうか…。</color><ctrl=2E/>",
+      "target": "<color=0>“这样啊……”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:50787",
+      "kind": "dialogue",
+      "source": "<color=0>…とにかく、私は</color><row/><color=0>それは違うと思うんです。</color><ctrl=2E/>",
+      "target": "<color=0>“……总之，</color><row/><color=0>我觉得这个答案不对。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:50894",
+      "kind": "dialogue",
+      "source": "<color=0>もう一度、よく</color><row/><color=0>考えてみてください。</color><ctrl=2E/>",
+      "target": "<color=0>请您再</color><row/><color=0>仔细想一想。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:50988",
+      "kind": "dialogue",
+      "source": "<color=0>ええと…。</color><row/><color=0>となると共通ワードは…。</color><ctrl=2E/>",
+      "target": "<color=0>“呃……</color><row/><color=0>这么说，共同词语是……”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:51104",
+      "kind": "dialogue",
+      "source": "<color=0>確かに当てはまりますよ！</color><row/><color=0>さすがですね、生王さん！</color><ctrl=2E/>",
+      "target": "<color=0>“确实都能对上！</color><row/><color=0>不愧是您，生王先生！”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:51252",
+      "kind": "dialogue",
+      "source": "<color=0>まあ、ざっとこんなものだよ。</color><ctrl=2E/>",
+      "target": "<color=0>“嗯，大概就是这样。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:51327",
+      "kind": "dialogue",
+      "source": "<color=0>伊綱君も次から頑張れば</color><row/><color=0>いいんじゃないかな。ふふん。</color><ctrl=2E/>",
+      "target": "<color=0>伊纲你下次</color><row/><color=0>再努力就好了。哼哼。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:51471",
+      "kind": "dialogue",
+      "source": "<color=0>これだけのことで、</color><row/><color=0>ちょっと調子乗りすぎです。</color><ctrl=2E/>",
+      "target": "<color=0>“才这么一点小事，</color><row/><color=0>您就有点得意过头了。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:51590",
+      "kind": "dialogue",
+      "source": "<color=0>ハイ…。</color><ctrl=2E/>",
+      "target": "<color=0>“是……”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:51626",
+      "kind": "dialogue",
+      "source": "<color=0>…とか言いながら、どうせ自分も</color><row/><color=0>気付いてたんじゃない？</color><ctrl=2E/>",
+      "target": "<color=0>“……话虽这么说，</color><row/><color=0>其实你也早就发现了吧？”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:51775",
+      "kind": "dialogue",
+      "source": "<color=0>まあ、実はそうです。</color><ctrl=2E/>",
+      "target": "<color=0>“嗯，确实如此。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:51830",
+      "kind": "dialogue",
+      "source": "<color=0>生王さんが間違った回答を</color><row/><color=0>してる間に気が付きました。</color><ctrl=2E/>",
+      "target": "<color=0>就在生王先生</color><row/><color=0>回答错误答案的时候。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:51974",
+      "kind": "dialogue",
+      "source": "<color=0>くぅ…。</color><ctrl=2E/>",
+      "target": "<color=0>“呜……”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:52014",
+      "kind": "dialogue",
+      "source": "<color=0>…ともあれ。</color><ctrl=2E/>",
+      "target": "<color=0>“……总之，</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:52049",
+      "kind": "dialogue",
+      "source": "<color=0>これらの記事の共通ワードは、</color><row/><color=0>「仮面」で良さそうですね。</color><ctrl=2E/>",
+      "target": "<color=0>这些报道的共同词语，</color><row/><color=0>看来就是‘假面’了。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:52191",
+      "kind": "dialogue",
+      "source": "<color=0>となると、先生は…。</color><ctrl=2E/>",
+      "target": "<color=0>这样的话，老师就是……”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:52248",
+      "kind": "dialogue",
+      "source": "<color=0>「仮面」という言葉で、何かに</color><row/><color=0>気付いて飛んでいった…と。</color><ctrl=2E/>",
+      "target": "<color=0>“由‘假面’这个词察觉到了什么，</color><row/><color=0>然后就飞奔出去了……”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:52402",
+      "kind": "dialogue",
+      "source": "<color=0>そういうことになりますね。</color><ctrl=2E/>",
+      "target": "<color=0>“是这么回事。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:52485",
+      "kind": "dialogue",
+      "source": "<color=0>何でしょう、いったい何を</color><row/><color=0>調べているんでしょうか…。</color><ctrl=2E/>",
+      "target": "<color=0>究竟是什么呢，</color><row/><color=0>他到底在调查什么……”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:52619",
+      "kind": "dialogue",
+      "source": "<color=0>しかし、どうしてまたそんなに</color><row/><color=0>気にしてるんだい？</color><ctrl=2E/>",
+      "target": "<color=0>“不过，你怎么</color><row/><color=0>这么在意啊？</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:52741",
+      "kind": "dialogue",
+      "source": "<color=0>いつもは、癸生川が何をしてても</color><row/><color=0>放ったらかしだったのに…。</color><ctrl=2E/>",
+      "target": "<color=0>平时不管癸生川做什么，</color><row/><color=0>你不都是放着不管的吗……”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:52910",
+      "kind": "dialogue",
+      "source": "<color=0>それなんですけど…。</color><ctrl=2E/>",
+      "target": "<color=0>“关于这件事……”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:52983",
+      "kind": "dialogue",
+      "source": "<color=0>実はここ最近、事務所の周りで</color><row/><color=2>妙な気配</color><color=0>を感じるんです…。</color><ctrl=2E/>",
+      "target": "<color=0>“其实最近，在事务所周围</color><row/><color=2>有股奇怪的气息</color><color=0>让我很在意……”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:53127",
+      "kind": "dialogue",
+      "source": "<color=0>妙な気配…？</color><ctrl=2E/>",
+      "target": "<color=0>“奇怪的气息……？”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:53162",
+      "kind": "dialogue",
+      "source": "<color=0>それは、さっき言ってた</color><row/><color=0>追っかけの人じゃなくて？</color><ctrl=2E/>",
+      "target": "<color=0>“不是刚才说的</color><row/><color=0>那个追随者吗？”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:53286",
+      "kind": "dialogue",
+      "source": "<color=0>ええ、それとは違って</color><row/><color=0>気配だけなんですけど…。</color><ctrl=2E/>",
+      "target": "<color=0>“嗯，和那个不同，</color><row/><color=0>只是有种感觉……”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:53405",
+      "kind": "dialogue",
+      "source": "<color=0>気のせい、ってことは？</color><ctrl=2E/>",
+      "target": "<color=0>“会不会是你多心了？”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:53467",
+      "kind": "dialogue",
+      "source": "<color=0>まあ、それならそれで</color><row/><color=0>いいんですけど、</color><ctrl=2E/>",
+      "target": "<color=0>“嗯，要是那样</color><row/><color=0>倒也好，</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:53564",
+      "kind": "dialogue",
+      "source": "<color=0>なんとなく、見られてるような…</color><row/><color=0>落ち着かない感じがするんです。</color><ctrl=2E/>",
+      "target": "<color=0>但总觉得有人在盯着我……</color><row/><color=0>让我静不下心来。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:53752",
+      "kind": "dialogue",
+      "source": "<color=0>ふうむ…探偵を監視するなんて</color><row/><color=0>いい度胸だねえ。</color><ctrl=2E/>",
+      "target": "<color=0>“唔……居然监视侦探，</color><row/><color=0>胆子不小啊。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:53881",
+      "kind": "dialogue",
+      "source": "<color=0>まったくですよ！</color><ctrl=2E/>",
+      "target": "<color=0>“就是啊！”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:53926",
+      "kind": "dialogue",
+      "source": "<color=0>しかもそれ、ちょうど先生が</color><row/><color=0>挙動不審になった頃からで、</color><ctrl=2E/>",
+      "target": "<color=0>“而且，那正好是从老师</color><row/><color=0>开始举止古怪的时候出现的，</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:54076",
+      "kind": "dialogue",
+      "source": "<color=0>その辺も含めて、</color><row/><color=0>なんか気になるんですよ…。</color><ctrl=2E/>",
+      "target": "<color=0>连同这一点，</color><row/><color=0>总让我有些在意……”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:54190",
+      "kind": "dialogue",
+      "source": "<color=0>なるほどね…。</color><ctrl=2E/>",
+      "target": "<color=0>“原来如此……”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:54230",
+      "kind": "dialogue",
+      "source": "<color=0>癸生川の性格からして、直接</color><row/><color=0>聞いてもムダっぽいしなあ…。</color><ctrl=2E/>",
+      "target": "<color=0>“以癸生川的性格，</color><row/><color=0>就算直接问，恐怕也没用吧……”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:54394",
+      "kind": "dialogue",
+      "source": "<color=0>ええ、そうなんです。</color><row/><color=0>何度聞いてもはぐらかされて。</color><ctrl=2E/>",
+      "target": "<color=0>“没错，就是这样。</color><row/><color=0>问了好几次，他都在打马虎眼。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:54534",
+      "kind": "dialogue",
+      "source": "<color=0>やっぱ自分で捜査しないと</color><row/><color=0>ダメなのかな…。</color><ctrl=2E/>",
+      "target": "<color=0>看来还是得</color><row/><color=0>我自己去调查才行……”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:54653",
+      "kind": "dialogue",
+      "source": "<color=0>あっ、それより生王さん。</color><ctrl=2E/>",
+      "target": "<color=0>“啊，先不说这个，生王先生。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:54730",
+      "kind": "dialogue",
+      "source": "<color=0>…ん？</color><ctrl=2E/>",
+      "target": "<color=0>“……嗯？”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:54752",
+      "kind": "dialogue",
+      "source": "<color=0>今日は、何か用があって</color><row/><color=0>来たんじゃないんですか？</color><ctrl=2E/>",
+      "target": "<color=0>“您今天是不是</color><row/><color=0>有什么事才来的？”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:54876",
+      "kind": "dialogue",
+      "source": "<color=0>ああっ、そうだった！</color><row/><color=0>やはー！　すっかり忘れてた!!</color><ctrl=2E/>",
+      "target": "<color=0>“啊，对了！</color><row/><color=0>哎呀！我全忘光了！！”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:55003",
+      "kind": "dialogue",
+      "source": "<color=0>伊綱君、ちょっとパソコンを</color><row/><color=0>使ってもいいかな？</color><ctrl=2E/>",
+      "target": "<color=0>“伊纲，能借你的电脑</color><row/><color=0>用一下吗？”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:55122",
+      "kind": "dialogue",
+      "source": "<color=0>えっ、いいですけど…。</color><ctrl=2E/>",
+      "target": "<color=0>“咦，可以啊……”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:55182",
+      "kind": "dialogue",
+      "source": "<color=0>何するんですか？</color><ctrl=2E/>",
+      "target": "<color=0>“您要做什么？”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:55229",
+      "kind": "dialogue",
+      "source": "<color=0>実はちょっと、</color><row/><color=0>見せたいものがあるんだ。</color><ctrl=2E/>",
+      "target": "<color=0>“其实，我有个东西</color><row/><color=0>想给你看看。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-01:55333",
+      "kind": "dialogue",
+      "source": "<color=0>…？</color><ctrl=2E/>",
+      "target": "<color=0>“……？”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:33",
+      "kind": "display",
+      "source": "<color=2>２００３年</color><color=0>　　癸生川探偵事務所</color>",
+      "target": "<color=2>２００３年</color><color=0>　　癸生川侦探事务所</color>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:82",
+      "kind": "dialogue",
+      "source": "<color=0>…で、このパソコンソフトを</color><row/><color=0>インストールするんですか？</color><ctrl=2E/>",
+      "target": "<color=0>“……所以，是要安装</color><row/><color=0>这个电脑软件吗？”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:221",
+      "kind": "dialogue",
+      "source": "<color=0>うん、頼むよ。</color><ctrl=2E/>",
+      "target": "<color=0>“嗯，拜托你了。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:276",
+      "kind": "dialogue",
+      "source": "<color=0>なんかずいぶん大きな箱ですけど</color><row/><color=0>入ってるのはＣＤだけですか！</color><ctrl=2E/>",
+      "target": "<color=0>“这么大的盒子，</color><row/><color=0>里面竟然只有一张光盘！”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:430",
+      "kind": "dialogue",
+      "source": "<color=0>…まあ、パソコンソフトなんて</color><row/><color=0>だいたいそんなもんだし。</color><ctrl=2E/>",
+      "target": "<color=0>“……嗯，电脑软件</color><row/><color=0>大致都是这样的嘛。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:579",
+      "kind": "dialogue",
+      "source": "<color=0>これ、ゲームソフトですよね。</color><row/><color=2>『ミスティ・オンライン』</color><color=0>…？</color><ctrl=2E/>",
+      "target": "<color=0>“这是游戏软件吧。</color><row/><color=2>《迷雾在线》</color><color=0>……？”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:728",
+      "kind": "dialogue",
+      "source": "<color=0>そうそう、略して</color><color=2>『ＭＯ』</color><color=0>。</color><ctrl=2E/>",
+      "target": "<color=0>“没错，简称</color><color=2>《ＭＯ》</color><color=0>。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:808",
+      "kind": "dialogue",
+      "source": "<color=0>いまβテスト中の</color><row/><color=2>オンラインゲーム</color><color=0>だよ。</color><ctrl=2E/>",
+      "target": "<color=0>是正在进行β测试的</color><row/><color=2>在线游戏</color><color=0>。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:920",
+      "kind": "dialogue",
+      "source": "<color=0>なんかよく分からないので</color><row/><color=0>順番に説明してくださいね。</color><ctrl=2E/>",
+      "target": "<color=0>“我不太明白，</color><row/><color=0>请您按顺序解释一下。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:1054",
+      "kind": "dialogue",
+      "source": "<color=0>はいはい。</color><ctrl=2E/>",
+      "target": "<color=0>“好，好。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:1164:arg1",
+      "kind": "menu_prompt",
+      "source": "調べる",
+      "target": "调查"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:1175:arg0",
+      "kind": "choice",
+      "source": "伊綱",
+      "target": "伊纲"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:1183:arg0",
+      "kind": "choice",
+      "source": "パソコン",
+      "target": "电脑"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:1195:arg0",
+      "kind": "choice",
+      "source": "モニター",
+      "target": "显示器"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:1207:arg0",
+      "kind": "choice",
+      "source": "観葉植物",
+      "target": "观叶植物"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:1219:arg0",
+      "kind": "choice",
+      "source": "クロゼット",
+      "target": "衣柜"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:1246",
+      "kind": "dialogue",
+      "source": "<color=2>セーブしました。</color>",
+      "target": "<color=2>已保存。</color>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:1313",
+      "kind": "dialogue",
+      "source": "<color=0>ちゃんと順を追って、</color><row/><color=0>詳しく教えてくださいよ。</color><ctrl=2E/>",
+      "target": "<color=0>“请您按顺序</color><row/><color=0>给我详细讲清楚。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:1432",
+      "kind": "dialogue",
+      "source": "<color=0>んじゃ、そうだね…。</color><ctrl=2E/>",
+      "target": "<color=0>“那就……嗯……”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:1493:arg1",
+      "kind": "menu_prompt",
+      "source": "伊綱",
+      "target": "伊纲"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:1502:arg0",
+      "kind": "choice",
+      "source": "ＭＯの事",
+      "target": "关于ＭＯ"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:1514:arg0",
+      "kind": "choice",
+      "source": "βテストの事",
+      "target": "关于β测试"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:1530:arg0",
+      "kind": "choice",
+      "source": "ネットゲーム",
+      "target": "网络游戏"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:1557",
+      "kind": "dialogue",
+      "source": "<color=0>唐突だけど、</color><color=2>株式会社ゲンマ</color><row/><color=0>っていうゲーム会社は覚えてる？</color><ctrl=2E/>",
+      "target": "<color=0>“突然问一句，你还记得</color><color=2>玄马股份有限公司</color><row/><color=0>这家游戏公司吗？”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:1729",
+      "kind": "dialogue",
+      "source": "<color=0>えっと、確か…。</color><ctrl=2E/>",
+      "target": "<color=0>“呃，我记得……”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:1784",
+      "kind": "dialogue",
+      "source": "<color=0>ネットＲＰＧ『タクリマクス』を</color><row/><color=0>開発した会社ですよね。</color><ctrl=2E/>",
+      "target": "<color=0>“就是开发网络ＲＰＧ</color><row/><color=0>《Taclimax》的公司吧。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:1921",
+      "kind": "dialogue",
+      "source": "<color=0>去年の事件で関わりましたし、</color><row/><color=0>もちろん覚えてますよ。</color><ctrl=2E/>",
+      "target": "<color=0>去年的案子里打过交道，</color><row/><color=0>当然还记得。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:2053",
+      "kind": "dialogue",
+      "source": "<color=0>ゲーム界でもかなり大手に入る</color><row/><color=0>有名な会社ですよね。</color><ctrl=2E/>",
+      "target": "<color=0>在游戏界也是相当知名的</color><row/><color=0>大公司吧。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:2182",
+      "kind": "dialogue",
+      "source": "<color=0>そうそう。あそこは国内でも</color><row/><color=0>五指に入る巨大メーカーだよ。</color><ctrl=2E/>",
+      "target": "<color=0>“没错。那家公司在国内</color><row/><color=0>也是前五名的大厂商。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:2345",
+      "kind": "dialogue",
+      "source": "<color=0>生王さんのいる</color><color=2>元気</color><color=0>って会社とは</color><row/><color=0>名前は似てるのに大違いですね。</color><ctrl=2E/>",
+      "target": "<color=0>“和生王先生所在的</color><color=2>元气</color><color=0>公司，</color><row/><color=0>名字挺像，规模却差远了呢。”（译注：“玄马”读作 Genma，“元气”读作 Genki，日语读音都以 Gen 开头。）</color><ctrl=2E/>",
+      "translation_notes": "用户要求解释公司名称相似。前文c1-02:1557为株式会社ゲンマ，当前原文为元気；Genma/Genki共有ゲン（Gen）。句外译注仅说明读音关系，保留译名、强调及点击边界。"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:2514",
+      "kind": "dialogue",
+      "source": "<color=0>大きなお世話だっての！</color><ctrl=2E/>",
+      "target": "<color=0>“要你多管闲事！”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:2586",
+      "kind": "dialogue",
+      "source": "<color=0>…ってことは、これもゲンマが</color><row/><color=0>作ったゲームなんですか？</color><ctrl=2E/>",
+      "target": "<color=0>“……这么说，这也是玄马</color><row/><color=0>制作的游戏吗？”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:2725",
+      "kind": "dialogue",
+      "source": "<color=0>うん。パソコン専用で開発中の</color><row/><color=0>オンラインゲームらしいよ。</color><ctrl=2E/>",
+      "target": "<color=0>“嗯。听说是正在开发的</color><row/><color=0>电脑专用在线游戏。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:2869",
+      "kind": "dialogue",
+      "source": "<color=0>へぇ…。</color><ctrl=2E/>",
+      "target": "<color=0>“哦……”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:2894",
+      "kind": "dialogue",
+      "source": "<color=0>んで、これっていったい</color><row/><color=0>どんなゲームなんですか？</color><ctrl=2E/>",
+      "target": "<color=0>“那么，这究竟</color><row/><color=0>是个什么游戏呢？”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:3018",
+      "kind": "dialogue",
+      "source": "<color=0>それはやってみてのお楽しみ、</color><row/><color=0>ってことで。</color><ctrl=2E/>",
+      "target": "<color=0>“这个嘛，</color><row/><color=0>玩了就知道了。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:3127",
+      "kind": "dialogue",
+      "source": "<color=0>はぁ…。</color><ctrl=2E/>",
+      "target": "<color=0>“哦……”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:3163",
+      "kind": "dialogue",
+      "source": "<color=0>私、普段からゲームってあまり</color><row/><color=0>やらないんですけど…。</color><ctrl=2E/>",
+      "target": "<color=0>“我平时</color><row/><color=0>不太玩游戏的……”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:3297",
+      "kind": "dialogue",
+      "source": "<color=0>でも、これは大丈夫だと思う。</color><row/><color=0>きっと君に向いてるはず。</color><ctrl=2E/>",
+      "target": "<color=0>“不过这个应该没问题。</color><row/><color=0>一定很适合你。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:3460",
+      "kind": "dialogue",
+      "source": "<color=0>…さては、何か企んでますね。</color><ctrl=2E/>",
+      "target": "<color=0>“……看来您在打什么算盘呢。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:3545",
+      "kind": "dialogue",
+      "source": "<color=0>いやいや、滅相もない！</color><ctrl=2E/>",
+      "target": "<color=0>“没有没有，怎么可能！”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:3652",
+      "kind": "dialogue",
+      "source": "<color=0>βテストっていうのは、</color><row/><color=0>まだ開発中のゲームを、</color><ctrl=2E/>",
+      "target": "<color=0>“所谓β测试，就是对</color><row/><color=0>还在开发中的游戏进行</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:3777",
+      "kind": "dialogue",
+      "source": "<color=2>テストプレイ</color><color=0>して不具合がないか</color><row/><color=0>チェックすることだよ。</color><ctrl=2E/>",
+      "target": "<color=2>试玩测试</color><color=0>，检查</color><row/><color=0>有没有问题。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:3914",
+      "kind": "dialogue",
+      "source": "<color=0>特にネットゲームなんかは</color><row/><color=0>多くの試験が必要だから、</color><ctrl=2E/>",
+      "target": "<color=0>尤其是网络游戏，</color><row/><color=0>需要做大量测试，</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:4049",
+      "kind": "dialogue",
+      "source": "<color=0>なるべく大勢の人に頼んで、</color><row/><color=0>念入りに行われるわけだ。</color><ctrl=2E/>",
+      "target": "<color=0>所以会尽量邀请更多的人，</color><row/><color=0>来仔细测试。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:4183",
+      "kind": "dialogue",
+      "source": "<color=0>…じゃあ、このゲームってまだ</color><row/><color=0>発売されてないんですか？</color><ctrl=2E/>",
+      "target": "<color=0>“……这么说，这个游戏</color><row/><color=0>还没发售吗？”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:4322",
+      "kind": "dialogue",
+      "source": "<color=0>そうそう。</color><row/><color=0>まだ未完成のテスト版。</color><ctrl=2E/>",
+      "target": "<color=0>“没错。</color><row/><color=0>这还是没做完的测试版。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:4421",
+      "kind": "dialogue",
+      "source": "<color=0>そんなソフトを入れて…</color><ctrl=2E/>",
+      "target": "<color=0>“装这种软件……</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:4481",
+      "kind": "dialogue",
+      "source": "<color=0>パソコンが不安定になったら、</color><row/><color=0>生王さんのせいにしますよ。</color><ctrl=2E/>",
+      "target": "<color=0>要是电脑变得不稳定，</color><row/><color=0>我可就怪您了，生王先生。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:4635",
+      "kind": "dialogue",
+      "source": "<color=0>むはぁ。</color><ctrl=2E/>",
+      "target": "<color=0>“呜哇。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:4660",
+      "kind": "dialogue",
+      "source": "<color=0>大丈夫だと思うけど…。</color><ctrl=2E/>",
+      "target": "<color=0>“我想应该没事吧……”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:4720",
+      "kind": "dialogue",
+      "source": "<color=0>いや、大丈夫なはず！</color><ctrl=2E/>",
+      "target": "<color=0>“不，肯定没事！”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:4787",
+      "kind": "dialogue",
+      "source": "<color=0>ふーん…。</color><ctrl=2E/>",
+      "target": "<color=0>“哦……”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:4847",
+      "kind": "dialogue",
+      "source": "<color=0>あ。でも、そういえば…</color><ctrl=2E/>",
+      "target": "<color=0>“啊。不过，说起来……</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:4907",
+      "kind": "dialogue",
+      "source": "<color=0>そんなテスト版を、どうして</color><row/><color=0>生王さんが持ってるんですか？</color><ctrl=2E/>",
+      "target": "<color=0>这种测试版，</color><row/><color=0>您怎么会有呢？”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:5061",
+      "kind": "dialogue",
+      "source": "<color=0>実は、去年の事件で知り合った</color><row/><color=0>ゲンマの</color><color=2>瀬堂</color><color=0>さんて人から…</color><ctrl=2E/>",
+      "target": "<color=0>“其实，是去年那起案子认识的</color><row/><color=0>玄马公司的</color><color=2>濑堂</color><color=0>先生……</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:5211",
+      "kind": "dialogue",
+      "source": "<color=0>僕らにぜひテストして欲しい、と</color><row/><color=0>郵送で送られてきたんだよ。</color><ctrl=2E/>",
+      "target": "<color=0>说是希望我们一定帮忙测试，</color><row/><color=0>就邮寄给我了。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:5373",
+      "kind": "dialogue",
+      "source": "<color=0>瀬堂さんって確か…</color><ctrl=2E/>",
+      "target": "<color=0>“濑堂先生，我记得……</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:5423",
+      "kind": "dialogue",
+      "source": "<color=0>タクリマクスのプロデューサを</color><row/><color=0>やってた人ですよね。</color><ctrl=2E/>",
+      "target": "<color=0>是《Taclimax》的</color><row/><color=0>制作人吧。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:5560",
+      "kind": "dialogue",
+      "source": "<color=0>どうしてまた、私たちに…？</color><ctrl=2E/>",
+      "target": "<color=0>为什么特意找我们……？”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:5632",
+      "kind": "dialogue",
+      "source": "<color=0>ほら、あの人、僕のゲームの</color><row/><color=0>ファンって言ってたじゃない。</color><ctrl=2E/>",
+      "target": "<color=0>“你看，他不是说过，</color><row/><color=0>他是我的游戏的粉丝吗？</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:5774",
+      "kind": "dialogue",
+      "source": "<color=0>たぶん、それでだと思う。</color><ctrl=2E/>",
+      "target": "<color=0>我想大概是因为这个吧。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:5841",
+      "kind": "dialogue",
+      "source": "<color=0>だからって…特に交流もないのに</color><row/><color=0>不自然じゃないですか？</color><ctrl=2E/>",
+      "target": "<color=0>“话虽如此……又没什么来往，</color><row/><color=0>不是有点奇怪吗？”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:5980",
+      "kind": "dialogue",
+      "source": "<color=0>まあ、とにかくやってみようよ。</color><row/><color=0>僕もまだ試してないから。</color><ctrl=2E/>",
+      "target": "<color=0>“总之，先玩玩看吧。</color><row/><color=0>我也还没试过呢。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:6124",
+      "kind": "dialogue",
+      "source": "<color=0>うーん…。</color><ctrl=2E/>",
+      "target": "<color=0>“嗯……”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:6195",
+      "kind": "dialogue",
+      "source": "<color=0>で、これは私に何かテストを</color><row/><color=0>させようって魂胆なんですか？</color><ctrl=2E/>",
+      "target": "<color=0>“所以，您是打算</color><row/><color=0>让我帮忙测试什么吗？”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:6349",
+      "kind": "dialogue",
+      "source": "<color=0>いやいや、別にそこまで</color><row/><color=0>堅苦しいもんじゃないから。</color><ctrl=2E/>",
+      "target": "<color=0>“没有没有，</color><row/><color=0>不用搞得那么严肃。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:6486",
+      "kind": "dialogue",
+      "source": "<color=0>遊び感覚で。かるーく。</color><ctrl=2E/>",
+      "target": "<color=0>就当玩一玩，轻松点。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:6558",
+      "kind": "dialogue",
+      "source": "<color=0>はあ…。</color><ctrl=2E/>",
+      "target": "<color=0>“哦……”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:6588",
+      "kind": "dialogue",
+      "source": "<color=0>まあ、とにかくやってみようよ。</color><row/><color=0>僕もまだ試してないから。</color><ctrl=2E/>",
+      "target": "<color=0>“总之，先玩玩看吧。</color><row/><color=0>我也还没试过呢。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:6745",
+      "kind": "dialogue",
+      "source": "<color=0>うーん…。</color><ctrl=2E/>",
+      "target": "<color=0>“嗯……”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:6813",
+      "kind": "dialogue",
+      "source": "<color=0>オンラインゲームについては</color><row/><color=0>説明、いるかい？</color><ctrl=2E/>",
+      "target": "<color=0>“关于在线游戏，</color><row/><color=0>需要我解释一下吗？</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:6925",
+      "kind": "dialogue",
+      "source": "<color=0>さっき、週刊誌の記事で</color><row/><color=0>少し話題になったけど。</color><ctrl=2E/>",
+      "target": "<color=0>刚才周刊的报道里，</color><row/><color=0>也稍微聊到了一点。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:7057",
+      "kind": "dialogue",
+      "source": "<color=0>えっと…要はネットを使って、</color><ctrl=2E/>",
+      "target": "<color=0>“呃……简单地说，就是利用网络，</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:7132",
+      "kind": "dialogue",
+      "source": "<color=0>離れた場所にいる人とも一緒に</color><row/><color=0>遊べるゲームのことですよね。</color><ctrl=2E/>",
+      "target": "<color=0>能和远在别处的人</color><row/><color=0>一起玩的游戏吧。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:7279",
+      "kind": "dialogue",
+      "source": "<color=0>さっきの雑誌によれば、生活に</color><row/><color=0>悪影響があるそうですが。</color><ctrl=2E/>",
+      "target": "<color=0>照刚才那本杂志所说，</color><row/><color=0>好像对生活有不良影响。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:7426",
+      "kind": "dialogue",
+      "source": "<color=0>…実際、どうなんですか？</color><ctrl=2E/>",
+      "target": "<color=0>“……实际上是怎样呢？”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:7493",
+      "kind": "dialogue",
+      "source": "<color=0>その点は、実際に自分でやって</color><row/><color=0>確かめればいいんじゃないかな？</color><ctrl=2E/>",
+      "target": "<color=0>“关于这一点，自己亲自玩过，</color><row/><color=0>确认一下不就好了？”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:7660",
+      "kind": "dialogue",
+      "source": "<color=0>ま、そうですね。</color><ctrl=2E/>",
+      "target": "<color=0>“嗯，也是。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:7729",
+      "kind": "dialogue",
+      "source": "<color=0>私、オンラインゲームって</color><row/><color=0>まともに遊んだことないですし…</color><ctrl=2E/>",
+      "target": "<color=0>“我也从没正经玩过</color><row/><color=0>在线游戏……</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:7871",
+      "kind": "dialogue",
+      "source": "<color=0>ちょっと楽しみですね。</color><ctrl=2E/>",
+      "target": "<color=0>有点期待呢。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:7933",
+      "kind": "dialogue",
+      "source": "<color=0>お、少し興味持ったみたいだ。</color><ctrl=2E/>",
+      "target": "<color=0>哦，她好像有点兴趣了。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:8035",
+      "kind": "dialogue",
+      "source": "<color=0>伊綱君、これでも結構</color><row/><color=0>メカにも強いんだよな…。</color><ctrl=2E/>",
+      "target": "<color=0>伊纲别看这样，</color><row/><color=0>其实还挺擅长摆弄机器……</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:8152",
+      "kind": "dialogue",
+      "source": "<color=0>確かこのパソコンも、彼女が</color><row/><color=0>自分で組み立てたらしいし…。</color><ctrl=2E/>",
+      "target": "<color=0>记得这台电脑，</color><row/><color=0>好像也是她自己组装的……</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:8297",
+      "kind": "dialogue",
+      "source": "<color=0>伊綱君専用となっている</color><row/><color=0>キューブ型のパソコンだ。</color><ctrl=2E/>",
+      "target": "<color=0>这是一台伊纲专用的</color><row/><color=0>方形小电脑。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:8422",
+      "kind": "dialogue",
+      "source": "<color=0>１５インチの液晶モニターだ。</color><ctrl=2E/>",
+      "target": "<color=0>这是一台１５英寸的液晶显示器。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:8511",
+      "kind": "dialogue",
+      "source": "<color=0>この観葉植物は…ヤシかな？</color><ctrl=2E/>",
+      "target": "<color=0>这盆观叶植物……是棕榈吗？</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:8583",
+      "kind": "dialogue",
+      "source": "<color=0>それはヤシ科カマエドレア属の</color><row/><color=0>メキシコケンチャですよ。</color><ctrl=2E/>",
+      "target": "<color=0>“那是棕榈科玲珑椰子属的</color><row/><color=0>琉球椰子。”</color><ctrl=2E/>",
+      "notes": "植物译名核对：环境省 https://www.env.go.jp/garden/content/900467338.pdf 对应メキシコケンチャ为Chamaedorea cataractarum；高雄区农业改良场 https://www.kdais.gov.tw/ws.php?id=492&print=Y 对应琉球椰子，并采用玲珑椰子属。"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:8722",
+      "kind": "dialogue",
+      "source": "<color=0>うわっ…何を考えてるか</color><row/><color=0>見透かされてる…!?</color><ctrl=2E/>",
+      "target": "<color=0>哇……连我在想什么</color><row/><color=0>都被看穿了……！？</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:8831",
+      "kind": "dialogue",
+      "source": "<color=0>今、そっちの方を</color><row/><color=0>見てたじゃないですか。</color><ctrl=2E/>",
+      "target": "<color=0>“您刚才不是</color><row/><color=0>一直在看那边吗？</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:8933",
+      "kind": "dialogue",
+      "source": "<color=0>それより先に、</color><row/><color=0>事情を説明してください。</color><ctrl=2E/>",
+      "target": "<color=0>先把事情</color><row/><color=0>解释清楚吧。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:9037",
+      "kind": "dialogue",
+      "source": "<color=0>あ、はいはい…。</color><ctrl=2E/>",
+      "target": "<color=0>“啊，好好……”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:9093",
+      "kind": "dialogue",
+      "source": "<color=0>もう忘れたんですか？</color><row/><color=0>メキシコケンチャですよ。</color><ctrl=2E/>",
+      "target": "<color=0>“已经忘了吗？</color><row/><color=0>是琉球椰子。”</color><ctrl=2E/>",
+      "notes": "植物译名核对：环境省 https://www.env.go.jp/garden/content/900467338.pdf 对应メキシコケンチャ为Chamaedorea cataractarum；高雄区农业改良场 https://www.kdais.gov.tw/ws.php?id=492&print=Y 对应琉球椰子，并采用玲珑椰子属。"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:9210",
+      "kind": "dialogue",
+      "source": "<color=0>それよりも…。</color><ctrl=2E/>",
+      "target": "<color=0>“先不说这个……”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:9252",
+      "kind": "dialogue",
+      "source": "<color=0>あ、いや、ハイ…。</color><ctrl=2E/>",
+      "target": "<color=0>“啊，不是，好……”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:9305",
+      "kind": "dialogue",
+      "source": "<color=0>部屋に備え付けのクロゼットだ。</color><ctrl=2E/>",
+      "target": "<color=0>这是房间自带的衣柜。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:9385",
+      "kind": "dialogue",
+      "source": "<color=0>この中には仕事用の道具が</color><row/><color=0>色々と入っているらしい。</color><ctrl=2E/>",
+      "target": "<color=0>里面似乎装着</color><row/><color=0>各种工作用具。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:9515",
+      "kind": "dialogue",
+      "source": "<color=0>伊綱君が、このゲームにどういう</color><row/><color=0>反応をするのか少し楽しみだ。</color><ctrl=2E/>",
+      "target": "<color=0>伊纲看到这款游戏会有什么反应，</color><row/><color=0>让我有点期待。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:9679",
+      "kind": "dialogue",
+      "source": "<color=0>…あっ、生王さん。</color><row/><color=0>インストール終わりましたよ。</color><ctrl=2E/>",
+      "target": "<color=0>“……啊，生王先生，</color><row/><color=0>安装好了。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:9813",
+      "kind": "dialogue",
+      "source": "<color=0>おっと。</color><row/><color=0>じゃあ、起動してログインだ。</color><ctrl=2E/>",
+      "target": "<color=0>“哦。</color><row/><color=0>那就启动游戏登录吧。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:9910",
+      "kind": "dialogue",
+      "source": "<color=0>ユーザＩＤとパスワードは</color><row/><color=0>さっき作った、それを使って。</color><ctrl=2E/>",
+      "target": "<color=0>用户ＩＤ和密码，</color><row/><color=0>就用刚才创建的那组。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:10049",
+      "kind": "dialogue",
+      "source": "<color=0>ほいほい。</color><ctrl=2E/>",
+      "target": "<color=0>“好嘞。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:10110",
+      "kind": "dialogue",
+      "source": "<color=0>これもやっぱりオンラインの</color><row/><color=0>ＲＰＧなんですか？</color><ctrl=2E/>",
+      "target": "<color=0>“这也是在线</color><row/><color=0>ＲＰＧ吗？”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:10229",
+      "kind": "dialogue",
+      "source": "<color=0>それがちょっと違うらしいよ。</color><ctrl=2E/>",
+      "target": "<color=0>“这款好像有点不一样。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:10306",
+      "kind": "dialogue",
+      "source": "<color=0>あら、違うんですね。</color><ctrl=2E/>",
+      "target": "<color=0>“哦，原来不一样啊。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:10390",
+      "kind": "display",
+      "source": "<color=2>２００３年</color><color=0>　　癸生川探偵事務所</color>",
+      "target": "<color=2>２００３年</color><color=0>　　癸生川侦探事务所</color>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:10440",
+      "kind": "dialogue",
+      "source": "<color=0>やっぱ私よく分からないので</color><row/><color=0>生王さんやってみてくださいよ。</color><ctrl=2E/>",
+      "target": "<color=0>“我还是不太懂，</color><row/><color=0>生王先生，您来试试吧。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:10597",
+      "kind": "dialogue",
+      "source": "<color=0>私、横から見てますから。</color><ctrl=2E/>",
+      "target": "<color=0>我在旁边看着就好。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:10664",
+      "kind": "dialogue",
+      "source": "<color=0>あ、そう？</color><ctrl=2E/>",
+      "target": "<color=0>“啊，是吗？</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:10694",
+      "kind": "dialogue",
+      "source": "<color=0>じゃ、やってみようかな。</color><ctrl=2E/>",
+      "target": "<color=0>那我就来试试吧。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:10779",
+      "kind": "dialogue",
+      "source": "<color=0>操作は</color><color=2>「パソコンアイコン」</color><color=0>で</color><row/><color=0>お願いしますね。</color><ctrl=2E/>",
+      "target": "<color=0>“请用</color><color=2>‘电脑图标’</color><color=0>来</color><row/><color=0>操作哦。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:10898",
+      "kind": "dialogue",
+      "source": "<color=0>よし、</color><row/><color=0>それじゃ、やってみるか！</color><ctrl=2E/>",
+      "target": "<color=0>“好，</color><row/><color=0>那就开始吧！”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:11055",
+      "kind": "dialogue",
+      "source": "<color=2>セーブしました。</color>",
+      "target": "<color=2>已保存。</color>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:11113",
+      "kind": "dialogue",
+      "source": "<color=0>パソコンの操作をしたい時は</color><row/><color=2>「パソコンアイコン」</color><color=0>ですよ！</color><ctrl=2E/>",
+      "target": "<color=0>“想操作电脑时，就用</color><row/><color=2>‘电脑图标’</color><color=0>哦！”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:11258",
+      "kind": "dialogue",
+      "source": "<color=0>そういや、いつの間に</color><row/><color=0>僕が教わる立場に…!?</color><ctrl=2E/>",
+      "target": "<color=0>话说，什么时候</color><row/><color=0>变成我向她请教了……！？</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:11371",
+      "kind": "dialogue",
+      "source": "<color=7>まずはこの世界での</color><row/><color=7>あなたの分身を作ります。</color><ctrl=2E/>",
+      "target": "<color=7>首先，创建您在</color><row/><color=7>这个世界中的分身。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:11483",
+      "kind": "dialogue",
+      "source": "<color=7>名前と性別、容姿を</color><row/><color=7>決めてください。</color><ctrl=2E/>",
+      "target": "<color=7>请决定</color><row/><color=7>姓名、性别和外貌。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:11580",
+      "kind": "dialogue",
+      "source": "<color=0>えっと…まずはキャラクターを</color><row/><color=0>作成するみたいだな。</color><ctrl=2E/>",
+      "target": "<color=0>“呃……看来得先</color><row/><color=0>创建角色。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:11724",
+      "kind": "dialogue",
+      "source": "<color=0>名前決めるそうですよ。</color><row/><color=0>どうするんですか？</color><ctrl=2E/>",
+      "target": "<color=0>“要起名字呢。</color><row/><color=0>您打算叫什么？”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:11833",
+      "kind": "dialogue",
+      "source": "<color=0>まあ、別に</color><row/><color=0>何でもいいんだけど…。</color><ctrl=2E/>",
+      "target": "<color=0>“嗯，叫什么</color><row/><color=0>都无所谓啦……</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:11939",
+      "kind": "dialogue",
+      "source": "<color=0>とりあえず、そのまま</color><row/><color=2>「イクルミ」</color><color=0>にしておくよ。</color><ctrl=2E/>",
+      "target": "<color=0>总之，就直接用</color><row/><color=2>‘伊库鲁米’</color><color=0>吧。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:12061",
+      "kind": "dialogue",
+      "source": "<color=0>イ・ク・ル・ミ…っと…。</color><ctrl=2E/>",
+      "target": "<color=0>伊、库、鲁、米……”（译注：“生王”的日语读音是 Ikurumi，与账号“伊库鲁米”相同。）</color><ctrl=2E/>",
+      "notes": "按本作术语协调，账号イクルミ→伊库鲁米，逐字输入对应改为伊、库、鲁、米；与现实人物生王的姓读音关系保留在随后对白，不增加译注。",
+      "translation_notes": "用户确认补充读音译注。原文账号イクルミ；series/glossary.json生王正生条目确认姓读音イクルミ。译注置于逐字输入结束的角色引号之外，解释随后使用本名的吐槽；不改发言及等待点击边界。"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:12143",
+      "kind": "dialogue",
+      "source": "<color=0>生王さん、ゲームで自分の名前を</color><row/><color=0>使う人だったんですね…。</color><ctrl=2E/>",
+      "target": "<color=0>“生王先生，原来您玩游戏</color><row/><color=0>会用自己的名字啊……”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:12297",
+      "kind": "dialogue",
+      "source": "<color=0>いいじゃないか別に！</color><ctrl=2E/>",
+      "target": "<color=0>“有什么关系嘛！”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:12364",
+      "kind": "dialogue",
+      "source": "<color=0>しかもそのままの名前なんて</color><row/><color=0>芸がないですよ！</color><ctrl=2E/>",
+      "target": "<color=0>“而且名字原封不动，</color><row/><color=0>也太没创意了！”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:12478",
+      "kind": "dialogue",
+      "source": "<color=0>うええ、別にそこまで</color><row/><color=0>こだわらなくても…。</color><ctrl=2E/>",
+      "target": "<color=0>“呜哇，不用</color><row/><color=0>这么讲究吧……”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:12585",
+      "kind": "dialogue",
+      "source": "<color=0>ほら、それより性別だって。</color><row/><color=0>どうする？</color><ctrl=2E/>",
+      "target": "<color=0>“好了，接下来选性别。</color><row/><color=0>选哪个？”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:12694",
+      "kind": "dialogue",
+      "source": "<color=0>いや、男でいいですよ。</color><row/><color=0>生王さんが操作するんですし。</color><ctrl=2E/>",
+      "target": "<color=0>“男的就好了。</color><row/><color=0>反正是生王先生来操作。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:12846",
+      "kind": "dialogue",
+      "source": "<color=0>どうしても女の子を操作したい！</color><row/><color=0>って言うなら、いいですけど。</color><ctrl=2E/>",
+      "target": "<color=0>“如果您非要操控女孩子，</color><row/><color=0>那也行。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:13000",
+      "kind": "dialogue",
+      "source": "<color=0>いや、別にそこまでは…。</color><ctrl=2E/>",
+      "target": "<color=0>“没有，也没到那种程度……”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:13077",
+      "kind": "dialogue",
+      "source": "<color=0>自分の思うがままに、女の子を</color><row/><color=0>操りたいと思うならどうぞ！</color><ctrl=2E/>",
+      "target": "<color=0>“如果您想把女孩子</color><row/><color=0>随心所欲地操纵，那就请便！”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:13229",
+      "kind": "dialogue",
+      "source": "<color=0>別に男でいいってば！</color><ctrl=2E/>",
+      "target": "<color=0>“都说了选男的就好了！”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:13303",
+      "kind": "dialogue",
+      "source": "<color=0>性別は、男…。</color><row/><color=0>よし…。</color><ctrl=2E/>",
+      "target": "<color=0>“性别，男……</color><row/><color=0>好……</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:13365",
+      "kind": "dialogue",
+      "source": "<color=0>じゃ、フェイスタイプや体格も</color><row/><color=0>適当でいいかな。</color><ctrl=2E/>",
+      "target": "<color=0>那脸型和身材，</color><row/><color=0>也随便选一个吧。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:13484",
+      "kind": "dialogue",
+      "source": "<color=0>容姿ですか？</color><row/><color=0>はい、何でもいいですよ。</color><ctrl=2E/>",
+      "target": "<color=0>“外貌吗？</color><row/><color=0>嗯，都可以。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:13592",
+      "kind": "dialogue",
+      "source": "<color=0>じゃ、決定…と。</color><ctrl=2E/>",
+      "target": "<color=0>“那就确定……”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:13637",
+      "kind": "dialogue",
+      "source": "<color=0>次は職業を決めるみたいだね。</color><ctrl=2E/>",
+      "target": "<color=0>“接下来好像要选职业。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:13724",
+      "kind": "dialogue",
+      "source": "<color=0>何が選べるんですか？</color><ctrl=2E/>",
+      "target": "<color=0>“都能选什么？”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:13781",
+      "kind": "dialogue",
+      "source": "<color=0>えっと…確か説明書に</color><row/><color=0>書いてあったはず…。</color><ctrl=2E/>",
+      "target": "<color=0>“呃……我记得</color><row/><color=0>说明书上应该写了……”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:13921",
+      "kind": "dialogue",
+      "source": "<color=2>「見せる」</color><color=3>で、説明書を</color><row/><color=3>参照できるようになりました。</color><ctrl=2E/>",
+      "target": "<color=2>“出示”</color><color=3>指令现已可以</color><row/><color=3>查阅说明书。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:14102",
+      "kind": "display",
+      "source": "<color=2>２００３年</color><color=0>　　癸生川探偵事務所</color>",
+      "target": "<color=2>２００３年</color><color=0>　　癸生川侦探事务所</color>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:14245",
+      "kind": "dialogue",
+      "source": "<color=2>セーブしました。</color>",
+      "target": "<color=2>已保存。</color>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:14334",
+      "kind": "dialogue",
+      "source": "<color=0>キャラメイクって、それだけでも</color><row/><color=0>なんか楽しいですよね。</color><ctrl=2E/>",
+      "target": "<color=0>“光是创建角色，</color><row/><color=0>就觉得挺有意思的呢。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:14476",
+      "kind": "dialogue",
+      "source": "<color=0>この職業のラインナップって、</color><row/><color=0>どういう基準なんでしょうね？</color><ctrl=2E/>",
+      "target": "<color=0>“这些职业，</color><row/><color=0>是按什么标准选出来的呢？”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:14625",
+      "kind": "dialogue",
+      "source": "<color=0>これって…いま世にあるあらゆる</color><row/><color=0>推理モノの主人公に、</color><ctrl=2E/>",
+      "target": "<color=0>“我想……应该是为了让</color><row/><color=0>当下各种推理作品中的主角，</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:14767",
+      "kind": "dialogue",
+      "source": "<color=0>当てはめられるように</color><row/><color=0>なってるんじゃないかなあ？</color><ctrl=2E/>",
+      "target": "<color=0>都能找到</color><row/><color=0>对应的职业吧？</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:14889",
+      "kind": "dialogue",
+      "source": "<color=0>ほら、推理ドラマの主人公って</color><row/><color=0>刑事や探偵ばかりじゃないし。</color><ctrl=2E/>",
+      "target": "<color=0>你看，推理剧的主角</color><row/><color=0>又不全是刑警和侦探。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:15038",
+      "kind": "dialogue",
+      "source": "<color=0>ははあ、なるほど。</color><ctrl=2E/>",
+      "target": "<color=0>“啊，原来如此。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:15088",
+      "kind": "dialogue",
+      "source": "<color=0>自分の憧れる立場になって、</color><row/><color=0>事件に関われるわけですね。</color><ctrl=2E/>",
+      "target": "<color=0>“也就是能站在自己向往的立场，</color><row/><color=0>参与案件吧。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:15227",
+      "kind": "dialogue",
+      "source": "<color=0>フリーってのがミソだね。</color><ctrl=2E/>",
+      "target": "<color=0>“关键就在于自由职业者。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:15292",
+      "kind": "dialogue",
+      "source": "<color=0>拝み屋とか、変わったものは</color><row/><color=0>これにしとけってことだろうな。</color><ctrl=2E/>",
+      "target": "<color=0>比如驱邪师之类的特殊人物，</color><row/><color=0>大概就选这个。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:15445",
+      "kind": "dialogue",
+      "source": "<color=0>あと足りないのを挙げるなら</color><row/><color=0>弁護士や検事…とかか？</color><ctrl=2E/>",
+      "target": "<color=0>“要说还缺了什么，</color><row/><color=0>大概就是律师和检察官吧……？”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:15587",
+      "kind": "dialogue",
+      "source": "<color=0>ああ、そういうものも</color><row/><color=0>あるんですか。</color><ctrl=2E/>",
+      "target": "<color=0>“啊，还有</color><row/><color=0>那种类型的吗？”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:15681",
+      "kind": "dialogue",
+      "source": "<color=0>うん、あるある。</color><ctrl=2E/>",
+      "target": "<color=0>“有啊，当然有。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:15726",
+      "kind": "dialogue",
+      "source": "<color=0>でも、それだと</color><row/><color=0>ゲームが変わっちゃうか…。</color><ctrl=2E/>",
+      "target": "<color=0>“不过那样一来，</color><row/><color=0>游戏就变成另一个样了……”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:15857",
+      "kind": "dialogue",
+      "source": "<color=0>…で、職業をどれにするか</color><row/><color=0>決めましたか？</color><ctrl=2E/>",
+      "target": "<color=0>“……那么，</color><row/><color=0>您选好职业了吗？”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:15961",
+      "kind": "dialogue",
+      "source": "<color=0>うむむ…。</color><ctrl=2E/>",
+      "target": "<color=0>“唔……”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:15993",
+      "kind": "dialogue",
+      "source": "<color=0>決めたらパソコンを操作して</color><row/><color=0>次に進みましょう。</color><ctrl=2E/>",
+      "target": "<color=0>“选好了就操作电脑，</color><row/><color=0>继续往下吧。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:16122",
+      "kind": "dialogue",
+      "source": "<color=0>ええと…説明書を見たいときは</color><row/><color=2>「見せる」</color><color=0>コマンドだな…。</color><ctrl=2E/>",
+      "target": "<color=0>呃……想看说明书的时候，就用</color><row/><color=2>“出示”</color><color=0>指令……</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:16279",
+      "kind": "dialogue",
+      "source": "<color=0>うーん、どれがいいかな…。</color><ctrl=2E/>",
+      "target": "<color=0>嗯，选哪个好呢……</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:16363",
+      "kind": "dialogue",
+      "source": "<color=0>えっと…。</color><ctrl=2E/>",
+      "target": "<color=0>“呃……”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:16393",
+      "kind": "dialogue",
+      "source": "<color=0>あ、ほら、ここだね。</color><ctrl=2E/>",
+      "target": "<color=0>“啊，你看，就是这里。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:16448",
+      "kind": "dialogue",
+      "source": "<color=0>職業は次の</color><color=2>６種類</color><color=0>から</color><row/><color=0>選べます…って書いてある。</color><ctrl=2E/>",
+      "target": "<color=0>“职业可以从以下</color><color=2>六种</color><color=0>之中</color><row/><color=0>选择……上面这么写的。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:16572",
+      "kind": "dialogue",
+      "source": "<color=0>どれどれ？</color><ctrl=2E/>",
+      "target": "<color=0>“我看看？”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:16620",
+      "kind": "dialogue",
+      "source": "<color=6>【職業】</color><row/><color=0>最初は以下の６つの中から</color><row/><color=0>好きな職業を選ぶことが</color><row/><color=0>できます。</color><row/><color=2>・調査官　　　・学　生</color><row/><color=2>・刑　事　　　・記　者</color><row/><color=2>・探　偵　　　・フリー</color><ctrl=2E/>",
+      "target": "<color=6>【职业】</color><row/><color=0>初始时可以从以下</color><row/><color=0>六种职业中，</color><row/><color=0>选择喜欢的一种。</color><row/><color=2>・调查官　　　・学生</color><row/><color=2>・刑警　　　　・记者</color><row/><color=2>・侦探　　　　・自由职业者</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:17008",
+      "kind": "display",
+      "source": "<color=2>２００３年</color><color=0>　　癸生川探偵事務所</color>",
+      "target": "<color=2>２００３年</color><color=0>　　癸生川侦探事务所</color>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:17057",
+      "kind": "dialogue",
+      "source": "<color=0>調査官に、刑事に、探偵…？</color><ctrl=2E/>",
+      "target": "<color=0>“调查官、刑警、侦探……？”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:17140",
+      "kind": "dialogue",
+      "source": "<color=0>…ははあ、なるほど。</color><row/><color=0>そういうゲームだったんですね。</color><ctrl=2E/>",
+      "target": "<color=0>“……啊，原来如此。</color><row/><color=0>原来是这种游戏啊。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:17284",
+      "kind": "dialogue",
+      "source": "<color=0>さすがにこの職業を見たら</color><row/><color=0>どんなゲームか分かったかな？</color><ctrl=2E/>",
+      "target": "<color=0>“看到这些职业，</color><row/><color=0>总该明白是什么游戏了吧？”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:17423",
+      "kind": "dialogue",
+      "source": "<color=0>ええ、分かっちゃいましたよ。</color><ctrl=2E/>",
+      "target": "<color=0>“嗯，我明白了。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:17498",
+      "kind": "dialogue",
+      "source": "<color=0>これ、もしかして</color><row/><color=2>推理ゲーム</color><color=0>ですか？</color><ctrl=2E/>",
+      "target": "<color=0>“这难道是</color><row/><color=2>推理游戏</color><color=0>吗？”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:17592",
+      "kind": "dialogue",
+      "source": "<color=0>そうそう、その通り！</color><ctrl=2E/>",
+      "target": "<color=0>“没错，正是！”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:17647",
+      "kind": "dialogue",
+      "source": "<color=0>これ、世界初の</color><color=2>オンライン推理</color><row/><color=2>アドベンチャーゲーム</color><color=0>だって。</color><ctrl=2E/>",
+      "target": "<color=0>“听说这是世界首款</color><color=2>在线推理</color><row/><color=2>冒险游戏</color><color=0>。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:17794",
+      "kind": "dialogue",
+      "source": "<color=0>他のプレイヤと力を合わせて</color><row/><color=0>事件を解決するだけじゃなく…</color><ctrl=2E/>",
+      "target": "<color=0>不仅能和其他玩家齐心协力，</color><row/><color=0>一起解决案件……</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:17936",
+      "kind": "dialogue",
+      "source": "<color=0>自分が犯人になって完全犯罪を</color><row/><color=0>目論むこともできるらしいよ。</color><ctrl=2E/>",
+      "target": "<color=0>好像还能自己当犯人，</color><row/><color=0>谋划一场完全犯罪。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:18093",
+      "kind": "dialogue",
+      "source": "<color=0>へぇー。犯人になって</color><row/><color=0>推理勝負もできるんですか。</color><ctrl=2E/>",
+      "target": "<color=0>“哇，还能扮演犯人，</color><row/><color=0>与人较量推理能力啊。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:18215",
+      "kind": "dialogue",
+      "source": "<color=0>ちょっと面白そうですね。</color><ctrl=2E/>",
+      "target": "<color=0>听起来挺有趣的。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:18282",
+      "kind": "dialogue",
+      "source": "<color=0>ここで選ぶ職業によって、自分が</color><row/><color=0>何ができるのか決まるわけだ。</color><ctrl=2E/>",
+      "target": "<color=0>“在这里选择的职业，</color><row/><color=0>就决定了你能做什么。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:18434",
+      "kind": "dialogue",
+      "source": "<color=0>…さて、どれにしようか？</color><ctrl=2E/>",
+      "target": "<color=0>“……那么，选哪个好呢？”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:18501",
+      "kind": "dialogue",
+      "source": "<color=0>私はどれでもいいですよ。</color><ctrl=2E/>",
+      "target": "<color=0>“我哪个都可以。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:18566",
+      "kind": "dialogue",
+      "source": "<color=0>生王さん、</color><row/><color=0>好きなのを選んでください。</color><ctrl=2E/>",
+      "target": "<color=0>“生王先生，</color><row/><color=0>请选您喜欢的吧。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:18675",
+      "kind": "dialogue",
+      "source": "<color=0>うーん…もう少し説明書を</color><row/><color=0>詳しく読んでみるか。</color><ctrl=2E/>",
+      "target": "<color=0>“嗯……还是再仔细</color><row/><color=0>读读说明书吧。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:18858",
+      "kind": "display",
+      "source": "<color=2>２００３年</color><color=0>　　癸生川探偵事務所</color>",
+      "target": "<color=2>２００３年</color><color=0>　　癸生川侦探事务所</color>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:18921:arg1",
+      "kind": "menu_prompt",
+      "source": "職業について",
+      "target": "关于职业"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:18938:arg0",
+      "kind": "choice",
+      "source": "調査官の詳細",
+      "target": "调查官详情"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:18954:arg0",
+      "kind": "choice",
+      "source": "刑事の詳細",
+      "target": "刑警详情"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:18968:arg0",
+      "kind": "choice",
+      "source": "探偵の詳細",
+      "target": "侦探详情"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:18982:arg0",
+      "kind": "choice",
+      "source": "学生の詳細",
+      "target": "学生详情"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:18996:arg0",
+      "kind": "choice",
+      "source": "記者の詳細",
+      "target": "记者详情"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:19010:arg0",
+      "kind": "choice",
+      "source": "フリーの詳細",
+      "target": "自由职业详情"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:19032",
+      "kind": "dialogue",
+      "source": "<color=6>【調査官】</color><row/><color=0>調査、分析を得意とする調査官は</color><row/><color=0>事件の現場検証において、その</color><row/><color=0>能力をいかんなく発揮する。</color><row/><color=2>「検死」「鑑識」「科学調査」</color><row/><color=0>のスキルを使うことができる。</color><row/><color=0>ただし戦闘能力は最弱。</color><ctrl=2E/>",
+      "target": "<color=6>【调查官】</color><row/><color=0>擅长调查与分析的调查官，</color><row/><color=0>能在案件现场勘查中</color><row/><color=0>充分发挥其能力。</color><row/><color=2>“验尸”“鉴证”“科学调查”</color><row/><color=0>等技能均可使用。</color><row/><color=0>但战斗能力最弱。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:19489",
+      "kind": "dialogue",
+      "source": "<color=6>【刑　事】</color><row/><color=0>組織力が大きな強みである刑事は</color><row/><color=0>唯一犯人を</color><color=2>「逮捕」</color><color=0>することが</color><row/><color=0>できる職業である。</color><row/><color=0>また</color><color=2>「応援要請」</color><color=0>することで</color><row/><color=0>捜査網を広げることもできる。</color><row/><color=0>戦闘力は高く、</color><color=2>拳銃</color><color=0>も扱える。</color><ctrl=2E/>",
+      "target": "<color=6>【刑警】</color><row/><color=0>刑警以组织力量为最大优势，</color><row/><color=0>是唯一能</color><color=2>“逮捕”</color><color=0>犯人的</color><row/><color=0>职业。</color><row/><color=0>还可通过</color><color=2>“请求支援”</color><color=0>，</color><row/><color=0>扩大搜查网。</color><row/><color=0>战斗力高，也能使用</color><color=2>手枪</color><color=0>。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:19936",
+      "kind": "dialogue",
+      "source": "<color=6>【探　偵】</color><row/><color=0>諜報工作のエキスパートである</color><row/><color=0>探偵は、</color><color=2>「尾行」「潜入」</color><color=0>などの</color><row/><color=0>隠密調査のほか、</color><color=2>「罠」「細工」</color><row/><color=0>といった小道具も扱える。</color><row/><color=0>また、</color><color=2>「推理」</color><color=0>によって解決の</color><row/><color=0>糸口をつかめることもある。</color><ctrl=2E/>",
+      "target": "<color=6>【侦探】</color><row/><color=0>侦探是情报活动专家，</color><row/><color=0>除了</color><color=2>“跟踪”“潜入”</color><color=0>等</color><row/><color=0>秘密调查手段，也能使用</color><color=2>“陷阱”“机关”</color><row/><color=0>等小道具。</color><row/><color=0>此外，还可能通过</color><color=2>“推理”</color><color=0>，找到</color><row/><color=0>解决案件的突破口。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:20403",
+      "kind": "dialogue",
+      "source": "<color=6>【学　生】</color><row/><color=0>対外的な能力に弱い学生だが、</color><row/><color=2>「文献参照」「知識」「計算」</color><row/><color=0>といった理論研究、調査に強い。</color><row/><color=0>また鍛え方次第では、文武共に</color><row/><color=0>他の職業とは比較にならない程の</color><row/><color=2>成長</color><color=0>の可能性を秘める。</color><ctrl=2E/>",
+      "target": "<color=6>【学生】</color><row/><color=0>学生虽不擅长对外行动，</color><row/><color=2>“查阅文献”“知识”“计算”</color><row/><color=0>等理论研究和调查却很拿手。</color><row/><color=0>此外，视培养方式而定，</color><row/><color=0>无论文武，都蕴藏着远超其他职业的</color><row/><color=2>成长</color><color=0>潜力。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:20870",
+      "kind": "dialogue",
+      "source": "<color=6>【記　者】</color><row/><color=2>関連情報の収集</color><color=0>能力に加えて、</color><row/><color=2>「写真」「記録」</color><color=0>といった、</color><row/><color=0>人に情報を伝えるためのスキルに</color><row/><color=0>優れている職業。</color><row/><color=0>他プレイヤとの</color><color=2>「情報交換」</color><color=0>は</color><row/><color=0>記者でなければ行えない。</color><ctrl=2E/>",
+      "target": "<color=6>【记者】</color><row/><color=2>收集相关信息</color><color=0>之外，记者还擅长</color><row/><color=2>“摄影”“记录”</color><color=0>等</color><row/><color=0>向他人传递信息的</color><row/><color=0>技能。</color><row/><color=0>与其他玩家进行</color><color=2>“情报交换”</color><color=0>，</color><row/><color=0>是记者专有的能力。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:21302",
+      "kind": "dialogue",
+      "source": "<color=6>【フリー】</color><row/><color=0>どこにも属さず、何者にも</color><row/><color=0>縛られない気ままな職業。</color><row/><color=0>その能力は未知数で、いつ</color><row/><color=0>いかなるスキルに目覚めるか</color><row/><color=0>まったくの</color><color=2>不明</color><color=0>、という</color><row/><color=0>不安定さと可能性を持つ。</color><ctrl=2E/>",
+      "target": "<color=6>【自由职业者】</color><row/><color=0>不属于任何组织，</color><row/><color=0>不受任何人束缚的自在职业。</color><row/><color=0>能力是未知数，</color><row/><color=0>何时会觉醒何种技能，</color><row/><color=0>完全</color><color=2>不明</color><color=0>，</color><row/><color=0>兼具不稳定性与无限可能。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:21719",
+      "kind": "dialogue",
+      "source": "<color=0>生王さん、職業、何があるのか</color><row/><color=0>まだ分かってませんよ…？</color><ctrl=2E/>",
+      "target": "<color=0>“生王先生，我们还不知道</color><row/><color=0>都有哪些职业呢……？”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:21871",
+      "kind": "dialogue",
+      "source": "<color=0>あ、職業をどれにするか</color><row/><color=0>もう決めましたか？</color><ctrl=2E/>",
+      "target": "<color=0>“啊，您已经</color><row/><color=0>选好职业了吗？”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:21981:arg0",
+      "kind": "choice",
+      "source": "バッチリ決めたぜ",
+      "target": "早就选好了"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:22001:arg0",
+      "kind": "choice",
+      "source": "まだ決めてなかった…",
+      "target": "还没选好……"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:22027",
+      "kind": "dialogue",
+      "source": "<color=0>うっ、まだ決めてなかった…。</color><ctrl=2E/>",
+      "target": "<color=0>“呜，还没选好……”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:22104",
+      "kind": "dialogue",
+      "source": "<color=0>ちゃんと説明書で、詳細を</color><row/><color=0>見て考えた方がいいですよ。</color><ctrl=2E/>",
+      "target": "<color=0>“还是好好读读说明书的</color><row/><color=0>详细介绍，再考虑比较好哦。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:22253",
+      "kind": "dialogue",
+      "source": "<color=0>うん、決めた！</color><ctrl=2E/>",
+      "target": "<color=0>“嗯，选好了！”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:22296:arg0",
+      "kind": "choice",
+      "source": "「調査官」にする",
+      "target": "选择“调查官”"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:22316:arg0",
+      "kind": "choice",
+      "source": "「刑事」にする",
+      "target": "选择“刑警”"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:22334:arg0",
+      "kind": "choice",
+      "source": "「探偵」にする",
+      "target": "选择“侦探”"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:22352:arg0",
+      "kind": "choice",
+      "source": "「学生」にする",
+      "target": "选择“学生”"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:22370:arg0",
+      "kind": "choice",
+      "source": "「記者」にする",
+      "target": "选择“记者”"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:22388:arg0",
+      "kind": "choice",
+      "source": "「フリー」にする",
+      "target": "选择“自由职业者”"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:22410",
+      "kind": "dialogue",
+      "source": "<color=0>現場検証とか科学調査って</color><row/><color=0>便利だし、</color><color=2>調査官</color><color=0>にしてみるよ。</color><ctrl=2E/>",
+      "target": "<color=0>“现场勘查和科学调查</color><row/><color=0>都很方便，就选</color><color=2>调查官</color><color=0>试试吧。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:22567",
+      "kind": "dialogue",
+      "source": "<color=0>お、いいんじゃないですか。</color><ctrl=2E/>",
+      "target": "<color=0>“哦，挺好的呀。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:22637",
+      "kind": "dialogue",
+      "source": "<color=0>実際の捜査でも、かなり</color><row/><color=0>頼りになる存在ですしね。</color><ctrl=2E/>",
+      "target": "<color=0>“在实际搜查中，</color><row/><color=0>也是相当可靠的存在呢。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:22770",
+      "kind": "dialogue",
+      "source": "<color=0>やっぱり推理物の醍醐味と言えば</color><row/><color=2>刑事</color><color=0>でしょう、刑事！</color><ctrl=2E/>",
+      "target": "<color=0>“要说推理作品的精髓，当然是</color><row/><color=2>刑警</color><color=0>啊，刑警！”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:22927",
+      "kind": "dialogue",
+      "source": "<color=0>良かったですね、刑事だと</color><row/><color=0>銃が撃てるみたいですよ。</color><ctrl=2E/>",
+      "target": "<color=0>“太好了呢，选刑警的话，</color><row/><color=0>好像能开枪哦。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:23056",
+      "kind": "dialogue",
+      "source": "<color=0>いやいやいや、別にそんな</color><row/><color=0>野蛮な理由じゃないってば！</color><ctrl=2E/>",
+      "target": "<color=0>“不不不，</color><row/><color=0>才不是因为这么野蛮的理由！”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:23203",
+      "kind": "dialogue",
+      "source": "<color=0>ふふっ。</color><ctrl=2E/>",
+      "target": "<color=0>“呵呵。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:23239",
+      "kind": "dialogue",
+      "source": "<color=0>やっぱりこの中だと、</color><color=2>探偵</color><color=0>を</color><row/><color=0>ひいき目に見ちゃうなあ。</color><ctrl=2E/>",
+      "target": "<color=0>“这里面，我果然还是对</color><color=2>侦探</color><color=0>这个职业</color><row/><color=0>格外偏爱啊。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:23386",
+      "kind": "dialogue",
+      "source": "<color=0>おっ、探偵イクルミですね！</color><ctrl=2E/>",
+      "target": "<color=0>“哦，侦探伊库鲁米！”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:23469",
+      "kind": "dialogue",
+      "source": "<color=0>ようやく生王さんも</color><row/><color=0>探偵としての自覚が…。</color><ctrl=2E/>",
+      "target": "<color=0>“生王先生终于也</color><row/><color=0>有了身为侦探的自觉……”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:23588",
+      "kind": "dialogue",
+      "source": "<color=0>いやいやいや！</color><row/><color=0>何をおっしゃいますやら！</color><ctrl=2E/>",
+      "target": "<color=0>“不不不！</color><row/><color=0>你在说什么呀！”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:23690",
+      "kind": "dialogue",
+      "source": "<color=0>僕は別に、そこら辺にいる</color><row/><color=0>ゲームシナリオ書きだから！</color><ctrl=2E/>",
+      "target": "<color=0>“我不过是个</color><row/><color=0>普普通通的游戏编剧而已！”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:23837",
+      "kind": "dialogue",
+      "source": "<color=0>ふふ。</color><ctrl=2E/>",
+      "target": "<color=0>“呵呵。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:23868",
+      "kind": "dialogue",
+      "source": "<color=2>学生</color><color=0>ってのが、なんだか</color><row/><color=0>意外で面白そうだ。</color><ctrl=2E/>",
+      "target": "<color=2>“学生</color><color=0>这个职业有点</color><row/><color=0>出人意料，好像挺有意思的。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:23987",
+      "kind": "dialogue",
+      "source": "<color=0>生王さん、それほどに学生時代に</color><row/><color=0>未練が残ってるんですね…。</color><ctrl=2E/>",
+      "target": "<color=0>“生王先生，原来您对学生时代</color><row/><color=0>还有这么深的留恋啊……”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:24146",
+      "kind": "dialogue",
+      "source": "<color=0>いやいやいや、なんで</color><row/><color=0>そうなるのか分からない！</color><ctrl=2E/>",
+      "target": "<color=0>“不不不，我完全不明白</color><row/><color=0>你怎么会想到那里去！”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:24278",
+      "kind": "dialogue",
+      "source": "<color=0>ふふっ。</color><ctrl=2E/>",
+      "target": "<color=0>“呵呵。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:24314",
+      "kind": "dialogue",
+      "source": "<color=0>今の自分にいちばん近いのは、</color><row/><color=0>この</color><color=2>記者</color><color=0>になるのかな。</color><ctrl=2E/>",
+      "target": "<color=0>“跟现在的我最接近的，</color><row/><color=0>应该就是这个</color><color=2>记者</color><color=0>吧。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:24464",
+      "kind": "dialogue",
+      "source": "<color=0>そこまで分身にしなくても</color><row/><color=0>いいんじゃないですか？</color><ctrl=2E/>",
+      "target": "<color=0>“没必要连分身</color><row/><color=0>都跟自己一模一样吧？”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:24594",
+      "kind": "dialogue",
+      "source": "<color=0>いやいや、こういうのは</color><row/><color=0>気分が大事だし。</color><ctrl=2E/>",
+      "target": "<color=0>“不不，这种事情，</color><row/><color=0>感觉很重要嘛。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:24698",
+      "kind": "dialogue",
+      "source": "<color=0>ふーん…。</color><ctrl=2E/>",
+      "target": "<color=0>“哦……”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:24739",
+      "kind": "dialogue",
+      "source": "<color=0>僕たちを縛るものなんてない！</color><row/><color=0>そうさ、僕らは自由なのさ！</color><ctrl=2E/>",
+      "target": "<color=0>“没有什么能束缚我们！</color><row/><color=0>没错，我们是自由的！”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:24891",
+      "kind": "dialogue",
+      "source": "<color=0>…なんですか？　それ。</color><ctrl=2E/>",
+      "target": "<color=0>“……您在说什么？”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:24953",
+      "kind": "dialogue",
+      "source": "<color=0>いや、特に意味はないです…。</color><ctrl=2E/>",
+      "target": "<color=0>“没什么特别的意思……”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:25043",
+      "kind": "dialogue",
+      "source": "<color=0>別にアタマの中まで</color><row/><color=0>自由にしなくていいんですよ。</color><ctrl=2E/>",
+      "target": "<color=0>“也不用连脑子里</color><row/><color=0>都那么自由吧。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:25175",
+      "kind": "dialogue",
+      "source": "<color=0>うう…。</color><row/><color=0>うまいこと言われた…。</color><ctrl=2E/>",
+      "target": "<color=0>“呜……</color><row/><color=0>这话说得真巧……”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:25269",
+      "kind": "dialogue",
+      "source": "<color=0>そうですか…!?</color><ctrl=2E/>",
+      "target": "<color=0>“是吗……！？”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:25327",
+      "kind": "dialogue",
+      "source": "<color=0>…と、ともかく、これで</color><row/><color=0>キャラクタは完成、っと。</color><ctrl=2E/>",
+      "target": "<color=0>“……总、总之，</color><row/><color=0>这样角色就建好了。”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:25477",
+      "kind": "dialogue",
+      "source": "<color=0>以上で設定は完了です。</color><row/><color=0>次の設定で、キャラクタを</color><row/><color=0>作成しました。</color><ctrl=2E/>",
+      "target": "<color=0>设置完毕。</color><row/><color=0>已按以下设置</color><row/><color=0>创建角色。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:25645",
+      "kind": "dialogue",
+      "source": "<color=6>名前：</color><color=0>イクルミ</color><row/><color=6>性別：</color><color=0>男　　</color><color=6>容姿：</color><color=0>タイプＡ</color><row/><color=6>職業：</color><color=0>調査官</color><ctrl=2E/>",
+      "target": "<color=6>姓名：</color><color=0>伊库鲁米</color><row/><color=6>性别：</color><color=0>男　　</color><color=6>外貌：</color><color=0>Ａ型</color><row/><color=6>职业：</color><color=0>调查官</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:25793",
+      "kind": "dialogue",
+      "source": "<color=6>名前：</color><color=0>イクルミ</color><row/><color=6>性別：</color><color=0>男　　</color><color=6>容姿：</color><color=0>タイプＡ</color><row/><color=6>職業：</color><color=0>刑事</color><ctrl=2E/>",
+      "target": "<color=6>姓名：</color><color=0>伊库鲁米</color><row/><color=6>性别：</color><color=0>男　　</color><color=6>外貌：</color><color=0>Ａ型</color><row/><color=6>职业：</color><color=0>刑警</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:25936",
+      "kind": "dialogue",
+      "source": "<color=6>名前：</color><color=0>イクルミ</color><row/><color=6>性別：</color><color=0>男　　</color><color=6>容姿：</color><color=0>タイプＡ</color><row/><color=6>職業：</color><color=0>探偵</color><ctrl=2E/>",
+      "target": "<color=6>姓名：</color><color=0>伊库鲁米</color><row/><color=6>性别：</color><color=0>男　　</color><color=6>外貌：</color><color=0>Ａ型</color><row/><color=6>职业：</color><color=0>侦探</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:26079",
+      "kind": "dialogue",
+      "source": "<color=6>名前：</color><color=0>イクルミ</color><row/><color=6>性別：</color><color=0>男　　</color><color=6>容姿：</color><color=0>タイプＡ</color><row/><color=6>職業：</color><color=0>学生</color><ctrl=2E/>",
+      "target": "<color=6>姓名：</color><color=0>伊库鲁米</color><row/><color=6>性别：</color><color=0>男　　</color><color=6>外貌：</color><color=0>Ａ型</color><row/><color=6>职业：</color><color=0>学生</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:26222",
+      "kind": "dialogue",
+      "source": "<color=6>名前：</color><color=0>イクルミ</color><row/><color=6>性別：</color><color=0>男　　</color><color=6>容姿：</color><color=0>タイプＡ</color><row/><color=6>職業：</color><color=0>記者</color><ctrl=2E/>",
+      "target": "<color=6>姓名：</color><color=0>伊库鲁米</color><row/><color=6>性别：</color><color=0>男　　</color><color=6>外貌：</color><color=0>Ａ型</color><row/><color=6>职业：</color><color=0>记者</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:26365",
+      "kind": "dialogue",
+      "source": "<color=6>名前：</color><color=0>イクルミ</color><row/><color=6>性別：</color><color=0>男　　</color><color=6>容姿：</color><color=0>タイプＡ</color><row/><color=6>職業：</color><color=0>フリー</color><ctrl=2E/>",
+      "target": "<color=6>姓名：</color><color=0>伊库鲁米</color><row/><color=6>性别：</color><color=0>男　　</color><color=6>外貌：</color><color=0>Ａ型</color><row/><color=6>职业：</color><color=0>自由职业者</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:26504",
+      "kind": "dialogue",
+      "source": "<color=0>それでは、謎と緊張に満ちた</color><row/><color=0>ミスティ・オンライン世界を</color><row/><color=0>存分にお楽しみください！</color><ctrl=2E/>",
+      "target": "<color=0>接下来，请尽情享受</color><row/><color=0>充满谜团与紧张感的</color><row/><color=0>《迷雾在线》世界！</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch3_1.dat/c1-02:26710",
+      "kind": "dialogue",
+      "source": "<color=0>お、いよいよ始まりますね。</color><ctrl=2E/>",
+      "target": "<color=0>“哦，终于要开始了呢。”</color><ctrl=2E/>"
+    }
+  ],
+  "term_notes": {
+    "調査官": "调查官",
+    "刑事": "刑警",
+    "探偵": "侦探",
+    "学生": "学生",
+    "記者": "记者",
+    "フリー": "自由职业者",
+    "検死": "验尸",
+    "鑑識": "鉴证",
+    "科学調査": "科学调查",
+    "逮捕": "逮捕",
+    "応援要請": "请求支援",
+    "尾行": "跟踪",
+    "潜入": "潜入",
+    "罠": "陷阱",
+    "細工": "机关",
+    "推理": "推理",
+    "文献参照": "查阅文献",
+    "知識": "知识",
+    "計算": "计算",
+    "写真": "摄影",
+    "記録": "记录",
+    "情報交換": "情报交换",
+    "メキシコケンチャ": "琉球椰子",
+    "ヤシ科": "棕榈科",
+    "カマエドレア属": "玲珑椰子属"
+  }
+}

@@ -2,6 +2,7 @@
 using System;
 using System.IO;
 using System.Reflection;
+using System.Collections.Generic;
 using UnityEngine;
 
 namespace Kibukawa.ImageReplacements
@@ -10,17 +11,21 @@ namespace Kibukawa.ImageReplacements
     // Only a separately owned Socotra image is edited, never the archive image.
     public sealed class TextureReplacement
     {
-        private int Width, Height;
+        private int Width, Height, SourceWidth, SourceHeight;
 
         private byte[] overlay;
         private object source, replacement;
         private Action<string> warning;
         private bool failed;
+        private bool retainInstances;
+        private readonly List<KeyValuePair<object,object>> instances=new List<KeyValuePair<object,object>>();
 
-        public void Initialize(string payload, Action<string> warningLogger)
+        public void Initialize(string payload, Action<string> warningLogger, int sourceWidth=0, int sourceHeight=0, bool retainSourceInstances=false)
         {
             Reset();
+            retainInstances=retainSourceInstances;
             warning = warningLogger;
+            SourceWidth=sourceWidth;SourceHeight=sourceHeight;
 
             try
             {
@@ -43,6 +48,11 @@ namespace Kibukawa.ImageReplacements
             if (original == null || failed || overlay == null) return original;
             try
             {
+                if(retainInstances) for(int i=instances.Count-1;i>=0;i--) {
+                    var entry=instances[i];
+                    if(!Alive(entry.Value)) { instances.RemoveAt(i);continue; }
+                    if(System.Object.ReferenceEquals(original,entry.Key))return entry.Value;
+                }
                 if (System.Object.ReferenceEquals(original, source) && Alive(replacement)) return replacement;
                 Type type = original.GetType();
                 PropertyInfo textureProperty = type.GetProperty("Texture");
@@ -50,14 +60,17 @@ namespace Kibukawa.ImageReplacements
                 if (textureProperty == null || !textureProperty.CanWrite || disposableProperty == null || !disposableProperty.CanWrite)
                     throw new MissingMemberException(type.FullName, "Writable Texture / IsDisposable");
                 Texture2D texture = textureProperty == null ? null : textureProperty.GetValue(original, null) as Texture2D;
-                if (texture == null || texture.width != Width || texture.height != Height) return original;
+                if (texture == null || texture.width != (SourceWidth>0?SourceWidth:Width) || texture.height != (SourceHeight>0?SourceHeight:Height)) return original;
                 // UniGif makes the original texture unreadable after uploading it.
                 // The build includes all pixels, so no original GPU texture readback is needed.
                 Color32[] pixels = Compose(new Color32[Width * Height], overlay, Width, Height);
                 MethodInfo create = type.GetMethod("CreateImage", BindingFlags.Public | BindingFlags.Static,
                     null, new[] { typeof(int), typeof(int) }, null);
                 if (create == null) throw new MissingMethodException(type.FullName, "CreateImage");
-                Release();
+                // Notebook and scene can hold different loads of the same art.
+                // Keep each live source's replacement until its owner disposes
+                // it or the adapter shuts down; a new load is not a release.
+                if(!retainInstances)Release();
                 replacement = create.Invoke(null, new object[] { Width, Height });
                 // CreateImage's default Texture2D(w,h) allocates a mip chain.
                 // Apply(false,...) leaves those smaller levels unwritten (gray map).
@@ -71,6 +84,7 @@ namespace Kibukawa.ImageReplacements
                 target.filterMode = FilterMode.Point;
                 target.Apply(false, false);
                 source = original;
+                if(retainInstances)instances.Add(new KeyValuePair<object,object>(source,replacement));
                 return replacement;
             }
             catch (Exception error)
@@ -126,6 +140,14 @@ namespace Kibukawa.ImageReplacements
             object owned = replacement;
             replacement = null;
             source = null;
+            foreach(var entry in instances)
+                if(!System.Object.ReferenceEquals(entry.Value,owned))DisposeOwned(entry.Value);
+            instances.Clear();
+            DisposeOwned(owned);
+        }
+
+        private void DisposeOwned(object owned)
+        {
             if (!Alive(owned)) return;
             try
             {
