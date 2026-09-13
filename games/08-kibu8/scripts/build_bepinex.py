@@ -130,10 +130,10 @@ def main():
     runtime_dependency = dict(dependency, files=[name for name in dependency['files']
         if not name.endswith('.xml') and name != 'changelog.txt'])
     shared.stage_package(package, framework, runtime_dependency, payload, set(manifest['game_hashes']))
-    archive = release/'Kibu8_CHS_0.5.68.zip'
+    archive = release/'Kibu8_CHS_0.5.69.zip'
     shared.archive_package(package, archive)
     p.require(before == p.game_hashes(), 'Game changed during build')
-    report = dict(schema=1, version='0.5.68', output=release.relative_to(p.WORK).as_posix(), archive=archive.relative_to(p.WORK).as_posix(),
+    report = dict(schema=1, version='0.5.69', output=release.relative_to(p.WORK).as_posix(), archive=archive.relative_to(p.WORK).as_posix(),
         archive_sha256=p.sha(archive.read_bytes()), package_files={f.relative_to(package).as_posix():p.sha(f.read_bytes()) for f in package.rglob('*') if f.is_file()},
         runtime_pack=text_report, font=font_report, dependency=dependency, integration_test=integration.stdout.strip(), font_geometry_test=geometry.stdout.strip(),
         required_plugins=required_plugins, images=image_report, history_version='1.6.5', history_test=history_test.stdout.strip(),
