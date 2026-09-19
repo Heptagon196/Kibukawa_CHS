@@ -1,0 +1,18 @@
+{
+ "script": "c4_01",
+ "batch": "qa_revfix_c4_01.trans.json",
+ "verdict": "pass",
+ "basis": "independent review recommendations: fixrev2_c4.verify.json",
+ "offsets": [
+  443,
+  7594,
+  10026,
+  10423,
+  11166,
+  12350,
+  12805,
+  12894,
+  13311
+ ],
+ "issues": []
+}

@@ -1,0 +1,13 @@
+{
+ "script": "c4_01",
+ "batch": "qa_wofix_c4_01.trans.json",
+ "verdict": "pass",
+ "basis": "Chinese word-order review (work/qa_full/_word_order_round.md): 光杆「…吧？」落在已用句号封死的句子之后; 与上一行配套; 征询「好吗？」出现在被征询的内容之前; 与上一行配套",
+ "offsets": [
+  2245,
+  2263,
+  5043,
+  5069
+ ],
+ "issues": []
+}

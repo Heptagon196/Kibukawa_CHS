@@ -1,0 +1,11 @@
+{
+ "script": "c1_01",
+ "batch": "qa_wofix_c1_01.trans.json",
+ "verdict": "pass",
+ "basis": "Chinese word-order review (work/qa_full/_word_order_round.md): review: 施事留在本行，不跨点击; review: 施事回到上一行，色段随之收窄",
+ "offsets": [
+  9476,
+  9504
+ ],
+ "issues": []
+}

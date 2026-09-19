@@ -1,0 +1,11 @@
+{
+ "script": "c5_01",
+ "batch": "qa_wofix_c5_01.trans.json",
+ "verdict": "pass",
+ "basis": "Chinese word-order review (work/qa_full/_word_order_round.md): 体标记「了」吊在下一行行首; 与上一行配套",
+ "offsets": [
+  533,
+  561
+ ],
+ "issues": []
+}

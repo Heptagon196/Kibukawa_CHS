@@ -29,9 +29,11 @@ try {
     $hooks = @{
         'BeforeGame'          = @('System.Object', 'System.Boolean&')
         'AfterText'           = @('System.Object')
-        'AfterLine'           = @('System.Object')
+        'AfterBufferCleared'  = @('System.Object')
         'AfterLoad'           = @('System.Object')
         'AfterDrawnCharacter' = @('System.Object', 'System.Int32', 'System.Int32')
+        'BeforeCanvasInput'   = @('System.Object', 'System.Int32', 'System.Int32')
+        'BeforeUnityInput'    = @()
     }
     foreach ($name in $hooks.Keys) {
         $method = @($runtime.Methods | Where-Object { $_.Name -eq $name })
@@ -60,17 +62,32 @@ try {
     $gameMethod = @($canvas.Methods | Where-Object { $_.Name -eq 'Game' -and $_.Parameters.Count -eq 0 -and $_.ReturnType.FullName -eq 'System.Boolean' })
     if ($gameMethod.Count -ne 1) { Fail 'CanvasEx::Game() returning bool not found exactly once' }
     $evidence.Add('CanvasEx::Game() -> System.Boolean bound')
-    foreach ($name in @('BUNSYOU', 'KeyFlush')) {
+    foreach ($name in @('BUNSYOU', 'KeyFlush', 'ClearBunBuffer')) {
         $method = @($canvas.Methods | Where-Object { $_.Name -eq $name -and $_.Parameters.Count -eq 0 })
         if ($method.Count -ne 1) { Fail "CanvasEx::$name() not found exactly once" }
         $evidence.Add("CanvasEx::$name() bound")
     }
-    # The utterance terminators (buffer clears) and script loaders the history anchors on.
-    foreach ($name in @('BUNSYOU_PERIOD','BUNSYOU_ASTARISK')) {
-        $method = @($canvas.Methods | Where-Object { $_.Name -eq $name -and $_.Parameters.Count -eq 0 })
-        if ($method.Count -ne 1) { Fail "CanvasEx::$name() not found exactly once" }
-        $evidence.Add("CanvasEx::$name() bound")
+    # PERIOD and ASTERISK are multi-frame state machines. The history boundary must
+    # be their one-shot ClearBunBuffer call, never either handler's postfix.
+    $clearCallers = @()
+    foreach ($method in $canvas.Methods | Where-Object { $_.HasBody }) {
+        $calls = @($method.Body.Instructions | Where-Object {
+            ($_.OpCode.Code -eq 'Call' -or $_.OpCode.Code -eq 'Callvirt') -and
+            $_.Operand -ne $null -and $_.Operand.Name -eq 'ClearBunBuffer'
+        })
+        for ($i = 0; $i -lt $calls.Count; $i++) { $clearCallers += $method.Name }
     }
+    $expectedClearCallers = @('BUNSYOU_ASTARISK','BUNSYOU_ASTARISK','BUNSYOU_PERIOD')
+    if ((@($clearCallers | Sort-Object) -join ',') -ne (@($expectedClearCallers | Sort-Object) -join ',')) {
+        Fail "Unexpected ClearBunBuffer callers: $($clearCallers -join ',')"
+    }
+    $init = @($runtime.Methods | Where-Object { $_.Name -eq 'InitializeHistory' })[0]
+    $hookStrings = @($init.Body.Instructions | Where-Object { $_.OpCode.Code -eq 'Ldstr' } | ForEach-Object { [string]$_.Operand })
+    if ($hookStrings -notcontains 'ClearBunBuffer') { Fail 'History runtime does not patch ClearBunBuffer' }
+    if ($hookStrings -contains 'BUNSYOU_PERIOD' -or $hookStrings -contains 'BUNSYOU_ASTARISK') {
+        Fail 'History runtime still patches a multi-frame text terminator'
+    }
+    $evidence.Add('ClearBunBuffer is the exclusive one-shot history boundary')
     foreach ($name in @('LoadScenario','LoadScenarioEx')) {
         $method = @($canvas.Methods | Where-Object { $_.Name -eq $name -and $_.Parameters.Count -eq 1 -and $_.Parameters[0].ParameterType.FullName -eq 'System.String' })
         if ($method.Count -ne 1) { Fail "CanvasEx::$name(System.String) not found exactly once" }
@@ -80,6 +97,35 @@ try {
     if ($draw.Count -ne 1) { Fail 'CanvasEx::DrawAdvString(StGraphics,int,int,int,int) not found exactly once' }
     if ($draw[0].Parameters[1].ParameterType.FullName -ne 'System.Int32') { Fail 'DrawAdvString second parameter is not int' }
     $evidence.Add('CanvasEx::DrawAdvString(StGraphics,int,int,int,int) bound')
+
+    $stock = @($canvas.Methods | Where-Object { $_.Name -eq 'BunsyouStock' -and $_.Parameters.Count -eq 1 })[0]
+    $directBodyRgb = $false
+    for ($i = 0; $i -lt $stock.Body.Instructions.Count; $i++) {
+        $instruction = $stock.Body.Instructions[$i]
+        if ($instruction.OpCode.Code -ne 'Ldfld' -or $instruction.Operand.Name -ne 'Bun_iro') { continue }
+        $window = @($stock.Body.Instructions[$i..([Math]::Min($i + 12, $stock.Body.Instructions.Count - 1))])
+        $hasRgb = @($window | Where-Object { $_.Operand -ne $null -and $_.Operand.Name -eq 'NowMojiColor' }).Count -gt 0
+        $storesInt = @($window | Where-Object { $_.OpCode.Code -eq 'Stelem_I4' }).Count -gt 0
+        if ($hasRgb -and $storesInt) { $directBodyRgb = $true; break }
+    }
+    if (!$directBodyRgb) { Fail 'BunsyouStock no longer writes final NowMojiColor RGB directly into Bun_iro' }
+    $evidence.Add('Bun_iro stores final body RGB; Namae_color remains a palette index')
+
+    $command = @($canvas.Fields | Where-Object { $_.Name -eq 'command' -and $_.IsStatic -and $_.FieldType.FullName -eq 'System.String[]' })
+    if ($command.Count -ne 1) { Fail 'CanvasEx::command static string[] missing' }
+    $display = $game.MainModule.GetType('Socotra.UI.StDisplay')
+    if (!$display) { Fail 'Socotra.UI.StDisplay missing' }
+    foreach ($name in @('currentFrame','softKey1Label','keypadState')) {
+        if (@($display.Fields | Where-Object { $_.Name -eq $name }).Count -ne 1) { Fail "StDisplay::$name missing" }
+    }
+    $base = $canvas.BaseType.Resolve()
+    $processEvent = @($base.Methods | Where-Object {
+        $_.Name -eq 'ProcessEvent' -and $_.Parameters.Count -eq 2 -and
+        $_.Parameters[0].ParameterType.FullName -eq 'System.Int32' -and
+        $_.Parameters[1].ParameterType.FullName -eq 'System.Int32'
+    })
+    if ($processEvent.Count -ne 1) { Fail 'CanvasEx base ProcessEvent(Int32,Int32) missing' }
+    $evidence.Add('native SOFT1 event 21 fields and ProcessEvent route bound')
 
     if ($ReportPath) {
         $report = [ordered]@{ plugin_sha256=(Get-FileHash -LiteralPath $PluginDll -Algorithm SHA256).Hash.ToLowerInvariant()

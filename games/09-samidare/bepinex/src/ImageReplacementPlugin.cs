@@ -5,7 +5,7 @@ using Kibukawa.Engine.Gmode20050817;
 
 namespace Kibu9ZhCN.Images
 {
-    [BepInPlugin("heptagon.kibukawa9.imagereplacements.zhcn", "Kibukawa 9 Image Replacements", "1.0.0")]
+    [BepInPlugin("heptagon.kibukawa9.imagereplacements.zhcn", "Kibukawa 9 Image Replacements", "1.0.1")]
     [BepInProcess("kibu9.exe")]
     public sealed class ImageReplacementPlugin : NamedImageRuntime
     {
@@ -19,12 +19,14 @@ namespace Kibu9ZhCN.Images
         {
             TitleBackground.Initialize(folder, canvas, hooks, message => Logger.LogWarning(message));
             ShellCover.Initialize(folder);
+            HowToPlayPages.Initialize(folder, hooks);
         }
 
         protected override void DisposeArtwork()
         {
             TitleBackground.Dispose();
             ShellCover.Dispose();
+            HowToPlayPages.Dispose();
         }
 
         protected override void UpdateArtwork() { ShellCover.Update(); }

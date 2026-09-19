@@ -23,9 +23,15 @@
     { "script": "c0_00", "offset": 2164, "source": "調べる", "target": "调查" },
     { "script": "c0_00", "offset": 2201, "source": "中断する", "target": "中断" },
     { "script": "c0_00", "offset": 2293, "source": "…おじさん、誰？", "target": "…大叔，你是谁？",
-      "runs": ["…", "大叔，你是谁？"] },
+      "runs": ["…", "大叔", "，你是谁？"] },
+    { "script": "c0_00", "offset": 3087, "source": "うわあ伊綱君！", "target": "哇啊伊纲！",
+      "runs": ["哇啊", "伊纲", "！"] },
     { "script": "c0_00", "offset": 21644, "source": "セーブに失敗しました。", "target": "保存失败了。",
       "runs": ["保存", "失败", "了。"] },
+    { "script": "c3_01", "offset": 4243, "source": "螻川内忠雄の名前も", "target": "蝼川内忠雄的名字",
+      "runs": ["蝼川内忠雄", "的名字"] },
+    { "script": "define", "offset": 85, "source": "(涼二)", "target": "(凉二)" },
+    { "script": "define", "offset": 108, "source": "(伊綱)", "target": "(伊纲)" },
     { "script": "c5_01", "offset": 20, "source": "(螻川内)", "target": "(蝼川内)" }
   ]
 }

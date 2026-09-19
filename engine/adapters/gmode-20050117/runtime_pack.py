@@ -34,10 +34,12 @@ KIND_OF_OPCODE = {BUNSYOU: 'line', SENTAKUSI: 'choice', NAMAE_SETTEI: 'name'}
 # line. BUNSYOU_F7 / BUNSYOU_FA do not advance it, so they stay inside a line.
 LINE_TERMINATORS = ('BUNSYOU_SLASH', 'BUNSYOU_SEMI_COLON', 'BUNSYOU_PERIOD', 'BUNSYOU_ASTARISK')
 
-# The one in-line command that changes the colour of the characters after it.
-# CanvasEx::BunsyouStock fills Bun_iro per character, so BUNSYOU_IRO splits a display
-# line into colour runs: the emphasis it creates is part of the line, not decoration.
+# The in-line colour/ruby state commands. CanvasEx::BunsyouStock fills Bun_iro per
+# character. BUNSYOU_IRO starts an override; BUNSYOU_F7 first closes ruby, or, when
+# ruby is already closed, restores BaseMojiColor and ends the override.
 BUNSYOU_IRO = 245
+BUNSYOU_RUBI = 246
+BUNSYOU_F7 = 247
 
 # A recoloured line travels to the runtime as one string per colour run, joined by this
 # character. The pack format itself is unchanged — the shared TranslationPackReader hands
@@ -83,41 +85,54 @@ def scenario_lines(parsed):
     return lines
 
 
-def emphasis_runs(parsed):
-    """Colour runs of every display line whose text changes colour part-way through.
+def colour_lines(parsed):
+    """Return every display line with the effective colour of each text run.
 
-    ``BUNSYOU_IRO`` sets the colour that :meth:`CanvasEx.BunsyouStock` records for the
-    characters stocked after it, while ``BUNSYOU_RUBI``, ``BUNSYOU_F7``,
-    ``BUNSYOU_FADE`` and ``BUNSYOU_SPEED`` only subdivide the line and never change
-    the text. So the runs are delimited by ``BUNSYOU_IRO`` alone.
-
-    The opening run records no colour: the active colour was set by an earlier
-    command and is not restated here, so only the split points and the colours that
-    follow them are reported. Keyed on the offset that opens the line.
+    ``None`` means ``BaseMojiColor``. State is carried across line terminators because
+    the native VM carries it too; this is needed to audit lines whose colour begins or
+    ends outside the line itself. Empty state changes are folded away, since only the
+    colour active when ``BunsyouStock`` receives text can colour a character.
     """
-    runs = {}
+    lines = {}
     current = None
+    colour = None
+    colour_changed = False
+    ruby = False
     for command in parsed['commands']:
         opcode = command['opcode']
         if opcode == BUNSYOU:
             text = text_arguments(command)[0]['value']
             if current is None:
-                current = dict(offset=command['offset'], runs=[dict(colour=None, text=text)])
-            else:
+                current = dict(offset=command['offset'], runs=[])
+            if current['runs'] and current['runs'][-1]['colour'] == colour:
                 current['runs'][-1]['text'] += text
+            else:
+                current['runs'].append(dict(colour=colour, text=text))
         elif opcode == BUNSYOU_IRO:
-            if current is not None:
-                current['runs'].append(dict(colour=command['args'][0]['value'], text=''))
+            colour = command['args'][0]['value']
+            colour_changed = True
+        elif opcode == BUNSYOU_RUBI:
+            ruby = True
+        elif opcode == BUNSYOU_F7:
+            if ruby:
+                ruby = False
+            elif colour_changed:
+                colour = None
+                colour_changed = False
         elif current is not None and command['name'] in LINE_TERMINATORS:
-            if len(current['runs']) > 1:
-                runs[current['offset']] = current['runs']
+            lines[current['offset']] = current['runs']
             current = None
-    if current is not None and len(current['runs']) > 1:
-        runs[current['offset']] = current['runs']
-    for offset, line in runs.items():
-        if ''.join(run['text'] for run in line) == '':
+    if current is not None:
+        lines[current['offset']] = current['runs']
+    for offset, line in lines.items():
+        if not line or any(not run['text'] for run in line):
             raise ValueError('Colour run without text at %#x' % offset)
-    return runs
+    return lines
+
+
+def emphasis_runs(parsed):
+    """Colour runs of display lines whose effective colour changes within the line."""
+    return {offset: runs for offset, runs in colour_lines(parsed).items() if len(runs) > 1}
 
 
 def check_declared_lengths(lines, name):
@@ -250,7 +265,24 @@ def validate_units(scripts, units):
         if source != record['source']:
             raise ValueError('Draft source does not match the shipped text at %s:%#x' % key)
         target = normalise(unit.get('target') or '')
-        if target and record['limit'] and len(target) > record['limit']:
+        if target and record['kind'] == 'name':
+            # ADV nameplates are drawn at the source string's authored position.
+            # Their ASCII parentheses are half-width cells; changing them to the
+            # visually similar full-width forms makes every translated name 16px
+            # wider at the game's 16px font and clips right-aligned nameplates.
+            if source.startswith('(') and source.endswith(')') and not (
+                    target.startswith('(') and target.endswith(')')):
+                raise ValueError('Nameplate translation must preserve its ASCII parentheses '
+                                 'at %s:%#x' % key)
+            if nameplate_half_cells(target) > nameplate_half_cells(source):
+                raise ValueError('Nameplate translation exceeds its authored display width '
+                                 'at %s:%#x' % key)
+        # A project may opt a reviewed dialogue row into an exact rendered-width
+        # check performed by its pack builder.  This is needed for compact Latin
+        # pronunciation guides: their code-point count exceeds the Japanese
+        # full-width count while their measured glyph width still fits the row.
+        visual_budget = unit.get('visual_budget', False) and record['kind'] == 'line'
+        if target and record['limit'] and len(target) > record['limit'] and not visual_budget:
             raise ValueError('Translation exceeds the native %s budget in %s (%d > %d) at %#x'
                              % (record['kind'], key[0], len(target), record['limit'], key[1]))
         runs = unit.get('runs') or None
@@ -268,8 +300,21 @@ def validate_units(scripts, units):
             raise ValueError('Line %s:%#x is drawn in one colour, so it takes a plain translation'
                              % key)
         yield dict(script=key[0], source=source, target=target, instruction=key[1],
-                   slot=record['fragments'], opcode=record['opcode'], kind=record['kind'],
+                   slot=record['fragments'],
+                   opcode=record['opcode'], kind=record['kind'],
                    runs=runs)
+
+
+def nameplate_half_cells(text):
+    """Width used by DrawString: ASCII/half-kana are one half-cell, CJK two."""
+    width = 0
+    for char in text:
+        code = ord(char)
+        narrow = (' ' <= char <= '~' or 0xff66 <= code <= 0xff9f or
+                  0xff10 <= code <= 0xff19 or 0xff21 <= code <= 0xff3a or
+                  0xff41 <= code <= 0xff5a)
+        width += 1 if narrow else 2
+    return width
 
 
 def build(scripts, units, ui, assembly_hash, scratchpad_hash, complete=True):

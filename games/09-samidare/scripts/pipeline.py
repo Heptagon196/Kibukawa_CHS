@@ -163,9 +163,9 @@ def text_draft():
             rows.append((offset, entry['kind'], entry['source'], 0, 1,
                          0 if entry['kind'] == 'choice' else 1))
         rows.sort()
-        # A line recoloured part-way through is emphasised text, and BUNSYOU_IRO is
-        # the only in-line command that does it. Recorded here so the translation and
-        # the pack can keep the emphasis on the same words it falls on in Japanese.
+        # A line recoloured part-way through is emphasised text. IRO starts an override
+        # and F7 restores the base colour after ruby closes; record both boundaries so
+        # the translation keeps emphasis on the same words as the Japanese script.
         for offset, runs in sorted(runtime_pack.emphasis_runs(parsed).items()):
             emphasis.append(dict(script=name, offset=offset, runs=runs))
         for offset, kind, source, limit, fragments, argument in rows:
@@ -184,10 +184,10 @@ def text_draft():
     save(draft_path, dict(schema=1, units=units))
     save(WORK / 'work/emphasis.json', dict(
         schema=1,
-        note='Display lines whose text is recoloured part-way through by BUNSYOU_IRO. '
-             'The opening run carries no colour because an earlier command set it, so '
-             'the split points and the colours that follow them are what is recorded. '
-             'The emphasis falls on a clue or a name and must stay on the same words.',
+        note='Display lines whose effective text colour changes part-way through. '
+             'BUNSYOU_IRO starts an override and BUNSYOU_F7 restores the base colour '
+             'after ruby closes. Runs carry their effective colour and must stay on '
+             'the same semantic content in translation.',
         lines=emphasis))
     manifest = load(WORK / 'work/manifest.json')
     manifest['entries'] = records

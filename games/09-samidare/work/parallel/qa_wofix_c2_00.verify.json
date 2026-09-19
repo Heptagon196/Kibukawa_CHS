@@ -1,0 +1,10 @@
+{
+ "script": "c2_00",
+ "batch": "qa_wofix_c2_00.trans.json",
+ "verdict": "pass",
+ "basis": "Chinese word-order review (work/qa_full/_word_order_round.md): 行尾「晓正」被读成本作不存在的人名",
+ "offsets": [
+  12886
+ ],
+ "issues": []
+}

@@ -1,0 +1,10 @@
+{
+ "script": "c5_00",
+ "batch": "qa_natfix_c5_00.trans.json",
+ "verdict": "pass",
+ "basis": "full Chinese-readability review (work/qa_full/_natural_round.md): 与上一行行末「哎呀，这不是」撞词",
+ "offsets": [
+  2932
+ ],
+ "issues": []
+}

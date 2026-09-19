@@ -3,7 +3,9 @@
 The draft is one entry per display line, nameplate and menu label, keyed on
 ``(script, offset)``. A batch is a subset of one script, so a translator can work on
 a chapter at a time; ``apply`` refuses anything that would not survive the pack
-builder, so a batch that passes here cannot fail later with a budget error.
+builder, so a batch that passes here cannot fail later with a budget error. Dialogue
+uses the same rendered-pixel budget as the pack builder; this matters for narrow
+Latin readings such as ``Izumi``.
 
 Only this module writes ``work/dialogue-tagged.json``. Parallel workers write batch
 files and nothing else.
@@ -21,10 +23,22 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[3] / 'engine/adapters/gm
 sys.path.insert(0, str(Path(__file__).resolve().parents[3] / 'engine/adapters/gmode-v2'))
 from project_config import resolve
 import runtime_pack
+from build_pack import dialogue_width
 
 PROJECT = resolve(project=WORK, allow_disabled=True)
 DRAFT = WORK / 'work/dialogue-tagged.json'
 BATCHES = WORK / 'work/parallel'
+
+
+def exceeds_budget(target, record, visual_budget=False):
+    """Use pixel width only for reviewed rows with narrow Latin glosses."""
+    if visual_budget and record['kind'] == 'line':
+        return dialogue_width(target) > record['limit'] * 17
+    return len(target) > record['limit']
+
+
+def has_redundant_terminal_stop(target):
+    return '…。' in target or '—。' in target
 
 
 def load(path):
@@ -78,7 +92,7 @@ def split(only=None, directory=BATCHES):
             continue
         batch = dict(
             script=script,
-            note='One entry per display line. Fill target; len(target) must not exceed limit. '
+            note='One entry per display line. Fill target; its rendered width must not exceed limit. '
                  'A unit that lists emphasis is drawn in several colours: give its target as runs, '
                  'one string per colour run, so the emphasis stays on the same content. '
                  'See work/STYLE_GUIDE.md.',
@@ -88,6 +102,7 @@ def split(only=None, directory=BATCHES):
                         **({'emphasis': emphasis_table[(script, unit['offset'])]}
                            if (script, unit['offset']) in emphasis_table else {}),
                         **({'runs': unit['runs']} if unit.get('runs') else {}),
+                        **({'visual_budget': True} if unit.get('visual_budget') else {}),
                         target=unit['target'])
                    for unit in groups[script]])
         path = Path(directory) / (script + '.src.json')
@@ -222,9 +237,21 @@ def validate(batch, index, emphasis_table):
                 raise ValueError('%s: empty target at %#x (%r)' % (script, offset, record['source']))
             if '\n' in target or target != target.strip():
                 raise ValueError('%s: target has a newline or edge whitespace at %#x' % (script, offset))
-        if len(target) > record['limit']:
-            raise ValueError('%s: target %r is %d characters, the %s ceiling is %d, at %#x'
-                             % (script, target, len(target), record['kind'], record['limit'], offset))
+        if exceeds_budget(target, record, entry.get('visual_budget', False)):
+            raise ValueError('%s: target %r exceeds the %s display budget at %#x'
+                             % (script, target, record['kind'], offset))
+        if has_redundant_terminal_stop(target):
+            raise ValueError('%s: target has a redundant full stop after an ellipsis or dash at %#x'
+                             % (script, offset))
+        if target and record['kind'] == 'name':
+            source = record['source']
+            if source.startswith('(') and source.endswith(')') and not (
+                    target.startswith('(') and target.endswith(')')):
+                raise ValueError('%s: nameplate at %#x must preserve its ASCII parentheses'
+                                 % (script, offset))
+            if runtime_pack.nameplate_half_cells(target) > runtime_pack.nameplate_half_cells(source):
+                raise ValueError('%s: nameplate at %#x exceeds its authored display width'
+                                 % (script, offset))
         runs = entry.get('runs')
         colours = emphasis_table.get((script, offset))
         if colours:
@@ -309,9 +336,22 @@ def check(strict=False):
         if unit['kind'] != record['kind'] or unit['source'] != record['source']:
             problems.append('%s:%#x draft entry no longer matches the shipped text'
                             % (unit['script'], unit['offset']))
-        if unit['target'] and len(unit['target']) > record['limit']:
-            problems.append('%s:%#x target is %d characters, ceiling %d'
-                            % (unit['script'], unit['offset'], len(unit['target']), record['limit']))
+        if unit['target'] and exceeds_budget(
+                unit['target'], record, unit.get('visual_budget', False)):
+            problems.append('%s:%#x target exceeds its %s display budget'
+                            % (unit['script'], unit['offset'], record['kind']))
+        if unit['target'] and has_redundant_terminal_stop(unit['target']):
+            problems.append('%s:%#x redundant full stop after ellipsis or dash'
+                            % (unit['script'], unit['offset']))
+        if unit['target'] and record['kind'] == 'name':
+            source, target = record['source'], unit['target']
+            if source.startswith('(') and source.endswith(')') and not (
+                    target.startswith('(') and target.endswith(')')):
+                problems.append('%s:%#x nameplate must preserve its ASCII parentheses'
+                                % (unit['script'], unit['offset']))
+            elif runtime_pack.nameplate_half_cells(target) > runtime_pack.nameplate_half_cells(source):
+                problems.append('%s:%#x nameplate exceeds its authored display width'
+                                % (unit['script'], unit['offset']))
         colours = emphasis_table.get((unit['script'], unit['offset']))
         if unit['target'] and colours:
             if len(unit.get('runs') or []) != len(colours):

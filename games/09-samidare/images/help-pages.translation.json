@@ -1,0 +1,88 @@
+{
+  "schema": 1,
+  "bundle": "kibu9_Data/StreamingAssets/prefab/howtoplay",
+  "bundle_sha256": "271f004b6ae8ad6adbc6f59c39586d52197ee7b0d56edc53e85e9e1ad6d1d4c0",
+  "model_path_id": -4575662690838675561,
+  "pages": [
+    {
+      "page": 1,
+      "sprite_name": "howtoplay_keyguide_steam_00",
+      "sprite_path_id": 8464694119535220156,
+      "texture_path_id": 2939149924718173829,
+      "translation": {
+        "title": "操作说明",
+        "subtitle": "〈侦探·癸生川凌介事件谭 Vol.9《五月雨是铅灰的旋律》〉",
+        "rows": [
+          ["START 键", "选项菜单"],
+          ["A 键", "确定／推进文字"],
+          ["左摇杆／方向键", "移动光标"],
+          ["左摇杆向下／下方向键", "快速显示文字"],
+          ["左摇杆向左／左方向键", "文字装饰：开／标准速度"],
+          ["左摇杆向右／右方向键", "文字装饰：关／高速显示"],
+          ["R 键", "切换音量"]
+        ],
+        "footer": [
+          "本游戏不支持自动存档。",
+          "退出前，请使用游戏内的存档功能。"
+        ]
+      }
+    },
+    {
+      "page": 2,
+      "sprite_name": "howtoplay_keyguide_steam_01",
+      "sprite_path_id": 4784256044220385448,
+      "texture_path_id": 5891973034818709775,
+      "translation": {
+        "title": "操作说明",
+        "subtitle": "〈侦探·癸生川凌介事件谭 Vol.9《五月雨是铅灰的旋律》〉",
+        "rows": [
+          ["ESC", "选项菜单"],
+          ["Z／SPACE／L SHIFT／L CTRL", "确定／推进文字"],
+          ["W A S D／↑ ← ↓ →", "移动光标"],
+          ["S／↓", "快速显示文字"],
+          ["A／←", "文字装饰：开／标准速度"],
+          ["D／→", "文字装饰：关／高速显示"],
+          ["E", "切换音量"]
+        ],
+        "footer": [
+          "本游戏不支持自动存档。",
+          "退出前，请使用游戏内的存档功能。"
+        ]
+      }
+    },
+    {
+      "page": 3,
+      "sprite_name": "howtoplay_keyguide_steam_02",
+      "sprite_path_id": -6982974926888791009,
+      "texture_path_id": -965501788560461468,
+      "translation": {
+        "title": "G-MODE Archives+",
+        "lines": [
+          "“G-MODE Archives+”是一项复刻计划，",
+          "将昔日功能手机上的游戏忠实还原，",
+          "以当年的面貌呈现给玩家。",
+          "※ 从功能手机平台移植时，为了让游玩更加舒适，",
+          "我们对部分操作方式和功能进行了修改与调整。",
+          "※ 游戏内的操作说明和菜单仍保留了当年的内容，",
+          "本作的实际操作方式请参阅本菜单中的“玩法说明”。"
+        ]
+      }
+    },
+    {
+      "page": 4,
+      "sprite_name": "howtoplay_keyguide_steam_03",
+      "sprite_path_id": 2312404612643350765,
+      "texture_path_id": -7109818605204018176,
+      "translation": {
+        "title": "〈注意事项〉",
+        "lines": [
+          "由于本游戏忠实还原了当年的手机游戏，",
+          "部分菜单或按钮可能仍会显示，但已无法使用，",
+          "例如“WEB（网站）”“目录”“背光”等。",
+          "此外，帮助等内容中可能保留有关通信费用的说明，",
+          "但游玩本作不会另行产生通信费用。"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+ "script": "c4_01",
+ "batch": "qa_fixrev_c4_01.trans.json",
+ "verdict": "pass",
+ "basis": "post-apply review: fixrev_rest.verify.json (independent check of the applied text)",
+ "offsets": [
+  393,
+  7377,
+  7638,
+  9527,
+  10625
+ ],
+ "issues": []
+}

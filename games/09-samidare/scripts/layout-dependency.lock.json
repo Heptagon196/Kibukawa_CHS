@@ -1,0 +1,7 @@
+{
+  "package": "jieba",
+  "version": "0.42.1",
+  "hmm": false,
+  "dictionary_sha256": "7197c3211ddd98962b036cdf40324d1ea2bfaa12bd028e68faa70111a88e12a8",
+  "install": "python -m pip install --no-deps --target games/09-samidare/bepinex/build/python-deps -r games/09-samidare/scripts/layout-requirements.txt"
+}

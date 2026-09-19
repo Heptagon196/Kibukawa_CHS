@@ -1,0 +1,32 @@
+{
+ "script": "c4_01",
+ "batch": "qa_fix_c4_01.trans.json",
+ "verdict": "pass",
+ "basis": "independent QA: c4_01.q1.findings.json, c4_01.q2.findings.json, cross-consistency",
+ "offsets": [
+  347,
+  393,
+  443,
+  722,
+  2683,
+  7327,
+  7377,
+  7419,
+  7594,
+  9527,
+  10026,
+  10049,
+  10423,
+  10625,
+  11166,
+  11641,
+  11844,
+  11914,
+  12350,
+  12805,
+  12894,
+  13273,
+  13311
+ ],
+ "issues": []
+}

@@ -1,0 +1,10 @@
+{
+ "script": "c4_01",
+ "batch": "qa_natfix_c4_01.trans.json",
+ "verdict": "pass",
+ "basis": "full Chinese-readability review (work/qa_full/_natural_round.md): 谓语归上一行后本行只剩という的停顿",
+ "offsets": [
+  16518
+ ],
+ "issues": []
+}

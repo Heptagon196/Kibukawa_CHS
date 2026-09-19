@@ -22,6 +22,58 @@ DRAFT = 'work/dialogue-tagged.json'
 SMOKE_DRAFT = 'work/smoke-lines.json'
 SMOKE_UI = 'work/smoke-ui.json'
 UI = 'work/ui-localization.zh-CN.json'
+SHELL_UI = 'work/shell-ui-localization.zh-CN.json'
+
+
+def display_character(c):
+    if '０' <= c <= '９' or 'Ａ' <= c <= 'Ｚ' or 'ａ' <= c <= 'ｚ':
+        return chr(ord(c) - 0xfee0)
+    return c
+
+
+def narrow(c):
+    c = display_character(c)
+    return '0' <= c <= '9' or 'A' <= c <= 'Z' or 'a' <= c <= 'z'
+
+
+def han(c):
+    return '\u3400' <= c <= '\u9fff' or '\uf900' <= c <= '\ufaff' or c == '〇'
+
+
+def boundaries(text, blank):
+    return sum(blank for left, right in zip(text, text[1:])
+               if han(left) and narrow(right) or narrow(left) and han(right))
+
+
+def dialogue_width(text):
+    return sum(9 if narrow(c) or c in ' \u3000' else 17 for c in text) + boundaries(text, 9)
+
+
+def choice_width(text):
+    # Kibu9 has no 12px UI atlas; choices use the same 16px atlas as dialogue.
+    return dialogue_width(text)
+
+
+def validate_visual_widths(units):
+    widest_line = widest_choice = 0
+    for unit in units:
+        text = unit.get('target') or ''
+        # The deliberately tiny smoke fixture predates kind tags and contains only
+        # width-safe examples; the authoritative release draft always carries kind.
+        kind = unit.get('kind', 'line')
+        width = choice_width(text) if kind == 'choice' else dialogue_width(text)
+        if kind == 'line':
+            widest_line = max(widest_line, width)
+            budget_width = unit.get('limit', 0) * 17
+            if budget_width and width > budget_width:
+                raise ValueError('line visual width %d exceeds its stable %dpx block at %s:%s: %s' %
+                                 (width, budget_width, unit['script'], unit['offset'], text))
+        elif kind == 'choice':
+            widest_choice = max(widest_choice, width)
+        if kind in ('line', 'choice') and width > 240:
+            raise ValueError('%s visual width %d exceeds 240px at %s:%s: %s' %
+                             (kind, width, unit['script'], unit['offset'], text))
+    return widest_line, widest_choice
 
 
 def scenario_scripts():
@@ -56,7 +108,12 @@ def main():
         if found:
             raise SystemExit('UI localization is not release ready:\n   ' + '\n   '.join(found))
     units = runtime_pack.load_draft(draft)
+    widest_line, widest_choice = validate_visual_widths(units)
     entries = runtime_pack.load_ui(ui_path)
+    shell_path = p.WORK / SHELL_UI
+    if not shell_path.is_file():
+        raise SystemExit('Missing shell UI localization: ' + SHELL_UI)
+    entries.extend(runtime_pack.load_ui(shell_path))
     # Entries carrying a Localize key drive Steezy.Localize.Localization::Get; the rest
     # replace literals the game hard-codes in its own arrays.
     ui = [entry for entry in entries if not entry.get('key')]
@@ -80,9 +137,12 @@ def main():
     output.mkdir(parents=True, exist_ok=True)
     (output / 'translations.json').write_text(json.dumps(pack, ensure_ascii=False, indent=1) + '\n', encoding='utf-8')
     (output / 'translations.bin').write_bytes(encoded)
+    import dialogue_layout
+    dialogue_layout.build(scripts, units, encoded, output)
     report = dict(schema=1, smoke=bool(arguments.smoke), draft=str(draft.relative_to(p.WORK)),
                   scripts=len({entry['script'] for entry in pack['scripts']}), lines=len(pack['scripts']),
                   ui=len(pack['ui']), localization=len(pack['localization']),
+                  widest_dialogue_px=widest_line, widest_choice_px=widest_choice,
                   json_bytes=len(json.dumps(pack, ensure_ascii=False).encode('utf-8')), bin_bytes=len(encoded),
                   bin_sha256=p.sha(encoded), release_ready=not arguments.smoke, runtime_tested=False)
     p.save(output / 'pack-report.json', report)

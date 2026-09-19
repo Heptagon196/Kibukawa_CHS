@@ -3,12 +3,13 @@ using KibukawaHistory;
 
 namespace Kibu9ZhCN
 {
-    [BepInPlugin("local.kibukawa.history", "Kibukawa Dialogue History", "1.0.0")]
+    [BepInPlugin("local.kibukawa.history", "Kibukawa Dialogue History", "1.0.3")]
     [BepInDependency("local.kibu9.zhcn", BepInDependency.DependencyFlags.HardDependency)]
     public sealed class HistoryPlugin : Gmode20050117HistoryRuntime
     {
         private void Awake() { InitializeHistory(); }
         private void Update() { TickHistory(); }
+        private void LateUpdate() { TickHistoryLate(); }
         private void OnGUI() { DrawHistory(); }
         private void OnDestroy() { DisposeHistory(); }
 

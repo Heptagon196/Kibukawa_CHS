@@ -1,0 +1,11 @@
+{
+ "script": "c1_00",
+ "batch": "qa_wofix_c1_00.trans.json",
+ "verdict": "pass",
+ "basis": "Chinese word-order review (work/qa_full/_word_order_round.md): 「打扫可是很拿手的」主谓被行界割开; 与上一行配套",
+ "offsets": [
+  5326,
+  5350
+ ],
+ "issues": []
+}

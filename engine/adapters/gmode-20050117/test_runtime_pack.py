@@ -1,7 +1,7 @@
 """Offline invariants for the ninth-title pack builder against the shipped scripts."""
 import pathlib
 import unittest
-from runtime_pack import (RUN_SEPARATOR, build, emphasis_runs, line_index, script_lines,
+from runtime_pack import (RUN_SEPARATOR, build, colour_lines, emphasis_runs, line_index, script_lines,
                           single_texts, text_budget)
 from vm import NAMAE_SETTEI, SENTAKUSI, parse_bin
 
@@ -85,14 +85,20 @@ class TextTests(unittest.TestCase):
         texts = {name: single_texts(parse_bin(raw)) for name, raw in scripts().items()}
         name_entry = next(entry for group in texts.values() for entry in group.values() if entry['kind'] == 'name')
         choice_entry = next(entry for group in texts.values() for entry in group.values() if entry['kind'] == 'choice')
-        units = [dict(script=script, offset=entry['offset'], source=entry['source'], target='甲' * len(entry['source']))
+        units = [dict(script=script, offset=entry['offset'], source=entry['source'],
+                      target=('(' + '甲' * (len(entry['source']) - 2) + ')'
+                              if entry['kind'] == 'name' else '甲' * len(entry['source'])))
                  for script, group in texts.items() for entry in group.values()
                  if entry is name_entry or entry is choice_entry]
         pack = build(scripts(), units, UI, ASSEMBLY, SCRATCH, complete=False)
         opcodes = sorted(entry['opcode'] for entry in pack['scripts'])
         self.assertEqual(opcodes, sorted([NAMAE_SETTEI, SENTAKUSI]))
-        for entry in pack['scripts']:
-            self.assertEqual(entry['slot'], 1, 'single-string text must not claim continuations')
+        packed_name = next(entry for entry in pack['scripts'] if entry['opcode'] == NAMAE_SETTEI)
+        packed_choice = next(entry for entry in pack['scripts'] if entry['opcode'] == SENTAKUSI)
+        self.assertEqual(packed_name['slot'], 1,
+                         'single-string nameplate must not claim continuations')
+        self.assertEqual(packed_choice['slot'], 1,
+                         'single-string choice must not claim continuations')
 
     def test_rejects_a_label_over_the_corpus_budget(self):
         choice = next(entry for group in (single_texts(parse_bin(raw)) for raw in scripts().values())
@@ -100,6 +106,32 @@ class TextTests(unittest.TestCase):
         unit = dict(script='c0_00', offset=choice['offset'], source=choice['source'], target='甲' * 12)
         with self.assertRaisesRegex(ValueError, 'exceeds the native choice budget'):
             build(scripts(), [unit], UI, ASSEMBLY, SCRATCH, complete=False)
+
+    def test_rejects_nameplate_that_changes_halfwidth_parentheses(self):
+        for script, raw in scripts().items():
+            name = next((entry for entry in single_texts(parse_bin(raw)).values()
+                         if entry['kind'] == 'name'), None)
+            if name is None:
+                continue
+            target = '（' + name['source'][1:-1] + '）'
+            unit = dict(script=script, offset=name['offset'], source=name['source'], target=target)
+            with self.assertRaisesRegex(ValueError, 'preserve its ASCII parentheses'):
+                build(scripts(), [unit], UI, ASSEMBLY, SCRATCH, complete=False)
+            return
+        self.fail('Shipped corpus has no nameplate fixture')
+
+    def test_rejects_nameplate_wider_than_its_own_authored_width(self):
+        for script, raw in scripts().items():
+            name = next((entry for entry in single_texts(parse_bin(raw)).values()
+                         if entry['kind'] == 'name'), None)
+            if name is None:
+                continue
+            target = '(' + '甲' * (len(name['source']) - 1) + ')'
+            unit = dict(script=script, offset=name['offset'], source=name['source'], target=target)
+            with self.assertRaisesRegex(ValueError, 'authored display width'):
+                build(scripts(), [unit], UI, ASSEMBLY, SCRATCH, complete=False)
+            return
+        self.fail('Shipped corpus has no nameplate fixture')
 
 
 class BuildTests(unittest.TestCase):
@@ -149,7 +181,7 @@ class BuildTests(unittest.TestCase):
 
 
 class EmphasisTests(unittest.TestCase):
-    """BUNSYOU_IRO recolours the characters after it, so a line is not one colour run."""
+    """IRO starts and F7 ends the exact character range drawn in another colour."""
 
     def test_runs_are_the_line_text_split_and_nothing_else(self):
         lines = splits = 0
@@ -161,19 +193,30 @@ class EmphasisTests(unittest.TestCase):
                     lines += 1
                     splits += len(runs) - 1
                     self.assertEqual(''.join(run['text'] for run in runs), index[offset]['text'])
-                    # The opening colour was set by an earlier command and is not restated.
-                    self.assertIsNone(runs[0]['colour'])
                     self.assertTrue(all(run['text'] for run in runs))
-                    self.assertTrue(all(run['colour'] is not None for run in runs[1:]))
+                    self.assertTrue(any(run['colour'] != runs[0]['colour'] for run in runs[1:]))
         # Pinned to the shipped corpus: a change to the line terminators or to the
         # colour opcode moves these numbers instead of silently dropping emphasis.
-        self.assertEqual(lines, 157)
-        self.assertEqual(splits, 168)
+        self.assertEqual(lines, 287)
+        self.assertEqual(splits, 401)
 
     def test_an_emphasised_clue_keeps_its_split(self):
         runs = emphasis_runs(parse_bin(scripts()['c0_00']))[0x3E9C]
         self.assertEqual(runs, [dict(colour=None, text='実はこの子、'),
-                                dict(colour=2, text='家出して')])
+                                dict(colour=2, text='家出'),
+                                dict(colour=None, text='して')])
+
+    def test_f7_after_ruby_closes_ruby_before_it_restores_colour(self):
+        runs = emphasis_runs(parse_bin(scripts()['c3_01']))[4243]
+        self.assertEqual(runs, [dict(colour=2, text='螻川内忠雄'),
+                                dict(colour=None, text='の名前も')])
+
+    def test_whole_colour_lines_are_in_the_full_inventory(self):
+        whole = 0
+        for raw in scripts().values():
+            whole += sum(len(runs) == 1 and runs[0]['colour'] is not None
+                         for runs in colour_lines(parse_bin(raw)).values())
+        self.assertEqual(whole, 126)
 
     def test_single_colour_lines_are_not_reported(self):
         parsed = parse_bin(scripts()['c0_00'])
@@ -192,7 +235,7 @@ class ColourRunTests(unittest.TestCase):
 
     def unit(self, **overrides):
         unit = dict(script='c0_00', offset=self.OFFSET, source=self.SOURCE,
-                    target='其实这孩子，离家出走', runs=['其实这孩子，', '离家出走'])
+                    target='其实这孩子，离家出走', runs=['其实这孩子，', '离家出走', ''])
         unit.update(overrides)
         return unit
 
@@ -200,7 +243,7 @@ class ColourRunTests(unittest.TestCase):
         self.assertEqual(RUN_SEPARATOR, '\x01')
         pack = build(scripts(), [self.unit()], UI, ASSEMBLY, SCRATCH, complete=False)
         entry = pack['scripts'][0]
-        self.assertEqual(entry['target'], '其实这孩子，' + RUN_SEPARATOR + '离家出走')
+        self.assertEqual(entry['target'], '其实这孩子，' + RUN_SEPARATOR + '离家出走' + RUN_SEPARATOR)
         self.assertEqual(entry['slot'], 3)
         # The separator is a packing detail: the shipped source never contains it.
         self.assertNotIn(RUN_SEPARATOR, entry['source'])
@@ -216,7 +259,7 @@ class ColourRunTests(unittest.TestCase):
 
     def test_the_runs_must_join_into_the_target(self):
         with self.assertRaisesRegex(ValueError, 'do not join into its translation'):
-            build(scripts(), [self.unit(runs=['其实这孩子', '离家出走了'])], UI, ASSEMBLY, SCRATCH,
+            build(scripts(), [self.unit(runs=['其实这孩子', '离家出走了', ''])], UI, ASSEMBLY, SCRATCH,
                   complete=False)
 
     def test_a_single_colour_line_takes_a_plain_translation(self):

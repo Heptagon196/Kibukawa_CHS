@@ -1,0 +1,19 @@
+{
+ "script": "c3_00",
+ "batch": "qa_fixrev_c3_00.trans.json",
+ "verdict": "pass",
+ "basis": "post-apply review: fixrev_rest.verify.json (independent check of the applied text)",
+ "offsets": [
+  356,
+  526,
+  552,
+  1110,
+  1908,
+  5746,
+  7883,
+  9461,
+  9487,
+  9535
+ ],
+ "issues": []
+}

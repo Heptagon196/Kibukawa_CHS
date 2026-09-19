@@ -15,7 +15,7 @@ try {
     $process=@($type.CustomAttributes | Where-Object { $_.AttributeType.FullName -eq 'BepInEx.BepInProcess' })
     if($process.Count -ne 1 -or $process[0].ConstructorArguments[0].Value -ne 'kibu9.exe') { Fail 'Wrong image plugin process restriction' }
     $meta=@($type.CustomAttributes | Where-Object { $_.AttributeType.FullName -eq 'BepInEx.BepInPlugin' })
-    if($meta.Count -ne 1 -or $meta[0].ConstructorArguments[0].Value -ne 'heptagon.kibukawa9.imagereplacements.zhcn') { Fail 'Wrong image plugin identity' }
+    if($meta.Count -ne 1 -or $meta[0].ConstructorArguments[0].Value -ne 'heptagon.kibukawa9.imagereplacements.zhcn' -or $meta[0].ConstructorArguments[2].Value -ne '1.0.1') { Fail 'Wrong image plugin identity/version' }
 
     $canvas=$game.MainModule.Types | Where-Object FullName -eq 'CanvasEx'
     if($null -eq $canvas) { Fail 'CanvasEx missing' }
@@ -41,12 +41,18 @@ try {
         }
     }
     if(($draws -join ',') -ne '137,171') { Fail "Native title menu coordinates changed: $($draws -join ',')" }
+    $help=$game.MainModule.Types | Where-Object FullName -eq 'HowToPlayDialog'
+    if($null -eq $help) { Fail 'HowToPlayDialog missing' }
+    $guide=@($help.Fields | Where-Object { $_.Name -eq 'guideImage' -and $_.FieldType.FullName -eq 'UnityEngine.UI.Image' })
+    $page=@($help.Fields | Where-Object { $_.Name -eq 'nowPage' -and $_.FieldType.FullName -eq 'System.Int32' })
+    $change=@($help.Methods | Where-Object { $_.Name -eq 'ChangePage' -and $_.Parameters.Count -eq 1 -and $_.Parameters[0].ParameterType.FullName -eq 'System.Int32' })
+    if($guide.Count -ne 1 -or $page.Count -ne 1 -or $change.Count -ne 1) { Fail 'HowToPlayDialog help-page binding changed' }
     $report=[ordered]@{
         plugin_sha256=(Get-FileHash -LiteralPath $PluginDll -Algorithm SHA256).Hash.ToLowerInvariant()
         game_assembly_sha256=(Get-FileHash -LiteralPath $GameDll -Algorithm SHA256).Hash.ToLowerInvariant()
-        evidence=@('BepInPlugin/BepInProcess identity','CanvasEx.LoadGraphic(string)','CanvasEx.Game_title()','title image fields','resource:///title.gif','menu00/menu01 at (131,137)/(131,171)')
+        evidence=@('BepInPlugin/BepInProcess identity','CanvasEx.LoadGraphic(string)','CanvasEx.Game_title()','title image fields','resource:///title.gif','menu00/menu01 at (131,137)/(131,171)','HowToPlayDialog.guideImage','HowToPlayDialog.nowPage','HowToPlayDialog.ChangePage(int)')
         runtime_tested=$false
     }
     [IO.File]::WriteAllText([IO.Path]::GetFullPath($ReportPath),($report|ConvertTo-Json -Depth 5),[Text.UTF8Encoding]::new($false))
-    Write-Output 'PASS: ninth-game image plugin identity and 6 native title bindings verified offline.'
+    Write-Output 'PASS: ninth-game image plugin identity, 6 title bindings and 3 help-page bindings verified offline.'
 } finally { $plugin.Dispose(); $game.Dispose() }

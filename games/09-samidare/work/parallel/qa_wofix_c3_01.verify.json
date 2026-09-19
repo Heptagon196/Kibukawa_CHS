@@ -1,0 +1,13 @@
+{
+ "script": "c3_01",
+ "batch": "qa_wofix_c3_01.trans.json",
+ "verdict": "pass",
+ "basis": "Chinese word-order review (work/qa_full/_word_order_round.md): 「已经／可能」状语顺序颠倒; 与上一行配套; 同一句再现，同法处理; 与上一行配套",
+ "offsets": [
+  13946,
+  13968,
+  14048,
+  14070
+ ],
+ "issues": []
+}

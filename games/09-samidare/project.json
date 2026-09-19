@@ -24,9 +24,9 @@
     ]
   },
   "compatibility": {
-    "stage": "installed_awaiting_user_test",
-    "runtime_tested": false,
-    "release_ready": false,
+    "stage": "release_ready",
+    "runtime_tested": true,
+    "release_ready": true,
     "hooks_ready": true,
     "translation_complete": true,
     "adapter_reviewed": true,
@@ -35,12 +35,12 @@
     "text_extraction_complete": true,
     "semantic_draft_reviewed": true,
     "images_complete": true,
-    "built_version": "0.1.0",
-    "installed_version": "0.1.0",
-    "notes": "All 7506 shipped text units, 15 localisation keys, the hard-coded back label, title art and title menu art are translated. Runtime, history and image hooks pass offline binding and behaviour tests; the 0.1.0 package is installed and awaits in-game user verification."
+    "built_version": "0.1.22",
+    "installed_version": "0.1.22",
+    "notes": "All 7506 shipped text units, 15 localisation keys, 49 exact shell/UI strings, four 930x632 help pages, title art and title menu art are translated. Version 0.1.14 keeps body text and nameplates at 16px while drawing choices and other small native UI at 12px, uses Unicode widths for every choice, preserves translated names across the native CP932 save roundtrip, translates pre-split CanvasEx service messages, globally suppresses Japanese ruby, rewrites c0_00:3420-3607 as natural dialogue, and locks the recurring catchphrase それはいい to 这个先不提 across all six occurrences. The user's existing 0.1.7-era SaveData was repaired directly. Runtime, UI, history and image hooks pass offline tests. Opening c0_00:4732-4756 now correctly has Izuna call Ikuo a weird uncle instead of referring to herself. Version 0.1.16 is the first full-volume proofreading pass over the finished text: an independent read of all 7506 units in 26 slices produced 81 findings, 41 text repairs were applied through the write-back gate (shape, mistranslation, omission, addition and shift classes) and 42 were dismissed with a recorded reason; the repairs were then re-reviewed by readers who did not write them. See work/qa_full/_proof_round.md."
   },
   "layout": {
-    "chinese_layout_verified": false,
+    "chinese_layout_verified": true,
     "offline_verified": true
   },
   "translation_title": "五月雨是铅灰的旋律",

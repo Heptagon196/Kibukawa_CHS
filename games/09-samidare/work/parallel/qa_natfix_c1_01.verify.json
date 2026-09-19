@@ -1,0 +1,14 @@
+{
+ "script": "c1_01",
+ "batch": "qa_natfix_c1_01.trans.json",
+ "verdict": "pass",
+ "basis": "full Chinese-readability review (work/qa_full/_natural_round.md): 「一切，就是如此／过分」没有谓语落点; 与上一行配套; 与上两行配套; 逗号后无谓语；改后「不论遇到什么，您母亲／都会相信自己选定的／人…」; 原文是\"像母亲那样相信并等待\"",
+ "offsets": [
+  12415,
+  12441,
+  12467,
+  14076,
+  19019
+ ],
+ "issues": []
+}

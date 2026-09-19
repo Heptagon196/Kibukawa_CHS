@@ -1,0 +1,11 @@
+{
+ "script": "c3_00",
+ "batch": "qa_wofix_c3_00.trans.json",
+ "verdict": "pass",
+ "basis": "Chinese word-order review (work/qa_full/_word_order_round.md): review: 拆开会吞掉 7543 的答复; review: 恢复对「そうです。」的答复",
+ "offsets": [
+  7513,
+  7543
+ ],
+ "issues": []
+}

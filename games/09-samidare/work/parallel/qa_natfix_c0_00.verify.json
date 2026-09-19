@@ -1,0 +1,15 @@
+{
+ "script": "c0_00",
+ "batch": "qa_natfix_c0_00.trans.json",
+ "verdict": "pass",
+ "basis": "full Chinese-readability review (work/qa_full/_natural_round.md): 主语被读成\"东西\"；改后「…他口袋里装了什么，／要想套出话来，／该怎么做呢…」; 「说起，」单带逗号不成句，须接话题; 「見つけた時は」与上一行配套; 与上一行配套; 「插手…问题」搭配不成立; 动词与宾语被硬折行劈开；改后「别人家的事，／我们不能擅自过问／可是…」",
+ "offsets": [
+  10485,
+  12235,
+  12259,
+  12283,
+  16553,
+  16581
+ ],
+ "issues": []
+}

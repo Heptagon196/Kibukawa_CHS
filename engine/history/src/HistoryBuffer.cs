@@ -39,6 +39,20 @@ namespace KibukawaHistory
             }
             Version++;
         }
+
+        /// <summary>
+        /// Replace the active entry after an adapter has received newly revealed
+        /// glyphs out of logical order. The entry count and boundary stay unchanged.
+        /// </summary>
+        public void ReplaceLast(string text, IList<int> colors)
+        {
+            if (Entries.Count == 0) throw new InvalidOperationException("No history entry to replace");
+            if (text == null || colors == null || colors.Count != text.Length)
+                throw new ArgumentException("One RGB value per character is required");
+            Entries[Entries.Count - 1] = text;
+            Colors[Colors.Count - 1] = new List<int>(colors);
+            Version++;
+        }
     }
 
     public static class PausedEnumerator

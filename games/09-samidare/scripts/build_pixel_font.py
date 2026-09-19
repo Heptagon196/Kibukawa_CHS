@@ -1,16 +1,18 @@
-"""Build the ninth game's 16px Unifont dialogue atlas offline.
+"""Build the ninth game's 16px dialogue and 12px shell/UI atlases offline.
 
 Character coverage comes from the work's own data only: the tagged translation
 draft, the UI localization file, and the fixed punctuation/box-drawing set the
-runtime always needs. The atlas packing itself is shared with the eighth game
-(engine/fonts/kbf2_atlas.py), and the Unifont download is verified against this
-work's pinned lock on every run.
+runtime always needs. The 16px Unifont KBF2 packing and 12px Z Labs KBF3 source
+and encoding are shared with the eighth game. Every dependency is verified from
+the pinned local cache on each run.
 """
 import gzip
 import hashlib
 import html
 import json
+import math
 import re
+import struct
 import sys
 import tarfile
 import unicodedata
@@ -21,9 +23,11 @@ SERIES = WORK.parents[1]
 sys.path.insert(0, str(SERIES / 'engine/tools'))
 sys.path.insert(0, str(SERIES / 'engine/fonts'))
 sys.path.insert(0, str(SERIES / 'tools'))
-from pixel_font import parse_hex
+from pixel_font import encode_png, parse_hex
 import kbf2_atlas
+from kbf3_atlas import encode_kbf3
 from project_config import resolve
+from zlabs_font import load_glyphs, load_source, native_alpha
 
 PROJECT = resolve(project=WORK, allow_disabled=True)
 TAG = re.compile(r'<(?:/?color(?:=[^>]*)?|ctrl=[^>]*|row/|boundary=[^>]*/)>')
@@ -122,6 +126,61 @@ def collect(draft=None, ui_paths=None):
     return sorted(required), inputs, provenance
 
 
+def validate_small_font(folder, characters, glyphs):
+    index = (folder / 'dialogue-16.bin').read_bytes()
+    if index[:4] != b'KBF3':
+        raise ValueError('Small-font KBF3 signature mismatch')
+    pixel_size, width, height, count = struct.unpack_from('<iiii', index, 4)
+    if pixel_size != 12 or count != len(characters) or len(index) != 20 + count * 32:
+        raise ValueError('Small-font KBF3 dimensions mismatch')
+    for i, cp in enumerate(characters):
+        record = struct.unpack_from('<iiiiiiii', index, 20 + i * 32)
+        if record[0] != cp or record[3:] != glyphs[cp][:5]:
+            raise ValueError('Small-font KBF3 metrics mismatch at U+%04X' % cp)
+        if record[1] < 1 or record[2] < 1 or record[1] + record[4] >= width or record[2] + record[5] >= height:
+            raise ValueError('Small-font glyph outside atlas at U+%04X' % cp)
+    return dict(indexFormat='KBF3', pixelSize=12, glyphCount=count, width=width, height=height,
+                nativePixelsPreserved=True, nativeMetricsPreserved=True)
+
+
+def build_small_font(out, characters, inputs):
+    lock, _ = load_source()  # verifies the shared pinned KBITX and OFL cache
+    glyphs = load_glyphs()
+    missing = [cp for cp in characters if cp not in glyphs]
+    if missing:
+        raise ValueError('Z Labs Pixel 12px lacks: ' + ', '.join('U+%04X %s' % (cp, chr(cp)) for cp in missing))
+    cell = max(max(glyphs[cp][1:3]) for cp in characters) + 2
+    width = 1 << (max(256, math.ceil(math.sqrt(len(characters))) * cell) - 1).bit_length()
+    columns = width // cell
+    height = 1 << (math.ceil(len(characters) / columns) * cell - 1).bit_length()
+    records = []
+    for i, cp in enumerate(characters):
+        gx, gy = i % columns * cell + 1, i // columns * cell + 1
+        advance, bitmap_width, bitmap_height, bearing_x, bearing_y, rows = glyphs[cp]
+        alpha = bytes(native_alpha(cp, x, y) if rows[y] & (1 << (bitmap_width - 1 - x)) else 0
+                      for y in range(bitmap_height) for x in range(bitmap_width))
+        records.append((cp, gx, gy, advance, bitmap_width, bitmap_height,
+                        bearing_x, bearing_y, alpha))
+    index, rgba = encode_kbf3(12, width, height, records)
+    folder = out / 'ui-12'
+    write(folder / 'dialogue-16.bin', index)
+    write(folder / 'dialogue-16.png', encode_png(width, height, rgba))
+    validation = validate_small_font(folder, characters, glyphs)
+    report = dict(font=lock['font'], version=lock['version'], pixelSize=12, indexFormat='KBF3',
+                  glyphCount=len(characters), fontAscent=10, fontDescent=2,
+                  nativeWidths={str(n): sum(glyphs[cp][0] == n for cp in characters) for n in (6, 12)},
+                  inputs=inputs, dependencies=lock['dependencies'], validation=validation,
+                  index_sha256=digest(index), png_sha256=digest((folder / 'dialogue-16.png').read_bytes()))
+    write(folder / 'glyph-coverage.json', json.dumps(report, ensure_ascii=False, indent=1).encode('utf-8'))
+    license_bytes = (SERIES / 'engine/fonts/cache/ZLabs-OFL.txt').read_bytes()
+    write(out / 'licenses/ZLabs-OFL.txt', license_bytes)
+    notice = ('Kibu9 UI Pixel 12 is a subset and format conversion of Z Labs Pixel 12px M CN.\n'
+              'Copyright Astro_2539. Licensed under OFL-1.1; see ZLabs-OFL.txt.\n'
+              'Native KBITX pixels, advances, bounds and bearings are preserved without scaling.\n')
+    write(out / 'licenses/ZLabs-Atlas-Notice.txt', notice.encode('utf-8'))
+    return report
+
+
 def build(output=None, draft=None):
     out = inside(output if output is not None else WORK / 'bepinex/build/pack/fonts')
     lock = load(WORK / 'bepinex/font-dependency.lock.json')
@@ -132,6 +191,7 @@ def build(output=None, draft=None):
     kbf2_atlas.validate(index, png, characters)
     write(out / 'dialogue-16.bin', index)
     write(out / 'dialogue-16.png', png)
+    small = build_small_font(out, characters, inputs)
     write(out / 'font-dependency.lock.json', (WORK / 'bepinex/font-dependency.lock.json').read_bytes())
     if paths['source'].is_file():
         with tarfile.open(paths['source'], 'r:gz') as archive:
@@ -152,7 +212,7 @@ def build(output=None, draft=None):
     result = dict(font=lock['font'], version=lock['version'], pixelSize=kbf2_atlas.PIXEL_SIZE,
                   indexFormat='KBF2', glyphCount=report['glyphs'], width=report['width'], height=report['height'],
                   atlas_sha256=digest(index), png_sha256=digest(png), inputs=inputs,
-                  runtime_tested=False)
+                  smallFont=small, runtime_tested=False)
     write(out.parent / 'font-report.json', json.dumps(result, ensure_ascii=False, indent=1).encode('utf-8'))
     print('FONT READY %d glyphs, %dx%d -> %s' % (report['glyphs'], report['width'], report['height'], out))
     return result

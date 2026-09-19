@@ -1,0 +1,10 @@
+{
+ "script": "c4_00",
+ "batch": "qa_wofix_c4_00.trans.json",
+ "verdict": "pass",
+ "basis": "Chinese word-order review (work/qa_full/_word_order_round.md): review: 与上一行同一名词短语连出两次",
+ "offsets": [
+  19255
+ ],
+ "issues": []
+}

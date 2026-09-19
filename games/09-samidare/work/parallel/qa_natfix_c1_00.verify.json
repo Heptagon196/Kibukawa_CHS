@@ -1,0 +1,13 @@
+{
+ "script": "c1_00",
+ "batch": "qa_natfix_c1_00.trans.json",
+ "verdict": "pass",
+ "basis": "full Chinese-readability review (work/qa_full/_natural_round.md): 「状况难受」搭配不成立; 与上一行配套；改后「…屋里闷得／让人受不了。」; 「先不说，」缺宾语，易读成祈使; 「都漠不关心的你。」是没有谓语的名词短语",
+ "offsets": [
+  1139,
+  1167,
+  11498,
+  12236
+ ],
+ "issues": []
+}

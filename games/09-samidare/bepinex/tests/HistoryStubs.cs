@@ -38,7 +38,11 @@ namespace HarmonyLib
 
 namespace UnityEngine
 {
-    public class Object { }
+    public class Object
+    {
+        public static Object found;
+        public static Object FindObjectOfType(Type type) { return found != null && type.IsInstanceOfType(found) ? found : null; }
+    }
     public class Font : Object { public static Font CreateDynamicFontFromOSFont(string[] names, int size) { return new Font(); } }
     public class Texture2D : Object { public static Texture2D whiteTexture = new Texture2D(); }
     public struct Vector2 { public float x, y; public Vector2(float a, float b) { x = a; y = b; } }
@@ -97,4 +101,29 @@ namespace UnityEngine
     public enum KeyCode { None, H, PageUp, Escape, UpArrow, DownArrow, Home, End }
     public class AudioSource : Object { public bool mute; }
     public class MonoBehaviour : Object { }
+}
+
+namespace UnityEngine.UI
+{
+    public class Text : UnityEngine.Object { public string text = String.Empty; }
+}
+
+namespace UnityEngine.EventSystems
+{
+    public class EventSystem : UnityEngine.Object
+    {
+        public static EventSystem current;
+        public bool enabled = true;
+        public void Update() { }
+    }
+}
+
+namespace Socotra.UI
+{
+    public sealed class StDisplay : UnityEngine.Object
+    {
+        public object currentFrame;
+        public UnityEngine.UI.Text softKey1Label = new UnityEngine.UI.Text();
+        public int keypadState;
+    }
 }

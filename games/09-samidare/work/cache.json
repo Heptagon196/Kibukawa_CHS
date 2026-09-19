@@ -6,7 +6,7 @@
   "files": {},
   "stats_data": {},
   "extra": {
-    "translation_stage": "translation_complete",
+    "translation_stage": "translation_started",
     "coverage": "7298 display lines, 34 nameplates and 174 menu labels extracted to work/dialogue-tagged.json; 7506 translated.",
     "text": {
       "draft": "work/dialogue-tagged.json",
@@ -17,8 +17,7 @@
         "name": 34
       },
       "translated": 7506,
-      "renderings": "texts/<script>.txt",
-      "emphasis": 157
+      "renderings": "texts/<script>.txt"
     }
   }
 }

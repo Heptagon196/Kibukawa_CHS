@@ -1,0 +1,11 @@
+{
+ "script": "c1_01",
+ "batch": "qa_qualityfix_c1_01.trans.json",
+ "verdict": "pass",
+ "basis": "user-reported quality defects read back against the scene: 「而且？」这种回声问句不是中文说法，且与上一行同词; 与上一行配套",
+ "offsets": [
+  20339,
+  20355
+ ],
+ "issues": []
+}

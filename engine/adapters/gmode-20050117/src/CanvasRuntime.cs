@@ -22,10 +22,10 @@ namespace Kibukawa.Engine.Gmode20050117
     /// stocked string and its Bun_nagasa length, and leaves the native reveal
     /// animation, colours, script bytes and save offsets untouched.
     ///
-    /// Because Bun_iro is filled per character, BUNSYOU_IRO recolours the rest of a
-    /// line: that is how the script emphasises the clue word or the name a line turns
-    /// on. Those lines are stocked one colour run at a time, so the emphasis stays on
-    /// the characters it falls on in Japanese.
+    /// Because Bun_iro is filled per character, BUNSYOU_IRO starts an override and
+    /// BUNSYOU_F7 restores the base colour after any ruby span has closed. Those lines
+    /// are stocked one effective colour run at a time, so emphasis stays on the words
+    /// it marks in Japanese even when the colour ends in the middle of a line.
     ///
     /// Glyph drawing is shared with the eighth title: StGraphics::DrawCharImpl has
     /// identical IL in both versions, so gmode-v2's BitmapFontAtlas and
@@ -37,6 +37,7 @@ namespace Kibukawa.Engine.Gmode20050117
     {
         protected static RuntimePack pack;
         protected static BitmapFontAtlas font;
+        protected static BitmapFontAtlas smallFont;
         protected static CanvasRuntime instance;
         protected static Type canvasType;
         protected static Type graphicsType;
@@ -54,6 +55,8 @@ namespace Kibukawa.Engine.Gmode20050117
         protected static int localizationHits;
         protected static int rubySuppressed;
         protected static int runsIncomplete;
+        [ThreadStatic] protected static bool dialogueDraw;
+        [ThreadStatic] protected static bool nameplateDraw;
         protected static readonly List<string> literals = new List<string>();
         protected Harmony harmony;
 
@@ -64,24 +67,37 @@ namespace Kibukawa.Engine.Gmode20050117
         /// <summary>Per-canvas state for the display line currently being stocked.</summary>
         private sealed class LineState
         {
+            public readonly Dictionary<int, RuntimePack.LayoutLine> Layouts = new Dictionary<int, RuntimePack.LayoutLine>();
             public bool NewLine = true;
             public bool Translated;
             public int Total;
             public int Slots;
-            // A recoloured line arrives as one string per colour run. ColourRun counts the
-            // BUNSYOU_IRO commands run since this line started — the run the next fragment
-            // belongs to — and StockedRun is the last run already stocked.
+            // A recoloured line arrives as one string per effective colour run. ColourRun
+            // advances when BUNSYOU_IRO changes colour or BUNSYOU_F7 restores the base
+            // colour; StockedRun is the last translated run already stocked.
             public string[] Runs;
             public int ColourRun;
             public int StockedRun;
+        }
+
+        /// <summary>The Chinese names temporarily replaced while SaveData runs.</summary>
+        protected sealed class NameSaveState
+        {
+            public string[] Values;
+            public bool Restored;
         }
 
         /// <summary>Members the runtime resolves before it patches anything.</summary>
         protected static readonly string[] RequiredFields = {
             "Bun_moji", "Bun_iro", "Bun_speed", "Bun_alpha", "Bun_jikan", "Bun_nagasa",
             "BunsyouNagasaMax", "DanNoKazu", "NowStockMojiDan", "NowStockMojiKeta",
-            "NowPrintingDan", "NowPrintingKeta", "SyoriMojiCount", "RubiCreateCounter"
+            "NowPrintingDan", "NowPrintingKeta", "SyoriMojiCount", "RubiCreateCounter",
+            "MojiHani_tate", "MojiHani_yoko", "MainTask", "SubTask", "NowFadeChu",
+            "SysCursor_enable", "OsippanasiKinsi",
+            "Sentaku_nafuda", "Namae_nafuda", "model", "NowRubiChu", "NowMojiColorChangeChu"
         };
+
+        protected static readonly string[] RequiredStaticFields = { "Width", "FAscent", "FDocomo", "FHeight" };
 
         /// <summary>Handlers whose postfix ends the current display line.</summary>
         protected static readonly string[] LineTerminators = {
@@ -109,6 +125,7 @@ namespace Kibukawa.Engine.Gmode20050117
         }
 
         protected static int Number(object canvas, string name) { return Convert.ToInt32(F(name).GetValue(canvas)); }
+        protected static int StaticNumber(string name) { return Convert.ToInt32(S(name).GetValue(null)); }
 
         protected void Patch(MethodBase method, string prefix, string postfix, string finalizer = null)
         {
@@ -154,15 +171,18 @@ namespace Kibukawa.Engine.Gmode20050117
                 throw new InvalidDataException("Translation pack game identity mismatch");
             // Resolve every required member before applying any patch.
             foreach (string name in RequiredFields) F(name);
+            foreach (string name in RequiredStaticFields) S(name);
             drawOrigin = AccessTools.Field(graphicsType, "drawOrigin");
             if (drawOrigin == null) throw new MissingFieldException("StGraphics.drawOrigin");
             pack = loaded;
             font = new BitmapFontAtlas(Path.Combine(pluginFolder, "fonts"));
+            smallFont = new BitmapFontAtlas(Path.Combine(pluginFolder, "fonts/ui-12"));
             harmony = new Harmony(GetType().FullName);
             InstallHooks();
             InstallChoiceMemory();
             ready = true;
-            Log("Kibu9 Chinese runtime ready: " + pack.LineCount + " lines, " + font.GlyphCount + " glyphs.");
+            Log("Kibu9 Chinese runtime ready: " + pack.LineCount + " lines, " + font.GlyphCount
+                + " dialogue glyphs, " + smallFont.GlyphCount + " small UI glyphs.");
         }
 
         /// <summary>
@@ -197,11 +217,24 @@ namespace Kibukawa.Engine.Gmode20050117
             // BUNSYOU_IRO recolours the characters stocked after it, which is how the
             // script emphasises a clue word or a name part-way through a line.
             Patch(AccessTools.Method(canvasType, "BUNSYOU_IRO"), "BeforeColour", null);
+            // F7 closes ruby first; only a later F7 with no active ruby restores the
+            // base text colour. Count that restoration as another effective colour run.
+            Patch(AccessTools.Method(canvasType, "BUNSYOU_F7"), "BeforeF7", null);
+            // COLON is the stock click gate used to paginate the normal bottom
+            // dialogue region.  Full-screen vertical modes have their own viewport
+            // and must flow through it without inheriting that row threshold.
+            Patch(AccessTools.Method(canvasType, "BUNSYOU_COLON"), "BeforeColon", null);
             // Nameplates and menu labels are StringRead operands stored straight into
             // the native arrays, so they are replaced where they are read.
             Patch(AccessTools.Method(canvasType, "NAMAE_SETTEI"), "BeforeName", null);
             Patch(AccessTools.Method(canvasType, "SENTAKUSI"), "BeforeChoice", null);
             Patch(AccessTools.Method(canvasType, "StringRead"), null, "AfterStringRead");
+            // Namae_nafuda is part of the native CP932 save block. Let the serializer
+            // see the original Japanese strings, then restore the live Chinese array.
+            Patch(AccessTools.Method(canvasType, "SaveData", Type.EmptyTypes),
+                  "BeforeSaveNames", "AfterSaveNames", "AfterSaveNamesError");
+            Patch(AccessTools.Method(canvasType, "LoadData", Type.EmptyTypes),
+                  null, "AfterLoadNames");
             // These are exactly the handlers that advance NowStockMojiDan, so their
             // postfix marks the moment the next BUNSYOU starts a new display line.
             foreach (string name in LineTerminators)
@@ -211,9 +244,19 @@ namespace Kibukawa.Engine.Gmode20050117
                 Patch(method, null, "AfterLine");
             }
             // The single glyph choke point: DrawString and DrawChars both funnel here.
+            Patch(AccessTools.Method(canvasType, "DrawAdvString", new[] {
+                graphicsType, typeof(int), typeof(int), typeof(int), typeof(int) }),
+                "BeforeAdvDraw", null, "RestoreAdvDraw");
+            Patch(AccessTools.Method(canvasType, "DrawAdvNafuda"),
+                "BeforeNameplatePosition", null, "RestoreNameplateDraw");
+            Patch(AccessTools.Method(canvasType, "ClearBunBuffer"), null, "AfterClearText");
+            Patch(AccessTools.Method(canvasType, "DrawAdvCommandCenter", new[] {
+                graphicsType, typeof(int), typeof(int), typeof(int) }), "BeforeChoiceCenter", null);
+            Patch(AccessTools.Method(canvasType, "DrawAdvCommand", new[] {
+                graphicsType, typeof(int), typeof(int), typeof(int), typeof(int) }), "BeforeChoiceLeft", null);
             Patch(AccessTools.Method(graphicsType, "DrawCharImpl", new[] { typeof(char[]), typeof(int), typeof(int) }), "BeforeDraw", null);
-            // Japanese ruby is a reading of the original base text; over a translated
-            // line it would overlay kana on the wrong characters.
+            // Japanese ruby is a reading of the original base text. The Chinese edition
+            // never displays it, including on lines that are not present in the pack.
             Patch(AccessTools.Method(canvasType, "CreateRubiTexture", new[] { typeof(string), typeof(int) }),
                   "BeforeCreateRubi", null);
             // Unity UI text goes through the game's own localization table; replacing the
@@ -225,6 +268,14 @@ namespace Kibukawa.Engine.Gmode20050117
                 if (get == null) throw new MissingMethodException(localize.FullName, "Get");
                 Patch(get, null, "AfterGet");
             }
+            // CanvasEx draws its loading and legacy-service messages through these
+            // helpers. Each helper measures the complete string first, then slices it
+            // into one-character DrawString calls. Replace the argument at entry so
+            // the native centering calculation and every later glyph see the Chinese
+            // line rather than trying to translate already-split characters.
+            Type[] displayLine = { graphicsType, typeof(string), typeof(int), typeof(int) };
+            Patch(AccessTools.Method(canvasType, "Ds_sub", displayLine), "BeforeCanvasUi", null);
+            Patch(AccessTools.Method(canvasType, "Ds_sub2", displayLine), "BeforeCanvasUi", null);
             ApplyNativeLiterals();
         }
 
@@ -260,6 +311,14 @@ namespace Kibukawa.Engine.Gmode20050117
                 __result = target;
                 localizationHits++;
             }
+        }
+
+        /// <summary>Translate a complete CanvasEx status line before native measurement.</summary>
+        protected static void BeforeCanvasUi(ref string __1)
+        {
+            if (!ready || __1 == null) return;
+            string target;
+            if (pack.TryUi(__1, out target) && !string.IsNullOrEmpty(target)) __1 = target;
         }
 
         /// <summary>Canonical script name: the loader argument without directory or extension.</summary>
@@ -327,6 +386,50 @@ namespace Kibukawa.Engine.Gmode20050117
             substituted++;
         }
 
+        /// <summary>
+        /// The original serializer converts every Namae_nafuda entry to CP932. Several
+        /// Simplified-Chinese glyphs have no CP932 representation, so let it see the
+        /// source Japanese names while retaining an exact snapshot for the live UI.
+        /// </summary>
+        protected static void BeforeSaveNames(object __instance, out NameSaveState __state)
+        {
+            __state = null;
+            if (!ready || __instance == null) return;
+            string[] names = (string[])F("Namae_nafuda").GetValue(__instance);
+            if (names == null) return;
+            __state = new NameSaveState { Values = (string[])names.Clone() };
+            for (int i = 0; i < names.Length; i++) names[i] = pack.NameForSave(names[i]);
+        }
+
+        private static void RestoreSavedNames(object __instance, NameSaveState state)
+        {
+            if (state == null || state.Restored || state.Values == null || __instance == null) return;
+            state.Restored = true;
+            string[] names = (string[])F("Namae_nafuda").GetValue(__instance);
+            if (names == null) return;
+            Array.Copy(state.Values, names, Math.Min(state.Values.Length, names.Length));
+        }
+
+        protected static void AfterSaveNames(object __instance, NameSaveState __state)
+        {
+            RestoreSavedNames(__instance, __state);
+        }
+
+        protected static Exception AfterSaveNamesError(object __instance, NameSaveState __state,
+                                                        Exception __exception)
+        {
+            RestoreSavedNames(__instance, __state);
+            return __exception;
+        }
+
+        protected static void AfterLoadNames(object __instance)
+        {
+            if (!ready || __instance == null) return;
+            string[] names = (string[])F("Namae_nafuda").GetValue(__instance);
+            if (names == null) return;
+            for (int i = 0; i < names.Length; i++) names[i] = pack.NameAfterLoad(names[i]);
+        }
+
         protected static void AfterLoad(object __instance)
         {
             // Reserved for script identity work; substitution is keyed on the source
@@ -353,9 +456,17 @@ namespace Kibukawa.Engine.Gmode20050117
         protected static void BeforeStock(object __instance, ref string __0)
         {
             if (!ready || __0 == null) return;
+            // CanvasEx::BUNSYOU has already added the Japanese argument length to
+            // SyoriMojiCount before this prefix runs.  That counter gates every line
+            // terminator and is decremented by the native character printer.  If the
+            // replacement is shorter, leaving the source length here makes the VM wait
+            // forever after the last Chinese glyph (and repeatedly play the text sound).
+            int sourceLength = __0.Length;
             LineState state = states.GetOrCreateValue(__instance);
             if (state.NewLine)
             {
+                int row = Number(__instance, "NowStockMojiDan");
+                state.Layouts.Remove(row);
                 state.NewLine = false;
                 state.Total = 0;
                 state.Translated = false;
@@ -373,6 +484,8 @@ namespace Kibukawa.Engine.Gmode20050117
                         ? null
                         : target.Split(RuntimePack.RunSeparator);
                     __0 = state.Runs == null ? target : state.Runs[0];
+                    RuntimePack.LayoutLine layout;
+                    if (pack.TryLayout(currentScript, lineOffset, out layout)) state.Layouts[row] = layout;
                     substituted++;
                 }
             }
@@ -390,6 +503,12 @@ namespace Kibukawa.Engine.Gmode20050117
                     // run was already stocked, or the line is one colour throughout.
                     __0 = string.Empty;
                 }
+            }
+            int countDelta = __0.Length - sourceLength;
+            if (countDelta != 0)
+            {
+                F("SyoriMojiCount").SetValue(
+                    __instance, Number(__instance, "SyoriMojiCount") + countDelta);
             }
             state.Total += __0.Length;
             int limit = Number(__instance, "BunsyouNagasaMax");
@@ -412,6 +531,36 @@ namespace Kibukawa.Engine.Gmode20050117
             states.GetOrCreateValue(__instance).ColourRun++;
         }
 
+        /// <summary>Advance the translated run when F7 restores BaseMojiColor.</summary>
+        protected static void BeforeF7(object __instance)
+        {
+            if (!ready) return;
+            bool ruby = Convert.ToBoolean(F("NowRubiChu").GetValue(__instance));
+            bool colour = Convert.ToBoolean(F("NowMojiColorChangeChu").GetValue(__instance));
+            if (!ruby && colour) states.GetOrCreateValue(__instance).ColourRun++;
+        }
+
+        /// <summary>
+        /// Remove the ordinary dialogue pagination click from full-screen text.
+        ///
+        /// The native handler must still run while glyph reveal or fade is active.
+        /// Once both have completed, returning false releases its MainTask/SubTask
+        /// wait state without consuming input or displaying the click cursor.
+        /// Vertical modes 1 and 2 are the engine's full-screen layouts; mode 0 is the
+        /// ordinary bottom dialogue box and retains every authored COLON wait.
+        /// </summary>
+        protected static bool BeforeColon(object __instance)
+        {
+            if (!ready || __instance == null || Number(__instance, "MojiHani_tate") == 0
+                || Number(__instance, "SyoriMojiCount") >= 0
+                || Convert.ToBoolean(F("NowFadeChu").GetValue(__instance))) return true;
+            F("MainTask").SetValue(__instance, 0);
+            F("SubTask").SetValue(__instance, 0);
+            F("SysCursor_enable").SetValue(__instance, false);
+            F("OsippanasiKinsi").SetValue(__instance, false);
+            return false;
+        }
+
         /// <summary>Postfix on the handlers that advance NowStockMojiDan: a line just ended.</summary>
         protected static void AfterLine(object __instance)
         {
@@ -430,40 +579,205 @@ namespace Kibukawa.Engine.Gmode20050117
         }
 
         /// <summary>
-        /// Suppress the Japanese ruby of a translated line.
+        /// Suppress all Japanese ruby while the Chinese runtime is active.
         ///
         /// CanvasEx::BUNSYOU_RUBI records rubi_info_start[i] = RubiCreateCounter and then
         /// rubi_info_kazu[i] = CreateRubiTexture(...) - start, so returning the counter
         /// unchanged makes the ruby cell count zero and the native ruby draw loop has
         /// nothing to draw. No texture is allocated and the script's ruby metadata stays
-        /// exactly as shipped; untranslated lines keep their ruby.
-        ///
-        /// The ruby command precedes its base BUNSYOU, and by the time the texture is
-        /// built the operands are consumed, so Pos is exactly the base command's offset.
+        /// exactly as shipped. This is deliberately independent of script offsets and
+        /// translation lookup: furigana has no place in the Chinese edition.
         /// </summary>
         protected static bool BeforeCreateRubi(object __instance, ref int __result)
         {
             if (!ready) return true;
-            string target;
-            int fragments;
-            if (!pack.TryLine(currentScript, Number(__instance, "Pos"), out target, out fragments)
-                || string.IsNullOrEmpty(target)) return true;
             __result = Number(__instance, "RubiCreateCounter");
             rubySuppressed++;
             return false;
+        }
+
+        /// <summary>
+        /// Give Latin letters and digits the same geometry as the eighth game.  The
+        /// script still owns character order, colour and timing; only the draw position
+        /// changes.  Visual Han/Latin boundary gaps avoid adding buffer cells and keep
+        /// every scenario/save offset immutable.
+        ///
+        /// The native last-row origin is y=222. Its lowest outline pass reaches y=236;
+        /// a 16px KBF2 glyph extends four pixels below the game's 12px baseline and
+        /// therefore reaches the screen edge. The DrawChar hook lifts only ADV atlas
+        /// glyphs by three pixels, leaving rows 237-239 blank without moving shell UI.
+        /// </summary>
+        protected static void BeforeAdvDraw(object __instance, int __1, int __2, ref int __3, ref int __4,
+                                            out bool __state)
+        {
+            __state = dialogueDraw;
+            dialogueDraw = true;
+            if (!ready) return;
+            string[] lines = (string[])F("Bun_moji").GetValue(__instance);
+            if (lines == null || __2 < 0 || __2 >= lines.Length || String.IsNullOrEmpty(lines[__2])
+                || __1 < 0 || __1 >= lines[__2].Length) return;
+
+            string text = lines[__2];
+            int rowWidth = LatinMetrics.Advance(text, text.Length);
+            int align = Number(__instance, "MojiHani_yoko");
+            RuntimePack.LayoutLine layout;
+            if (align == 0 && states.GetOrCreateValue(__instance).Layouts.TryGetValue(__2, out layout)
+                && layout.Text.StartsWith(text, StringComparison.Ordinal) && __1 < layout.X.Length)
+            {
+                __3 = layout.X[__1];
+                __4 += layout.RowDelta[__1] * (StaticNumber("FHeight") + 8);
+                return;
+            }
+            int start;
+            if (align == 0)
+            {
+                // Rows are stocked progressively in this VM. Measuring the rows that
+                // happen to exist this frame would move earlier text when a wider row
+                // appears. BunsyouNagasaMax is the authored fixed block width; all 7298
+                // translated rows fit its 17px grid, including their boundary blanks.
+                int blockWidth = Math.Max(rowWidth, Number(__instance, "BunsyouNagasaMax") * 17);
+                start = (240 - blockWidth) / 2;
+            }
+            else if (align == 3) start = 0;
+            else if (align == 2) start = 240 - rowWidth;
+            else start = (240 - rowWidth) / 2;
+
+            __3 = start + LatinMetrics.Advance(text, __1);
+        }
+
+        protected static void RestoreAdvDraw(bool __state) { dialogueDraw = __state; }
+
+        protected static void AfterClearText(object __instance) { states.Remove(__instance); }
+
+        protected static void BeforeNameplatePosition(object __instance, ref int __1, ref int __2, out bool __state)
+        {
+            BeforeNameplateDraw(out __state);
+            if (!ready || Number(__instance, "MojiHani_yoko") != 0) return;
+            RuntimePack.LayoutLine layout;
+            if (states.GetOrCreateValue(__instance).Layouts.TryGetValue(0, out layout))
+            {
+                __1 = layout.X[0];
+                __2 += layout.NameShift * (StaticNumber("FHeight") + 8);
+            }
+        }
+
+        protected static void BeforeNameplateDraw(out bool __state)
+        {
+            __state = nameplateDraw;
+            nameplateDraw = true;
+        }
+
+        protected static void RestoreNameplateDraw(bool __state) { nameplateDraw = __state; }
+
+        protected static bool BeforeChoiceCenter(object __instance, object __0, int __1, int __2, int __3)
+        { return DrawChoice(__instance, __0, __1, 0, __2, __3, true); }
+
+        protected static bool BeforeChoiceLeft(object __instance, object __0, int __1, int __2, int __3, int __4)
+        { return DrawChoice(__instance, __0, __1, __2, __3, __4, false); }
+
+        /// <summary>
+        /// Draw every choice label with the eighth game's 12px-font metrics.  The
+        /// native code measures CP932 bytes, so a Simplified-Chinese character that
+        /// cannot be encoded can otherwise truncate the measured width and move or
+        /// clip even an all-CJK choice.
+        /// </summary>
+        protected static bool DrawChoice(object canvas, object graphics, int index, int x, int y,
+                                         int color, bool centered)
+        {
+            if (!ready || graphics == null) return true;
+            string[] choices = (string[])F("Sentaku_nafuda").GetValue(canvas);
+            if (choices == null || index < 0 || index >= choices.Length || String.IsNullOrEmpty(choices[index]))
+                return true;
+            string text = choices[index];
+
+            int width = SmallAdvance(text, text.Length);
+            if (centered) x = (StaticNumber("Width") - width) / 2;
+            y += StaticNumber("FAscent") - StaticNumber("FDocomo") / 2;
+
+            MethodInfo draw = AccessTools.Method(graphics.GetType(), "DrawString",
+                new[] { typeof(string), typeof(int), typeof(int) });
+            MethodInfo setColor = AccessTools.Method(canvasType, "SetColor",
+                new[] { graphicsType, typeof(int) });
+            if (draw == null || setColor == null) return true;
+
+            // These are the shipped ninth-game outline passes. Only the advances
+            // change; outline shape, baseline and both colour layers stay native.
+            int[,] outline = {
+                { 0, 1 }, { -1, 0 }, { 0, -1 }, { 1, 0 }, { -1, -1 },
+                { 1, -1 }, { 2, -1 }, { 2, 0 }, { -1, 1 }, { 2, 1 },
+                { 0, 2 }, { 1, 2 }, { 2, 2 }
+            };
+            string model = (string)F("model").GetValue(canvas) ?? String.Empty;
+            if (!model.StartsWith("N9", StringComparison.Ordinal) &&
+                !model.StartsWith("P9", StringComparison.Ordinal) &&
+                !model.StartsWith("X", StringComparison.Ordinal))
+            {
+                setColor.Invoke(canvas, new object[] { graphics, 0 });
+                for (int pass = 0; pass < outline.GetLength(0); pass++)
+                    DrawChoicePass(graphics, draw, text, x + outline[pass, 0], y + outline[pass, 1]);
+            }
+
+            int shadow = (color >> 1) & 0x777777;
+            setColor.Invoke(canvas, new object[] { graphics, shadow });
+            DrawChoicePass(graphics, draw, text, x + 1, y);
+            DrawChoicePass(graphics, draw, text, x + 1, y + 1);
+            setColor.Invoke(canvas, new object[] { graphics, color });
+            DrawChoicePass(graphics, draw, text, x, y);
+            return false;
+        }
+
+        private static void DrawChoicePass(object graphics, MethodInfo draw, string text, int x, int y)
+        {
+            for (int i = 0; i < text.Length; i++)
+            {
+                char c = text[i];
+                if (c != ' ' && c != '　')
+                    draw.Invoke(graphics, new object[] {
+                        LatinMetrics.Display(c).ToString(), x + SmallAdvance(text, i), y });
+            }
+        }
+
+        private static int SmallAdvance(string text, int end)
+        {
+            if (String.IsNullOrEmpty(text) || end <= 0) return 0;
+            end = Math.Min(end, text.Length);
+            int width = 0;
+            for (int i = 0; i < end; i++)
+            {
+                if (i > 0 && SmallBoundary(text[i - 1], text[i])) width += 6;
+                char c = text[i];
+                width += c == ' ' || c == '　' ? 6 : LatinMetrics.Narrow(c) ? 7 : 13;
+            }
+            if (end < text.Length && SmallBoundary(text[end - 1], text[end])) width += 6;
+            return width;
+        }
+
+        private static bool SmallBoundary(char left, char right)
+        {
+            return SmallHan(left) && LatinMetrics.Narrow(right)
+                || LatinMetrics.Narrow(left) && SmallHan(right);
+        }
+
+        private static bool SmallHan(char c)
+        {
+            return c >= '\u3400' && c <= '\u9fff' || c >= '\uf900' && c <= '\ufaff' || c == '〇';
         }
 
         /// <summary>True keeps the original DrawCharImpl for this draw.</summary>
         protected static bool BeforeDraw(object __instance, char[] __0, int __1, int __2)        {
             if (!ready || __0 == null || __0.Length == 0) return true;
             Vector2 origin = (Vector2)drawOrigin.GetValue(__instance);
-            return LegacyFontRenderer.Draw(__instance, __0, __1 + (int)origin.x, __2 + (int)origin.y, null, font);
+            int lift = dialogueDraw ? 3 : 0;
+            BitmapFontAtlas uiFont = dialogueDraw || nameplateDraw ? null : smallFont;
+            return LegacyFontRenderer.Draw(__instance, __0, __1 + (int)origin.x,
+                                           __2 + (int)origin.y - lift, null, font, 1f, uiFont);
         }
 
         protected virtual void OnDestroy()
         {
             ready = false;
             if (font != null) { font.Dispose(); font = null; }
+            if (smallFont != null) { smallFont.Dispose(); smallFont = null; }
             if (harmony != null) { harmony.UnpatchSelf(); harmony = null; }
         }
     }

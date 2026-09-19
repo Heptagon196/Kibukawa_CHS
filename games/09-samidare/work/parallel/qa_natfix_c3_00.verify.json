@@ -1,0 +1,17 @@
+{
+ "script": "c3_00",
+ "batch": "qa_natfix_c3_00.trans.json",
+ "verdict": "pass",
+ "basis": "full Chinese-readability review (work/qa_full/_natural_round.md): 选项里的「生产」会被读成\"制造\"; 同一句再现，须与选项一致; 「勉强生产」不成话; 同上，runs 同步; 同上; 「…心に決めたのも」的「也」无所指; 「很遗憾」被挂到白鹭洲君身上; 「动摇」无所指且是假朋友",
+ "offsets": [
+  686,
+  1221,
+  1440,
+  6601,
+  8911,
+  9559,
+  9730,
+  14809
+ ],
+ "issues": []
+}

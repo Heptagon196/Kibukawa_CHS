@@ -11,6 +11,7 @@ aliases here. Without that the enforcer would look for Chinese names inside Japa
 source lines and report nothing at all.
 """
 import json
+import re
 import sys
 from pathlib import Path
 
@@ -72,21 +73,44 @@ def name_render_check(rows, table):
     伊纲, so every simplified form reads as "not preserved". The rule that actually holds
     in this project is the glossary's own: where a character's ``canonical`` appears in
     the source line, the line's translation must carry that entry's ``render``.
+
+    Two guards keep the result usable, both learned from the first run:
+
+    * a name may legitimately sit on the neighbouring display line, because Chinese word
+      order moves it across the hard-wrapped break, so the render is looked for across the
+      line and its immediate neighbours;
+    * an entry whose canonical is a short run of kana matches inside ordinary words — the
+      series glossary's みに fires on 人並みに, 巧みに, ちなみに — so those are skipped.
     """
+    kana_only = re.compile(r'^[\u3041-\u309F\u30A0-\u30FF\u30FC]+$')
     pairs = [(entry.get('canonical'), entry.get('render'), entry.get('category'))
              for entry in table['characters']]
     pairs = [(src, dst, category) for src, dst, category in pairs
-             if src and dst and src != dst]
-    found = []
+             if src and dst and src != dst
+             and not (kana_only.match(src) and len(src) <= 3)]
+    skipped = sorted({entry['canonical'] for entry in table['characters']
+                      if entry.get('canonical') and entry.get('render')
+                      and entry['canonical'] != entry['render']
+                      and kana_only.match(entry['canonical']) and len(entry['canonical']) <= 3})
+    if skipped:
+        print('   (skipped short kana entries that match inside ordinary words: %s)'
+              % ', '.join(skipped))
+    by_script = {}
     for row in rows:
-        if row['translation_status'] != 1:
-            continue
-        source, target = row['source_text'], row['translated_text'] or ''
-        for src, dst, category in pairs:
-            if src in source and dst not in target:
-                found.append(dict(kind='render_missing', script=row['script'],
-                                  offset=row['offset'], name=src, expected=dst,
-                                  category=category, source=source, target=target))
+        by_script.setdefault(row.get('script'), []).append(row)
+    found = []
+    for script, script_rows in by_script.items():
+        for index, row in enumerate(script_rows):
+            if row['translation_status'] != 1:
+                continue
+            source, target = row['source_text'], row['translated_text'] or ''
+            window = ''.join((r['translated_text'] or '')
+                             for r in script_rows[max(0, index - 1):index + 2])
+            for src, dst, category in pairs:
+                if src in source and dst not in window:
+                    found.append(dict(kind='render_missing', script=script,
+                                      offset=row['offset'], name=src, expected=dst,
+                                      category=category, source=source, target=target))
     return found
 
 

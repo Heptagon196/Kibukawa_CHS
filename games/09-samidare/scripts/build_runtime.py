@@ -20,15 +20,22 @@ SOURCES = [
     'engine/adapters/gmode-v2/src/BitmapFontAtlas.cs',
     'engine/adapters/gmode-v2/src/LegacyFontRenderer.cs',
     'engine/adapters/gmode-v2/src/MenuMemory.cs',
+    'engine/adapters/gmode-v2/ui/src/UiLocalizationRuntime.cs',
     'engine/adapters/gmode-20050117/RuntimePack.cs',
     'engine/adapters/gmode-20050117/src/NativeChoiceMemory.cs',
+    'engine/adapters/gmode-20050117/src/LatinMetrics.cs',
     'engine/adapters/gmode-20050117/src/CanvasRuntime.cs',
+    'games/09-samidare/bepinex/src/UiLocalization.cs',
+    'games/09-samidare/bepinex/src/UiLocalizationData.cs',
     'games/09-samidare/bepinex/src/Plugin.cs',
 ]
 
 
 def main():
     p.validate_sources()
+    sys.path.insert(0, str(p.WORK / 'scripts'))
+    from generate_ui_data import generate
+    generate()
     config = p.load(p.WORK / 'project.json')
     bepinex = config['bepinex']
     profile = p.load(p.SERIES / 'engine/bepinex/profiles' / (bepinex['profile'] + '.json'))

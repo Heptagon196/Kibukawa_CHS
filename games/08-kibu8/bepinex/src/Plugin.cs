@@ -15,7 +15,7 @@ using Kibukawa.Engine.Gmode20050817;
 
 namespace Kibu8ZhCN
 {
-    [BepInPlugin("local.kibu8.zhcn", "Kibu8 Simplified Chinese", "0.5.68")]
+    [BepInPlugin("local.kibu8.zhcn", "Kibu8 Simplified Chinese", "0.5.70")]
     [BepInProcess("kibu8.exe")]
     public sealed class Plugin : CanvasRuntime
     {

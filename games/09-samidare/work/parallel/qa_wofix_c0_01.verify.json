@@ -1,0 +1,11 @@
+{
+ "script": "c0_01",
+ "batch": "qa_wofix_c0_01.trans.json",
+ "verdict": "pass",
+ "basis": "Chinese word-order review (work/qa_full/_word_order_round.md): 「就是一个姓／戴眼镜的青年」被读成\"姓戴眼镜\"; 光杆「吧？」落在已收束的句子之后；上一行已说「有位老板」，不能重复",
+ "offsets": [
+  1762,
+  9040
+ ],
+ "issues": []
+}

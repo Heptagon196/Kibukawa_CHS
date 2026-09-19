@@ -1,0 +1,13 @@
+{
+ "script": "c3_01",
+ "batch": "qa_natfix_c3_01.trans.json",
+ "verdict": "pass",
+ "basis": "full Chinese-readability review (work/qa_full/_natural_round.md): 「约两厘米大／经过特殊加工的金属」缺「的」; 「系在」搭配不成立; 货币单位被吞掉; 同一句再现",
+ "offsets": [
+  5970,
+  10314,
+  13946,
+  14048
+ ],
+ "issues": []
+}

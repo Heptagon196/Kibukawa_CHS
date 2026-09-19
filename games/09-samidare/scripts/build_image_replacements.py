@@ -63,6 +63,9 @@ def main() -> None:
     package = output / "package"
     plugin = package / "BepInEx/plugins/KibukawaImageReplacements"
     (plugin / "images").mkdir(parents=True, exist_ok=True)
+    sys.path.insert(0, str(p.WORK / "scripts"))
+    from build_help_pages import build_help_pages
+    help_report = build_help_pages(plugin / "images")
 
     assets = p.bundle_text_assets("kibu9_Data/StreamingAssets/scratchpad")
     p.require("scratch1.dat" in assets, "Missing scratch1.dat TextAsset")
@@ -128,6 +131,7 @@ def main() -> None:
         p.GAME / "kibu9_Data/resources.assets.resS",
         p.GAME / "kibu9_Data/globalgamemanagers.assets",
         scratchpad,
+        p.GAME / "kibu9_Data/StreamingAssets/prefab/howtoplay",
     ]
     (plugin / "image-sources.sha256").write_text("".join(
         p.sha(path.read_bytes()) + "  " + path.relative_to(p.GAME).as_posix() + "\n"
@@ -144,6 +148,7 @@ def main() -> None:
         p.WORK / "bepinex/src/ImageReplacementPlugin.cs",
         p.WORK / "bepinex/images/TitleBackground.cs",
         p.WORK / "bepinex/images/ShellCover.cs",
+        p.WORK / "bepinex/images/HowToPlayPages.cs",
     ]
     refs = ["mscorlib.dll", "System.dll", "System.Core.dll", "netstandard.dll", "UnityEngine.dll",
             "UnityEngine.CoreModule.dll", "UnityEngine.UI.dll", "UnityEngine.ImageConversionModule.dll"]
@@ -157,10 +162,11 @@ def main() -> None:
     subprocess.run([p.shell(), "-NoProfile", "-File",
                     str(p.SERIES / "games/08-kibu8/bepinex/tests/Run-ImageLifetimeTests.ps1")], check=True)
 
-    report = dict(schema=1, game="kibu9", version="1.0.0", package=str(package), entries=entries,
+    report = dict(schema=1, game="kibu9", version="1.0.1", package=str(package), entries=entries,
         title=dict(source=native["title"], png_sha256=p.sha(title_png.read_bytes()),
                    payload_sha256=p.sha(title_payload)),
         shell_cover=dict(source=native["titleimage"], png_sha256=p.sha(cover.read_bytes())),
+        help_pages=help_report,
         generation="images/generate_images.py with images/font-lock.json",
         runtime_visual_tested=False, binding_test=validation.stdout.strip(),
         source_hashes={path.relative_to(p.SERIES).as_posix(): p.sha(path.read_bytes()) for path in sources},

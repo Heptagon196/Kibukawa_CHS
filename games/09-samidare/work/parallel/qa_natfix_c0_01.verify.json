@@ -1,0 +1,10 @@
+{
+ "script": "c0_01",
+ "batch": "qa_natfix_c0_01.trans.json",
+ "verdict": "pass",
+ "basis": "full Chinese-readability review (work/qa_full/_natural_round.md): 凭空多出「他」，读者要猜是谁",
+ "offsets": [
+  9520
+ ],
+ "issues": []
+}

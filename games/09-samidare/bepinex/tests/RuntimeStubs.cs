@@ -1,6 +1,7 @@
 // Test-only dependencies for the ninth-game runtime regression.
 // Never included in the plugin build and never loads a game assembly.
 using System;
+using System.Collections.Generic;
 using System.Reflection;
 
 namespace BepInEx
@@ -51,6 +52,15 @@ namespace UnityEngine
     public struct Vector2 { public float x, y; public Vector2(float a, float b) { x = a; y = b; } }
 }
 
+public sealed class FakeGraphics
+{
+    public UnityEngine.Vector2 drawOrigin;
+    public readonly List<string> Text = new List<string>();
+    public readonly List<int> X = new List<int>();
+    public readonly List<int> Y = new List<int>();
+    public void DrawString(string text, int x, int y) { Text.Add(text); X.Add(x); Y.Add(y); }
+}
+
 namespace Kibu1ZhCN
 {
     public sealed class BitmapFontAtlas
@@ -61,9 +71,11 @@ namespace Kibu1ZhCN
     }
     public static class LegacyFontRenderer
     {
+        public static int X, Y;
+        public static BitmapFontAtlas Small;
         public static bool Draw(object graphics, char[] text, int x, int y, object fallback,
                                 BitmapFontAtlas bitmap = null, float scale = 1f,
-                                BitmapFontAtlas small = null, float? top = null) { return false; }
+                                BitmapFontAtlas small = null, float? top = null) { X = x; Y = y; Small = small; return false; }
     }
 }
 
@@ -87,6 +99,16 @@ namespace Kibukawa.Engine.Gmode20050117
         public int NowPrintingKeta;
         public int SyoriMojiCount;
         public int RubiCreateCounter;
+        public int MainTask;
+        public int SubTask;
+        public bool SysCursor_enable;
+        public bool OsippanasiKinsi;
+        public bool NowFadeChu;
+        public int MojiHani_tate;
+        public int MojiHani_yoko;
+        public string[] Sentaku_nafuda = new string[8];
+        public string[] Namae_nafuda = new string[20];
+        public string model = "";
         public string[] Bun_moji = new string[Lines];
         public int[] Bun_nagasa = new int[Lines];
         public int[][] Bun_iro = NewPlanes();
@@ -96,10 +118,16 @@ namespace Kibukawa.Engine.Gmode20050117
         public static int FWidth = 17;
         public static int FHeight = 16;
         public static int FAscent = 12;
+        public static int FDocomo = 12;
+        public static int Width = 240;
+        public readonly List<int> Colours = new List<int>();
         /// <summary>Colour the next stocked characters carry, as BUNSYOU_IRO sets it.</summary>
         public int CurrentColour = 1;
         /// <summary>The operand the next BUNSYOU_IRO reads from the script.</summary>
         public int NextColour = 1;
+        public bool NowRubiChu;
+        public bool NowMojiColorChangeChu;
+        public int BaseMojiColor = 1;
         /// <summary>Same literals CanvasEx::.cctor writes into its soft-key array.</summary>
         public static string[] command = { "", "", "戻る", "♪ 0", "♪ 1", "♪ 2", "♪ 3" };
 
@@ -126,11 +154,38 @@ namespace Kibukawa.Engine.Gmode20050117
                 Bun_jikan[dan][slot] = 0;
             }
             NowStockMojiKeta += text.Length;
-            SyoriMojiCount += text.Length;
+        }
+
+        /// <summary>
+        /// CanvasEx::BUNSYOU increments this before it calls BunsyouStock.  Keeping the
+        /// operation here, separate from BunsyouStock, is important: the production
+        /// Harmony prefix sees the translated argument only after the native counter
+        /// has already been charged for the Japanese source string.
+        /// </summary>
+        public void CountSource(string text) { SyoriMojiCount += text.Length; }
+
+        /// <summary>
+        /// The printer consumes every stored character and then one end-of-line step.
+        /// Line terminators advance only after SyoriMojiCount becomes negative.
+        /// </summary>
+        public void RevealStockedLine(int dan)
+        {
+            SyoriMojiCount -= (Bun_moji[dan] ?? string.Empty).Length + 1;
         }
 
         /// <summary>Native CanvasEx::BUNSYOU_IRO: recolour the characters stocked after it.</summary>
-        public void BUNSYOU_IRO() { CurrentColour = NextColour; }
+        public void BUNSYOU_IRO() { CurrentColour = NextColour; NowMojiColorChangeChu = true; }
+        public void BUNSYOU_RUBI() { NowRubiChu = true; }
+        public void BUNSYOU_F7()
+        {
+            if (NowRubiChu) NowRubiChu = false;
+            else if (NowMojiColorChangeChu)
+            {
+                CurrentColour = BaseMojiColor;
+                NowMojiColorChangeChu = false;
+            }
+        }
+        public void SetColor(FakeGraphics graphics, int colour) { Colours.Add(colour); }
 
         /// <summary>The terminators that advance the dan index in the shipped game.</summary>
         public void EndLine() { NowStockMojiKeta = 0; NowStockMojiDan++; }

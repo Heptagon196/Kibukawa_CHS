@@ -1,7 +1,21 @@
 {
   "schema": 1,
-  "note": "Display lines whose text is recoloured part-way through by BUNSYOU_IRO. The opening run carries no colour because an earlier command set it, so the split points and the colours that follow them are what is recorded. The emphasis falls on a clue or a name and must stay on the same words.",
+  "note": "Display lines whose effective text colour changes part-way through. BUNSYOU_IRO starts an override and BUNSYOU_F7 restores the base colour after ruby closes. Runs carry their effective colour and must stay on the same semantic content in translation.",
   "lines": [
+    {
+      "script": "c0_00",
+      "offset": 1537,
+      "runs": [
+        {
+          "colour": 2,
+          "text": "癸生川探偵事務所"
+        },
+        {
+          "colour": null,
+          "text": "へと"
+        }
+      ]
+    },
     {
       "script": "c0_00",
       "offset": 2293,
@@ -12,7 +26,25 @@
         },
         {
           "colour": 2,
-          "text": "おじさん、誰？"
+          "text": "おじさん"
+        },
+        {
+          "colour": null,
+          "text": "、誰？"
+        }
+      ]
+    },
+    {
+      "script": "c0_00",
+      "offset": 2362,
+      "runs": [
+        {
+          "colour": 2,
+          "text": "おじさん"
+        },
+        {
+          "colour": null,
+          "text": "って"
         }
       ]
     },
@@ -26,7 +58,11 @@
         },
         {
           "colour": 2,
-          "text": "伊綱君！"
+          "text": "伊綱"
+        },
+        {
+          "colour": null,
+          "text": "君！"
         }
       ]
     },
@@ -46,6 +82,62 @@
     },
     {
       "script": "c0_00",
+      "offset": 4248,
+      "runs": [
+        {
+          "colour": 2,
+          "text": "癸生川凌介事件譚"
+        },
+        {
+          "colour": null,
+          "text": "って"
+        }
+      ]
+    },
+    {
+      "script": "c0_00",
+      "offset": 4910,
+      "runs": [
+        {
+          "colour": 2,
+          "text": "迷子"
+        },
+        {
+          "colour": null,
+          "text": "みたいなんです。"
+        }
+      ]
+    },
+    {
+      "script": "c0_00",
+      "offset": 6724,
+      "runs": [
+        {
+          "colour": 2,
+          "text": "６～７歳"
+        },
+        {
+          "colour": null,
+          "text": "といった"
+        }
+      ]
+    },
+    {
+      "script": "c0_00",
+      "offset": 8243,
+      "runs": [
+        {
+          "colour": 2,
+          "text": "白鷺洲伊綱"
+        },
+        {
+          "colour": null,
+          "text": "だ。"
+        }
+      ]
+    },
+    {
+      "script": "c0_00",
       "offset": 11150,
       "runs": [
         {
@@ -54,7 +146,39 @@
         },
         {
           "colour": 2,
-          "text": "それ、"
+          "text": "それ"
+        },
+        {
+          "colour": null,
+          "text": "、"
+        }
+      ]
+    },
+    {
+      "script": "c0_00",
+      "offset": 11434,
+      "runs": [
+        {
+          "colour": 2,
+          "text": "携帯電話"
+        },
+        {
+          "colour": null,
+          "text": "だ…。"
+        }
+      ]
+    },
+    {
+      "script": "c0_00",
+      "offset": 14597,
+      "runs": [
+        {
+          "colour": 2,
+          "text": "その理由"
+        },
+        {
+          "colour": null,
+          "text": "もなんとなく"
         }
       ]
     },
@@ -74,6 +198,20 @@
     },
     {
       "script": "c0_00",
+      "offset": 14960,
+      "runs": [
+        {
+          "colour": 2,
+          "text": "から"
+        },
+        {
+          "colour": null,
+          "text": "、じゃないで"
+        }
+      ]
+    },
+    {
+      "script": "c0_00",
       "offset": 16028,
       "runs": [
         {
@@ -82,7 +220,11 @@
         },
         {
           "colour": 2,
-          "text": "家出して"
+          "text": "家出"
+        },
+        {
+          "colour": null,
+          "text": "して"
         }
       ]
     },
@@ -96,7 +238,39 @@
         },
         {
           "colour": 2,
-          "text": "理由も"
+          "text": "理由"
+        },
+        {
+          "colour": null,
+          "text": "も"
+        }
+      ]
+    },
+    {
+      "script": "c0_00",
+      "offset": 17378,
+      "runs": [
+        {
+          "colour": 2,
+          "text": "遊び"
+        },
+        {
+          "colour": null,
+          "text": "に来てただけ"
+        }
+      ]
+    },
+    {
+      "script": "c0_00",
+      "offset": 17551,
+      "runs": [
+        {
+          "colour": 2,
+          "text": "家出"
+        },
+        {
+          "colour": null,
+          "text": "をしてきたとか!?"
         }
       ]
     },
@@ -124,7 +298,11 @@
         },
         {
           "colour": 2,
-          "text": "観察して"
+          "text": "観察"
+        },
+        {
+          "colour": null,
+          "text": "して"
         }
       ]
     },
@@ -138,7 +316,11 @@
         },
         {
           "colour": 2,
-          "text": "泉！"
+          "text": "泉"
+        },
+        {
+          "colour": null,
+          "text": "！"
         }
       ]
     },
@@ -152,7 +334,11 @@
         },
         {
           "colour": 2,
-          "text": "泉君って"
+          "text": "泉"
+        },
+        {
+          "colour": null,
+          "text": "君って"
         }
       ]
     },
@@ -161,7 +347,7 @@
       "offset": 21644,
       "runs": [
         {
-          "colour": null,
+          "colour": 3,
           "text": "セーブに"
         },
         {
@@ -184,7 +370,11 @@
         },
         {
           "colour": 2,
-          "text": "リュウタさん"
+          "text": "リュウタ"
+        },
+        {
+          "colour": null,
+          "text": "さん"
         }
       ]
     },
@@ -198,7 +388,39 @@
         },
         {
           "colour": 2,
-          "text": "オーナーが"
+          "text": "オーナー"
+        },
+        {
+          "colour": null,
+          "text": "が"
+        }
+      ]
+    },
+    {
+      "script": "c0_01",
+      "offset": 1905,
+      "runs": [
+        {
+          "colour": 2,
+          "text": "御堂丸将云"
+        },
+        {
+          "colour": null,
+          "text": "っていう人が"
+        }
+      ]
+    },
+    {
+      "script": "c0_01",
+      "offset": 4929,
+      "runs": [
+        {
+          "colour": 2,
+          "text": "永劫会事件"
+        },
+        {
+          "colour": null,
+          "text": "ですかねえ。"
         }
       ]
     },
@@ -212,7 +434,81 @@
         },
         {
           "colour": 2,
-          "text": "らっこさん"
+          "text": "らっこ"
+        },
+        {
+          "colour": null,
+          "text": "さん"
+        }
+      ]
+    },
+    {
+      "script": "c0_01",
+      "offset": 5773,
+      "runs": [
+        {
+          "colour": 2,
+          "text": "理由"
+        },
+        {
+          "colour": null,
+          "text": "があるとか…。"
+        }
+      ]
+    },
+    {
+      "script": "c0_01",
+      "offset": 9068,
+      "runs": [
+        {
+          "colour": 2,
+          "text": "メガネの青年"
+        },
+        {
+          "colour": null,
+          "text": "が…。"
+        }
+      ]
+    },
+    {
+      "script": "c0_01",
+      "offset": 9824,
+      "runs": [
+        {
+          "colour": 2,
+          "text": "螻川内"
+        },
+        {
+          "colour": null,
+          "text": "だと名乗った。"
+        }
+      ]
+    },
+    {
+      "script": "c0_01",
+      "offset": 9926,
+      "runs": [
+        {
+          "colour": 2,
+          "text": "８年前の約束"
+        },
+        {
+          "colour": null,
+          "text": "を果たしに"
+        }
+      ]
+    },
+    {
+      "script": "c0_01",
+      "offset": 10119,
+      "runs": [
+        {
+          "colour": 2,
+          "text": "２人の探偵"
+        },
+        {
+          "colour": null,
+          "text": "がいたと"
         }
       ]
     },
@@ -235,7 +531,7 @@
       "offset": 11057,
       "runs": [
         {
-          "colour": null,
+          "colour": 3,
           "text": "セーブに"
         },
         {
@@ -258,7 +554,25 @@
         },
         {
           "colour": 2,
-          "text": "白鷺洲涼二。"
+          "text": "白鷺洲涼二"
+        },
+        {
+          "colour": null,
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "script": "c1_00",
+      "offset": 4697,
+      "runs": [
+        {
+          "colour": 2,
+          "text": "川瀬莉沙"
+        },
+        {
+          "colour": null,
+          "text": "です！"
         }
       ]
     },
@@ -272,7 +586,11 @@
         },
         {
           "colour": 2,
-          "text": "楽しそうだ。"
+          "text": "楽しそう"
+        },
+        {
+          "colour": null,
+          "text": "だ。"
         }
       ]
     },
@@ -286,7 +604,11 @@
         },
         {
           "colour": 2,
-          "text": "ウソは通じないぞ。"
+          "text": "ウソ"
+        },
+        {
+          "colour": null,
+          "text": "は通じないぞ。"
         }
       ]
     },
@@ -300,7 +622,11 @@
         },
         {
           "colour": 2,
-          "text": "癸生川凌介。"
+          "text": "癸生川凌介"
+        },
+        {
+          "colour": null,
+          "text": "。"
         }
       ]
     },
@@ -314,7 +640,11 @@
         },
         {
           "colour": 2,
-          "text": "見抜くぞ！"
+          "text": "見抜く"
+        },
+        {
+          "colour": null,
+          "text": "ぞ！"
         }
       ]
     },
@@ -328,7 +658,25 @@
         },
         {
           "colour": 2,
-          "text": "本当の感情を"
+          "text": "本当の感情"
+        },
+        {
+          "colour": null,
+          "text": "を"
+        }
+      ]
+    },
+    {
+      "script": "c1_00",
+      "offset": 10707,
+      "runs": [
+        {
+          "colour": 2,
+          "text": "視る"
+        },
+        {
+          "colour": null,
+          "text": "だけでいい！"
         }
       ]
     },
@@ -343,6 +691,34 @@
         {
           "colour": 2,
           "text": "本人が"
+        }
+      ]
+    },
+    {
+      "script": "c1_00",
+      "offset": 10950,
+      "runs": [
+        {
+          "colour": 2,
+          "text": "気付いていない感情"
+        },
+        {
+          "colour": null,
+          "text": "にも"
+        }
+      ]
+    },
+    {
+      "script": "c1_00",
+      "offset": 13491,
+      "runs": [
+        {
+          "colour": 2,
+          "text": "視た"
+        },
+        {
+          "colour": null,
+          "text": "のか？"
         }
       ]
     },
@@ -365,7 +741,7 @@
       "offset": 15014,
       "runs": [
         {
-          "colour": null,
+          "colour": 3,
           "text": "セーブに"
         },
         {
@@ -375,6 +751,34 @@
         {
           "colour": 3,
           "text": "しました。"
+        }
+      ]
+    },
+    {
+      "script": "c1_01",
+      "offset": 636,
+      "runs": [
+        {
+          "colour": 2,
+          "text": "お気軽にどうぞ」"
+        },
+        {
+          "colour": null,
+          "text": "とも"
+        }
+      ]
+    },
+    {
+      "script": "c1_01",
+      "offset": 2592,
+      "runs": [
+        {
+          "colour": 2,
+          "text": "きぶかわ"
+        },
+        {
+          "colour": null,
+          "text": "、ですよ。"
         }
       ]
     },
@@ -394,6 +798,20 @@
     },
     {
       "script": "c1_01",
+      "offset": 3764,
+      "runs": [
+        {
+          "colour": 2,
+          "text": "白鷺洲涼二"
+        },
+        {
+          "colour": null,
+          "text": "といいます。"
+        }
+      ]
+    },
+    {
+      "script": "c1_01",
       "offset": 3896,
       "runs": [
         {
@@ -402,7 +820,53 @@
         },
         {
           "colour": 2,
-          "text": "螻川内です。"
+          "text": "螻川内"
+        },
+        {
+          "colour": null,
+          "text": "です。"
+        }
+      ]
+    },
+    {
+      "script": "c1_01",
+      "offset": 3962,
+      "runs": [
+        {
+          "colour": 2,
+          "text": "螻川内暁"
+        },
+        {
+          "colour": null,
+          "text": "といいます。"
+        }
+      ]
+    },
+    {
+      "script": "c1_01",
+      "offset": 4753,
+      "runs": [
+        {
+          "colour": 2,
+          "text": "行方をくらました"
+        },
+        {
+          "colour": null,
+          "text": "んで、"
+        }
+      ]
+    },
+    {
+      "script": "c1_01",
+      "offset": 5381,
+      "runs": [
+        {
+          "colour": 2,
+          "text": "螻川内忠雄"
+        },
+        {
+          "colour": null,
+          "text": "と"
         }
       ]
     },
@@ -436,6 +900,20 @@
     },
     {
       "script": "c1_01",
+      "offset": 7393,
+      "runs": [
+        {
+          "colour": 2,
+          "text": "詳しく知らない"
+        },
+        {
+          "colour": null,
+          "text": "…と"
+        }
+      ]
+    },
+    {
+      "script": "c1_01",
       "offset": 8226,
       "runs": [
         {
@@ -445,6 +923,20 @@
         {
           "colour": 2,
           "text": "父を訪ねて"
+        }
+      ]
+    },
+    {
+      "script": "c1_01",
+      "offset": 8259,
+      "runs": [
+        {
+          "colour": 2,
+          "text": "来た人"
+        },
+        {
+          "colour": null,
+          "text": "がいたんです。"
         }
       ]
     },
@@ -472,7 +964,11 @@
         },
         {
           "colour": 2,
-          "text": "結婚資金として"
+          "text": "結婚資金"
+        },
+        {
+          "colour": null,
+          "text": "として"
         }
       ]
     },
@@ -492,6 +988,20 @@
     },
     {
       "script": "c1_01",
+      "offset": 9535,
+      "runs": [
+        {
+          "colour": 2,
+          "text": "されていた"
+        },
+        {
+          "colour": null,
+          "text": "んです。"
+        }
+      ]
+    },
+    {
+      "script": "c1_01",
       "offset": 9627,
       "runs": [
         {
@@ -501,6 +1011,20 @@
         {
           "colour": 2,
           "text": "通帳と印鑑が"
+        }
+      ]
+    },
+    {
+      "script": "c1_01",
+      "offset": 9662,
+      "runs": [
+        {
+          "colour": 2,
+          "text": "無くなっていた"
+        },
+        {
+          "colour": null,
+          "text": "んです。"
         }
       ]
     },
@@ -528,7 +1052,11 @@
         },
         {
           "colour": 2,
-          "text": "彼女が"
+          "text": "彼女"
+        },
+        {
+          "colour": null,
+          "text": "が"
         }
       ]
     },
@@ -548,6 +1076,48 @@
     },
     {
       "script": "c1_01",
+      "offset": 11050,
+      "runs": [
+        {
+          "colour": 2,
+          "text": "援助"
+        },
+        {
+          "colour": null,
+          "text": "してあげようと"
+        }
+      ]
+    },
+    {
+      "script": "c1_01",
+      "offset": 12652,
+      "runs": [
+        {
+          "colour": 2,
+          "text": "あるはずだから"
+        },
+        {
+          "colour": null,
+          "text": "…と。"
+        }
+      ]
+    },
+    {
+      "script": "c1_01",
+      "offset": 12750,
+      "runs": [
+        {
+          "colour": 2,
+          "text": "待ちましょう"
+        },
+        {
+          "colour": null,
+          "text": "…と。"
+        }
+      ]
+    },
+    {
+      "script": "c1_01",
       "offset": 13191,
       "runs": [
         {
@@ -557,6 +1127,48 @@
         {
           "colour": 2,
           "text": "自分がこの人"
+        }
+      ]
+    },
+    {
+      "script": "c1_01",
+      "offset": 13254,
+      "runs": [
+        {
+          "colour": 2,
+          "text": "信じているだけだ"
+        },
+        {
+          "colour": null,
+          "text": "…と。"
+        }
+      ]
+    },
+    {
+      "script": "c1_01",
+      "offset": 13421,
+      "runs": [
+        {
+          "colour": 2,
+          "text": "同じことだ"
+        },
+        {
+          "colour": null,
+          "text": "、と。"
+        }
+      ]
+    },
+    {
+      "script": "c1_01",
+      "offset": 13577,
+      "runs": [
+        {
+          "colour": 2,
+          "text": "信じ貫いて生きなさい"
+        },
+        {
+          "colour": null,
+          "text": "…"
         }
       ]
     },
@@ -576,6 +1188,20 @@
     },
     {
       "script": "c1_01",
+      "offset": 15154,
+      "runs": [
+        {
+          "colour": 2,
+          "text": "クレフ製作所"
+        },
+        {
+          "colour": null,
+          "text": "という"
+        }
+      ]
+    },
+    {
+      "script": "c1_01",
       "offset": 15510,
       "runs": [
         {
@@ -584,7 +1210,11 @@
         },
         {
           "colour": 2,
-          "text": "クレフ製作所と"
+          "text": "クレフ製作所"
+        },
+        {
+          "colour": null,
+          "text": "と"
         }
       ]
     },
@@ -598,7 +1228,67 @@
         },
         {
           "colour": 2,
-          "text": "森慧美という"
+          "text": "森慧美"
+        },
+        {
+          "colour": null,
+          "text": "という"
+        }
+      ]
+    },
+    {
+      "script": "c1_01",
+      "offset": 16628,
+      "runs": [
+        {
+          "colour": 2,
+          "text": "多額の借金"
+        },
+        {
+          "colour": null,
+          "text": "だけが残って"
+        }
+      ]
+    },
+    {
+      "script": "c1_01",
+      "offset": 17006,
+      "runs": [
+        {
+          "colour": 2,
+          "text": "５００万円"
+        },
+        {
+          "colour": null,
+          "text": "ほど返済"
+        }
+      ]
+    },
+    {
+      "script": "c1_01",
+      "offset": 18973,
+      "runs": [
+        {
+          "colour": 2,
+          "text": "不安"
+        },
+        {
+          "colour": null,
+          "text": "なんですね？"
+        }
+      ]
+    },
+    {
+      "script": "c1_01",
+      "offset": 19675,
+      "runs": [
+        {
+          "colour": 2,
+          "text": "ありません"
+        },
+        {
+          "colour": null,
+          "text": "から。"
         }
       ]
     },
@@ -612,7 +1302,25 @@
         },
         {
           "colour": 2,
-          "text": "お母さんと"
+          "text": "お母さん"
+        },
+        {
+          "colour": null,
+          "text": "と"
+        }
+      ]
+    },
+    {
+      "script": "c1_01",
+      "offset": 21454,
+      "runs": [
+        {
+          "colour": 2,
+          "text": "森慧美さん"
+        },
+        {
+          "colour": null,
+          "text": "に会って話を"
         }
       ]
     },
@@ -626,7 +1334,11 @@
         },
         {
           "colour": 2,
-          "text": "喫茶店に向かった。"
+          "text": "喫茶店"
+        },
+        {
+          "colour": null,
+          "text": "に向かった。"
         }
       ]
     },
@@ -635,7 +1347,7 @@
       "offset": 22612,
       "runs": [
         {
-          "colour": null,
+          "colour": 3,
           "text": "セーブに"
         },
         {
@@ -658,7 +1370,11 @@
         },
         {
           "colour": 2,
-          "text": "綾子さんが"
+          "text": "綾子"
+        },
+        {
+          "colour": null,
+          "text": "さんが"
         }
       ]
     },
@@ -678,6 +1394,34 @@
     },
     {
       "script": "c2_00",
+      "offset": 1959,
+      "runs": [
+        {
+          "colour": 2,
+          "text": "前"
+        },
+        {
+          "colour": null,
+          "text": "から、大きく変わり"
+        }
+      ]
+    },
+    {
+      "script": "c2_00",
+      "offset": 3209,
+      "runs": [
+        {
+          "colour": 2,
+          "text": "尼子啓三"
+        },
+        {
+          "colour": null,
+          "text": "という男性は"
+        }
+      ]
+    },
+    {
+      "script": "c2_00",
       "offset": 5507,
       "runs": [
         {
@@ -692,6 +1436,20 @@
     },
     {
       "script": "c2_00",
+      "offset": 5562,
+      "runs": [
+        {
+          "colour": 2,
+          "text": "いる女性"
+        },
+        {
+          "colour": null,
+          "text": "のことは、"
+        }
+      ]
+    },
+    {
+      "script": "c2_00",
       "offset": 5618,
       "runs": [
         {
@@ -700,7 +1458,39 @@
         },
         {
           "colour": 2,
-          "text": "慧美さんの"
+          "text": "慧美"
+        },
+        {
+          "colour": null,
+          "text": "さんの"
+        }
+      ]
+    },
+    {
+      "script": "c2_00",
+      "offset": 6690,
+      "runs": [
+        {
+          "colour": 2,
+          "text": "するんじゃないよ"
+        },
+        {
+          "colour": null,
+          "text": "…と。"
+        }
+      ]
+    },
+    {
+      "script": "c2_00",
+      "offset": 7545,
+      "runs": [
+        {
+          "colour": 2,
+          "text": "決めた相手だから"
+        },
+        {
+          "colour": null,
+          "text": "…と"
         }
       ]
     },
@@ -720,6 +1510,76 @@
     },
     {
       "script": "c2_00",
+      "offset": 8559,
+      "runs": [
+        {
+          "colour": 2,
+          "text": "浅い"
+        },
+        {
+          "colour": null,
+          "text": "ということ。"
+        }
+      ]
+    },
+    {
+      "script": "c2_00",
+      "offset": 8643,
+      "runs": [
+        {
+          "colour": 2,
+          "text": "現金を要求"
+        },
+        {
+          "colour": null,
+          "text": "しています。"
+        }
+      ]
+    },
+    {
+      "script": "c2_00",
+      "offset": 8733,
+      "runs": [
+        {
+          "colour": 2,
+          "text": "拒否"
+        },
+        {
+          "colour": null,
+          "text": "していた。"
+        }
+      ]
+    },
+    {
+      "script": "c2_00",
+      "offset": 8813,
+      "runs": [
+        {
+          "colour": 2,
+          "text": "結婚詐欺"
+        },
+        {
+          "colour": null,
+          "text": "では…!?"
+        }
+      ]
+    },
+    {
+      "script": "c2_00",
+      "offset": 8960,
+      "runs": [
+        {
+          "colour": 2,
+          "text": "典型的な手口"
+        },
+        {
+          "colour": null,
+          "text": "です…。"
+        }
+      ]
+    },
+    {
+      "script": "c2_00",
       "offset": 10720,
       "runs": [
         {
@@ -728,7 +1588,25 @@
         },
         {
           "colour": 2,
-          "text": "２階ですし…"
+          "text": "２階"
+        },
+        {
+          "colour": null,
+          "text": "ですし…"
+        }
+      ]
+    },
+    {
+      "script": "c2_00",
+      "offset": 10791,
+      "runs": [
+        {
+          "colour": 2,
+          "text": "侵入は容易"
+        },
+        {
+          "colour": null,
+          "text": "ですね…。"
         }
       ]
     },
@@ -742,7 +1620,11 @@
         },
         {
           "colour": 2,
-          "text": "だけを盗って"
+          "text": "だけ"
+        },
+        {
+          "colour": null,
+          "text": "を盗って"
         }
       ]
     },
@@ -762,6 +1644,20 @@
     },
     {
       "script": "c2_00",
+      "offset": 11303,
+      "runs": [
+        {
+          "colour": 2,
+          "text": "入れた"
+        },
+        {
+          "colour": null,
+          "text": "ことのある人物"
+        }
+      ]
+    },
+    {
+      "script": "c2_00",
       "offset": 11469,
       "runs": [
         {
@@ -770,7 +1666,11 @@
         },
         {
           "colour": 2,
-          "text": "視てみるか。"
+          "text": "視て"
+        },
+        {
+          "colour": null,
+          "text": "みるか。"
         }
       ]
     },
@@ -784,7 +1684,11 @@
         },
         {
           "colour": 2,
-          "text": "視てみよう。"
+          "text": "視て"
+        },
+        {
+          "colour": null,
+          "text": "みよう。"
         }
       ]
     },
@@ -798,7 +1702,11 @@
         },
         {
           "colour": 2,
-          "text": "父です。"
+          "text": "父"
+        },
+        {
+          "colour": null,
+          "text": "です。"
         }
       ]
     },
@@ -812,7 +1720,11 @@
         },
         {
           "colour": 2,
-          "text": "水島寅男と"
+          "text": "水島寅男"
+        },
+        {
+          "colour": null,
+          "text": "と"
         }
       ]
     },
@@ -826,7 +1738,25 @@
         },
         {
           "colour": 2,
-          "text": "できません。"
+          "text": "できません"
+        },
+        {
+          "colour": null,
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "script": "c2_00",
+      "offset": 14793,
+      "runs": [
+        {
+          "colour": 2,
+          "text": "２ヶ月ほど前"
+        },
+        {
+          "colour": null,
+          "text": "に"
         }
       ]
     },
@@ -840,7 +1770,25 @@
         },
         {
           "colour": 2,
-          "text": "５０前後という"
+          "text": "５０前後"
+        },
+        {
+          "colour": null,
+          "text": "という"
+        }
+      ]
+    },
+    {
+      "script": "c2_00",
+      "offset": 17218,
+      "runs": [
+        {
+          "colour": 2,
+          "text": "動揺"
+        },
+        {
+          "colour": null,
+          "text": "が感じられる…。"
         }
       ]
     },
@@ -854,7 +1802,11 @@
         },
         {
           "colour": 2,
-          "text": "ウソが"
+          "text": "ウソ"
+        },
+        {
+          "colour": null,
+          "text": "が"
         }
       ]
     },
@@ -868,7 +1820,25 @@
         },
         {
           "colour": 2,
-          "text": "緊張が"
+          "text": "緊張"
+        },
+        {
+          "colour": null,
+          "text": "が"
+        }
+      ]
+    },
+    {
+      "script": "c2_00",
+      "offset": 17464,
+      "runs": [
+        {
+          "colour": 2,
+          "text": "隠し事"
+        },
+        {
+          "colour": null,
+          "text": "があったような"
         }
       ]
     },
@@ -877,7 +1847,7 @@
       "offset": 17764,
       "runs": [
         {
-          "colour": null,
+          "colour": 3,
           "text": "セーブに"
         },
         {
@@ -900,7 +1870,11 @@
         },
         {
           "colour": 2,
-          "text": "明日だよ。"
+          "text": "明日"
+        },
+        {
+          "colour": null,
+          "text": "だよ。"
         }
       ]
     },
@@ -909,7 +1883,7 @@
       "offset": 11984,
       "runs": [
         {
-          "colour": null,
+          "colour": 3,
           "text": "セーブに"
         },
         {
@@ -924,6 +1898,20 @@
     },
     {
       "script": "c3_00",
+      "offset": 356,
+      "runs": [
+        {
+          "colour": 2,
+          "text": "２５年前"
+        },
+        {
+          "colour": null,
+          "text": "に何があった"
+        }
+      ]
+    },
+    {
+      "script": "c3_00",
       "offset": 1306,
       "runs": [
         {
@@ -932,7 +1920,53 @@
         },
         {
           "colour": 2,
-          "text": "視てみよう。"
+          "text": "視て"
+        },
+        {
+          "colour": null,
+          "text": "みよう。"
+        }
+      ]
+    },
+    {
+      "script": "c3_00",
+      "offset": 1365,
+      "runs": [
+        {
+          "colour": 2,
+          "text": "結婚"
+        },
+        {
+          "colour": null,
+          "text": "に関係してますね？"
+        }
+      ]
+    },
+    {
+      "script": "c3_00",
+      "offset": 1440,
+      "runs": [
+        {
+          "colour": 2,
+          "text": "出産"
+        },
+        {
+          "colour": null,
+          "text": "に関係してますね？"
+        }
+      ]
+    },
+    {
+      "script": "c3_00",
+      "offset": 1515,
+      "runs": [
+        {
+          "colour": 2,
+          "text": "借金"
+        },
+        {
+          "colour": null,
+          "text": "に関係してますね？"
         }
       ]
     },
@@ -946,7 +1980,11 @@
         },
         {
           "colour": 2,
-          "text": "重体に"
+          "text": "重体"
+        },
+        {
+          "colour": null,
+          "text": "に"
         }
       ]
     },
@@ -960,7 +1998,25 @@
         },
         {
           "colour": 2,
-          "text": "身体の感覚は"
+          "text": "身体の感覚"
+        },
+        {
+          "colour": null,
+          "text": "は"
+        }
+      ]
+    },
+    {
+      "script": "c3_00",
+      "offset": 7701,
+      "runs": [
+        {
+          "colour": 2,
+          "text": "退院する頃"
+        },
+        {
+          "colour": null,
+          "text": "には、もう"
         }
       ]
     },
@@ -988,7 +2044,11 @@
         },
         {
           "colour": 2,
-          "text": "動揺が見える。"
+          "text": "動揺"
+        },
+        {
+          "colour": null,
+          "text": "が見える。"
         }
       ]
     },
@@ -1002,7 +2062,11 @@
         },
         {
           "colour": 2,
-          "text": "怯えて"
+          "text": "怯え"
+        },
+        {
+          "colour": null,
+          "text": "て"
         }
       ]
     },
@@ -1016,7 +2080,11 @@
         },
         {
           "colour": 2,
-          "text": "反応を視て、探って"
+          "text": "反応を視て"
+        },
+        {
+          "colour": null,
+          "text": "、探って"
         }
       ]
     },
@@ -1030,7 +2098,11 @@
         },
         {
           "colour": 2,
-          "text": "緊張が"
+          "text": "緊張"
+        },
+        {
+          "colour": null,
+          "text": "が"
         }
       ]
     },
@@ -1044,7 +2116,25 @@
         },
         {
           "colour": 2,
-          "text": "緊張が"
+          "text": "緊張"
+        },
+        {
+          "colour": null,
+          "text": "が"
+        }
+      ]
+    },
+    {
+      "script": "c3_00",
+      "offset": 9487,
+      "runs": [
+        {
+          "colour": 2,
+          "text": "２５歳"
+        },
+        {
+          "colour": null,
+          "text": "の暁さんが"
         }
       ]
     },
@@ -1058,7 +2148,39 @@
         },
         {
           "colour": 2,
-          "text": "出産が大きく"
+          "text": "出産"
+        },
+        {
+          "colour": null,
+          "text": "が大きく"
+        }
+      ]
+    },
+    {
+      "script": "c3_00",
+      "offset": 9892,
+      "runs": [
+        {
+          "colour": 2,
+          "text": "怯えて"
+        },
+        {
+          "colour": null,
+          "text": "いる…のかな。"
+        }
+      ]
+    },
+    {
+      "script": "c3_00",
+      "offset": 10822,
+      "runs": [
+        {
+          "colour": 2,
+          "text": "クレフ製作所"
+        },
+        {
+          "colour": null,
+          "text": "だ。"
         }
       ]
     },
@@ -1086,7 +2208,25 @@
         },
         {
           "colour": 2,
-          "text": "逆で…。"
+          "text": "逆"
+        },
+        {
+          "colour": null,
+          "text": "で…。"
+        }
+      ]
+    },
+    {
+      "script": "c3_00",
+      "offset": 14282,
+      "runs": [
+        {
+          "colour": 2,
+          "text": "癸生川"
+        },
+        {
+          "colour": null,
+          "text": "です！"
         }
       ]
     },
@@ -1100,7 +2240,25 @@
         },
         {
           "colour": 2,
-          "text": "霊崎朱という女性"
+          "text": "霊崎朱"
+        },
+        {
+          "colour": null,
+          "text": "という女性"
+        }
+      ]
+    },
+    {
+      "script": "c3_00",
+      "offset": 15872,
+      "runs": [
+        {
+          "colour": 2,
+          "text": "水島綾子"
+        },
+        {
+          "colour": null,
+          "text": "という人は"
         }
       ]
     },
@@ -1114,7 +2272,25 @@
         },
         {
           "colour": 2,
-          "text": "母の名前です。"
+          "text": "母"
+        },
+        {
+          "colour": null,
+          "text": "の名前です。"
+        }
+      ]
+    },
+    {
+      "script": "c3_00",
+      "offset": 20456,
+      "runs": [
+        {
+          "colour": 2,
+          "text": "川北市の沿岸部"
+        },
+        {
+          "colour": null,
+          "text": "に"
         }
       ]
     },
@@ -1134,10 +2310,24 @@
     },
     {
       "script": "c3_00",
+      "offset": 20591,
+      "runs": [
+        {
+          "colour": 2,
+          "text": "いない"
+        },
+        {
+          "colour": null,
+          "text": "ようなんです。"
+        }
+      ]
+    },
+    {
+      "script": "c3_00",
       "offset": 21939,
       "runs": [
         {
-          "colour": null,
+          "colour": 3,
           "text": "セーブに"
         },
         {
@@ -1160,7 +2350,11 @@
         },
         {
           "colour": 2,
-          "text": "机が"
+          "text": "机"
+        },
+        {
+          "colour": null,
+          "text": "が"
         }
       ]
     },
@@ -1174,7 +2368,11 @@
         },
         {
           "colour": 2,
-          "text": "机も、一応"
+          "text": "机"
+        },
+        {
+          "colour": null,
+          "text": "も、一応"
         }
       ]
     },
@@ -1188,7 +2386,25 @@
         },
         {
           "colour": 2,
-          "text": "人の気配が…！"
+          "text": "人の気配"
+        },
+        {
+          "colour": null,
+          "text": "が…！"
+        }
+      ]
+    },
+    {
+      "script": "c3_01",
+      "offset": 2432,
+      "runs": [
+        {
+          "colour": 2,
+          "text": "足跡"
+        },
+        {
+          "colour": null,
+          "text": "にも見える。"
         }
       ]
     },
@@ -1208,6 +2424,20 @@
     },
     {
       "script": "c3_01",
+      "offset": 2581,
+      "runs": [
+        {
+          "colour": 2,
+          "text": "金属片"
+        },
+        {
+          "colour": null,
+          "text": "が落ちている。"
+        }
+      ]
+    },
+    {
+      "script": "c3_01",
       "offset": 3395,
       "runs": [
         {
@@ -1222,6 +2452,20 @@
     },
     {
       "script": "c3_01",
+      "offset": 4243,
+      "runs": [
+        {
+          "colour": 2,
+          "text": "螻川内忠雄"
+        },
+        {
+          "colour": null,
+          "text": "の名前も"
+        }
+      ]
+    },
+    {
+      "script": "c3_01",
       "offset": 4463,
       "runs": [
         {
@@ -1230,7 +2474,53 @@
         },
         {
           "colour": 2,
-          "text": "別宅を"
+          "text": "別宅"
+        },
+        {
+          "colour": null,
+          "text": "を"
+        }
+      ]
+    },
+    {
+      "script": "c3_01",
+      "offset": 4725,
+      "runs": [
+        {
+          "colour": 2,
+          "text": "二重生活"
+        },
+        {
+          "colour": null,
+          "text": "…という言葉が"
+        }
+      ]
+    },
+    {
+      "script": "c3_01",
+      "offset": 5152,
+      "runs": [
+        {
+          "colour": 2,
+          "text": "偽名"
+        },
+        {
+          "colour": null,
+          "text": "を使って…"
+        }
+      ]
+    },
+    {
+      "script": "c3_01",
+      "offset": 5638,
+      "runs": [
+        {
+          "colour": 2,
+          "text": "本当の住所"
+        },
+        {
+          "colour": null,
+          "text": "を…？"
         }
       ]
     },
@@ -1244,7 +2534,39 @@
         },
         {
           "colour": 2,
-          "text": "拳銃に使われて"
+          "text": "拳銃"
+        },
+        {
+          "colour": null,
+          "text": "に使われて"
+        }
+      ]
+    },
+    {
+      "script": "c3_01",
+      "offset": 6988,
+      "runs": [
+        {
+          "colour": 2,
+          "text": "川瀬莉沙"
+        },
+        {
+          "colour": null,
+          "text": "…!?"
+        }
+      ]
+    },
+    {
+      "script": "c3_01",
+      "offset": 7758,
+      "runs": [
+        {
+          "colour": 2,
+          "text": "中年男性"
+        },
+        {
+          "colour": null,
+          "text": "のようだった。"
         }
       ]
     },
@@ -1258,7 +2580,11 @@
         },
         {
           "colour": 2,
-          "text": "借金して"
+          "text": "借金"
+        },
+        {
+          "colour": null,
+          "text": "して"
         }
       ]
     },
@@ -1272,7 +2598,11 @@
         },
         {
           "colour": 2,
-          "text": "伝説の詐欺師の"
+          "text": "伝説の詐欺師"
+        },
+        {
+          "colour": null,
+          "text": "の"
         }
       ]
     },
@@ -1286,7 +2616,11 @@
         },
         {
           "colour": 2,
-          "text": "変装が得意だった"
+          "text": "変装"
+        },
+        {
+          "colour": null,
+          "text": "が得意だった"
         }
       ]
     },
@@ -1300,7 +2634,25 @@
         },
         {
           "colour": 2,
-          "text": "極ギサと"
+          "text": "極ギサ"
+        },
+        {
+          "colour": null,
+          "text": "と"
+        }
+      ]
+    },
+    {
+      "script": "c3_01",
+      "offset": 15543,
+      "runs": [
+        {
+          "colour": 2,
+          "text": "７０歳くらいの男性"
+        },
+        {
+          "colour": null,
+          "text": "だと"
         }
       ]
     },
@@ -1314,7 +2666,53 @@
         },
         {
           "colour": 2,
-          "text": "違う方法で"
+          "text": "違う方法"
+        },
+        {
+          "colour": null,
+          "text": "で"
+        }
+      ]
+    },
+    {
+      "script": "c3_01",
+      "offset": 16764,
+      "runs": [
+        {
+          "colour": 2,
+          "text": "尼子啓三"
+        },
+        {
+          "colour": null,
+          "text": "だったのだ！"
+        }
+      ]
+    },
+    {
+      "script": "c3_01",
+      "offset": 17203,
+      "runs": [
+        {
+          "colour": 2,
+          "text": "２ヶ月前に死んでいた"
+        },
+        {
+          "colour": null,
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "script": "c3_01",
+      "offset": 17560,
+      "runs": [
+        {
+          "colour": 2,
+          "text": "消されて"
+        },
+        {
+          "colour": null,
+          "text": "いる。"
         }
       ]
     },
@@ -1323,7 +2721,7 @@
       "offset": 18350,
       "runs": [
         {
-          "colour": null,
+          "colour": 3,
           "text": "セーブに"
         },
         {
@@ -1338,6 +2736,20 @@
     },
     {
       "script": "c4_00",
+      "offset": 1187,
+      "runs": [
+        {
+          "colour": 2,
+          "text": "お義父さん"
+        },
+        {
+          "colour": null,
+          "text": "は、もう"
+        }
+      ]
+    },
+    {
+      "script": "c4_00",
       "offset": 1313,
       "runs": [
         {
@@ -1346,7 +2758,11 @@
         },
         {
           "colour": 2,
-          "text": "忠雄さん。"
+          "text": "忠雄"
+        },
+        {
+          "colour": null,
+          "text": "さん。"
         }
       ]
     },
@@ -1366,6 +2782,20 @@
     },
     {
       "script": "c4_00",
+      "offset": 2041,
+      "runs": [
+        {
+          "colour": 2,
+          "text": "盗んだ"
+        },
+        {
+          "colour": null,
+          "text": "んですよね。"
+        }
+      ]
+    },
+    {
+      "script": "c4_00",
       "offset": 2087,
       "runs": [
         {
@@ -1374,7 +2804,11 @@
         },
         {
           "colour": 2,
-          "text": "そのはずだ。"
+          "text": "そのはず"
+        },
+        {
+          "colour": null,
+          "text": "だ。"
         }
       ]
     },
@@ -1388,7 +2822,11 @@
         },
         {
           "colour": 2,
-          "text": "悪人でなければ"
+          "text": "悪人"
+        },
+        {
+          "colour": null,
+          "text": "でなければ"
         }
       ]
     },
@@ -1402,7 +2840,11 @@
         },
         {
           "colour": 2,
-          "text": "役目がある。"
+          "text": "役目"
+        },
+        {
+          "colour": null,
+          "text": "がある。"
         }
       ]
     },
@@ -1416,7 +2858,25 @@
         },
         {
           "colour": 2,
-          "text": "借金の返済ですね。"
+          "text": "借金の返済"
+        },
+        {
+          "colour": null,
+          "text": "ですね。"
+        }
+      ]
+    },
+    {
+      "script": "c4_00",
+      "offset": 3029,
+      "runs": [
+        {
+          "colour": 2,
+          "text": "医療費"
+        },
+        {
+          "colour": null,
+          "text": "は…どのくらい"
         }
       ]
     },
@@ -1436,6 +2896,20 @@
     },
     {
       "script": "c4_00",
+      "offset": 3356,
+      "runs": [
+        {
+          "colour": 2,
+          "text": "返済していた"
+        },
+        {
+          "colour": null,
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "script": "c4_00",
       "offset": 3484,
       "runs": [
         {
@@ -1444,7 +2918,53 @@
         },
         {
           "colour": 2,
-          "text": "２千万だ。"
+          "text": "２千万"
+        },
+        {
+          "colour": null,
+          "text": "だ。"
+        }
+      ]
+    },
+    {
+      "script": "c4_00",
+      "offset": 3818,
+      "runs": [
+        {
+          "colour": 2,
+          "text": "示談金"
+        },
+        {
+          "colour": null,
+          "text": "だ。"
+        }
+      ]
+    },
+    {
+      "script": "c4_00",
+      "offset": 4589,
+      "runs": [
+        {
+          "colour": 2,
+          "text": "結婚詐欺師"
+        },
+        {
+          "colour": null,
+          "text": "だ、という"
+        }
+      ]
+    },
+    {
+      "script": "c4_00",
+      "offset": 5492,
+      "runs": [
+        {
+          "colour": 2,
+          "text": "妊娠"
+        },
+        {
+          "colour": null,
+          "text": "した…と。"
         }
       ]
     },
@@ -1458,7 +2978,11 @@
         },
         {
           "colour": 2,
-          "text": "交通事故に遭い、"
+          "text": "交通事故"
+        },
+        {
+          "colour": null,
+          "text": "に遭い、"
         }
       ]
     },
@@ -1478,6 +3002,34 @@
     },
     {
       "script": "c4_00",
+      "offset": 7600,
+      "runs": [
+        {
+          "colour": 2,
+          "text": "ともに助けよう"
+        },
+        {
+          "colour": null,
+          "text": "…と。"
+        }
+      ]
+    },
+    {
+      "script": "c4_00",
+      "offset": 10877,
+      "runs": [
+        {
+          "colour": 2,
+          "text": "５００万円"
+        },
+        {
+          "colour": null,
+          "text": "…なのだが。"
+        }
+      ]
+    },
+    {
+      "script": "c4_00",
       "offset": 12174,
       "runs": [
         {
@@ -1486,7 +3038,11 @@
         },
         {
           "colour": 2,
-          "text": "犯罪に"
+          "text": "犯罪"
+        },
+        {
+          "colour": null,
+          "text": "に"
         }
       ]
     },
@@ -1500,7 +3056,11 @@
         },
         {
           "colour": 2,
-          "text": "先月の"
+          "text": "先月"
+        },
+        {
+          "colour": null,
+          "text": "の"
         }
       ]
     },
@@ -1514,7 +3074,11 @@
         },
         {
           "colour": 2,
-          "text": "癸生川。"
+          "text": "癸生川"
+        },
+        {
+          "colour": null,
+          "text": "。"
         }
       ]
     },
@@ -1528,7 +3092,11 @@
         },
         {
           "colour": 2,
-          "text": "３ヶ月くらい前の"
+          "text": "３ヶ月くらい前"
+        },
+        {
+          "colour": null,
+          "text": "の"
         }
       ]
     },
@@ -1542,7 +3110,11 @@
         },
         {
           "colour": 2,
-          "text": "銃器密造を"
+          "text": "銃器密造"
+        },
+        {
+          "colour": null,
+          "text": "を"
         }
       ]
     },
@@ -1556,7 +3128,25 @@
         },
         {
           "colour": 2,
-          "text": "証拠となる書類を"
+          "text": "証拠"
+        },
+        {
+          "colour": null,
+          "text": "となる書類を"
+        }
+      ]
+    },
+    {
+      "script": "c4_00",
+      "offset": 15874,
+      "runs": [
+        {
+          "colour": 2,
+          "text": "自宅"
+        },
+        {
+          "colour": null,
+          "text": "にも訪れている。"
         }
       ]
     },
@@ -1576,6 +3166,20 @@
     },
     {
       "script": "c4_00",
+      "offset": 16247,
+      "runs": [
+        {
+          "colour": 2,
+          "text": "から知っていた"
+        },
+        {
+          "colour": null,
+          "text": "のだ。"
+        }
+      ]
+    },
+    {
+      "script": "c4_00",
       "offset": 16539,
       "runs": [
         {
@@ -1584,7 +3188,11 @@
         },
         {
           "colour": 2,
-          "text": "暗殺だ。"
+          "text": "暗殺"
+        },
+        {
+          "colour": null,
+          "text": "だ。"
         }
       ]
     },
@@ -1593,12 +3201,20 @@
       "offset": 16917,
       "runs": [
         {
+          "colour": 2,
+          "text": "パーツ"
+        },
+        {
           "colour": null,
-          "text": "パーツであって、"
+          "text": "であって、"
         },
         {
           "colour": 2,
-          "text": "銃では"
+          "text": "銃"
+        },
+        {
+          "colour": null,
+          "text": "では"
         }
       ]
     },
@@ -1612,7 +3228,11 @@
         },
         {
           "colour": 2,
-          "text": "金属片で"
+          "text": "金属片"
+        },
+        {
+          "colour": null,
+          "text": "で"
         }
       ]
     },
@@ -1626,7 +3246,11 @@
         },
         {
           "colour": 2,
-          "text": "厄いを"
+          "text": "厄い"
+        },
+        {
+          "colour": null,
+          "text": "を"
         }
       ]
     },
@@ -1640,7 +3264,11 @@
         },
         {
           "colour": 2,
-          "text": "娘がいた。"
+          "text": "娘"
+        },
+        {
+          "colour": null,
+          "text": "がいた。"
         }
       ]
     },
@@ -1654,7 +3282,25 @@
         },
         {
           "colour": 2,
-          "text": "違う名前と"
+          "text": "違う名前"
+        },
+        {
+          "colour": null,
+          "text": "と"
+        }
+      ]
+    },
+    {
+      "script": "c4_00",
+      "offset": 18210,
+      "runs": [
+        {
+          "colour": 2,
+          "text": "違う生活"
+        },
+        {
+          "colour": null,
+          "text": "という環境で"
         }
       ]
     },
@@ -1668,7 +3314,11 @@
         },
         {
           "colour": 2,
-          "text": "別人の娘として、"
+          "text": "別人"
+        },
+        {
+          "colour": null,
+          "text": "の娘として、"
         }
       ]
     },
@@ -1688,6 +3338,34 @@
     },
     {
       "script": "c4_00",
+      "offset": 18657,
+      "runs": [
+        {
+          "colour": 2,
+          "text": "の父親"
+        },
+        {
+          "colour": null,
+          "text": "…。"
+        }
+      ]
+    },
+    {
+      "script": "c4_00",
+      "offset": 19090,
+      "runs": [
+        {
+          "colour": 2,
+          "text": "水島寅男"
+        },
+        {
+          "colour": null,
+          "text": "なんです。"
+        }
+      ]
+    },
+    {
+      "script": "c4_00",
       "offset": 19186,
       "runs": [
         {
@@ -1696,7 +3374,11 @@
         },
         {
           "colour": 2,
-          "text": "母が…。"
+          "text": "母"
+        },
+        {
+          "colour": null,
+          "text": "が…。"
         }
       ]
     },
@@ -1710,7 +3392,11 @@
         },
         {
           "colour": 2,
-          "text": "厄いというのは"
+          "text": "厄い"
+        },
+        {
+          "colour": null,
+          "text": "というのは"
         }
       ]
     },
@@ -1730,6 +3416,20 @@
     },
     {
       "script": "c4_00",
+      "offset": 20283,
+      "runs": [
+        {
+          "colour": 2,
+          "text": "娘"
+        },
+        {
+          "colour": null,
+          "text": "だ！"
+        }
+      ]
+    },
+    {
+      "script": "c4_00",
       "offset": 20532,
       "runs": [
         {
@@ -1738,7 +3438,11 @@
         },
         {
           "colour": 2,
-          "text": "もうひとりの娘を"
+          "text": "もうひとりの娘"
+        },
+        {
+          "colour": null,
+          "text": "を"
         }
       ]
     },
@@ -1758,6 +3462,20 @@
     },
     {
       "script": "c4_00",
+      "offset": 21225,
+      "runs": [
+        {
+          "colour": 2,
+          "text": "という子供"
+        },
+        {
+          "colour": null,
+          "text": "だったのだ！"
+        }
+      ]
+    },
+    {
+      "script": "c4_00",
       "offset": 21422,
       "runs": [
         {
@@ -1766,7 +3484,11 @@
         },
         {
           "colour": 2,
-          "text": "霊崎朱という"
+          "text": "霊崎朱"
+        },
+        {
+          "colour": null,
+          "text": "という"
         }
       ]
     },
@@ -1780,7 +3502,11 @@
         },
         {
           "colour": 2,
-          "text": "２７歳になる…"
+          "text": "２７歳"
+        },
+        {
+          "colour": null,
+          "text": "になる…"
         }
       ]
     },
@@ -1808,7 +3534,53 @@
         },
         {
           "colour": 2,
-          "text": "世代交代のためだ。"
+          "text": "世代交代"
+        },
+        {
+          "colour": null,
+          "text": "のためだ。"
+        }
+      ]
+    },
+    {
+      "script": "c4_00",
+      "offset": 23457,
+      "runs": [
+        {
+          "colour": 2,
+          "text": "女性"
+        },
+        {
+          "colour": null,
+          "text": "がいるはずだ！"
+        }
+      ]
+    },
+    {
+      "script": "c4_00",
+      "offset": 23707,
+      "runs": [
+        {
+          "colour": 2,
+          "text": "犯人"
+        },
+        {
+          "colour": null,
+          "text": "でもあるのだ！"
+        }
+      ]
+    },
+    {
+      "script": "c4_00",
+      "offset": 23868,
+      "runs": [
+        {
+          "colour": 2,
+          "text": "犯罪へ荷担"
+        },
+        {
+          "colour": null,
+          "text": "したと言って"
         }
       ]
     },
@@ -1822,7 +3594,39 @@
         },
         {
           "colour": 2,
-          "text": "先月…その女に"
+          "text": "先月"
+        },
+        {
+          "colour": null,
+          "text": "…その女に"
+        }
+      ]
+    },
+    {
+      "script": "c4_00",
+      "offset": 24381,
+      "runs": [
+        {
+          "colour": 2,
+          "text": "電話１本"
+        },
+        {
+          "colour": null,
+          "text": "だ…。"
+        }
+      ]
+    },
+    {
+      "script": "c4_00",
+      "offset": 26544,
+      "runs": [
+        {
+          "colour": 2,
+          "text": "御堂丸将云"
+        },
+        {
+          "colour": null,
+          "text": "という"
         }
       ]
     },
@@ -1836,7 +3640,11 @@
         },
         {
           "colour": 2,
-          "text": "明日という"
+          "text": "明日"
+        },
+        {
+          "colour": null,
+          "text": "という"
         }
       ]
     },
@@ -1850,7 +3658,25 @@
         },
         {
           "colour": 2,
-          "text": "結婚詐欺だ。"
+          "text": "結婚詐欺"
+        },
+        {
+          "colour": null,
+          "text": "だ。"
+        }
+      ]
+    },
+    {
+      "script": "c4_00",
+      "offset": 28877,
+      "runs": [
+        {
+          "colour": 2,
+          "text": "自分で決めろ"
+        },
+        {
+          "colour": null,
+          "text": "…とだけ"
         }
       ]
     },
@@ -1870,6 +3696,20 @@
     },
     {
       "script": "c4_00",
+      "offset": 29223,
+      "runs": [
+        {
+          "colour": 2,
+          "text": "工面できている"
+        },
+        {
+          "colour": null,
+          "text": "。"
+        }
+      ]
+    },
+    {
+      "script": "c4_00",
       "offset": 29470,
       "runs": [
         {
@@ -1884,10 +3724,24 @@
     },
     {
       "script": "c4_00",
+      "offset": 29505,
+      "runs": [
+        {
+          "colour": 2,
+          "text": "心配はない"
+        },
+        {
+          "colour": null,
+          "text": "はずなのだ。"
+        }
+      ]
+    },
+    {
+      "script": "c4_00",
       "offset": 29885,
       "runs": [
         {
-          "colour": null,
+          "colour": 3,
           "text": "セーブに"
         },
         {
@@ -1905,7 +3759,7 @@
       "offset": 146,
       "runs": [
         {
-          "colour": null,
+          "colour": 3,
           "text": "セーブに"
         },
         {
@@ -1934,6 +3788,20 @@
     },
     {
       "script": "c4_01",
+      "offset": 2517,
+      "runs": [
+        {
+          "colour": 2,
+          "text": "る"
+        },
+        {
+          "colour": null,
+          "text": "と思ってたよ。"
+        }
+      ]
+    },
+    {
+      "script": "c4_01",
       "offset": 3034,
       "runs": [
         {
@@ -1942,7 +3810,11 @@
         },
         {
           "colour": 2,
-          "text": "赤ちゃんが"
+          "text": "赤ちゃん"
+        },
+        {
+          "colour": null,
+          "text": "が"
         }
       ]
     },
@@ -1956,7 +3828,25 @@
         },
         {
           "colour": 2,
-          "text": "無責任だよ。"
+          "text": "無責任"
+        },
+        {
+          "colour": null,
+          "text": "だよ。"
+        }
+      ]
+    },
+    {
+      "script": "c4_01",
+      "offset": 8740,
+      "runs": [
+        {
+          "colour": 2,
+          "text": "交通情報"
+        },
+        {
+          "colour": null,
+          "text": "を！"
         }
       ]
     },
@@ -1970,7 +3860,25 @@
         },
         {
           "colour": 2,
-          "text": "事故があった"
+          "text": "事故"
+        },
+        {
+          "colour": null,
+          "text": "があった"
+        }
+      ]
+    },
+    {
+      "script": "c4_01",
+      "offset": 9469,
+      "runs": [
+        {
+          "colour": 2,
+          "text": "病院"
+        },
+        {
+          "colour": null,
+          "text": "を聞いてきました。"
         }
       ]
     },
@@ -1990,6 +3898,34 @@
     },
     {
       "script": "c4_01",
+      "offset": 9728,
+      "runs": [
+        {
+          "colour": 2,
+          "text": "状態"
+        },
+        {
+          "colour": null,
+          "text": "ということだった。"
+        }
+      ]
+    },
+    {
+      "script": "c4_01",
+      "offset": 9818,
+      "runs": [
+        {
+          "colour": 2,
+          "text": "助からない"
+        },
+        {
+          "colour": null,
+          "text": "と言われた。"
+        }
+      ]
+    },
+    {
+      "script": "c4_01",
       "offset": 10983,
       "runs": [
         {
@@ -1998,7 +3934,11 @@
         },
         {
           "colour": 2,
-          "text": "婚約者です！"
+          "text": "婚約者"
+        },
+        {
+          "colour": null,
+          "text": "です！"
         }
       ]
     },
@@ -2012,7 +3952,25 @@
         },
         {
           "colour": 2,
-          "text": "事故にあった車両から"
+          "text": "事故"
+        },
+        {
+          "colour": null,
+          "text": "にあった車両から"
+        }
+      ]
+    },
+    {
+      "script": "c4_01",
+      "offset": 15018,
+      "runs": [
+        {
+          "colour": 2,
+          "text": "森慧美"
+        },
+        {
+          "colour": null,
+          "text": "さんが救出され…"
         }
       ]
     },
@@ -2032,6 +3990,48 @@
     },
     {
       "script": "c4_01",
+      "offset": 15126,
+      "runs": [
+        {
+          "colour": 2,
+          "text": "亡くなった"
+        },
+        {
+          "colour": null,
+          "text": "模様です。"
+        }
+      ]
+    },
+    {
+      "script": "c4_01",
+      "offset": 15556,
+      "runs": [
+        {
+          "colour": 2,
+          "text": "事故"
+        },
+        {
+          "colour": null,
+          "text": "により、死亡した。"
+        }
+      ]
+    },
+    {
+      "script": "c4_01",
+      "offset": 15865,
+      "runs": [
+        {
+          "colour": 2,
+          "text": "自殺"
+        },
+        {
+          "colour": null,
+          "text": "なのではないか…"
+        }
+      ]
+    },
+    {
+      "script": "c4_01",
       "offset": 15960,
       "runs": [
         {
@@ -2040,7 +4040,11 @@
         },
         {
           "colour": 2,
-          "text": "妊娠して"
+          "text": "妊娠"
+        },
+        {
+          "colour": null,
+          "text": "して"
         }
       ]
     },
@@ -2054,7 +4058,25 @@
         },
         {
           "colour": 2,
-          "text": "給付金が"
+          "text": "給付金"
+        },
+        {
+          "colour": null,
+          "text": "が"
+        }
+      ]
+    },
+    {
+      "script": "c4_01",
+      "offset": 17701,
+      "runs": [
+        {
+          "colour": 2,
+          "text": "御堂丸将云"
+        },
+        {
+          "colour": null,
+          "text": "氏に直接"
         }
       ]
     },
@@ -2068,7 +4090,11 @@
         },
         {
           "colour": 2,
-          "text": "６～７歳、"
+          "text": "６～７歳"
+        },
+        {
+          "colour": null,
+          "text": "、"
         }
       ]
     },
@@ -2077,7 +4103,7 @@
       "offset": 19466,
       "runs": [
         {
-          "colour": null,
+          "colour": 3,
           "text": "セーブに"
         },
         {
@@ -2092,6 +4118,34 @@
     },
     {
       "script": "c5_00",
+      "offset": 981,
+      "runs": [
+        {
+          "colour": 2,
+          "text": "約束"
+        },
+        {
+          "colour": null,
+          "text": "というのは…？"
+        }
+      ]
+    },
+    {
+      "script": "c5_00",
+      "offset": 1069,
+      "runs": [
+        {
+          "colour": 2,
+          "text": "借金の返済"
+        },
+        {
+          "colour": null,
+          "text": "に来たんです。"
+        }
+      ]
+    },
+    {
+      "script": "c5_00",
       "offset": 1131,
       "runs": [
         {
@@ -2100,7 +4154,11 @@
         },
         {
           "colour": 2,
-          "text": "３００万円ほど"
+          "text": "３００万円"
+        },
+        {
+          "colour": null,
+          "text": "ほど"
         }
       ]
     },
@@ -2114,7 +4172,25 @@
         },
         {
           "colour": 2,
-          "text": "お子さんも"
+          "text": "お子さん"
+        },
+        {
+          "colour": null,
+          "text": "も"
+        }
+      ]
+    },
+    {
+      "script": "c5_00",
+      "offset": 2587,
+      "runs": [
+        {
+          "colour": 2,
+          "text": "父"
+        },
+        {
+          "colour": null,
+          "text": "の方になついて"
         }
       ]
     },
@@ -2128,7 +4204,39 @@
         },
         {
           "colour": 2,
-          "text": "妻も父も母も…"
+          "text": "妻"
+        },
+        {
+          "colour": null,
+          "text": "も父も母も…"
+        }
+      ]
+    },
+    {
+      "script": "c5_00",
+      "offset": 3221,
+      "runs": [
+        {
+          "colour": 2,
+          "text": "聞き忘れてたこと"
+        },
+        {
+          "colour": null,
+          "text": "って…"
+        }
+      ]
+    },
+    {
+      "script": "c5_00",
+      "offset": 3465,
+      "runs": [
+        {
+          "colour": 2,
+          "text": "名前"
+        },
+        {
+          "colour": null,
+          "text": "…ですか？"
         }
       ]
     },
@@ -2148,6 +4256,20 @@
     },
     {
       "script": "c5_00",
+      "offset": 3573,
+      "runs": [
+        {
+          "colour": 2,
+          "text": "名前"
+        },
+        {
+          "colour": null,
+          "text": "ですー！"
+        }
+      ]
+    },
+    {
+      "script": "c5_00",
       "offset": 4038,
       "runs": [
         {
@@ -2156,7 +4278,11 @@
         },
         {
           "colour": 2,
-          "text": "「いづ…」だけは"
+          "text": "「いづ…」"
+        },
+        {
+          "colour": null,
+          "text": "だけは"
         }
       ]
     },
@@ -2170,7 +4296,11 @@
         },
         {
           "colour": 2,
-          "text": "いづみ、かな？"
+          "text": "いづみ"
+        },
+        {
+          "colour": null,
+          "text": "、かな？"
         }
       ]
     },
@@ -2184,7 +4314,11 @@
         },
         {
           "colour": 2,
-          "text": "泉、か…。"
+          "text": "泉"
+        },
+        {
+          "colour": null,
+          "text": "、か…。"
         }
       ]
     },
@@ -2199,6 +4333,48 @@
         {
           "colour": 2,
           "text": "３年前と"
+        }
+      ]
+    },
+    {
+      "script": "c5_00",
+      "offset": 6544,
+      "runs": [
+        {
+          "colour": 2,
+          "text": "同じ格好"
+        },
+        {
+          "colour": null,
+          "text": "で来たって"
+        }
+      ]
+    },
+    {
+      "script": "c5_00",
+      "offset": 7274,
+      "runs": [
+        {
+          "colour": 2,
+          "text": "彼の代わりに"
+        },
+        {
+          "colour": null,
+          "text": "…"
+        }
+      ]
+    },
+    {
+      "script": "c5_01",
+      "offset": 1268,
+      "runs": [
+        {
+          "colour": 2,
+          "text": "約束"
+        },
+        {
+          "colour": null,
+          "text": "というのは…"
         }
       ]
     },
@@ -2218,6 +4394,20 @@
     },
     {
       "script": "c5_01",
+      "offset": 1421,
+      "runs": [
+        {
+          "colour": 2,
+          "text": "された"
+        },
+        {
+          "colour": null,
+          "text": "んですよ。"
+        }
+      ]
+    },
+    {
+      "script": "c5_01",
       "offset": 1484,
       "runs": [
         {
@@ -2232,6 +4422,20 @@
     },
     {
       "script": "c5_01",
+      "offset": 1517,
+      "runs": [
+        {
+          "colour": 2,
+          "text": "取り戻す"
+        },
+        {
+          "colour": null,
+          "text": "…って。"
+        }
+      ]
+    },
+    {
+      "script": "c5_01",
       "offset": 2872,
       "runs": [
         {
@@ -2241,6 +4445,34 @@
         {
           "colour": 2,
           "text": "彼の"
+        }
+      ]
+    },
+    {
+      "script": "c5_01",
+      "offset": 2903,
+      "runs": [
+        {
+          "colour": 2,
+          "text": "代わりになんなりと"
+        },
+        {
+          "colour": null,
+          "text": "…"
+        }
+      ]
+    },
+    {
+      "script": "c5_01",
+      "offset": 3520,
+      "runs": [
+        {
+          "colour": 2,
+          "text": "変装"
+        },
+        {
+          "colour": null,
+          "text": "をしてるんだろう"
         }
       ]
     }

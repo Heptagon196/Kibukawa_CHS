@@ -1,0 +1,12 @@
+{
+ "script": "c0_00",
+ "batch": "qa_wofix_c0_00.trans.json",
+ "verdict": "pass",
+ "basis": "Chinese word-order review (work/qa_full/_word_order_round.md): 「莫非」被夹在问句中间；改后「那么，这座城…／莫非已经污浊到／不得不如此哭泣／的地步了吗？」; 「为何」与其修饰的「那般悲伤」被行界拆散; 与上一行配套",
+ "offsets": [
+  792,
+  938,
+  964
+ ],
+ "issues": []
+}
