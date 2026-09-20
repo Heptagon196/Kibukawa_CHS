@@ -17,6 +17,7 @@ public class DirectCanvasStub
  public sbyte[] bg_itigyougun_zenkakusuu=new sbyte[8],bg_itigyougun_rubisuu=new sbyte[8];
  public sbyte[][] bg_itigyougun_color=new sbyte[8][],bg_itigyougun_control=new sbyte[8][];
  public int[][] bg_itigyougun_rubi_index=new int[8][];
+ public string[] rollitigyougun_mojiretu=new string[8];
  public void SetColor(object g,int c) { Color=c; }
 }
 public class DirectGraphicsStub
@@ -189,6 +190,26 @@ public class DirectHarness : DirectCanvasRuntime
   Check(x==71 && y==91,"Full-screen Han glyph after Latin must use the same dialogue half-cell gap");
   int clicks=0;foreach(var plane in c.bg_itigyougun_control)if(plane!=null)foreach(var controlByte in plane)if(controlByte==59)clicks++;
   Check(clicks==0,"Full-screen reflow must not introduce any automatic click");
-  return "Direct runtime: subtitle, INFO ASCII/palette/exception, immutable script, reflow, controls, ruby PASS";
+  ScenarioPageState pageState;BeforeScenarioPage(out pageState);
+  BeforeDraw(new DirectGraphicsStub(),"动机［７月９日］".ToCharArray(),120,238);
+  Check(Kibu1ZhCN.LegacyFontRenderer.Y==236,"Scenario footer ink must be centered inside 224..240");
+  BeforeDraw(new DirectGraphicsStub(),new[]{'１'},20,40);
+  Check(Kibu1ZhCN.LegacyFontRenderer.Y==40,"Other scenario rows retain their baseline");
+  RestoreScenarioPage(pageState);
+  BeforeDraw(new DirectGraphicsStub(),new[]{'文'},120,238);
+  Check(Kibu1ZhCN.LegacyFontRenderer.Y==238,"Footer adjustment must not escape its page scope");
+  string[] dates={"……1999 年 7 月。","……１９９９　年　７　月。"};
+  foreach(string date in dates)foreach(int mode in new[]{0,1,2}) {
+   c.MojiHani_tate=mode;c.rollitigyougun_mojiretu[0]=date;state.RollRows.Add(0);
+   for(int i=0;i<date.Length;i++) {
+    x=-999;BeforeDirectRollDraw(c,i,0,ref x,out scale);
+    Check(x==(int)Math.Round((240-DirectTextLayout.Measure(date,0,date.Length))/2.0+DirectTextLayout.Position(date,i),MidpointRounding.AwayFromZero),"Rolling date must use shared numeric/Chinese spacing in mode "+mode+" at "+i);
+    BeforeDraw(new DirectGraphicsStub(),new[]{date[i]},x,0);
+    Check(Object.ReferenceEquals(Kibu1ZhCN.LegacyFontRenderer.Primary,font)&&Kibu1ZhCN.LegacyFontRenderer.Small==null,"Rolling body must keep 16px");
+    RestoreDirectScale(scale);
+   }
+   Check(DirectTextLayout.Position(date,7)-DirectTextLayout.Position(date,5)==18 && DirectTextLayout.Position(date,9)-DirectTextLayout.Position(date,7)==26,"Date boundaries must each contain one 9px gap");
+  }
+  return "Direct runtime: subtitle, INFO ASCII/palette/exception, immutable script, reflow, controls, ruby, rolling dates PASS";
  }
 }

@@ -71,8 +71,8 @@ public class NativeFrameReplay : DirectCanvasRuntime
     else if(method=="get_Chars")result=(int)((string)callArgs[0])[(int)N(callArgs[1])];
     else if(method=="PaintADV_text") {BeforeDirectPaintText(canvas);Run(method,callArgs);AfterDirectPaintText(canvas);}
     else if(method=="DrawAdvString") {
-     int cell=(int)N(callArgs[3]),row=(int)N(callArgs[4]),x=(int)N(callArgs[5]),y=(int)N(callArgs[6]);DirectDrawState ds;
-     if(BeforeDirectDraw(canvas,cell,row,ref x,ref y,out ds))glyphs++;
+     int character=(int)N(callArgs[2]),row=(int)N(callArgs[4]),x=(int)N(callArgs[5]),y=(int)N(callArgs[6]);DirectDrawState ds;
+     if(BeforeDirectDraw(canvas,character,row,ref x,ref y,out ds))glyphs++;
      RestoreDirectScale(ds);
     }
     else if(method=="BUNSYOU_PERIOD") {extra["ReachedWait"]=1;return true;}

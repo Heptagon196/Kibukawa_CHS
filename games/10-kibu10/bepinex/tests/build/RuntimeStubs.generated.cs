@@ -33,7 +33,7 @@ namespace UnityEngine {
  public static class Screen { public static int width=640,height=480; }
 }
 namespace Kibu1ZhCN {
- public class BitmapFontAtlas { public BitmapFontAtlas(string p) {} public int GlyphCount; public void Dispose() {} }
+ public class BitmapFontAtlas { public BitmapFontAtlas(string p) {} public int GlyphCount; public bool TryGetForDisplay(char c,out UnityEngine.CharacterInfo info) { info=new UnityEngine.CharacterInfo { minY=-2,maxY=10 }; return true; } public void Dispose() {} }
  public static class LegacyFontRenderer { public static BitmapFontAtlas Small,Primary; public static int X,Y; public static float Scale; public static float? Top; public static bool Draw(object o,char[] c,int x,int y,object a,BitmapFontAtlas f,float s,BitmapFontAtlas small=null,float? top=null) { X=x;Y=y;Scale=s;Top=top;Small=small;Primary=f;return false; } }
 }
 namespace Kibu8ZhCN {
@@ -48,6 +48,7 @@ namespace Kibu8ZhCN { internal static class NotebookReading { internal static vo
 
 namespace HarmonyLib { public class CodeInstruction { public System.Reflection.Emit.OpCode opcode; public object operand; public System.Collections.Generic.List<System.Reflection.Emit.Label> labels=new System.Collections.Generic.List<System.Reflection.Emit.Label>(); public CodeInstruction(System.Reflection.Emit.OpCode op,object value=null) { opcode=op;operand=value; } } }
 
+namespace UnityEngine { public struct CharacterInfo { public int minY,maxY; } }
 namespace Kibukawa.Engine.Gmode20050817Direct { internal static class DirectChoiceMemory { internal static void Install(HarmonyLib.Harmony h,System.Type t) {} } }
 namespace Socotra.UI { public sealed class StFont { public int Id; public static StFont GetFont(int id) { return new StFont { Id=id }; } } }
 namespace Kibu10ZhCN { internal static class UiLocalization { internal static void Initialize(System.Action<string> logger=null) {} internal static void RegisterDisplayTranslation(string source,string target) {} internal static void Update() {} internal static void Dispose() {} } internal static class UiLocalizationData { internal static readonly System.Collections.Generic.Dictionary<string,string> Exact=new System.Collections.Generic.Dictionary<string,string>(); internal static readonly System.Collections.Generic.Dictionary<string,string> Keys=new System.Collections.Generic.Dictionary<string,string>(); } internal static class ScriptIdentityData { internal static readonly System.Collections.Generic.Dictionary<string,string> Names=new System.Collections.Generic.Dictionary<string,string>(); } }

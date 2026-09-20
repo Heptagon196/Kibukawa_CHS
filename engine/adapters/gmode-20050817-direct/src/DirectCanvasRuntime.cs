@@ -15,6 +15,8 @@ namespace Kibukawa.Engine.Gmode20050817Direct
         [ThreadStatic] private static int bodyDrawDepth;
         [ThreadStatic] private static bool speakerDraw;
         [ThreadStatic] private static bool menuMeasure;
+        [ThreadStatic] private static bool scenarioPage;
+        protected struct ScenarioPageState { internal bool Measure,Page; }
         protected struct DirectDrawState { internal float Scale; internal int BodyDepth; }
         sealed class Viewport { internal int Top; internal object Script; }
         static readonly ConditionalWeakTable<object,Viewport> viewports=new ConditionalWeakTable<object,Viewport>();
@@ -33,7 +35,7 @@ namespace Kibukawa.Engine.Gmode20050817Direct
             // counts each translated ideograph as a one-byte '?' and pushes most
             // of the label beyond the right edge. Use the same full/half-cell
             // measurement only while this page is being painted.
-            harmony.Patch(AccessTools.Method(canvasType,"PaintSentaku"),prefix:new HarmonyMethod(typeof(DirectCanvasRuntime),"BeforeMenuMeasure"),finalizer:new HarmonyMethod(typeof(DirectCanvasRuntime),"RestoreMenuMeasure"));
+            harmony.Patch(AccessTools.Method(canvasType,"PaintSentaku"),prefix:new HarmonyMethod(typeof(DirectCanvasRuntime),"BeforeScenarioPage"),finalizer:new HarmonyMethod(typeof(DirectCanvasRuntime),"RestoreScenarioPage"));
             harmony.Patch(AccessTools.Method(canvasType,"Strlen",new[]{typeof(string)}),prefix:new HarmonyMethod(typeof(DirectCanvasRuntime),"BeforeMenuLength"));
             Patch(AccessTools.Method(canvasType,"Ds_sub"),"BeforeShadowString",null);
             Patch(AccessTools.Method(canvasType,"Ds_sub2"),"BeforeShadowString",null);
@@ -153,7 +155,7 @@ namespace Kibukawa.Engine.Gmode20050817Direct
             F("PrintKetaKanryo").SetValue(__instance,Number(__instance,"PrintKetaYoyaku"));
             F("PrintMojiKetaKanryo").SetValue(__instance,cell);
         }
-        protected static bool BeforeDirectDraw(object __instance,int __2,int __3,ref int __4,ref int __5,out DirectDrawState __state)
+        protected static bool BeforeDirectDraw(object __instance,int __1,int __3,ref int __4,ref int __5,out DirectDrawState __state)
         {
             __state=new DirectDrawState { Scale=drawScale, BodyDepth=bodyDrawDepth };
             if(!ready || !State(__instance).Dialogue || smallFontScope)return true;
@@ -164,8 +166,8 @@ namespace Kibukawa.Engine.Gmode20050817Direct
                 if(__3<top)return false;
                 __5=134+(Number(__instance,"NowNamae")==-1?0:layout.RowAdvance)+(__3-top)*layout.RowAdvance;
             }
-            if(Number(__instance,"MojiHani_tate")==0)FitDirectText(__instance,__2,__3,false,ref __4);
-            else FitDirectFullScreenText(__instance,__2,__3,ref __4);
+            if(Number(__instance,"MojiHani_tate")==0)FitDirectText(__instance,__1,__3,false,ref __4);
+            else FitDirectFullScreenText(__instance,__1,__3,ref __4);
             return true;
         }
         static void FitDirectFullScreenText(object canvas,int slot,int row,ref int x)
@@ -198,12 +200,14 @@ namespace Kibukawa.Engine.Gmode20050817Direct
         }
         protected static void RestoreDirectScale(DirectDrawState __state)
         { RestoreScale(__state.Scale); bodyDrawDepth=__state.BodyDepth; }
-        protected static void BeforeDirectRollDraw(object __instance,int __2,int __3,ref int __4,out DirectDrawState __state)
+        protected static void BeforeDirectRollDraw(object __instance,int __1,int __3,ref int __4,out DirectDrawState __state)
         {
             __state=new DirectDrawState { Scale=drawScale, BodyDepth=bodyDrawDepth };
             if(!ready)return;
             if(State(__instance).RollRows.Contains(__3))bodyDrawDepth++;
-            if(Number(__instance,"MojiHani_tate")==0)FitDirectText(__instance,__2,__3,true,ref __4);
+            // Scrolling uses the same body metrics in every vertical mode.
+            // __1 is the character index; __2 is the native paired-halfwidth cell.
+            FitDirectText(__instance,__1,__3,true,ref __4);
         }
         // Body and speaker use 16px. Everywhere else the shared renderer selects
         // the atlas from the native StFont size (12px or 16px).
@@ -212,6 +216,17 @@ namespace Kibukawa.Engine.Gmode20050817Direct
             if(!ready)return true;
             bool body=bodyDrawDepth>0 && !smallFontScope;
             var origin=(UnityEngine.Vector2)drawOrigin.GetValue(__instance);
+            if(scenarioPage && __2==238 && smallFont!=null)
+            {
+                // PaintSentaku's subtitle band is y=224..240. Center the whole
+                // string's native ink box, keeping a common baseline for digits
+                // and CJK glyphs and leaving other rows/headers untouched.
+                int low=Int32.MaxValue,high=Int32.MinValue;
+                UnityEngine.CharacterInfo glyph;
+                foreach(char c in __0)if(c!=' ' && c!='　' && c!='\0' && smallFont.TryGetForDisplay(c,out glyph))
+                { low=Math.Min(low,glyph.minY);high=Math.Max(high,glyph.maxY); }
+                if(low<=high)__2=(int)Math.Round(232+(low+high)/2.0,MidpointRounding.AwayFromZero);
+            }
             return Kibu1ZhCN.LegacyFontRenderer.Draw(__instance,__0,__1+(int)origin.x,__2+(int)origin.y,
                 null,font,body && !speakerDraw && drawScale>0?drawScale:1f,body || speakerDraw?null:smallFont);
         }
@@ -223,6 +238,10 @@ namespace Kibukawa.Engine.Gmode20050817Direct
         }
         protected static void RestoreDirectSpeaker(bool __state) { speakerDraw=__state; }
         protected static void BeforeMenuMeasure(out bool __state) { __state=menuMeasure;menuMeasure=true; }
+        protected static void BeforeScenarioPage(out ScenarioPageState __state)
+        { __state=new ScenarioPageState{Measure=menuMeasure,Page=scenarioPage};menuMeasure=true;scenarioPage=true; }
+        protected static void RestoreScenarioPage(ScenarioPageState __state)
+        { menuMeasure=__state.Measure;scenarioPage=__state.Page; }
         protected static void RestoreMenuMeasure(bool __state) { menuMeasure=__state; }
         protected static bool BeforeMenuLength(string __0,ref int __result)
         {
