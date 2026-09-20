@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Reflection.Emit;
 using Kibukawa8.Runtime;
 using Kibukawa.Engine.Gmode20050817;
 using Kibukawa.Engine.Gmode20050817Direct;
@@ -9,7 +10,7 @@ public class DirectCanvasStub
  public static Socotra.UI.StFont font=Socotra.UI.StFont.GetFont(656);
  public sbyte[] Script=new sbyte[]{1,2,3}; public int Pos=123,NowNamae=-1,MainTask,FrameTask=2;
  public bool NowRoll; public int Color; public int[] ColorTable={0,1,2,3,4};
- public int MojiHani_tate,MojiHani_yoko,PrintDanYoyaku,PrintDanKanryo=-1,PrintMojiKetaKanryo=-1;public bool Resumed;
+ public int MojiHani_tate,MojiHani_yoko,PrintDanYoyaku,PrintDanKanryo=-1,PrintKetaYoyaku,PrintKetaKanryo=-1,PrintMojiKetaYoyaku,PrintMojiKetaKanryo=-1;public bool Resumed;
  public static int FWidth=6;
  public string info_struct_moji="原文";
  public sbyte BunsyouGun_gyousuu,BunsyouGun_max_mojisuu;
@@ -40,6 +41,7 @@ public class DirectHarness : DirectCanvasRuntime
  static void LayoutChecks() {
   Check(DirectTextLayout.Measure("中文ABC测试",0,7)==103 && DirectTextLayout.Position("中文ABC测试",2)==38 && DirectTextLayout.Position("中文ABC测试",5)==69,"Visual Latin gaps must be counted and drawn identically without adding characters");
   Check(DirectTextLayout.Measure("键盘　Ｅ　键",0,6)==68 && DirectTextLayout.Position("键盘　Ｅ　键",3)==38 && DirectTextLayout.Position("键盘　Ｅ　键",5)==51,"Authored spaces at Han-Latin boundaries must collapse to one compact visual gap");
+  Check(DirectTextLayout.MeasureNative("键盘　Ｅ　键",0,6)==54 && DirectTextLayout.PositionNative("键盘　Ｅ　键",3)==30 && DirectTextLayout.PositionNative("键盘　Ｅ　键",5)==42,"Full-screen Han-Latin boundaries must use one symmetric native half-cell gap");
   var source=new[]{Row("调查工藤"),Row("贵树的证词",terminal:46)};
   var mask=new char[10];for(int i=0;i<mask.Length;i++)mask[i]='0';for(int i=3;i<6;i++)mask[i]='1';Segment(source,new string(mask));
   var result=DirectTextLayout.Wrap(source,68,4);
@@ -119,6 +121,13 @@ public class DirectHarness : DirectCanvasRuntime
   AfterDirectDialogue(c,new ReadState{Display=new DisplayTranslation{Offset=9454,Opcode=255,Rows=clearTarget}});
   Check(c.BunsyouGun_gyousuu==4 && c.bg_itigyougun_mojiretu[0]=="将把此前的所有数据" && c.bg_itigyougun_mojiretu[1]=="初始化，" && c.bg_itigyougun_mojiretu[3]=="确定吗？","Clear-save confirmation must retain its native four-row state machine buffer");
   Check(c.bg_itigyougun_control[3][c.bg_itigyougun_mojiretu[3].Length-1]==46,"Clear-save confirmation must retain its terminal click in the authored final row");
+  c.PrintDanYoyaku=0;c.PrintKetaYoyaku=99;c.PrintDanKanryo=0;c.PrintKetaKanryo=98;c.Resumed=false;
+  RecoverDirectAdvance(c);
+  Check(c.PrintDanYoyaku==3 && c.PrintDanKanryo==3 && c.PrintKetaYoyaku==3 && c.PrintKetaKanryo==3 && c.PrintMojiKetaYoyaku==3 && c.PrintMojiKetaKanryo==3 && c.Resumed,"Typewriter exception recovery must reveal the complete confirmation at its terminal click");
+  var generator=new DynamicMethod("CatchLoop",typeof(void),Type.EmptyTypes).GetILGenerator();var loop=generator.DefineLabel();
+  var pop=new HarmonyLib.CodeInstruction(OpCodes.Pop);pop.labels.Add(loop);
+  var rewritten=new List<HarmonyLib.CodeInstruction>(RewriteAdvanceFailure(new[]{pop,new HarmonyLib.CodeInstruction(OpCodes.Br_S,loop),new HarmonyLib.CodeInstruction(OpCodes.Ldc_I4_1),new HarmonyLib.CodeInstruction(OpCodes.Ret)}));
+  Check(rewritten.Count==5 && rewritten[1].opcode==OpCodes.Ldarg_0 && rewritten[2].opcode==OpCodes.Call && rewritten[3].opcode==OpCodes.Ldc_I4_1,"Game_adv infinite catch loop must be replaced by bounded recovery");
   var helpSource=new[]{Row("今作、「永劫会事件」は"),Row("２人の登場人物を中心に"),Row("最大４人の人物の視点"),Row("からゲームを進めるシス"),Row("テムになっています。",terminal:46)};
   var helpTarget=new[]{Row("本作《永劫会事件》"),Row("以两位角色为中心，"),Row("最多可从四位角色的视角"),Row("展开"),Row("游戏。",terminal:46)};
   for(int i=0;i<helpTarget.Length;i++)helpTarget[i].SourceText=helpSource[i].Text;
@@ -172,8 +181,11 @@ public class DirectHarness : DirectCanvasRuntime
   string fullText="";for(int i=0;i<c.BunsyouGun_gyousuu;i++)fullText+=c.bg_itigyougun_mojiretu[i];
   Check(c.BunsyouGun_gyousuu<=full.Length && fullText=="本作让您从多位人物的视角追踪故事，所以，说明还将继续。","Full-screen prose must merge soft rows without adding lines");
   for(int i=0;i<c.BunsyouGun_gyousuu;i++)Check(c.bg_itigyougun_mojiretu[i]!="视角" && c.bg_itigyougun_mojiretu[i]!="所以，","Full-screen obsolete soft row survived reflow");
-  x=37;y=91;BeforeDirectDraw(c,0,0,ref x,ref y,out scale);RestoreDirectScale(scale);
-  Check(x==37 && y==91,"Full-screen native coordinates must bypass dialogue positioning");
+  c.bg_itigyougun_mojiretu[0]="键盘　Ｅ　键";c.BunsyouGun_gyousuu=1;c.MojiHani_yoko=3;
+  x=37;y=91;BeforeDirectDraw(c,3,0,ref x,ref y,out scale);RestoreDirectScale(scale);
+  Check(x==40 && y==91,"Full-screen Latin glyph must start after one native half-cell gap without changing its vertical coordinate");
+  x=37;y=91;BeforeDirectDraw(c,5,0,ref x,ref y,out scale);RestoreDirectScale(scale);
+  Check(x==52 && y==91,"Full-screen Han glyph after Latin must use the same native half-cell gap");
   int clicks=0;foreach(var plane in c.bg_itigyougun_control)if(plane!=null)foreach(var controlByte in plane)if(controlByte==59)clicks++;
   Check(clicks==0,"Full-screen reflow must not introduce any automatic click");
   return "Direct runtime: subtitle, INFO ASCII/palette/exception, immutable script, reflow, controls, ruby PASS";

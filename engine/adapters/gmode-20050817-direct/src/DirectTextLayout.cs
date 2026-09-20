@@ -21,20 +21,30 @@ namespace Kibukawa.Engine.Gmode20050817Direct
    char a=text[index-1],b=text[index+1];
    return Han(a) && LatinMetrics.Narrow(b) || LatinMetrics.Narrow(a) && Han(b);
   }
-  static int Advance(string text,int index) {return MixedBlank(text,index)?MixedGap:Cell(text[index]);}
-  internal static int Measure(string text,int start,int end)
+  static int GridCell(char c,bool native) {return native?(LatinMetrics.Narrow(c)||c==' '?6:12):Cell(c);}
+  static int GridGap(bool native) {return native?6:MixedGap;}
+  static int Advance(string text,int index,bool native) {return MixedBlank(text,index)?GridGap(native):GridCell(text[index],native);}
+  static int GridMeasure(string text,int start,int end,bool native)
   {
-   int width=0;
-   for(int i=start;i<end;i++){if(i>start && Gap(text[i-1],text[i]))width+=MixedGap;width+=Advance(text,i);}
+   int width=0,gap=GridGap(native);
+   for(int i=start;i<end;i++){if(i>start && Gap(text[i-1],text[i]))width+=gap;width+=Advance(text,i,native);}
+   return width;
+  }
+  internal static int Measure(string text,int start,int end)
+  { return GridMeasure(text,start,end,false); }
+  internal static int MeasureNative(string text,int start,int end)
+  { return GridMeasure(text,start,end,true); }
+  static int GridPosition(string text,int slot,bool native)
+  {
+   slot=Math.Min(slot,text.Length);
+   int width=GridMeasure(text,0,slot,native);
+   if(slot>0 && slot<text.Length && Gap(text[slot-1],text[slot]))width+=GridGap(native);
    return width;
   }
   internal static int Position(string text,int slot)
-  {
-   slot=Math.Min(slot,text.Length);
-   int width=Measure(text,0,slot);
-   if(slot>0 && slot<text.Length && Gap(text[slot-1],text[slot]))width+=MixedGap;
-   return width;
-  }
+  { return GridPosition(text,slot,false); }
+  internal static int PositionNative(string text,int slot)
+  { return GridPosition(text,slot,true); }
   static bool End(string s) {s=(s??"").TrimEnd();return s.Length>0 && "。！？!?」』”’".IndexOf(s[s.Length-1])>=0;}
   static bool Spaced(string s) {return !String.IsNullOrEmpty(s) && (s.IndexOf('　')>=0 || Char.IsWhiteSpace(s[0]));}
   static bool Leading(string s) {s=(s??"").TrimStart();return s.Length>0 && (s[0]=='…' || Open.IndexOf(s[0])>=0);}
@@ -46,7 +56,7 @@ namespace Kibukawa.Engine.Gmode20050817Direct
    bool uniform=a.Colors.Length>0;foreach(byte c in a.Colors)uniform &= c==a.Colors[0];
    return uniform && b.Colors.Length>0 && a.Colors[0]!=b.Colors[0];
   }
-  internal static RuntimeRow[] Wrap(RuntimeRow[] source,int width,int capacity)
+  internal static RuntimeRow[] Wrap(RuntimeRow[] source,int width,int capacity,bool nativeGrid=false)
   {
    if(source.Length==0)return source;
    var text=new StringBuilder();var colors=new List<byte>();var controls=new List<byte>();
@@ -69,20 +79,21 @@ namespace Kibukawa.Engine.Gmode20050817Direct
    string value=text.ToString(),mask;
    if(!DirectLexicon.Masks.TryGetValue(value,out mask))throw new InvalidOperationException("Unsegmented dialogue text");
    int n=value.Length,max=Math.Max(source.Length,capacity);
-   var pixels=new int[n+1];for(int i=0;i<n;i++)pixels[i+1]=pixels[i]+Advance(value,i)+(i>0 && Gap(value[i-1],value[i])?MixedGap:0);
+   int mixedGap=GridGap(nativeGrid);
+   var pixels=new int[n+1];for(int i=0;i<n;i++)pixels[i+1]=pixels[i]+Advance(value,i,nativeGrid)+(i>0 && Gap(value[i-1],value[i])?mixedGap:0);
    var cost=new double[n+1,max+1];var next=new int[n+1,max+1];
    for(int i=0;i<=n;i++)for(int r=0;r<=max;r++)cost[i,r]=Double.PositiveInfinity;
    for(int r=0;r<=max;r++)cost[n,r]=0;
    for(int r=1;r<=max;r++)for(int start=n-1;start>=0;start--)
    {
-    int leadingGap=start>0 && Gap(value[start-1],value[start])?MixedGap:0;
+    int leadingGap=start>0 && Gap(value[start-1],value[start])?mixedGap:0;
     for(int end=start+1;end<=n && pixels[end]-pixels[start]-leadingGap<=width;end++)
     {
      if(end>start+1 && hard.Contains(end-1))break;
      if(end<n && !hard.Contains(end) && (Close.IndexOf(value[end])>=0 || Open.IndexOf(value[end-1])>=0))continue;
      if(Double.IsPositiveInfinity(cost[end,r-1]))continue;
      double spare=width-(pixels[end]-pixels[start]-leadingGap);
-     double penalty=2000+spare*spare/289.0+(end<n && mask[end]=='1' && !hard.Contains(end)?1e12:0);
+     double penalty=2000+spare*spare/(nativeGrid?144.0:289.0)+(end<n && mask[end]=='1' && !hard.Contains(end)?1e12:0);
      double candidate=cost[end,r-1]+penalty;
      if(candidate<cost[start,r]){cost[start,r]=candidate;next[start,r]=end;}
     }

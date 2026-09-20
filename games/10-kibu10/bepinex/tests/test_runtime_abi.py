@@ -40,4 +40,10 @@ class RuntimeABI(unittest.TestCase):
             'System.Void CanvasEx::PaintADV_text(Socotra.UI.StGraphics)',
         ): self.assertIn(signature,DUMP['methods'])
 
+    def test_typewriter_catch_is_the_verified_infinite_loop(self):
+        il=DUMP['methods']['System.Boolean CanvasEx::Game_adv()']['il']
+        self.assertEqual(il[778:783],[
+            'leave.s branch:781','pop ','br.s branch:780','ldc.i4.1 ','ret '
+        ])
+
 if __name__=='__main__': unittest.main()
