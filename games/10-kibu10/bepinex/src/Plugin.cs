@@ -16,7 +16,7 @@ using Kibukawa.Engine.Gmode20050817Direct;
 
 namespace Kibu10ZhCN
 {
-    [BepInPlugin("local.kibu10.zhcn", "Kibu10 Simplified Chinese", "0.1.18")]
+    [BepInPlugin("local.kibu10.zhcn", "Kibu10 Simplified Chinese", "0.1.19")]
     [BepInProcess("kibu10.exe")]
     public sealed class Plugin : DirectCanvasRuntime
     {

@@ -172,7 +172,7 @@ public class DirectHarness : DirectCanvasRuntime
   c.bg_itigyougun_mojiretu[0]="中文";c.BunsyouGun_gyousuu=1;
   x=0;y=91;BeforeDirectDraw(c,0,0,ref x,ref y,out scale);
   BeforeDraw(new DirectGraphicsStub(),new[]{'中'},x,y);
-  Check(Object.ReferenceEquals(Kibu1ZhCN.LegacyFontRenderer.Primary,smallFont),"Full-screen 12px advance must draw the 12px atlas, not overlapping 16px glyphs");
+  Check(Object.ReferenceEquals(Kibu1ZhCN.LegacyFontRenderer.Primary,font) && Kibu1ZhCN.LegacyFontRenderer.Small==null,"Full-screen body must use 16px like ordinary dialogue");
   RestoreDirectScale(scale);
   var fullSource=new[]{Row("本作では複数の人物の"),Row("視点から物語を追う"),Row("システムなので"),Row("説明が続きます。",terminal:46)};
   var full=new[]{Row("本作让您从多位人物的"),Row("视角"),Row("追踪故事，"),Row("所以，说明还将继续。",terminal:46)};
@@ -184,9 +184,9 @@ public class DirectHarness : DirectCanvasRuntime
   for(int i=0;i<c.BunsyouGun_gyousuu;i++)Check(c.bg_itigyougun_mojiretu[i]!="视角" && c.bg_itigyougun_mojiretu[i]!="所以，","Full-screen obsolete soft row survived reflow");
   c.bg_itigyougun_mojiretu[0]="键盘　Ｅ　键";c.BunsyouGun_gyousuu=1;c.MojiHani_yoko=3;
   x=37;y=91;BeforeDirectDraw(c,3,0,ref x,ref y,out scale);RestoreDirectScale(scale);
-  Check(x==40 && y==91,"Full-screen Latin glyph must start after one native half-cell gap without changing its vertical coordinate");
+  Check(x==53 && y==91,"Full-screen Latin glyph must start after one dialogue half-cell gap without changing its vertical coordinate");
   x=37;y=91;BeforeDirectDraw(c,5,0,ref x,ref y,out scale);RestoreDirectScale(scale);
-  Check(x==52 && y==91,"Full-screen Han glyph after Latin must use the same native half-cell gap");
+  Check(x==71 && y==91,"Full-screen Han glyph after Latin must use the same dialogue half-cell gap");
   int clicks=0;foreach(var plane in c.bg_itigyougun_control)if(plane!=null)foreach(var controlByte in plane)if(controlByte==59)clicks++;
   Check(clicks==0,"Full-screen reflow must not introduce any automatic click");
   return "Direct runtime: subtitle, INFO ASCII/palette/exception, immutable script, reflow, controls, ruby PASS";

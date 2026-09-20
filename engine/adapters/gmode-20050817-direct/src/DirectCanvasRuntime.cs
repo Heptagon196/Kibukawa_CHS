@@ -13,10 +13,9 @@ namespace Kibukawa.Engine.Gmode20050817Direct
     public abstract class DirectCanvasRuntime : CanvasRuntime
     {
         [ThreadStatic] private static int bodyDrawDepth;
-        [ThreadStatic] private static int nativeDrawDepth;
         [ThreadStatic] private static bool speakerDraw;
         [ThreadStatic] private static bool menuMeasure;
-        protected struct DirectDrawState { internal float Scale; internal int BodyDepth,NativeDepth; }
+        protected struct DirectDrawState { internal float Scale; internal int BodyDepth; }
         sealed class Viewport { internal int Top; internal object Script; }
         static readonly ConditionalWeakTable<object,Viewport> viewports=new ConditionalWeakTable<object,Viewport>();
         protected static readonly HashSet<string> preserveDirectDialogueRows=new HashSet<string>(StringComparer.Ordinal);
@@ -82,7 +81,7 @@ namespace Kibukawa.Engine.Gmode20050817Direct
             // parsed; the game entry point identifies them by verified offset and
             // source rows so unrelated displays at the same offset still reflow.
             var rows=preserveDirectDialogueRows.Contains(DirectDialogueKey(__state.Display.Offset,original))
-                ? original : DirectTextLayout.Wrap(original,width,capacity,fullScreen);
+                ? original : DirectTextLayout.Wrap(original,width,capacity);
             int maximum=0;
             for(int i=0;i<rows.Length;i++){ApplyRow(__instance,rows[i],i,false,false);maximum=Math.Max(maximum,rows[i].Text.Length);}
             int end=Math.Max(rows.Length+1,((string[])F("bg_itigyougun_mojiretu").GetValue(__instance)).Length);
@@ -156,10 +155,9 @@ namespace Kibukawa.Engine.Gmode20050817Direct
         }
         protected static bool BeforeDirectDraw(object __instance,int __2,int __3,ref int __4,ref int __5,out DirectDrawState __state)
         {
-            __state=new DirectDrawState { Scale=drawScale, BodyDepth=bodyDrawDepth, NativeDepth=nativeDrawDepth };
+            __state=new DirectDrawState { Scale=drawScale, BodyDepth=bodyDrawDepth };
             if(!ready || !State(__instance).Dialogue || smallFontScope)return true;
-            if(Number(__instance,"MojiHani_tate")==0)bodyDrawDepth++;
-            else nativeDrawDepth++;
+            bodyDrawDepth++;
             if(Number(__instance,"MojiHani_tate")==0)
             {
                 int top=viewports.GetOrCreateValue(__instance).Top;
@@ -176,12 +174,12 @@ namespace Kibukawa.Engine.Gmode20050817Direct
             if(!state.Dialogue)return;
             var lines=(string[])F("bg_itigyougun_mojiretu").GetValue(canvas);
             string text=lines[row];int align=Number(canvas,"MojiHani_yoko");
-            int width=DirectTextLayout.MeasureNative(text,0,text.Length),maximum=width;
+            int width=DirectTextLayout.Measure(text,0,text.Length),maximum=width;
             if(align==0)
                 for(int i=0;i<Number(canvas,"BunsyouGun_gyousuu");i++)
-                    if(lines[i]!=null)maximum=Math.Max(maximum,DirectTextLayout.MeasureNative(lines[i],0,lines[i].Length));
+                    if(lines[i]!=null)maximum=Math.Max(maximum,DirectTextLayout.Measure(lines[i],0,lines[i].Length));
             double start=align==0?10+(220-maximum)/2.0:align==3?10:align==2?230-width:(240-width)/2.0;
-            x=(int)Math.Round(start+DirectTextLayout.PositionNative(text,slot),MidpointRounding.AwayFromZero);
+            x=(int)Math.Round(start+DirectTextLayout.Position(text,slot),MidpointRounding.AwayFromZero);
             drawScale=1f;
         }
         protected static void FitDirectText(object canvas,int slot,int row,bool roll,ref int x)
@@ -199,10 +197,10 @@ namespace Kibukawa.Engine.Gmode20050817Direct
             drawScale=1f;
         }
         protected static void RestoreDirectScale(DirectDrawState __state)
-        { RestoreScale(__state.Scale); bodyDrawDepth=__state.BodyDepth; nativeDrawDepth=__state.NativeDepth; }
+        { RestoreScale(__state.Scale); bodyDrawDepth=__state.BodyDepth; }
         protected static void BeforeDirectRollDraw(object __instance,int __2,int __3,ref int __4,out DirectDrawState __state)
         {
-            __state=new DirectDrawState { Scale=drawScale, BodyDepth=bodyDrawDepth, NativeDepth=nativeDrawDepth };
+            __state=new DirectDrawState { Scale=drawScale, BodyDepth=bodyDrawDepth };
             if(!ready)return;
             if(State(__instance).RollRows.Contains(__3))bodyDrawDepth++;
             if(Number(__instance,"MojiHani_tate")==0)FitDirectText(__instance,__2,__3,true,ref __4);
@@ -215,7 +213,7 @@ namespace Kibukawa.Engine.Gmode20050817Direct
             bool body=bodyDrawDepth>0 && !smallFontScope;
             var origin=(UnityEngine.Vector2)drawOrigin.GetValue(__instance);
             return Kibu1ZhCN.LegacyFontRenderer.Draw(__instance,__0,__1+(int)origin.x,__2+(int)origin.y,
-                null,nativeDrawDepth>0 && !speakerDraw?smallFont:font,body && !speakerDraw && drawScale>0?drawScale:1f,body || speakerDraw?null:smallFont);
+                null,font,body && !speakerDraw && drawScale>0?drawScale:1f,body || speakerDraw?null:smallFont);
         }
         protected static void BeforeDirectSpeaker(object __instance,int __1,ref int __2,out bool __state)
         {
