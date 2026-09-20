@@ -27,6 +27,13 @@ public static class DirectPackBindingTests
    byte[] pristine=(byte[])body.Clone();
    var script=pack.Bind(body);
    if(script==null)throw new Exception("Unbound BIN: "+file);
+   if(Path.GetFileName(file)=="help.bin")
+   {
+    DisplayTranslation help;
+    if(!script.Displays.TryGetValue(164,out help) || help.Rows.Length!=5
+        || help.Rows[0].Text!="本作《永劫会事件》" || help.Rows[2].Text!="最多可从四位角色的视角")
+     throw new Exception("Help page body is not translated through the actual runtime script binding");
+   }
    foreach(var display in script.Displays.Values)
    {
     foreach(var row in display.Rows)

@@ -49,6 +49,7 @@ namespace Kibukawa.Engine.Gmode20050817Direct
         protected static void AfterDirectDialogue(object __instance,ReadState __state)
         {
             var state=State(__instance);state.Dialogue=false;
+            if(__state==null)__state=RecoverDirectDialogue(__instance,state);
             if(__state==null)return;
             var original=__state.Display.Rows;
             bool authored=Number(__instance,"MojiHani_tate")!=0 || Number(__instance,"MainTask")==17;
@@ -63,6 +64,30 @@ namespace Kibukawa.Engine.Gmode20050817Direct
             F("BunsyouGun_gyousuu").SetValue(__instance,checked((sbyte)rows.Length));
             F("BunsyouGun_max_mojisuu").SetValue(__instance,checked((sbyte)maximum));
             state.Dialogue=true;state.Reflowed=rows.Length!=original.Length;
+        }
+        static ReadState RecoverDirectDialogue(object canvas,CanvasState state)
+        {
+            // If a non-story page reaches BUNSYOU with a command position that
+            // does not identify the display, the native parser still supplies
+            // the exact source rows at postfix time. Bind those rows back to one
+            // unique display without touching Script or Pos; ambiguity retains
+            // the original text.
+            if(state.Translation==null)return null;
+            int count=Number(canvas,"BunsyouGun_gyousuu");
+            var source=(string[])F("bg_itigyougun_mojiretu").GetValue(canvas);
+            if(source==null || count<1 || count>source.Length)return null;
+            DisplayTranslation match=null;
+            foreach(var display in state.Translation.Displays.Values)
+            {
+                if(display.Opcode!=255 || display.Rows.Length!=count)continue;
+                bool equal=true;
+                for(int i=0;i<count;i++)
+                    if(!String.Equals(source[i],display.Rows[i].SourceText,StringComparison.Ordinal)){equal=false;break;}
+                if(!equal)continue;
+                if(match!=null)return null;
+                match=display;
+            }
+            return match==null?null:new ReadState{Display=match,Row=0};
         }
         protected static void BeforeDirectViewport(object __instance)
         {

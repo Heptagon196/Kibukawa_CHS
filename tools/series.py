@@ -32,7 +32,14 @@ def main():
     if not (project/'project.json').is_file(): raise ValueError('Project manifest missing')
     scripts = project/'scripts'
     if args.action == 'install':
-        command = ['pwsh','-NoProfile','-File',str(scripts/'install_bepinex.ps1')]
+        powershell_installer = scripts/'install_bepinex.ps1'
+        python_installer = scripts/'install_patch.py'
+        if powershell_installer.is_file():
+            command = ['pwsh','-NoProfile','-File',str(powershell_installer)]
+        elif python_installer.is_file():
+            command = [sys.executable,str(python_installer),'--apply']
+        else:
+            raise ValueError('Project installer missing')
     elif args.action == 'probe':
         command = [sys.executable,str(scripts/'build_bepinex.py'),'--probe']
     elif args.action in ('build','verify'):

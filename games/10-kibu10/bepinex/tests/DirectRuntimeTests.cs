@@ -6,22 +6,25 @@ using Kibukawa.Engine.Gmode20050817Direct;
 
 public class DirectCanvasStub
 {
+ public static Socotra.UI.StFont font=Socotra.UI.StFont.GetFont(656);
  public sbyte[] Script=new sbyte[]{1,2,3}; public int Pos=123,NowNamae=-1,MainTask,FrameTask=2;
  public bool NowRoll; public int Color; public int[] ColorTable={0,1,2,3,4};
  public int MojiHani_tate,MojiHani_yoko,PrintDanYoyaku;public bool Resumed;
  public static int FWidth=6;
  public string info_struct_moji="原文";
  public sbyte BunsyouGun_gyousuu,BunsyouGun_max_mojisuu;
- public string[] bg_itigyougun_mojiretu=new string[4];
- public sbyte[] bg_itigyougun_zenkakusuu=new sbyte[4],bg_itigyougun_rubisuu=new sbyte[4];
- public sbyte[][] bg_itigyougun_color=new sbyte[4][],bg_itigyougun_control=new sbyte[4][];
- public int[][] bg_itigyougun_rubi_index=new int[4][];
+ public string[] bg_itigyougun_mojiretu=new string[8];
+ public sbyte[] bg_itigyougun_zenkakusuu=new sbyte[8],bg_itigyougun_rubisuu=new sbyte[8];
+ public sbyte[][] bg_itigyougun_color=new sbyte[8][],bg_itigyougun_control=new sbyte[8][];
+ public int[][] bg_itigyougun_rubi_index=new int[8][];
  public void SetColor(object g,int c) { Color=c; }
 }
 public class DirectGraphicsStub
 {
  public UnityEngine.Vector2 drawOrigin; public string Drawn=""; public bool Throw;
  public List<int> Xs=new List<int>();
+ public List<int> Fonts=new List<int>();
+ public void SetFont(Socotra.UI.StFont font) { Fonts.Add(font.Id); }
  public void DrawString(string s,int x,int y) { if(Throw)throw new Exception("draw failure");Drawn+=s;Xs.Add(x); }
 }
 public class DirectHarness : DirectCanvasRuntime
@@ -82,6 +85,10 @@ public class DirectHarness : DirectCanvasRuntime
   infoRows["原文"]=nativeInfoRow;
   Check(!Kibu10ZhCN.Plugin.DrawKibu10Info(c,g)&&g.Drawn=="中A。","Kibu10 INFO renderer must replace the shared prefix");
   Check(g.Xs.Count==3 && g.Xs[0]==208 && g.Xs[1]==220 && g.Xs[2]==226,"Kibu10 INFO must use native 12px full-width and 6px half-width advances");
+  Check(g.Fonts.Count==2 && g.Fonts[0]==32 && g.Fonts[1]==656,"Kibu10 INFO must select the native top-bar font and restore the previous font");
+  g.Throw=true;try{Kibu10ZhCN.Plugin.DrawKibu10Info(c,g);}catch(System.Reflection.TargetInvocationException){}
+  Check(g.Fonts.Count==4 && g.Fonts[2]==32 && g.Fonts[3]==656 && !smallFontScope,"Kibu10 INFO must restore the native font and scope after draw failure");
+  g.Throw=false;
   Check(Kibu10ZhCN.Plugin.NativeInfoWidth('Ａ')==12 && Kibu10ZhCN.Plugin.NativeInfoWidth('ｱ')==6 && Kibu10ZhCN.Plugin.NativeInfoWidth('?')==6 && Kibu10ZhCN.Plugin.NativeInfoWidth('　')==12,"Kibu10 INFO width classification must match native cells, including full-width spaces");
   var read=new ReadState{Display=new DisplayTranslation{Opcode=255,Rows=new[]{row}}};
   DirectLexicon.Masks[row.Text]="0000";
@@ -97,6 +104,15 @@ public class DirectHarness : DirectCanvasRuntime
   }
   Check(control&&color,"Reflow must retain color and control events");
   Check(Object.ReferenceEquals(bytes,c.Script)&&c.Pos==123,"Dialogue must preserve save offsets");
+  var helpSource=new[]{Row("今作、「永劫会事件」は"),Row("２人の登場人物を中心に"),Row("最大４人の人物の視点"),Row("からゲームを進めるシス"),Row("テムになっています。",terminal:46)};
+  var helpTarget=new[]{Row("本作《永劫会事件》"),Row("以两位角色为中心，"),Row("最多可从四位角色的视角"),Row("展开"),Row("游戏。",terminal:46)};
+  for(int i=0;i<helpTarget.Length;i++)helpTarget[i].SourceText=helpSource[i].Text;
+  translation.Displays.Add(164,new DisplayTranslation{Offset=164,Opcode=255,Rows=helpTarget});
+  c.Pos=170;c.MainTask=17;c.BunsyouGun_gyousuu=5;
+  for(int i=0;i<helpSource.Length;i++)c.bg_itigyougun_mojiretu[i]=helpSource[i].Text;
+  AfterDirectDialogue(c,null);
+  Check(c.bg_itigyougun_mojiretu[0]=="本作《永劫会事件》" && c.bg_itigyougun_mojiretu[2]=="最多可从四位角色的视角","Help text must recover by its exact source rows when the runtime command position cannot bind directly");
+  c.MainTask=0;c.Pos=123;
   c.BunsyouGun_gyousuu=8;c.PrintDanYoyaku=6;c.NowNamae=0;
   BeforeDirectViewport(c);Check(c.Resumed,"Viewport must request native full redraw after scrolling");
   int x=0,y=0;DirectDrawState scale;

@@ -16,7 +16,7 @@ using Kibukawa.Engine.Gmode20050817Direct;
 
 namespace Kibu10ZhCN
 {
-    [BepInPlugin("local.kibu10.zhcn", "Kibu10 Simplified Chinese", "0.1.6")]
+    [BepInPlugin("local.kibu10.zhcn", "Kibu10 Simplified Chinese", "0.1.7")]
     [BepInProcess("kibu10.exe")]
     public sealed class Plugin : DirectCanvasRuntime
     {
@@ -113,10 +113,19 @@ namespace Kibu10ZhCN
             int[] palette = (int[])F("ColorTable").GetValue(__instance);
             MethodInfo color = AccessTools.Method(canvasType, "SetColor");
             MethodInfo draw = AccessTools.Method(__0.GetType(), "DrawString", new[] { typeof(string), typeof(int), typeof(int) });
+            Type stFont = AccessTools.TypeByName("Socotra.UI.StFont");
+            MethodInfo setFont = AccessTools.Method(__0.GetType(), "SetFont", new[] { stFont });
+            MethodInfo getFont = AccessTools.Method(stFont, "GetFont", new[] { typeof(int) });
+            object previousFont = F("font").GetValue(null);
             bool previous = smallFontScope;
             smallFontScope = true;
             try
             {
+                // PaintMain_info selects GetFont(32) before drawing and restores
+                // CanvasEx.font afterwards.  Our replacement skips that original
+                // method, so reproduce both calls or the top bar inherits the
+                // 16px dialogue font that happened to be active beforehand.
+                setFont.Invoke(__0, new[] { getFont.Invoke(null, new object[] { 32 }) });
                 for (int i = 0; i < row.Text.Length; i++)
                 {
                     color.Invoke(__instance, new object[] { __0, palette[row.Colors[i]] });
@@ -124,7 +133,11 @@ namespace Kibu10ZhCN
                     x += NativeInfoWidth(row.Text[i]);
                 }
             }
-            finally { smallFontScope = previous; }
+            finally
+            {
+                try { setFont.Invoke(__0, new[] { previousFont }); }
+                finally { smallFontScope = previous; }
+            }
             return false;
         }
         private void OnDestroy()
