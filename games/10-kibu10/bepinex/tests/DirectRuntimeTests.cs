@@ -149,6 +149,7 @@ public class DirectHarness : DirectCanvasRuntime
   Check(!BeforeMenuLength("游戏推进方式",ref length)&&length==12,"Chinese longest option must measure as six native fullwidth cells");
   Check(!BeforeMenuLength("关于存档",ref length)&&length==8,"Shorter option retains group alignment");
   Check(!BeforeMenuLength("ＡAｱ中",ref length)&&length==6,"Mixed native fullwidth and halfwidth widths");
+  Check(!BeforeMenuLength("古怪的侦探［７月10日］",ref length)&&length==22,"Scenario subtitle must use actual native cells for right alignment");
   RestoreMenuMeasure(measureState);
   Check(BeforeMenuLength("中文",ref length),"Menu finalizer must restore native script byte measurements");
   c.bg_itigyougun_mojiretu[0]="中文ABC测试";c.BunsyouGun_gyousuu=1;c.MojiHani_yoko=3;

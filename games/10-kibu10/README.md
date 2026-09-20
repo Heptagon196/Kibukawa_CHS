@@ -77,3 +77,5 @@ SHA256：`3e1a232bfcd70efd30bae7e3c4c040e2cdc9b1a1caf7b39d047a4ded407d3238`。
 2026-09-20：0.1.9 合并玩法说明中的旧设备软换行，使“展开游戏。”保持同一行；操作说明改为“键盘 E 键（或手柄 R 肩键）”；设置菜单在 `DocomoString` 逐字拆分前翻译完整标签。正式包为 `out/CHS_20260920_233727_166657900/Kibu10_CHS.zip`，SHA256 为 `ec7d42f26e81ecca4554f0d9271940fbacff80aa47ac64a36a09c9693f7946ab`；已安装，记录见 `installations/20260920_233741` 与 `reports/help-menu-controls-fix-20260920.md`。
 
 2026-09-20：0.1.10 将软换行合并扩展到全部全屏正文，同时以原框行数为上限并保留语义断行、缩进、标题和控制事件；修复玩法说明的“展开游戏。”拆行及长键位说明裁切。新增直连引擎逐字行游标同步，修复“初始化数据”确认页停在首行并反复播放字音。正式包为 `out/CHS_20260920_235615_385818500/Kibu10_CHS.zip`，SHA256 为 `ba2a968c4c1c53a734e83f6fbd13960f121b936a643ed10164557864e23b695e`；已安装，记录见 `installations/20260920_235705` 与 `reports/fullscreen-typewriter-fix-20260920.md`。
+
+2026-09-21：0.1.11 修复场景路线图底部副标题只显示末段的问题。译文没有缺失；原生 CP932 `Strlen` 把中文按单字节问号计宽，导致右对齐起点过右。`PaintSentaku` 现按原生全角 12px、半角 6px 单元计算，保留原字号与基线。正式包为 `out/CHS_20260921_000526_912999200/Kibu10_CHS.zip`，SHA256 为 `91263238148b76fb1379d1d332ec6ea60e78cff94a03df111f8856dd59b17a0a`；已安装，记录见 `installations/20260921_000556` 与 `reports/scenario-subtitle-alignment-fix-20260921.md`。

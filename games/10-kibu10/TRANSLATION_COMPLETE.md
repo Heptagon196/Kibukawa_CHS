@@ -42,3 +42,5 @@ SHA256：`3e1a232bfcd70efd30bae7e3c4c040e2cdc9b1a1caf7b39d047a4ded407d3238`。
 2026-09-20：0.1.9 按实机反馈修复玩法说明软换行、PC/手柄键位说明和设置菜单汉化。实际运行时包校验“展开游戏。”同排，键位说明在六行容量内且颜色/控制事件不变；设置菜单五个标签在 `DocomoString` 拆字前整句替换。正式包 SHA256 为 `ec7d42f26e81ecca4554f0d9271940fbacff80aa47ac64a36a09c9693f7946ab`，已安装；详见 `reports/help-menu-controls-fix-20260920.md`。
 
 2026-09-20：0.1.10 按实机反馈将软换行重排用于全部全屏正文，维持原框行数上限且不引入普通框分页或点击；逐字绘制仅在译文新行尚未开始时同步原生完成行游标，修复“初始化数据”确认页卡死。正式包 SHA256 为 `ba2a968c4c1c53a734e83f6fbd13960f121b936a643ed10164557864e23b695e`，已安装；详见 `reports/fullscreen-typewriter-fix-20260920.md`。
+
+2026-09-21：0.1.11 按实机反馈修复场景路线图底部副标题的右侧裁切。`PaintSentaku` 在其原生 `Strlen(text) * 6` 对齐公式中使用 Unicode 安全的全角/半角单元数，使“古怪的侦探［７月10日］”完整显示，同时保留原字号、基线和脚本偏移。正式包 SHA256 为 `91263238148b76fb1379d1d332ec6ea60e78cff94a03df111f8856dd59b17a0a`，已安装；详见 `reports/scenario-subtitle-alignment-fix-20260921.md`。

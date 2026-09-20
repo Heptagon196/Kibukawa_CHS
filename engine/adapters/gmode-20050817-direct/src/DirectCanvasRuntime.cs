@@ -24,6 +24,12 @@ namespace Kibukawa.Engine.Gmode20050817Direct
             // Retain native font sizes, spacing and alignment modes for choices.
             // Only their CP932-based width count needs a Unicode-safe equivalent.
             harmony.Patch(AccessTools.Method(canvasType,"PaintLongCommand"),prefix:new HarmonyMethod(typeof(DirectCanvasRuntime),"BeforeMenuMeasure"),finalizer:new HarmonyMethod(typeof(DirectCanvasRuntime),"RestoreMenuMeasure"));
+            // PaintSentaku right-aligns the selected scenario subtitle with
+            // Strlen(text)*6. CP932 cannot encode Chinese, so the native helper
+            // counts each translated ideograph as a one-byte '?' and pushes most
+            // of the label beyond the right edge. Use the same full/half-cell
+            // measurement only while this page is being painted.
+            harmony.Patch(AccessTools.Method(canvasType,"PaintSentaku"),prefix:new HarmonyMethod(typeof(DirectCanvasRuntime),"BeforeMenuMeasure"),finalizer:new HarmonyMethod(typeof(DirectCanvasRuntime),"RestoreMenuMeasure"));
             harmony.Patch(AccessTools.Method(canvasType,"Strlen",new[]{typeof(string)}),prefix:new HarmonyMethod(typeof(DirectCanvasRuntime),"BeforeMenuLength"));
             Patch(AccessTools.Method(canvasType,"Ds_sub"),"BeforeShadowString",null);
             Patch(AccessTools.Method(canvasType,"Ds_sub2"),"BeforeShadowString",null);
