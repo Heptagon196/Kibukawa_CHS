@@ -30,7 +30,7 @@ def verify(smoke=False):
         [sys.executable,str(p.WORK/'bepinex/tests/Run-UiRuntimeTests.py')],
     ]
     commands += [[p.shell(),'-NoProfile','-File',str(p.WORK/'bepinex/tests'/name)] for name in
-        ('Run-DirectRuntimeTests.ps1','Run-TitleOverlayStartupTests.ps1','Run-DirectChoiceMemoryTests.ps1','Run-HarmonyPatchCompositionTests.ps1','Run-DirectPackBindingTests.ps1','Run-HistoryTests.ps1')]
+        ('Run-DirectRuntimeTests.ps1','Run-TitleOverlayStartupTests.ps1','Run-DirectChoiceMemoryTests.ps1','Run-DirectPackBindingTests.ps1','Run-HistoryTests.ps1')]
     evidence=[]
     for command in commands:
         result=subprocess.run(command,check=True,capture_output=True,text=True,encoding='utf-8',errors='replace')

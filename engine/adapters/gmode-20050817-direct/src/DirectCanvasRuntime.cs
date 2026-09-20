@@ -1,7 +1,6 @@
 using System;
 using System.Collections.Generic;
 using System.Reflection;
-using System.Reflection.Emit;
 using System.Runtime.CompilerServices;
 using HarmonyLib;
 using Kibukawa8.Runtime;
@@ -48,11 +47,6 @@ namespace Kibukawa.Engine.Gmode20050817Direct
                 prefix:new HarmonyMethod(typeof(DirectCanvasRuntime),"BeforeDirectString"),
                 postfix:new HarmonyMethod(typeof(DirectCanvasRuntime),"AfterDirectString"));
             harmony.Patch(AccessTools.Method(canvasType,"BUNSYOU"),prefix:new HarmonyMethod(typeof(CanvasRuntime),"BeforeDialogue"),postfix:new HarmonyMethod(typeof(DirectCanvasRuntime),"AfterDirectDialogue"));
-            // The original direct engine catches any typewriter exception and
-            // enters while(true), permanently hanging the Unity main thread.
-            // Replace only that verified catch loop with a bounded recovery that
-            // exposes the complete translated buffer at its terminal control.
-            harmony.Patch(AccessTools.Method(canvasType,"Game_adv"),transpiler:new HarmonyMethod(typeof(DirectCanvasRuntime),"RewriteAdvanceFailure"));
             Patch(AccessTools.Method(canvasType,"BUNSYOU_ROLL"),"BeforeRoll","AfterRoll");
             harmony.Patch(AccessTools.Method(canvasType,"DrawAdvString"),prefix:new HarmonyMethod(typeof(DirectCanvasRuntime),"BeforeDirectDraw"),finalizer:new HarmonyMethod(typeof(DirectCanvasRuntime),"RestoreDirectScale"));
             harmony.Patch(AccessTools.Method(canvasType,"PaintADV"),prefix:new HarmonyMethod(typeof(DirectCanvasRuntime),"BeforeDirectViewport"));
@@ -146,64 +140,6 @@ namespace Kibukawa.Engine.Gmode20050817Direct
             // active text, waits and click controls remain native-driven.
             if(Number(__instance,"PrintDanKanryo")!=row && Number(__instance,"PrintMojiKetaKanryo")<0)
                 F("PrintDanKanryo").SetValue(__instance,row);
-        }
-        protected static IEnumerable<CodeInstruction> RewriteAdvanceFailure(IEnumerable<CodeInstruction> instructions)
-        {
-            var code=new List<CodeInstruction>(instructions);int rewritten=0;
-            for(int i=0;i+3<code.Count;i++)
-            {
-                if(code[i].opcode!=OpCodes.Pop ||
-                    code[i+1].opcode!=OpCodes.Br && code[i+1].opcode!=OpCodes.Br_S ||
-                    !code[i+1].labels.Contains((Label)code[i+1].operand) ||
-                    code[i+2].opcode!=OpCodes.Ldc_I4_1 || code[i+3].opcode!=OpCodes.Ret)continue;
-                code[i+1].opcode=OpCodes.Ldarg_0;code[i+1].operand=null;
-                code.Insert(i+2,new CodeInstruction(OpCodes.Call,AccessTools.Method(typeof(DirectCanvasRuntime),"RecoverDirectAdvance")));
-                rewritten++;
-            }
-            if(rewritten!=1)throw new InvalidOperationException("Unexpected direct typewriter catch loop count: "+rewritten);
-            return code;
-        }
-        protected static void RecoverDirectAdvance(object canvas)
-        {
-            int requestedRow=Number(canvas,"PrintDanYoyaku"),requestedCell=Number(canvas,"PrintKetaYoyaku");
-            int completedRow=Number(canvas,"PrintDanKanryo"),completedCell=Number(canvas,"PrintKetaKanryo");
-            try
-            {
-                int count=Number(canvas,"BunsyouGun_gyousuu");
-                var lines=(string[])F("bg_itigyougun_mojiretu").GetValue(canvas);
-                var controls=(sbyte[][])F("bg_itigyougun_control").GetValue(canvas);
-                int row=-1,cell=-1;
-                for(int r=Math.Max(0,Math.Min(requestedRow,count-1));r<count;r++)
-                {
-                    string line=lines[r]??String.Empty;
-                    int limit=Math.Min(line.Length,controls[r]==null?0:controls[r].Length);
-                    for(int c=0;c<limit;c++)if(controls[r][c]==46 || controls[r][c]==58 || controls[r][c]==59 || controls[r][c]==43)
-                    { row=r;cell=c;break; }
-                    if(row>=0)break;
-                }
-                if(row<0)
-                {
-                    row=Math.Max(0,count-1);
-                    cell=Math.Max(0,(lines[row]??String.Empty).Length-1);
-                }
-                F("PrintDanYoyaku").SetValue(canvas,row);F("PrintDanKanryo").SetValue(canvas,row);
-                F("PrintKetaYoyaku").SetValue(canvas,cell);F("PrintKetaKanryo").SetValue(canvas,cell);
-                F("PrintMojiKetaYoyaku").SetValue(canvas,cell);F("PrintMojiKetaKanryo").SetValue(canvas,cell);
-                F("Resumed").SetValue(canvas,true);
-                var direct=instance as DirectCanvasRuntime;
-                if(direct!=null)direct.Logger.LogError("Recovered direct typewriter exception at Pos="+Number(canvas,"Pos")+
-                    " requested="+requestedRow+":"+requestedCell+" completed="+completedRow+":"+completedCell+
-                    " -> terminal="+row+":"+cell+" rows="+count);
-            }
-            catch(Exception error)
-            {
-                // Never re-enter the native infinite catch loop if recovery data is
-                // itself malformed. Return control to the frame and disable the
-                // active text task so the application remains responsive.
-                F("MainTask").SetValue(canvas,0);
-                var direct=instance as DirectCanvasRuntime;
-                if(direct!=null)direct.Logger.LogError("Direct typewriter recovery failed: "+error);
-            }
         }
         protected static bool BeforeDirectDraw(object __instance,int __2,int __3,ref int __4,ref int __5,out DirectDrawState __state)
         {

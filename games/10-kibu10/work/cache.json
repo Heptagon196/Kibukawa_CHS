@@ -3687,7 +3687,7 @@
         {
           "text_index": 168,
           "source_text": "これまでのデータを全て初期化して、ゲームを最初から始めます。よろしいですか？",
-          "translated_text": "将把此前的所有数据初始化，从头开始游戏。确定吗？",
+          "translated_text": "将把此前的所有数据清除初始化，之后游戏将会重新从头开始游戏。是否确定要继续？",
           "translation_status": 7,
           "model": "Codex parallel translation and review",
           "extra": {
@@ -3702,7 +3702,7 @@
               "argument": 0
             },
             "tagged_source": "<color=0>これまでのデータを全て</color><row/><color=2>初期化</color><color=0>して、ゲームを</color><row/><color=0>最初から始めます。</color><row/><color=0>よろしいですか？</color><ctrl=2E/>",
-            "tagged_target": "<color=0>将把此前的所有数据</color><row/><color=2>初始化</color><color=0>，</color><row/><color=0>从头开始游戏。</color><row/><color=0>确定吗？</color><ctrl=2E/>",
+            "tagged_target": "<color=0>将把此前的所有数据清除</color><row/><color=2>初始化</color><color=0>，之后游戏将会</color><row/><color=0>重新从头开始游戏。</color><row/><color=0>是否确定要继续？</color><ctrl=2E/>",
             "active": false
           }
         },
@@ -213913,7 +213913,7 @@
         {
           "text_index": 9709,
           "source_text": "これまでのデータを全て初期化して、ゲームを最初から始めます。よろしいですか？",
-          "translated_text": "将把此前的所有数据初始化，从头开始游戏。确定吗？",
+          "translated_text": "将把此前的所有数据清除初始化，之后游戏将会重新从头开始游戏。是否确定要继续？",
           "translation_status": 1,
           "model": "Codex parallel translation and review",
           "extra": {
@@ -213928,7 +213928,7 @@
               "argument": 0
             },
             "tagged_source": "<color=0>これまでのデータを全て</color><row/><color=2>初期化</color><color=0>して、ゲームを</color><row/><color=0>最初から始めます。</color><row/><color=0>よろしいですか？</color><ctrl=2E/>",
-            "tagged_target": "<color=0>将把此前的所有数据</color><row/><color=2>初始化</color><color=0>，</color><row/><color=0>从头开始游戏。</color><row/><color=0>确定吗？</color><ctrl=2E/>",
+            "tagged_target": "<color=0>将把此前的所有数据清除</color><row/><color=2>初始化</color><color=0>，之后游戏将会</color><row/><color=0>重新从头开始游戏。</color><row/><color=0>是否确定要继续？</color><ctrl=2E/>",
             "active": true
           }
         },
@@ -261837,8 +261837,8 @@
     "authoritative_draft": "work/dialogue-tagged.json",
     "translation_stage": "reviewed",
     "semantic_release_review_complete": true,
-    "reviewed_dialogue_sha256": "98d49e3941f9ede373a0eb29d726a9d4f4ac2127a5dd7a1ad0ee3f2b593e8135",
-    "click_review_sha256": "9c2a48c23ff9454e14d58b86b9cdb6dd4b548d5f619dc8b65c8f39325a176e3a",
+    "reviewed_dialogue_sha256": "22b08949e18ecd7d6e437b10503f4a41e861f86fd8390cbe419400d608c4b72e",
+    "click_review_sha256": "ad3cde2a771ed42ea794e564309340bd394c425c99713ebfa0b345896a369190",
     "color_review_sha256": "f84f25b108c9bc5df01f7a9a89cf06bd0dfeeadc4fc581b16c022d7e4eb1ef51",
     "quality_gate_sha256": "1865fa6958a37189450b57f426a1d398e1f58b07a7b37ad8d999ae0c833f0ae9"
   }

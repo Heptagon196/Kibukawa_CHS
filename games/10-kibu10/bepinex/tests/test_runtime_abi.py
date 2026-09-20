@@ -45,5 +45,8 @@ class RuntimeABI(unittest.TestCase):
         self.assertEqual(il[778:783],[
             'leave.s branch:781','pop ','br.s branch:780','ldc.i4.1 ','ret '
         ])
+        source=(ROOT/'engine/adapters/gmode-20050817-direct/src/DirectCanvasRuntime.cs').read_text()
+        self.assertNotIn('RewriteAdvanceFailure',source)
+        self.assertNotIn('RecoverDirectAdvance',source)
 
 if __name__=='__main__': unittest.main()

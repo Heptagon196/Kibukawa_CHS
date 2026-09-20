@@ -240116,7 +240116,7 @@
     },
     {
       "id": "file/append:9454:token27",
-      "sha256": "457e4607275c049b70f38130895906e98c77a8aa0debf5dc9979b929ad4a2bdc",
+      "sha256": "a4fa34e5979aeac9c94d07e9ede0bf7b9ae00cf909aaeaca333505cd30fb6f89",
       "script": "file/append",
       "boundary": "9454:token27",
       "spans": [
@@ -240125,7 +240125,7 @@
           "token": 2,
           "color": 0,
           "source": "これまでのデータを全て",
-          "target": "将把此前的所有数据"
+          "target": "将把此前的所有数据清除"
         },
         {
           "id": "file/append:9454",
@@ -240139,21 +240139,21 @@
           "token": 12,
           "color": 0,
           "source": "して、ゲームを",
-          "target": "，"
+          "target": "，之后游戏将会"
         },
         {
           "id": "file/append:9454",
           "token": 18,
           "color": 0,
           "source": "最初から始めます。",
-          "target": "从头开始游戏。"
+          "target": "重新从头开始游戏。"
         },
         {
           "id": "file/append:9454",
           "token": 24,
           "color": 0,
           "source": "よろしいですか？",
-          "target": "确定吗？"
+          "target": "是否确定要继续？"
         },
         {
           "id": "file/append:9454",

@@ -2086,7 +2086,7 @@
       "kind": "dialogue",
       "source": "<color=0>これまでのデータを全て</color><row/><color=2>初期化</color><color=0>して、ゲームを</color><row/><color=0>最初から始めます。</color><row/><color=0>よろしいですか？</color><ctrl=2E/>",
       "active": false,
-      "target": "<color=0>将把此前的所有数据</color><row/><color=2>初始化</color><color=0>，</color><row/><color=0>从头开始游戏。</color><row/><color=0>确定吗？</color><ctrl=2E/>",
+      "target": "<color=0>将把此前的所有数据清除</color><row/><color=2>初始化</color><color=0>，之后游戏将会</color><row/><color=0>重新从头开始游戏。</color><row/><color=0>是否确定要继续？</color><ctrl=2E/>",
       "translation_status": "inactive_copy"
     },
     {
@@ -117375,7 +117375,7 @@
       "kind": "dialogue",
       "source": "<color=0>これまでのデータを全て</color><row/><color=2>初期化</color><color=0>して、ゲームを</color><row/><color=0>最初から始めます。</color><row/><color=0>よろしいですか？</color><ctrl=2E/>",
       "active": true,
-      "target": "<color=0>将把此前的所有数据</color><row/><color=2>初始化</color><color=0>，</color><row/><color=0>从头开始游戏。</color><row/><color=0>确定吗？</color><ctrl=2E/>",
+      "target": "<color=0>将把此前的所有数据清除</color><row/><color=2>初始化</color><color=0>，之后游戏将会</color><row/><color=0>重新从头开始游戏。</color><row/><color=0>是否确定要继续？</color><ctrl=2E/>",
       "translation_status": "draft"
     },
     {

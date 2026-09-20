@@ -49,8 +49,11 @@ public static class DirectPackBindingTests
    if(Path.GetFileName(file)=="append.bin" && script.Displays.ContainsKey(9454))
    {
     var clearRows=script.Displays[9454].Rows;
-    if(clearRows.Length!=4 || clearRows[0].Text!="将把此前的所有数据" || clearRows[1].Text!="初始化，" || clearRows[2].Text!="从头开始游戏。" || clearRows[3].Text!="确定吗？")
+    if(clearRows.Length!=4 || clearRows[0].Text!="将把此前的所有数据清除" || clearRows[1].Text!="初始化，之后游戏将会" || clearRows[2].Text!="重新从头开始游戏。" || clearRows[3].Text!="是否确定要继续？")
      throw new Exception("Clear-save confirmation authored rows changed unexpectedly");
+    string[] clearSource={"これまでのデータを全て","初期化して、ゲームを","最初から始めます。","よろしいですか？"};
+    for(int i=0;i<clearRows.Length;i++)if(clearRows[i].Text.Length!=clearSource[i].Length)
+     throw new Exception("Clear-save confirmation changed a native typewriter row length");
     for(int i=0;i<clearRows.Length-1;i++)foreach(byte control in clearRows[i].Controls)
      if(control!=0 && control!=47)throw new Exception("Clear-save confirmation gained an intermediate wait");
     if(clearRows[3].Controls[clearRows[3].Controls.Length-1]!=46)
