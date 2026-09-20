@@ -154,7 +154,7 @@ namespace Kibukawa.Engine.Gmode20050817Direct
             {
                 if(code[i].opcode!=OpCodes.Pop ||
                     code[i+1].opcode!=OpCodes.Br && code[i+1].opcode!=OpCodes.Br_S ||
-                    !code[i].labels.Contains((Label)code[i+1].operand) ||
+                    !code[i+1].labels.Contains((Label)code[i+1].operand) ||
                     code[i+2].opcode!=OpCodes.Ldc_I4_1 || code[i+3].opcode!=OpCodes.Ret)continue;
                 code[i+1].opcode=OpCodes.Ldarg_0;code[i+1].operand=null;
                 code.Insert(i+2,new CodeInstruction(OpCodes.Call,AccessTools.Method(typeof(DirectCanvasRuntime),"RecoverDirectAdvance")));

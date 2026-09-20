@@ -52,3 +52,5 @@ SHA256：`3e1a232bfcd70efd30bae7e3c4c040e2cdc9b1a1caf7b39d047a4ded407d3238`。
 2026-09-21：0.1.14 修复全屏说明未采用 0.1.13 间距规则的问题：全屏正文使用原生 12px 网格，英文/数字及中英文边界均为半格 6px，E/R 两侧间距对称。原程序集 `Game_adv` 的异常处理会进入永久自循环；运行时现精确替换该已校验 IL 路径，异常时完整重绘并停在最近的原生等待控制码，防止初始化数据确认框锁死。正式包 SHA256 为 `e25d42747a6e3e6d819327022ef9fbf89847d8120547aadc09d6ec0e66dbe276`，已安装；详见 `reports/fullscreen-halfcell-typewriter-recovery-20260921.md`。
 
 2026-09-21：0.1.15 更正间距规则的实现和表述：中英文/数字边界半格属于项目全局规则，不是全屏或 E/R 特判。16px 正文网格为 9px，原生 12px 页面与 INFO 为 6px；直接相邻和已有边界空格不叠加。正式包 SHA256 为 `c2c187d59ae564bf57e034439eebe30f93d11b1a09e3d317f15aa6c9fae1e631`，已安装；详见 `reports/global-halfcell-spacing-20260921.md`。
+
+2026-09-21：0.1.16 修复主汉化不生效和点击选项卡死。根因是 0.1.14 的 `Game_adv` 恢复 transpiler 错认原版自循环标签位置，令 Harmony 在主插件初始化时抛错并留下不完整挂钩。现使用真实 `br self` 结构，并以原版程序集上的选项记忆/恢复组合重放作为发布门禁。正式包 SHA256 为 `a774ff9156662a6ec45a10f6cd1b6ea55cc40e94f574bd452f974afa940664ba`，已安装；详见 `reports/harmony-startup-recovery-fix-20260921.md`。

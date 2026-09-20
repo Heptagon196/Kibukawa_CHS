@@ -127,8 +127,8 @@ public class DirectHarness : DirectCanvasRuntime
   RecoverDirectAdvance(c);
   Check(c.PrintDanYoyaku==3 && c.PrintDanKanryo==3 && c.PrintKetaYoyaku==3 && c.PrintKetaKanryo==3 && c.PrintMojiKetaYoyaku==3 && c.PrintMojiKetaKanryo==3 && c.Resumed,"Typewriter exception recovery must reveal the complete confirmation at its terminal click");
   var generator=new DynamicMethod("CatchLoop",typeof(void),Type.EmptyTypes).GetILGenerator();var loop=generator.DefineLabel();
-  var pop=new HarmonyLib.CodeInstruction(OpCodes.Pop);pop.labels.Add(loop);
-  var rewritten=new List<HarmonyLib.CodeInstruction>(RewriteAdvanceFailure(new[]{pop,new HarmonyLib.CodeInstruction(OpCodes.Br_S,loop),new HarmonyLib.CodeInstruction(OpCodes.Ldc_I4_1),new HarmonyLib.CodeInstruction(OpCodes.Ret)}));
+  var branch=new HarmonyLib.CodeInstruction(OpCodes.Br_S,loop);branch.labels.Add(loop);
+  var rewritten=new List<HarmonyLib.CodeInstruction>(RewriteAdvanceFailure(new[]{new HarmonyLib.CodeInstruction(OpCodes.Pop),branch,new HarmonyLib.CodeInstruction(OpCodes.Ldc_I4_1),new HarmonyLib.CodeInstruction(OpCodes.Ret)}));
   Check(rewritten.Count==5 && rewritten[1].opcode==OpCodes.Ldarg_0 && rewritten[2].opcode==OpCodes.Call && rewritten[3].opcode==OpCodes.Ldc_I4_1,"Game_adv infinite catch loop must be replaced by bounded recovery");
   var helpSource=new[]{Row("今作、「永劫会事件」は"),Row("２人の登場人物を中心に"),Row("最大４人の人物の視点"),Row("からゲームを進めるシス"),Row("テムになっています。",terminal:46)};
   var helpTarget=new[]{Row("本作《永劫会事件》"),Row("以两位角色为中心，"),Row("最多可从四位角色的视角"),Row("展开"),Row("游戏。",terminal:46)};
