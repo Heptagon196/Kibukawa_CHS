@@ -4,7 +4,7 @@ from pathlib import Path
 from PIL import Image
 import UnityPy
 import pipeline as p
-from build_ui_images import build as build_labels,NATIVE_NAMEPLATES
+from build_ui_images import build as build_labels,NATIVE_NAMEPLATES,NATIVE_STATUS_LABELS
 from build_help_pages import build_help_pages
 from build_title_components import compose
 from build_title_panels import build as build_panels
@@ -25,7 +25,7 @@ def build(framework=None):
     assembly=p.GAME/'kibu10_Data/Managed/Assembly-CSharp.dll';archive=p.GAME/'kibu10_Data/StreamingAssets/scratchpad'
     lines=['\t'.join(['KIMG1','kibu10',p.sha(assembly.read_bytes()),p.sha(archive.read_bytes())])];evidence=[]
     routes=build_labels()
-    for key in NATIVE_NAMEPLATES:
+    for key in tuple(NATIVE_NAMEPLATES)+tuple(NATIVE_STATUS_LABELS):
         stale=plugin/'images'/(key+'.rgba')
         if stale.exists():stale.unlink()
     for panel in build_panels():shutil.copyfile(panel,plugin/'images'/panel.name)

@@ -1,8 +1,7 @@
 {
-  "schema": 2,
+  "schema": 3,
   "game": "kibu10",
-  "source": "Character nameplates retain the complete native images; all title-menu lettering uses one shared artistic master title2-zh.png",
-  "font_sha256": "763146584cf0710223441356b4395e279021b0806c196614377a7a0174ae074a",
+  "source": "Character nameplates and the CLEARED badge retain complete native images; all title-menu lettering uses one shared artistic master title2-zh.png",
   "native_nameplates": [
     {
       "id": "name00",
@@ -30,16 +29,14 @@
       "disposition": "retain_complete_native_image"
     }
   ],
-  "entries": [
+  "native_status_labels": [
     {
       "id": "sell_end1",
-      "text": "已通关",
-      "size": [
-        48,
-        18
-      ],
-      "sha256": "f16e3337873f0a08ba8118ca7ecf9772a64a6e9a7e517b189cf38ca6176bc204"
-    },
+      "text": "CLEARED",
+      "disposition": "retain_complete_native_image"
+    }
+  ],
+  "entries": [
     {
       "id": "t_start",
       "text": "开始",

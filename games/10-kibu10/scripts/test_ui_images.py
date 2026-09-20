@@ -3,7 +3,7 @@ import unittest,sys,json,struct
 from PIL import Image
 import pipeline as p
 from inspect_image_coverage import resource_inventory
-from build_ui_images import build,LABELS,MENUS,NATIVE_NAMEPLATES
+from build_ui_images import build,MENUS,NATIVE_NAMEPLATES,NATIVE_STATUS_LABELS
 
 class ImageTests(unittest.TestCase):
     def test_character_nameplates_retain_complete_native_images(self):
@@ -14,6 +14,15 @@ class ImageTests(unittest.TestCase):
         evidence=p.load(p.WORK/'images/ui-labels.reviewed.json')
         self.assertEqual({item['id'] for item in evidence['native_nameplates']},set(NATIVE_NAMEPLATES))
         self.assertTrue(all(item['disposition']=='retain_complete_native_image' for item in evidence['native_nameplates']))
+
+    def test_completed_badge_retains_complete_native_image(self):
+        routes=build()
+        self.assertFalse(set(NATIVE_STATUS_LABELS)&{entry['id'] for entry in routes})
+        for key in NATIVE_STATUS_LABELS:
+            self.assertFalse((p.WORK/'images/ui'/(key+'.png')).exists())
+        evidence=p.load(p.WORK/'images/ui-labels.reviewed.json')
+        self.assertEqual({item['id'] for item in evidence['native_status_labels']},set(NATIVE_STATUS_LABELS))
+        self.assertTrue(all(item['disposition']=='retain_complete_native_image' for item in evidence['native_status_labels']))
 
     def test_menu_background_is_preserved_from_whole_master(self):
         from build_title_components import compose
