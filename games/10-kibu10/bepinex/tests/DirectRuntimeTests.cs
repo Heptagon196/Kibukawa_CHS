@@ -60,6 +60,8 @@ public class DirectHarness : DirectCanvasRuntime
   canvasType=typeof(DirectCanvasStub);fields.Clear();ready=true;
   LayoutChecks();
   layout=new RuntimeLayout(12,5,18,32,17,11,13,6,new string[0]);
+  exactUi=new Dictionary<string,string>{{"音量設定","音量设置"},{"ゲームのロード","读取存档"},{"シナリオ選択に戻る","返回章节选择"},{"タイトルに戻る","返回标题画面"},{"ゲームを続ける","继续游戏"}};
+  foreach(var pair in exactUi){string label=pair.Key;BeforeShadowString(ref label);Check(label==pair.Value,"DocomoString menu label translation failed: "+pair.Key);}
   var c=new DirectCanvasStub();var bytes=c.Script;
   font=new Kibu1ZhCN.BitmapFontAtlas("body16");smallFont=new Kibu1ZhCN.BitmapFontAtlas("ui12");
   drawOrigin=typeof(DirectGraphicsStub).GetField("drawOrigin");
@@ -107,11 +109,13 @@ public class DirectHarness : DirectCanvasRuntime
   var helpSource=new[]{Row("今作、「永劫会事件」は"),Row("２人の登場人物を中心に"),Row("最大４人の人物の視点"),Row("からゲームを進めるシス"),Row("テムになっています。",terminal:46)};
   var helpTarget=new[]{Row("本作《永劫会事件》"),Row("以两位角色为中心，"),Row("最多可从四位角色的视角"),Row("展开"),Row("游戏。",terminal:46)};
   for(int i=0;i<helpTarget.Length;i++)helpTarget[i].SourceText=helpSource[i].Text;
+  for(int i=0;i<helpTarget[2].Colors.Length;i++)helpTarget[2].Colors[i]=2;
+  Segment(helpTarget);
   translation.Displays.Add(164,new DisplayTranslation{Offset=164,Opcode=255,Rows=helpTarget});
   c.Pos=170;c.MainTask=17;c.BunsyouGun_gyousuu=5;
   for(int i=0;i<helpSource.Length;i++)c.bg_itigyougun_mojiretu[i]=helpSource[i].Text;
   AfterDirectDialogue(c,null);
-  Check(c.bg_itigyougun_mojiretu[0]=="本作《永劫会事件》" && c.bg_itigyougun_mojiretu[2]=="最多可从四位角色的视角","Help text must recover by its exact source rows when the runtime command position cannot bind directly");
+  Check(c.BunsyouGun_gyousuu==4 && c.bg_itigyougun_mojiretu[0]=="本作《永劫会事件》" && c.bg_itigyougun_mojiretu[2]=="最多可从四位角色的视角" && c.bg_itigyougun_mojiretu[3]=="展开游戏。","Help text must recover by exact source rows and merge its obsolete soft line break");
   c.MainTask=0;c.Pos=123;
   c.BunsyouGun_gyousuu=8;c.PrintDanYoyaku=6;c.NowNamae=0;
   BeforeDirectViewport(c);Check(c.Resumed,"Viewport must request native full redraw after scrolling");

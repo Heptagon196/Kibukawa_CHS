@@ -73,3 +73,5 @@ SHA256：`3e1a232bfcd70efd30bae7e3c4c040e2cdc9b1a1caf7b39d047a4ded407d3238`。
 2026-09-20：0.1.6 移除四张角色姓名标签的生成图片与替换路由，`name00`–`name04` 全部保留原生图片，避免中文重绘字体与原作点阵字体混杂。正式包为 `out/CHS_20260920_230517_150889200/Kibu10_CHS.zip`，SHA256 为 `4211b2a41a1f4a19be071ef321c34083e79fe91e8731e486a31ab9140cb3459b`；已安装，记录见 `installations/20260920_230544` 与 `reports/native-nameplates-20260920.md`。
 
 2026-09-20：0.1.7 修复玩法说明正文仍显示日文及顶栏继承16px正文字体的问题。特殊页面在命令偏移未命中时，会用原生解析出的完整日文行做唯一精确绑定；顶栏 INFO 重新执行原作 `GetFont(32)` 字体切换并在结束或异常时恢复。正式包为 `out/CHS_20260920_232513_325700900/Kibu10_CHS.zip`，SHA256 为 `328004add05c0ee59802bdda145c855e94710bed6abe1f8a9edc463e82c3b61f`；已安装，记录见 `installations/20260920_232524` 与 `reports/help-runtime-font-fix-20260920.md`。
+
+2026-09-20：0.1.9 合并玩法说明中的旧设备软换行，使“展开游戏。”保持同一行；操作说明改为“键盘 E 键（或手柄 R 肩键）”；设置菜单在 `DocomoString` 逐字拆分前翻译完整标签。正式包为 `out/CHS_20260920_233727_166657900/Kibu10_CHS.zip`，SHA256 为 `ec7d42f26e81ecca4554f0d9271940fbacff80aa47ac64a36a09c9693f7946ab`；已安装，记录见 `installations/20260920_233741` 与 `reports/help-menu-controls-fix-20260920.md`。

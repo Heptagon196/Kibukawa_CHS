@@ -27,6 +27,10 @@ namespace Kibukawa.Engine.Gmode20050817Direct
             harmony.Patch(AccessTools.Method(canvasType,"Strlen",new[]{typeof(string)}),prefix:new HarmonyMethod(typeof(DirectCanvasRuntime),"BeforeMenuLength"));
             Patch(AccessTools.Method(canvasType,"Ds_sub"),"BeforeShadowString",null);
             Patch(AccessTools.Method(canvasType,"Ds_sub2"),"BeforeShadowString",null);
+            // PaintMenu sends full labels through DocomoString, which then draws
+            // one character at a time. Translate before that split so exact UI
+            // entries such as volume and return actions can match.
+            Patch(AccessTools.Method(canvasType,"DocomoString"),"BeforeShadowString",null);
             Patch(AccessTools.Method(canvasType,"LoadScenario"),null,"AfterLoad");
             Patch(AccessTools.Method(canvasType,"LoadResScenario"),null,"AfterLoad");
             harmony.Patch(AccessTools.Method(canvasType,"StringRead"),
@@ -52,7 +56,7 @@ namespace Kibukawa.Engine.Gmode20050817Direct
             if(__state==null)__state=RecoverDirectDialogue(__instance,state);
             if(__state==null)return;
             var original=__state.Display.Rows;
-            bool authored=Number(__instance,"MojiHani_tate")!=0 || Number(__instance,"MainTask")==17;
+            bool authored=Number(__instance,"MojiHani_tate")!=0;
             int capacity=layout.DialogueRows-(Number(__instance,"NowNamae")==-1?0:1);
             int width=Number(__instance,"MojiHani_yoko")==0?204:220;
             var rows=authored?original:DirectTextLayout.Wrap(original,width,capacity);

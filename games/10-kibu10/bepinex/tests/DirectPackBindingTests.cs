@@ -33,6 +33,18 @@ public static class DirectPackBindingTests
     if(!script.Displays.TryGetValue(164,out help) || help.Rows.Length!=5
         || help.Rows[0].Text!="本作《永劫会事件》" || help.Rows[2].Text!="最多可从四位角色的视角")
      throw new Exception("Help page body is not translated through the actual runtime script binding");
+    var laidOutHelp=DirectTextLayout.Wrap(help.Rows,204,5);
+    if(laidOutHelp.Length!=4 || laidOutHelp[3].Text!="展开游戏。")
+     throw new Exception("Help page obsolete Japanese soft break was not merged");
+    DisplayTranslation controls;
+    if(!script.Displays.TryGetValue(2222,out controls))throw new Exception("Help controls page missing");
+    var controlRows=DirectTextLayout.Wrap(controls.Rows,204,5);
+    string controlText=String.Join("",Array.ConvertAll(controlRows,row=>row.Text));
+    string visibleControlText=controlText.Replace('　',' ').Replace('Ｅ','E').Replace('Ｒ','R');
+    if(!visibleControlText.Contains("键盘 E 键（或手柄 R 肩键）") || controlRows.Length>6)
+     throw new Exception("PC/controller help wording or row capacity is invalid: rows="+controlRows.Length+" text="+controlText);
+    foreach(var row in controlRows)if(DirectTextLayout.Measure(row.Text,0,row.Text.Length)>204)
+     throw new Exception("PC/controller help wording overflows the help page");
    }
    foreach(var display in script.Displays.Values)
    {

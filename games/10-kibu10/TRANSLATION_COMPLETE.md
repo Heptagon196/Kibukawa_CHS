@@ -38,3 +38,5 @@ SHA256：`3e1a232bfcd70efd30bae7e3c4c040e2cdc9b1a1caf7b39d047a4ded407d3238`。
 2026-09-20：0.1.6 按实机反馈取消角色姓名标签汉化。构建器会删除旧的 `name00`–`name04` 生成文件，图片清单不再注册这些路由，游戏完整使用原生姓名图片。正式包 SHA256 为 `4211b2a41a1f4a19be071ef321c34083e79fe91e8731e486a31ab9140cb3459b`，已安装；详见 `reports/native-nameplates-20260920.md`。
 
 2026-09-20：0.1.7 按实机反馈修复玩法说明正文运行时绑定和顶栏字号。`file/help:164` 已在实际运行时包、原始脚本绑定与行缓冲回退三层校验中确认汉化；顶栏 INFO 显式使用原作 `GetFont(32)`，正文仍按既定规则使用16px。正式包 SHA256 为 `328004add05c0ee59802bdda145c855e94710bed6abe1f8a9edc463e82c3b61f`，已安装；详见 `reports/help-runtime-font-fix-20260920.md`。
+
+2026-09-20：0.1.9 按实机反馈修复玩法说明软换行、PC/手柄键位说明和设置菜单汉化。实际运行时包校验“展开游戏。”同排，键位说明在六行容量内且颜色/控制事件不变；设置菜单五个标签在 `DocomoString` 拆字前整句替换。正式包 SHA256 为 `ec7d42f26e81ecca4554f0d9271940fbacff80aa47ac64a36a09c9693f7946ab`，已安装；详见 `reports/help-menu-controls-fix-20260920.md`。

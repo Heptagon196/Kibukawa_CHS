@@ -1,0 +1,7452 @@
+{
+  "schema": 1,
+  "adapter": "gmode-20050817-direct",
+  "reviewer": "root integration after independent semantic, punctuation, color, conflict and native INFO layout review; file/help:2222 control wording explicitly reviewed by user",
+  "dialogue_sha256": "98d49e3941f9ede373a0eb29d726a9d4f4ac2127a5dd7a1ad0ee3f2b593e8135",
+  "integration_review": "work/fixes/integration-review.json",
+  "integration_review_sha256": "21d82e9f17fba11bd009a2e999fb1352f5542249e29180a97301debfc1233d58",
+  "info_layout_units": [
+    "file/append:6526",
+    "scratch4.dat/s27:114",
+    "scratch4.dat/s27:23889",
+    "scratch4.dat/s27:353",
+    "scratch4.dat/s31:11051",
+    "scratch4.dat/s31:178",
+    "scratch4.dat/s31:7459",
+    "scratch4.dat/s33:15570",
+    "scratch4.dat/s34:17793",
+    "scratch4.dat/s34:219"
+  ],
+  "clicks": [
+    {
+      "id": "scratch4.dat/s00:2786:token11",
+      "sha256": "cec293862970e016b5c56dfb24bc3258369f7ae05a07ebd2611f4940644707ea",
+      "script": "scratch4.dat/s00",
+      "boundary": "2786:token11",
+      "spans": [
+        {
+          "id": "scratch4.dat/s00:2786",
+          "token": 2,
+          "color": 0,
+          "source": "その呼び方…いい加減",
+          "target": "您能不能……"
+        },
+        {
+          "id": "scratch4.dat/s00:2786",
+          "token": 8,
+          "color": 0,
+          "source": "やめてくださいよ。",
+          "target": "别再这么叫我了。"
+        },
+        {
+          "id": "scratch4.dat/s00:2786",
+          "token": 11,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s00:16467:token11",
+      "sha256": "ca54e735f87ac8c73b3e048c86e814d8360a165e99ff932ffabda7f254005043",
+      "script": "scratch4.dat/s00",
+      "boundary": "16467:token11",
+      "spans": [
+        {
+          "id": "scratch4.dat/s00:16467",
+          "token": 2,
+          "color": 0,
+          "source": "いえ、僕、",
+          "target": "“不是，我在想，"
+        },
+        {
+          "id": "scratch4.dat/s00:16467",
+          "token": 8,
+          "color": 0,
+          "source": "思うんですが…",
+          "target": "会不会是这样呢……"
+        },
+        {
+          "id": "scratch4.dat/s00:16467",
+          "token": 11,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s01:9089:token11",
+      "sha256": "7df4133c3fe8d18fb2935d0aa643eb3a1ef27e11f023e3d14d05dc0c156c1fcf",
+      "script": "scratch4.dat/s01",
+      "boundary": "9089:token11",
+      "spans": [
+        {
+          "id": "scratch4.dat/s01:9089",
+          "token": 2,
+          "color": 0,
+          "source": "この…被害者の首の傷が",
+          "target": "“被害人颈部的这道伤口……"
+        },
+        {
+          "id": "scratch4.dat/s01:9089",
+          "token": 8,
+          "color": 0,
+          "source": "死因ですか。",
+          "target": "就是死因吗？”"
+        },
+        {
+          "id": "scratch4.dat/s01:9089",
+          "token": 11,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s01:9812:token25",
+      "sha256": "f286d89c23e30b93d385497caca2c440c516591000e7be346efe3d0465b723b1",
+      "script": "scratch4.dat/s01",
+      "boundary": "9812:token25",
+      "spans": [
+        {
+          "id": "scratch4.dat/s01:9812",
+          "token": 2,
+          "color": 0,
+          "source": "それほど",
+          "target": "尽管"
+        },
+        {
+          "id": "scratch4.dat/s01:9812",
+          "token": 6,
+          "color": 2,
+          "source": "大きな傷では",
+          "target": "伤口并不"
+        },
+        {
+          "id": "scratch4.dat/s01:9812",
+          "token": 12,
+          "color": 2,
+          "source": "なかった",
+          "target": "算大"
+        },
+        {
+          "id": "scratch4.dat/s01:9812",
+          "token": 16,
+          "color": 0,
+          "source": "のですが、結果",
+          "target": ""
+        },
+        {
+          "id": "scratch4.dat/s01:9812",
+          "token": 22,
+          "color": 0,
+          "source": "…死に至りました。",
+          "target": "……最终还是丧命了。"
+        },
+        {
+          "id": "scratch4.dat/s01:9812",
+          "token": 25,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s01:11469:token19",
+      "sha256": "0788892b21df7e7686b487734a73b93f34ba4ae412a4333bffb08af93e22e1ca",
+      "script": "scratch4.dat/s01",
+      "boundary": "11469:token19",
+      "spans": [
+        {
+          "id": "scratch4.dat/s01:11469",
+          "token": 2,
+          "color": 0,
+          "source": "えっ…？",
+          "target": "“咦……？"
+        },
+        {
+          "id": "scratch4.dat/s01:11469",
+          "token": 8,
+          "color": 0,
+          "source": "門沢の",
+          "target": "您要配门泽的"
+        },
+        {
+          "id": "scratch4.dat/s01:11469",
+          "token": 12,
+          "color": 2,
+          "source": "合いカギ",
+          "target": "备用钥匙"
+        },
+        {
+          "id": "scratch4.dat/s01:11469",
+          "token": 16,
+          "color": 0,
+          "source": "ですか？",
+          "target": "吗？"
+        },
+        {
+          "id": "scratch4.dat/s01:11469",
+          "token": 19,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s01:15868:token11",
+      "sha256": "675d8f00fd1e1ccf98346c0dc0c961b118c5c50540d21ebb049f4aac8fe91666",
+      "script": "scratch4.dat/s01",
+      "boundary": "15868:token11",
+      "spans": [
+        {
+          "id": "scratch4.dat/s01:15868",
+          "token": 2,
+          "color": 0,
+          "source": "いや、とても簡単に",
+          "target": "“不，其实"
+        },
+        {
+          "id": "scratch4.dat/s01:15868",
+          "token": 8,
+          "color": 0,
+          "source": "手に入るものですよ。",
+          "target": "很容易弄到手。"
+        },
+        {
+          "id": "scratch4.dat/s01:15868",
+          "token": 11,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s01:17265:token11",
+      "sha256": "d042530058ea89cfe43527f5eac5ed18d0a7125cae839b02fae6495df6d880ad",
+      "script": "scratch4.dat/s01",
+      "boundary": "17265:token11",
+      "spans": [
+        {
+          "id": "scratch4.dat/s01:17265",
+          "token": 2,
+          "color": 0,
+          "source": "捜査は足から…って",
+          "target": "“有句话说，"
+        },
+        {
+          "id": "scratch4.dat/s01:17265",
+          "token": 8,
+          "color": 0,
+          "source": "言ってな。",
+          "target": "调查得靠双脚去跑。"
+        },
+        {
+          "id": "scratch4.dat/s01:17265",
+          "token": 11,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s01:32999:token17",
+      "sha256": "be6235d18bdd58528d651f1768e04b7a8fa337ecf171da43415e2203e0966a1b",
+      "script": "scratch4.dat/s01",
+      "boundary": "32999:token17",
+      "spans": [
+        {
+          "id": "scratch4.dat/s01:32999",
+          "token": 2,
+          "color": 0,
+          "source": "刑事さんがたも、",
+          "target": "“两位警官，"
+        },
+        {
+          "id": "scratch4.dat/s01:32999",
+          "token": 8,
+          "color": 0,
+          "source": "おひとついかがで",
+          "target": "要不要"
+        },
+        {
+          "id": "scratch4.dat/s01:32999",
+          "token": 14,
+          "color": 0,
+          "source": "しょうか？",
+          "target": "也要一块？”"
+        },
+        {
+          "id": "scratch4.dat/s01:32999",
+          "token": 17,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s01:35501:token17",
+      "sha256": "44498af1e2f1474b0257c284fd8f821c52c13812a4c533d351849dcebe754acc",
+      "script": "scratch4.dat/s01",
+      "boundary": "35501:token17",
+      "spans": [
+        {
+          "id": "scratch4.dat/s01:35501",
+          "token": 2,
+          "color": 0,
+          "source": "まあ、いわゆる…持つ",
+          "target": "也就是所谓的……"
+        },
+        {
+          "id": "scratch4.dat/s01:35501",
+          "token": 8,
+          "color": 0,
+          "source": "だけで幸運が訪れる石",
+          "target": "只要带在身上"
+        },
+        {
+          "id": "scratch4.dat/s01:35501",
+          "token": 14,
+          "color": 0,
+          "source": "ってやつで…",
+          "target": "就能带来好运的石头……"
+        },
+        {
+          "id": "scratch4.dat/s01:35501",
+          "token": 17,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s01:38603:token21",
+      "sha256": "dc3c24fec159c00bf6da892cc166eb342e523b474630685e8dea153c0699511f",
+      "script": "scratch4.dat/s01",
+      "boundary": "38603:token21",
+      "spans": [
+        {
+          "id": "scratch4.dat/s01:38603",
+          "token": 2,
+          "color": 0,
+          "source": "豫言組織に属する男性に",
+          "target": "有位女性遭到预言组织的一名男子"
+        },
+        {
+          "id": "scratch4.dat/s01:38603",
+          "token": 8,
+          "color": 2,
+          "source": "わいせつ行為",
+          "target": "猥亵"
+        },
+        {
+          "id": "scratch4.dat/s01:38603",
+          "token": 12,
+          "color": 0,
+          "source": "をされた…",
+          "target": "……"
+        },
+        {
+          "id": "scratch4.dat/s01:38603",
+          "token": 18,
+          "color": 0,
+          "source": "というのがあります。",
+          "target": "有这么一份报案。”"
+        },
+        {
+          "id": "scratch4.dat/s01:38603",
+          "token": 21,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s01-1:4046:token17",
+      "sha256": "e5014829b23459449374ab91d0e1660cc9994058732f35bd50ccf017f1f4ca7f",
+      "script": "scratch4.dat/s01-1",
+      "boundary": "4046:token17",
+      "spans": [
+        {
+          "id": "scratch4.dat/s01-1:4046",
+          "token": 2,
+          "color": 0,
+          "source": "これは…教団への勧誘の",
+          "target": "“这……好像是用来记录"
+        },
+        {
+          "id": "scratch4.dat/s01-1:4046",
+          "token": 8,
+          "color": 0,
+          "source": "ノルマを、まとめている",
+          "target": "招募教团信徒的"
+        },
+        {
+          "id": "scratch4.dat/s01-1:4046",
+          "token": 14,
+          "color": 0,
+          "source": "表みたいですね…。",
+          "target": "指标完成情况的……”"
+        },
+        {
+          "id": "scratch4.dat/s01-1:4046",
+          "token": 17,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s01-1:5972:token27",
+      "sha256": "e3b1dec1629bbef6c9d17fa7e0c8cc47bf4edd040373bb9a3805599d0c67f88a",
+      "script": "scratch4.dat/s01-1",
+      "boundary": "5972:token27",
+      "spans": [
+        {
+          "id": "scratch4.dat/s01-1:5972",
+          "token": 2,
+          "color": 0,
+          "source": "机の引き出しも調べよう",
+          "target": "我本想也检查一下抽屉，"
+        },
+        {
+          "id": "scratch4.dat/s01-1:5972",
+          "token": 8,
+          "color": 0,
+          "source": "としたが、どうやら",
+          "target": "可抽屉似乎被"
+        },
+        {
+          "id": "scratch4.dat/s01-1:5972",
+          "token": 14,
+          "color": 2,
+          "source": "カギ",
+          "target": "锁"
+        },
+        {
+          "id": "scratch4.dat/s01-1:5972",
+          "token": 18,
+          "color": 0,
+          "source": "がかかってるようで",
+          "target": "住了，"
+        },
+        {
+          "id": "scratch4.dat/s01-1:5972",
+          "token": 24,
+          "color": 0,
+          "source": "開けられなかった。",
+          "target": "怎么也打不开。"
+        },
+        {
+          "id": "scratch4.dat/s01-1:5972",
+          "token": 27,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s01-1:18571:opcode47",
+      "sha256": "adb57fe70a7eb55921f081b00c462b2049548e6b13645b0384b5420d2eaedaf4",
+      "script": "scratch4.dat/s01-1",
+      "boundary": "18571:opcode47",
+      "spans": [
+        {
+          "id": "scratch4.dat/s01-1:18484",
+          "token": 2,
+          "color": 0,
+          "source": "門沢が起こした、",
+          "target": "就是门泽犯下的"
+        },
+        {
+          "id": "scratch4.dat/s01-1:18484",
+          "token": 8,
+          "color": 2,
+          "source": "暴行事件",
+          "target": "性侵案"
+        },
+        {
+          "id": "scratch4.dat/s01-1:18484",
+          "token": 12,
+          "color": 0,
+          "source": "の…ね。",
+          "target": "……”"
+        },
+        {
+          "id": "scratch4.dat/s01-1:18484",
+          "token": 15,
+          "control": "<ctrl=2B/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s01-1:19897:token11",
+      "sha256": "e14187dd52f8722830eb51abaca8919178b40f4f51f0b09318ea54355004c0fe",
+      "script": "scratch4.dat/s01-1",
+      "boundary": "19897:token11",
+      "spans": [
+        {
+          "id": "scratch4.dat/s01-1:19897",
+          "token": 2,
+          "color": 0,
+          "source": "…そして、",
+          "target": "……接着，"
+        },
+        {
+          "id": "scratch4.dat/s01-1:19897",
+          "token": 8,
+          "color": 0,
+          "source": "それから数日間。",
+          "target": "在之后的几天里。"
+        },
+        {
+          "id": "scratch4.dat/s01-1:19897",
+          "token": 11,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s02:1336:token23",
+      "sha256": "826b1208ec6f317429dab369084b799ed4d287d7d271d5e7221249de9709c4e3",
+      "script": "scratch4.dat/s02",
+      "boundary": "1336:token23",
+      "spans": [
+        {
+          "id": "scratch4.dat/s02:1336",
+          "token": 2,
+          "color": 0,
+          "source": "必死に抵抗している姿、",
+          "target": "有的拼命抵抗，"
+        },
+        {
+          "id": "scratch4.dat/s02:1336",
+          "token": 8,
+          "color": 0,
+          "source": "泣きわめいている姿など",
+          "target": "有的哭喊不止，"
+        },
+        {
+          "id": "scratch4.dat/s02:1336",
+          "token": 14,
+          "color": 0,
+          "source": "目を覆いたくなるような",
+          "target": "全是令人不忍直视的"
+        },
+        {
+          "id": "scratch4.dat/s02:1336",
+          "token": 20,
+          "color": 0,
+          "source": "ひどい場面ばかりで…",
+          "target": "惨状……"
+        },
+        {
+          "id": "scratch4.dat/s02:1336",
+          "token": 23,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s02:6250:token11",
+      "sha256": "7ccb97c8b62fbbe158da851998c18cea10d3dd9015273a5a8427f59966461316",
+      "script": "scratch4.dat/s02",
+      "boundary": "6250:token11",
+      "spans": [
+        {
+          "id": "scratch4.dat/s02:6250",
+          "token": 2,
+          "color": 0,
+          "source": "…こうして、",
+          "target": "……就这样，"
+        },
+        {
+          "id": "scratch4.dat/s02:6250",
+          "token": 8,
+          "color": 0,
+          "source": "あれからの１週間。",
+          "target": "从那天起过去的这一周。"
+        },
+        {
+          "id": "scratch4.dat/s02:6250",
+          "token": 11,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s02:7295:token17",
+      "sha256": "23bb177d771d4c1dd764bd1187b26daa648ec631ee302ff44aa3e6669f56349c",
+      "script": "scratch4.dat/s02",
+      "boundary": "7295:token17",
+      "spans": [
+        {
+          "id": "scratch4.dat/s02:7295",
+          "token": 2,
+          "color": 0,
+          "source": "ですが、警部…。",
+          "target": "“可是，警部……"
+        },
+        {
+          "id": "scratch4.dat/s02:7295",
+          "token": 8,
+          "color": 0,
+          "source": "この炎天下の中…よく",
+          "target": "这么大的太阳……"
+        },
+        {
+          "id": "scratch4.dat/s02:7295",
+          "token": 14,
+          "color": 0,
+          "source": "そんな歩き回れますね…",
+          "target": "您还真走得动啊……"
+        },
+        {
+          "id": "scratch4.dat/s02:7295",
+          "token": 17,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s02:12616:token17",
+      "sha256": "a045207a8f4da1c6994b359ee77227457c2be4a8b00c31694149389047236245",
+      "script": "scratch4.dat/s02",
+      "boundary": "12616:token17",
+      "spans": [
+        {
+          "id": "scratch4.dat/s02:12616",
+          "token": 2,
+          "color": 0,
+          "source": "いやね、実は今、番組で",
+          "target": "是这样，我们节目正在做一期"
+        },
+        {
+          "id": "scratch4.dat/s02:12616",
+          "token": 8,
+          "color": 2,
+          "source": "乱立する新興団体の実状",
+          "target": "新兴团体泛滥的实况"
+        },
+        {
+          "id": "scratch4.dat/s02:12616",
+          "token": 14,
+          "color": 0,
+          "source": "…って特集してまして、",
+          "target": "专题，"
+        },
+        {
+          "id": "scratch4.dat/s02:12616",
+          "token": 17,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s02:34329:token11",
+      "sha256": "1b5f2375012fb258cdabf2bbb7265f59707d630e190c63344525a1061caa9bf1",
+      "script": "scratch4.dat/s02",
+      "boundary": "34329:token11",
+      "spans": [
+        {
+          "id": "scratch4.dat/s02:34329",
+          "token": 2,
+          "color": 0,
+          "source": "ああ、いえ、",
+          "target": "“啊，不是"
+        },
+        {
+          "id": "scratch4.dat/s02:34329",
+          "token": 8,
+          "color": 0,
+          "source": "…気になさらず。",
+          "target": "……您别多心。"
+        },
+        {
+          "id": "scratch4.dat/s02:34329",
+          "token": 11,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s02:35130:token11",
+      "sha256": "2a762da6ef059d688a014ee49b0ec21ef6cd3b3e0805b959005c0f3d3ac73b51",
+      "script": "scratch4.dat/s02",
+      "boundary": "35130:token11",
+      "spans": [
+        {
+          "id": "scratch4.dat/s02:35130",
+          "token": 2,
+          "color": 0,
+          "source": "堪え忍んで、詳細に…",
+          "target": "却还是……强忍着，把细节……"
+        },
+        {
+          "id": "scratch4.dat/s02:35130",
+          "token": 8,
+          "color": 0,
+          "source": "お話し…したのに…。",
+          "target": "全都告诉了你们……"
+        },
+        {
+          "id": "scratch4.dat/s02:35130",
+          "token": 11,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s03:10071:token11",
+      "sha256": "0374685c2b8214c76dfa03ed0adaa2fff978c719b8818a25263437a19c9a5b43",
+      "script": "scratch4.dat/s03",
+      "boundary": "10071:token11",
+      "spans": [
+        {
+          "id": "scratch4.dat/s03:9890",
+          "token": 2,
+          "color": 0,
+          "source": "ケイコという人は、この",
+          "target": "那么，那个叫圭子的人，"
+        },
+        {
+          "id": "scratch4.dat/s03:9890",
+          "token": 8,
+          "color": 0,
+          "source": "事故が起こることを",
+          "target": "应该早已"
+        },
+        {
+          "id": "scratch4.dat/s03:9890",
+          "token": 14,
+          "color": 2,
+          "source": "知っていた",
+          "target": "知道"
+        },
+        {
+          "id": "scratch4.dat/s03:9890",
+          "token": 18,
+          "color": 0,
+          "source": "ということに",
+          "target": "这场事故"
+        },
+        {
+          "id": "scratch4.dat/s03:9890",
+          "token": 24,
+          "color": 0,
+          "source": "なる。",
+          "target": "会发生。"
+        },
+        {
+          "id": "scratch4.dat/s03:9890",
+          "token": 27,
+          "control": "<ctrl=2B/>"
+        },
+        {
+          "id": "scratch4.dat/s03:10071",
+          "token": 2,
+          "color": 0,
+          "source": "もしこのバス爆破事件に",
+          "target": "如果她参与了"
+        },
+        {
+          "id": "scratch4.dat/s03:10071",
+          "token": 8,
+          "color": 0,
+          "source": "関与しているならば…",
+          "target": "这起巴士爆炸案……"
+        },
+        {
+          "id": "scratch4.dat/s03:10071",
+          "token": 11,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s03:16484:token19",
+      "sha256": "3340897f802bf6957b33a2e614340ff5a4e22ac84c01394aafcfbf40abcfbcb4",
+      "script": "scratch4.dat/s03",
+      "boundary": "16484:token19",
+      "spans": [
+        {
+          "id": "scratch4.dat/s03:16484",
+          "token": 2,
+          "color": 0,
+          "source": "こっそり",
+          "target": "然后偷偷把车票"
+        },
+        {
+          "id": "scratch4.dat/s03:16484",
+          "token": 6,
+          "color": 2,
+          "source": "すり替えた",
+          "target": "掉包"
+        },
+        {
+          "id": "scratch4.dat/s03:16484",
+          "token": 10,
+          "color": 0,
+          "source": "…",
+          "target": "……"
+        },
+        {
+          "id": "scratch4.dat/s03:16484",
+          "token": 16,
+          "color": 0,
+          "source": "ってことは、ないかな？",
+          "target": "有没有这种可能？"
+        },
+        {
+          "id": "scratch4.dat/s03:16484",
+          "token": 19,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s03:20912:token23",
+      "sha256": "1c522bf2b12db9e4f0cbc0773db733d44905ac7fc512d2ee43b6e37103b0a5f0",
+      "script": "scratch4.dat/s03",
+      "boundary": "20912:token23",
+      "spans": [
+        {
+          "id": "scratch4.dat/s03:20912",
+          "token": 2,
+          "color": 0,
+          "source": "…同乗している客の",
+          "target": "……有一位乘客"
+        },
+        {
+          "id": "scratch4.dat/s03:20912",
+          "token": 8,
+          "color": 0,
+          "source": "ひとりに目が止まり、",
+          "target": "吸引了我的注意，"
+        },
+        {
+          "id": "scratch4.dat/s03:20912",
+          "token": 14,
+          "color": 0,
+          "source": "まさか…と思っていた",
+          "target": "我刚觉得不敢相信……"
+        },
+        {
+          "id": "scratch4.dat/s03:20912",
+          "token": 20,
+          "color": 0,
+          "source": "その瞬間。",
+          "target": "就在那一瞬间。"
+        },
+        {
+          "id": "scratch4.dat/s03:20912",
+          "token": 23,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s03:22348:token11",
+      "sha256": "39a1ba2f4678711ec6564edbd2fbb3268506f072d36ed47330b42a5f74f6b170",
+      "script": "scratch4.dat/s03",
+      "boundary": "22348:token11",
+      "spans": [
+        {
+          "id": "scratch4.dat/s03:22348",
+          "token": 2,
+          "color": 0,
+          "source": "…私は、何も感じない",
+          "target": "……我已成了一个"
+        },
+        {
+          "id": "scratch4.dat/s03:22348",
+          "token": 8,
+          "color": 0,
+          "source": "存在になっていた。",
+          "target": "什么都感受不到的存在。"
+        },
+        {
+          "id": "scratch4.dat/s03:22348",
+          "token": 11,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s04:1288:token15",
+      "sha256": "0c154eba35d63ce87bd288b336d12cac4fc7ff4c4a1f0baa61a3dbca0c8c1cb3",
+      "script": "scratch4.dat/s04",
+      "boundary": "1288:token15",
+      "spans": [
+        {
+          "id": "scratch4.dat/s04:1288",
+          "token": 2,
+          "color": 0,
+          "source": "遺体は、豫言組織の幹部",
+          "target": "已确认遗体身份为预言组织干部"
+        },
+        {
+          "id": "scratch4.dat/s04:1288",
+          "token": 8,
+          "color": 2,
+          "source": "門沢文治",
+          "target": "门泽文治"
+        },
+        {
+          "id": "scratch4.dat/s04:1288",
+          "token": 12,
+          "color": 0,
+          "source": "45歳と判明。",
+          "target": "，45 岁。"
+        },
+        {
+          "id": "scratch4.dat/s04:1288",
+          "token": 15,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s04:7725:token25",
+      "sha256": "b4931cd296741323b959bb4a7213d8da63d0602a45c73e3ead1799c1c4d3b91d",
+      "script": "scratch4.dat/s04",
+      "boundary": "7725:token25",
+      "spans": [
+        {
+          "id": "scratch4.dat/s04:7725",
+          "token": 2,
+          "color": 0,
+          "source": "門沢文治は、なんと",
+          "target": "门泽文治"
+        },
+        {
+          "id": "scratch4.dat/s04:7725",
+          "token": 8,
+          "color": 0,
+          "source": "過去に",
+          "target": "过去竟然犯下过"
+        },
+        {
+          "id": "scratch4.dat/s04:7725",
+          "token": 12,
+          "color": 2,
+          "source": "婦女暴行事件",
+          "target": "强奸案"
+        },
+        {
+          "id": "scratch4.dat/s04:7725",
+          "token": 16,
+          "color": 0,
+          "source": "を",
+          "target": "，"
+        },
+        {
+          "id": "scratch4.dat/s04:7725",
+          "token": 22,
+          "color": 0,
+          "source": "起こしていたらしく…",
+          "target": "似乎确有其事……"
+        },
+        {
+          "id": "scratch4.dat/s04:7725",
+          "token": 25,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s04:16950:token31",
+      "sha256": "6f4acb78a1363f9c2cf9bb0ebfbc32114cf782f425ad9819cdfdbc3c2e72fa48",
+      "script": "scratch4.dat/s04",
+      "boundary": "16950:token31",
+      "spans": [
+        {
+          "id": "scratch4.dat/s04:16950",
+          "token": 2,
+          "color": 0,
+          "source": "爆発したと思われる",
+          "target": "从疑似爆炸位置"
+        },
+        {
+          "id": "scratch4.dat/s04:16950",
+          "token": 8,
+          "color": 0,
+          "source": "箇所の残骸から、焼け",
+          "target": "的残骸中，"
+        },
+        {
+          "id": "scratch4.dat/s04:16950",
+          "token": 14,
+          "color": 0,
+          "source": "残った",
+          "target": "发现了未烧尽的"
+        },
+        {
+          "id": "scratch4.dat/s04:16950",
+          "token": 18,
+          "color": 2,
+          "source": "電球の芯",
+          "target": "灯丝"
+        },
+        {
+          "id": "scratch4.dat/s04:16950",
+          "token": 22,
+          "color": 0,
+          "source": "が発見",
+          "target": "，"
+        },
+        {
+          "id": "scratch4.dat/s04:16950",
+          "token": 28,
+          "color": 0,
+          "source": "されたのだが…",
+          "target": "不过……"
+        },
+        {
+          "id": "scratch4.dat/s04:16950",
+          "token": 31,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s04:25384:token11",
+      "sha256": "e22df47e9288e612f3694067cc3007bcad3b670e75cc969181f9afeb81d39034",
+      "script": "scratch4.dat/s04",
+      "boundary": "25384:token11",
+      "spans": [
+        {
+          "id": "scratch4.dat/s04:25384",
+          "token": 2,
+          "color": 0,
+          "source": "むしろあれは、我々の",
+          "target": "倒不如说，那是"
+        },
+        {
+          "id": "scratch4.dat/s04:25384",
+          "token": 8,
+          "color": 0,
+          "source": "存在を驚異に感じた…",
+          "target": "将我们的存在视为威胁的……"
+        },
+        {
+          "id": "scratch4.dat/s04:25384",
+          "token": 11,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s05:3056:token5",
+      "sha256": "8057c97cd45f699f3148cf8df3f58f8b40b1617c3d1661874e8120e018d54e68",
+      "script": "scratch4.dat/s05",
+      "boundary": "3056:token5",
+      "spans": [
+        {
+          "id": "scratch4.dat/s05:3056",
+          "token": 2,
+          "color": 0,
+          "source": "そう、そこだ！",
+          "target": "“对，就是这一点！"
+        },
+        {
+          "id": "scratch4.dat/s05:3056",
+          "token": 5,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s05:6613:token17",
+      "sha256": "e115d5c494fbf310c9ab5186657ccd5556174737648b36e769038306c3b5cb3e",
+      "script": "scratch4.dat/s05",
+      "boundary": "6613:token17",
+      "spans": [
+        {
+          "id": "scratch4.dat/s05:6613",
+          "token": 2,
+          "color": 0,
+          "source": "まあ、違うときは絶対",
+          "target": "“不过，如果不是她，"
+        },
+        {
+          "id": "scratch4.dat/s05:6613",
+          "token": 8,
+          "color": 0,
+          "source": "違うってわかるだろう",
+          "target": "应该至少能"
+        },
+        {
+          "id": "scratch4.dat/s05:6613",
+          "token": 14,
+          "color": 0,
+          "source": "からさ。",
+          "target": "看得出来吧。"
+        },
+        {
+          "id": "scratch4.dat/s05:6613",
+          "token": 17,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s05:7173:token25",
+      "sha256": "00068d952c11b39f490586bff0b44e9fd72f9682f56aa8fca525a5483f4bdb63",
+      "script": "scratch4.dat/s05",
+      "boundary": "7173:token25",
+      "spans": [
+        {
+          "id": "scratch4.dat/s05:7173",
+          "token": 2,
+          "color": 0,
+          "source": "ああ。なんでも、",
+          "target": "“嗯。据说，"
+        },
+        {
+          "id": "scratch4.dat/s05:7173",
+          "token": 8,
+          "color": 0,
+          "source": "山ん中から",
+          "target": "在山里发现了"
+        },
+        {
+          "id": "scratch4.dat/s05:7173",
+          "token": 12,
+          "color": 2,
+          "source": "女性の遺体",
+          "target": "一具女尸"
+        },
+        {
+          "id": "scratch4.dat/s05:7173",
+          "token": 16,
+          "color": 0,
+          "source": "が",
+          "target": "，"
+        },
+        {
+          "id": "scratch4.dat/s05:7173",
+          "token": 22,
+          "color": 0,
+          "source": "発見されたらしいが…",
+          "target": "而且……"
+        },
+        {
+          "id": "scratch4.dat/s05:7173",
+          "token": 25,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s05:12977:token23",
+      "sha256": "3c572fd5e0d9703fb0c4819e860e0f347f22c346e572049216974e7bb82e0519",
+      "script": "scratch4.dat/s05",
+      "boundary": "12977:token23",
+      "spans": [
+        {
+          "id": "scratch4.dat/s05:12977",
+          "token": 2,
+          "color": 0,
+          "source": "警部は、隣の部屋の",
+          "target": "警部用力敲着"
+        },
+        {
+          "id": "scratch4.dat/s05:12977",
+          "token": 8,
+          "color": 0,
+          "source": "ドアを強くノックし、",
+          "target": "隔壁房间的门，"
+        },
+        {
+          "id": "scratch4.dat/s05:12977",
+          "token": 14,
+          "color": 0,
+          "source": "この家の主であろう",
+          "target": "朝里面呼喊，想把"
+        },
+        {
+          "id": "scratch4.dat/s05:12977",
+          "token": 20,
+          "color": 0,
+          "source": "人物を呼んでいる。",
+          "target": "这家的主人叫出来。"
+        },
+        {
+          "id": "scratch4.dat/s05:12977",
+          "token": 23,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s05:17542:token5",
+      "sha256": "0e2d1e7e19e02284a95b5548e62e6a11b0e42bc246e96edfa4d1ff7ef81ea544",
+      "script": "scratch4.dat/s05",
+      "boundary": "17542:token5",
+      "spans": [
+        {
+          "id": "scratch4.dat/s05:17542",
+          "token": 2,
+          "color": 0,
+          "source": "イモウラスミカ！",
+          "target": "IMOURA SUMIKA！"
+        },
+        {
+          "id": "scratch4.dat/s05:17542",
+          "token": 5,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s05:17599:token5",
+      "sha256": "746454c48a646894e02f2681458493fc48db49af3bcf660c80ac2b2b4becacd4",
+      "script": "scratch4.dat/s05",
+      "boundary": "17599:token5",
+      "spans": [
+        {
+          "id": "scratch4.dat/s05:17599",
+          "token": 2,
+          "color": 0,
+          "source": "イモウラスミカかッ!!",
+          "target": "是 IMOURA SUMIKA 吗！”"
+        },
+        {
+          "id": "scratch4.dat/s05:17599",
+          "token": 5,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s05:21931:token25",
+      "sha256": "d324aa001e5090acfdba040a339104bb530e8342bda3aa3cf100c30d2ba6fe74",
+      "script": "scratch4.dat/s05",
+      "boundary": "21931:token25",
+      "spans": [
+        {
+          "id": "scratch4.dat/s05:21931",
+          "token": 2,
+          "color": 10,
+          "source": "黒いカード",
+          "target": "黑色卡片"
+        },
+        {
+          "id": "scratch4.dat/s05:21931",
+          "token": 6,
+          "color": 0,
+          "source": "と、",
+          "target": "，以及"
+        },
+        {
+          "id": "scratch4.dat/s05:21931",
+          "token": 12,
+          "color": 0,
+          "source": "ケイコという人物からの",
+          "target": "一个叫圭子的人寄来的"
+        },
+        {
+          "id": "scratch4.dat/s05:21931",
+          "token": 18,
+          "color": 10,
+          "source": "手紙",
+          "target": "信"
+        },
+        {
+          "id": "scratch4.dat/s05:21931",
+          "token": 22,
+          "color": 0,
+          "source": "…でしょうか。",
+          "target": "……吧。”"
+        },
+        {
+          "id": "scratch4.dat/s05:21931",
+          "token": 25,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s05:26734:token5",
+      "sha256": "a3c4279d7d82bbda9786b2ccf13083acbc12d06bedf7752afd1356f8fb43d0b8",
+      "script": "scratch4.dat/s05",
+      "boundary": "26734:token5",
+      "spans": [
+        {
+          "id": "scratch4.dat/s05:26734",
+          "token": 2,
+          "color": 0,
+          "source": "ケイコ…か。",
+          "target": "“圭子吗……"
+        },
+        {
+          "id": "scratch4.dat/s05:26734",
+          "token": 5,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s07:2207:token11",
+      "sha256": "3aa0ef15e4457e675e3a7f72def4e4815a6e0b82ac3ef467b499bf229a17307c",
+      "script": "scratch4.dat/s07",
+      "boundary": "2207:token11",
+      "spans": [
+        {
+          "id": "scratch4.dat/s07:2207",
+          "token": 2,
+          "color": 0,
+          "source": "重い方と軽い方、",
+          "target": "重的和轻的"
+        },
+        {
+          "id": "scratch4.dat/s07:2207",
+          "token": 8,
+          "color": 0,
+          "source": "…どっちから聞きたい？",
+          "target": "……你想先听哪个？”"
+        },
+        {
+          "id": "scratch4.dat/s07:2207",
+          "token": 11,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s07:9268:token17",
+      "sha256": "337ad41a5d1ae15a1afbb50cc910afcfd2c376e6922bd643576edbb18d3e277d",
+      "script": "scratch4.dat/s07",
+      "boundary": "9268:token17",
+      "spans": [
+        {
+          "id": "scratch4.dat/s07:9268",
+          "token": 2,
+          "color": 0,
+          "source": "便箋の２枚目に、",
+          "target": "好像在第二张信纸上，"
+        },
+        {
+          "id": "scratch4.dat/s07:9268",
+          "token": 8,
+          "color": 0,
+          "source": "書き置きが写って",
+          "target": "还留有留言内容"
+        },
+        {
+          "id": "scratch4.dat/s07:9268",
+          "token": 14,
+          "color": 0,
+          "source": "残ってたみたいだぜ。",
+          "target": "透印下来的字迹。"
+        },
+        {
+          "id": "scratch4.dat/s07:9268",
+          "token": 17,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s10:7253:token23",
+      "sha256": "61a37ec79efd421b0c40130046d22dc5061775a1b09d7edd381fac81377cc527",
+      "script": "scratch4.dat/s10",
+      "boundary": "7253:token23",
+      "spans": [
+        {
+          "id": "scratch4.dat/s10:7253",
+          "token": 2,
+          "color": 0,
+          "source": "噂を信じて、まんまと",
+          "target": "我竟然相信传言，"
+        },
+        {
+          "id": "scratch4.dat/s10:7253",
+          "token": 8,
+          "color": 0,
+          "source": "こんなところまで足を",
+          "target": "傻乎乎地"
+        },
+        {
+          "id": "scratch4.dat/s10:7253",
+          "token": 14,
+          "color": 0,
+          "source": "運んだ自分が、なんだか",
+          "target": "一路找到了这里，"
+        },
+        {
+          "id": "scratch4.dat/s10:7253",
+          "token": 20,
+          "color": 0,
+          "source": "情けなかった。",
+          "target": "想想就觉得自己真没出息。"
+        },
+        {
+          "id": "scratch4.dat/s10:7253",
+          "token": 23,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s11:9959:token17",
+      "sha256": "082590f7c1b47da0137e63c4cd7257935ff789424190583c8b95de5d33bcf137",
+      "script": "scratch4.dat/s11",
+      "boundary": "9959:token17",
+      "spans": [
+        {
+          "id": "scratch4.dat/s11:9959",
+          "token": 2,
+          "color": 0,
+          "source": "これじゃ、依頼ができる",
+          "target": "这种气氛，"
+        },
+        {
+          "id": "scratch4.dat/s11:9959",
+          "token": 8,
+          "color": 0,
+          "source": "ような雰囲気じゃない",
+          "target": "实在不像是"
+        },
+        {
+          "id": "scratch4.dat/s11:9959",
+          "token": 14,
+          "color": 0,
+          "source": "なあ…。",
+          "target": "能提出委托的样子啊……"
+        },
+        {
+          "id": "scratch4.dat/s11:9959",
+          "token": 17,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s11:13764:token17",
+      "sha256": "6e69098c41a564acd073dcecab6d72638e812304608f3b0077a9a7f27d7c8b2d",
+      "script": "scratch4.dat/s11",
+      "boundary": "13764:token17",
+      "spans": [
+        {
+          "id": "scratch4.dat/s11:13764",
+          "token": 2,
+          "color": 0,
+          "source": "僕とのいち個人としての",
+          "target": "如果只是我以个人身份"
+        },
+        {
+          "id": "scratch4.dat/s11:13764",
+          "token": 8,
+          "color": 0,
+          "source": "調査依頼なら…受ける",
+          "target": "提出的调查委托……"
+        },
+        {
+          "id": "scratch4.dat/s11:13764",
+          "token": 14,
+          "color": 0,
+          "source": "こともできるでしょう。",
+          "target": "您应该还是可以接受的吧。"
+        },
+        {
+          "id": "scratch4.dat/s11:13764",
+          "token": 17,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s11:14010:token19",
+      "sha256": "f2d0f9535b4b290a49598c87fb4c5c0b50a79767364f6add83caff780335d655",
+      "script": "scratch4.dat/s11",
+      "boundary": "14010:token19",
+      "spans": [
+        {
+          "id": "scratch4.dat/s11:14010",
+          "token": 2,
+          "color": 0,
+          "source": "僕と",
+          "target": "难道你是想和我成为"
+        },
+        {
+          "id": "scratch4.dat/s11:14010",
+          "token": 6,
+          "color": 2,
+          "source": "友達",
+          "target": "朋友"
+        },
+        {
+          "id": "scratch4.dat/s11:14010",
+          "token": 10,
+          "color": 0,
+          "source": "になろうと",
+          "target": "，"
+        },
+        {
+          "id": "scratch4.dat/s11:14010",
+          "token": 16,
+          "color": 0,
+          "source": "でも言うのかっ！",
+          "target": "是这个意思吗！"
+        },
+        {
+          "id": "scratch4.dat/s11:14010",
+          "token": 19,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s11:16704:token17",
+      "sha256": "72085906a8db5f211c79c1e51c50e05793775b1e538a89157f6244d7af0c6caa",
+      "script": "scratch4.dat/s11",
+      "boundary": "16704:token17",
+      "spans": [
+        {
+          "id": "scratch4.dat/s11:16704",
+          "token": 2,
+          "color": 0,
+          "source": "…いや、いくらでもと",
+          "target": "“……不，说酬金"
+        },
+        {
+          "id": "scratch4.dat/s11:16704",
+          "token": 8,
+          "color": 0,
+          "source": "いうのは言い過ぎですが",
+          "target": "要多少都行是有点夸张，"
+        },
+        {
+          "id": "scratch4.dat/s11:16704",
+          "token": 14,
+          "color": 0,
+          "source": "出来る限りの…。",
+          "target": "但我会尽可能多付……”"
+        },
+        {
+          "id": "scratch4.dat/s11:16704",
+          "token": 17,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s11:17753:token5",
+      "sha256": "b5b366dcc42b6edafb108de8c7ceedf0100c3f107eedcb9e324d4e8e2c403573",
+      "script": "scratch4.dat/s11",
+      "boundary": "17753:token5",
+      "spans": [
+        {
+          "id": "scratch4.dat/s11:17753",
+          "token": 2,
+          "color": 0,
+          "source": "イモウラスミカ！",
+          "target": "IMOURA SUMIKA！"
+        },
+        {
+          "id": "scratch4.dat/s11:17753",
+          "token": 5,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s11:17810:token5",
+      "sha256": "c6fca51b69999013eb3f38be4e60b9f68869eeebf51730c339db1ce9d7dad07a",
+      "script": "scratch4.dat/s11",
+      "boundary": "17810:token5",
+      "spans": [
+        {
+          "id": "scratch4.dat/s11:17810",
+          "token": 2,
+          "color": 0,
+          "source": "イモウラスミカかッ!!",
+          "target": "是 IMOURA SUMIKA 吗！”"
+        },
+        {
+          "id": "scratch4.dat/s11:17810",
+          "token": 5,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s12:2953:token5",
+      "sha256": "199a97a39b4fb6413270e81acc4c641b97676f53bff5016d7923d03c5c006500",
+      "script": "scratch4.dat/s12",
+      "boundary": "2953:token5",
+      "spans": [
+        {
+          "id": "scratch4.dat/s12:2953",
+          "token": 2,
+          "color": 0,
+          "source": "バス、遅れちゃって。",
+          "target": "公交车晚点了。”"
+        },
+        {
+          "id": "scratch4.dat/s12:2953",
+          "token": 5,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s12:10237:token5",
+      "sha256": "f7f940359aaa851917f67dd1a94161c9d04d7fa35964419f29f89cf2f3d95b29",
+      "script": "scratch4.dat/s12",
+      "boundary": "10237:token5",
+      "spans": [
+        {
+          "id": "scratch4.dat/s12:10237",
+          "token": 2,
+          "color": 0,
+          "source": "永劫会…か。",
+          "target": "“永劫会吗……"
+        },
+        {
+          "id": "scratch4.dat/s12:10237",
+          "token": 5,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s12:19272:token25",
+      "sha256": "77c9f06300341a189f4e12375a6660961b88437d36a95c1f499174c19374c43b",
+      "script": "scratch4.dat/s12",
+      "boundary": "19272:token25",
+      "spans": [
+        {
+          "id": "scratch4.dat/s12:19272",
+          "token": 2,
+          "color": 0,
+          "source": "ひとり娘の美紀恵が、",
+          "target": "我的独生女美纪惠，"
+        },
+        {
+          "id": "scratch4.dat/s12:19272",
+          "token": 8,
+          "color": 0,
+          "source": "原因不明の",
+          "target": "不知何故竟然"
+        },
+        {
+          "id": "scratch4.dat/s12:19272",
+          "token": 12,
+          "color": 2,
+          "source": "自殺",
+          "target": "自杀"
+        },
+        {
+          "id": "scratch4.dat/s12:19272",
+          "token": 16,
+          "color": 0,
+          "source": "を",
+          "target": ""
+        },
+        {
+          "id": "scratch4.dat/s12:19272",
+          "token": 22,
+          "color": 0,
+          "source": "してしまってね。",
+          "target": "了。”"
+        },
+        {
+          "id": "scratch4.dat/s12:19272",
+          "token": 25,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s12:19449:token5",
+      "sha256": "5dbb3e981ad3c8ae27fa76d83a00d6725e662a09ea91611c165149b48d566cf0",
+      "script": "scratch4.dat/s12",
+      "boundary": "19449:token5",
+      "spans": [
+        {
+          "id": "scratch4.dat/s12:19449",
+          "token": 2,
+          "color": 0,
+          "source": "原因不明…なんですか？",
+          "target": "“……不知道原因吗？”"
+        },
+        {
+          "id": "scratch4.dat/s12:19449",
+          "token": 5,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s12:22004:token15",
+      "sha256": "ada60f18f0dabccda017d449354e1427ba1586262f673a92fc9ab62b4337f28f",
+      "script": "scratch4.dat/s12",
+      "boundary": "22004:token15",
+      "spans": [
+        {
+          "id": "scratch4.dat/s12:22004",
+          "token": 2,
+          "color": 2,
+          "source": "探偵",
+          "target": "“侦探"
+        },
+        {
+          "id": "scratch4.dat/s12:22004",
+          "token": 6,
+          "color": 0,
+          "source": "を雇って、徹底的に",
+          "target": "，我雇了一个，让他"
+        },
+        {
+          "id": "scratch4.dat/s12:22004",
+          "token": 12,
+          "color": 0,
+          "source": "探らせたんだが…",
+          "target": "彻底调查……"
+        },
+        {
+          "id": "scratch4.dat/s12:22004",
+          "token": 15,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s12:43288:token11",
+      "sha256": "323a2244c35dbb74451c21aa305daffaea2950affb3fbbb6d257bc8de5d958f7",
+      "script": "scratch4.dat/s12",
+      "boundary": "43288:token11",
+      "spans": [
+        {
+          "id": "scratch4.dat/s12:43288",
+          "token": 2,
+          "color": 0,
+          "source": "たぶん、大丈夫なんじゃ",
+          "target": "“应该"
+        },
+        {
+          "id": "scratch4.dat/s12:43288",
+          "token": 8,
+          "color": 0,
+          "source": "ないかと思うけど…。",
+          "target": "没什么关系吧……”"
+        },
+        {
+          "id": "scratch4.dat/s12:43288",
+          "token": 11,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s14:6897:token11",
+      "sha256": "143d6d15118f437d371c0f27a4918f6b298f018d402ac6f7a98a157e5dad05c5",
+      "script": "scratch4.dat/s14",
+      "boundary": "6897:token11",
+      "spans": [
+        {
+          "id": "scratch4.dat/s14:6897",
+          "token": 2,
+          "color": 0,
+          "source": "…と、そっちは、",
+          "target": "……旁边这位是"
+        },
+        {
+          "id": "scratch4.dat/s14:6897",
+          "token": 8,
+          "color": 0,
+          "source": "…あっ…！",
+          "target": "……啊……！"
+        },
+        {
+          "id": "scratch4.dat/s14:6897",
+          "token": 11,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s14:30454:token27",
+      "sha256": "cf0c070b3c56288adb8bae10a5bd1bf287f100bd0525e12ea0c71a963e91e4a0",
+      "script": "scratch4.dat/s14",
+      "boundary": "30454:token27",
+      "spans": [
+        {
+          "id": "scratch4.dat/s14:30454",
+          "token": 2,
+          "color": 0,
+          "source": "澄佳が家を出た隙に、",
+          "target": "趁澄佳出门时，"
+        },
+        {
+          "id": "scratch4.dat/s14:30454",
+          "token": 8,
+          "color": 0,
+          "source": "こっそりと部屋を",
+          "target": "我提议悄悄"
+        },
+        {
+          "id": "scratch4.dat/s14:30454",
+          "token": 12,
+          "color": 2,
+          "source": "家探し",
+          "target": "搜查"
+        },
+        {
+          "id": "scratch4.dat/s14:30454",
+          "token": 18,
+          "color": 0,
+          "source": "させてもらおう、と",
+          "target": "一下她的"
+        },
+        {
+          "id": "scratch4.dat/s14:30454",
+          "token": 24,
+          "color": 0,
+          "source": "提案した。",
+          "target": "房间。"
+        },
+        {
+          "id": "scratch4.dat/s14:30454",
+          "token": 27,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s14:39598:token25",
+      "sha256": "55730874dd57c9048a4ac76c632fe247224bd37c803b85039562c02a7a8c1fbd",
+      "script": "scratch4.dat/s14",
+      "boundary": "39598:token25",
+      "spans": [
+        {
+          "id": "scratch4.dat/s14:39598",
+          "token": 2,
+          "color": 0,
+          "source": "そんな状況に置かれた",
+          "target": "“一个陷入这种处境"
+        },
+        {
+          "id": "scratch4.dat/s14:39598",
+          "token": 8,
+          "color": 0,
+          "source": "人が、",
+          "target": "的人，写下"
+        },
+        {
+          "id": "scratch4.dat/s14:39598",
+          "token": 12,
+          "color": 2,
+          "source": "ごめんなさい",
+          "target": "对不起"
+        },
+        {
+          "id": "scratch4.dat/s14:39598",
+          "token": 16,
+          "color": 0,
+          "source": "と",
+          "target": "，"
+        },
+        {
+          "id": "scratch4.dat/s14:39598",
+          "token": 22,
+          "color": 0,
+          "source": "書き残すといったら…",
+          "target": "留下这样的话……"
+        },
+        {
+          "id": "scratch4.dat/s14:39598",
+          "token": 25,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s15:2100:token31",
+      "sha256": "947c545e3eaff8aaf3d97fd69dafb6746511fd910369d6e5980cb123b2ad8697",
+      "script": "scratch4.dat/s15",
+      "boundary": "2100:token31",
+      "spans": [
+        {
+          "id": "scratch4.dat/s15:2100",
+          "token": 2,
+          "color": 0,
+          "source": "澄佳の件に関しては、",
+          "target": "关于澄佳的事，"
+        },
+        {
+          "id": "scratch4.dat/s15:2100",
+          "token": 8,
+          "color": 0,
+          "source": "正直もう、",
+          "target": "说实话，我只想把它当作"
+        },
+        {
+          "id": "scratch4.dat/s15:2100",
+          "token": 12,
+          "color": 2,
+          "source": "終わった",
+          "target": "已经结束的"
+        },
+        {
+          "id": "scratch4.dat/s15:2100",
+          "token": 18,
+          "color": 2,
+          "source": "こと",
+          "target": "事情"
+        },
+        {
+          "id": "scratch4.dat/s15:2100",
+          "token": 22,
+          "color": 0,
+          "source": "にしたいと思って",
+          "target": "，"
+        },
+        {
+          "id": "scratch4.dat/s15:2100",
+          "token": 28,
+          "color": 0,
+          "source": "いた。",
+          "target": "就此放下。"
+        },
+        {
+          "id": "scratch4.dat/s15:2100",
+          "token": 31,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s15:13478:token25",
+      "sha256": "f5b1a8b0036d1e73679201e86cbbe108e4ab7ced2aa4a9b820b9b8d0ec230df1",
+      "script": "scratch4.dat/s15",
+      "boundary": "13478:token25",
+      "spans": [
+        {
+          "id": "scratch4.dat/s15:13478",
+          "token": 2,
+          "color": 0,
+          "source": "そこで依頼料の代わりに",
+          "target": "“所以，作为委托费，"
+        },
+        {
+          "id": "scratch4.dat/s15:13478",
+          "token": 8,
+          "color": 0,
+          "source": "君に調査を",
+          "target": "我想请你在调查中"
+        },
+        {
+          "id": "scratch4.dat/s15:13478",
+          "token": 12,
+          "color": 2,
+          "source": "手伝って",
+          "target": "帮我"
+        },
+        {
+          "id": "scratch4.dat/s15:13478",
+          "token": 18,
+          "color": 2,
+          "source": "もらいたい",
+          "target": "一把"
+        },
+        {
+          "id": "scratch4.dat/s15:13478",
+          "token": 22,
+          "color": 0,
+          "source": "わけなのだ！",
+          "target": "！”"
+        },
+        {
+          "id": "scratch4.dat/s15:13478",
+          "token": 25,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s17:523:token11",
+      "sha256": "4cf327f8cc087fd73be41091568513a6340c752df95c441dc9ef90163ff874ce",
+      "script": "scratch4.dat/s17",
+      "boundary": "523:token11",
+      "spans": [
+        {
+          "id": "scratch4.dat/s17:523",
+          "token": 2,
+          "color": 0,
+          "source": "あの、中庭とかいう",
+          "target": "对那个叫中庭的"
+        },
+        {
+          "id": "scratch4.dat/s17:523",
+          "token": 8,
+          "color": 0,
+          "source": "娘を和解だ！",
+          "target": "丫头执行“和解”！"
+        },
+        {
+          "id": "scratch4.dat/s17:523",
+          "token": 11,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s21:17135:token11",
+      "sha256": "ead1f75d144af5808d9fc7d47035ce2440afd04e66e70e74e1a87e2d82f13fd6",
+      "script": "scratch4.dat/s21",
+      "boundary": "17135:token11",
+      "spans": [
+        {
+          "id": "scratch4.dat/s21:17135",
+          "token": 2,
+          "color": 0,
+          "source": "どうしてこんなことに",
+          "target": "为什么会"
+        },
+        {
+          "id": "scratch4.dat/s21:17135",
+          "token": 8,
+          "color": 0,
+          "source": "なっちゃったんだろう。",
+          "target": "变成这样呢？"
+        },
+        {
+          "id": "scratch4.dat/s21:17135",
+          "token": 11,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s22:639:token11",
+      "sha256": "cbb5138f998ab960b16c6b26effc3ac6ad8ad5bde27c0deb25b51a267605effb",
+      "script": "scratch4.dat/s22",
+      "boundary": "639:token11",
+      "spans": [
+        {
+          "id": "scratch4.dat/s22:639",
+          "token": 2,
+          "color": 0,
+          "source": "その送迎バスの",
+          "target": "那趟接送巴士的"
+        },
+        {
+          "id": "scratch4.dat/s22:639",
+          "token": 8,
+          "color": 0,
+          "source": "バス停は…あそこか。",
+          "target": "站点……在那边啊。"
+        },
+        {
+          "id": "scratch4.dat/s22:639",
+          "token": 11,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s22:793:token23",
+      "sha256": "431254fa00974aab26379654ccf35551091b277367cf4ec28808b260d065b56c",
+      "script": "scratch4.dat/s22",
+      "boundary": "793:token23",
+      "spans": [
+        {
+          "id": "scratch4.dat/s22:793",
+          "token": 2,
+          "color": 0,
+          "source": "…そういえば、ここ最近",
+          "target": "……说起来，最近"
+        },
+        {
+          "id": "scratch4.dat/s22:793",
+          "token": 8,
+          "color": 0,
+          "source": "周囲の風景を見てる余裕",
+          "target": "我好像一直"
+        },
+        {
+          "id": "scratch4.dat/s22:793",
+          "token": 14,
+          "color": 0,
+          "source": "なんて、なかったような",
+          "target": "都没有心思"
+        },
+        {
+          "id": "scratch4.dat/s22:793",
+          "token": 20,
+          "color": 0,
+          "source": "気がする…",
+          "target": "去看看周围的风景……"
+        },
+        {
+          "id": "scratch4.dat/s22:793",
+          "token": 23,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s24:1858:token5",
+      "sha256": "c6be08f5c657778e45d9c10dc40d34aeb4aebad863348b056f21252485f52dd5",
+      "script": "scratch4.dat/s24",
+      "boundary": "1858:token5",
+      "spans": [
+        {
+          "id": "scratch4.dat/s24:1858",
+          "token": 2,
+          "color": 0,
+          "source": "死のう。",
+          "target": "我还是去死吧。"
+        },
+        {
+          "id": "scratch4.dat/s24:1858",
+          "token": 5,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s24:1913:token11",
+      "sha256": "ab9bea3749c1fa6c28451cbcfe9f2d8273e1839a5a4eab3272195772942d6e24",
+      "script": "scratch4.dat/s24",
+      "boundary": "1913:token11",
+      "spans": [
+        {
+          "id": "scratch4.dat/s24:1913",
+          "token": 2,
+          "color": 0,
+          "source": "どうして今まで",
+          "target": "为什么直到现在，"
+        },
+        {
+          "id": "scratch4.dat/s24:1913",
+          "token": 8,
+          "color": 0,
+          "source": "思いつかなかったんだ。",
+          "target": "我才想到呢？"
+        },
+        {
+          "id": "scratch4.dat/s24:1913",
+          "token": 11,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s24:2200:token5",
+      "sha256": "90973da2e9ff8eb206f95f343062a0731f290346c379a9736fb3723aca90b64e",
+      "script": "scratch4.dat/s24",
+      "boundary": "2200:token5",
+      "spans": [
+        {
+          "id": "scratch4.dat/s24:2200",
+          "token": 2,
+          "color": 0,
+          "source": "死のう。",
+          "target": "我还是去死吧。"
+        },
+        {
+          "id": "scratch4.dat/s24:2200",
+          "token": 5,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s25:8407:token17",
+      "sha256": "732c6cfcf139fdd6d12ad4b8dcdc70e799a6cbb78af9f92570fdfdb9fe657102",
+      "script": "scratch4.dat/s25",
+      "boundary": "8407:token17",
+      "spans": [
+        {
+          "id": "scratch4.dat/s25:8407",
+          "token": 2,
+          "color": 0,
+          "source": "…もう決意は冷めて",
+          "target": "……那股冲动已经退了，"
+        },
+        {
+          "id": "scratch4.dat/s25:8407",
+          "token": 8,
+          "color": 0,
+          "source": "死ぬ気分じゃない",
+          "target": "你现在已经"
+        },
+        {
+          "id": "scratch4.dat/s25:8407",
+          "token": 14,
+          "color": 0,
+          "source": "だろう？",
+          "target": "不想死了吧？”"
+        },
+        {
+          "id": "scratch4.dat/s25:8407",
+          "token": 17,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s25:8545:token17",
+      "sha256": "06b2804a1870f71ecc6942acc94ff5c84afaacd86a4f90b72da9c8aa1365c4cb",
+      "script": "scratch4.dat/s25",
+      "boundary": "8545:token17",
+      "spans": [
+        {
+          "id": "scratch4.dat/s25:8545",
+          "token": 2,
+          "color": 0,
+          "source": "確かに、少し前まで",
+          "target": "确实，直到不久前"
+        },
+        {
+          "id": "scratch4.dat/s25:8545",
+          "token": 8,
+          "color": 0,
+          "source": "抱いていた自殺の想いは",
+          "target": "我还一心想着自杀，"
+        },
+        {
+          "id": "scratch4.dat/s25:8545",
+          "token": 14,
+          "color": 0,
+          "source": "すっかり冷めていた…。",
+          "target": "现在那念头已经彻底消退了……"
+        },
+        {
+          "id": "scratch4.dat/s25:8545",
+          "token": 17,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s25:16697:token17",
+      "sha256": "fadc6975d2521102c578e093b9e014133f4601b80ac78e0d5d76595343d3fc0a",
+      "script": "scratch4.dat/s25",
+      "boundary": "16697:token17",
+      "spans": [
+        {
+          "id": "scratch4.dat/s25:16697",
+          "token": 2,
+          "color": 0,
+          "source": "わたしがこんな事件を",
+          "target": "如果得知"
+        },
+        {
+          "id": "scratch4.dat/s25:16697",
+          "token": 8,
+          "color": 0,
+          "source": "起こしたと知ったら、",
+          "target": "是我酿成了这起事件，"
+        },
+        {
+          "id": "scratch4.dat/s25:16697",
+          "token": 14,
+          "color": 0,
+          "source": "どう思うだろうか。",
+          "target": "会作何感想呢？"
+        },
+        {
+          "id": "scratch4.dat/s25:16697",
+          "token": 17,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s25:20128:token17",
+      "sha256": "e32ed0d4c4c0c51b63e21a99705e217c17b9454d82d123f1a9bbf36bcb98a2f3",
+      "script": "scratch4.dat/s25",
+      "boundary": "20128:token17",
+      "spans": [
+        {
+          "id": "scratch4.dat/s25:20128",
+          "token": 2,
+          "color": 0,
+          "source": "決死の覚悟で来たのに",
+          "target": "我明明是抱着豁出去的决心来的，"
+        },
+        {
+          "id": "scratch4.dat/s25:20128",
+          "token": 8,
+          "color": 0,
+          "source": "すっかり拍子抜け",
+          "target": "却一下子"
+        },
+        {
+          "id": "scratch4.dat/s25:20128",
+          "token": 14,
+          "color": 0,
+          "source": "だった。",
+          "target": "没了紧张感。"
+        },
+        {
+          "id": "scratch4.dat/s25:20128",
+          "token": 17,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s25:27598:token23",
+      "sha256": "eb18b4f52ca4dfec928ff85e12d55b995a79b97ac7dc1c54024fbb54bda3ad4f",
+      "script": "scratch4.dat/s25",
+      "boundary": "27598:token23",
+      "spans": [
+        {
+          "id": "scratch4.dat/s25:27598",
+          "token": 2,
+          "color": 0,
+          "source": "それをもとに、作曲科の",
+          "target": "所以我就以它为基础，"
+        },
+        {
+          "id": "scratch4.dat/s25:27598",
+          "token": 8,
+          "color": 0,
+          "source": "友達や先生に頼んで",
+          "target": "请作曲系的朋友"
+        },
+        {
+          "id": "scratch4.dat/s25:27598",
+          "token": 14,
+          "color": 0,
+          "source": "編曲してもらった、",
+          "target": "和老师帮忙编曲，"
+        },
+        {
+          "id": "scratch4.dat/s25:27598",
+          "token": 20,
+          "color": 0,
+          "source": "オリジナルの曲なのだ。",
+          "target": "写成了这首原创曲。"
+        },
+        {
+          "id": "scratch4.dat/s25:27598",
+          "token": 23,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s25:28744:token11",
+      "sha256": "34b494944f9dcb289a7aba21f803cca028bd8fd266768d34ed12759081b8b4e1",
+      "script": "scratch4.dat/s25",
+      "boundary": "28744:token11",
+      "spans": [
+        {
+          "id": "scratch4.dat/s25:28744",
+          "token": 2,
+          "color": 0,
+          "source": "卒業したら、わたしは",
+          "target": "毕业以后，"
+        },
+        {
+          "id": "scratch4.dat/s25:28744",
+          "token": 8,
+          "color": 0,
+          "source": "どうなるんだろう。",
+          "target": "我会怎么样呢？"
+        },
+        {
+          "id": "scratch4.dat/s25:28744",
+          "token": 11,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s25:29715:token5",
+      "sha256": "b425de9b8d48342e8a68d87a89c75fb1b0b33767a6bdbe078d64ebe04abf6d04",
+      "script": "scratch4.dat/s25",
+      "boundary": "29715:token5",
+      "spans": [
+        {
+          "id": "scratch4.dat/s25:29715",
+          "token": 2,
+          "color": 0,
+          "source": "すべてが狂った。",
+          "target": "一切都乱套了。"
+        },
+        {
+          "id": "scratch4.dat/s25:29715",
+          "token": 5,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s27:176:opcode1",
+      "sha256": "9dba1967246d6cf7c913576d62da9f733b2137d523e93542d495a7ebaffb1a2e",
+      "script": "scratch4.dat/s27",
+      "boundary": "176:opcode1",
+      "spans": [
+        {
+          "id": "scratch4.dat/s27:114",
+          "token": 2,
+          "color": 16,
+          "source": "沖村勇",
+          "target": "冲村勇"
+        },
+        {
+          "id": "scratch4.dat/s27:114",
+          "token": 6,
+          "color": 0,
+          "source": "　　　",
+          "target": "　　"
+        },
+        {
+          "id": "scratch4.dat/s27:114",
+          "token": 10,
+          "color": 2,
+          "source": "10月12日",
+          "target": "10 月 12 日"
+        },
+        {
+          "id": "scratch4.dat/s27:114",
+          "token": 14,
+          "color": 0,
+          "source": "　癸生川探偵事務所",
+          "target": "　癸生川侦探事务所"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s27:415:opcode47",
+      "sha256": "6eb6ec13cc2a48f419c31ac563c094418324696f3cdc8c008dca5e55add8d336",
+      "script": "scratch4.dat/s27",
+      "boundary": "415:opcode47",
+      "spans": [
+        {
+          "id": "scratch4.dat/s27:353",
+          "token": 2,
+          "color": 16,
+          "source": "沖村勇",
+          "target": "冲村勇"
+        },
+        {
+          "id": "scratch4.dat/s27:353",
+          "token": 6,
+          "color": 0,
+          "source": "　　　",
+          "target": "　　"
+        },
+        {
+          "id": "scratch4.dat/s27:353",
+          "token": 10,
+          "color": 2,
+          "source": "10月12日",
+          "target": "10 月 12 日"
+        },
+        {
+          "id": "scratch4.dat/s27:353",
+          "token": 14,
+          "color": 0,
+          "source": "　癸生川探偵事務所",
+          "target": "　癸生川侦探事务所"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s27:23948:opcode47",
+      "sha256": "0138e802d72d12a75ec7d9d070a9f97d95384824ac326611f735799d9000fbea",
+      "script": "scratch4.dat/s27",
+      "boundary": "23948:opcode47",
+      "spans": [
+        {
+          "id": "scratch4.dat/s27:23889",
+          "token": 2,
+          "color": 16,
+          "source": "沖村勇",
+          "target": "冲村勇"
+        },
+        {
+          "id": "scratch4.dat/s27:23889",
+          "token": 6,
+          "color": 0,
+          "source": "　　　",
+          "target": "　　"
+        },
+        {
+          "id": "scratch4.dat/s27:23889",
+          "token": 10,
+          "color": 2,
+          "source": "10月12日",
+          "target": "10 月 12 日"
+        },
+        {
+          "id": "scratch4.dat/s27:23889",
+          "token": 14,
+          "color": 0,
+          "source": "　癸生川探偵事務所",
+          "target": "　癸生川侦探事务所"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s31:243:opcode47",
+      "sha256": "3a5f09ebb621bf85286257c7b7ddf9363ee207e0953c1fa185f9088957810ae8",
+      "script": "scratch4.dat/s31",
+      "boundary": "243:opcode47",
+      "spans": [
+        {
+          "id": "scratch4.dat/s31:178",
+          "token": 2,
+          "color": 3,
+          "source": "？？？",
+          "target": "？？？"
+        },
+        {
+          "id": "scratch4.dat/s31:178",
+          "token": 6,
+          "color": 0,
+          "source": "　　　　　　　　　",
+          "target": "　　　　　　"
+        },
+        {
+          "id": "scratch4.dat/s31:178",
+          "token": 10,
+          "color": 2,
+          "source": "７月10日",
+          "target": "7 月 10 日"
+        },
+        {
+          "id": "scratch4.dat/s31:178",
+          "token": 14,
+          "color": 0,
+          "source": "　自室",
+          "target": "　自己的房间"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s31:1111:token21",
+      "sha256": "c7704dded467779fc741b14a5a882be249fc37bf6c8d5e9b039b9acd138423da",
+      "script": "scratch4.dat/s31",
+      "boundary": "1111:token21",
+      "spans": [
+        {
+          "id": "scratch4.dat/s31:1111",
+          "token": 2,
+          "color": 0,
+          "source": "調べによれば、遺体は",
+          "target": "据调查，死者确认为"
+        },
+        {
+          "id": "scratch4.dat/s31:1111",
+          "token": 8,
+          "color": 0,
+          "source": "同市内に住む",
+          "target": "居住在该市的"
+        },
+        {
+          "id": "scratch4.dat/s31:1111",
+          "token": 12,
+          "color": 2,
+          "source": "門沢文治",
+          "target": "门泽文治"
+        },
+        {
+          "id": "scratch4.dat/s31:1111",
+          "token": 18,
+          "color": 0,
+          "source": "さん45歳と判明。",
+          "target": "，45 岁。"
+        },
+        {
+          "id": "scratch4.dat/s31:1111",
+          "token": 21,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s31:2489:token11",
+      "sha256": "1f6f2d34dee0622d941692876d9f8c5be4adf9a38a6f1f567db63b883f49281e",
+      "script": "scratch4.dat/s31",
+      "boundary": "2489:token11",
+      "spans": [
+        {
+          "id": "scratch4.dat/s31:2489",
+          "token": 2,
+          "color": 0,
+          "source": "そういう見方が強め",
+          "target": "持这种看法的人"
+        },
+        {
+          "id": "scratch4.dat/s31:2489",
+          "token": 8,
+          "color": 0,
+          "source": "られているようですね。",
+          "target": "似乎越来越多了。”"
+        },
+        {
+          "id": "scratch4.dat/s31:2489",
+          "token": 11,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s31:7521:token23",
+      "sha256": "fe5afff67f8486cef020079b61b7986c6ced8fbfdad2539a4b953661e0404781",
+      "script": "scratch4.dat/s31",
+      "boundary": "7521:token23",
+      "spans": [
+        {
+          "id": "scratch4.dat/s31:7459",
+          "token": 2,
+          "color": 3,
+          "source": "？？？",
+          "target": "？？？"
+        },
+        {
+          "id": "scratch4.dat/s31:7459",
+          "token": 6,
+          "color": 0,
+          "source": "　　　　　　　　",
+          "target": "　　　　　　　"
+        },
+        {
+          "id": "scratch4.dat/s31:7459",
+          "token": 10,
+          "color": 2,
+          "source": "７月10日",
+          "target": "7 月 10 日"
+        },
+        {
+          "id": "scratch4.dat/s31:7459",
+          "token": 14,
+          "color": 0,
+          "source": "　港公園",
+          "target": "　港口公园"
+        },
+        {
+          "id": "scratch4.dat/s31:7521",
+          "token": 2,
+          "color": 0,
+          "source": "テレビ局の担当者と",
+          "target": "我约了电视台的"
+        },
+        {
+          "id": "scratch4.dat/s31:7521",
+          "token": 8,
+          "color": 0,
+          "source": "アポを取ったら、なんと",
+          "target": "负责人见面，"
+        },
+        {
+          "id": "scratch4.dat/s31:7521",
+          "token": 14,
+          "color": 0,
+          "source": "こんな所で待ち合わせ",
+          "target": "没想到碰头地点，"
+        },
+        {
+          "id": "scratch4.dat/s31:7521",
+          "token": 20,
+          "color": 0,
+          "source": "することになった。",
+          "target": "竟然选在这里。"
+        },
+        {
+          "id": "scratch4.dat/s31:7521",
+          "token": 23,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s31:10433:token5",
+      "sha256": "672f8747eaebe57f20711abb7b0eaeea27a8f457f67ac625af0a53ffd3451a63",
+      "script": "scratch4.dat/s31",
+      "boundary": "10433:token5",
+      "spans": [
+        {
+          "id": "scratch4.dat/s31:10433",
+          "token": 2,
+          "color": 0,
+          "source": "良かったんだろうか。",
+          "target": "这样做，真的好吗？"
+        },
+        {
+          "id": "scratch4.dat/s31:10433",
+          "token": 5,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s31:11113:opcode47",
+      "sha256": "bad0d5ec188dcb4b6c815bd42c34dff73ae40d0e64b8dfa79d9b614379c8f073",
+      "script": "scratch4.dat/s31",
+      "boundary": "11113:opcode47",
+      "spans": [
+        {
+          "id": "scratch4.dat/s31:11051",
+          "token": 2,
+          "color": 3,
+          "source": "？？？",
+          "target": "？？？"
+        },
+        {
+          "id": "scratch4.dat/s31:11051",
+          "token": 6,
+          "color": 0,
+          "source": "　　　　　　　　　",
+          "target": "　　　　　　"
+        },
+        {
+          "id": "scratch4.dat/s31:11051",
+          "token": 10,
+          "color": 2,
+          "source": "７月10日",
+          "target": "7 月 10 日"
+        },
+        {
+          "id": "scratch4.dat/s31:11051",
+          "token": 14,
+          "color": 0,
+          "source": "　自室",
+          "target": "　自己的房间"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s32:899:token21",
+      "sha256": "bf91fd42d9d095fb0d9006e7a8e4655dbbcd6d2d11963b9bcafd32cd3f94a983",
+      "script": "scratch4.dat/s32",
+      "boundary": "899:token21",
+      "spans": [
+        {
+          "id": "scratch4.dat/s32:899",
+          "token": 2,
+          "color": 0,
+          "source": "さらに、郵便受けに",
+          "target": "另外，我还发现"
+        },
+        {
+          "id": "scratch4.dat/s32:899",
+          "token": 8,
+          "color": 2,
+          "source": "手紙",
+          "target": "一封信"
+        },
+        {
+          "id": "scratch4.dat/s32:899",
+          "token": 12,
+          "color": 0,
+          "source": "が入っているのを",
+          "target": "正放在"
+        },
+        {
+          "id": "scratch4.dat/s32:899",
+          "token": 18,
+          "color": 0,
+          "source": "見つけた。",
+          "target": "信箱里。"
+        },
+        {
+          "id": "scratch4.dat/s32:899",
+          "token": 21,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s33:1054:token11",
+      "sha256": "5ee19684e70569247fa154cbd18e37ecd4cf1cd4c9f25213f15cfd604d150427",
+      "script": "scratch4.dat/s33",
+      "boundary": "1054:token11",
+      "spans": [
+        {
+          "id": "scratch4.dat/s33:1054",
+          "token": 2,
+          "color": 0,
+          "source": "…尾行はしやすいけど…",
+          "target": "……倒是方便跟踪……"
+        },
+        {
+          "id": "scratch4.dat/s33:1054",
+          "token": 8,
+          "color": 0,
+          "source": "17時に間に合うのかな。",
+          "target": "可赶得上 17 点吗？"
+        },
+        {
+          "id": "scratch4.dat/s33:1054",
+          "token": 11,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s33:12841:token23",
+      "sha256": "e7263f587334571cc19bace99dde078c90e9f3f7a9323c0c1633dd24333876da",
+      "script": "scratch4.dat/s33",
+      "boundary": "12841:token23",
+      "spans": [
+        {
+          "id": "scratch4.dat/s33:12841",
+          "token": 2,
+          "color": 0,
+          "source": "事故現場から少し",
+          "target": "在离事故现场"
+        },
+        {
+          "id": "scratch4.dat/s33:12841",
+          "token": 8,
+          "color": 0,
+          "source": "離れたところで、",
+          "target": "稍远的地方，"
+        },
+        {
+          "id": "scratch4.dat/s33:12841",
+          "token": 14,
+          "color": 0,
+          "source": "気になる人を",
+          "target": "我发现了一个"
+        },
+        {
+          "id": "scratch4.dat/s33:12841",
+          "token": 20,
+          "color": 0,
+          "source": "発見した。",
+          "target": "引起我注意的人。"
+        },
+        {
+          "id": "scratch4.dat/s33:12841",
+          "token": 23,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s33:15643:token5",
+      "sha256": "7d6da11b19d7cd07a2c85f8df8ce6a13d4d4bfb250b4aa69ec8811ac1ddfbbb4",
+      "script": "scratch4.dat/s33",
+      "boundary": "15643:token5",
+      "spans": [
+        {
+          "id": "scratch4.dat/s33:15570",
+          "token": 2,
+          "color": 3,
+          "source": "？？？",
+          "target": "？？？"
+        },
+        {
+          "id": "scratch4.dat/s33:15570",
+          "token": 6,
+          "color": 0,
+          "source": "　　　　　　　　　",
+          "target": "　　　　　　"
+        },
+        {
+          "id": "scratch4.dat/s33:15570",
+          "token": 10,
+          "color": 2,
+          "source": "７月26日",
+          "target": "7 月 26 日"
+        },
+        {
+          "id": "scratch4.dat/s33:15570",
+          "token": 14,
+          "color": 0,
+          "source": "　自室",
+          "target": "　自己的房间"
+        },
+        {
+          "id": "scratch4.dat/s33:15643",
+          "token": 2,
+          "color": 0,
+          "source": "…そして。",
+          "target": "……然后。"
+        },
+        {
+          "id": "scratch4.dat/s33:15643",
+          "token": 5,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s34:281:token17",
+      "sha256": "90ab04a43f230cf382dce79995a0cd95da73fd0280c37803fda7ba8f538b9541",
+      "script": "scratch4.dat/s34",
+      "boundary": "281:token17",
+      "spans": [
+        {
+          "id": "scratch4.dat/s34:219",
+          "token": 2,
+          "color": 3,
+          "source": "？？？",
+          "target": "？？？"
+        },
+        {
+          "id": "scratch4.dat/s34:219",
+          "token": 6,
+          "color": 0,
+          "source": "　　　　　　　　　",
+          "target": "　　　　　　"
+        },
+        {
+          "id": "scratch4.dat/s34:219",
+          "token": 10,
+          "color": 2,
+          "source": "８月31日",
+          "target": "8 月 31 日"
+        },
+        {
+          "id": "scratch4.dat/s34:219",
+          "token": 14,
+          "color": 0,
+          "source": "　自室",
+          "target": "　自己的房间"
+        },
+        {
+          "id": "scratch4.dat/s34:281",
+          "token": 2,
+          "color": 0,
+          "source": "…国中を震撼させた",
+          "target": "……那起震惊全国的"
+        },
+        {
+          "id": "scratch4.dat/s34:281",
+          "token": 8,
+          "color": 0,
+          "source": "例のバス事故から、",
+          "target": "巴士事故，"
+        },
+        {
+          "id": "scratch4.dat/s34:281",
+          "token": 14,
+          "color": 0,
+          "source": "５週間が経った。",
+          "target": "已经过去五周了。"
+        },
+        {
+          "id": "scratch4.dat/s34:281",
+          "token": 17,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s34:7176:token31",
+      "sha256": "2e2834c23a847e46edcb5da825b60cd8ed1d48a9ac28052d179481e19352b72d",
+      "script": "scratch4.dat/s34",
+      "boundary": "7176:token31",
+      "spans": [
+        {
+          "id": "scratch4.dat/s34:7176",
+          "token": 2,
+          "color": 0,
+          "source": "当時、バスに乗っていた",
+          "target": "当时，在巴士的"
+        },
+        {
+          "id": "scratch4.dat/s34:7176",
+          "token": 8,
+          "color": 0,
+          "source": "乗客の中に、",
+          "target": "乘客中，混有"
+        },
+        {
+          "id": "scratch4.dat/s34:7176",
+          "token": 12,
+          "color": 2,
+          "source": "豫言組織の",
+          "target": "预言组织的"
+        },
+        {
+          "id": "scratch4.dat/s34:7176",
+          "token": 18,
+          "color": 2,
+          "source": "関係者",
+          "target": "相关人员"
+        },
+        {
+          "id": "scratch4.dat/s34:7176",
+          "token": 22,
+          "color": 0,
+          "source": "が２名、紛れて",
+          "target": "，一共"
+        },
+        {
+          "id": "scratch4.dat/s34:7176",
+          "token": 28,
+          "color": 0,
+          "source": "いた。",
+          "target": "有两名。"
+        },
+        {
+          "id": "scratch4.dat/s34:7176",
+          "token": 31,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s34:8270:token31",
+      "sha256": "78efa4efb20fb30a2f45c0b1f81d11543a6fadf7b4443cc04f49a133ca2affea",
+      "script": "scratch4.dat/s34",
+      "boundary": "8270:token31",
+      "spans": [
+        {
+          "id": "scratch4.dat/s34:8270",
+          "token": 2,
+          "color": 0,
+          "source": "この人には、２年前に",
+          "target": "这个人两年前"
+        },
+        {
+          "id": "scratch4.dat/s34:8270",
+          "token": 8,
+          "color": 0,
+          "source": "執行猶予付きの懲役刑を",
+          "target": "曾被判处有期徒刑，"
+        },
+        {
+          "id": "scratch4.dat/s34:8270",
+          "token": 14,
+          "color": 0,
+          "source": "受けたという",
+          "target": "因此留有"
+        },
+        {
+          "id": "scratch4.dat/s34:8270",
+          "token": 18,
+          "color": 2,
+          "source": "前科",
+          "target": "前科"
+        },
+        {
+          "id": "scratch4.dat/s34:8270",
+          "token": 22,
+          "color": 0,
+          "source": "が",
+          "target": "，但刑期"
+        },
+        {
+          "id": "scratch4.dat/s34:8270",
+          "token": 28,
+          "color": 0,
+          "source": "あった。",
+          "target": "获准缓期执行。"
+        },
+        {
+          "id": "scratch4.dat/s34:8270",
+          "token": 31,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s34:17855:token11",
+      "sha256": "9585d982cefb67569020e5db3e9795c4fa6af20a5a97ebe911d4cd930ca96cd7",
+      "script": "scratch4.dat/s34",
+      "boundary": "17855:token11",
+      "spans": [
+        {
+          "id": "scratch4.dat/s34:17793",
+          "token": 2,
+          "color": 8,
+          "source": "白鷺洲伊綱",
+          "target": "白鹭洲伊纲"
+        },
+        {
+          "id": "scratch4.dat/s34:17793",
+          "token": 6,
+          "color": 0,
+          "source": "　　　　　　　",
+          "target": "　　　　"
+        },
+        {
+          "id": "scratch4.dat/s34:17793",
+          "token": 10,
+          "color": 2,
+          "source": "９月30日",
+          "target": "9 月 30 日"
+        },
+        {
+          "id": "scratch4.dat/s34:17793",
+          "token": 14,
+          "color": 0,
+          "source": "　自室",
+          "target": "　自己的房间"
+        },
+        {
+          "id": "scratch4.dat/s34:17855",
+          "token": 2,
+          "color": 0,
+          "source": "今日、故郷の陸辺さん",
+          "target": "今天，故乡的陆边先生"
+        },
+        {
+          "id": "scratch4.dat/s34:17855",
+          "token": 8,
+          "color": 0,
+          "source": "から電報が届いた。",
+          "target": "发来了电报。"
+        },
+        {
+          "id": "scratch4.dat/s34:17855",
+          "token": 11,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35:1331:token11",
+      "sha256": "1f2986eee8deaa1949dd2ffb1e3c9a0f58521bbc33137980c7c742d564a569b9",
+      "script": "scratch4.dat/s35",
+      "boundary": "1331:token11",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35:1331",
+          "token": 2,
+          "color": 0,
+          "source": "“白鷺洲”は、もう",
+          "target": "‘白鹭洲’现在已经"
+        },
+        {
+          "id": "scratch4.dat/s35:1331",
+          "token": 8,
+          "color": 0,
+          "source": "私のことなんだ。",
+          "target": "是我的名字了。"
+        },
+        {
+          "id": "scratch4.dat/s35:1331",
+          "token": 11,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35:12622:token11",
+      "sha256": "275561573394079fb24dfaa142b99ec6c21a59d1619cde6cf468e43eb8d3ea5f",
+      "script": "scratch4.dat/s35",
+      "boundary": "12622:token11",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35:12622",
+          "token": 2,
+          "color": 0,
+          "source": "なんか、ひどいこと",
+          "target": "看起来是在做"
+        },
+        {
+          "id": "scratch4.dat/s35:12622",
+          "token": 8,
+          "color": 0,
+          "source": "してますよ。",
+          "target": "很过分的事啊。”"
+        },
+        {
+          "id": "scratch4.dat/s35:12622",
+          "token": 11,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35:12706:token19",
+      "sha256": "03daa9109d3e28d55331cd63ebc2b53fcf6b07812127bb15d93e64dc5b3df8cf",
+      "script": "scratch4.dat/s35",
+      "boundary": "12706:token19",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35:12706",
+          "token": 2,
+          "color": 0,
+          "source": "門沢の犯した",
+          "target": "“你应该知道门泽犯下的"
+        },
+        {
+          "id": "scratch4.dat/s35:12706",
+          "token": 6,
+          "color": 2,
+          "source": "罪",
+          "target": "罪行"
+        },
+        {
+          "id": "scratch4.dat/s35:12706",
+          "token": 10,
+          "color": 0,
+          "source": "は",
+          "target": "，"
+        },
+        {
+          "id": "scratch4.dat/s35:12706",
+          "token": 16,
+          "color": 0,
+          "source": "知っているだろう？",
+          "target": "对吧？"
+        },
+        {
+          "id": "scratch4.dat/s35:12706",
+          "token": 19,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35:22683:token21",
+      "sha256": "e3f0afda8e85f7f919545b1ce2c15ad28dd5920d341d6af628ca89c46b7eab24",
+      "script": "scratch4.dat/s35",
+      "boundary": "22683:token21",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35:22683",
+          "token": 2,
+          "color": 0,
+          "source": "そもそも、その写真は",
+          "target": "说到底，那张照片里的"
+        },
+        {
+          "id": "scratch4.dat/s35:22683",
+          "token": 8,
+          "color": 2,
+          "source": "何をした人の写真",
+          "target": "人究竟做过什么"
+        },
+        {
+          "id": "scratch4.dat/s35:22683",
+          "token": 12,
+          "color": 0,
+          "source": "なの",
+          "target": "，"
+        },
+        {
+          "id": "scratch4.dat/s35:22683",
+          "token": 18,
+          "color": 0,
+          "source": "か？",
+          "target": "是这个问题吧？"
+        },
+        {
+          "id": "scratch4.dat/s35:22683",
+          "token": 21,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35:34232:token11",
+      "sha256": "5565b6d90c2430e07d3c9c8be9449644e0b06bb10cdb2ac0a56e3edde11d3c72",
+      "script": "scratch4.dat/s35",
+      "boundary": "34232:token11",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35:34232",
+          "token": 2,
+          "color": 0,
+          "source": "残念だが、今は",
+          "target": "“可惜，他现在"
+        },
+        {
+          "id": "scratch4.dat/s35:34232",
+          "token": 8,
+          "color": 0,
+          "source": "外回り中だな。",
+          "target": "外出办案了。”"
+        },
+        {
+          "id": "scratch4.dat/s35:34232",
+          "token": 11,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35:39356:token11",
+      "sha256": "2bea842c431349bcbaf6655d37413ac1d04a0639c5d77f87b680c4997bdc934d",
+      "script": "scratch4.dat/s35",
+      "boundary": "39356:token11",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35:39356",
+          "token": 2,
+          "color": 0,
+          "source": "一見、ふつうの",
+          "target": "乍看之下，只是"
+        },
+        {
+          "id": "scratch4.dat/s35:39356",
+          "token": 8,
+          "color": 0,
+          "source": "雑居ビルだけど…",
+          "target": "一栋普通的综合楼……"
+        },
+        {
+          "id": "scratch4.dat/s35:39356",
+          "token": 11,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35:47115:token17",
+      "sha256": "6962b593f5ee3e611b5cfff6828e6f5506d08fbf873bbf4b63a138e16cfcf46c",
+      "script": "scratch4.dat/s35",
+      "boundary": "47115:token17",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35:47115",
+          "token": 2,
+          "color": 0,
+          "source": "全部をひとくくりにして",
+          "target": "把所有情况混为一谈，"
+        },
+        {
+          "id": "scratch4.dat/s35:47115",
+          "token": 8,
+          "color": 0,
+          "source": "ただ反対するだけ…では",
+          "target": "一味反对……"
+        },
+        {
+          "id": "scratch4.dat/s35:47115",
+          "token": 14,
+          "color": 0,
+          "source": "少し乱暴だと思います。",
+          "target": "我觉得有些武断。”"
+        },
+        {
+          "id": "scratch4.dat/s35:47115",
+          "token": 17,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:402:token5",
+      "sha256": "1b77fa5f0bb17ee1f2eaacaf324393b6ea5a53a1e59fa21863b424ec388c1a4d",
+      "script": "scratch4.dat/s35-1",
+      "boundary": "402:token5",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35-1:402",
+          "token": 2,
+          "color": 0,
+          "source": "や、やっぱり…。",
+          "target": "“果、果然……"
+        },
+        {
+          "id": "scratch4.dat/s35-1:402",
+          "token": 5,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:447:token17",
+      "sha256": "f0f7a52963f893c87beda490566634d4eedbf1aac7352bffc300e080f9bfcbf9",
+      "script": "scratch4.dat/s35-1",
+      "boundary": "447:token17",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35-1:447",
+          "token": 2,
+          "color": 0,
+          "source": "和志武の暴行事件の",
+          "target": "和志武施暴案的"
+        },
+        {
+          "id": "scratch4.dat/s35-1:447",
+          "token": 8,
+          "color": 0,
+          "source": "被害者の名前は、非公開",
+          "target": "受害者姓名，虽然"
+        },
+        {
+          "id": "scratch4.dat/s35-1:447",
+          "token": 14,
+          "color": 0,
+          "source": "でしたけど…。",
+          "target": "没有对外公开……”"
+        },
+        {
+          "id": "scratch4.dat/s35-1:447",
+          "token": 17,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:615:token5",
+      "sha256": "a7179fa97173360d4f42e4a0647f22a47245af8c0671bed036be2367ad831fd7",
+      "script": "scratch4.dat/s35-1",
+      "boundary": "615:token5",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35-1:615",
+          "token": 2,
+          "color": 0,
+          "source": "………。",
+          "target": "“……”"
+        },
+        {
+          "id": "scratch4.dat/s35-1:615",
+          "token": 5,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:2187:token11",
+      "sha256": "a6190a7b591183d411e652bf3f29d042752414afceb25a187c8fb940e3205caa",
+      "script": "scratch4.dat/s35-1",
+      "boundary": "2187:token11",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35-1:2187",
+          "token": 2,
+          "color": 0,
+          "source": "ははあ…。",
+          "target": "“嗬……"
+        },
+        {
+          "id": "scratch4.dat/s35-1:2187",
+          "token": 8,
+          "color": 0,
+          "source": "なるほどな…。",
+          "target": "原来如此啊……”"
+        },
+        {
+          "id": "scratch4.dat/s35-1:2187",
+          "token": 11,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:2407:token5",
+      "sha256": "6ed00a6db676e850e952e2598d4d1762156541cd7bcabd1483f5a776d98cacb0",
+      "script": "scratch4.dat/s35-1",
+      "boundary": "2407:token5",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35-1:2407",
+          "token": 2,
+          "color": 0,
+          "source": "………。",
+          "target": "“……”"
+        },
+        {
+          "id": "scratch4.dat/s35-1:2407",
+          "token": 5,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:2478:token5",
+      "sha256": "8f3d2d1e13ff9815144abab5bb3d5e8702e8f414ca5959994a7288607f4812ad",
+      "script": "scratch4.dat/s35-1",
+      "boundary": "2478:token5",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35-1:2478",
+          "token": 2,
+          "color": 0,
+          "source": "…………。",
+          "target": "……"
+        },
+        {
+          "id": "scratch4.dat/s35-1:2478",
+          "token": 5,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:2910:token11",
+      "sha256": "c0f4621de03f18c3531abbd891281329afc88e48372588fc333bb47fbab3e64f",
+      "script": "scratch4.dat/s35-1",
+      "boundary": "2910:token11",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35-1:2910",
+          "token": 2,
+          "color": 0,
+          "source": "もう少し待って",
+          "target": "能不能再"
+        },
+        {
+          "id": "scratch4.dat/s35-1:2910",
+          "token": 8,
+          "color": 0,
+          "source": "もらえませんか…。",
+          "target": "等一等……”"
+        },
+        {
+          "id": "scratch4.dat/s35-1:2910",
+          "token": 11,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:4415:token5",
+      "sha256": "6bed9d9ec520ff848cd4472bc7a4ee407192e1bb1a83e09a9a5af56dae2f77ff",
+      "script": "scratch4.dat/s35-1",
+      "boundary": "4415:token5",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35-1:4415",
+          "token": 2,
+          "color": 0,
+          "source": "は、はいっ…。",
+          "target": "是、是的……”"
+        },
+        {
+          "id": "scratch4.dat/s35-1:4415",
+          "token": 5,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:5166:token5",
+      "sha256": "7c99d542d8547f3d4a91500e5cc93bb22398b6ca951f1d8cdb03e30714dbc6ce",
+      "script": "scratch4.dat/s35-1",
+      "boundary": "5166:token5",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35-1:5166",
+          "token": 2,
+          "color": 0,
+          "source": "あ、そ、そうか…。",
+          "target": "“啊，对、对哦……”"
+        },
+        {
+          "id": "scratch4.dat/s35-1:5166",
+          "token": 5,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:5328:token5",
+      "sha256": "ec6ee13a21aae28a1fc6d130118c3b3a671c24337605d31ffc5c4e28541bcf7e",
+      "script": "scratch4.dat/s35-1",
+      "boundary": "5328:token5",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35-1:5328",
+          "token": 2,
+          "color": 0,
+          "source": "い、伊綱さん…。",
+          "target": "“伊、伊纲小姐……"
+        },
+        {
+          "id": "scratch4.dat/s35-1:5328",
+          "token": 5,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:5373:token17",
+      "sha256": "bc262d33ec8658a68afdc4e2cc1b25ae8d667cd3c3da668d4475099529df13a0",
+      "script": "scratch4.dat/s35-1",
+      "boundary": "5373:token17",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35-1:5373",
+          "token": 2,
+          "color": 0,
+          "source": "何度来ても、私は",
+          "target": "不管来多少次，"
+        },
+        {
+          "id": "scratch4.dat/s35-1:5373",
+          "token": 8,
+          "color": 0,
+          "source": "同じことしか答え",
+          "target": "我能回答的"
+        },
+        {
+          "id": "scratch4.dat/s35-1:5373",
+          "token": 14,
+          "color": 0,
+          "source": "られませんよ…。",
+          "target": "都还是那些话……”"
+        },
+        {
+          "id": "scratch4.dat/s35-1:5373",
+          "token": 17,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:5628:token19",
+      "sha256": "0f40003ad0f3f6e70b29e58d28f2508a78ce5a88e7cbe98bdae78aa662b4eb81",
+      "script": "scratch4.dat/s35-1",
+      "boundary": "5628:token19",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35-1:5628",
+          "token": 2,
+          "color": 0,
+          "source": "…永劫会に入会する",
+          "target": "“……加入永劫会"
+        },
+        {
+          "id": "scratch4.dat/s35-1:5628",
+          "token": 8,
+          "color": 0,
+          "source": "ための、",
+          "target": "所需的"
+        },
+        {
+          "id": "scratch4.dat/s35-1:5628",
+          "token": 12,
+          "color": 2,
+          "source": "資格",
+          "target": "资格"
+        },
+        {
+          "id": "scratch4.dat/s35-1:5628",
+          "token": 16,
+          "color": 0,
+          "source": "が…。",
+          "target": "……"
+        },
+        {
+          "id": "scratch4.dat/s35-1:5628",
+          "token": 19,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:5765:token11",
+      "sha256": "d87b210cb1c7020477c75118ac581a4f9eed86d2a69ec61373481e980c34d175",
+      "script": "scratch4.dat/s35-1",
+      "boundary": "5765:token11",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35-1:5765",
+          "token": 2,
+          "color": 0,
+          "source": "これで間違いないと",
+          "target": "我想，这次"
+        },
+        {
+          "id": "scratch4.dat/s35-1:5765",
+          "token": 8,
+          "color": 0,
+          "source": "思います…。",
+          "target": "不会有错了……”"
+        },
+        {
+          "id": "scratch4.dat/s35-1:5765",
+          "token": 11,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:5899:token25",
+      "sha256": "35e6d084fa3814cedf87752efe20bf062a236a06519f6449479a35374166b7cd",
+      "script": "scratch4.dat/s35-1",
+      "boundary": "5899:token25",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35-1:5899",
+          "token": 2,
+          "color": 0,
+          "source": "どうして、会員の方々が",
+          "target": "为什么会员们"
+        },
+        {
+          "id": "scratch4.dat/s35-1:5899",
+          "token": 8,
+          "color": 0,
+          "source": "ここまで堅く",
+          "target": "会如此坚决地"
+        },
+        {
+          "id": "scratch4.dat/s35-1:5899",
+          "token": 12,
+          "color": 2,
+          "source": "黙秘して",
+          "target": "守口"
+        },
+        {
+          "id": "scratch4.dat/s35-1:5899",
+          "token": 18,
+          "color": 2,
+          "source": "いる",
+          "target": "如瓶"
+        },
+        {
+          "id": "scratch4.dat/s35-1:5899",
+          "token": 22,
+          "color": 0,
+          "source": "のかも…。",
+          "target": "……"
+        },
+        {
+          "id": "scratch4.dat/s35-1:5899",
+          "token": 25,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:6122:token5",
+      "sha256": "5803b646d581b117758a4282eba183938f1262e3032d1a3a7da5b21b906a98cf",
+      "script": "scratch4.dat/s35-1",
+      "boundary": "6122:token5",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35-1:6122",
+          "token": 2,
+          "color": 0,
+          "source": "………。",
+          "target": "“……”"
+        },
+        {
+          "id": "scratch4.dat/s35-1:6122",
+          "token": 5,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:6272:token5",
+      "sha256": "9b2cd3c6e7fff935372ef2a0f477b450589d2a07dab6c94ec37741e67bc68cb5",
+      "script": "scratch4.dat/s35-1",
+      "boundary": "6272:token5",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35-1:6272",
+          "token": 2,
+          "color": 0,
+          "source": "………。",
+          "target": "“……”"
+        },
+        {
+          "id": "scratch4.dat/s35-1:6272",
+          "token": 5,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:6364:token11",
+      "sha256": "7ee361959a18bbaba13833d956c08a3d2ce6182263c4683318e6475527c7c2d2",
+      "script": "scratch4.dat/s35-1",
+      "boundary": "6364:token11",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35-1:6364",
+          "token": 2,
+          "color": 0,
+          "source": "あなたも、そう",
+          "target": "您也有过"
+        },
+        {
+          "id": "scratch4.dat/s35-1:6364",
+          "token": 8,
+          "color": 0,
+          "source": "だったんですね…。",
+          "target": "同样的遭遇吧……”"
+        },
+        {
+          "id": "scratch4.dat/s35-1:6364",
+          "token": 11,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:6473:token5",
+      "sha256": "1b77699d92557f2a4bda1357c198f4b9edf9a28be088115ec5f61b126577ed17",
+      "script": "scratch4.dat/s35-1",
+      "boundary": "6473:token5",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35-1:6473",
+          "token": 2,
+          "color": 0,
+          "source": "………。",
+          "target": "“……”"
+        },
+        {
+          "id": "scratch4.dat/s35-1:6473",
+          "token": 5,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:6695:token11",
+      "sha256": "e749e73d456c24891a127aabbf31f3646cacde0790cd6150607ec23360c580a2",
+      "script": "scratch4.dat/s35-1",
+      "boundary": "6695:token11",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35-1:6695",
+          "token": 2,
+          "color": 0,
+          "source": "みんな、女子校出身者",
+          "target": "“全都是女校"
+        },
+        {
+          "id": "scratch4.dat/s35-1:6695",
+          "token": 8,
+          "color": 0,
+          "source": "だったんですね…。",
+          "target": "毕业生吧……”"
+        },
+        {
+          "id": "scratch4.dat/s35-1:6695",
+          "token": 11,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:6809:token11",
+      "sha256": "a8e89847bc480d67fdd322f9ac553a52ae331d6911eb85c910f8ad27ac6927e8",
+      "script": "scratch4.dat/s35-1",
+      "boundary": "6809:token11",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35-1:6809",
+          "token": 2,
+          "color": 0,
+          "source": "みんな、反戦主義者",
+          "target": "“全都是反战"
+        },
+        {
+          "id": "scratch4.dat/s35-1:6809",
+          "token": 8,
+          "color": 0,
+          "source": "だったんですね…。",
+          "target": "主义者吧……”"
+        },
+        {
+          "id": "scratch4.dat/s35-1:6809",
+          "token": 11,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:6918:token11",
+      "sha256": "1b6365808cb064174527138977057c06a889d80836f07ed5dc2ee2d4ad0e2a9d",
+      "script": "scratch4.dat/s35-1",
+      "boundary": "6918:token11",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35-1:6918",
+          "token": 2,
+          "color": 0,
+          "source": "みんなでバス爆破をした",
+          "target": "“全都是一起炸毁"
+        },
+        {
+          "id": "scratch4.dat/s35-1:6918",
+          "token": 8,
+          "color": 0,
+          "source": "犯人だったんですね…。",
+          "target": "巴士的凶手吧……”"
+        },
+        {
+          "id": "scratch4.dat/s35-1:6918",
+          "token": 11,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:7112:token25",
+      "sha256": "0d86e68c15b656aedd185dbe6ae6f23d01bac40c86a359637ddc33f7de08782a",
+      "script": "scratch4.dat/s35-1",
+      "boundary": "7112:token25",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35-1:7112",
+          "token": 2,
+          "color": 0,
+          "source": "無理やり",
+          "target": "强行"
+        },
+        {
+          "id": "scratch4.dat/s35-1:7112",
+          "token": 6,
+          "color": 2,
+          "source": "乱暴をされて、",
+          "target": "侵犯，"
+        },
+        {
+          "id": "scratch4.dat/s35-1:7112",
+          "token": 12,
+          "color": 2,
+          "source": "心に傷を負った",
+          "target": "心灵受到了创伤"
+        },
+        {
+          "id": "scratch4.dat/s35-1:7112",
+          "token": 16,
+          "color": 0,
+          "source": "人たち",
+          "target": "，是这样"
+        },
+        {
+          "id": "scratch4.dat/s35-1:7112",
+          "token": 22,
+          "color": 0,
+          "source": "だったんですね…。",
+          "target": "的一群人吧……”"
+        },
+        {
+          "id": "scratch4.dat/s35-1:7112",
+          "token": 25,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:7273:token5",
+      "sha256": "00d1fa302ee4cf44d42db184969c731cfa993253a940e6f3881d75a72a395ea2",
+      "script": "scratch4.dat/s35-1",
+      "boundary": "7273:token5",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35-1:7273",
+          "token": 2,
+          "color": 0,
+          "source": "………。",
+          "target": "“……”"
+        },
+        {
+          "id": "scratch4.dat/s35-1:7273",
+          "token": 5,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:7345:token5",
+      "sha256": "3581774f0f430afb2ebde2f9ccb516f0332927b0aa615e6fe6e6f24a0250f970",
+      "script": "scratch4.dat/s35-1",
+      "boundary": "7345:token5",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35-1:7345",
+          "token": 2,
+          "color": 0,
+          "source": "知るんじゃなかった…。",
+          "target": "我不该知道的……"
+        },
+        {
+          "id": "scratch4.dat/s35-1:7345",
+          "token": 5,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:7405:token11",
+      "sha256": "21492633855acd2b2222a2915accc2cf93dae7c64586082d124dab388b0e305a",
+      "script": "scratch4.dat/s35-1",
+      "boundary": "7405:token11",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35-1:7405",
+          "token": 2,
+          "color": 0,
+          "source": "優子さんの言う",
+          "target": "您说得"
+        },
+        {
+          "id": "scratch4.dat/s35-1:7405",
+          "token": 8,
+          "color": 0,
+          "source": "通りでした…。",
+          "target": "没错……"
+        },
+        {
+          "id": "scratch4.dat/s35-1:7405",
+          "token": 11,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:7482:token11",
+      "sha256": "80daaa7010e70c18b7f0d0ccd6afc31a3a6c176ed45a3f77799005979d7814ed",
+      "script": "scratch4.dat/s35-1",
+      "boundary": "7482:token11",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35-1:7482",
+          "token": 2,
+          "color": 0,
+          "source": "知らないままで",
+          "target": "我真希望自己"
+        },
+        {
+          "id": "scratch4.dat/s35-1:7482",
+          "token": 8,
+          "color": 0,
+          "source": "いたかった…。",
+          "target": "一直不知道……"
+        },
+        {
+          "id": "scratch4.dat/s35-1:7482",
+          "token": 11,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:7656:token17",
+      "sha256": "a0c50b23face74c6e86f7fc848a260125998eb6f8abb794e0fb91d34b711588c",
+      "script": "scratch4.dat/s35-1",
+      "boundary": "7656:token17",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35-1:7656",
+          "token": 2,
+          "color": 0,
+          "source": "でも、大事なものを",
+          "target": "但我知道，永远"
+        },
+        {
+          "id": "scratch4.dat/s35-1:7656",
+          "token": 8,
+          "color": 0,
+          "source": "永遠に失う辛さは",
+          "target": "失去珍贵的东西，"
+        },
+        {
+          "id": "scratch4.dat/s35-1:7656",
+          "token": 14,
+          "color": 0,
+          "source": "知っていますから…。",
+          "target": "是什么滋味……”"
+        },
+        {
+          "id": "scratch4.dat/s35-1:7656",
+          "token": 17,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:7802:token5",
+      "sha256": "370ed028722d52f19d858f03cc2b4e3a2245c10d38330fa87f9afa16a78a861c",
+      "script": "scratch4.dat/s35-1",
+      "boundary": "7802:token5",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35-1:7802",
+          "token": 2,
+          "color": 0,
+          "source": "…伊綱さん…。",
+          "target": "“……伊纲小姐……"
+        },
+        {
+          "id": "scratch4.dat/s35-1:7802",
+          "token": 5,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:7929:token11",
+      "sha256": "1243b74510d34ce1ee0436d73bd5b5def59a38929b08d46760cbc74d25bbef4d",
+      "script": "scratch4.dat/s35-1",
+      "boundary": "7929:token11",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35-1:7929",
+          "token": 2,
+          "color": 0,
+          "source": "それくらいのことで",
+          "target": "光是知道这些，"
+        },
+        {
+          "id": "scratch4.dat/s35-1:7929",
+          "token": 8,
+          "color": 0,
+          "source": "こんなに取り乱して…。",
+          "target": "就这么失态……"
+        },
+        {
+          "id": "scratch4.dat/s35-1:7929",
+          "token": 11,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:8091:token11",
+      "sha256": "4f97472c2440d671170a42f955b068fd43424dd36a5348165dd9287d0e3b699c",
+      "script": "scratch4.dat/s35-1",
+      "boundary": "8091:token11",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35-1:8091",
+          "token": 2,
+          "color": 0,
+          "source": "もっと、強く",
+          "target": "我想"
+        },
+        {
+          "id": "scratch4.dat/s35-1:8091",
+          "token": 8,
+          "color": 0,
+          "source": "なりたいです…。",
+          "target": "再坚强一点……”"
+        },
+        {
+          "id": "scratch4.dat/s35-1:8091",
+          "token": 11,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:8170:token5",
+      "sha256": "0915b968a7d43ab793a2a1ffbe0ca213d8ed121de4a7d12989e7d9c6ccc14a4a",
+      "script": "scratch4.dat/s35-1",
+      "boundary": "8170:token5",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35-1:8170",
+          "token": 2,
+          "color": 0,
+          "source": "………。",
+          "target": "“……"
+        },
+        {
+          "id": "scratch4.dat/s35-1:8170",
+          "token": 5,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:8658:token5",
+      "sha256": "1d9c33c46ff1512370be36b832e2932c2455c5f112ccf4ee65472ec275340ef0",
+      "script": "scratch4.dat/s35-1",
+      "boundary": "8658:token5",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35-1:8658",
+          "token": 2,
+          "color": 0,
+          "source": "………。",
+          "target": "“……”"
+        },
+        {
+          "id": "scratch4.dat/s35-1:8658",
+          "token": 5,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:9229:token5",
+      "sha256": "1b2a2a1308ed9a9485e8cf8ae2a582d0183748e1262e844e19ec3db418917f8b",
+      "script": "scratch4.dat/s35-1",
+      "boundary": "9229:token5",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35-1:9229",
+          "token": 2,
+          "color": 0,
+          "source": "………。",
+          "target": "“……”"
+        },
+        {
+          "id": "scratch4.dat/s35-1:9229",
+          "token": 5,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:9756:token17",
+      "sha256": "d4e89152265f1bb488cc3eb7d1de5db28181f9f518d3ee4e68c58ba6913f97f2",
+      "script": "scratch4.dat/s35-1",
+      "boundary": "9756:token17",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35-1:9756",
+          "token": 2,
+          "color": 0,
+          "source": "泣き寝入りするしか",
+          "target": "这些只能"
+        },
+        {
+          "id": "scratch4.dat/s35-1:9756",
+          "token": 8,
+          "color": 0,
+          "source": "ないような人が、",
+          "target": "忍气吞声的人，"
+        },
+        {
+          "id": "scratch4.dat/s35-1:9756",
+          "token": 14,
+          "color": 0,
+          "source": "集まっています…。",
+          "target": "聚集在这里……”"
+        },
+        {
+          "id": "scratch4.dat/s35-1:9756",
+          "token": 17,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:9897:token5",
+      "sha256": "45c98cf94cef36a5b89af2c9868520e48432c1f927cc6e3c1c25b14c8066d7ba",
+      "script": "scratch4.dat/s35-1",
+      "boundary": "9897:token5",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35-1:9897",
+          "token": 2,
+          "color": 0,
+          "source": "うう…。",
+          "target": "“呜……"
+        },
+        {
+          "id": "scratch4.dat/s35-1:9897",
+          "token": 5,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:9922:token5",
+      "sha256": "07fa156dc3b8ef98c38aaeefc780116b7d491f382206c3b9749536f8604f2212",
+      "script": "scratch4.dat/s35-1",
+      "boundary": "9922:token5",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35-1:9922",
+          "token": 2,
+          "color": 0,
+          "source": "胸が張り裂けそう…。",
+          "target": "心都要碎了……”"
+        },
+        {
+          "id": "scratch4.dat/s35-1:9922",
+          "token": 5,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:10328:token5",
+      "sha256": "86093e143dd5faa88b12e29283223e426bf4536e228de4f32c90ff56dedca922",
+      "script": "scratch4.dat/s35-1",
+      "boundary": "10328:token5",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35-1:10328",
+          "token": 2,
+          "color": 0,
+          "source": "………。",
+          "target": "“……”"
+        },
+        {
+          "id": "scratch4.dat/s35-1:10328",
+          "token": 5,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:10804:token17",
+      "sha256": "584c5fcf45afc1c255f917f402ff9c419565fb5d35bacc92bb11926c43279211",
+      "script": "scratch4.dat/s35-1",
+      "boundary": "10804:token17",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35-1:10804",
+          "token": 2,
+          "color": 0,
+          "source": "…みんながみんな、",
+          "target": "……明明不是所有人，"
+        },
+        {
+          "id": "scratch4.dat/s35-1:10804",
+          "token": 8,
+          "color": 0,
+          "source": "そんなに強いわけじゃ",
+          "target": "都能那么"
+        },
+        {
+          "id": "scratch4.dat/s35-1:10804",
+          "token": 14,
+          "color": 0,
+          "source": "ないのに…。",
+          "target": "坚强啊……”"
+        },
+        {
+          "id": "scratch4.dat/s35-1:10804",
+          "token": 17,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:11491:token5",
+      "sha256": "09106e63fe59f6491b63858478af7ad067a4282458bd252197bb20d4d5f38dc8",
+      "script": "scratch4.dat/s35-1",
+      "boundary": "11491:token5",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35-1:11491",
+          "token": 2,
+          "color": 0,
+          "source": "そうですね…。",
+          "target": "“是的……"
+        },
+        {
+          "id": "scratch4.dat/s35-1:11491",
+          "token": 5,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:11680:token17",
+      "sha256": "063efb70face6de2d72e5a89fa7e2ea0853e920f695a29f4d95ca43a2d7c3f00",
+      "script": "scratch4.dat/s35-1",
+      "boundary": "11680:token17",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35-1:11680",
+          "token": 2,
+          "color": 0,
+          "source": "具体的に、その詳細まで",
+          "target": "连具体情况和细节，"
+        },
+        {
+          "id": "scratch4.dat/s35-1:11680",
+          "token": 8,
+          "color": 0,
+          "source": "すべて申告しなければ",
+          "target": "都必须全部"
+        },
+        {
+          "id": "scratch4.dat/s35-1:11680",
+          "token": 14,
+          "color": 0,
+          "source": "なりません。",
+          "target": "如实说明。"
+        },
+        {
+          "id": "scratch4.dat/s35-1:11680",
+          "token": 17,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:11854:token5",
+      "sha256": "d691a55cb5ff5e14d00e9ac6c2d1aa38866e6b99b316483d42a29f938e3db818",
+      "script": "scratch4.dat/s35-1",
+      "boundary": "11854:token5",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35-1:11854",
+          "token": 2,
+          "color": 0,
+          "source": "何度も、何度も…。",
+          "target": "一遍又一遍……”"
+        },
+        {
+          "id": "scratch4.dat/s35-1:11854",
+          "token": 5,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:13308:token5",
+      "sha256": "b4536f51af8b68facf55dc52e20b5d95fcce91e85da1a861d7232a864f93ea75",
+      "script": "scratch4.dat/s35-1",
+      "boundary": "13308:token5",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35-1:13308",
+          "token": 2,
+          "color": 0,
+          "source": "うっ、ううっ…。",
+          "target": "“呜、呜呜……"
+        },
+        {
+          "id": "scratch4.dat/s35-1:13308",
+          "token": 5,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:13353:token5",
+      "sha256": "fdb35b564a69e5f401190fd703cfbd5f07ce1857091a80bec73727f871017f71",
+      "script": "scratch4.dat/s35-1",
+      "boundary": "13353:token5",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35-1:13353",
+          "token": 2,
+          "color": 0,
+          "source": "うああっ…。",
+          "target": "呜啊啊……”"
+        },
+        {
+          "id": "scratch4.dat/s35-1:13353",
+          "token": 5,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:13810:token5",
+      "sha256": "0f2c14434538e6975c432e3f3e2863bb4f2fb88871dda1f08ee0664f04f90340",
+      "script": "scratch4.dat/s35-1",
+      "boundary": "13810:token5",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35-1:13810",
+          "token": 2,
+          "color": 0,
+          "source": "ううっ…ううっ…。",
+          "target": "“呜呜……呜呜……"
+        },
+        {
+          "id": "scratch4.dat/s35-1:13810",
+          "token": 5,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:13860:token5",
+      "sha256": "190db25a357348a4efd1301149711cb8ef4cfd4060c5f849a9814f8803c77a26",
+      "script": "scratch4.dat/s35-1",
+      "boundary": "13860:token5",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35-1:13860",
+          "token": 2,
+          "color": 0,
+          "source": "わ、わかりました…。",
+          "target": "我、我明白了……"
+        },
+        {
+          "id": "scratch4.dat/s35-1:13860",
+          "token": 5,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:13915:token5",
+      "sha256": "10c53a116b8d811a585f008683e26836d92b734619a43b12a269819a3a0b73ea",
+      "script": "scratch4.dat/s35-1",
+      "boundary": "13915:token5",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35-1:13915",
+          "token": 2,
+          "color": 0,
+          "source": "ごめんなさい…。",
+          "target": "对不起……”"
+        },
+        {
+          "id": "scratch4.dat/s35-1:13915",
+          "token": 5,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:14307:token5",
+      "sha256": "049dcf4ad855f88927e0fe4461e8d4589a6af00385cdc57161ab3cf78b7dfd07",
+      "script": "scratch4.dat/s35-1",
+      "boundary": "14307:token5",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35-1:14307",
+          "token": 2,
+          "color": 0,
+          "source": "………。",
+          "target": "“……"
+        },
+        {
+          "id": "scratch4.dat/s35-1:14307",
+          "token": 5,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:14812:token5",
+      "sha256": "543b56091fbce7495e8c1db9398e58fcf7169327ac4ea979bd0cb8ff0b10557a",
+      "script": "scratch4.dat/s35-1",
+      "boundary": "14812:token5",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35-1:14812",
+          "token": 2,
+          "color": 0,
+          "source": "………。",
+          "target": "“……"
+        },
+        {
+          "id": "scratch4.dat/s35-1:14812",
+          "token": 5,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:15540:token5",
+      "sha256": "c1a14be356100bf3640be27948b6ac8cc534c6b5f6cc98795d81bc9bae75125b",
+      "script": "scratch4.dat/s35-1",
+      "boundary": "15540:token5",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35-1:15540",
+          "token": 2,
+          "color": 0,
+          "source": "………。",
+          "target": "“……”"
+        },
+        {
+          "id": "scratch4.dat/s35-1:15540",
+          "token": 5,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:16247:token5",
+      "sha256": "5b9fe77a92757f82ef14494a42946d7812c403c129694260ea89e05e0f7b3312",
+      "script": "scratch4.dat/s35-1",
+      "boundary": "16247:token5",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35-1:16247",
+          "token": 2,
+          "color": 0,
+          "source": "……。",
+          "target": "“……”"
+        },
+        {
+          "id": "scratch4.dat/s35-1:16247",
+          "token": 5,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:16523:token5",
+      "sha256": "8afcb03e32a31afe9a7f9ecbe11550d2611c7a020bf05894a903016507a9d1f9",
+      "script": "scratch4.dat/s35-1",
+      "boundary": "16523:token5",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35-1:16523",
+          "token": 2,
+          "color": 0,
+          "source": "…。",
+          "target": "“……”"
+        },
+        {
+          "id": "scratch4.dat/s35-1:16523",
+          "token": 5,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:17935:token5",
+      "sha256": "5c1d33fa7e3a95b547ea20a75ef91f9774aeea5fc79a193bf6fd8741c82e0b92",
+      "script": "scratch4.dat/s35-1",
+      "boundary": "17935:token5",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35-1:17935",
+          "token": 2,
+          "color": 0,
+          "source": "………。",
+          "target": "“……”"
+        },
+        {
+          "id": "scratch4.dat/s35-1:17935",
+          "token": 5,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:18407:token11",
+      "sha256": "14865975214089cb5f908283d010947333fed31fb44af9a6bfeabdd968db17a2",
+      "script": "scratch4.dat/s35-1",
+      "boundary": "18407:token11",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35-1:18407",
+          "token": 2,
+          "color": 0,
+          "source": "決して、不思議は",
+          "target": "我觉得，"
+        },
+        {
+          "id": "scratch4.dat/s35-1:18407",
+          "token": 8,
+          "color": 0,
+          "source": "ないと思うんです…。",
+          "target": "一点也不奇怪……”"
+        },
+        {
+          "id": "scratch4.dat/s35-1:18407",
+          "token": 11,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:18536:token11",
+      "sha256": "10d3cd77f6eca41d1008d16a2b7316ee7111ca316f27b5786c931ffb9cb7412f",
+      "script": "scratch4.dat/s35-1",
+      "boundary": "18536:token11",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35-1:18536",
+          "token": 2,
+          "color": 0,
+          "source": "何が言いたいんですか、",
+          "target": "伊纲小姐，"
+        },
+        {
+          "id": "scratch4.dat/s35-1:18536",
+          "token": 8,
+          "color": 0,
+          "source": "伊綱さん…。",
+          "target": "你到底想说什么……”"
+        },
+        {
+          "id": "scratch4.dat/s35-1:18536",
+          "token": 11,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:18774:token11",
+      "sha256": "ac1aff61b51c4c8c27309ac3e65121c69e9c5888fc818f0ea4dd2d9637482e14",
+      "script": "scratch4.dat/s35-1",
+      "boundary": "18774:token11",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35-1:18774",
+          "token": 2,
+          "color": 0,
+          "source": "永劫会には、何人",
+          "target": "在永劫会里，"
+        },
+        {
+          "id": "scratch4.dat/s35-1:18774",
+          "token": 8,
+          "color": 0,
+          "source": "いたんでしょうか…。",
+          "target": "究竟有多少人……"
+        },
+        {
+          "id": "scratch4.dat/s35-1:18774",
+          "token": 11,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:19888:token5",
+      "sha256": "70b24442e506e9560fbf5cb825f759f2d5c34dbf5583b8884c334b713cf88a94",
+      "script": "scratch4.dat/s35-1",
+      "boundary": "19888:token5",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35-1:19888",
+          "token": 2,
+          "color": 0,
+          "source": "伊綱さん…。",
+          "target": "“伊纲小姐……”"
+        },
+        {
+          "id": "scratch4.dat/s35-1:19888",
+          "token": 5,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:20082:token5",
+      "sha256": "67e95df38f6e35629d7a07045de645270a22e58af846ac7a8f8624f4e69627a7",
+      "script": "scratch4.dat/s35-1",
+      "boundary": "20082:token5",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35-1:20082",
+          "token": 2,
+          "color": 0,
+          "source": "………。",
+          "target": "“……"
+        },
+        {
+          "id": "scratch4.dat/s35-1:20082",
+          "token": 5,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:20797:token5",
+      "sha256": "f6b900d6a9a4778aabb25eb11cc364ba70082aa3b573380e6f091be694ea331a",
+      "script": "scratch4.dat/s35-1",
+      "boundary": "20797:token5",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35-1:20797",
+          "token": 2,
+          "color": 0,
+          "source": "……。",
+          "target": "“……"
+        },
+        {
+          "id": "scratch4.dat/s35-1:20797",
+          "token": 5,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:21283:token17",
+      "sha256": "e6b53f48d2a4fc27000ffd7ac52fa8bd1911caad2f77c5007c20f66e4a56449c",
+      "script": "scratch4.dat/s35-1",
+      "boundary": "21283:token17",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35-1:21283",
+          "token": 2,
+          "color": 0,
+          "source": "偶然、こういうことも",
+          "target": "都只觉得，"
+        },
+        {
+          "id": "scratch4.dat/s35-1:21283",
+          "token": 8,
+          "color": 0,
+          "source": "あるんだな…としか",
+          "target": "原来也会发生"
+        },
+        {
+          "id": "scratch4.dat/s35-1:21283",
+          "token": 14,
+          "color": 0,
+          "source": "思ってませんでした。",
+          "target": "这样的巧合啊……"
+        },
+        {
+          "id": "scratch4.dat/s35-1:21283",
+          "token": 17,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:21554:token5",
+      "sha256": "e731fcf15946f0481b322d3a33303ca3d464e3fb1e2a368502ca5d5749acd2da",
+      "script": "scratch4.dat/s35-1",
+      "boundary": "21554:token5",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35-1:21554",
+          "token": 2,
+          "color": 0,
+          "source": "………。",
+          "target": "“……"
+        },
+        {
+          "id": "scratch4.dat/s35-1:21554",
+          "token": 5,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:21977:token5",
+      "sha256": "ff4e8b9da0f7b636f0c0f16caed30c150c235191285232a9149ba178cf2078ab",
+      "script": "scratch4.dat/s35-1",
+      "boundary": "21977:token5",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35-1:21977",
+          "token": 2,
+          "color": 0,
+          "source": "………。",
+          "target": "“……"
+        },
+        {
+          "id": "scratch4.dat/s35-1:21977",
+          "token": 5,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:22042:token11",
+      "sha256": "e66904ac8cb9c13dd7fdb32392d5883eb4c81d45b67583a4e62977be2f969a28",
+      "script": "scratch4.dat/s35-1",
+      "boundary": "22042:token11",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35-1:22042",
+          "token": 2,
+          "color": 0,
+          "source": "まさか、永劫会が",
+          "target": "永劫会怎么会"
+        },
+        {
+          "id": "scratch4.dat/s35-1:22042",
+          "token": 8,
+          "color": 0,
+          "source": "そんなことを…。",
+          "target": "做出那种事……"
+        },
+        {
+          "id": "scratch4.dat/s35-1:22042",
+          "token": 11,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:23133:token5",
+      "sha256": "6198348e50c4d00b259037a8ee45be6a430d1a6a7a1d901458f95183e5fbd828",
+      "script": "scratch4.dat/s35-1",
+      "boundary": "23133:token5",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35-1:23133",
+          "token": 2,
+          "color": 0,
+          "source": "なら…。",
+          "target": "“那么……"
+        },
+        {
+          "id": "scratch4.dat/s35-1:23133",
+          "token": 5,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:24095:token5",
+      "sha256": "725bf51b79c425c8d8003b8fbb9192e93d051af99643c941560ff97d84595117",
+      "script": "scratch4.dat/s35-1",
+      "boundary": "24095:token5",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35-1:24095",
+          "token": 2,
+          "color": 0,
+          "source": "………。",
+          "target": "“……"
+        },
+        {
+          "id": "scratch4.dat/s35-1:24095",
+          "token": 5,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:25971:token17",
+      "sha256": "bd337273bf30bbee0bc51dbca21060d4391a4f60dac623ff802ae9b38485668f",
+      "script": "scratch4.dat/s35-1",
+      "boundary": "25971:token17",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35-1:25971",
+          "token": 2,
+          "color": 0,
+          "source": "…辛く苦しい日々に",
+          "target": "……愿你在痛苦"
+        },
+        {
+          "id": "scratch4.dat/s35-1:25971",
+          "token": 8,
+          "color": 0,
+          "source": "永劫の安らぎを",
+          "target": "艰辛的日子里，"
+        },
+        {
+          "id": "scratch4.dat/s35-1:25971",
+          "token": 14,
+          "color": 0,
+          "source": "得られます様…。",
+          "target": "获得永恒的安宁……"
+        },
+        {
+          "id": "scratch4.dat/s35-1:25971",
+          "token": 17,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:26267:token11",
+      "sha256": "27d7c22a01d52296f914aee2f69feff9c74b6dc1184ad578089701e5ceaedf4f",
+      "script": "scratch4.dat/s35-1",
+      "boundary": "26267:token11",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35-1:26267",
+          "token": 2,
+          "color": 0,
+          "source": "よろしくお願い",
+          "target": "今后还请您"
+        },
+        {
+          "id": "scratch4.dat/s35-1:26267",
+          "token": 8,
+          "color": 0,
+          "source": "いたします…。",
+          "target": "多多关照……”"
+        },
+        {
+          "id": "scratch4.dat/s35-1:26267",
+          "token": 11,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:26359:token5",
+      "sha256": "4af66be67037e2deeac4f1fa9d98fe02da7af7c7ccdf9698a3b3f078b2894d0a",
+      "script": "scratch4.dat/s35-1",
+      "boundary": "26359:token5",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35-1:26359",
+          "token": 2,
+          "color": 0,
+          "source": "ふう…。",
+          "target": "呼……"
+        },
+        {
+          "id": "scratch4.dat/s35-1:26359",
+          "token": 5,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:26384:token11",
+      "sha256": "0163db1916f0a092ca0dd91a40db07d02e49633a03a9b57741d12b7acfc5ecdd",
+      "script": "scratch4.dat/s35-1",
+      "boundary": "26384:token11",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35-1:26384",
+          "token": 2,
+          "color": 0,
+          "source": "なんかウソついてて",
+          "target": "这样说谎，"
+        },
+        {
+          "id": "scratch4.dat/s35-1:26384",
+          "token": 8,
+          "color": 0,
+          "source": "心苦しいけど…。",
+          "target": "心里真有些过意不去……"
+        },
+        {
+          "id": "scratch4.dat/s35-1:26384",
+          "token": 11,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:26526:token5",
+      "sha256": "17d45a8f34988cd4c912ecefd90d8b5cb1ae9c3e95b5c5455e24fa3176cb5c2d",
+      "script": "scratch4.dat/s35-1",
+      "boundary": "26526:token5",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35-1:26526",
+          "token": 2,
+          "color": 0,
+          "source": "あっ、はい…。",
+          "target": "“啊，是……”"
+        },
+        {
+          "id": "scratch4.dat/s35-1:26526",
+          "token": 5,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:26568:token11",
+      "sha256": "e6095338e04cff9727012f62eccd17f586345085ba6b54ba89a1245377badbad",
+      "script": "scratch4.dat/s35-1",
+      "boundary": "26568:token11",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35-1:26568",
+          "token": 2,
+          "color": 0,
+          "source": "優子さんが、小声で",
+          "target": "优子小姐压低声音"
+        },
+        {
+          "id": "scratch4.dat/s35-1:26568",
+          "token": 8,
+          "color": 0,
+          "source": "話しかけてきた。",
+          "target": "对我说道。"
+        },
+        {
+          "id": "scratch4.dat/s35-1:26568",
+          "token": 11,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:27545:token11",
+      "sha256": "6f5974bf8603cacac6831fe0ce1038a547271338a4ba4058034658063c1badef",
+      "script": "scratch4.dat/s35-1",
+      "boundary": "27545:token11",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35-1:27545",
+          "token": 2,
+          "color": 0,
+          "source": "事務室とは思えない",
+          "target": "这里阴森森的，"
+        },
+        {
+          "id": "scratch4.dat/s35-1:27545",
+          "token": 8,
+          "color": 0,
+          "source": "不気味な空間だ…。",
+          "target": "实在不像办公室……"
+        },
+        {
+          "id": "scratch4.dat/s35-1:27545",
+          "token": 11,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:28381:token11",
+      "sha256": "f7f3072e85db948b6deb8642dc59071227c5b9f5ca171190bfb5e4864a3a57cc",
+      "script": "scratch4.dat/s35-1",
+      "boundary": "28381:token11",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35-1:28381",
+          "token": 2,
+          "color": 0,
+          "source": "…さて。",
+          "target": "……那么。"
+        },
+        {
+          "id": "scratch4.dat/s35-1:28381",
+          "token": 8,
+          "color": 0,
+          "source": "何を調べようか…。",
+          "target": "该查什么呢……"
+        },
+        {
+          "id": "scratch4.dat/s35-1:28381",
+          "token": 11,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:29674:token5",
+      "sha256": "440af8f6f07c340359f51aa5056331dc43d7173817f235961bf58561e30b4507",
+      "script": "scratch4.dat/s35-1",
+      "boundary": "29674:token5",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35-1:29674",
+          "token": 2,
+          "color": 0,
+          "source": "そうだ…。",
+          "target": "没错……"
+        },
+        {
+          "id": "scratch4.dat/s35-1:29674",
+          "token": 5,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:30015:token25",
+      "sha256": "0c123960f0ebc0efc8236d89d3c7715adfef73253c537a4286a18daf3cd3f0db",
+      "script": "scratch4.dat/s35-1",
+      "boundary": "30015:token25",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35-1:30015",
+          "token": 2,
+          "color": 0,
+          "source": "妹浦澄佳と永劫会を",
+          "target": "把妹浦澄佳与永劫会"
+        },
+        {
+          "id": "scratch4.dat/s35-1:30015",
+          "token": 8,
+          "color": 0,
+          "source": "結びつける",
+          "target": "联系起来的"
+        },
+        {
+          "id": "scratch4.dat/s35-1:30015",
+          "token": 12,
+          "color": 2,
+          "source": "証拠",
+          "target": "证据"
+        },
+        {
+          "id": "scratch4.dat/s35-1:30015",
+          "token": 16,
+          "color": 0,
+          "source": "は、",
+          "target": "，"
+        },
+        {
+          "id": "scratch4.dat/s35-1:30015",
+          "token": 22,
+          "color": 0,
+          "source": "何もない…。",
+          "target": "什么也没有……"
+        },
+        {
+          "id": "scratch4.dat/s35-1:30015",
+          "token": 25,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:30564:token35",
+      "sha256": "022ad88ebec20326a9df04c3d755c5b03efe4f80fc12fe0e5523f09ae129396c",
+      "script": "scratch4.dat/s35-1",
+      "boundary": "30564:token35",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35-1:30564",
+          "token": 2,
+          "color": 0,
+          "source": "これは、どうにかして",
+          "target": "必须想办法，找到"
+        },
+        {
+          "id": "scratch4.dat/s35-1:30564",
+          "token": 8,
+          "color": 10,
+          "source": "バス事故",
+          "target": "巴士事故"
+        },
+        {
+          "id": "scratch4.dat/s35-1:30564",
+          "token": 12,
+          "color": 0,
+          "source": "と永劫会を",
+          "target": "和永劫会之间"
+        },
+        {
+          "id": "scratch4.dat/s35-1:30564",
+          "token": 18,
+          "color": 0,
+          "source": "結びつける",
+          "target": "存在联系的"
+        },
+        {
+          "id": "scratch4.dat/s35-1:30564",
+          "token": 22,
+          "color": 2,
+          "source": "証拠",
+          "target": "证据"
+        },
+        {
+          "id": "scratch4.dat/s35-1:30564",
+          "token": 26,
+          "color": 0,
+          "source": "を",
+          "target": "，"
+        },
+        {
+          "id": "scratch4.dat/s35-1:30564",
+          "token": 32,
+          "color": 0,
+          "source": "見つけ出さないと…。",
+          "target": "才行……"
+        },
+        {
+          "id": "scratch4.dat/s35-1:30564",
+          "token": 35,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:30760:token11",
+      "sha256": "506027be66e9c3e6041d1c518a1115c74af1d19c398a7b127da50fe6c239f1c4",
+      "script": "scratch4.dat/s35-1",
+      "boundary": "30760:token11",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35-1:30760",
+          "token": 2,
+          "color": 0,
+          "source": "…このパソコンの中には",
+          "target": "……这台电脑里，"
+        },
+        {
+          "id": "scratch4.dat/s35-1:30760",
+          "token": 8,
+          "color": 0,
+          "source": "何かないかな…。",
+          "target": "会不会有什么呢……"
+        },
+        {
+          "id": "scratch4.dat/s35-1:30760",
+          "token": 11,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:31653:token11",
+      "sha256": "c08b9b1c0027b82c0f1fbf89316abbd66b6b07c70d2ce02b78d679f42aac5ba5",
+      "script": "scratch4.dat/s35-1",
+      "boundary": "31653:token11",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35-1:31499",
+          "token": 2,
+          "color": 0,
+          "source": "鞠浜エレガンホテルの",
+          "target": "鞠滨雅致酒店的"
+        },
+        {
+          "id": "scratch4.dat/s35-1:31499",
+          "token": 8,
+          "color": 0,
+          "source": "送迎バス",
+          "target": "接送巴士"
+        },
+        {
+          "id": "scratch4.dat/s35-1:31499",
+          "token": 12,
+          "color": 2,
+          "source": "チケット代",
+          "target": "车票费用"
+        },
+        {
+          "id": "scratch4.dat/s35-1:31499",
+          "token": 16,
+          "color": 0,
+          "source": "、",
+          "target": "："
+        },
+        {
+          "id": "scratch4.dat/s35-1:31499",
+          "token": 22,
+          "color": 0,
+          "source": "７月25日分、８枚！",
+          "target": "7 月 25 日，共八张！"
+        },
+        {
+          "id": "scratch4.dat/s35-1:31499",
+          "token": 25,
+          "control": "<ctrl=2B/>"
+        },
+        {
+          "id": "scratch4.dat/s35-1:31653",
+          "token": 2,
+          "color": 0,
+          "source": "これは使えるかも",
+          "target": "这说不定"
+        },
+        {
+          "id": "scratch4.dat/s35-1:31653",
+          "token": 8,
+          "color": 0,
+          "source": "しれないぞっ！",
+          "target": "派得上用场！"
+        },
+        {
+          "id": "scratch4.dat/s35-1:31653",
+          "token": 11,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:32775:token5",
+      "sha256": "a52883cb2b66d747e872eddc817e3eaf274b1c783ce3f94fe9650542bf4afbd0",
+      "script": "scratch4.dat/s35-1",
+      "boundary": "32775:token5",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35-1:32775",
+          "token": 2,
+          "color": 0,
+          "source": "…………。",
+          "target": "……"
+        },
+        {
+          "id": "scratch4.dat/s35-1:32775",
+          "token": 5,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:33307:token5",
+      "sha256": "6c07da3972d74d50b3cb4af55a91d81c921f389a939fb4152b1616ceaafa0f2f",
+      "script": "scratch4.dat/s35-1",
+      "boundary": "33307:token5",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35-1:33307",
+          "token": 2,
+          "color": 0,
+          "source": "…………。",
+          "target": "……"
+        },
+        {
+          "id": "scratch4.dat/s35-1:33307",
+          "token": 5,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:33861:token5",
+      "sha256": "42529c31fe0846fd6a070f3b5c681439d466246b025ba73939dfe6c58bb16961",
+      "script": "scratch4.dat/s35-1",
+      "boundary": "33861:token5",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35-1:33861",
+          "token": 2,
+          "color": 0,
+          "source": "まさか…。",
+          "target": "难道……"
+        },
+        {
+          "id": "scratch4.dat/s35-1:33861",
+          "token": 5,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:34045:token11",
+      "sha256": "7b50250f92fbbb28457c48dc2d763546497b38405adc519f9616a0169bfef89d",
+      "script": "scratch4.dat/s35-1",
+      "boundary": "34045:token11",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35-1:34045",
+          "token": 2,
+          "color": 0,
+          "source": "あとでホール内を",
+          "target": "待会儿去大厅"
+        },
+        {
+          "id": "scratch4.dat/s35-1:34045",
+          "token": 8,
+          "color": 0,
+          "source": "探してみよう…。",
+          "target": "找找看吧……"
+        },
+        {
+          "id": "scratch4.dat/s35-1:34045",
+          "token": 11,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:35224:token31",
+      "sha256": "ca9f37a855c23ce866c073af5281b29b067187b1ba5da52ccf7cc4c152cc18a6",
+      "script": "scratch4.dat/s35-1",
+      "boundary": "35224:token31",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35-1:35224",
+          "token": 2,
+          "color": 0,
+          "source": "ファイルを開くと、",
+          "target": "打开文件夹后，"
+        },
+        {
+          "id": "scratch4.dat/s35-1:35224",
+          "token": 8,
+          "color": 0,
+          "source": "中には、",
+          "target": "发现里面装着标题为"
+        },
+        {
+          "id": "scratch4.dat/s35-1:35224",
+          "token": 12,
+          "color": 2,
+          "source": "調査報告書",
+          "target": "调查报告"
+        },
+        {
+          "id": "scratch4.dat/s35-1:35224",
+          "token": 16,
+          "color": 0,
+          "source": "と",
+          "target": "的"
+        },
+        {
+          "id": "scratch4.dat/s35-1:35224",
+          "token": 22,
+          "color": 0,
+          "source": "書かれた書類が入って",
+          "target": "一份书面"
+        },
+        {
+          "id": "scratch4.dat/s35-1:35224",
+          "token": 28,
+          "color": 0,
+          "source": "いた。",
+          "target": "文件。"
+        },
+        {
+          "id": "scratch4.dat/s35-1:35224",
+          "token": 31,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:36244:token5",
+      "sha256": "77139229fbd1acf7dee740ad068d5fb120c83ad74e3d6b8b3d7f3c60bf236f06",
+      "script": "scratch4.dat/s35-1",
+      "boundary": "36244:token5",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35-1:36080",
+          "token": 2,
+          "color": 0,
+          "source": "報告書には、会員たちに",
+          "target": "报告里，罗列了"
+        },
+        {
+          "id": "scratch4.dat/s35-1:36080",
+          "token": 8,
+          "color": 0,
+          "source": "危害を加えた、",
+          "target": "曾经伤害会员们的"
+        },
+        {
+          "id": "scratch4.dat/s35-1:36080",
+          "token": 12,
+          "color": 2,
+          "source": "暴行犯の",
+          "target": "性侵者的"
+        },
+        {
+          "id": "scratch4.dat/s35-1:36080",
+          "token": 18,
+          "color": 2,
+          "source": "名前",
+          "target": "姓名"
+        },
+        {
+          "id": "scratch4.dat/s35-1:36080",
+          "token": 22,
+          "color": 0,
+          "source": "が並んでいた。",
+          "target": "。"
+        },
+        {
+          "id": "scratch4.dat/s35-1:36080",
+          "token": 25,
+          "control": "<ctrl=2B/>"
+        },
+        {
+          "id": "scratch4.dat/s35-1:36244",
+          "token": 2,
+          "color": 0,
+          "source": "つまり…",
+          "target": "也就是说……"
+        },
+        {
+          "id": "scratch4.dat/s35-1:36244",
+          "token": 5,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:36371:token25",
+      "sha256": "98b783821616fb7dd30ca944692cc7e72a0c802597cf9e36fb86bcb5fd6dc000",
+      "script": "scratch4.dat/s35-1",
+      "boundary": "36371:token25",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35-1:36371",
+          "token": 2,
+          "color": 0,
+          "source": "会員になった人に危害を",
+          "target": "那些曾伤害会员的人，"
+        },
+        {
+          "id": "scratch4.dat/s35-1:36371",
+          "token": 8,
+          "color": 0,
+          "source": "与えた",
+          "target": "您是在让侦探"
+        },
+        {
+          "id": "scratch4.dat/s35-1:36371",
+          "token": 12,
+          "color": 2,
+          "source": "犯人を探らせて",
+          "target": "调查这些"
+        },
+        {
+          "id": "scratch4.dat/s35-1:36371",
+          "token": 18,
+          "color": 2,
+          "source": "いる",
+          "target": "犯人"
+        },
+        {
+          "id": "scratch4.dat/s35-1:36371",
+          "token": 22,
+          "color": 0,
+          "source": "…ってこと？",
+          "target": "……是这样吗？"
+        },
+        {
+          "id": "scratch4.dat/s35-1:36371",
+          "token": 25,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:37116:token5",
+      "sha256": "68d78c0ba0b7312b08d49015b5943f03c05edf4a410a4a29ae70f47453a7a502",
+      "script": "scratch4.dat/s35-1",
+      "boundary": "37116:token5",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35-1:37116",
+          "token": 2,
+          "color": 0,
+          "source": "…だとしたら…。",
+          "target": "……如果真是这样……"
+        },
+        {
+          "id": "scratch4.dat/s35-1:37116",
+          "token": 5,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:37395:token23",
+      "sha256": "51e62f2527a3ec22aecab95fa2c0e281b712fd9f23dd8efb4050cc2ba7ebea65",
+      "script": "scratch4.dat/s35-1",
+      "boundary": "37395:token23",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35-1:37395",
+          "token": 2,
+          "color": 0,
+          "source": "犯人を特定することを",
+          "target": "将查明犯人身份"
+        },
+        {
+          "id": "scratch4.dat/s35-1:37395",
+          "token": 8,
+          "color": 0,
+          "source": "活動として行っていても",
+          "target": "作为活动的一部分"
+        },
+        {
+          "id": "scratch4.dat/s35-1:37395",
+          "token": 14,
+          "color": 0,
+          "source": "…まあ、有り得なくは",
+          "target": "……嗯，也并非"
+        },
+        {
+          "id": "scratch4.dat/s35-1:37395",
+          "token": 20,
+          "color": 0,
+          "source": "ない。",
+          "target": "毫无可能。"
+        },
+        {
+          "id": "scratch4.dat/s35-1:37395",
+          "token": 23,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:37576:token5",
+      "sha256": "627b83d434c750ee21a7612f7c3bede76fd47d5dda0bdc8a41adfc2af173616d",
+      "script": "scratch4.dat/s35-1",
+      "boundary": "37576:token5",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35-1:37576",
+          "token": 2,
+          "color": 0,
+          "source": "しかし…。",
+          "target": "可是……"
+        },
+        {
+          "id": "scratch4.dat/s35-1:37576",
+          "token": 5,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:37606:token5",
+      "sha256": "66f5012b1d6145db92b1f6346ab833edf55cb5af616b3fbe57586e5514e0233a",
+      "script": "scratch4.dat/s35-1",
+      "boundary": "37606:token5",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35-1:37606",
+          "token": 2,
+          "color": 0,
+          "source": "うーん…。",
+          "target": "唔……"
+        },
+        {
+          "id": "scratch4.dat/s35-1:37606",
+          "token": 5,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:37636:token23",
+      "sha256": "951809e00167ab8fb0a499808dacf21c0a2e3abf9ded0df1f41c7351da79e687",
+      "script": "scratch4.dat/s35-1",
+      "boundary": "37636:token23",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35-1:37636",
+          "token": 2,
+          "color": 0,
+          "source": "一條院という人物が",
+          "target": "一条院这个人"
+        },
+        {
+          "id": "scratch4.dat/s35-1:37636",
+          "token": 8,
+          "color": 0,
+          "source": "関与しているのは",
+          "target": "应该确实"
+        },
+        {
+          "id": "scratch4.dat/s35-1:37636",
+          "token": 14,
+          "color": 0,
+          "source": "間違いないはず",
+          "target": "参与其中，"
+        },
+        {
+          "id": "scratch4.dat/s35-1:37636",
+          "token": 20,
+          "color": 0,
+          "source": "だけど…。",
+          "target": "这点不会错……"
+        },
+        {
+          "id": "scratch4.dat/s35-1:37636",
+          "token": 23,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:37801:token11",
+      "sha256": "cfb614af3e508f00c0a2300440790fc60b0f45862055c9d315c162d8da8b0e70",
+      "script": "scratch4.dat/s35-1",
+      "boundary": "37801:token11",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35-1:37801",
+          "token": 2,
+          "color": 0,
+          "source": "一條院永遠は、なぜ",
+          "target": "一条院永远，"
+        },
+        {
+          "id": "scratch4.dat/s35-1:37801",
+          "token": 8,
+          "color": 0,
+          "source": "こんな調査を…。",
+          "target": "为什么要做这种调查……"
+        },
+        {
+          "id": "scratch4.dat/s35-1:37801",
+          "token": 11,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:38096:token5",
+      "sha256": "6afd77d12dcef8879da2969fb65df07f1d12c942a6a8bf167413a1470e8d6b7e",
+      "script": "scratch4.dat/s35-1",
+      "boundary": "38096:token5",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35-1:38096",
+          "token": 2,
+          "color": 0,
+          "source": "………。",
+          "target": "……"
+        },
+        {
+          "id": "scratch4.dat/s35-1:38096",
+          "token": 5,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:38380:token19",
+      "sha256": "1525daab0112876570baefed520862ebdeff387a3db7b2a59e3ed17e73804e38",
+      "script": "scratch4.dat/s35-1",
+      "boundary": "38380:token19",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35-1:38380",
+          "token": 2,
+          "color": 0,
+          "source": "あの写真の女性は、",
+          "target": "照片里的那名女性"
+        },
+        {
+          "id": "scratch4.dat/s35-1:38380",
+          "token": 8,
+          "color": 0,
+          "source": "…",
+          "target": "……就是"
+        },
+        {
+          "id": "scratch4.dat/s35-1:38380",
+          "token": 12,
+          "color": 2,
+          "source": "美馬圭子",
+          "target": "美马圭子"
+        },
+        {
+          "id": "scratch4.dat/s35-1:38380",
+          "token": 16,
+          "color": 0,
+          "source": "なんだ。",
+          "target": "。"
+        },
+        {
+          "id": "scratch4.dat/s35-1:38380",
+          "token": 19,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:38477:token5",
+      "sha256": "717b85282b69fa58b0faabea01b6b8484f16dd156c11cba689cb8f2ca1848cfd",
+      "script": "scratch4.dat/s35-1",
+      "boundary": "38477:token5",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35-1:38477",
+          "token": 2,
+          "color": 0,
+          "source": "そして、彼女こそが…。",
+          "target": "而且，她正是……"
+        },
+        {
+          "id": "scratch4.dat/s35-1:38477",
+          "token": 5,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:39151:token5",
+      "sha256": "78a7885bc18e907851f1ebf24f4082d4cb47d8074305622879f40f8b254f6028",
+      "script": "scratch4.dat/s35-1",
+      "boundary": "39151:token5",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35-1:39151",
+          "token": 2,
+          "color": 0,
+          "source": "う、うわあ…。",
+          "target": "“哇、哇啊……”"
+        },
+        {
+          "id": "scratch4.dat/s35-1:39151",
+          "token": 5,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:39295:token5",
+      "sha256": "f456c5b5708c3a8247b5e7c0b0139b1d7fd23fb5aff06ebb6a8d1c4654213b36",
+      "script": "scratch4.dat/s35-1",
+      "boundary": "39295:token5",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35-1:39295",
+          "token": 2,
+          "color": 0,
+          "source": "こ、これは…。",
+          "target": "这、这……"
+        },
+        {
+          "id": "scratch4.dat/s35-1:39295",
+          "token": 5,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:39335:token11",
+      "sha256": "f179c55b0d8b1f1e252fcb64416506147806ec593a404b8b9637c8f03e9e2f9c",
+      "script": "scratch4.dat/s35-1",
+      "boundary": "39335:token11",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35-1:39335",
+          "token": 2,
+          "color": 0,
+          "source": "これは、まずいんじゃ",
+          "target": "这是不是"
+        },
+        {
+          "id": "scratch4.dat/s35-1:39335",
+          "token": 8,
+          "color": 0,
+          "source": "ないだろうか…。",
+          "target": "很不妙啊……"
+        },
+        {
+          "id": "scratch4.dat/s35-1:39335",
+          "token": 11,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:39710:token5",
+      "sha256": "0098228e0e235d5278a1bd66509644c56b8f94210e2d6c487a36232f767235fc",
+      "script": "scratch4.dat/s35-1",
+      "boundary": "39710:token5",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35-1:39710",
+          "token": 2,
+          "color": 0,
+          "source": "………。",
+          "target": "……"
+        },
+        {
+          "id": "scratch4.dat/s35-1:39710",
+          "token": 5,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:40104:token11",
+      "sha256": "e0d93deddd142c712a4f9c3de3dc09de87dccd5b03ae52ad631542f1c3a9c1e9",
+      "script": "scratch4.dat/s35-1",
+      "boundary": "40104:token11",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35-1:40104",
+          "token": 2,
+          "color": 0,
+          "source": "誰かが来る前に、",
+          "target": "趁还没人来，"
+        },
+        {
+          "id": "scratch4.dat/s35-1:40104",
+          "token": 8,
+          "color": 0,
+          "source": "ホールに戻ろう…。",
+          "target": "先回大厅吧……"
+        },
+        {
+          "id": "scratch4.dat/s35-1:40104",
+          "token": 11,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:40934:token11",
+      "sha256": "ad5ccdc9b87c7b158a64e66a223965edd3cf7feeee356a29473eee5b4f00432d",
+      "script": "scratch4.dat/s35-1",
+      "boundary": "40934:token11",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35-1:40934",
+          "token": 2,
+          "color": 0,
+          "source": "この人が、例の写真の",
+          "target": "她也许就是"
+        },
+        {
+          "id": "scratch4.dat/s35-1:40934",
+          "token": 8,
+          "color": 0,
+          "source": "女性かもしれない…。",
+          "target": "那张照片里的女性……"
+        },
+        {
+          "id": "scratch4.dat/s35-1:40934",
+          "token": 11,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:43595:token5",
+      "sha256": "40691fb6b33533366d09cc090796a58529dcad93549e158d706473b9dbed42b4",
+      "script": "scratch4.dat/s35-1",
+      "boundary": "43595:token5",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35-1:43595",
+          "token": 2,
+          "color": 0,
+          "source": "あっ…。",
+          "target": "“啊……"
+        },
+        {
+          "id": "scratch4.dat/s35-1:43595",
+          "token": 5,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:43947:token5",
+      "sha256": "b9c8b1af925ed2263cbcd5e69201d04ff43aca3a49780e6e23544539114d3108",
+      "script": "scratch4.dat/s35-1",
+      "boundary": "43947:token5",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35-1:43947",
+          "token": 2,
+          "color": 0,
+          "source": "………。",
+          "target": "“……”"
+        },
+        {
+          "id": "scratch4.dat/s35-1:43947",
+          "token": 5,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:45112:token11",
+      "sha256": "9dc81c3a4e7b979416326011fb390ebb305de358749dfb264ab25e6182776932",
+      "script": "scratch4.dat/s35-1",
+      "boundary": "45112:token11",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35-1:45112",
+          "token": 2,
+          "color": 0,
+          "source": "しまった、これは",
+          "target": "糟了，这个"
+        },
+        {
+          "id": "scratch4.dat/s35-1:45112",
+          "token": 8,
+          "color": 0,
+          "source": "関係なかったか…。",
+          "target": "不相干吗……"
+        },
+        {
+          "id": "scratch4.dat/s35-1:45112",
+          "token": 11,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:45777:token5",
+      "sha256": "b490b0c154e8ad8689dbe507e45f9d22acd500e82bf95facf2d0bbfd81a5f9a3",
+      "script": "scratch4.dat/s35-1",
+      "boundary": "45777:token5",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35-1:45777",
+          "token": 2,
+          "color": 0,
+          "source": "あっ…。",
+          "target": "“啊……”"
+        },
+        {
+          "id": "scratch4.dat/s35-1:45777",
+          "token": 5,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:46255:token5",
+      "sha256": "5c04687aed30a69fd329a13034a337c5c3d7662a97e1b1b6c50c35d0e50e727a",
+      "script": "scratch4.dat/s35-1",
+      "boundary": "46255:token5",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35-1:46255",
+          "token": 2,
+          "color": 0,
+          "source": "………。",
+          "target": "“……”"
+        },
+        {
+          "id": "scratch4.dat/s35-1:46255",
+          "token": 5,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:46467:token17",
+      "sha256": "447c53e6019a77f47ec479f1b31db286a026469411ff6926f2a41b30ce4dcb5a",
+      "script": "scratch4.dat/s35-1",
+      "boundary": "46467:token17",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35-1:46467",
+          "token": 2,
+          "color": 0,
+          "source": "美馬さんが、門沢文治を",
+          "target": "但美马小姐，您"
+        },
+        {
+          "id": "scratch4.dat/s35-1:46467",
+          "token": 8,
+          "color": 0,
+          "source": "知らないわけが",
+          "target": "不可能不认识"
+        },
+        {
+          "id": "scratch4.dat/s35-1:46467",
+          "token": 14,
+          "color": 0,
+          "source": "ないんです…。",
+          "target": "门泽文治……”"
+        },
+        {
+          "id": "scratch4.dat/s35-1:46467",
+          "token": 17,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:46603:token5",
+      "sha256": "784b5dfcce01f62203438555f4ba53163610c8e52e83cb56158e67799db7ff38",
+      "script": "scratch4.dat/s35-1",
+      "boundary": "46603:token5",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35-1:46603",
+          "token": 2,
+          "color": 0,
+          "source": "……。",
+          "target": "“……"
+        },
+        {
+          "id": "scratch4.dat/s35-1:46603",
+          "token": 5,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:47348:token5",
+      "sha256": "734f13f0c71b6596b2be4831e3eda8414ebca1d82fee974c0fa21453cb815090",
+      "script": "scratch4.dat/s35-1",
+      "boundary": "47348:token5",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35-1:47348",
+          "token": 2,
+          "color": 0,
+          "source": "あっ…。",
+          "target": "“啊……”"
+        },
+        {
+          "id": "scratch4.dat/s35-1:47348",
+          "token": 5,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:47395:token17",
+      "sha256": "4757b49292b98d495e820d519cdd02925d6bbc6142fae905f70c86e1eb6ff0ec",
+      "script": "scratch4.dat/s35-1",
+      "boundary": "47395:token17",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35-1:47395",
+          "token": 2,
+          "color": 0,
+          "source": "まいったなあ。",
+          "target": "真伤脑筋。"
+        },
+        {
+          "id": "scratch4.dat/s35-1:47395",
+          "token": 8,
+          "color": 0,
+          "source": "聞き方がまずかったん",
+          "target": "是我问话的方式"
+        },
+        {
+          "id": "scratch4.dat/s35-1:47395",
+          "token": 14,
+          "color": 0,
+          "source": "だろうか…。",
+          "target": "不对吗……"
+        },
+        {
+          "id": "scratch4.dat/s35-1:47395",
+          "token": 17,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:47519:token5",
+      "sha256": "2d3f12f8bf16f4d7356fa0854bce5e0e2d752e09066fb2800246faa7670b82b6",
+      "script": "scratch4.dat/s35-1",
+      "boundary": "47519:token5",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35-1:47519",
+          "token": 2,
+          "color": 0,
+          "source": "…でも…。",
+          "target": "……可是……"
+        },
+        {
+          "id": "scratch4.dat/s35-1:47519",
+          "token": 5,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:47567:token5",
+      "sha256": "1a92ecde85af87facccbd4175268c7c32723ebc45f56ba49d3d7f966231da7dd",
+      "script": "scratch4.dat/s35-1",
+      "boundary": "47567:token5",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35-1:47567",
+          "token": 2,
+          "color": 0,
+          "source": "……………。",
+          "target": "“……"
+        },
+        {
+          "id": "scratch4.dat/s35-1:47567",
+          "token": 5,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:47882:token17",
+      "sha256": "37922900acf8d1126f1e19091d0dc16d1bdb61c9e10f39ec123064a272f16215",
+      "script": "scratch4.dat/s35-1",
+      "boundary": "47882:token17",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35-1:47882",
+          "token": 2,
+          "color": 0,
+          "source": "真剣に言っていたので",
+          "target": "“见你说得那么认真，"
+        },
+        {
+          "id": "scratch4.dat/s35-1:47882",
+          "token": 8,
+          "color": 0,
+          "source": "聞こうかと思った",
+          "target": "我还想听你说下去，"
+        },
+        {
+          "id": "scratch4.dat/s35-1:47882",
+          "token": 14,
+          "color": 0,
+          "source": "私がバカでした…。",
+          "target": "真是太傻了……"
+        },
+        {
+          "id": "scratch4.dat/s35-1:47882",
+          "token": 17,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:48327:token5",
+      "sha256": "bf87a5b96a9abb2a79ac0b28726e56d6471cfac836baae2817b9c3f950c84cf4",
+      "script": "scratch4.dat/s35-1",
+      "boundary": "48327:token5",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35-1:48327",
+          "token": 2,
+          "color": 0,
+          "source": "あっ…。",
+          "target": "“啊……"
+        },
+        {
+          "id": "scratch4.dat/s35-1:48327",
+          "token": 5,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-2:13627:token11",
+      "sha256": "49025acdb79a1d1a5ba99d3189be780a966c5701bc1d4b221ed9831e231c5160",
+      "script": "scratch4.dat/s35-2",
+      "boundary": "13627:token11",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35-2:13627",
+          "token": 2,
+          "color": 0,
+          "source": "しかも、亡くなる前に",
+          "target": "而且，在她去世前"
+        },
+        {
+          "id": "scratch4.dat/s35-2:13627",
+          "token": 8,
+          "color": 0,
+          "source": "発覚したのが…",
+          "target": "还发现了一件事……"
+        },
+        {
+          "id": "scratch4.dat/s35-2:13627",
+          "token": 11,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-2:25055:token27",
+      "sha256": "d1ebf7fdfde54eff9e0bb2dd9af7b4af3e09fc5330e28714e068f7f0ae86e1c8",
+      "script": "scratch4.dat/s35-2",
+      "boundary": "25055:token27",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35-2:25055",
+          "token": 2,
+          "color": 0,
+          "source": "部屋の中心に置かれた",
+          "target": "房间中央的小桌子上"
+        },
+        {
+          "id": "scratch4.dat/s35-2:25055",
+          "token": 8,
+          "color": 0,
+          "source": "小さなテーブルの上には",
+          "target": "摊开着一整沓"
+        },
+        {
+          "id": "scratch4.dat/s35-2:25055",
+          "token": 14,
+          "color": 10,
+          "source": "便箋",
+          "target": "信纸"
+        },
+        {
+          "id": "scratch4.dat/s35-2:25055",
+          "token": 18,
+          "color": 0,
+          "source": "が束のまま、開いて",
+          "target": "，"
+        },
+        {
+          "id": "scratch4.dat/s35-2:25055",
+          "token": 24,
+          "color": 0,
+          "source": "置いてあった。",
+          "target": "就那样放在那里。"
+        },
+        {
+          "id": "scratch4.dat/s35-2:25055",
+          "token": 27,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-2:28457:token17",
+      "sha256": "50d2c5787ea972aecd0e0e322b2b0a7aee26307e3a01ec489d307672333b2f09",
+      "script": "scratch4.dat/s35-2",
+      "boundary": "28457:token17",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35-2:28457",
+          "token": 2,
+          "color": 0,
+          "source": "なの　、最　にもう",
+          "target": "所　，最　我还有"
+        },
+        {
+          "id": "scratch4.dat/s35-2:28457",
+          "token": 8,
+          "color": 0,
+          "source": "ひとつだけ　　願いを",
+          "target": "一个　求，请"
+        },
+        {
+          "id": "scratch4.dat/s35-2:28457",
+          "token": 14,
+          "color": 0,
+          "source": "　　てください。",
+          "target": "答　我。"
+        },
+        {
+          "id": "scratch4.dat/s35-2:28457",
+          "token": 17,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-2:29537:token17",
+      "sha256": "a3b4a8b7fea510308f4f9c66eea03d8b963ab2dde4bb331b1df0df159c559323",
+      "script": "scratch4.dat/s35-2",
+      "boundary": "29537:token17",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35-2:29537",
+          "token": 2,
+          "color": 2,
+          "source": "明日、わたしは",
+          "target": "明天，我会"
+        },
+        {
+          "id": "scratch4.dat/s35-2:29537",
+          "token": 8,
+          "color": 2,
+          "source": "自　します。",
+          "target": "自　。"
+        },
+        {
+          "id": "scratch4.dat/s35-2:29537",
+          "token": 14,
+          "color": 0,
+          "source": "…か。",
+          "target": "……吗。”"
+        },
+        {
+          "id": "scratch4.dat/s35-2:29537",
+          "token": 17,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-2:30824:token15",
+      "sha256": "9d9f07a63fc54b284f23ae2cbf860e6442bb9102273311a010bc9757b956abd7",
+      "script": "scratch4.dat/s35-2",
+      "boundary": "30824:token15",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35-2:30824",
+          "token": 2,
+          "color": 2,
+          "source": "未完成",
+          "target": "未完成"
+        },
+        {
+          "id": "scratch4.dat/s35-2:30824",
+          "token": 6,
+          "color": 0,
+          "source": "って大きく",
+          "target": "三个字，"
+        },
+        {
+          "id": "scratch4.dat/s35-2:30824",
+          "token": 12,
+          "color": 0,
+          "source": "書いてありますけど。",
+          "target": "写得好大啊。”"
+        },
+        {
+          "id": "scratch4.dat/s35-2:30824",
+          "token": 15,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-2:30923:token17",
+      "sha256": "f1bd090660e8ca1118a09fdf5107e618f4552aca102c74058a358d4df61d8d45",
+      "script": "scratch4.dat/s35-2",
+      "boundary": "30923:token17",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35-2:30923",
+          "token": 2,
+          "color": 0,
+          "source": "あ、それはたぶん、",
+          "target": "“啊，那大概是为了"
+        },
+        {
+          "id": "scratch4.dat/s35-2:30923",
+          "token": 8,
+          "color": 0,
+          "source": "発表会用に編曲して",
+          "target": "演奏会，请人"
+        },
+        {
+          "id": "scratch4.dat/s35-2:30923",
+          "token": 14,
+          "color": 0,
+          "source": "もらってる途中の…",
+          "target": "帮忙编曲，还没完成的……"
+        },
+        {
+          "id": "scratch4.dat/s35-2:30923",
+          "token": 17,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-2:31585:token17",
+      "sha256": "a3de7350c820fd23e62d17b4c517f2d7d67390561f1ac76f4a443910ed127ca3",
+      "script": "scratch4.dat/s35-2",
+      "boundary": "31585:token17",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35-2:31585",
+          "token": 2,
+          "color": 0,
+          "source": "先生に頼んで、オーボエ",
+          "target": "她请老师帮忙，"
+        },
+        {
+          "id": "scratch4.dat/s35-2:31585",
+          "token": 8,
+          "color": 0,
+          "source": "協奏曲に編曲して",
+          "target": "正在把它改编成"
+        },
+        {
+          "id": "scratch4.dat/s35-2:31585",
+          "token": 14,
+          "color": 0,
+          "source": "もらってたそうです。",
+          "target": "双簧管协奏曲。"
+        },
+        {
+          "id": "scratch4.dat/s35-2:31585",
+          "token": 17,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-2:32053:token17",
+      "sha256": "ac56756cf056b0ddcbffd65dd0954dae677784fcce1a07fd4c0f1df1019d51a9",
+      "script": "scratch4.dat/s35-2",
+      "boundary": "32053:token17",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35-2:32053",
+          "token": 2,
+          "color": 0,
+          "source": "発表会で演奏するって",
+          "target": "“她说要在演奏会上演奏，"
+        },
+        {
+          "id": "scratch4.dat/s35-2:32053",
+          "token": 8,
+          "color": 0,
+          "source": "言って、一生懸命",
+          "target": "一直在努力"
+        },
+        {
+          "id": "scratch4.dat/s35-2:32053",
+          "token": 14,
+          "color": 0,
+          "source": "仕上げてましたよ。",
+          "target": "把它完成。"
+        },
+        {
+          "id": "scratch4.dat/s35-2:32053",
+          "token": 17,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-2:32763:token21",
+      "sha256": "f36272e3656d4d669cec4b5f9d27db0d3448f652ff63b8183bd9266f7e6cb3c3",
+      "script": "scratch4.dat/s35-2",
+      "boundary": "32763:token21",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35-2:32763",
+          "token": 2,
+          "color": 0,
+          "source": "ああ、それは…たぶん",
+          "target": "啊，那……大概是"
+        },
+        {
+          "id": "scratch4.dat/s35-2:32763",
+          "token": 8,
+          "color": 2,
+          "source": "ペンネーム",
+          "target": "笔名"
+        },
+        {
+          "id": "scratch4.dat/s35-2:32763",
+          "token": 12,
+          "color": 0,
+          "source": "みたいな",
+          "target": "之类"
+        },
+        {
+          "id": "scratch4.dat/s35-2:32763",
+          "token": 18,
+          "color": 0,
+          "source": "ものですよ。",
+          "target": "的东西吧。"
+        },
+        {
+          "id": "scratch4.dat/s35-2:32763",
+          "token": 21,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-2:38919:token17",
+      "sha256": "6dfb6bacfb3ded11be0e1ba701b0af57d12f40bac081fddb15c7d7d5fc0826d9",
+      "script": "scratch4.dat/s35-2",
+      "boundary": "38919:token17",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35-2:38919",
+          "token": 2,
+          "color": 0,
+          "source": "澄佳ちゃんとは…大学に",
+          "target": "我刚上大学没多久……"
+        },
+        {
+          "id": "scratch4.dat/s35-2:38919",
+          "token": 8,
+          "color": 0,
+          "source": "入学してすぐに知り合い",
+          "target": "就和澄佳"
+        },
+        {
+          "id": "scratch4.dat/s35-2:38919",
+          "token": 14,
+          "color": 0,
+          "source": "ました。",
+          "target": "认识了。"
+        },
+        {
+          "id": "scratch4.dat/s35-2:38919",
+          "token": 17,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-2:46815:token11",
+      "sha256": "0de27e275832fbd8def66a6047c74373118806a47d55cf57ebb66178fb304c17",
+      "script": "scratch4.dat/s35-2",
+      "boundary": "46815:token11",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35-2:46815",
+          "token": 2,
+          "color": 0,
+          "source": "情けないと言うほど…",
+          "target": "他确实还不至于……"
+        },
+        {
+          "id": "scratch4.dat/s35-2:46815",
+          "token": 8,
+          "color": 0,
+          "source": "ではないですよね。",
+          "target": "那么靠不住呢。”"
+        },
+        {
+          "id": "scratch4.dat/s35-2:46815",
+          "token": 11,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s36:2936:token21",
+      "sha256": "606a43f195e451a1e72d6d03e3af2d6dccec25b6db3f24308f2e7402b408e7f0",
+      "script": "scratch4.dat/s36",
+      "boundary": "2936:token21",
+      "spans": [
+        {
+          "id": "scratch4.dat/s36:2936",
+          "token": 2,
+          "color": 0,
+          "source": "…残念ですが、",
+          "target": "……很遗憾，您有"
+        },
+        {
+          "id": "scratch4.dat/s36:2936",
+          "token": 8,
+          "color": 2,
+          "source": "不正解",
+          "target": "答错"
+        },
+        {
+          "id": "scratch4.dat/s36:2936",
+          "token": 12,
+          "color": 0,
+          "source": "の箇所が",
+          "target": "的"
+        },
+        {
+          "id": "scratch4.dat/s36:2936",
+          "token": 18,
+          "color": 0,
+          "source": "ありました。",
+          "target": "地方。"
+        },
+        {
+          "id": "scratch4.dat/s36:2936",
+          "token": 21,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s36:5210:token17",
+      "sha256": "3726eaab828ae66a4d10588fd8a743740765a2daf5a794b37e90ed5d1efaf304",
+      "script": "scratch4.dat/s36",
+      "boundary": "5210:token17",
+      "spans": [
+        {
+          "id": "scratch4.dat/s36:5210",
+          "token": 2,
+          "color": 0,
+          "source": "さあ、澤津賀さん。",
+          "target": "“好了，泽津贺先生。"
+        },
+        {
+          "id": "scratch4.dat/s36:5210",
+          "token": 8,
+          "color": 0,
+          "source": "もう観念して、",
+          "target": "别再抵抗了，"
+        },
+        {
+          "id": "scratch4.dat/s36:5210",
+          "token": 14,
+          "color": 0,
+          "source": "白状してください。",
+          "target": "全都招了吧。"
+        },
+        {
+          "id": "scratch4.dat/s36:5210",
+          "token": 17,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s36:7049:token17",
+      "sha256": "c7ea53f0d30e182e3d77189909d5bf02af72c3370a1577506d8f46c3d56348e3",
+      "script": "scratch4.dat/s36",
+      "boundary": "7049:token17",
+      "spans": [
+        {
+          "id": "scratch4.dat/s36:7049",
+          "token": 2,
+          "color": 0,
+          "source": "…その心のスキマを、",
+          "target": "……但你内心的空虚，"
+        },
+        {
+          "id": "scratch4.dat/s36:7049",
+          "token": 8,
+          "color": 0,
+          "source": "一條院に利用されたん",
+          "target": "被一条院"
+        },
+        {
+          "id": "scratch4.dat/s36:7049",
+          "token": 14,
+          "color": 0,
+          "source": "ですよ。",
+          "target": "利用了。"
+        },
+        {
+          "id": "scratch4.dat/s36:7049",
+          "token": 17,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s36:12418:token11",
+      "sha256": "c99767dafba5046b4ec68e16f7757107fa71ebf6567f6413a0c3e960b8df04e6",
+      "script": "scratch4.dat/s36",
+      "boundary": "12418:token11",
+      "spans": [
+        {
+          "id": "scratch4.dat/s36:12418",
+          "token": 2,
+          "color": 0,
+          "source": "優子さんも、",
+          "target": "“优子小姐"
+        },
+        {
+          "id": "scratch4.dat/s36:12418",
+          "token": 8,
+          "color": 0,
+          "source": "…ごめんなさい。",
+          "target": "……也对不起你。"
+        },
+        {
+          "id": "scratch4.dat/s36:12418",
+          "token": 11,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s36:13135:token21",
+      "sha256": "11139fe01a9636376cc1a7429099af92dcd67edb94a5b58611441297327fdc7d",
+      "script": "scratch4.dat/s36",
+      "boundary": "13135:token21",
+      "spans": [
+        {
+          "id": "scratch4.dat/s36:13135",
+          "token": 2,
+          "color": 2,
+          "source": "癸生川探偵事務所の",
+          "target": "癸生川侦探事务所的"
+        },
+        {
+          "id": "scratch4.dat/s36:13135",
+          "token": 8,
+          "color": 2,
+          "source": "ウワサ",
+          "target": "传闻"
+        },
+        {
+          "id": "scratch4.dat/s36:13135",
+          "token": 12,
+          "color": 0,
+          "source": "をしてくれた",
+          "target": "，事情才"
+        },
+        {
+          "id": "scratch4.dat/s36:13135",
+          "token": 18,
+          "color": 0,
+          "source": "おかげですよ。",
+          "target": "有了转机。”"
+        },
+        {
+          "id": "scratch4.dat/s36:13135",
+          "token": 21,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s36:14478:token17",
+      "sha256": "188a13292cb6072c4dc2b45c8b412e5d043ddeaab38528b2b555ec26ce75bcca",
+      "script": "scratch4.dat/s36",
+      "boundary": "14478:token17",
+      "spans": [
+        {
+          "id": "scratch4.dat/s36:14478",
+          "token": 2,
+          "color": 0,
+          "source": "中庭友美という女の子が",
+          "target": "有个叫中庭友美的女孩"
+        },
+        {
+          "id": "scratch4.dat/s36:14478",
+          "token": 8,
+          "color": 0,
+          "source": "永劫会の正体を知った、",
+          "target": "知道了永劫会的真面目，"
+        },
+        {
+          "id": "scratch4.dat/s36:14478",
+          "token": 14,
+          "color": 0,
+          "source": "というウワサを…",
+          "target": "我让人把这个传言……"
+        },
+        {
+          "id": "scratch4.dat/s36:14478",
+          "token": 17,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s36:15758:token5",
+      "sha256": "5a33003aa953d2edb7b5a1312956bf6359c5c3b3cc75e95a9575c27d93e936dd",
+      "script": "scratch4.dat/s36",
+      "boundary": "15758:token5",
+      "spans": [
+        {
+          "id": "scratch4.dat/s36:15758",
+          "token": 2,
+          "color": 0,
+          "source": "わかりやすい！",
+          "target": "实在太明显了！"
+        },
+        {
+          "id": "scratch4.dat/s36:15758",
+          "token": 5,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s36:20608:token11",
+      "sha256": "144db45ae370f684fda4dc3e2979d393745e64736188b302d9ebdc132da0da3b",
+      "script": "scratch4.dat/s36",
+      "boundary": "20608:token11",
+      "spans": [
+        {
+          "id": "scratch4.dat/s36:20608",
+          "token": 2,
+          "color": 0,
+          "source": "自分の手を汚す",
+          "target": "还能让自己"
+        },
+        {
+          "id": "scratch4.dat/s36:20608",
+          "token": 8,
+          "color": 0,
+          "source": "ことなく…!!",
+          "target": "不必亲自动手……！！"
+        },
+        {
+          "id": "scratch4.dat/s36:20608",
+          "token": 11,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s36:27841:token25",
+      "sha256": "16edc6bf1e27858538fd6e40ded546d2ebc25b66e9166b23c4f5360add22de75",
+      "script": "scratch4.dat/s36",
+      "boundary": "27841:token25",
+      "spans": [
+        {
+          "id": "scratch4.dat/s36:27841",
+          "token": 2,
+          "color": 0,
+          "source": "別件を調べていた",
+          "target": "调查另一件事的伊纲，"
+        },
+        {
+          "id": "scratch4.dat/s36:27841",
+          "token": 8,
+          "color": 0,
+          "source": "伊綱君が会員の",
+          "target": "也对会员间的"
+        },
+        {
+          "id": "scratch4.dat/s36:27841",
+          "token": 12,
+          "color": 2,
+          "source": "共通点",
+          "target": "共同点"
+        },
+        {
+          "id": "scratch4.dat/s36:27841",
+          "token": 16,
+          "color": 0,
+          "source": "を",
+          "target": "有了"
+        },
+        {
+          "id": "scratch4.dat/s36:27841",
+          "token": 22,
+          "color": 0,
+          "source": "知ることができて、",
+          "target": "进一步了解，"
+        },
+        {
+          "id": "scratch4.dat/s36:27841",
+          "token": 25,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s36:39484:token5",
+      "sha256": "db58d6a538505abf703f2435d5f17a091764cf70c87d02f66fae9452e1566bbe",
+      "script": "scratch4.dat/s36",
+      "boundary": "39484:token5",
+      "spans": [
+        {
+          "id": "scratch4.dat/s36:39484",
+          "token": 2,
+          "color": 0,
+          "source": "美馬圭子…だな。",
+          "target": "“你是……美马圭子吧。"
+        },
+        {
+          "id": "scratch4.dat/s36:39484",
+          "token": 5,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s37:903:token17",
+      "sha256": "6d7cdc79fb1955108febdc5e15ddaf871ac624404bac11b39658869aa300452b",
+      "script": "scratch4.dat/s37",
+      "boundary": "903:token17",
+      "spans": [
+        {
+          "id": "scratch4.dat/s37:903",
+          "token": 2,
+          "color": 0,
+          "source": "私にはまだ…探偵に",
+          "target": "直到现在……我仍不觉得"
+        },
+        {
+          "id": "scratch4.dat/s37:903",
+          "token": 8,
+          "color": 0,
+          "source": "なったという実感は、",
+          "target": "自己已经成了"
+        },
+        {
+          "id": "scratch4.dat/s37:903",
+          "token": 14,
+          "color": 0,
+          "source": "ありません。",
+          "target": "一名侦探。"
+        },
+        {
+          "id": "scratch4.dat/s37:903",
+          "token": 17,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s37:3699:token17",
+      "sha256": "454379c86982b18661145e22334e62aa33c26871d6057f93a3e1d5245cfc0853",
+      "script": "scratch4.dat/s37",
+      "boundary": "3699:token17",
+      "spans": [
+        {
+          "id": "scratch4.dat/s37:3699",
+          "token": 2,
+          "color": 0,
+          "source": "自首しに行って、",
+          "target": "也不会在"
+        },
+        {
+          "id": "scratch4.dat/s37:3699",
+          "token": 8,
+          "color": 0,
+          "source": "殺されてしまうことも",
+          "target": "前去自首时"
+        },
+        {
+          "id": "scratch4.dat/s37:3699",
+          "token": 14,
+          "color": 0,
+          "source": "なかったと思うと…",
+          "target": "遭到杀害了。一想到这里……"
+        },
+        {
+          "id": "scratch4.dat/s37:3699",
+          "token": 17,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s37:4514:token11",
+      "sha256": "b7611697fa703a57cee5ba9f42e13695ca610117807dd1e40277bf1f126e0226",
+      "script": "scratch4.dat/s37",
+      "boundary": "4514:token11",
+      "spans": [
+        {
+          "id": "scratch4.dat/s37:4514",
+          "token": 2,
+          "color": 0,
+          "source": "過去に自分の犯した罪の",
+          "target": "因为自己过去犯下的罪"
+        },
+        {
+          "id": "scratch4.dat/s37:4514",
+          "token": 8,
+          "color": 0,
+          "source": "強迫観念から…という、",
+          "target": "产生了强迫观念……"
+        },
+        {
+          "id": "scratch4.dat/s37:4514",
+          "token": 11,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "file/append:5843:token17",
+      "sha256": "2bf0130923f4e5f9e6ef54bca69effa50a9b12193e105abb0fbf19fe264fe4f2",
+      "script": "file/append",
+      "boundary": "5843:token17",
+      "spans": [
+        {
+          "id": "file/append:5843",
+          "token": 2,
+          "color": 0,
+          "source": "・・・・・・・・",
+          "target": "“…………"
+        },
+        {
+          "id": "file/append:5843",
+          "token": 8,
+          "color": 0,
+          "source": "・・・・・・・・",
+          "target": "…………"
+        },
+        {
+          "id": "file/append:5843",
+          "token": 14,
+          "color": 0,
+          "source": "・・・・・・・。",
+          "target": "…………”"
+        },
+        {
+          "id": "file/append:5843",
+          "token": 17,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "file/append:5998:token17",
+      "sha256": "952790e7a1dd000ab222b2b44a206d9d244d48f2037022f80511e3c1b52cb902",
+      "script": "file/append",
+      "boundary": "5998:token17",
+      "spans": [
+        {
+          "id": "file/append:5998",
+          "token": 2,
+          "color": 0,
+          "source": "・・・・・・・・",
+          "target": "“…………"
+        },
+        {
+          "id": "file/append:5998",
+          "token": 8,
+          "color": 0,
+          "source": "・・・・・・・・",
+          "target": "…………"
+        },
+        {
+          "id": "file/append:5998",
+          "token": 14,
+          "color": 0,
+          "source": "・・・・・・・。",
+          "target": "…………”"
+        },
+        {
+          "id": "file/append:5998",
+          "token": 17,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "file/append:6601:opcode47",
+      "sha256": "65573519dde1b21a3a8bd7649371e91bfc648e9690ccc57c8264080826b869de",
+      "script": "file/append",
+      "boundary": "6601:opcode47",
+      "spans": [
+        {
+          "id": "file/append:6526",
+          "token": 2,
+          "color": 8,
+          "source": "白鷺洲伊綱",
+          "target": "白鹭洲伊纲"
+        },
+        {
+          "id": "file/append:6526",
+          "token": 6,
+          "color": 0,
+          "source": "　",
+          "target": ""
+        },
+        {
+          "id": "file/append:6526",
+          "token": 10,
+          "color": 2,
+          "source": "10月21日",
+          "target": "10 月 21 日"
+        },
+        {
+          "id": "file/append:6526",
+          "token": 14,
+          "color": 0,
+          "source": "　癸生川探偵事務所",
+          "target": "　癸生川侦探事务所"
+        }
+      ]
+    },
+    {
+      "id": "file/append:7531:token11",
+      "sha256": "cadb7b01407c6a22b6a7516de7f8eeca8958022a78fb8fd5bc1d2648ff5b34c0",
+      "script": "file/append",
+      "boundary": "7531:token11",
+      "spans": [
+        {
+          "id": "file/append:7531",
+          "token": 2,
+          "color": 0,
+          "source": "お礼も、挨拶も…何も",
+          "target": "我没来得及道谢，"
+        },
+        {
+          "id": "file/append:7531",
+          "token": 8,
+          "color": 0,
+          "source": "できないままなんです。",
+          "target": "连一声再见……也没能说。"
+        },
+        {
+          "id": "file/append:7531",
+          "token": 11,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "file/help:830:token21",
+      "sha256": "cd064ffaf67ec08a32b2bd82ee8fb7c856a43e49726f8cb405706d8d1200e0f2",
+      "script": "file/help",
+      "boundary": "830:token21",
+      "spans": [
+        {
+          "id": "file/help:830",
+          "token": 2,
+          "color": 0,
+          "source": "プレイできるシナリオは",
+          "target": "可以游玩的章节会以"
+        },
+        {
+          "id": "file/help:830",
+          "token": 8,
+          "color": 2,
+          "source": "明るいアイコン",
+          "target": "亮色图标"
+        },
+        {
+          "id": "file/help:830",
+          "token": 12,
+          "color": 0,
+          "source": "で",
+          "target": "来"
+        },
+        {
+          "id": "file/help:830",
+          "token": 18,
+          "color": 0,
+          "source": "表示されます。",
+          "target": "显示。"
+        },
+        {
+          "id": "file/help:830",
+          "token": 21,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "file/help:2222:token25",
+      "sha256": "a681f33fa6f04d15fc4e5f6f6120816ea609af0bcce6218d5f802ae6857e3d4c",
+      "script": "file/help",
+      "boundary": "2222:token25",
+      "spans": [
+        {
+          "id": "file/help:2222",
+          "token": 2,
+          "color": 0,
+          "source": "プレイ中は、いつでも",
+          "target": "游戏中，随时按下"
+        },
+        {
+          "id": "file/help:2222",
+          "token": 8,
+          "color": 10,
+          "source": "右ソフトキー",
+          "target": "键盘 E 键（或手柄 R 肩键）"
+        },
+        {
+          "id": "file/help:2222",
+          "token": 12,
+          "color": 0,
+          "source": "を押すと",
+          "target": "，"
+        },
+        {
+          "id": "file/help:2222",
+          "token": 18,
+          "color": 2,
+          "source": "メニュー",
+          "target": "菜单"
+        },
+        {
+          "id": "file/help:2222",
+          "token": 22,
+          "color": 0,
+          "source": "が開きます。",
+          "target": "就会打开。"
+        },
+        {
+          "id": "file/help:2222",
+          "token": 25,
+          "control": "<ctrl=3B/>"
+        }
+      ]
+    }
+  ],
+  "colors": [
+    {
+      "id": "scratch4.dat/s01:38603:token8",
+      "sha256": "ae791d8760304dbb5b762e29d35a12fa85fcf46b8978db7a3a872fca30ce6967",
+      "token": 8,
+      "color": 2,
+      "source": "わいせつ行為",
+      "target": "猥亵"
+    },
+    {
+      "id": "scratch4.dat/s01-1:5972:token14",
+      "sha256": "34c87f0fa8fa2dc2ae92ca1b21a4904f4f0c1c31edbe81ec1ea1899ce4432d99",
+      "token": 14,
+      "color": 2,
+      "source": "カギ",
+      "target": "锁"
+    },
+    {
+      "id": "scratch4.dat/s02:12616:token8",
+      "sha256": "c0fbe5d0306c24935abc868069811dbe5b1cfefab1e078137dd34c993e7461c9",
+      "token": 8,
+      "color": 2,
+      "source": "乱立する新興団体の実状",
+      "target": "新兴团体泛滥的实况"
+    },
+    {
+      "id": "scratch4.dat/s03:9890:token14",
+      "sha256": "551901ef0478024f82133d0b5965d58ff8ebf42d4b647b5f83a5d91ac66db798",
+      "token": 14,
+      "color": 2,
+      "source": "知っていた",
+      "target": "知道"
+    },
+    {
+      "id": "scratch4.dat/s03:16484:token6",
+      "sha256": "cbdc3489079415ca6ec41836e9803352feb133d2c10deeeb639c06ce6743b41c",
+      "token": 6,
+      "color": 2,
+      "source": "すり替えた",
+      "target": "掉包"
+    },
+    {
+      "id": "scratch4.dat/s04:16950:token18",
+      "sha256": "595e0aa49c48e17cc148f37570fea431c98b0c9fbcebd77a754ed45403340127",
+      "token": 18,
+      "color": 2,
+      "source": "電球の芯",
+      "target": "灯丝"
+    },
+    {
+      "id": "scratch4.dat/s14:39598:token12",
+      "sha256": "74a9901764fb6a57f6674699970197428beff17b7cf1ee92f18d52c0cafe9ccc",
+      "token": 12,
+      "color": 2,
+      "source": "ごめんなさい",
+      "target": "对不起"
+    },
+    {
+      "id": "scratch4.dat/s31:1111:token12",
+      "sha256": "aa2bb7dc4b3a1c1d1a881192b48514b7ac0907c27a4fd7d5bfd0cb44ee52534d",
+      "token": 12,
+      "color": 2,
+      "source": "門沢文治",
+      "target": "门泽文治"
+    },
+    {
+      "id": "scratch4.dat/s32:899:token8",
+      "sha256": "10735d71e8af7b6c75433def601fb8c976250c78d44b2a4b207ad82e45ee3e0b",
+      "token": 8,
+      "color": 2,
+      "source": "手紙",
+      "target": "一封信"
+    },
+    {
+      "id": "scratch4.dat/s35:22683:token8",
+      "sha256": "cfde90c429ad20fccf83a25c579e4302d967291c10e55fe5473293af422eaf8b",
+      "token": 8,
+      "color": 2,
+      "source": "何をした人の写真",
+      "target": "人究竟做过什么"
+    },
+    {
+      "id": "scratch4.dat/s35-1:31499:token12",
+      "sha256": "824d0b3d9b1ec0546a000bcff939d6f11508dc94a61d014df94bc2af02dc927f",
+      "token": 12,
+      "color": 2,
+      "source": "チケット代",
+      "target": "车票费用"
+    },
+    {
+      "id": "scratch4.dat/s35-1:36080:token12",
+      "sha256": "eaab5199cc3de9dc83b59b61633c004bfecb17bac962ced104205d0542eb7665",
+      "token": 12,
+      "color": 2,
+      "source": "暴行犯の",
+      "target": "性侵者的"
+    },
+    {
+      "id": "scratch4.dat/s35-1:36371:token12",
+      "sha256": "3ae31258c304864884a4e260fed0d26d6418b40bc1b441b0249322ee317a9c9c",
+      "token": 12,
+      "color": 2,
+      "source": "犯人を探らせて",
+      "target": "调查这些"
+    },
+    {
+      "id": "scratch4.dat/s35-1:36371:token18",
+      "sha256": "129fc2ef93f1cf66c70d10f40499d5864e8b89b56ce9b76f99b198e7101e06bf",
+      "token": 18,
+      "color": 2,
+      "source": "いる",
+      "target": "犯人"
+    },
+    {
+      "id": "scratch4.dat/s35-2:29537:token2",
+      "sha256": "71255035fc3e8ef390a98acba8805a0290630f6ce721c831c47b2273f05a8b4f",
+      "token": 2,
+      "color": 2,
+      "source": "明日、わたしは",
+      "target": "明天，我会"
+    },
+    {
+      "id": "scratch4.dat/s35-2:29537:token8",
+      "sha256": "168bdf76c22375c35a126ccb370f802fe6bef9f69b8dd8aacafce55d4dd68f64",
+      "token": 8,
+      "color": 2,
+      "source": "自　します。",
+      "target": "自　。"
+    },
+    {
+      "id": "scratch4.dat/s35-2:30824:token2",
+      "sha256": "fff6418be21daa96f90a3f39b68bee54954e0a38bce17178a91fb0867856d740",
+      "token": 2,
+      "color": 2,
+      "source": "未完成",
+      "target": "未完成"
+    },
+    {
+      "id": "scratch4.dat/s36:13135:token2",
+      "sha256": "4c75b895d95d4346ebead18452a6f4edcc5f78c83e3849c7f9a10ff9aa6687cc",
+      "token": 2,
+      "color": 2,
+      "source": "癸生川探偵事務所の",
+      "target": "癸生川侦探事务所的"
+    },
+    {
+      "id": "scratch4.dat/s36:13135:token8",
+      "sha256": "bc57a69d3b18caebfd3420006f44f00812c6a88c9794cb59ebb645b378b96d68",
+      "token": 8,
+      "color": 2,
+      "source": "ウワサ",
+      "target": "传闻"
+    },
+    {
+      "id": "file/help:830:token8",
+      "sha256": "489bc6a043c865df9fdb1991e87ac38049a1f46daa64af5ba4ea07479999a0c6",
+      "token": 8,
+      "color": 2,
+      "source": "明るいアイコン",
+      "target": "亮色图标"
+    },
+    {
+      "id": "file/help:2222:token8",
+      "sha256": "29ec85f3a5e074bf192c97799b6b59562bbb1a53ed8e95fd380b6cc1ded6b390",
+      "token": 8,
+      "color": 10,
+      "source": "右ソフトキー",
+      "target": "键盘 E 键（或手柄 R 肩键）"
+    }
+  ]
+}

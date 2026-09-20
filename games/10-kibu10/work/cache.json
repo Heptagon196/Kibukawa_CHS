@@ -5575,7 +5575,7 @@
         {
           "text_index": 253,
           "source_text": "プレイ中は、いつでも右ソフトキーを押すとメニューが開きます。ここから、シナリオ選択画面や、タイトル画面に戻ることができます。",
-          "translated_text": "游戏中，随时按下右软键，菜单就会打开。从这里可以返回章节选择画面，或标题画面。",
+          "translated_text": "游戏中，随时按下键盘 E 键（或手柄 R 肩键），菜单就会打开。从这里可以返回章节选择画面，或标题画面。",
           "translation_status": 7,
           "model": "Codex parallel translation and review",
           "extra": {
@@ -5590,7 +5590,7 @@
               "argument": 0
             },
             "tagged_source": "<color=0>プレイ中は、いつでも</color><row/><color=10>右ソフトキー</color><color=0>を押すと</color><row/><color=2>メニュー</color><color=0>が開きます。</color><ctrl=3B/><row/><color=0>ここから、シナリオ選択</color><row/><color=0>画面や、タイトル画面に</color><row/><color=0>戻ることができます。</color><ctrl=2E/>",
-            "tagged_target": "<color=0>游戏中，随时按下</color><row/><color=10>右软键</color><color=0>，</color><row/><color=2>菜单</color><color=0>就会打开。</color><ctrl=3B/><row/><color=0>从这里可以返回</color><row/><color=0>章节选择画面，</color><row/><color=0>或标题画面。</color><ctrl=2E/>",
+            "tagged_target": "<color=0>游戏中，随时按下</color><row/><color=10>键盘 E 键（或手柄 R 肩键）</color><color=0>，</color><row/><color=2>菜单</color><color=0>就会打开。</color><ctrl=3B/><row/><color=0>从这里可以返回</color><row/><color=0>章节选择画面，</color><row/><color=0>或标题画面。</color><ctrl=2E/>",
             "active": false
           }
         },
@@ -216800,7 +216800,7 @@
         {
           "text_index": 9839,
           "source_text": "プレイ中は、いつでも右ソフトキーを押すとメニューが開きます。ここから、シナリオ選択画面や、タイトル画面に戻ることができます。",
-          "translated_text": "游戏中，随时按下右软键，菜单就会打开。从这里可以返回章节选择画面，或标题画面。",
+          "translated_text": "游戏中，随时按下键盘 E 键（或手柄 R 肩键），菜单就会打开。从这里可以返回章节选择画面，或标题画面。",
           "translation_status": 1,
           "model": "Codex parallel translation and review",
           "extra": {
@@ -216815,7 +216815,7 @@
               "argument": 0
             },
             "tagged_source": "<color=0>プレイ中は、いつでも</color><row/><color=10>右ソフトキー</color><color=0>を押すと</color><row/><color=2>メニュー</color><color=0>が開きます。</color><ctrl=3B/><row/><color=0>ここから、シナリオ選択</color><row/><color=0>画面や、タイトル画面に</color><row/><color=0>戻ることができます。</color><ctrl=2E/>",
-            "tagged_target": "<color=0>游戏中，随时按下</color><row/><color=10>右软键</color><color=0>，</color><row/><color=2>菜单</color><color=0>就会打开。</color><ctrl=3B/><row/><color=0>从这里可以返回</color><row/><color=0>章节选择画面，</color><row/><color=0>或标题画面。</color><ctrl=2E/>",
+            "tagged_target": "<color=0>游戏中，随时按下</color><row/><color=10>键盘 E 键（或手柄 R 肩键）</color><color=0>，</color><row/><color=2>菜单</color><color=0>就会打开。</color><ctrl=3B/><row/><color=0>从这里可以返回</color><row/><color=0>章节选择画面，</color><row/><color=0>或标题画面。</color><ctrl=2E/>",
             "active": true
           }
         },
@@ -261837,7 +261837,7 @@
     "authoritative_draft": "work/dialogue-tagged.json",
     "translation_stage": "reviewed",
     "semantic_release_review_complete": true,
-    "reviewed_dialogue_sha256": "a33377c6f3efe2578e1a0ccd2a3d532cda4bd4467c84639edd32bab7b5495259",
+    "reviewed_dialogue_sha256": "98d49e3941f9ede373a0eb29d726a9d4f4ac2127a5dd7a1ad0ee3f2b593e8135",
     "click_review_sha256": "9c2a48c23ff9454e14d58b86b9cdb6dd4b548d5f619dc8b65c8f39325a176e3a",
     "color_review_sha256": "f84f25b108c9bc5df01f7a9a89cf06bd0dfeeadc4fc581b16c022d7e4eb1ef51",
     "quality_gate_sha256": "1865fa6958a37189450b57f426a1d398e1f58b07a7b37ad8d999ae0c833f0ae9"
