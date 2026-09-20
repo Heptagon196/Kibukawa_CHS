@@ -6,7 +6,8 @@ from title_art_parts import tile
 
 FONT = Path('C:/Windows/Fonts/NotoSansSC-VF.ttf')
 FONT_SHA = '763146584cf0710223441356b4395e279021b0806c196614377a7a0174ae074a'
-LABELS = {'name00': '工藤贵树', 'name01': '石上雅人', 'name02': '妹浦澄佳', 'name03': '白鹭洲伊纲', 'sell_end1': '已通关'}
+NATIVE_NAMEPLATES = {'name00': '工藤貴樹', 'name01': '石上雅人', 'name02': '妹浦澄佳', 'name03': '白鷺洲伊綱', 'name04': '???'}
+LABELS = {'sell_end1': '已通关'}
 MENUS = {'t_start': ('开始', (16, 67)), 't_help': ('玩法说明', (17, 86)), 't_append': ('附加内容', (17, 51))}
 
 def font(size):
@@ -15,6 +16,12 @@ def font(size):
 def build():
     if p.sha(FONT.read_bytes()) != FONT_SHA: raise ValueError('UI font changed')
     out=p.WORK/'images/ui'; out.mkdir(parents=True,exist_ok=True)
+    # These labels remain native: a partial glyph swap or a complete redraw both
+    # differ visibly from the original point font. Remove stale generated files so
+    # an incremental build cannot accidentally package an older replacement.
+    for key in NATIVE_NAMEPLATES:
+        stale=out/(key+'.png')
+        if stale.exists(): stale.unlink()
     routes=[]; evidence=[]
     for key,text in LABELS.items():
         im=Image.new('RGBA',(48,18),((85,30,12,255) if key=='sell_end1' else (38,18,85,255)));d=ImageDraw.Draw(im)
@@ -32,7 +39,7 @@ def build():
             file=out/(key+suffix+'.png');im.save(file)
             evidence.append(dict(id=key+suffix,text=text,size=list(size),brightness=level,sha256=p.sha(file.read_bytes())))
             if level==1024: routes.append(dict(id=key,png='ui/'+file.name,size=list(size),sources=[dict(loader='LoadGraphic',name=key+'.gif'),dict(loader='Image_createImage',name='/'+key+'.gif')]))
-    p.save(p.WORK/'images/ui-labels.reviewed.json',dict(schema=1,game='kibu10',source='Name plates typeset locally; all title-menu lettering uses one shared artistic master title2-zh.png',font_sha256=FONT_SHA,entries=evidence))
+    p.save(p.WORK/'images/ui-labels.reviewed.json',dict(schema=2,game='kibu10',source='Character nameplates retain the complete native images; all title-menu lettering uses one shared artistic master title2-zh.png',font_sha256=FONT_SHA,native_nameplates=[dict(id=key,text=text,disposition='retain_complete_native_image') for key,text in NATIVE_NAMEPLATES.items()],entries=evidence))
     return routes
 
 if __name__=='__main__': build()

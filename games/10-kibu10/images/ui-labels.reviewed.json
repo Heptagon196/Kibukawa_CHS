@@ -1,45 +1,36 @@
 {
-  "schema": 1,
+  "schema": 2,
   "game": "kibu10",
-  "source": "Name plates typeset locally; all title-menu lettering uses one shared artistic master title2-zh.png",
+  "source": "Character nameplates retain the complete native images; all title-menu lettering uses one shared artistic master title2-zh.png",
   "font_sha256": "763146584cf0710223441356b4395e279021b0806c196614377a7a0174ae074a",
-  "entries": [
+  "native_nameplates": [
     {
       "id": "name00",
-      "text": "工藤贵树",
-      "size": [
-        48,
-        18
-      ],
-      "sha256": "8b5feb00f6b794931b74bfc17375986537e4862888a318cad8f588887776eef3"
+      "text": "工藤貴樹",
+      "disposition": "retain_complete_native_image"
     },
     {
       "id": "name01",
       "text": "石上雅人",
-      "size": [
-        48,
-        18
-      ],
-      "sha256": "cd60b435fe30503f7c18a0e5695b36034fbc7718d9ea445920855b624747e864"
+      "disposition": "retain_complete_native_image"
     },
     {
       "id": "name02",
       "text": "妹浦澄佳",
-      "size": [
-        48,
-        18
-      ],
-      "sha256": "577f99e492c08c7bcb70bb41a4f62090db64da50ea5cfac5050b825229f59442"
+      "disposition": "retain_complete_native_image"
     },
     {
       "id": "name03",
-      "text": "白鹭洲伊纲",
-      "size": [
-        48,
-        18
-      ],
-      "sha256": "d2b205f64584b419b04220f421c4f3fa56f93b814b133f9fa5456acd647085db"
+      "text": "白鷺洲伊綱",
+      "disposition": "retain_complete_native_image"
     },
+    {
+      "id": "name04",
+      "text": "???",
+      "disposition": "retain_complete_native_image"
+    }
+  ],
+  "entries": [
     {
       "id": "sell_end1",
       "text": "已通关",

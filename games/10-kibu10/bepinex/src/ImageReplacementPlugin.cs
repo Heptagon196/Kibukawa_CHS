@@ -9,7 +9,7 @@ using Kibukawa.ImageReplacements;
 
 namespace Kibu10ZhCN.Images
 {
-    [BepInPlugin("heptagon.kibukawa.imagereplacements.zhcn", "Kibukawa Image Replacements", "1.0.3")]
+    [BepInPlugin("heptagon.kibukawa.imagereplacements.zhcn", "Kibukawa Image Replacements", "1.0.4")]
     [BepInProcess("kibu10.exe")]
     public sealed class ImageReplacementPlugin : NamedImageRuntime
     {
