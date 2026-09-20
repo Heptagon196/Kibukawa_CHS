@@ -40,6 +40,7 @@ namespace Kibukawa.Engine.Gmode20050817Direct
             Patch(AccessTools.Method(canvasType,"BUNSYOU_ROLL"),"BeforeRoll","AfterRoll");
             harmony.Patch(AccessTools.Method(canvasType,"DrawAdvString"),prefix:new HarmonyMethod(typeof(DirectCanvasRuntime),"BeforeDirectDraw"),finalizer:new HarmonyMethod(typeof(DirectCanvasRuntime),"RestoreDirectScale"));
             harmony.Patch(AccessTools.Method(canvasType,"PaintADV"),prefix:new HarmonyMethod(typeof(DirectCanvasRuntime),"BeforeDirectViewport"));
+            harmony.Patch(AccessTools.Method(canvasType,"PaintADV_text"),prefix:new HarmonyMethod(typeof(DirectCanvasRuntime),"BeforeDirectPaintText"));
             harmony.Patch(AccessTools.Method(canvasType,"DrawAdvNafuda"),prefix:new HarmonyMethod(typeof(DirectCanvasRuntime),"BeforeDirectSpeaker"),finalizer:new HarmonyMethod(typeof(DirectCanvasRuntime),"RestoreDirectSpeaker"));
             harmony.Patch(AccessTools.Method(canvasType,"DrawAdvStringRoll"),prefix:new HarmonyMethod(typeof(DirectCanvasRuntime),"BeforeDirectRollDraw"),finalizer:new HarmonyMethod(typeof(DirectCanvasRuntime),"RestoreDirectScale"));
             Type graphics=AccessTools.TypeByName("Socotra.UI.StGraphics");
@@ -56,10 +57,15 @@ namespace Kibukawa.Engine.Gmode20050817Direct
             if(__state==null)__state=RecoverDirectDialogue(__instance,state);
             if(__state==null)return;
             var original=__state.Display.Rows;
-            bool authored=Number(__instance,"MojiHani_tate")!=0;
             int capacity=layout.DialogueRows-(Number(__instance,"NowNamae")==-1?0:1);
             int width=Number(__instance,"MojiHani_yoko")==0?204:220;
-            var rows=authored?original:DirectTextLayout.Wrap(original,width,capacity);
+            // Full-screen/vertical pages also carry handset-width soft rows.
+            // Reflow them with their original row count as the ceiling: this
+            // merges obsolete breaks without applying the ordinary dialogue
+            // page budget or adding rows. DirectTextLayout itself preserves
+            // semantic punctuation, controls, indentation and spaced cards.
+            if(Number(__instance,"MojiHani_tate")!=0)capacity=original.Length;
+            var rows=DirectTextLayout.Wrap(original,width,capacity);
             int maximum=0;
             for(int i=0;i<rows.Length;i++){ApplyRow(__instance,rows[i],i,false,false);maximum=Math.Max(maximum,rows[i].Text.Length);}
             int end=Math.Max(rows.Length+1,((string[])F("bg_itigyougun_mojiretu").GetValue(__instance)).Length);
@@ -103,6 +109,21 @@ namespace Kibukawa.Engine.Gmode20050817Direct
             int top=Math.Max(0,current-visible+1);
             if(view.Top!=top || !Object.ReferenceEquals(view.Script,script)) F("Resumed").SetValue(__instance,true);
             view.Script=script;view.Top=top;
+        }
+        protected static void BeforeDirectPaintText(object __instance)
+        {
+            if(!ready || !State(__instance).Dialogue)return;
+            int row=Number(__instance,"PrintDanYoyaku");
+            int count=Number(__instance,"BunsyouGun_gyousuu");
+            if(row<0 || row>=count)return;
+            // This direct engine can leave the completed-row cursor on the
+            // preceding row after a translated buffer changes row lengths.
+            // PaintADV_text then returns before drawing, while Game_adv keeps
+            // advancing the character cursor until its swallowed bounds error
+            // repeats every frame. Synchronize only at a pristine row start;
+            // active text, waits and click controls remain native-driven.
+            if(Number(__instance,"PrintDanKanryo")!=row && Number(__instance,"PrintMojiKetaKanryo")<0)
+                F("PrintDanKanryo").SetValue(__instance,row);
         }
         protected static bool BeforeDirectDraw(object __instance,int __2,int __3,ref int __4,ref int __5,out DirectDrawState __state)
         {

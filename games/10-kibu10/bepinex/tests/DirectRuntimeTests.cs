@@ -9,7 +9,7 @@ public class DirectCanvasStub
  public static Socotra.UI.StFont font=Socotra.UI.StFont.GetFont(656);
  public sbyte[] Script=new sbyte[]{1,2,3}; public int Pos=123,NowNamae=-1,MainTask,FrameTask=2;
  public bool NowRoll; public int Color; public int[] ColorTable={0,1,2,3,4};
- public int MojiHani_tate,MojiHani_yoko,PrintDanYoyaku;public bool Resumed;
+ public int MojiHani_tate,MojiHani_yoko,PrintDanYoyaku,PrintDanKanryo=-1,PrintMojiKetaKanryo=-1;public bool Resumed;
  public static int FWidth=6;
  public string info_struct_moji="原文";
  public sbyte BunsyouGun_gyousuu,BunsyouGun_max_mojisuu;
@@ -96,6 +96,11 @@ public class DirectHarness : DirectCanvasRuntime
   DirectLexicon.Masks[row.Text]="0000";
   AfterDirectDialogue(c,read);
   Check(c.bg_itigyougun_mojiretu[0].Contains("中文"),"Dialogue translated");
+  c.PrintDanYoyaku=0;c.PrintDanKanryo=-1;c.PrintMojiKetaKanryo=-1;
+  BeforeDirectPaintText(c);Check(c.PrintDanKanryo==0,"Translated typewriter must synchronize a pristine requested row");
+  c.PrintDanYoyaku=1;c.PrintDanKanryo=0;c.PrintMojiKetaKanryo=0;
+  BeforeDirectPaintText(c);Check(c.PrintDanKanryo==0,"Active typewriter row must not be forced forward");
+  c.PrintDanYoyaku=0;c.PrintDanKanryo=0;c.PrintMojiKetaKanryo=-1;
   bool control=false,color=false;
   for(int i=0;i<c.BunsyouGun_gyousuu;i++)
   {
@@ -112,11 +117,11 @@ public class DirectHarness : DirectCanvasRuntime
   for(int i=0;i<helpTarget[2].Colors.Length;i++)helpTarget[2].Colors[i]=2;
   Segment(helpTarget);
   translation.Displays.Add(164,new DisplayTranslation{Offset=164,Opcode=255,Rows=helpTarget});
-  c.Pos=170;c.MainTask=17;c.BunsyouGun_gyousuu=5;
+  c.Pos=170;c.MainTask=17;c.MojiHani_tate=2;c.BunsyouGun_gyousuu=5;
   for(int i=0;i<helpSource.Length;i++)c.bg_itigyougun_mojiretu[i]=helpSource[i].Text;
   AfterDirectDialogue(c,null);
   Check(c.BunsyouGun_gyousuu==4 && c.bg_itigyougun_mojiretu[0]=="本作《永劫会事件》" && c.bg_itigyougun_mojiretu[2]=="最多可从四位角色的视角" && c.bg_itigyougun_mojiretu[3]=="展开游戏。","Help text must recover by exact source rows and merge its obsolete soft line break");
-  c.MainTask=0;c.Pos=123;
+  c.MainTask=0;c.MojiHani_tate=0;c.Pos=123;
   c.BunsyouGun_gyousuu=8;c.PrintDanYoyaku=6;c.NowNamae=0;
   BeforeDirectViewport(c);Check(c.Resumed,"Viewport must request native full redraw after scrolling");
   int x=0,y=0;DirectDrawState scale;
@@ -149,15 +154,19 @@ public class DirectHarness : DirectCanvasRuntime
   c.bg_itigyougun_mojiretu[0]="中文ABC测试";c.BunsyouGun_gyousuu=1;c.MojiHani_yoko=3;
   x=0;FitDirectText(c,2,0,false,ref x);Check(x==53,"Runtime placement must include exactly the measured 9px Latin gap");
   x=0;FitDirectText(c,5,0,false,ref x);Check(x==89,"The gap after an English word must match the layout width");
-  c.MojiHani_tate=1;
-  var full=new[]{Row("第一行"),Row("第二行"),Row("第三行"),Row("第四行"),Row("第五行"),Row("第六行（译注：原有长说明。）",terminal:46)};
+  c.MojiHani_tate=2;
+  var fullSource=new[]{Row("本作では複数の人物の"),Row("視点から物語を追う"),Row("システムなので"),Row("説明が続きます。",terminal:46)};
+  var full=new[]{Row("本作让您从多位人物的"),Row("视角"),Row("追踪故事，"),Row("所以，说明还将继续。",terminal:46)};
+  for(int i=0;i<full.Length;i++)full[i].SourceText=fullSource[i].Text;
+  Segment(full);
   AfterDirectDialogue(c,new ReadState{Display=new DisplayTranslation{Rows=full}});
-  Check(c.BunsyouGun_gyousuu==6,"Full-screen rows must bypass normal four-row capacity");
-  for(int i=0;i<full.Length;i++)Check(c.bg_itigyougun_mojiretu[i]==full[i].Text,"Full-screen authored row changed");
+  string fullText="";for(int i=0;i<c.BunsyouGun_gyousuu;i++)fullText+=c.bg_itigyougun_mojiretu[i];
+  Check(c.BunsyouGun_gyousuu<=full.Length && fullText=="本作让您从多位人物的视角追踪故事，所以，说明还将继续。","Full-screen prose must merge soft rows without adding lines");
+  for(int i=0;i<c.BunsyouGun_gyousuu;i++)Check(c.bg_itigyougun_mojiretu[i]!="视角" && c.bg_itigyougun_mojiretu[i]!="所以，","Full-screen obsolete soft row survived reflow");
   x=37;y=91;BeforeDirectDraw(c,0,0,ref x,ref y,out scale);RestoreDirectScale(scale);
   Check(x==37 && y==91,"Full-screen native coordinates must bypass dialogue positioning");
   int clicks=0;foreach(var plane in c.bg_itigyougun_control)if(plane!=null)foreach(var controlByte in plane)if(controlByte==59)clicks++;
-  Check(clicks==0,"Full-screen notes must not introduce any automatic click");
+  Check(clicks==0,"Full-screen reflow must not introduce any automatic click");
   return "Direct runtime: subtitle, INFO ASCII/palette/exception, immutable script, reflow, controls, ruby PASS";
  }
 }

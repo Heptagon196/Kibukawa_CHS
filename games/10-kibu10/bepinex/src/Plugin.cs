@@ -16,7 +16,7 @@ using Kibukawa.Engine.Gmode20050817Direct;
 
 namespace Kibu10ZhCN
 {
-    [BepInPlugin("local.kibu10.zhcn", "Kibu10 Simplified Chinese", "0.1.9")]
+    [BepInPlugin("local.kibu10.zhcn", "Kibu10 Simplified Chinese", "0.1.10")]
     [BepInProcess("kibu10.exe")]
     public sealed class Plugin : DirectCanvasRuntime
     {
@@ -62,7 +62,8 @@ namespace Kibu10ZhCN
                 foreach (string name in new[] { "Script", "Pos", "NowStockingGyou", "BunsyouGun_gyousuu", "BunsyouGun_max_mojisuu",
                     "bg_itigyougun_mojiretu", "bg_itigyougun_zenkakusuu", "bg_itigyougun_color", "bg_itigyougun_control", "bg_itigyougun_rubi_index", "bg_itigyougun_rubisuu",
                     "rollitigyougun_mojiretu", "rollitigyougun_zenkakusuu", "rollitigyougun_color", "rollitigyougun_rubi_index", "rollitigyougun_rubisuu",
-                    "FWidth", "MojiHani_yoko", "info_struct_moji", "info_struct_zenkaku_suu", "info_struct_mojiretu", "info_struct_iro" }) F(name);
+                    "FWidth", "MojiHani_yoko", "PrintDanYoyaku", "PrintDanKanryo", "PrintMojiKetaKanryo",
+                    "info_struct_moji", "info_struct_zenkaku_suu", "info_struct_mojiretu", "info_struct_iro" }) F(name);
                 UiLocalization.Initialize(message => Logger.LogInfo(message));
                 foreach (ScriptTranslation script in pack.Scripts.Values)
                 {

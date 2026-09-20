@@ -46,6 +46,16 @@ public static class DirectPackBindingTests
     foreach(var row in controlRows)if(DirectTextLayout.Measure(row.Text,0,row.Text.Length)>204)
      throw new Exception("PC/controller help wording overflows the help page");
    }
+   if(Path.GetFileName(file)=="append.bin" && script.Displays.ContainsKey(9454))
+   {
+    var clearRows=DirectTextLayout.Wrap(script.Displays[9454].Rows,204,4);
+    if(clearRows.Length!=3 || clearRows[0].Text!="将把此前的所有数据" || clearRows[1].Text!="初始化，从头开始游戏。" || clearRows[2].Text!="确定吗？")
+     throw new Exception("Clear-save confirmation layout changed unexpectedly");
+    for(int i=0;i<clearRows.Length-1;i++)foreach(byte control in clearRows[i].Controls)
+     if(control!=0 && control!=47)throw new Exception("Clear-save confirmation gained an intermediate wait");
+    if(clearRows[2].Controls[clearRows[2].Controls.Length-1]!=46)
+     throw new Exception("Clear-save confirmation lost its terminal click");
+   }
    foreach(var display in script.Displays.Values)
    {
     foreach(var row in display.Rows)
