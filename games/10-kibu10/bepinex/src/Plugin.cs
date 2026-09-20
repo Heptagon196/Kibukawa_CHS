@@ -16,12 +16,15 @@ using Kibukawa.Engine.Gmode20050817Direct;
 
 namespace Kibu10ZhCN
 {
-    [BepInPlugin("local.kibu10.zhcn", "Kibu10 Simplified Chinese", "0.1.12")]
+    [BepInPlugin("local.kibu10.zhcn", "Kibu10 Simplified Chinese", "0.1.13")]
     [BepInProcess("kibu10.exe")]
     public sealed class Plugin : DirectCanvasRuntime
     {
         public Plugin()
         {
+            // append.bin:9454 is the destructive save-reset confirmation. Its
+            // native state machine expects the authored four-row buffer.
+            preserveDirectDialogueRows.Add("9454\nこれまでのデータを全て\n初期化して、ゲームを\n最初から始めます。\nよろしいですか？");
             layout = new RuntimeLayout(12, 5, 18, 32, 17, 11, 12, 6,
                 new[] { "PaintMenu", "PaintDocomo", "DrawAdvCommand", "DrawAdvCommandCenter" });
         }

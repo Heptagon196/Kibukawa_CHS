@@ -38,7 +38,8 @@ public class DirectHarness : DirectCanvasRuntime
   string text=String.Join("",Array.ConvertAll(rows,r=>r.Text));DirectLexicon.Masks[text]=mask??new string('0',text.Length+1);
  }
  static void LayoutChecks() {
-  Check(DirectTextLayout.Measure("中文ABC测试",0,7)==113 && DirectTextLayout.Position("中文ABC测试",2)==43 && DirectTextLayout.Position("中文ABC测试",5)==79,"Visual Latin gaps must be counted and drawn identically without adding characters");
+  Check(DirectTextLayout.Measure("中文ABC测试",0,7)==103 && DirectTextLayout.Position("中文ABC测试",2)==38 && DirectTextLayout.Position("中文ABC测试",5)==69,"Visual Latin gaps must be counted and drawn identically without adding characters");
+  Check(DirectTextLayout.Measure("键盘　Ｅ　键",0,6)==68 && DirectTextLayout.Position("键盘　Ｅ　键",3)==38 && DirectTextLayout.Position("键盘　Ｅ　键",5)==51,"Authored spaces at Han-Latin boundaries must collapse to one compact visual gap");
   var source=new[]{Row("调查工藤"),Row("贵树的证词",terminal:46)};
   var mask=new char[10];for(int i=0;i<mask.Length;i++)mask[i]='0';for(int i=3;i<6;i++)mask[i]='1';Segment(source,new string(mask));
   var result=DirectTextLayout.Wrap(source,68,4);
@@ -111,6 +112,13 @@ public class DirectHarness : DirectCanvasRuntime
   }
   Check(control&&color,"Reflow must retain color and control events");
   Check(Object.ReferenceEquals(bytes,c.Script)&&c.Pos==123,"Dialogue must preserve save offsets");
+  var clearSource=new[]{Row("これまでのデータを全て"),Row("初期化して、ゲームを"),Row("最初から始めます。"),Row("よろしいですか？",terminal:46)};
+  var clearTarget=new[]{Row("将把此前的所有数据"),Row("初始化，"),Row("从头开始游戏。"),Row("确定吗？",terminal:46)};
+  for(int i=0;i<clearTarget.Length;i++)clearTarget[i].SourceText=clearSource[i].Text;
+  preserveDirectDialogueRows.Add(DirectDialogueKey(9454,clearTarget));
+  AfterDirectDialogue(c,new ReadState{Display=new DisplayTranslation{Offset=9454,Opcode=255,Rows=clearTarget}});
+  Check(c.BunsyouGun_gyousuu==4 && c.bg_itigyougun_mojiretu[0]=="将把此前的所有数据" && c.bg_itigyougun_mojiretu[1]=="初始化，" && c.bg_itigyougun_mojiretu[3]=="确定吗？","Clear-save confirmation must retain its native four-row state machine buffer");
+  Check(c.bg_itigyougun_control[3][c.bg_itigyougun_mojiretu[3].Length-1]==46,"Clear-save confirmation must retain its terminal click in the authored final row");
   var helpSource=new[]{Row("今作、「永劫会事件」は"),Row("２人の登場人物を中心に"),Row("最大４人の人物の視点"),Row("からゲームを進めるシス"),Row("テムになっています。",terminal:46)};
   var helpTarget=new[]{Row("本作《永劫会事件》"),Row("以两位角色为中心，"),Row("最多可从四位角色的视角"),Row("展开"),Row("游戏。",terminal:46)};
   for(int i=0;i<helpTarget.Length;i++)helpTarget[i].SourceText=helpSource[i].Text;
@@ -153,8 +161,8 @@ public class DirectHarness : DirectCanvasRuntime
   RestoreMenuMeasure(measureState);
   Check(BeforeMenuLength("中文",ref length),"Menu finalizer must restore native script byte measurements");
   c.bg_itigyougun_mojiretu[0]="中文ABC测试";c.BunsyouGun_gyousuu=1;c.MojiHani_yoko=3;
-  x=0;FitDirectText(c,2,0,false,ref x);Check(x==53,"Runtime placement must include exactly the measured 9px Latin gap");
-  x=0;FitDirectText(c,5,0,false,ref x);Check(x==89,"The gap after an English word must match the layout width");
+  x=0;FitDirectText(c,2,0,false,ref x);Check(x==48,"Runtime placement must include exactly the measured compact Latin gap");
+  x=0;FitDirectText(c,5,0,false,ref x);Check(x==79,"The compact gap after an English word must match the layout width");
   c.MojiHani_tate=2;
   var fullSource=new[]{Row("本作では複数の人物の"),Row("視点から物語を追う"),Row("システムなので"),Row("説明が続きます。",terminal:46)};
   var full=new[]{Row("本作让您从多位人物的"),Row("视角"),Row("追踪故事，"),Row("所以，说明还将继续。",terminal:46)};

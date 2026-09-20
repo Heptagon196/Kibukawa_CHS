@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using System.Reflection;
 using System.Runtime.CompilerServices;
 using HarmonyLib;
@@ -17,6 +18,9 @@ namespace Kibukawa.Engine.Gmode20050817Direct
         protected struct DirectDrawState { internal float Scale; internal int BodyDepth; }
         sealed class Viewport { internal int Top; internal object Script; }
         static readonly ConditionalWeakTable<object,Viewport> viewports=new ConditionalWeakTable<object,Viewport>();
+        protected static readonly HashSet<string> preserveDirectDialogueRows=new HashSet<string>(StringComparer.Ordinal);
+        protected static string DirectDialogueKey(int offset,RuntimeRow[] rows)
+        { return offset+"\n"+String.Join("\n",Array.ConvertAll(rows,row=>row.SourceText??String.Empty)); }
         protected void InstallDirectHooks(string owner)
         {
             harmony = new Harmony(owner);
@@ -71,7 +75,12 @@ namespace Kibukawa.Engine.Gmode20050817Direct
             // page budget or adding rows. DirectTextLayout itself preserves
             // semantic punctuation, controls, indentation and spaced cards.
             if(Number(__instance,"MojiHani_tate")!=0)capacity=original.Length;
-            var rows=DirectTextLayout.Wrap(original,width,capacity);
+            // Some script-owned confirmation boxes require their authored row
+            // structure. Keep their row count and control positions exactly as
+            // parsed; the game entry point identifies them by verified offset and
+            // source rows so unrelated displays at the same offset still reflow.
+            var rows=preserveDirectDialogueRows.Contains(DirectDialogueKey(__state.Display.Offset,original))
+                ? original : DirectTextLayout.Wrap(original,width,capacity);
             int maximum=0;
             for(int i=0;i<rows.Length;i++){ApplyRow(__instance,rows[i],i,false,false);maximum=Math.Max(maximum,rows[i].Text.Length);}
             int end=Math.Max(rows.Length+1,((string[])F("bg_itigyougun_mojiretu").GetValue(__instance)).Length);

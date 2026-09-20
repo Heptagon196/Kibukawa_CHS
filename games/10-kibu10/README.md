@@ -81,3 +81,5 @@ SHA256：`3e1a232bfcd70efd30bae7e3c4c040e2cdc9b1a1caf7b39d047a4ded407d3238`。
 2026-09-21：0.1.11 修复场景路线图底部副标题只显示末段的问题。译文没有缺失；原生 CP932 `Strlen` 把中文按单字节问号计宽，导致右对齐起点过右。`PaintSentaku` 现按原生全角 12px、半角 6px 单元计算，保留原字号与基线。正式包为 `out/CHS_20260921_000526_912999200/Kibu10_CHS.zip`，SHA256 为 `91263238148b76fb1379d1d332ec6ea60e78cff94a03df111f8856dd59b17a0a`；已安装，记录见 `installations/20260921_000556` 与 `reports/scenario-subtitle-alignment-fix-20260921.md`。
 
 2026-09-21：0.1.12 撤销错误的“已通关”图片重绘。该图此前被做成不透明棕色矩形并使用 Noto Sans SC，完全丢失原作透明像素徽标；现已从生成、打包和运行时路由中移除，恢复原生 `CLEARED` 图。正式包为 `out/CHS_20260921_001145_430832200/Kibu10_CHS.zip`，SHA256 为 `b42b5cda446e4c5ff74e4028535b8eb00e775af349e841f7989c352747c42738`；已安装，记录见 `installations/20260921_001206` 与 `reports/native-cleared-badge-20260921.md`。
+
+2026-09-21：0.1.13 将汉字与英文/数字之间的视觉间隔统一收窄到 4px；译文已有边界空格时只占这一份间隔，普通空格仍按原生宽度显示。初始化数据确认框改为保留原生四行缓冲和最终 `0x2E` 点击控制码，不再让通用重排将其缩为三行，以避开原游戏 `Game_adv` 越界后的永久循环。正式包为 `out/CHS_20260921_002712_215348400/Kibu10_CHS.zip`，SHA256 为 `5c13e3790f5cc2c678d5e836d05b27c9cc65a2dde7adaf6bd23b3fbe4a41015c`；已安装，记录见 `installations/20260921_002730` 与 `reports/mixed-spacing-save-reset-fix-20260921.md`。

@@ -8,22 +8,31 @@ namespace Kibukawa.Engine.Gmode20050817Direct
 {
  internal static class DirectTextLayout
  {
+  const int MixedGap=4;
   const string Close="，。！？；：、）》」』】〕〉”’…—％%!?.,;:)]}";
   const string Open="（《「『【〔〈“‘([{\"";
   static bool Han(char c) {return c>='\u3400' && c<='\u9fff' || c=='〇';}
   internal static bool Gap(char a,char b) {return Han(a) && LatinMetrics.Narrow(b) || LatinMetrics.Narrow(a) && Han(b);}
   internal static int Cell(char c) {return LatinMetrics.Width(c);}
+  static bool Blank(char c) {return c==' ' || c=='　';}
+  static bool MixedBlank(string text,int index)
+  {
+   if(!Blank(text[index]) || index==0 || index+1>=text.Length)return false;
+   char a=text[index-1],b=text[index+1];
+   return Han(a) && LatinMetrics.Narrow(b) || LatinMetrics.Narrow(a) && Han(b);
+  }
+  static int Advance(string text,int index) {return MixedBlank(text,index)?MixedGap:Cell(text[index]);}
   internal static int Measure(string text,int start,int end)
   {
    int width=0;
-   for(int i=start;i<end;i++){if(i>start && Gap(text[i-1],text[i]))width+=9;width+=Cell(text[i]);}
+   for(int i=start;i<end;i++){if(i>start && Gap(text[i-1],text[i]))width+=MixedGap;width+=Advance(text,i);}
    return width;
   }
   internal static int Position(string text,int slot)
   {
    slot=Math.Min(slot,text.Length);
    int width=Measure(text,0,slot);
-   if(slot>0 && slot<text.Length && Gap(text[slot-1],text[slot]))width+=9;
+   if(slot>0 && slot<text.Length && Gap(text[slot-1],text[slot]))width+=MixedGap;
    return width;
   }
   static bool End(string s) {s=(s??"").TrimEnd();return s.Length>0 && "。！？!?」』”’".IndexOf(s[s.Length-1])>=0;}
@@ -60,13 +69,13 @@ namespace Kibukawa.Engine.Gmode20050817Direct
    string value=text.ToString(),mask;
    if(!DirectLexicon.Masks.TryGetValue(value,out mask))throw new InvalidOperationException("Unsegmented dialogue text");
    int n=value.Length,max=Math.Max(source.Length,capacity);
-   var pixels=new int[n+1];for(int i=0;i<n;i++)pixels[i+1]=pixels[i]+Cell(value[i])+(i>0 && Gap(value[i-1],value[i])?9:0);
+   var pixels=new int[n+1];for(int i=0;i<n;i++)pixels[i+1]=pixels[i]+Advance(value,i)+(i>0 && Gap(value[i-1],value[i])?MixedGap:0);
    var cost=new double[n+1,max+1];var next=new int[n+1,max+1];
    for(int i=0;i<=n;i++)for(int r=0;r<=max;r++)cost[i,r]=Double.PositiveInfinity;
    for(int r=0;r<=max;r++)cost[n,r]=0;
    for(int r=1;r<=max;r++)for(int start=n-1;start>=0;start--)
    {
-    int leadingGap=start>0 && Gap(value[start-1],value[start])?9:0;
+    int leadingGap=start>0 && Gap(value[start-1],value[start])?MixedGap:0;
     for(int end=start+1;end<=n && pixels[end]-pixels[start]-leadingGap<=width;end++)
     {
      if(end>start+1 && hard.Contains(end-1))break;
