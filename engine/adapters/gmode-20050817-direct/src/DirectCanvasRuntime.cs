@@ -14,10 +14,12 @@ namespace Kibukawa.Engine.Gmode20050817Direct
     {
         [ThreadStatic] private static int bodyDrawDepth;
         [ThreadStatic] private static bool speakerDraw;
+        [ThreadStatic] private static float? dialogueTop;
+        protected struct SpeakerDrawState { internal bool Speaker; internal float? Top; }
         [ThreadStatic] private static bool menuMeasure;
         [ThreadStatic] private static bool scenarioPage;
         protected struct ScenarioPageState { internal bool Measure,Page; }
-        protected struct DirectDrawState { internal float Scale; internal int BodyDepth; }
+        protected struct DirectDrawState { internal float Scale; internal int BodyDepth; internal float? Top; }
         sealed class Viewport { internal int Top; internal object Script; }
         static readonly ConditionalWeakTable<object,Viewport> viewports=new ConditionalWeakTable<object,Viewport>();
         protected static readonly HashSet<string> preserveDirectDialogueRows=new HashSet<string>(StringComparer.Ordinal);
@@ -157,14 +159,17 @@ namespace Kibukawa.Engine.Gmode20050817Direct
         }
         protected static bool BeforeDirectDraw(object __instance,int __1,int __3,ref int __4,ref int __5,out DirectDrawState __state)
         {
-            __state=new DirectDrawState { Scale=drawScale, BodyDepth=bodyDrawDepth };
+            __state=new DirectDrawState { Scale=drawScale, BodyDepth=bodyDrawDepth, Top=dialogueTop };
             if(!ready || !State(__instance).Dialogue || smallFontScope)return true;
             bodyDrawDepth++;
+            dialogueTop=null;
             if(Number(__instance,"MojiHani_tate")==0)
             {
                 int top=viewports.GetOrCreateValue(__instance).Top;
                 if(__3<top)return false;
-                __5=134+(Number(__instance,"NowNamae")==-1?0:layout.RowAdvance)+(__3-top)*layout.RowAdvance;
+                __5=135+(Number(__instance,"NowNamae")==-1?0:layout.RowAdvance)+(__3-top)*layout.RowAdvance;
+                // Place the 16px bitmap itself, independent of the native ruby baseline.
+                dialogueTop=__5;
             }
             if(Number(__instance,"MojiHani_tate")==0)FitDirectText(__instance,__1,__3,false,ref __4);
             else FitDirectFullScreenText(__instance,__1,__3,ref __4);
@@ -199,11 +204,12 @@ namespace Kibukawa.Engine.Gmode20050817Direct
             drawScale=1f;
         }
         protected static void RestoreDirectScale(DirectDrawState __state)
-        { RestoreScale(__state.Scale); bodyDrawDepth=__state.BodyDepth; }
+        { RestoreScale(__state.Scale); bodyDrawDepth=__state.BodyDepth; dialogueTop=__state.Top; }
         protected static void BeforeDirectRollDraw(object __instance,int __1,int __3,ref int __4,out DirectDrawState __state)
         {
-            __state=new DirectDrawState { Scale=drawScale, BodyDepth=bodyDrawDepth };
+            __state=new DirectDrawState { Scale=drawScale, BodyDepth=bodyDrawDepth, Top=dialogueTop };
             if(!ready)return;
+            dialogueTop=null;
             if(State(__instance).RollRows.Contains(__3))bodyDrawDepth++;
             // Scrolling uses the same body metrics in every vertical mode.
             // __1 is the character index; __2 is the native paired-halfwidth cell.
@@ -228,15 +234,17 @@ namespace Kibukawa.Engine.Gmode20050817Direct
                 if(low<=high)__2=(int)Math.Round(232+(low+high)/2.0,MidpointRounding.AwayFromZero);
             }
             return Kibu1ZhCN.LegacyFontRenderer.Draw(__instance,__0,__1+(int)origin.x,__2+(int)origin.y,
-                null,font,body && !speakerDraw && drawScale>0?drawScale:1f,body || speakerDraw?null:smallFont);
+                null,font,body && !speakerDraw && drawScale>0?drawScale:1f,body || speakerDraw?null:smallFont,
+                (body || speakerDraw) && dialogueTop.HasValue?dialogueTop.Value+origin.y:(float?)null);
         }
-        protected static void BeforeDirectSpeaker(object __instance,int __1,ref int __2,out bool __state)
+        protected static void BeforeDirectSpeaker(object __instance,int __1,ref int __2,out SpeakerDrawState __state)
         {
-            __state=speakerDraw;
+            __state=new SpeakerDrawState { Speaker=speakerDraw, Top=dialogueTop };
+            dialogueTop=null;
             if(ready)speakerDraw=true;
-            if(ready && State(__instance).Dialogue && Number(__instance,"MojiHani_tate")==0)__2=134;
+            if(ready && State(__instance).Dialogue && Number(__instance,"MojiHani_tate")==0) { __2=135; dialogueTop=135; }
         }
-        protected static void RestoreDirectSpeaker(bool __state) { speakerDraw=__state; }
+        protected static void RestoreDirectSpeaker(SpeakerDrawState __state) { speakerDraw=__state.Speaker; dialogueTop=__state.Top; }
         protected static void BeforeMenuMeasure(out bool __state) { __state=menuMeasure;menuMeasure=true; }
         protected static void BeforeScenarioPage(out ScenarioPageState __state)
         { __state=new ScenarioPageState{Measure=menuMeasure,Page=scenarioPage};menuMeasure=true;scenarioPage=true; }

@@ -62,7 +62,7 @@ public class DirectHarness : DirectCanvasRuntime
  {
   canvasType=typeof(DirectCanvasStub);fields.Clear();ready=true;
   LayoutChecks();
-  layout=new RuntimeLayout(12,5,18,32,17,11,13,6,new string[0]);
+  layout=new RuntimeLayout(12,5,21,32,17,11,13,6,new string[0]);
   exactUi=new Dictionary<string,string>{{"音量設定","音量设置"},{"ゲームのロード","读取存档"},{"シナリオ選択に戻る","返回章节选择"},{"タイトルに戻る","返回标题画面"},{"ゲームを続ける","继续游戏"}};
   foreach(var pair in exactUi){string label=pair.Key;BeforeShadowString(ref label);Check(label==pair.Value,"DocomoString menu label translation failed: "+pair.Key);}
   var c=new DirectCanvasStub();var bytes=c.Script;
@@ -141,22 +141,39 @@ public class DirectHarness : DirectCanvasRuntime
   Check(!BeforeDirectDraw(c,0,0,ref x,ref y,out scale),"Scrolled-out glyphs must be hidden");
   RestoreDirectScale(scale);
   c.BunsyouGun_gyousuu=1;c.PrintDanYoyaku=0;BeforeDirectViewport(c);
-  Check(BeforeDirectDraw(c,0,0,ref x,ref y,out scale)&&y==152,"New page resets top and keeps fixed speaker row");
+  Check(BeforeDirectDraw(c,0,0,ref x,ref y,out scale)&&y==156,"New page resets top and keeps fixed speaker row");
   BeforeDraw(new DirectGraphicsStub(),new[]{'文'},0,0);
   Check(Kibu1ZhCN.LegacyFontRenderer.Small==null,"Ruby-bearing body must use 16px");
+  Check(Kibu1ZhCN.LegacyFontRenderer.Top==156,"Body bitmap top must not inherit native ruby ascent");
   bool previous;BeforeSmallFontPage(out previous);
   BeforeDraw(new DirectGraphicsStub(),new[]{'项'},0,0);
   Check(Object.ReferenceEquals(Kibu1ZhCN.LegacyFontRenderer.Primary,font)&&Object.ReferenceEquals(Kibu1ZhCN.LegacyFontRenderer.Small,smallFont),"Nested menu must use its native size inside body scope");
+  Check(Kibu1ZhCN.LegacyFontRenderer.Top==null,"Nested native menu must not inherit dialogue top");
   RestoreSmallFontPage(previous);
   RestoreDirectScale(scale);
   BeforeDraw(new DirectGraphicsStub(),new[]{'栏'},0,0);
   Check(Object.ReferenceEquals(Kibu1ZhCN.LegacyFontRenderer.Small,smallFont),"Body finalizer must restore native header font selection");
-  bool speakerState;BeforeDirectSpeaker(c,0,ref y,out speakerState);
+  SpeakerDrawState speakerState;BeforeDirectSpeaker(c,0,ref y,out speakerState);
   BeforeDraw(new DirectGraphicsStub(),new[]{'名'},0,0);
   Check(Kibu1ZhCN.LegacyFontRenderer.Small==null,"Dialogue nameplate must use the 16px body font");
+  Check(Kibu1ZhCN.LegacyFontRenderer.Top==135,"Name bitmap keeps five pixels above it");
   RestoreDirectSpeaker(speakerState);
   BeforeDraw(new DirectGraphicsStub(),new[]{'项'},0,0);
   Check(Object.ReferenceEquals(Kibu1ZhCN.LegacyFontRenderer.Small,smallFont),"Speaker finalizer must restore native font-size selection");
+  for(int name=-1;name<=0;name++)
+  {
+   c.NowNamae=name;
+   int count=name<0?5:4;
+   for(int slotRow=0;slotRow<count;slotRow++)
+   {
+    BeforeDirectDraw(c,0,slotRow,ref x,ref y,out scale);
+    BeforeDraw(new DirectGraphicsStub(),new[]{'文'},0,999);
+    Check(Kibu1ZhCN.LegacyFontRenderer.Top==135+(slotRow+(name<0?0:1))*21,"Dialogue slotRows must use fixed 21px slots");
+    if(slotRow==count-1)Check(Kibu1ZhCN.LegacyFontRenderer.Top+16==235,"Last bitmap must leave five pixels below it");
+    RestoreDirectScale(scale);
+   }
+  }
+  c.NowNamae=0;
   int length=999;Check(BeforeMenuLength("游戏推进方式",ref length)&&length==999,"Non-menu string byte lengths must remain untouched");
   bool measureState;BeforeMenuMeasure(out measureState);
   Check(!BeforeMenuLength("游戏推进方式",ref length)&&length==12,"Chinese longest option must measure as six native fullwidth cells");
@@ -175,6 +192,7 @@ public class DirectHarness : DirectCanvasRuntime
   BeforeDraw(new DirectGraphicsStub(),new[]{'中'},x,y);
   Check(Object.ReferenceEquals(Kibu1ZhCN.LegacyFontRenderer.Primary,font) && Kibu1ZhCN.LegacyFontRenderer.Small==null,"Full-screen body must use 16px like ordinary dialogue");
   RestoreDirectScale(scale);
+  Check(Kibu1ZhCN.LegacyFontRenderer.Top==null,"Full-screen retains its native vertical positioning");
   var fullSource=new[]{Row("本作では複数の人物の"),Row("視点から物語を追う"),Row("システムなので"),Row("説明が続きます。",terminal:46)};
   var full=new[]{Row("本作让您从多位人物的"),Row("视角"),Row("追踪故事，"),Row("所以，说明还将继续。",terminal:46)};
   for(int i=0;i<full.Length;i++)full[i].SourceText=fullSource[i].Text;
