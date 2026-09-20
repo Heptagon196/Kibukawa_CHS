@@ -1,0 +1,64 @@
+{
+  "batch": 5,
+  "reviewer": "trans06",
+  "reviewed_ids": [
+    "scratch4.dat/s12:2953",
+    "scratch4.dat/s12:33201",
+    "scratch4.dat/s12:31113",
+    "scratch4.dat/s12:31255",
+    "scratch4.dat/s12:32185",
+    "scratch4.dat/s12:34500",
+    "scratch4.dat/s12:37581",
+    "scratch4.dat/s12:37745"
+  ],
+  "findings": [],
+  "resolved_findings": [
+    {
+      "id": "scratch4.dat/s12:2953",
+      "target": "<color=0>没赶上公交车。”</color><ctrl=2E/>",
+      "result": "已逐源复核：改为没赶上公交车，与后文因联系松田耽搁一致。2E边界保持。"
+    },
+    {
+      "id": "scratch4.dat/s12:33201",
+      "target": "<color=0>“其实，美纪惠小姐，</color><row/><color=0>和那个叫门泽的男人……</color><ctrl=2E/>",
+      "result": "已逐源连读下一点击：本点击只引出美纪惠与门泽，下一点击才说明见面和目击，信息时机已恢复。2E边界保持。"
+    }
+  ],
+  "notes": [
+    "两条更新后的正式候选已实际复核并补入点击审批，目前共718条。",
+    "本次实际读取并逐源复核六条新点击完整spans，均与采纳建议完全一致，更新六个签名。",
+    "其余712个点击及72个颜色记录与上轮实际审批内容签名一致，无新增变更；全部718点击、72颜色保持审批完整。"
+  ],
+  "voice_recheck": [
+    {
+      "id": "scratch4.dat/s12:31113",
+      "target": "<color=0>初次见面。</color><row/><color=0>老夫就是，侦探，</color><row/><color=0>赤洲妖星呀。</color><ctrl=2E/>",
+      "result": "逐源复核通过：自称老夫符合赤洲发言身份，呀及其他语气保持；2E点击与颜色边界无变动。"
+    },
+    {
+      "id": "scratch4.dat/s12:31255",
+      "target": "<color=0>两位的，事情，</color><row/><color=0>老夫已经听，</color><row/><color=0>松田先生说过了呀。</color><ctrl=2E/>",
+      "result": "逐源复核通过：自称老夫符合赤洲发言身份，呀及其他语气保持；2E点击与颜色边界无变动。"
+    },
+    {
+      "id": "scratch4.dat/s12:32185",
+      "target": "<color=0>“那，老夫先问一句，</color><row/><color=0>这个月发生的这起案子，</color><row/><color=0>你们知道吗？”</color><ctrl=2E/>",
+      "result": "逐源复核通过：自称老夫符合赤洲发言身份，呀及其他语气保持；2E点击与颜色边界无变动。"
+    },
+    {
+      "id": "scratch4.dat/s12:34500",
+      "target": "<color=0>“不，老夫调查过，</color><row/><color=0>那个叫门泽的男人……</color><ctrl=2E/>",
+      "result": "逐源复核通过：自称老夫符合赤洲发言身份，呀及其他语气保持；2E点击与颜色边界无变动。"
+    },
+    {
+      "id": "scratch4.dat/s12:37581",
+      "target": "<color=0>“老夫明白呀。</color><ctrl=2E/>",
+      "result": "逐源复核通过：自称老夫符合赤洲发言身份，呀及其他语气保持；2E点击与颜色边界无变动。"
+    },
+    {
+      "id": "scratch4.dat/s12:37745",
+      "target": "<color=0>不过，她的日常行踪，</color><row/><color=0>老夫可能会</color><row/><color=0>稍微调查一下呀。”</color><ctrl=2E/>",
+      "result": "逐源复核通过：自称老夫符合赤洲发言身份，呀及其他语气保持；2E点击与颜色边界无变动。"
+    }
+  ]
+}

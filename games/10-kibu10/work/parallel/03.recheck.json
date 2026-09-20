@@ -1,0 +1,70 @@
+{
+  "batch": 3,
+  "reviewer": "trans07",
+  "status": "passed",
+  "resolved_findings": 10,
+  "remaining_findings": [],
+  "approved_counts": {
+    "clicks": 877,
+    "colors": 99
+  },
+  "actually_reread_changed_records": {
+    "clicks": [
+      "scratch4.dat/s04:3467:token33",
+      "scratch4.dat/s04:6384:token23",
+      "scratch4.dat/s04:8569:token5",
+      "scratch4.dat/s04:8833:token21",
+      "scratch4.dat/s04:9014:token11",
+      "scratch4.dat/s04:9715:token5",
+      "scratch4.dat/s04:9964:token17",
+      "scratch4.dat/s04:10241:token11",
+      "scratch4.dat/s04:11921:token5",
+      "scratch4.dat/s04:14854:token25",
+      "scratch4.dat/s04:16137:token27",
+      "scratch4.dat/s04:17687:token25",
+      "scratch4.dat/s04:19387:token15",
+      "scratch4.dat/s04:21122:token17",
+      "scratch4.dat/s04:21728:token23",
+      "scratch4.dat/s04:21939:token11",
+      "scratch4.dat/s04:22833:token23",
+      "scratch4.dat/s04:24973:token27",
+      "scratch4.dat/s04:26438:token21",
+      "scratch4.dat/s04:27472:token15",
+      "scratch4.dat/s04:29113:token25",
+      "scratch4.dat/s04:33558:token5",
+      "scratch4.dat/s04:37044:token11",
+      "scratch4.dat/s04:37151:token17",
+      "scratch4.dat/s04:38223:token15",
+      "scratch4.dat/s04-1:2648:token11",
+      "scratch4.dat/s04-1:6081:token11",
+      "scratch4.dat/s04-1:6163:token17",
+      "scratch4.dat/s05:7451:opcode47",
+      "scratch4.dat/s05:8398:token11",
+      "scratch4.dat/s05:34893:token27"
+    ],
+    "colors": [
+      "scratch4.dat/s04:3467:token20",
+      "scratch4.dat/s04:8833:token8",
+      "scratch4.dat/s04:14854:token12",
+      "scratch4.dat/s04:16137:token14",
+      "scratch4.dat/s04:17687:token12",
+      "scratch4.dat/s04:17687:token18",
+      "scratch4.dat/s04:22833:token8",
+      "scratch4.dat/s04:24973:token8",
+      "scratch4.dat/s04:26438:token8",
+      "scratch4.dat/s04:27472:token2",
+      "scratch4.dat/s04:29113:token6",
+      "scratch4.dat/s04:29113:token12",
+      "scratch4.dat/s04:38223:token2",
+      "scratch4.dat/s05:34893:token14"
+    ]
+  },
+  "notes": [
+    "复读10条修复的完整源译文，全部与建议一致；未变记录复用前次927单元审校。",
+    "本轮逐条读取31条新增/变更点击记录与14条颜色记录：女性、松田美纪惠、末日、巨大影响、天谴、相同动机、奇怪的人、案件解决等现均正确对应原强调对象。",
+    "圆口/尚刚回忆引号、优子发言接续、尾场警部对中庭离席的发言接续均在已读上下文中成立。",
+    "单程二十分钟仍保留左右于普通色；目击时间九点之前保留原文9時前；数日后与解决仍分置ctrl3B两侧。",
+    "修复お構いなく受招待语气、未知物菜单与彩色提示的完整对应、I县空格、旁白引号及自首重锤回声均通过。",
+    "报告各target片段已与当前03.trans逐片段核验一致。未新增机械已审内容；只导出先前已审和本轮实际复读通过的记录。"
+  ]
+}

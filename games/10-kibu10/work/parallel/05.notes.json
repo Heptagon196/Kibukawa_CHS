@@ -1,0 +1,144 @@
+{
+  "batch": 5,
+  "scripts": [
+    "scratch4.dat/s12",
+    "scratch4.dat/s13"
+  ],
+  "unit_count": 765,
+  "status": "translation_complete_self_reviewed_pending_cross_review",
+  "terms": [
+    {
+      "source": "美紀恵 / 松田美紀恵",
+      "target": "美纪惠 / 松田美纪惠",
+      "note": "松田尚刚独女；仅按汉字对应，不推读音。"
+    },
+    {
+      "source": "慰苦師",
+      "target": "慰苦师",
+      "note": "释迦堂自述职称；与会员身份区分，不改为心理医生或神职人员。"
+    },
+    {
+      "source": "ウィークリー鞠浜",
+      "target": "《鞠滨周刊》",
+      "note": "赤洲出示门泽案件剪报的周刊。"
+    },
+    {
+      "source": "雑居ビル",
+      "target": "综合楼",
+      "note": "主控统一：多租户混合用途大楼；未明确住宅，不添加商住用途。永劫会总部及大厅在五层。"
+    },
+    {
+      "source": "生垣 / 斑鳩 / 西畳",
+      "target": "生垣 / 斑鸠 / 西叠",
+      "note": "癸生川三次故意叫错石上名字，不纠正为石上。"
+    }
+  ],
+  "self_review": {
+    "method": "先连读完整中文输出，再核对全部已读原文及逐项着色对照；检查 JSON 覆盖、标签序列、假名残留和跨单元引号状态。没有写入已审基线。",
+    "actual_fixes": [
+      {
+        "id": "scratch4.dat/s12:3800",
+        "finding": "介绍对象话题由中庭引出；修正初译“您想介绍”为“我想介绍”，避免主客关系颠倒。"
+      },
+      {
+        "id": "scratch4.dat/s12:19272",
+        "finding": "原因不明不能译成无缘无故；定稿“不知何故”，并补齐该轮发言结束引号。"
+      },
+      {
+        "id": "scratch4.dat/s12:26219",
+        "finding": "核对姓名高亮后修正分段，让赤洲妖星完整留在 color=2 内，名叫等措辞留在普通色。"
+      },
+      {
+        "id": "scratch4.dat/s12:36638",
+        "finding": "关联变弱指调查案件与永劫会这条线索，不能擅自明确为澄佳与永劫会的关系变弱；修订为“永劫会这条线索已经不那么有力”。"
+      },
+      {
+        "id": "scratch4.dat/s12:10118",
+        "finding": "未来永劫为永久之意；取消带负义的永劫不复类比，译作“表示永远的永劫”。"
+      },
+      {
+        "id": "scratch4.dat/s13:9932",
+        "finding": "自我介绍连读时日语式后置姓名不自然，调整为“我在这里担任慰苦师，名叫释迦堂弓子”，姓名颜色不变。"
+      }
+    ]
+  },
+  "click_and_color_notes": [
+    {
+      "ids": [
+        "scratch4.dat/s12:9358",
+        "scratch4.dat/s12:9979",
+        "scratch4.dat/s12:10118"
+      ],
+      "note": "听到エイゴウカイ后再查到汉字名称；无假名残留，中文均写永劫会，后一单元仍保留字义说明。这里汉字/语音区别中文难完全重现，未造额外同音名或译注。"
+    },
+    {
+      "ids": [
+        "scratch4.dat/s12:21553",
+        "scratch4.dat/s12:21622",
+        "scratch4.dat/s12:21714"
+      ],
+      "note": "两个月先独立亮出；下一个点击才说明怀孕两个月，再后一个点击才推至距今三个月前。未合并时间揭示。"
+    },
+    {
+      "ids": [
+        "scratch4.dat/s12:33201",
+        "scratch4.dat/s12:33308",
+        "scratch4.dat/s12:33476",
+        "scratch4.dat/s12:33635"
+      ],
+      "note": "美纪惠和门泽见面为目击者报告；先人名，后见面事实，再家庭餐厅与三个月前，不提前断定门泽为致孕者。"
+    },
+    {
+      "ids": [
+        "scratch4.dat/s12:48012"
+      ],
+      "note": "ctrl=3B 前保持“有点……”；后才改口“非常后悔”，保留自我纠正时机。"
+    },
+    {
+      "ids": [
+        "scratch4.dat/s12:42923",
+        "scratch4.dat/s12:42955",
+        "scratch4.dat/s13:1558"
+      ],
+      "note": "三个沉默片段按 ctrl=3A 间隔原位保留，未合为单个省略号。"
+    },
+    {
+      "ids": [
+        "scratch4.dat/s13:12426",
+        "scratch4.dat/s13:12581",
+        "scratch4.dat/s13:12923",
+        "scratch4.dat/s13:13143",
+        "scratch4.dat/s13:13323"
+      ],
+      "note": "先无资格、将来也无资格，再只经会员介绍/严格审查，后才明确男性永不具资格；没有提前揭露其他资格条件。"
+    },
+    {
+      "ids": [
+        "scratch4.dat/s13:16115",
+        "scratch4.dat/s13:16279"
+      ],
+      "note": "选择释迦堂为错误分支；保留其不是会员的纠正，与慰苦师身份区分。"
+    },
+    {
+      "ids": [
+        "scratch4.dat/s13:19184",
+        "scratch4.dat/s13:19213",
+        "scratch4.dat/s13:19385",
+        "scratch4.dat/s13:20094",
+        "scratch4.dat/s13:20461",
+        "scratch4.dat/s13:20575",
+        "scratch4.dat/s13:20885"
+      ],
+      "note": "先爆响、再强烈冲击与目击描述；后解释车顶先爆炸、蛇行撞楼、再爆炸。16时41分仅在末尾原高亮单元出现。"
+    }
+  ],
+  "validation": {
+    "source_units": 765,
+    "target_units": 765,
+    "missing": 0,
+    "tag_sequence_mismatches": 0,
+    "japanese_kana_residuals": 0,
+    "quote_end_state": 0
+  },
+  "remaining": "需独立交叉审校及主控正式点击/着色基线流程；未操作游戏窗口，未改正式译稿、缓存、术语表或前作。"
+}

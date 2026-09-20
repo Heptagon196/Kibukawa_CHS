@@ -1,0 +1,49 @@
+{
+  "schema": 1,
+  "id": "kibu10",
+  "adapter": "gmode-20050817-direct",
+  "source_fingerprints": "work/manifest.json",
+  "translation": "work/cache.json",
+  "glossary": "work/glossary.locked.json",
+  "bepinex": {
+    "profile": "mono-win-x64-5.4.23.5",
+    "managed": "kibu10_Data/Managed",
+    "assembly": "Kibu10ZhCN.dll",
+    "plugin_directory": "Kibu10ZhCN",
+    "references": [
+      "mscorlib.dll",
+      "netstandard.dll",
+      "System.dll",
+      "System.Core.dll",
+      "UnityEngine.dll",
+      "UnityEngine.CoreModule.dll",
+      "UnityEngine.UI.dll",
+      "UnityEngine.UIModule.dll",
+      "UnityEngine.TextRenderingModule.dll",
+      "UnityEngine.ImageConversionModule.dll"
+    ]
+  },
+  "compatibility": {
+    "stage": "translation_reviewed_offline_build_verified",
+    "runtime_tested": false,
+    "release_ready": true,
+    "hooks_ready": true,
+    "translation_complete": true,
+    "adapter_reviewed": true,
+    "bootstrap_verified": true,
+    "container_verified": true,
+    "script_extraction_complete": true,
+    "notes": "Complete Chinese translation and independent click/color review; direct BIN variant reuses eighth-game row engine and shared BepInEx build. Offline ABI, original decoder, menus, reflow, UI, images and history verified. User in-game validation pending."
+  },
+  "layout": {
+    "chinese_layout_verified": false,
+    "offline_verified": true
+  },
+  "translation_title": "永劫会事件",
+  "translation_title_status": "confirmed_local",
+  "resource_containers": [
+    "scratch4.dat"
+  ],
+  "source_title": "永劫会事件",
+  "approved_empty_layout_text": {}
+}

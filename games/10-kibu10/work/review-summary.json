@@ -1,0 +1,124 @@
+{
+  "schema": 1,
+  "game": "kibu10",
+  "status": "complete_offline_verified",
+  "active_units": 9541,
+  "inactive_aliases": 309,
+  "clicks": 8591,
+  "colors": 1270,
+  "batches": [
+    {
+      "batch": 0,
+      "reviewer": "trans08",
+      "clicks": 131,
+      "colors": 36,
+      "recheck": "parallel/00.recheck.json"
+    },
+    {
+      "batch": 1,
+      "reviewer": "runtime-independent",
+      "clicks": 777,
+      "colors": 150,
+      "recheck": "parallel/01.recheck.json"
+    },
+    {
+      "batch": 2,
+      "reviewer": "trans01",
+      "clicks": 632,
+      "colors": 123,
+      "recheck": "parallel/02.recheck.json"
+    },
+    {
+      "batch": 3,
+      "reviewer": "trans07",
+      "clicks": 877,
+      "colors": 99,
+      "recheck": "parallel/03.recheck.json"
+    },
+    {
+      "batch": 4,
+      "reviewer": "trans03",
+      "clicks": 521,
+      "colors": 55,
+      "recheck": "parallel/04.recheck.json"
+    },
+    {
+      "batch": 5,
+      "reviewer": "trans06",
+      "clicks": 718,
+      "colors": 72,
+      "recheck": "parallel/05.recheck.json"
+    },
+    {
+      "batch": 6,
+      "reviewer": "trans05",
+      "clicks": 832,
+      "colors": 95,
+      "recheck": "parallel/06.recheck.json"
+    },
+    {
+      "batch": 7,
+      "reviewer": "trans04",
+      "clicks": 958,
+      "colors": 84,
+      "recheck": "parallel/07.recheck.json"
+    },
+    {
+      "batch": 8,
+      "reviewer": "trans02",
+      "clicks": 684,
+      "colors": 201,
+      "recheck": "parallel/08.recheck.json"
+    },
+    {
+      "batch": 9,
+      "reviewer": "trans12",
+      "clicks": 742,
+      "colors": 93,
+      "recheck": "parallel/09.recheck.json"
+    },
+    {
+      "batch": 10,
+      "reviewer": "trans09",
+      "clicks": 550,
+      "colors": 72,
+      "recheck": "parallel/10.recheck.json"
+    },
+    {
+      "batch": 11,
+      "reviewer": "trans10",
+      "clicks": 536,
+      "colors": 65,
+      "recheck": "parallel/11.recheck.json"
+    },
+    {
+      "batch": 12,
+      "reviewer": "trans11",
+      "clicks": 633,
+      "colors": 125,
+      "recheck": "parallel/12.recheck.json"
+    }
+  ],
+  "draft_sha256": "2d39595e702fc1bc89ad83ecd60990444c837aa7f1796155bb45d8c3f4053f47",
+  "baselines": {
+    "work/click_boundaries.reviewed.json": "9c2a48c23ff9454e14d58b86b9cdb6dd4b548d5f619dc8b65c8f39325a176e3a",
+    "research/color-spans.reviewed.json": "f84f25b108c9bc5df01f7a9a89cf06bd0dfeeadc4fc581b16c022d7e4eb1ef51"
+  },
+  "glossary": "50 new public records; 8 existing records received local source references; 62 provisional credits retained locally",
+  "verification": "reports/verify-all.json",
+  "known_source_discrepancies": "Original contradictory victim counts and suspended/prison sentence references retained; see per-batch notes and glossary rules.",
+  "build_report": "reports/build_latest.json",
+  "archive": "out/CHS_20260919_230434_88162700/Kibu10_CHS.zip",
+  "archive_sha256": "703e6a7e282047221eb9a9a5decf8cff3c4fa14caae3629840bdff94222f16b2",
+  "runtime_tested": false,
+  "legacy_style_audit": {
+    "report": "work/style-audit-review.json",
+    "spacing_candidates": 262,
+    "unique_spacing_units": 162,
+    "spacing_findings": 0,
+    "quote_candidates": 2740,
+    "quote_disposition": "The shared checker groups only opcode 72; direct-engine dialogue opcode 255 is split into independent slots. All full utterances and branch closures were instead independently reviewed in 13 scene batches.",
+    "report_sha256": "699cfc54d6c8a5692ba6a0fc6d22fe837ceb1f813eed4f7b927dee93e9fe84e7"
+  },
+  "installed_revision": "0.1.1"
+}

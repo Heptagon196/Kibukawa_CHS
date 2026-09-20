@@ -1,0 +1,68 @@
+{
+  "batch": 3,
+  "reviewer": "trans07",
+  "coordinator": "root",
+  "status": "applied_awaiting_recheck",
+  "fixes": [
+    {
+      "id": "scratch4.dat/s04:6384",
+      "before": "<color=0>其中三分之一的人，</color><row/><color=0>已经彻底成了‘信徒’，</color><row/><color=0>非但不恨他，</color><row/><color=0>反而心存感激。</color><ctrl=2E/>",
+      "after": "<color=0>其中三分之一的人，</color><row/><color=0>已经彻底成了“信徒”，</color><row/><color=0>非但不恨他，</color><row/><color=0>反而心存感激。</color><ctrl=2E/>",
+      "reason": "旁白中的直接引用未处于外层引号内，应使用双引号，不用内层单引号。"
+    },
+    {
+      "id": "scratch4.dat/s04:17687",
+      "before": "<color=0>大致就在平时</color><row/><color=0>会</color><color=2>打开辅助灯</color><row/><color=2>的时候</color><color=0>。</color><ctrl=2E/>",
+      "after": "<color=0>大致就在平时</color><row/><color=0>会给辅助灯</color><color=2>开灯</color><row/><color=2>的时候</color><color=0>。</color><ctrl=2E/>",
+      "reason": "着色范围扩展：原文补助灯在普通色段，强调的是点灯させる時間；译文把辅助灯也移入强调。"
+    },
+    {
+      "id": "scratch4.dat/s04:21122",
+      "before": "<color=0>还有‘这是上天的裁决’</color><row/><color=0>之类，</color><row/><color=0>莫名其妙的说教……</color><ctrl=2E/>",
+      "after": "<color=0>还有“这是上天的裁决”</color><row/><color=0>之类，</color><row/><color=0>莫名其妙的说教……</color><ctrl=2E/>",
+      "reason": "旁白直接引用应使用外层双引号。"
+    },
+    {
+      "id": "scratch4.dat/s04:21728",
+      "before": "<color=0>问起理由，</color><row/><color=0>有人会说‘因为我心想</color><row/><color=0>让巴士出事吧，</color><row/><color=0>它就恰好出事了’……</color><ctrl=2E/>",
+      "after": "<color=0>问起理由，</color><row/><color=0>有人会说“因为我心想</color><row/><color=0>‘让巴士出事吧’，</color><row/><color=0>它就恰好出事了”……</color><ctrl=2E/>",
+      "reason": "旁白直接引用应使用外层双引号，且心想内嵌句可用单引号标清。"
+    },
+    {
+      "id": "scratch4.dat/s04:21939",
+      "before": "<color=0>还有‘我要给安逸到麻木的</color><row/><color=0>社会当头一棒’之类……</color><ctrl=2E/>",
+      "after": "<color=0>还有“我给这个因和平而麻木的</color><row/><color=0>社会，以一记重锤”之类……</color><ctrl=2E/>",
+      "reason": "平和ボケした社会/鉄槌是澄佳自首原话的回声，应与批次07一致；当前时态我要给也将已实施改成意图。旁白引用用双引号。"
+    },
+    {
+      "id": "scratch4.dat/s04:22833",
+      "before": "<color=0>……如果炸毁巴士，</color><row/><color=2>是为了杀死全部乘客</color><row/><color=0>而采取的</color><row/><color=0>行动……</color><ctrl=2E/>",
+      "after": "<color=0>……如果炸毁巴士，是为了</color><row/><color=2>杀死全部乘客</color><row/><color=0>而采取的</color><row/><color=0>行动……</color><ctrl=2E/>",
+      "reason": "强调范围扩展：原文高亮仅乗客を皆殺しにする，译文把是为了也放进高亮。"
+    },
+    {
+      "id": "scratch4.dat/s04:33558",
+      "before": "<color=0>请不用客气。”</color><ctrl=2E/>",
+      "after": "<color=0>您不用特意招呼我。”</color><ctrl=2E/>",
+      "reason": "お構いなく是请别特意招呼/费心，现有请不用客气容易变成招待方用语，颠倒受招待者语气。"
+    },
+    {
+      "id": "scratch4.dat/s04:33839:arg0",
+      "before": "什么",
+      "after": "什么东西",
+      "reason": "可调查未知物的选项なにか仅译什么不像对象标签；建议与后续彩色提示统一为什么东西。"
+    },
+    {
+      "id": "scratch4.dat/s04:38223",
+      "before": "<color=10>什么</color><color=0>东西好像</color><row/><color=0>被她落下了……</color><ctrl=2E/>",
+      "after": "<color=10>什么东西</color><color=0>好像被她</color><row/><color=0>落下了……</color><ctrl=2E/>",
+      "reason": "なにか指落下的未知物，译文彩色点击提示只有什么，名词东西被移到普通色；建议强调完整对象并与菜单一致。"
+    },
+    {
+      "id": "scratch4.dat/s05:8398",
+      "before": "<color=0>我结束了为期六天的</color><row/><color=0>I 县出差，回来了。</color><ctrl=2E/>",
+      "after": "<color=0>我结束了为期六天的 I 县</color><row/><color=0>出差，回来了。</color><ctrl=2E/>",
+      "reason": "中文与字母I之间缺少半角空格。"
+    }
+  ]
+}

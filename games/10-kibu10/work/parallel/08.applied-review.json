@@ -1,0 +1,80 @@
+{
+  "batch": 8,
+  "reviewer": "trans02",
+  "coordinator": "root",
+  "status": "applied_awaiting_recheck",
+  "fixes": [
+    {
+      "id": "scratch4.dat/s27:781",
+      "before": "<color=0>“……真是的，怎么</color><row/><color=0>让人这么着急呢。”</color><ctrl=2E/>",
+      "after": "<color=0>“……真是的，怎么</color><row/><color=0>这么让人心烦呢。”</color><ctrl=2E/>",
+      "reason": "情绪偏移：イライラ是烦躁/不耐烦，现译“让人着急”容易理解为担忧。"
+    },
+    {
+      "id": "scratch4.dat/s27:14504",
+      "before": "<color=0>“总觉得，没法</color><row/><color=0>老老实实地</color><row/><color=0>安慰你呢。”</color><ctrl=2E/>",
+      "after": "<color=0>“总觉得，都不想</color><row/><color=0>老老实实地</color><row/><color=0>安慰你了呢。”</color><ctrl=2E/>",
+      "reason": "意愿译成能力：励ましたくなくなる为变得不想安慰，现译“没法”改变嘲弄语气。"
+    },
+    {
+      "id": "scratch4.dat/s27:16334",
+      "before": "<color=2>生王正生</color><color=0>，</color><row/><color=0>日语是这么念的。”</color><ctrl=2B/>",
+      "after": "<color=2>生王正生</color><color=0>，</color><row/><color=0>要这么读。”（译注：‘生王’日语读 Ikurumi，冲村误读成了 Namaou。）</color><ctrl=2B/>",
+      "reason": "关键读音纠正丢失，且“日语是这么念的”让角色谈论翻译。仅显示汉字无法令玩家理解217误读、223只有此读法才成立。建议角色仅纠正读法，句外短注；此注方案待协调确认。"
+    },
+    {
+      "id": "scratch4.dat/s30:801",
+      "before": "<color=0>她似乎怀孕了，</color><row/><color=0>却无法对任何人开口，</color><row/><color=0>为此十分苦恼……</color><ctrl=2E/>",
+      "after": "<color=0>她怀孕了，</color><row/><color=0>似乎因无法对任何人开口，</color><row/><color=0>一直为此苦恼……</color><ctrl=2E/>",
+      "reason": "不确定性范围：源句已将怀孕作为前提，ようです说明无法向人开口并因此苦恼；现译“似乎怀孕了”反而弱化怀孕事实。"
+    },
+    {
+      "id": "scratch4.dat/s31:837",
+      "before": "<color=0>昨天，附近居民在</color><row/><color=0>鞠滨市内的万里川</color><row/><color=0>河口发现一具男尸……</color><ctrl=2E/>",
+      "after": "<color=0>昨天，鞠滨市内的</color><row/><color=0>万里川河口，</color><row/><color=0>一具男尸漂浮在水面上……</color><ctrl=2E/>",
+      "reason": "跨点击搬移信息：本单元原文只有日期地点与男尸漂浮，附近居民发现是在下一单元378；现译提前居民发现并把漂浮延后。与378成对修正。"
+    },
+    {
+      "id": "scratch4.dat/s31:1009",
+      "before": "<color=0>漂浮在水面上，</color><row/><color=0>随后拨打了 110 报警。</color><ctrl=2E/>",
+      "after": "<color=0>附近居民发现后，</color><row/><color=0>拨打了 110 报警。</color><ctrl=2E/>",
+      "reason": "与377成对恢复点击信息边界：此单元才是附近居民发现并拨打110，不应承接上一单元被搬走的漂浮。"
+    },
+    {
+      "id": "scratch4.dat/s31:2355",
+      "before": "<color=0>因此，越来越多的人</color><row/><color=0>认为，案件可能</color><row/><color=0>与这方面有关……</color><ctrl=2E/>",
+      "after": "<color=0>因此，有人认为，</color><row/><color=0>案件可能</color><row/><color=0>与这方面有关……</color><ctrl=2E/>",
+      "reason": "“越来越多的人认为”提前引入391才出现的见方增强，并添加了人数增加；本单元仅表达可能有关的猜测。"
+    },
+    {
+      "id": "scratch4.dat/s31:3062",
+      "before": "<color=0>“说到这里，</color><row/><color=0>我们准备了一块展板，</color><row/><color=0>统计了今年以来……</color><ctrl=2E/>",
+      "after": "<color=0>“说到这里。</color><row/><color=0>今年以来，</color><row/><color=0>新成立的……</color><ctrl=2E/>",
+      "reason": "跨点击提前展板：源文此单元仅引出今年新成立的对象，展板及数量在397；现译先说准备展板。与397成对修正。"
+    },
+    {
+      "id": "scratch4.dat/s31:3206",
+      "before": "<color=0>新成立的</color><row/><color=0>新兴宗教</color><row/><color=0>的数量。</color><ctrl=2E/>",
+      "after": "<color=0>新兴宗教有多少，</color><row/><color=0>我们准备了一块展板，</color><row/><color=0>把数量统计了出来。</color><ctrl=2E/>",
+      "reason": "与396成对保留展板与数量首次出现位置。"
+    },
+    {
+      "id": "scratch4.dat/s32:394",
+      "before": "<color=0>运气不错，警察</color><row/><color=0>似乎忘了锁门，</color><row/><color=0>房门开着。</color><ctrl=2E/>",
+      "after": "<color=0>运气不错，警察</color><row/><color=0>似乎忘了锁门，</color><row/><color=0>房门没有上锁。</color><ctrl=2E/>",
+      "reason": "物理状态误译：部屋のカギが開いていた是没有上锁，不等于房门敞开。"
+    },
+    {
+      "id": "scratch4.dat/s32:899",
+      "before": "<color=0>另外，我还在信箱里</color><row/><color=2>发现了一封</color><color=0>信</color><row/><color=0>。</color><ctrl=2E/>",
+      "after": "<color=0>另外，我还在信箱里发现了一封</color><row/><color=2>信</color><color=0>。</color><row/><color=0></color><ctrl=2E/>",
+      "reason": "明确着色错误：原color2强调手紙，现color2却是“发现了一封”，实际信字落在color0。"
+    },
+    {
+      "id": "scratch4.dat/s33:16915",
+      "before": "<color=0>而且，据说还有</color><row/><color=0>20 多个人</color><row/><color=0>下落不明……</color><ctrl=2E/>",
+      "after": "<color=0>而且，据说还有</color><row/><color=0>20 人以上</color><row/><color=0>下落不明……</color><ctrl=2E/>",
+      "reason": "数量边界：20名以上包含20人，20多个人排除了恰好20。"
+    }
+  ]
+}

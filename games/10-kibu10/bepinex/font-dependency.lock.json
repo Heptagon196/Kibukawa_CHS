@@ -1,0 +1,21 @@
+{
+  "font": "GNU Unifont",
+  "version": "16.0.04",
+  "pixelSize": 16,
+  "license": "OFL-1.1",
+  "verification": "SHA-256 calculated from bytes retrieved from the official versioned HTTPS release archive; pinned for subsequent builds.",
+  "dependencies": {
+    "glyphs": {
+      "file": "unifont-16.0.04.hex.gz",
+      "url": "https://unifoundry.com/pub/unifont/unifont-16.0.04/font-builds/unifont-16.0.04.hex.gz",
+      "size": 936499,
+      "sha256": "f9c8c7802453f47be02677176aeac2342ee96d354fad7a26cedcce48e68e1d9f"
+    },
+    "source": {
+      "file": "unifont-16.0.04.tar.gz",
+      "url": "https://unifoundry.com/pub/unifont/unifont-16.0.04/unifont-16.0.04.tar.gz",
+      "size": 32852475,
+      "sha256": "2bd4e4679757126f48e1bf2c1be40b09aa92162bfedda4683ce5fbc70a2a5972"
+    }
+  }
+}

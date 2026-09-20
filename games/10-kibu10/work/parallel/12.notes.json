@@ -1,0 +1,115 @@
+{
+  "batch": 12,
+  "scripts": [
+    "scratch4.dat/s36",
+    "scratch4.dat/s37"
+  ],
+  "units": 806,
+  "status": "translated_self_checked_pending_independent_review",
+  "terms": [
+    {
+      "source": "矢当トウヤ",
+      "target": "矢当托也",
+      "note": "已按协调者与更新锁定表统一，不使用初稿透矢。"
+    },
+    {
+      "source": "和志武稔",
+      "target": "和志武稔",
+      "note": "仅见选项；不推断身份与读音。"
+    },
+    {
+      "source": "未完成協奏曲",
+      "target": "未完成协奏曲",
+      "note": "澄佳的未完成作品；演出为补尾编曲，由中庭演奏且非双簧管。"
+    },
+    {
+      "source": "国際捜査官",
+      "target": "国际调查员",
+      "note": "优子的未来志向，未擅自替换为国际刑警组织具体职务。"
+    },
+    {
+      "source": "亜伊ちん",
+      "target": "亚伊亲",
+      "status": "provisional",
+      "note": "片尾昵称，ちん按昵称语气暂译亲；需独立审校确认。"
+    },
+    {
+      "source": "橋本ますみ",
+      "target": "桥本玛苏米",
+      "status": "provisional",
+      "note": "假名音译，不猜真实汉字名。"
+    },
+    {
+      "source": "富岡ともみ",
+      "target": "富冈托莫米",
+      "status": "provisional",
+      "note": "假名音译，不猜真实汉字名。"
+    },
+    {
+      "source": "町田ユート",
+      "target": "町田优托",
+      "status": "provisional",
+      "note": "假名音译，不推测真实汉字。"
+    },
+    {
+      "source": "㈲エグゼクリエイト",
+      "target": "有限会社 EXE-CREATE",
+      "status": "provisional",
+      "note": "片尾公司署名采用英文名，需协调者核对系列保留名。"
+    },
+    {
+      "source": "デジタルハーツ",
+      "target": "DIGITAL HEARTS",
+      "status": "provisional",
+      "note": "片尾公司署名采用英文名，需协调者核对系列保留名。"
+    }
+  ],
+  "review_findings": [
+    {
+      "scope": "all 806 units",
+      "performed": "先读完整日文上下文，再逐单元翻译；完成后连读中文，并对带颜色项目逐条中日文对照。未使用机器翻译或日文填充。"
+    },
+    {
+      "scope": "s36 解答篇",
+      "performed": "保留犯人竞猜错误选项、错误回答纠正、指认一条院与揭露石上身份的先后顺序。保留癸生川对澄佳被利用的推理，与尾声后续供述翻转事实的区别。"
+    },
+    {
+      "scope": "s37 尾声",
+      "performed": "核对灯泡仅有水、石上自行放置五只灯泡、无论澄佳行动与否都会爆炸、自首诱导、澄佳无辜等条件与信息时机。工藤认罪仍是时间问题，未改已认罪。"
+    },
+    {
+      "scope": "color semantics",
+      "performed": "自检修正了初稿暴行事件／电球交换／これ等高亮错位；当前逐个保留原始标签序列，强调分别对应性侵案、更换灯泡、这个。商业模式及伪装自杀等跨同色行允许中文内部重排。"
+    },
+    {
+      "scope": "quotation",
+      "performed": "按完整发言跨单元补齐引号，并修复解答长发言三处缺后引号。中庭音乐会对话与优子回忆对白分别成对。"
+    },
+    {
+      "scope": "click boundaries",
+      "performed": "逐个对照提供的 2E/2B 结束单元，不把相邻等待单元的情报移入前一个。题目和选择边界独立。未生成或批准正式 click/color 基线；原始分支和姓名指令仍需协调者完整指令回放审查。"
+    }
+  ],
+  "review_attention": [
+    {
+      "index": 198,
+      "id": "scratch4.dat/s36:13135",
+      "note": "为保持红色对象和自然中文，最后一个普通色行为空；标签完整保留。"
+    },
+    {
+      "index": 356,
+      "id": "scratch4.dat/s36:27841",
+      "note": "最后普通色行为空；已完整传达会员共同点，无移动点击信息。"
+    },
+    {
+      "index": 803,
+      "id": "scratch4.dat/s37:18161",
+      "note": "结尾 2000 年法律说明按原作时代叙述翻译，不把“现在”改为现实 2026 年，也未加入现实法律评论。"
+    },
+    {
+      "index": 702,
+      "id": "scratch4.dat/s37:14880",
+      "note": "原文そんなことよりも为近似口头语；译先不说这个，不机械套这个先不提。"
+    }
+  ]
+}

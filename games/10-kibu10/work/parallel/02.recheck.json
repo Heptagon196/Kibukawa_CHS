@@ -1,0 +1,80 @@
+{
+  "batch": 2,
+  "reviewer": "trans01",
+  "reviewed_ids": [
+    "scratch4.dat/s02:598",
+    "scratch4.dat/s02:742",
+    "scratch4.dat/s02:2490",
+    "scratch4.dat/s02:6250",
+    "scratch4.dat/s02:12616",
+    "scratch4.dat/s02:25783",
+    "scratch4.dat/s02:39218:arg0",
+    "scratch4.dat/s02:39781",
+    "scratch4.dat/s02:41629",
+    "scratch4.dat/s02:42864",
+    "scratch4.dat/s03:9556",
+    "scratch4.dat/s03:10872:arg0",
+    "scratch4.dat/s03:21298"
+  ],
+  "resolved_ids": [
+    "scratch4.dat/s02:598",
+    "scratch4.dat/s02:742",
+    "scratch4.dat/s02:2490",
+    "scratch4.dat/s02:6250",
+    "scratch4.dat/s02:12616",
+    "scratch4.dat/s02:25783",
+    "scratch4.dat/s02:39218:arg0",
+    "scratch4.dat/s02:39781",
+    "scratch4.dat/s02:41629",
+    "scratch4.dat/s02:42864",
+    "scratch4.dat/s03:10872:arg0",
+    "scratch4.dat/s03:21298",
+    "scratch4.dat/s03:9556"
+  ],
+  "findings": [],
+  "baselines": {
+    "clicks": {
+      "reused": 621,
+      "newly_approved": [
+        "scratch4.dat/s02:598:token21",
+        "scratch4.dat/s02:742:token21",
+        "scratch4.dat/s02:2490:token23",
+        "scratch4.dat/s02:6250:token11",
+        "scratch4.dat/s02:12616:token17",
+        "scratch4.dat/s02:25783:token17",
+        "scratch4.dat/s02:39781:token21",
+        "scratch4.dat/s02:41629:token19",
+        "scratch4.dat/s02:43009:opcode47",
+        "scratch4.dat/s03:21298:token15",
+        "scratch4.dat/s03:9556:token31"
+      ],
+      "approved": 632,
+      "total": 632
+    },
+    "colors": {
+      "reused": 114,
+      "newly_approved": [
+        "scratch4.dat/s02:598:token8",
+        "scratch4.dat/s02:742:token8",
+        "scratch4.dat/s02:12616:token8",
+        "scratch4.dat/s02:39781:token8",
+        "scratch4.dat/s02:41629:token6",
+        "scratch4.dat/s02:42864:token8",
+        "scratch4.dat/s03:21298:token8",
+        "scratch4.dat/s03:9556:token12",
+        "scratch4.dat/s03:9556:token18"
+      ],
+      "approved": 123,
+      "total": 123
+    }
+  },
+  "notes": [
+    "实际复读13处修订及各自前后2个源译单元（索引9、10、21、49、124、262、397、403、424、441、550、563、673），并逐条读取新增11点击9颜色候选。",
+    "性侵案/4人/节目专题名/同样陷阱/爆裂声强调范围已修正；“兴高采烈”回忆、选项和回答一致。",
+    "7月9–16日为同一周，随后进入17日；收件人姓名保持手写线索；仇恨以条件推测表述。",
+    "对白123–125、423–424、440–441完整发言引号保持，未跨点击挪动信息；本轮修订均无3A/3B内部控制边界。",
+    "s03:9556虽已解决主动计划歧义，复核发现我的原建议把予定语义置于普通色，需要把“该由”恢复至黄色，暂缓该点击和两色。",
+    "最终复核已重读s03:9342–9767源译及9556的1点击2着色候选；“该由门泽文治／乘坐”在连续黄色范围保留原定乘车人的语义，既不暗示死者主动计划，也未跨点击前置事故推测。此前暂缓项已全部修复通过。"
+  ],
+  "status": "passed"
+}

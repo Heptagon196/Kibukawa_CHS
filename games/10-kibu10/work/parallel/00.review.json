@@ -1,0 +1,3870 @@
+{
+  "batch": 0,
+  "reviewer": "trans08",
+  "reviewed_ids": [
+    "file/append:28",
+    "file/append:51:arg0",
+    "file/append:65:arg0",
+    "file/append:81:arg0",
+    "file/append:108:arg0",
+    "file/append:128:arg0",
+    "file/append:147:arg0",
+    "file/append:157:arg0",
+    "file/append:169:arg0",
+    "file/append:185:arg0",
+    "file/append:210:arg0",
+    "file/append:235:arg0",
+    "file/append:256:arg0",
+    "file/append:275:arg0",
+    "file/append:289:arg0",
+    "file/append:308:arg0",
+    "file/append:318:arg0",
+    "file/append:326:arg0",
+    "file/append:343:arg0",
+    "file/append:351:arg0",
+    "file/append:368:arg0",
+    "file/append:387:arg0",
+    "file/append:406:arg0",
+    "file/append:414:arg0",
+    "file/append:610:arg0",
+    "file/append:629:arg0",
+    "file/append:641:arg0",
+    "file/append:657:arg0",
+    "file/append:671:arg0",
+    "file/append:683:arg0",
+    "file/append:706:arg0",
+    "file/append:725:arg0",
+    "file/append:750:arg0",
+    "file/append:760:arg0",
+    "file/append:775:arg0",
+    "file/append:794:arg0",
+    "file/append:808:arg0",
+    "file/append:824:arg0",
+    "file/append:843:arg0",
+    "file/append:868:arg0",
+    "file/append:891:arg0",
+    "file/append:907:arg0",
+    "file/append:923:arg0",
+    "file/append:938:arg0",
+    "file/append:959:arg0",
+    "file/append:982:arg0",
+    "file/append:992:arg0",
+    "file/append:1015:arg0",
+    "file/append:1031:arg0",
+    "file/append:1056:arg0",
+    "file/append:1081:arg0",
+    "file/append:1097:arg0",
+    "file/append:1517:arg0",
+    "file/append:1527:arg0",
+    "file/append:1541:arg0",
+    "file/append:1562:arg0",
+    "file/append:1583:arg0",
+    "file/append:1604:arg0",
+    "file/append:1625:arg0",
+    "file/append:1648:arg0",
+    "file/append:1669:arg0",
+    "file/append:1690:arg0",
+    "file/append:1709:arg0",
+    "file/append:1728:arg0",
+    "file/append:1749:arg0",
+    "file/append:1770:arg0",
+    "file/append:1782:arg0",
+    "file/append:1794:arg0",
+    "file/append:1815:arg0",
+    "file/append:1838:arg0",
+    "file/append:1861:arg0",
+    "file/append:1884:arg0",
+    "file/append:1905",
+    "file/append:1945",
+    "file/append:2012",
+    "file/append:2073",
+    "file/append:2103",
+    "file/append:2200",
+    "file/append:2318",
+    "file/append:2410",
+    "file/append:2496",
+    "file/append:2531",
+    "file/append:2711",
+    "file/append:2746",
+    "file/append:2875",
+    "file/append:2956",
+    "file/append:3006",
+    "file/append:3056",
+    "file/append:3205",
+    "file/append:3328",
+    "file/append:3405",
+    "file/append:3600",
+    "file/append:3702",
+    "file/append:3764",
+    "file/append:3804",
+    "file/append:3864",
+    "file/append:3909",
+    "file/append:3980",
+    "file/append:4020",
+    "file/append:4159",
+    "file/append:4282",
+    "file/append:4322",
+    "file/append:4450",
+    "file/append:4584",
+    "file/append:4722",
+    "file/append:4767",
+    "file/append:4926",
+    "file/append:4961",
+    "file/append:5131",
+    "file/append:5171",
+    "file/append:5231",
+    "file/append:5381",
+    "file/append:5426",
+    "file/append:5451",
+    "file/append:5606",
+    "file/append:5688",
+    "file/append:5843",
+    "file/append:5998",
+    "file/append:6153",
+    "file/append:6265",
+    "file/append:6367",
+    "file/append:6526",
+    "file/append:6603",
+    "file/append:6650",
+    "file/append:6710",
+    "file/append:6789",
+    "file/append:6876",
+    "file/append:6970",
+    "file/append:7005",
+    "file/append:7052",
+    "file/append:7175",
+    "file/append:7190",
+    "file/append:7250",
+    "file/append:7272",
+    "file/append:7327",
+    "file/append:7372",
+    "file/append:7531",
+    "file/append:7643",
+    "file/append:7747",
+    "file/append:7846",
+    "file/append:7893",
+    "file/append:7928",
+    "file/append:8012",
+    "file/append:8037",
+    "file/append:8082",
+    "file/append:8186",
+    "file/append:8213",
+    "file/append:8240",
+    "file/append:8337",
+    "file/append:8473",
+    "file/append:8533",
+    "file/append:8591",
+    "file/append:8675",
+    "file/append:8728",
+    "file/append:8753",
+    "file/append:8842",
+    "file/append:8919",
+    "file/append:8971",
+    "file/append:8991",
+    "file/append:9051",
+    "file/append:9079",
+    "file/append:9110",
+    "file/append:9155",
+    "file/append:9284",
+    "file/append:9361",
+    "file/append:9401",
+    "file/append:9431",
+    "file/append:9454",
+    "file/append:9658:arg0",
+    "file/append:9672:arg0",
+    "file/define:100:arg1",
+    "file/define:124:arg1",
+    "file/define:146:arg1",
+    "file/define:168:arg1",
+    "file/define:190:arg1",
+    "file/define:212:arg1",
+    "file/define:234:arg1",
+    "file/define:256:arg1",
+    "file/define:278:arg1",
+    "file/define:300:arg1",
+    "file/define:322:arg1",
+    "file/define:344:arg1",
+    "file/define:366:arg1",
+    "file/define:388:arg1",
+    "file/define:412:arg1",
+    "file/define:434:arg1",
+    "file/define:458:arg1",
+    "file/define:480:arg1",
+    "file/define:504:arg1",
+    "file/define:526:arg1",
+    "file/define:548:arg1",
+    "file/define:570:arg1",
+    "file/define:592:arg1",
+    "file/define:615:arg1",
+    "file/define:638:arg1",
+    "file/define:662:arg1",
+    "file/define:684:arg1",
+    "file/define:706:arg1",
+    "file/define:731:arg1",
+    "file/define:753:arg1",
+    "file/define:775:arg1",
+    "file/define:797:arg1",
+    "file/define:819:arg1",
+    "file/define:841:arg1",
+    "file/define:863:arg1",
+    "file/define:885:arg1",
+    "file/define:907:arg1",
+    "file/define:926:arg1",
+    "file/define:953:arg1",
+    "file/define:980:arg1",
+    "file/define:1003:arg1",
+    "file/define:1034:arg1",
+    "file/define:1063:arg1",
+    "file/define:1082:arg1",
+    "file/define:1111:arg1",
+    "file/define:1140:arg1",
+    "file/define:1171:arg1",
+    "file/define:1200:arg1",
+    "file/define:1231:arg1",
+    "file/define:1264:arg1",
+    "file/define:1285:arg1",
+    "file/define:1304:arg1",
+    "file/define:1323:arg1",
+    "file/define:1342:arg1",
+    "file/define:1361:arg1",
+    "file/define:1380:arg1",
+    "file/define:1399:arg1",
+    "file/define:1422:arg1",
+    "file/define:1449:arg1",
+    "file/define:1480:arg1",
+    "file/define:1503:arg1",
+    "file/define:1522:arg1",
+    "file/define:1551:arg1",
+    "file/define:1572:arg1",
+    "file/start:31:arg0",
+    "file/start:43:arg0",
+    "file/start:55:arg0",
+    "file/start:279",
+    "file/start:356",
+    "file/start:463",
+    "file/start:525",
+    "file/start:568",
+    "file/start:615",
+    "file/start:666",
+    "file/start:720",
+    "file/start:767",
+    "file/start:814",
+    "file/start:871",
+    "file/start:928",
+    "file/start:981",
+    "file/start:1035",
+    "file/start:1082",
+    "file/start:1129",
+    "file/start:1176",
+    "file/start:1223",
+    "file/start:1277",
+    "file/start:1308",
+    "file/start:1354",
+    "file/start:1401",
+    "file/start:1448",
+    "file/start:1507",
+    "file/start:1560",
+    "file/start:1607",
+    "file/start:1654",
+    "file/start:1701",
+    "file/start:1748",
+    "file/start:1802",
+    "file/start:1849",
+    "file/start:1896",
+    "file/start:1943",
+    "file/start:2004",
+    "file/start:2051",
+    "file/start:2112",
+    "file/start:2159",
+    "file/start:2248",
+    "file/start:2546",
+    "file/start:2837",
+    "file/start:3184",
+    "file/start:3427",
+    "file/help:28",
+    "file/help:54:arg0",
+    "file/help:72:arg0",
+    "file/help:92:arg0",
+    "file/help:110:arg0",
+    "file/help:128:arg0",
+    "file/help:142:arg0",
+    "file/help:164",
+    "file/help:442",
+    "file/help:648",
+    "file/help:830",
+    "file/help:985",
+    "file/help:1114",
+    "file/help:1290",
+    "file/help:1446",
+    "file/help:1652",
+    "file/help:1870",
+    "file/help:2029",
+    "file/help:2222",
+    "file/help:2550",
+    "file/help:2647",
+    "file/help:2972",
+    "file/help:3156",
+    "file/help:3468",
+    "file/help:3674",
+    "file/help:3806",
+    "file/help:4136",
+    "file/help:4270",
+    "file/help:4595",
+    "file/help:4804"
+  ],
+  "findings": [
+    {
+      "source": "<color=0>うははははは！</color><ctrl=2E/>",
+      "suggested_target": "<color=0>“哇哈哈哈哈哈！</color><ctrl=2E/>",
+      "issue": "已对照source-replay的NAMAE切换及TOBU返回分支，按连续完整发言补齐中文引号；不能逐点击单元重复加引号。",
+      "id": "file/append:1905",
+      "target": "<color=0>哇哈哈哈哈哈！</color><ctrl=2E/>"
+    },
+    {
+      "source": "<color=0>まいったか！</color><ctrl=2E/>",
+      "suggested_target": "<color=0>服了吧！”</color><ctrl=2E/>",
+      "issue": "已对照source-replay的NAMAE切换及TOBU返回分支，按连续完整发言补齐中文引号；不能逐点击单元重复加引号。",
+      "id": "file/append:2012",
+      "target": "<color=0>服了吧！</color><ctrl=2E/>"
+    },
+    {
+      "source": "<color=0>…ったく。</color><ctrl=2E/>",
+      "suggested_target": "<color=0>“……真是的。</color><ctrl=2E/>",
+      "issue": "已对照source-replay的NAMAE切换及TOBU返回分支，按连续完整发言补齐中文引号；不能逐点击单元重复加引号。",
+      "id": "file/append:2073",
+      "target": "<color=0>……真是的。</color><ctrl=2E/>"
+    },
+    {
+      "source": "<color=0>ちょいと話を聞かせて</color><row/><color=0>もらえねえか。</color><ctrl=2E/>",
+      "suggested_target": "<color=0>能不能</color><row/><color=0>跟你打听点事？”</color><ctrl=2E/>",
+      "issue": "已对照source-replay的NAMAE切换及TOBU返回分支，按连续完整发言补齐中文引号；不能逐点击单元重复加引号。",
+      "id": "file/append:2200",
+      "target": "<color=0>能不能</color><row/><color=0>跟你打听点事？</color><ctrl=2E/>"
+    },
+    {
+      "source": "<color=0>鞠浜警察署捜査一課、</color><row/><color=0>工藤貴樹です。</color><ctrl=2E/>",
+      "suggested_target": "<color=0>“鞠滨警署搜查一课，</color><row/><color=0>我是工藤贵树。</color><ctrl=2E/>",
+      "issue": "已对照source-replay的NAMAE切换及TOBU返回分支，按连续完整发言补齐中文引号；不能逐点击单元重复加引号。",
+      "id": "file/append:2318",
+      "target": "<color=0>鞠滨警署搜查一课，</color><row/><color=0>我是工藤贵树。</color><ctrl=2E/>"
+    },
+    {
+      "source": "<color=0>よろしくお願いします。</color><ctrl=2E/>",
+      "suggested_target": "<color=0>请多关照。”</color><ctrl=2E/>",
+      "issue": "已对照source-replay的NAMAE切换及TOBU返回分支，按连续完整发言补齐中文引号；不能逐点击单元重复加引号。",
+      "id": "file/append:2410",
+      "target": "<color=0>请多关照。</color><ctrl=2E/>"
+    },
+    {
+      "source": "<color=0>あ、ええと…</color><ctrl=2E/>",
+      "suggested_target": "<color=0>“啊，那个……</color><ctrl=2E/>",
+      "issue": "已对照source-replay的NAMAE切换及TOBU返回分支，按连续完整发言补齐中文引号；不能逐点击单元重复加引号。",
+      "id": "file/append:2496",
+      "target": "<color=0>啊，那个……</color><ctrl=2E/>"
+    },
+    {
+      "source": "<color=0>物書きの端くれの</color><row/><color=0>ようなことをしてます、</color><row/><color=0>石上雅人と申します。</color><ctrl=2E/>",
+      "suggested_target": "<color=0>我叫石上雅人，</color><row/><color=0>算是个写东西的，</color><row/><color=0>不成什么气候。”</color><ctrl=2E/>",
+      "issue": "已对照source-replay的NAMAE切换及TOBU返回分支，按连续完整发言补齐中文引号；不能逐点击单元重复加引号。",
+      "id": "file/append:2531",
+      "target": "<color=0>我叫石上雅人，</color><row/><color=0>算是个写东西的，</color><row/><color=0>不成什么气候。</color><ctrl=2E/>"
+    },
+    {
+      "source": "<color=0>こんにちは。</color><ctrl=2E/>",
+      "suggested_target": "<color=0>“你好。</color><ctrl=2E/>",
+      "issue": "已对照source-replay的NAMAE切换及TOBU返回分支，按连续完整发言补齐中文引号；不能逐点击单元重复加引号。",
+      "id": "file/append:2711",
+      "target": "<color=0>你好。</color><ctrl=2E/>"
+    },
+    {
+      "source": "<color=0>妹浦澄佳と申します。</color><ctrl=2E/>",
+      "suggested_target": "<color=0>我叫妹浦澄佳。”</color><ctrl=2E/>",
+      "issue": "已对照source-replay的NAMAE切换及TOBU返回分支，按连续完整发言补齐中文引号；不能逐点击单元重复加引号。",
+      "id": "file/append:2875",
+      "target": "<color=0>我叫妹浦澄佳。</color><ctrl=2E/>"
+    },
+    {
+      "source": "<color=0>ほい、伊綱ですよ。</color><ctrl=2E/>",
+      "suggested_target": "<color=0>“嗨，我是伊纲。</color><ctrl=2E/>",
+      "issue": "已对照source-replay的NAMAE切换及TOBU返回分支，按连续完整发言补齐中文引号；不能逐点击单元重复加引号。",
+      "id": "file/append:2956",
+      "target": "<color=0>嗨，我是伊纲。</color><ctrl=2E/>"
+    },
+    {
+      "source": "<color=0>…って、こんな感じで</color><row/><color=0>いいんですかね？</color><ctrl=2E/>",
+      "suggested_target": "<color=0>……呃，这么介绍</color><row/><color=0>可以吧？”</color><ctrl=2E/>",
+      "issue": "已对照source-replay的NAMAE切换及TOBU返回分支，按连续完整发言补齐中文引号；不能逐点击单元重复加引号。",
+      "id": "file/append:3205",
+      "target": "<color=0>……呃，这么介绍</color><row/><color=0>可以吧？</color><ctrl=2E/>"
+    },
+    {
+      "source": "<color=0>はじめまして、</color><row/><color=0>尾場優子です。</color><ctrl=2E/>",
+      "suggested_target": "<color=0>“初次见面，</color><row/><color=0>我是尾场优子。</color><ctrl=2E/>",
+      "issue": "已对照source-replay的NAMAE切换及TOBU返回分支，按连续完整发言补齐中文引号；不能逐点击单元重复加引号。",
+      "id": "file/append:3328",
+      "target": "<color=0>初次见面，</color><row/><color=0>我是尾场优子。</color><ctrl=2E/>"
+    },
+    {
+      "source": "<color=0>頑固なところが父親譲り</color><row/><color=0>だと、よく言われるのが</color><row/><color=0>最近の悩みの種です。</color><ctrl=2E/>",
+      "suggested_target": "<color=0>最近让我烦恼的是，</color><row/><color=0>总有人说我这固执的性子，</color><row/><color=0>跟我爸一个样。”</color><ctrl=2E/>",
+      "issue": "已对照source-replay的NAMAE切换及TOBU返回分支，按连续完整发言补齐中文引号；不能逐点击单元重复加引号。",
+      "id": "file/append:3405",
+      "target": "<color=0>最近让我烦恼的是，</color><row/><color=0>总有人说我这固执的性子，</color><row/><color=0>跟我爸一个样。</color><ctrl=2E/>"
+    },
+    {
+      "source": "<color=0>いやいや、どもども！</color><row/><color=0>鞠浜署の円口です！</color><ctrl=2E/>",
+      "suggested_target": "<color=0>“哎呀，你好你好！</color><row/><color=0>我是鞠滨警署的圆口！</color><ctrl=2E/>",
+      "issue": "已对照source-replay的NAMAE切换及TOBU返回分支，按连续完整发言补齐中文引号；不能逐点击单元重复加引号。",
+      "id": "file/append:3600",
+      "target": "<color=0>哎呀，你好你好！</color><row/><color=0>我是鞠滨警署的圆口！</color><ctrl=2E/>"
+    },
+    {
+      "source": "<color=0>見栄張ってる？</color><ctrl=2E/>",
+      "suggested_target": "<color=0>还是在撑面子？</color><ctrl=2E/>",
+      "issue": "圆口连续三问的口头排比中，見栄を張る是撑面子、摆阔；“拼命撑场面”易误解成竭力维持局面，且多出强度。",
+      "id": "file/append:3764",
+      "target": "<color=0>还是拼命撑场面？</color><ctrl=2E/>"
+    },
+    {
+      "source": "<color=0>それとも肩肘張ってる？</color><ctrl=2E/>",
+      "suggested_target": "<color=0>或者是在端着架子？</color><ctrl=2E/>",
+      "issue": "肩肘張る指拘谨、端架子；“硬撑架子”不自然，结合前一问用“端着架子”保留对应差别。",
+      "id": "file/append:3804",
+      "target": "<color=0>或者是在硬撑架子？</color><ctrl=2E/>"
+    },
+    {
+      "source": "<color=0>こりゃまた失礼！</color><ctrl=2E/>",
+      "suggested_target": "<color=0>哎哟，失礼失礼！”</color><ctrl=2E/>",
+      "issue": "已对照source-replay的NAMAE切换及TOBU返回分支，按连续完整发言补齐中文引号；不能逐点击单元重复加引号。",
+      "id": "file/append:3909",
+      "target": "<color=0>哎哟，失礼失礼！</color><ctrl=2E/>"
+    },
+    {
+      "source": "<color=0>…へっへっへ。</color><ctrl=2E/>",
+      "suggested_target": "<color=0>“……嘿嘿嘿。</color><ctrl=2E/>",
+      "issue": "已对照source-replay的NAMAE切换及TOBU返回分支，按连续完整发言补齐中文引号；不能逐点击单元重复加引号。",
+      "id": "file/append:3980",
+      "target": "<color=0>……嘿嘿嘿。</color><ctrl=2E/>"
+    },
+    {
+      "source": "<color=0>ヤトウではありません！</color><row/><color=0>矢当です！</color><ctrl=2E/>",
+      "suggested_target": "<color=0>不是 Yatou！</color><row/><color=0>是 Yaatari！”（译注：“矢当”的姓氏读音。）</color><ctrl=2E/>",
+      "issue": "已对照source-replay的NAMAE切换及TOBU返回分支，按连续完整发言补齐中文引号；不能逐点击单元重复加引号。 保持上一段发言引号在本段闭合，译注移至角色引号外。",
+      "id": "file/append:4159",
+      "target": "<color=0>不是 Yatou！</color><row/><color=0>是 Yaatari！（译注：“矢当”的姓氏读音。）</color><ctrl=2E/>"
+    },
+    {
+      "source": "<color=0>柚木香波です。</color><ctrl=2E/>",
+      "suggested_target": "<color=0>“我叫柚木香波。</color><ctrl=2E/>",
+      "issue": "已对照source-replay的NAMAE切换及TOBU返回分支，按连续完整发言补齐中文引号；不能逐点击单元重复加引号。",
+      "id": "file/append:4282",
+      "target": "<color=0>我叫柚木香波。</color><ctrl=2E/>"
+    },
+    {
+      "source": "<color=0>…それ以上、お話する</color><row/><color=0>ことはありません。</color><ctrl=2E/>",
+      "suggested_target": "<color=0>……除此之外，</color><row/><color=0>我没什么可说的。”</color><ctrl=2E/>",
+      "issue": "已对照source-replay的NAMAE切换及TOBU返回分支，按连续完整发言补齐中文引号；不能逐点击单元重复加引号。",
+      "id": "file/append:4322",
+      "target": "<color=0>……除此之外，</color><row/><color=0>我没什么可说的。</color><ctrl=2E/>"
+    },
+    {
+      "source": "<color=0>…なに？　なんで</color><row/><color=0>あたしが名乗らないと</color><row/><color=0>いけないわけ？</color><ctrl=2E/>",
+      "suggested_target": "<color=0>“……什么？</color><row/><color=0>为什么非得</color><row/><color=0>让我自报姓名？</color><ctrl=2E/>",
+      "issue": "已对照source-replay的NAMAE切换及TOBU返回分支，按连续完整发言补齐中文引号；不能逐点击单元重复加引号。",
+      "id": "file/append:4450",
+      "target": "<color=0>……什么？</color><row/><color=0>为什么非得</color><row/><color=0>让我自报姓名？</color><ctrl=2E/>"
+    },
+    {
+      "source": "<color=0>…そうよ、美馬圭子よ。</color><row/><color=0>だから何だってのよ？</color><ctrl=2E/>",
+      "suggested_target": "<color=0>……对，我是美马圭子。</color><row/><color=0>那又怎么了？”</color><ctrl=2E/>",
+      "issue": "已对照source-replay的NAMAE切换及TOBU返回分支，按连续完整发言补齐中文引号；不能逐点击单元重复加引号。",
+      "id": "file/append:4584",
+      "target": "<color=0>……对，我是美马圭子。</color><row/><color=0>那又怎么了？</color><ctrl=2E/>"
+    },
+    {
+      "source": "<color=0>あ、こんにちは。</color><ctrl=2E/>",
+      "suggested_target": "<color=0>“啊，你好。</color><ctrl=2E/>",
+      "issue": "已对照source-replay的NAMAE切换及TOBU返回分支，按连续完整发言补齐中文引号；不能逐点击单元重复加引号。",
+      "id": "file/append:4722",
+      "target": "<color=0>啊，你好。</color><ctrl=2E/>"
+    },
+    {
+      "source": "<color=0>やたら大きい声を出す</color><row/><color=0>人は、あまり好きじゃ</color><row/><color=0>ありませんね。</color><ctrl=2E/>",
+      "suggested_target": "<color=0>我不太喜欢</color><row/><color=0>那种动不动</color><row/><color=0>就扯着嗓子喊的人。”</color><ctrl=2E/>",
+      "issue": "已对照source-replay的NAMAE切换及TOBU返回分支，按连续完整发言补齐中文引号；不能逐点击单元重复加引号。",
+      "id": "file/append:4961",
+      "target": "<color=0>我不太喜欢</color><row/><color=0>那种动不动</color><row/><color=0>就扯着嗓子喊的人。</color><ctrl=2E/>"
+    },
+    {
+      "source": "<color=0>松田尚剛です。</color><ctrl=2E/>",
+      "suggested_target": "<color=0>“我是松田尚刚。</color><ctrl=2E/>",
+      "issue": "已对照source-replay的NAMAE切换及TOBU返回分支，按连续完整发言补齐中文引号；不能逐点击单元重复加引号。",
+      "id": "file/append:5131",
+      "target": "<color=0>我是松田尚刚。</color><ctrl=2E/>"
+    },
+    {
+      "source": "<color=0>こんなところでも何か</color><row/><color=0>言わないといけないの</color><row/><color=0>かい？</color><ctrl=2E/>",
+      "suggested_target": "<color=0>连到了这种地方，</color><row/><color=0>也非得让我</color><row/><color=0>说点什么吗？”</color><ctrl=2E/>",
+      "issue": "已对照source-replay的NAMAE切换及TOBU返回分支，按连续完整发言补齐中文引号；不能逐点击单元重复加引号。",
+      "id": "file/append:5231",
+      "target": "<color=0>连到了这种地方，</color><row/><color=0>也非得让我</color><row/><color=0>说点什么吗？</color><ctrl=2E/>"
+    },
+    {
+      "source": "<color=0>釈迦堂弓子です。</color><ctrl=2E/>",
+      "suggested_target": "<color=0>“我是释迦堂弓子。</color><ctrl=2E/>",
+      "issue": "已对照source-replay的NAMAE切换及TOBU返回分支，按连续完整发言补齐中文引号；不能逐点击单元重复加引号。",
+      "id": "file/append:5381",
+      "target": "<color=0>我是释迦堂弓子。</color><ctrl=2E/>"
+    },
+    {
+      "source": "<color=0>私の此の喋り方、</color><row/><color=0>何処か変わって居ると</color><row/><color=0>申しますか？</color><ctrl=2E/>",
+      "suggested_target": "<color=0>您是说，</color><row/><color=0>我这说话的方式，</color><row/><color=0>有什么奇怪之处吗？”</color><ctrl=2E/>",
+      "issue": "已对照source-replay的NAMAE切换及TOBU返回分支，按连续完整发言补齐中文引号；不能逐点击单元重复加引号。",
+      "id": "file/append:5451",
+      "target": "<color=0>您是说，</color><row/><color=0>我这说话的方式，</color><row/><color=0>有什么奇怪之处吗？</color><ctrl=2E/>"
+    },
+    {
+      "source": "<color=0>んんー、ワシが</color><row/><color=0>赤洲妖星だぁよ。</color><ctrl=2E/>",
+      "suggested_target": "<color=0>“嗯哼，老夫就是</color><row/><color=0>赤洲妖星呀。</color><ctrl=2E/>",
+      "issue": "已对照source-replay的NAMAE切换及TOBU返回分支，按连续完整发言补齐中文引号；不能逐点击单元重复加引号。",
+      "id": "file/append:5606",
+      "target": "<color=0>嗯哼，老夫就是</color><row/><color=0>赤洲妖星呀。</color><ctrl=2E/>"
+    },
+    {
+      "source": "<color=0>このスーツと帽子は、</color><row/><color=0>残念ながら特注品なん</color><row/><color=0>だぁよ。</color><ctrl=2E/>",
+      "suggested_target": "<color=0>很遗憾呀，</color><row/><color=0>这身西装和帽子，</color><row/><color=0>都是专门定做的。”</color><ctrl=2E/>",
+      "issue": "已对照source-replay的NAMAE切换及TOBU返回分支，按连续完整发言补齐中文引号；不能逐点击单元重复加引号。",
+      "id": "file/append:5688",
+      "target": "<color=0>很遗憾呀，</color><row/><color=0>这身西装和帽子，</color><row/><color=0>都是专门定做的。</color><ctrl=2E/>"
+    },
+    {
+      "source": "<color=0>・・・・・・・・</color><row/><color=0>・・・・・・・・</color><row/><color=0>・・・・・・・。</color><ctrl=2E/>",
+      "suggested_target": "<color=0>“…………</color><row/><color=0>…………</color><row/><color=0>…………。”</color><ctrl=2E/>",
+      "issue": "已对照source-replay的NAMAE切换及TOBU返回分支，按连续完整发言补齐中文引号；不能逐点击单元重复加引号。",
+      "id": "file/append:5843",
+      "target": "<color=0>…………</color><row/><color=0>…………</color><row/><color=0>…………。</color><ctrl=2E/>"
+    },
+    {
+      "source": "<color=0>・・・・・・・・</color><row/><color=0>・・・・・・・・</color><row/><color=0>・・・・・・・。</color><ctrl=2E/>",
+      "suggested_target": "<color=0>“…………</color><row/><color=0>…………</color><row/><color=0>…………。”</color><ctrl=2E/>",
+      "issue": "已对照source-replay的NAMAE切换及TOBU返回分支，按连续完整发言补齐中文引号；不能逐点击单元重复加引号。",
+      "id": "file/append:5998",
+      "target": "<color=0>…………</color><row/><color=0>…………</color><row/><color=0>…………。</color><ctrl=2E/>"
+    },
+    {
+      "source": "<color=0>ワタクシが豫言組織の</color><row/><color=0>代表、澤津賀なのです。</color><ctrl=2E/>",
+      "suggested_target": "<color=0>“我就是预言组织的</color><row/><color=0>代表，泽津贺。</color><ctrl=2E/>",
+      "issue": "已对照source-replay的NAMAE切换及TOBU返回分支，按连续完整发言补齐中文引号；不能逐点击单元重复加引号。",
+      "id": "file/append:6153",
+      "target": "<color=0>我就是预言组织的</color><row/><color=0>代表，泽津贺。</color><ctrl=2E/>"
+    },
+    {
+      "source": "<color=0>和解が得意なのです。</color><ctrl=2E/>",
+      "suggested_target": "<color=0>最擅长促成和解。”</color><ctrl=2E/>",
+      "issue": "已对照source-replay的NAMAE切换及TOBU返回分支，按连续完整发言补齐中文引号；不能逐点击单元重复加引号。",
+      "id": "file/append:6265",
+      "target": "<color=0>最擅长促成和解。</color><ctrl=2E/>"
+    },
+    {
+      "source": "<color=0>そうだ、伊綱君!!</color><ctrl=2E/>",
+      "suggested_target": "<color=0>“对了，伊纲！！”</color><ctrl=2E/>",
+      "issue": "已对照source-replay的NAMAE切换及TOBU返回分支，按连续完整发言补齐中文引号；不能逐点击单元重复加引号。",
+      "id": "file/append:6603",
+      "target": "<color=0>对了，伊纲！！</color><ctrl=2E/>"
+    },
+    {
+      "source": "<color=0>ひゃあ、ビックリした！</color><ctrl=2E/>",
+      "suggested_target": "<color=0>“呀！吓我一跳！</color><ctrl=2E/>",
+      "issue": "已对照source-replay的NAMAE切换及TOBU返回分支，按连续完整发言补齐中文引号；不能逐点击单元重复加引号。",
+      "id": "file/append:6650",
+      "target": "<color=0>呀！吓我一跳！</color><ctrl=2E/>"
+    },
+    {
+      "source": "<color=0>と、突然なんですか？</color><row/><color=0>先生…。</color><ctrl=2E/>",
+      "suggested_target": "<color=0>老师……</color><row/><color=0>您突然喊我干什么？”</color><ctrl=2E/>",
+      "issue": "已对照source-replay的NAMAE切换及TOBU返回分支，按连续完整发言补齐中文引号；不能逐点击单元重复加引号。",
+      "id": "file/append:6710",
+      "target": "<color=0>老师……</color><row/><color=0>您突然喊我干什么？</color><ctrl=2E/>"
+    },
+    {
+      "source": "<color=0>君に</color><color=2>伝言</color><color=0>があるのを</color><row/><color=0>忘れていたぞ！</color><ctrl=2E/>",
+      "suggested_target": "<color=0>“有人托我给你</color><color=2>带话</color><color=0>，</color><row/><color=0>我差点忘了！</color><ctrl=2E/>",
+      "issue": "已对照source-replay的NAMAE切换及TOBU返回分支，按连续完整发言补齐中文引号；不能逐点击单元重复加引号。",
+      "id": "file/append:6789",
+      "target": "<color=0>有人托我给你</color><color=2>带话</color><color=0>，</color><row/><color=0>我差点忘了！</color><ctrl=2E/>"
+    },
+    {
+      "source": "<color=0>あいや、すっかり</color><row/><color=0>忘れていたあるよ！</color><ctrl=2E/>",
+      "suggested_target": "<color=0>哎呀，实在是</color><row/><color=0>忘得一干二净了啦！”</color><ctrl=2E/>",
+      "issue": "已对照source-replay的NAMAE切换及TOBU返回分支，按连续完整发言补齐中文引号；不能逐点击单元重复加引号。",
+      "id": "file/append:6876",
+      "target": "<color=0>哎呀，实在是</color><row/><color=0>忘得一干二净了啦！</color><ctrl=2E/>"
+    },
+    {
+      "source": "<color=0>で、伝言…？</color><ctrl=2E/>",
+      "suggested_target": "<color=0>“带、带话……？</color><ctrl=2E/>",
+      "issue": "已对照source-replay的NAMAE切换及TOBU返回分支，按连续完整发言补齐中文引号；不能逐点击单元重复加引号。",
+      "id": "file/append:6970",
+      "target": "<color=0>带、带话……？</color><ctrl=2E/>"
+    },
+    {
+      "source": "<color=0>誰からですか…？</color><ctrl=2E/>",
+      "suggested_target": "<color=0>谁托您带的……？”</color><ctrl=2E/>",
+      "issue": "已对照source-replay的NAMAE切换及TOBU返回分支，按连续完整发言补齐中文引号；不能逐点击单元重复加引号。",
+      "id": "file/append:7005",
+      "target": "<color=0>谁托您带的……？</color><ctrl=2E/>"
+    },
+    {
+      "source": "<color=0>去年、百白村で会った</color><row/><color=0>ご婦人からだ！</color><ctrl=2E/>",
+      "suggested_target": "<color=0>“去年在百白村</color><row/><color=0>遇见的那位女士！”</color><ctrl=2E/>",
+      "issue": "已对照source-replay的NAMAE切换及TOBU返回分支，按连续完整发言补齐中文引号；不能逐点击单元重复加引号。",
+      "id": "file/append:7052",
+      "target": "<color=0>去年在百白村</color><row/><color=0>遇见的那位女士！</color><ctrl=2E/>"
+    },
+    {
+      "source": "<color=0>…!!</color><ctrl=2E/>",
+      "suggested_target": "<color=0>“……！！</color><ctrl=2E/>",
+      "issue": "已对照source-replay的NAMAE切换及TOBU返回分支，按连续完整发言补齐中文引号；不能逐点击单元重复加引号。",
+      "id": "file/append:7175",
+      "target": "<color=0>……！！</color><ctrl=2E/>"
+    },
+    {
+      "source": "<color=0>か、</color><color=2>楓</color><color=0>さんですか!?</color><ctrl=2B/>",
+      "suggested_target": "<color=0>是、是</color><color=2>枫</color><color=0>女士吗？！”</color><ctrl=2B/>",
+      "issue": "已对照source-replay的NAMAE切换及TOBU返回分支，按连续完整发言补齐中文引号；不能逐点击单元重复加引号。",
+      "id": "file/append:7190",
+      "target": "<color=0>是、是</color><color=2>枫</color><color=0>女士吗？！</color><ctrl=2B/>"
+    },
+    {
+      "source": "<color=0>うむ！</color><ctrl=2E/>",
+      "suggested_target": "<color=0>“没错！”</color><ctrl=2E/>",
+      "issue": "已对照source-replay的NAMAE切换及TOBU返回分支，按连续完整发言补齐中文引号；不能逐点击单元重复加引号。",
+      "id": "file/append:7250",
+      "target": "<color=0>没错！</color><ctrl=2E/>"
+    },
+    {
+      "source": "<color=0>ああっ、そうですよ！</color><ctrl=2E/>",
+      "suggested_target": "<color=0>“啊，对了！</color><ctrl=2E/>",
+      "issue": "已对照source-replay的NAMAE切换及TOBU返回分支，按连续完整发言补齐中文引号；不能逐点击单元重复加引号。",
+      "id": "file/append:7272",
+      "target": "<color=0>啊，对了！</color><ctrl=2E/>"
+    },
+    {
+      "source": "<color=0>私、それがずっと</color><row/><color=0>心残りだったんですよ。</color><ctrl=2E/>",
+      "suggested_target": "<color=0>这件事，</color><row/><color=0>我一直很遗憾。”</color><ctrl=2E/>",
+      "issue": "已对照source-replay的NAMAE切换及TOBU返回分支，按连续完整发言补齐中文引号；不能逐点击单元重复加引号。",
+      "id": "file/append:7643",
+      "target": "<color=0>这件事，</color><row/><color=0>我一直很遗憾。</color><ctrl=2E/>"
+    },
+    {
+      "source": "<color=0>うむ、君に会わない</color><row/><color=0>よう帰ったからな！</color><ctrl=2E/>",
+      "suggested_target": "<color=0>“嗯，她是特意</color><row/><color=0>避开你才走的！”</color><ctrl=2E/>",
+      "issue": "已对照source-replay的NAMAE切换及TOBU返回分支，按连续完整发言补齐中文引号；不能逐点击单元重复加引号。",
+      "id": "file/append:7747",
+      "target": "<color=0>嗯，她是特意</color><row/><color=0>避开你才走的！</color><ctrl=2E/>"
+    },
+    {
+      "source": "<color=0>ど、どうして…!?</color><ctrl=2E/>",
+      "suggested_target": "<color=0>“为、为什么……？！”</color><ctrl=2E/>",
+      "issue": "已对照source-replay的NAMAE切换及TOBU返回分支，按连续完整发言补齐中文引号；不能逐点击单元重复加引号。",
+      "id": "file/append:7846",
+      "target": "<color=0>为、为什么……？！</color><ctrl=2E/>"
+    },
+    {
+      "source": "<color=0>その理由は…</color><ctrl=2E/>",
+      "suggested_target": "<color=0>“至于原因嘛……</color><ctrl=2E/>",
+      "issue": "已对照source-replay的NAMAE切换及TOBU返回分支，按连续完整发言补齐中文引号；不能逐点击单元重复加引号。",
+      "id": "file/append:7893",
+      "target": "<color=0>至于原因嘛……</color><ctrl=2E/>"
+    },
+    {
+      "source": "<color=0>伊綱君自身の手で、</color><row/><color=0>調べるのだ！</color><ctrl=2E/>",
+      "suggested_target": "<color=0>就由伊纲你自己，</color><row/><color=0>亲手去查明吧！”</color><ctrl=2E/>",
+      "issue": "已对照source-replay的NAMAE切换及TOBU返回分支，按连续完整发言补齐中文引号；不能逐点击单元重复加引号。",
+      "id": "file/append:7928",
+      "target": "<color=0>就由伊纲你自己，</color><row/><color=0>亲手去查明吧！</color><ctrl=2E/>"
+    },
+    {
+      "source": "<color=0>うっ…。</color><ctrl=2E/>",
+      "suggested_target": "<color=0>“唔……</color><ctrl=2E/>",
+      "issue": "已对照source-replay的NAMAE切换及TOBU返回分支，按连续完整发言补齐中文引号；不能逐点击单元重复加引号。",
+      "id": "file/append:8012",
+      "target": "<color=0>唔……</color><ctrl=2E/>"
+    },
+    {
+      "source": "<color=0>じゃ、じゃあ…その</color><row/><color=2>伝言</color><color=0>っていうのは…？</color><ctrl=2E/>",
+      "suggested_target": "<color=0>那、那么……那句</color><row/><color=2>口信</color><color=0>是什么……？”</color><ctrl=2E/>",
+      "issue": "已对照source-replay的NAMAE切换及TOBU返回分支，按连续完整发言补齐中文引号；不能逐点击单元重复加引号。",
+      "id": "file/append:8082",
+      "target": "<color=0>那、那么……那句</color><row/><color=2>口信</color><color=0>是什么……？</color><ctrl=2E/>"
+    },
+    {
+      "source": "<color=0>名前だ！</color><ctrl=2E/>",
+      "suggested_target": "<color=0>“名字！”</color><ctrl=2E/>",
+      "issue": "已对照source-replay的NAMAE切换及TOBU返回分支，按连续完整发言补齐中文引号；不能逐点击单元重复加引号。",
+      "id": "file/append:8186",
+      "target": "<color=0>名字！</color><ctrl=2E/>"
+    },
+    {
+      "source": "<color=0>…名前？</color><ctrl=2E/>",
+      "suggested_target": "<color=0>“……名字？”</color><ctrl=2E/>",
+      "issue": "已对照source-replay的NAMAE切换及TOBU返回分支，按连续完整发言补齐中文引号；不能逐点击单元重复加引号。",
+      "id": "file/append:8213",
+      "target": "<color=0>……名字？</color><ctrl=2E/>"
+    },
+    {
+      "source": "<color=0>彼女が、自分の</color><color=2>本名</color><color=0>を</color><row/><color=0>思い出したんで…</color><ctrl=2E/>",
+      "suggested_target": "<color=0>“她想起了</color><color=2>真名</color><color=0>，</color><row/><color=0>所以……</color><ctrl=2E/>",
+      "issue": "已对照source-replay的NAMAE切换及TOBU返回分支，按连续完整发言补齐中文引号；不能逐点击单元重复加引号。",
+      "id": "file/append:8240",
+      "target": "<color=0>她想起了</color><color=2>真名</color><color=0>，</color><row/><color=0>所以……</color><ctrl=2E/>"
+    },
+    {
+      "source": "<color=0>それだけ、君に伝えて</color><row/><color=0>おいてくれと、言い</color><row/><color=0>残していた。</color><ctrl=2E/>",
+      "suggested_target": "<color=0>临走前托我，</color><row/><color=0>把这个名字</color><row/><color=0>告诉你。”</color><ctrl=2E/>",
+      "issue": "已对照source-replay的NAMAE切换及TOBU返回分支，按连续完整发言补齐中文引号；不能逐点击单元重复加引号。",
+      "id": "file/append:8337",
+      "target": "<color=0>临走前托我，</color><row/><color=0>把这个名字</color><row/><color=0>告诉你。</color><ctrl=2E/>"
+    },
+    {
+      "source": "<color=0>楓さんの、本名…!?</color><ctrl=2E/>",
+      "suggested_target": "<color=0>“枫女士的真名……？！”</color><ctrl=2E/>",
+      "issue": "已对照source-replay的NAMAE切换及TOBU返回分支，按连续完整发言补齐中文引号；不能逐点击单元重复加引号。",
+      "id": "file/append:8473",
+      "target": "<color=0>枫女士的真名……？！</color><ctrl=2E/>"
+    },
+    {
+      "source": "<color=0>…藤沢珠恵だ！</color><ctrl=2E/>",
+      "suggested_target": "<color=0>“……藤泽珠惠！</color><ctrl=2E/>",
+      "issue": "已对照source-replay的NAMAE切换及TOBU返回分支，按连续完整发言补齐中文引号；不能逐点击单元重复加引号。",
+      "id": "file/append:8533",
+      "target": "<color=0>……藤泽珠惠！</color><ctrl=2E/>"
+    },
+    {
+      "source": "<color=0>よーく憶えて</color><row/><color=0>おくといいだろう！</color><ctrl=2E/>",
+      "suggested_target": "<color=0>你最好</color><row/><color=0>牢牢记住！”</color><ctrl=2E/>",
+      "issue": "已对照source-replay的NAMAE切换及TOBU返回分支，按连续完整发言补齐中文引号；不能逐点击单元重复加引号。",
+      "id": "file/append:8591",
+      "target": "<color=0>你最好</color><row/><color=0>牢牢记住！</color><ctrl=2E/>"
+    },
+    {
+      "source": "<color=0>藤沢珠恵…？</color><ctrl=2E/>",
+      "suggested_target": "<color=0>“藤泽珠惠……？</color><ctrl=2E/>",
+      "issue": "已对照source-replay的NAMAE切换及TOBU返回分支，按连续完整发言补齐中文引号；不能逐点击单元重复加引号。",
+      "id": "file/append:8675",
+      "target": "<color=0>藤泽珠惠……？</color><ctrl=2E/>"
+    },
+    {
+      "source": "<color=0>き、聞いたこと、</color><row/><color=0>ある…ような…。</color><ctrl=2E/>",
+      "suggested_target": "<color=0>我、我好像……</color><row/><color=0>在哪里听过……”</color><ctrl=2E/>",
+      "issue": "已对照source-replay的NAMAE切换及TOBU返回分支，按连续完整发言补齐中文引号；不能逐点击单元重复加引号。",
+      "id": "file/append:8753",
+      "target": "<color=0>我、我好像……</color><row/><color=0>在哪里听过……</color><ctrl=2E/>"
+    },
+    {
+      "source": "<color=0>さあ、僕の役目は</color><row/><color=0>ここまでだ！</color><ctrl=2E/>",
+      "suggested_target": "<color=0>“好，我的任务</color><row/><color=0>到此结束！</color><ctrl=2E/>",
+      "issue": "已对照source-replay的NAMAE切换及TOBU返回分支，按连续完整发言补齐中文引号；不能逐点击单元重复加引号。",
+      "id": "file/append:8842",
+      "target": "<color=0>好，我的任务</color><row/><color=0>到此结束！</color><ctrl=2E/>"
+    },
+    {
+      "source": "<color=0>では、さらば！</color><ctrl=2E/>",
+      "suggested_target": "<color=0>那么，再见！”</color><ctrl=2E/>",
+      "issue": "已对照source-replay的NAMAE切换及TOBU返回分支，按连续完整发言补齐中文引号；不能逐点击单元重复加引号。",
+      "id": "file/append:8919",
+      "target": "<color=0>那么，再见！</color><ctrl=2E/>"
+    },
+    {
+      "source": "<color=0>……。</color><ctrl=2E/>",
+      "suggested_target": "<color=0>“……</color><ctrl=2E/>",
+      "issue": "已对照source-replay的NAMAE切换及TOBU返回分支，按连续完整发言补齐中文引号；不能逐点击单元重复加引号。",
+      "id": "file/append:8971",
+      "target": "<color=0>……</color><ctrl=2E/>"
+    },
+    {
+      "source": "<color=0>…あっ！</color><ctrl=2B/>",
+      "suggested_target": "<color=0>……啊！”</color><ctrl=2B/>",
+      "issue": "已对照source-replay的NAMAE切换及TOBU返回分支，按连续完整发言补齐中文引号；不能逐点击单元重复加引号。",
+      "id": "file/append:9079",
+      "target": "<color=0>……啊！</color><ctrl=2B/>"
+    },
+    {
+      "source": "<color=0>そういえば、昔…</color><ctrl=2E/>",
+      "suggested_target": "<color=0>“说起来，很久以前……</color><ctrl=2E/>",
+      "issue": "已对照source-replay的NAMAE切换及TOBU返回分支，按连续完整发言补齐中文引号；不能逐点击单元重复加引号。",
+      "id": "file/append:9110",
+      "target": "<color=0>说起来，很久以前……</color><ctrl=2E/>"
+    },
+    {
+      "source": "<color=0>………？</color><ctrl=2E/>",
+      "suggested_target": "<color=0>…………？”</color><ctrl=2E/>",
+      "issue": "已对照source-replay的NAMAE切换及TOBU返回分支，按连续完整发言补齐中文引号；不能逐点击单元重复加引号。",
+      "id": "file/append:9401",
+      "target": "<color=0>…………？</color><ctrl=2E/>"
+    },
+    {
+      "source": "(癸生川)",
+      "suggested_target": "(癸生川)",
+      "issue": "本作glossary.locked.json speaker_forms要求保留原括号形式；源姓名牌是ASCII圆括号。",
+      "id": "file/define:100:arg1",
+      "target": "（癸生川）"
+    },
+    {
+      "source": "(尾場)",
+      "suggested_target": "(尾场)",
+      "issue": "本作glossary.locked.json speaker_forms要求保留原括号形式；源姓名牌是ASCII圆括号。",
+      "id": "file/define:124:arg1",
+      "target": "（尾场）"
+    },
+    {
+      "source": "(工藤)",
+      "suggested_target": "(工藤)",
+      "issue": "本作glossary.locked.json speaker_forms要求保留原括号形式；源姓名牌是ASCII圆括号。",
+      "id": "file/define:146:arg1",
+      "target": "（工藤）"
+    },
+    {
+      "source": "(石上)",
+      "suggested_target": "(石上)",
+      "issue": "本作glossary.locked.json speaker_forms要求保留原括号形式；源姓名牌是ASCII圆括号。",
+      "id": "file/define:168:arg1",
+      "target": "（石上）"
+    },
+    {
+      "source": "(澄佳)",
+      "suggested_target": "(澄佳)",
+      "issue": "本作glossary.locked.json speaker_forms要求保留原括号形式；源姓名牌是ASCII圆括号。",
+      "id": "file/define:190:arg1",
+      "target": "（澄佳）"
+    },
+    {
+      "source": "(伊綱)",
+      "suggested_target": "(伊纲)",
+      "issue": "本作glossary.locked.json speaker_forms要求保留原括号形式；源姓名牌是ASCII圆括号。",
+      "id": "file/define:212:arg1",
+      "target": "（伊纲）"
+    },
+    {
+      "source": "(優子)",
+      "suggested_target": "(优子)",
+      "issue": "本作glossary.locked.json speaker_forms要求保留原括号形式；源姓名牌是ASCII圆括号。",
+      "id": "file/define:234:arg1",
+      "target": "（优子）"
+    },
+    {
+      "source": "(円口)",
+      "suggested_target": "(圆口)",
+      "issue": "本作glossary.locked.json speaker_forms要求保留原括号形式；源姓名牌是ASCII圆括号。",
+      "id": "file/define:256:arg1",
+      "target": "（圆口）"
+    },
+    {
+      "source": "(矢当)",
+      "suggested_target": "(矢当)",
+      "issue": "本作glossary.locked.json speaker_forms要求保留原括号形式；源姓名牌是ASCII圆括号。",
+      "id": "file/define:278:arg1",
+      "target": "（矢当）"
+    },
+    {
+      "source": "(柚木)",
+      "suggested_target": "(柚木)",
+      "issue": "本作glossary.locked.json speaker_forms要求保留原括号形式；源姓名牌是ASCII圆括号。",
+      "id": "file/define:300:arg1",
+      "target": "（柚木）"
+    },
+    {
+      "source": "(美馬)",
+      "suggested_target": "(美马)",
+      "issue": "本作glossary.locked.json speaker_forms要求保留原括号形式；源姓名牌是ASCII圆括号。",
+      "id": "file/define:322:arg1",
+      "target": "（美马）"
+    },
+    {
+      "source": "(中庭)",
+      "suggested_target": "(中庭)",
+      "issue": "本作glossary.locked.json speaker_forms要求保留原括号形式；源姓名牌是ASCII圆括号。",
+      "id": "file/define:344:arg1",
+      "target": "（中庭）"
+    },
+    {
+      "source": "(松田)",
+      "suggested_target": "(松田)",
+      "issue": "本作glossary.locked.json speaker_forms要求保留原括号形式；源姓名牌是ASCII圆括号。",
+      "id": "file/define:366:arg1",
+      "target": "（松田）"
+    },
+    {
+      "source": "(釈迦堂)",
+      "suggested_target": "(释迦堂)",
+      "issue": "本作glossary.locked.json speaker_forms要求保留原括号形式；源姓名牌是ASCII圆括号。",
+      "id": "file/define:388:arg1",
+      "target": "（释迦堂）"
+    },
+    {
+      "source": "(赤洲)",
+      "suggested_target": "(赤洲)",
+      "issue": "本作glossary.locked.json speaker_forms要求保留原括号形式；源姓名牌是ASCII圆括号。",
+      "id": "file/define:412:arg1",
+      "target": "（赤洲）"
+    },
+    {
+      "source": "(一條院)",
+      "suggested_target": "(一条院)",
+      "issue": "本作glossary.locked.json speaker_forms要求保留原括号形式；源姓名牌是ASCII圆括号。",
+      "id": "file/define:434:arg1",
+      "target": "（一条院）"
+    },
+    {
+      "source": "(人影)",
+      "suggested_target": "(人影)",
+      "issue": "本作glossary.locked.json speaker_forms要求保留原括号形式；源姓名牌是ASCII圆括号。",
+      "id": "file/define:458:arg1",
+      "target": "（人影）"
+    },
+    {
+      "source": "(澤津賀)",
+      "suggested_target": "(泽津贺)",
+      "issue": "本作glossary.locked.json speaker_forms要求保留原括号形式；源姓名牌是ASCII圆括号。",
+      "id": "file/define:480:arg1",
+      "target": "（泽津贺）"
+    },
+    {
+      "source": "(？？)",
+      "suggested_target": "(？？)",
+      "issue": "本作glossary.locked.json speaker_forms要求保留原括号形式；源姓名牌是ASCII圆括号。",
+      "id": "file/define:504:arg1",
+      "target": "（？？）"
+    },
+    {
+      "source": "(沖村)",
+      "suggested_target": "(冲村)",
+      "issue": "本作glossary.locked.json speaker_forms要求保留原括号形式；源姓名牌是ASCII圆括号。",
+      "id": "file/define:526:arg1",
+      "target": "（冲村）"
+    },
+    {
+      "source": "(男性)",
+      "suggested_target": "(男性)",
+      "issue": "本作glossary.locked.json speaker_forms要求保留原括号形式；源姓名牌是ASCII圆括号。",
+      "id": "file/define:548:arg1",
+      "target": "（男性）"
+    },
+    {
+      "source": "(女性)",
+      "suggested_target": "(女性)",
+      "issue": "本作glossary.locked.json speaker_forms要求保留原括号形式；源姓名牌是ASCII圆括号。",
+      "id": "file/define:570:arg1",
+      "target": "（女性）"
+    },
+    {
+      "source": "(ｷｬｽﾀｰ)",
+      "suggested_target": "(主播)",
+      "issue": "本作glossary.locked.json speaker_forms要求保留原括号形式；源姓名牌是ASCII圆括号。",
+      "id": "file/define:592:arg1",
+      "target": "（主播）"
+    },
+    {
+      "source": "(ｷｬｽﾀｰ)",
+      "suggested_target": "(主播)",
+      "issue": "本作glossary.locked.json speaker_forms要求保留原括号形式；源姓名牌是ASCII圆括号。",
+      "id": "file/define:615:arg1",
+      "target": "（主播）"
+    },
+    {
+      "source": "(調査官)",
+      "suggested_target": "(调查官)",
+      "issue": "本作glossary.locked.json speaker_forms要求保留原括号形式；源姓名牌是ASCII圆括号。",
+      "id": "file/define:638:arg1",
+      "target": "（调查官）"
+    },
+    {
+      "source": "(警官)",
+      "suggested_target": "(警察)",
+      "issue": "本作glossary.locked.json speaker_forms要求保留原括号形式；源姓名牌是ASCII圆括号。",
+      "id": "file/define:662:arg1",
+      "target": "（警察）"
+    },
+    {
+      "source": "(男性)",
+      "suggested_target": "(男性)",
+      "issue": "本作glossary.locked.json speaker_forms要求保留原括号形式；源姓名牌是ASCII圆括号。",
+      "id": "file/define:684:arg1",
+      "target": "（男性）"
+    },
+    {
+      "source": "(ｺﾒﾝﾃｰﾀｰ)",
+      "suggested_target": "(评论员)",
+      "issue": "本作glossary.locked.json speaker_forms要求保留原括号形式；源姓名牌是ASCII圆括号。",
+      "id": "file/define:706:arg1",
+      "target": "（评论员）"
+    },
+    {
+      "source": "(男性)",
+      "suggested_target": "(男性)",
+      "issue": "本作glossary.locked.json speaker_forms要求保留原括号形式；源姓名牌是ASCII圆括号。",
+      "id": "file/define:731:arg1",
+      "target": "（男性）"
+    },
+    {
+      "source": "(男性)",
+      "suggested_target": "(男性)",
+      "issue": "本作glossary.locked.json speaker_forms要求保留原括号形式；源姓名牌是ASCII圆括号。",
+      "id": "file/define:753:arg1",
+      "target": "（男性）"
+    },
+    {
+      "source": "(男性)",
+      "suggested_target": "(男性)",
+      "issue": "本作glossary.locked.json speaker_forms要求保留原括号形式；源姓名牌是ASCII圆括号。",
+      "id": "file/define:775:arg1",
+      "target": "（男性）"
+    },
+    {
+      "source": "(女性)",
+      "suggested_target": "(女性)",
+      "issue": "本作glossary.locked.json speaker_forms要求保留原括号形式；源姓名牌是ASCII圆括号。",
+      "id": "file/define:797:arg1",
+      "target": "（女性）"
+    },
+    {
+      "source": "(女性)",
+      "suggested_target": "(女性)",
+      "issue": "本作glossary.locked.json speaker_forms要求保留原括号形式；源姓名牌是ASCII圆括号。",
+      "id": "file/define:819:arg1",
+      "target": "（女性）"
+    },
+    {
+      "source": "(女性)",
+      "suggested_target": "(女性)",
+      "issue": "本作glossary.locked.json speaker_forms要求保留原括号形式；源姓名牌是ASCII圆括号。",
+      "id": "file/define:841:arg1",
+      "target": "（女性）"
+    },
+    {
+      "source": "(男性)",
+      "suggested_target": "(男性)",
+      "issue": "本作glossary.locked.json speaker_forms要求保留原括号形式；源姓名牌是ASCII圆括号。",
+      "id": "file/define:863:arg1",
+      "target": "（男性）"
+    },
+    {
+      "source": "(男性)",
+      "suggested_target": "(男性)",
+      "issue": "本作glossary.locked.json speaker_forms要求保留原括号形式；源姓名牌是ASCII圆括号。",
+      "id": "file/define:885:arg1",
+      "target": "（男性）"
+    }
+  ],
+  "notes": [
+    "先完整连读全部309单元中文，再对照全部309原文。查阅source-replay中file/append、file/define、file/start、file/help的指令、菜单分支、姓名切换与正文。",
+    "开场240–273为BUNSYOU_ROLL滚动段，无点击等待；中文句法重排未跨点击边界，255–256预言着色保留。",
+    "help:2647的3A前仅选指令自动保存，后才退出应用；help:3806的3A前形式、后信息差；help:2222的3B前按键打开菜单、后返回选择；help:4270的3B前发问身份、后提问，均保留信息时机。",
+    "help:164最多四人视角、648章节选择、830明亮图标、985无法选择、1446未完、1652完全通关、2550自动存档、4595全部答对等强调均逐源核对正确。",
+    "append人物卡全名与本作锁定表一致，枫到藤泽珠惠的揭露时机保持。石上雅人和后续冲村/生王不擅自合并。",
+    "append:4159采用协调者锁定Yatou/Yaatari读音，保留罗马字以说明日语姓氏误读，不猜托也的汉字；补引号时译注必须在引号外。",
+    "待根代理采纳修订后复核最终候选哈希；本报告不直接写正式已审基线。"
+  ],
+  "evidence": {
+    "scope": "原00.trans.json中已实际审阅且无需修改的点击/着色单元；有修订的单元待最终候选复核",
+    "clicks": [
+      {
+        "id": "file/append:48:opcode6",
+        "sha256": "45166bae94f735fb8a563776cfb6b071aff006b1b3e8894214666c0a495ddb25",
+        "script": "file/append",
+        "boundary": "48:opcode6",
+        "spans": [
+          {
+            "id": "file/append:28",
+            "token": 2,
+            "color": 0,
+            "source": "おまけモード",
+            "target": "附加模式"
+          }
+        ]
+      },
+      {
+        "id": "file/append:1945:token11",
+        "sha256": "581eedaae1c59e49974e9dd914781181d73cc6d856bddb56f2b7e789713f6c56",
+        "script": "file/append",
+        "boundary": "1945:token11",
+        "spans": [
+          {
+            "id": "file/append:1945",
+            "token": 2,
+            "color": 0,
+            "source": "僕は癸生川凌介！",
+            "target": "我是癸生川凌介！"
+          },
+          {
+            "id": "file/append:1945",
+            "token": 8,
+            "color": 0,
+            "source": "探偵だ！",
+            "target": "是个侦探！"
+          },
+          {
+            "id": "file/append:1945",
+            "token": 11,
+            "control": "<ctrl=2E/>"
+          }
+        ]
+      },
+      {
+        "id": "file/append:2103:token11",
+        "sha256": "fd10486ab191f5a4efbe910aed95e0f4da136ddf6211efe1bbe39ec71168b6c1",
+        "script": "file/append",
+        "boundary": "2103:token11",
+        "spans": [
+          {
+            "id": "file/append:2103",
+            "token": 2,
+            "color": 0,
+            "source": "鞠浜署捜査一課の",
+            "target": "我是鞠滨警署搜查一课的"
+          },
+          {
+            "id": "file/append:2103",
+            "token": 8,
+            "color": 0,
+            "source": "尾場ってモンだがよ。",
+            "target": "尾场。"
+          },
+          {
+            "id": "file/append:2103",
+            "token": 11,
+            "control": "<ctrl=2E/>"
+          }
+        ]
+      },
+      {
+        "id": "file/append:2746:token17",
+        "sha256": "0a19eae76cf9d5298b1204a4f6f50b541c142dded70de1e4e9ab627e0fd8f434",
+        "script": "file/append",
+        "boundary": "2746:token17",
+        "spans": [
+          {
+            "id": "file/append:2746",
+            "token": 2,
+            "color": 0,
+            "source": "西風館大学３年、",
+            "target": "我就读于西风馆大学，"
+          },
+          {
+            "id": "file/append:2746",
+            "token": 8,
+            "color": 0,
+            "source": "音楽科でオーボエを",
+            "target": "现在是三年级，"
+          },
+          {
+            "id": "file/append:2746",
+            "token": 14,
+            "color": 0,
+            "source": "専攻している…",
+            "target": "在音乐系主修双簧管……"
+          },
+          {
+            "id": "file/append:2746",
+            "token": 17,
+            "control": "<ctrl=2E/>"
+          }
+        ]
+      },
+      {
+        "id": "file/append:3006:token5",
+        "sha256": "211241820a60b1bdddee362e75cad9cec260737c62e2d84f1c4134ab9f33bd85",
+        "script": "file/append",
+        "boundary": "3006:token5",
+        "spans": [
+          {
+            "id": "file/append:3006",
+            "token": 2,
+            "color": 0,
+            "source": "いやいや、もとい…",
+            "target": "不对不对，重来……"
+          },
+          {
+            "id": "file/append:3006",
+            "token": 5,
+            "control": "<ctrl=2E/>"
+          }
+        ]
+      },
+      {
+        "id": "file/append:3056:token17",
+        "sha256": "f9103b1d0bbe04ff8f8402bae824da9c919a55ddaa7506cdd0a69fb4cff32ede",
+        "script": "file/append",
+        "boundary": "3056:token17",
+        "spans": [
+          {
+            "id": "file/append:3056",
+            "token": 2,
+            "color": 0,
+            "source": "癸生川探偵事務所の、",
+            "target": "我是癸生川侦探事务所的，"
+          },
+          {
+            "id": "file/append:3056",
+            "token": 8,
+            "color": 0,
+            "source": "まあ…たぶん、助手の",
+            "target": "嗯……大概算是助手，"
+          },
+          {
+            "id": "file/append:3056",
+            "token": 14,
+            "color": 0,
+            "source": "白鷺洲伊綱です。",
+            "target": "白鹭洲伊纲。"
+          },
+          {
+            "id": "file/append:3056",
+            "token": 17,
+            "control": "<ctrl=2E/>"
+          }
+        ]
+      },
+      {
+        "id": "file/append:3702:token11",
+        "sha256": "58fa6313a87c87341605ad65522c4315dc84a8f660d968147f06802ab42ab41c",
+        "script": "file/append",
+        "boundary": "3702:token11",
+        "spans": [
+          {
+            "id": "file/append:3702",
+            "token": 2,
+            "color": 0,
+            "source": "最近どう？",
+            "target": "最近怎么样？"
+          },
+          {
+            "id": "file/append:3702",
+            "token": 8,
+            "color": 0,
+            "source": "頑張ってる？",
+            "target": "在努力打拼吗？"
+          },
+          {
+            "id": "file/append:3702",
+            "token": 11,
+            "control": "<ctrl=2E/>"
+          }
+        ]
+      },
+      {
+        "id": "file/append:3864:token5",
+        "sha256": "23cdf9a6b25a2e75234394feb9e56b6a422343450eb4caad84ecebf777e181e2",
+        "script": "file/append",
+        "boundary": "3864:token5",
+        "spans": [
+          {
+            "id": "file/append:3864",
+            "token": 2,
+            "color": 0,
+            "source": "…あ、しつこい？",
+            "target": "……啊，嫌我烦了？"
+          },
+          {
+            "id": "file/append:3864",
+            "token": 5,
+            "control": "<ctrl=2E/>"
+          }
+        ]
+      },
+      {
+        "id": "file/append:4020:token17",
+        "sha256": "df3f1a2f4059903480253cd67de3f5df1d57707b34b94395a47e3a3639fe2934",
+        "script": "file/append",
+        "boundary": "4020:token17",
+        "spans": [
+          {
+            "id": "file/append:4020",
+            "token": 2,
+            "color": 0,
+            "source": "ヤマトテレビ報道部の",
+            "target": "我是大和电视台"
+          },
+          {
+            "id": "file/append:4020",
+            "token": 8,
+            "color": 0,
+            "source": "ディレクター、",
+            "target": "新闻部的节目导演，"
+          },
+          {
+            "id": "file/append:4020",
+            "token": 14,
+            "color": 0,
+            "source": "矢当トウヤですぜ。",
+            "target": "矢当托也。"
+          },
+          {
+            "id": "file/append:4020",
+            "token": 17,
+            "control": "<ctrl=2E/>"
+          }
+        ]
+      },
+      {
+        "id": "file/append:4767:token17",
+        "sha256": "5255b9e28ac1c26b3ea78794a76f45d2610e30c097938780011fc182150422a7",
+        "script": "file/append",
+        "boundary": "4767:token17",
+        "spans": [
+          {
+            "id": "file/append:4767",
+            "token": 2,
+            "color": 0,
+            "source": "あたしは西風館大学",
+            "target": "我是中庭友美，"
+          },
+          {
+            "id": "file/append:4767",
+            "token": 8,
+            "color": 0,
+            "source": "３年で、澄佳ちゃんの",
+            "target": "西风馆大学三年级，"
+          },
+          {
+            "id": "file/append:4767",
+            "token": 14,
+            "color": 0,
+            "source": "友達の、中庭友美です。",
+            "target": "也是澄佳的朋友。"
+          },
+          {
+            "id": "file/append:4767",
+            "token": 17,
+            "control": "<ctrl=2E/>"
+          }
+        ]
+      },
+      {
+        "id": "file/append:4926:token5",
+        "sha256": "4c0de72784c7672f6c8f3b043c190f7cae20182c6eb1bbeeb74982457595201d",
+        "script": "file/append",
+        "boundary": "4926:token5",
+        "spans": [
+          {
+            "id": "file/append:4926",
+            "token": 2,
+            "color": 0,
+            "source": "そうですね…",
+            "target": "嗯……"
+          },
+          {
+            "id": "file/append:4926",
+            "token": 5,
+            "control": "<ctrl=2E/>"
+          }
+        ]
+      },
+      {
+        "id": "file/append:5171:token5",
+        "sha256": "91fee78615e9c38cc4f195e66bd273e64b286254eb8ba517efbdad24913555d3",
+        "script": "file/append",
+        "boundary": "5171:token5",
+        "spans": [
+          {
+            "id": "file/append:5171",
+            "token": 2,
+            "color": 0,
+            "source": "…やれやれ、困ったね。",
+            "target": "……唉，真让人头疼。"
+          },
+          {
+            "id": "file/append:5171",
+            "token": 5,
+            "control": "<ctrl=2E/>"
+          }
+        ]
+      },
+      {
+        "id": "file/append:5426:token5",
+        "sha256": "4a55f926efae4a8a711f16fda00711a348ddb2b24709bda634408ae54dfa497d",
+        "script": "file/append",
+        "boundary": "5426:token5",
+        "spans": [
+          {
+            "id": "file/append:5426",
+            "token": 2,
+            "color": 0,
+            "source": "…はい？",
+            "target": "……您说什么？"
+          },
+          {
+            "id": "file/append:5426",
+            "token": 5,
+            "control": "<ctrl=2E/>"
+          }
+        ]
+      },
+      {
+        "id": "file/append:6367:token23",
+        "sha256": "a5085ab7bc75cb0acfd0c4d219be01601e00f3849e0797373379ab7fce694f83",
+        "script": "file/append",
+        "boundary": "6367:token23",
+        "spans": [
+          {
+            "id": "file/append:6367",
+            "token": 2,
+            "color": 8,
+            "source": "白鷺洲伊綱",
+            "target": "白鹭洲伊纲"
+          },
+          {
+            "id": "file/append:6367",
+            "token": 8,
+            "color": 0,
+            "source": "　",
+            "target": "　"
+          },
+          {
+            "id": "file/append:6367",
+            "token": 14,
+            "color": 2,
+            "source": "1999年10月21日",
+            "target": "1999 年 10 月 21 日"
+          },
+          {
+            "id": "file/append:6367",
+            "token": 20,
+            "color": 0,
+            "source": "癸生川探偵事務所",
+            "target": "癸生川侦探事务所"
+          },
+          {
+            "id": "file/append:6367",
+            "token": 23,
+            "control": "<ctrl=2E/>"
+          }
+        ]
+      },
+      {
+        "id": "file/append:6601:opcode47",
+        "sha256": "4c28ef3e7c8061f0cecb9e52cb33c6e8b9c93b0578da1986b0242c9b0679c347",
+        "script": "file/append",
+        "boundary": "6601:opcode47",
+        "spans": [
+          {
+            "id": "file/append:6526",
+            "token": 2,
+            "color": 8,
+            "source": "白鷺洲伊綱",
+            "target": "白鹭洲伊纲"
+          },
+          {
+            "id": "file/append:6526",
+            "token": 6,
+            "color": 0,
+            "source": "　",
+            "target": "　"
+          },
+          {
+            "id": "file/append:6526",
+            "token": 10,
+            "color": 2,
+            "source": "10月21日",
+            "target": "10 月 21 日"
+          },
+          {
+            "id": "file/append:6526",
+            "token": 14,
+            "color": 0,
+            "source": "　癸生川探偵事務所",
+            "target": "　癸生川侦探事务所"
+          }
+        ]
+      },
+      {
+        "id": "file/append:7327:token5",
+        "sha256": "170d55c1721f4d7d254931a4a0edf8f9744edd82021ff92b8795fdd1188758b9",
+        "script": "file/append",
+        "boundary": "7327:token5",
+        "spans": [
+          {
+            "id": "file/append:7327",
+            "token": 2,
+            "color": 0,
+            "source": "去年、あのあと…",
+            "target": "去年，那之后……"
+          },
+          {
+            "id": "file/append:7327",
+            "token": 5,
+            "control": "<ctrl=2E/>"
+          }
+        ]
+      },
+      {
+        "id": "file/append:7372:token17",
+        "sha256": "c153859ca9521d8f999bd166eed95ae2c7d27ecf68aa8afc9e98968ad59f1bef",
+        "script": "file/append",
+        "boundary": "7372:token17",
+        "spans": [
+          {
+            "id": "file/append:7372",
+            "token": 2,
+            "color": 0,
+            "source": "色々とごたごたしてる",
+            "target": "发生了一大堆事，"
+          },
+          {
+            "id": "file/append:7372",
+            "token": 8,
+            "color": 0,
+            "source": "うちに、気付いたら",
+            "target": "忙乱之中回过神来，"
+          },
+          {
+            "id": "file/append:7372",
+            "token": 14,
+            "color": 0,
+            "source": "いなくなっちゃってて…",
+            "target": "她已经走了……"
+          },
+          {
+            "id": "file/append:7372",
+            "token": 17,
+            "control": "<ctrl=2E/>"
+          }
+        ]
+      },
+      {
+        "id": "file/append:7531:token11",
+        "sha256": "c214fe2e7b43c87ddf1e88afe21e83b79a8d53db18f2bc522744d73005642943",
+        "script": "file/append",
+        "boundary": "7531:token11",
+        "spans": [
+          {
+            "id": "file/append:7531",
+            "token": 2,
+            "color": 0,
+            "source": "お礼も、挨拶も…何も",
+            "target": "我没来得及道谢，"
+          },
+          {
+            "id": "file/append:7531",
+            "token": 8,
+            "color": 0,
+            "source": "できないままなんです。",
+            "target": "连再见都没能说。"
+          },
+          {
+            "id": "file/append:7531",
+            "token": 11,
+            "control": "<ctrl=2E/>"
+          }
+        ]
+      },
+      {
+        "id": "file/append:8037:token5",
+        "sha256": "55b9a5cbfa288c94c8159bfb0c4b2e80e47475723b85a6511bdbb030955fdf6b",
+        "script": "file/append",
+        "boundary": "8037:token5",
+        "spans": [
+          {
+            "id": "file/append:8037",
+            "token": 2,
+            "color": 0,
+            "source": "わかりました…。",
+            "target": "我知道了……"
+          },
+          {
+            "id": "file/append:8037",
+            "token": 5,
+            "control": "<ctrl=2E/>"
+          }
+        ]
+      },
+      {
+        "id": "file/append:8728:token5",
+        "sha256": "c75c915b1b1d1c40c5ad6ddb2555cc89eccd899f82d616f82bd91a12c282fd1d",
+        "script": "file/append",
+        "boundary": "8728:token5",
+        "spans": [
+          {
+            "id": "file/append:8728",
+            "token": 2,
+            "color": 0,
+            "source": "………。",
+            "target": "…………"
+          },
+          {
+            "id": "file/append:8728",
+            "token": 5,
+            "control": "<ctrl=2E/>"
+          }
+        ]
+      },
+      {
+        "id": "file/append:8991:token5",
+        "sha256": "619fa63832faf8179ceae58e3f0c1af253692200f0ed1f3ece0d2b7e1a2dd58f",
+        "script": "file/append",
+        "boundary": "8991:token5",
+        "spans": [
+          {
+            "id": "file/append:8991",
+            "token": 2,
+            "color": 0,
+            "source": "…ふじさわ…たまえ…？",
+            "target": "……藤泽……珠惠……？"
+          },
+          {
+            "id": "file/append:8991",
+            "token": 5,
+            "control": "<ctrl=2E/>"
+          }
+        ]
+      },
+      {
+        "id": "file/append:9051:token5",
+        "sha256": "62b7802db9016da7408078412284a95e15f4508270bb0ac1d14bdb097b3461c7",
+        "script": "file/append",
+        "boundary": "9051:token5",
+        "spans": [
+          {
+            "id": "file/append:9051",
+            "token": 2,
+            "color": 0,
+            "source": "………。",
+            "target": "…………"
+          },
+          {
+            "id": "file/append:9051",
+            "token": 5,
+            "control": "<ctrl=2E/>"
+          }
+        ]
+      },
+      {
+        "id": "file/append:9155:token17",
+        "sha256": "566804aeceda7df2903884a692abd1d0fc09eea5dc2fbf58b9e2e752c2620b86",
+        "script": "file/append",
+        "boundary": "9155:token17",
+        "spans": [
+          {
+            "id": "file/append:9155",
+            "token": 2,
+            "color": 0,
+            "source": "私が生まれる前に、",
+            "target": "在我出生之前，"
+          },
+          {
+            "id": "file/append:9155",
+            "token": 8,
+            "color": 0,
+            "source": "大鳳院家にいた",
+            "target": "大凤院家"
+          },
+          {
+            "id": "file/append:9155",
+            "token": 14,
+            "color": 0,
+            "source": "お手伝いさんに…",
+            "target": "曾经有个帮佣……"
+          },
+          {
+            "id": "file/append:9155",
+            "token": 17,
+            "control": "<ctrl=2E/>"
+          }
+        ]
+      },
+      {
+        "id": "file/append:9284:token11",
+        "sha256": "222b46224daa10675254c033329d1dc9a0cd6b3bef8b6cf23372eb2c30b44dd8",
+        "script": "file/append",
+        "boundary": "9284:token11",
+        "spans": [
+          {
+            "id": "file/append:9284",
+            "token": 2,
+            "color": 0,
+            "source": "そんな名前の人が",
+            "target": "好像就有个人，"
+          },
+          {
+            "id": "file/append:9284",
+            "token": 8,
+            "color": 0,
+            "source": "いた、とか…",
+            "target": "叫这个名字……"
+          },
+          {
+            "id": "file/append:9284",
+            "token": 11,
+            "control": "<ctrl=2E/>"
+          }
+        ]
+      },
+      {
+        "id": "file/append:9361:token5",
+        "sha256": "321a18d7a2a8404112ddf1cfe644c25cd9b891d035ebcc7728c6fcb738ff76b2",
+        "script": "file/append",
+        "boundary": "9361:token5",
+        "spans": [
+          {
+            "id": "file/append:9361",
+            "token": 2,
+            "color": 0,
+            "source": "どう、とか…？",
+            "target": "是这样来着……？"
+          },
+          {
+            "id": "file/append:9361",
+            "token": 5,
+            "control": "<ctrl=2E/>"
+          }
+        ]
+      },
+      {
+        "id": "file/append:9451:opcode1",
+        "sha256": "a8a731d29bf00e63f5f2ec4e7609b3f2db9f25f2f194add5e5fee4e97c1f3e64",
+        "script": "file/append",
+        "boundary": "9451:opcode1",
+        "spans": [
+          {
+            "id": "file/append:9431",
+            "token": 2,
+            "color": 0,
+            "source": "おまけモード",
+            "target": "附加模式"
+          }
+        ]
+      },
+      {
+        "id": "file/append:9454:token27",
+        "sha256": "457e4607275c049b70f38130895906e98c77a8aa0debf5dc9979b929ad4a2bdc",
+        "script": "file/append",
+        "boundary": "9454:token27",
+        "spans": [
+          {
+            "id": "file/append:9454",
+            "token": 2,
+            "color": 0,
+            "source": "これまでのデータを全て",
+            "target": "将把此前的所有数据"
+          },
+          {
+            "id": "file/append:9454",
+            "token": 8,
+            "color": 2,
+            "source": "初期化",
+            "target": "初始化"
+          },
+          {
+            "id": "file/append:9454",
+            "token": 12,
+            "color": 0,
+            "source": "して、ゲームを",
+            "target": "，"
+          },
+          {
+            "id": "file/append:9454",
+            "token": 18,
+            "color": 0,
+            "source": "最初から始めます。",
+            "target": "从头开始游戏。"
+          },
+          {
+            "id": "file/append:9454",
+            "token": 24,
+            "color": 0,
+            "source": "よろしいですか？",
+            "target": "确定吗？"
+          },
+          {
+            "id": "file/append:9454",
+            "token": 27,
+            "control": "<ctrl=2E/>"
+          }
+        ]
+      },
+      {
+        "id": "file/start:2248:token15",
+        "sha256": "1473f74219863a893eb9091d15d86f0877e1bd36521fe4b65704b8c75d190967",
+        "script": "file/start",
+        "boundary": "2248:token15",
+        "spans": [
+          {
+            "id": "file/start:279",
+            "token": 2,
+            "color": 2,
+            "source": "Presents",
+            "target": "出品"
+          },
+          {
+            "id": "file/start:279",
+            "token": 8,
+            "color": 0,
+            "source": "株式会社AndJoy",
+            "target": "AndJoy 股份有限公司"
+          },
+          {
+            "id": "file/start:356",
+            "token": 2,
+            "color": 0,
+            "source": "探偵・癸生川凌介事件譚",
+            "target": "侦探·癸生川凌介事件谭"
+          },
+          {
+            "id": "file/start:356",
+            "token": 8,
+            "color": 0,
+            "source": "第９弾",
+            "target": "第 9 作"
+          },
+          {
+            "id": "file/start:463",
+            "token": 2,
+            "color": 8,
+            "source": "永　劫　会　事　件",
+            "target": "永　劫　会　事　件"
+          },
+          {
+            "id": "file/start:525",
+            "token": 2,
+            "color": 0,
+            "source": "…1999年７月。　　　",
+            "target": "……1999 年 7 月。"
+          },
+          {
+            "id": "file/start:568",
+            "token": 2,
+            "color": 0,
+            "source": "世界情勢はそのバランス",
+            "target": "世界局势失去了"
+          },
+          {
+            "id": "file/start:615",
+            "token": 2,
+            "color": 0,
+            "source": "を失い、大きく揺れ動い",
+            "target": "原有的平衡，"
+          },
+          {
+            "id": "file/start:666",
+            "token": 2,
+            "color": 0,
+            "source": "ていた。　　　　　　　",
+            "target": "陷入了剧烈的动荡。"
+          },
+          {
+            "id": "file/start:720",
+            "token": 2,
+            "color": 0,
+            "source": "先進諸国に反感を持つ某",
+            "target": "某个敌视发达国家的国家，"
+          },
+          {
+            "id": "file/start:767",
+            "token": 2,
+            "color": 0,
+            "source": "国が突如核武装を宣言。",
+            "target": "突然宣布发展核武装。"
+          },
+          {
+            "id": "file/start:814",
+            "token": 2,
+            "color": 0,
+            "source": "各国は厳しい警戒を強め",
+            "target": "各国纷纷加强戒备，"
+          },
+          {
+            "id": "file/start:871",
+            "token": 2,
+            "color": 0,
+            "source": "世界はいつ戦争が勃発し",
+            "target": "世界陷入剑拔弩张的对峙，"
+          },
+          {
+            "id": "file/start:928",
+            "token": 2,
+            "color": 0,
+            "source": "てもおかしくない、睨み",
+            "target": "随时都可能"
+          },
+          {
+            "id": "file/start:981",
+            "token": 2,
+            "color": 0,
+            "source": "あいの状態となった。　",
+            "target": "爆发战争。"
+          },
+          {
+            "id": "file/start:1035",
+            "token": 2,
+            "color": 0,
+            "source": "日本国内でも日々、危機",
+            "target": "在日本国内，每天也"
+          },
+          {
+            "id": "file/start:1082",
+            "token": 2,
+            "color": 0,
+            "source": "を告げるニュースが伝え",
+            "target": "不断传来危机的消息。"
+          },
+          {
+            "id": "file/start:1129",
+            "token": 2,
+            "color": 0,
+            "source": "られ、不安のために眠れ",
+            "target": "因不安而辗转反侧，"
+          },
+          {
+            "id": "file/start:1176",
+            "token": 2,
+            "color": 0,
+            "source": "ぬ夜を過ごす人々が増え",
+            "target": "度过一个个不眠之夜的人，"
+          },
+          {
+            "id": "file/start:1223",
+            "token": 2,
+            "color": 0,
+            "source": "ていた。　　　　　　　",
+            "target": "日渐增多。"
+          },
+          {
+            "id": "file/start:1277",
+            "token": 2,
+            "color": 2,
+            "source": "1999年７の月、",
+            "target": "1999 年 7 月，"
+          },
+          {
+            "id": "file/start:1308",
+            "token": 2,
+            "color": 2,
+            "source": "人類は滅亡する…。",
+            "target": "人类将走向灭亡……"
+          },
+          {
+            "id": "file/start:1354",
+            "token": 2,
+            "color": 0,
+            "source": "迷信と言われていたこの",
+            "target": "这个曾被视为迷信的"
+          },
+          {
+            "id": "file/start:1401",
+            "token": 2,
+            "color": 0,
+            "source": "予言が、ここにきて妙な",
+            "target": "预言，如今却开始"
+          },
+          {
+            "id": "file/start:1448",
+            "token": 2,
+            "color": 0,
+            "source": "現実感を持ちはじめ、　",
+            "target": "有了异样的真实感。"
+          },
+          {
+            "id": "file/start:1507",
+            "token": 2,
+            "color": 0,
+            "source": "未来に絶望し、自棄に　",
+            "target": "对未来绝望、"
+          },
+          {
+            "id": "file/start:1560",
+            "token": 2,
+            "color": 0,
+            "source": "なった者たちによる暴動",
+            "target": "自暴自弃的人们，"
+          },
+          {
+            "id": "file/start:1607",
+            "token": 2,
+            "color": 0,
+            "source": "が各地で発生。　　　　",
+            "target": "在各地引发了暴动。"
+          },
+          {
+            "id": "file/start:1654",
+            "token": 2,
+            "color": 0,
+            "source": "日本は都市部を中心に、",
+            "target": "日本以都市地区为中心，"
+          },
+          {
+            "id": "file/start:1701",
+            "token": 2,
+            "color": 0,
+            "source": "凶悪な犯罪がかつてない",
+            "target": "恶性犯罪的数量"
+          },
+          {
+            "id": "file/start:1748",
+            "token": 2,
+            "color": 0,
+            "source": "ほど増加していた。　　",
+            "target": "正以前所未有的速度增长。"
+          },
+          {
+            "id": "file/start:1802",
+            "token": 2,
+            "color": 0,
+            "source": "また、不安や恐怖から　",
+            "target": "此外，为了摆脱"
+          },
+          {
+            "id": "file/start:1849",
+            "token": 2,
+            "color": 0,
+            "source": "逃れたいがため、救世主",
+            "target": "不安与恐惧，投奔"
+          },
+          {
+            "id": "file/start:1896",
+            "token": 2,
+            "color": 0,
+            "source": "を名乗る団体に群がる　",
+            "target": "那些自称救世主的团体的人，"
+          },
+          {
+            "id": "file/start:1943",
+            "token": 2,
+            "color": 0,
+            "source": "者も後を絶たなかった。",
+            "target": "也一直络绎不绝。"
+          },
+          {
+            "id": "file/start:2004",
+            "token": 2,
+            "color": 0,
+            "source": "…この「永劫会事件」は",
+            "target": "……“永劫会事件”，"
+          },
+          {
+            "id": "file/start:2051",
+            "token": 2,
+            "color": 0,
+            "source": "そんな厭世的な時代背景",
+            "target": "就是发生在"
+          },
+          {
+            "id": "file/start:2112",
+            "token": 2,
+            "color": 0,
+            "source": "の中で起こった事件で　",
+            "target": "这样一个弥漫着厌世情绪的"
+          },
+          {
+            "id": "file/start:2159",
+            "token": 2,
+            "color": 0,
+            "source": "ある。　　　　　　　　",
+            "target": "时代的案件。"
+          },
+          {
+            "id": "file/start:2248",
+            "token": 2,
+            "color": 0,
+            "source": "　",
+            "target": "　"
+          },
+          {
+            "id": "file/start:2248",
+            "token": 8,
+            "color": 2,
+            "source": "工藤貴樹",
+            "target": "工藤贵树"
+          },
+          {
+            "id": "file/start:2248",
+            "token": 12,
+            "color": 0,
+            "source": "。",
+            "target": "。"
+          },
+          {
+            "id": "file/start:2248",
+            "token": 15,
+            "control": "<ctrl=3B/>"
+          }
+        ]
+      },
+      {
+        "id": "file/start:2248:token47",
+        "sha256": "870cc7a6ae230d1b7f891a76b6018466db97230f5aa29ca91bb8959561dac9ca",
+        "script": "file/start",
+        "boundary": "2248:token47",
+        "spans": [
+          {
+            "id": "file/start:2248",
+            "token": 20,
+            "color": 0,
+            "source": "昨今の未曾有な",
+            "target": "鞠滨警署新晋的"
+          },
+          {
+            "id": "file/start:2248",
+            "token": 26,
+            "color": 0,
+            "source": "トラブル対処に",
+            "target": "精英刑警，"
+          },
+          {
+            "id": "file/start:2248",
+            "token": 32,
+            "color": 0,
+            "source": "奔走している、",
+            "target": "为处理近来"
+          },
+          {
+            "id": "file/start:2248",
+            "token": 38,
+            "color": 0,
+            "source": "鞠浜警察署の新鋭エリー",
+            "target": "前所未有的种种事端，"
+          },
+          {
+            "id": "file/start:2248",
+            "token": 44,
+            "color": 0,
+            "source": "ト刑事。",
+            "target": "四处奔走。"
+          },
+          {
+            "id": "file/start:2248",
+            "token": 47,
+            "control": "<ctrl=2E/>"
+          }
+        ]
+      },
+      {
+        "id": "file/start:2546:token15",
+        "sha256": "feece3b4c1a9c633726d20a5f9e764e6373595c09ea67cd7470a6ed7dbd31773",
+        "script": "file/start",
+        "boundary": "2546:token15",
+        "spans": [
+          {
+            "id": "file/start:2546",
+            "token": 2,
+            "color": 0,
+            "source": "　",
+            "target": "　"
+          },
+          {
+            "id": "file/start:2546",
+            "token": 8,
+            "color": 2,
+            "source": "石上雅人",
+            "target": "石上雅人"
+          },
+          {
+            "id": "file/start:2546",
+            "token": 12,
+            "color": 0,
+            "source": "。",
+            "target": "。"
+          },
+          {
+            "id": "file/start:2546",
+            "token": 15,
+            "control": "<ctrl=3B/>"
+          }
+        ]
+      },
+      {
+        "id": "file/start:2546:token47",
+        "sha256": "9316304706c40513debc4c0d67238a8dd646cd8d316634cc30daf1826ac3c4e1",
+        "script": "file/start",
+        "boundary": "2546:token47",
+        "spans": [
+          {
+            "id": "file/start:2546",
+            "token": 20,
+            "color": 0,
+            "source": "様子がおかしい",
+            "target": "年轻的自由撰稿人，"
+          },
+          {
+            "id": "file/start:2546",
+            "token": 26,
+            "color": 0,
+            "source": "恋人を心配し、",
+            "target": "担心举止反常的恋人，"
+          },
+          {
+            "id": "file/start:2546",
+            "token": 32,
+            "color": 0,
+            "source": "探偵に調査を",
+            "target": "正准备"
+          },
+          {
+            "id": "file/start:2546",
+            "token": 38,
+            "color": 0,
+            "source": "依頼しようとしている、",
+            "target": "委托侦探"
+          },
+          {
+            "id": "file/start:2546",
+            "token": 44,
+            "color": 0,
+            "source": "フリーライターの青年。",
+            "target": "展开调查。"
+          },
+          {
+            "id": "file/start:2546",
+            "token": 47,
+            "control": "<ctrl=2E/>"
+          }
+        ]
+      },
+      {
+        "id": "file/start:2837:token17",
+        "sha256": "a013dfdf410b92fb78af441a83095f930f8c8c7d8da79306c9f8e1aadad5d773",
+        "script": "file/start",
+        "boundary": "2837:token17",
+        "spans": [
+          {
+            "id": "file/start:2837",
+            "token": 2,
+            "color": 0,
+            "source": "物語はなんの関連もない",
+            "target": "故事从这两个"
+          },
+          {
+            "id": "file/start:2837",
+            "token": 8,
+            "color": 0,
+            "source": "この２人の行動から、",
+            "target": "毫不相干的人的行动，"
+          },
+          {
+            "id": "file/start:2837",
+            "token": 14,
+            "color": 0,
+            "source": "幕を開ける…。",
+            "target": "拉开帷幕……"
+          },
+          {
+            "id": "file/start:2837",
+            "token": 17,
+            "control": "<ctrl=2E/>"
+          }
+        ]
+      },
+      {
+        "id": "file/start:3427:token11",
+        "sha256": "a35458999d83f33182b5d9cb053e05b78fce605f6e12b655981099ed45bd1346",
+        "script": "file/start",
+        "boundary": "3427:token11",
+        "spans": [
+          {
+            "id": "file/start:3184",
+            "token": 2,
+            "color": 0,
+            "source": "この物語は",
+            "target": "本故事"
+          },
+          {
+            "id": "file/start:3184",
+            "token": 8,
+            "color": 0,
+            "source": "フィクションです。",
+            "target": "纯属虚构。"
+          },
+          {
+            "id": "file/start:3184",
+            "token": 14,
+            "color": 0,
+            "source": "登場する人物名、地名、",
+            "target": "其中出现的人名、地名、"
+          },
+          {
+            "id": "file/start:3184",
+            "token": 20,
+            "color": 0,
+            "source": "団体名等は、すべて",
+            "target": "团体名称等，"
+          },
+          {
+            "id": "file/start:3184",
+            "token": 26,
+            "color": 0,
+            "source": "架空のものです。",
+            "target": "均为虚构。"
+          },
+          {
+            "id": "file/start:3427",
+            "token": 2,
+            "color": 3,
+            "source": "プレイするシナリオを",
+            "target": "请选择"
+          },
+          {
+            "id": "file/start:3427",
+            "token": 8,
+            "color": 3,
+            "source": "選んでください。",
+            "target": "要游玩的章节。"
+          },
+          {
+            "id": "file/start:3427",
+            "token": 11,
+            "control": "<ctrl=2E/>"
+          }
+        ]
+      },
+      {
+        "id": "file/help:51:opcode6",
+        "sha256": "8aeda69fcc8ac7a0a3505b551ee2fc35a46a5c23815a24a88b963c40e08cf015",
+        "script": "file/help",
+        "boundary": "51:opcode6",
+        "spans": [
+          {
+            "id": "file/help:28",
+            "token": 2,
+            "color": 0,
+            "source": "あそびかた",
+            "target": "玩法说明"
+          }
+        ]
+      },
+      {
+        "id": "file/help:164:token29",
+        "sha256": "94ee919ccf55f78c560f5d3c411c4ac387eb445d5b9091df620b0048fb7c1223",
+        "script": "file/help",
+        "boundary": "164:token29",
+        "spans": [
+          {
+            "id": "file/help:164",
+            "token": 2,
+            "color": 0,
+            "source": "今作、「永劫会事件」は",
+            "target": "本作《永劫会事件》"
+          },
+          {
+            "id": "file/help:164",
+            "token": 8,
+            "color": 0,
+            "source": "２人の登場人物を中心に",
+            "target": "以两位角色为中心，"
+          },
+          {
+            "id": "file/help:164",
+            "token": 14,
+            "color": 2,
+            "source": "最大４人の人物の視点",
+            "target": "最多可从四位角色的视角"
+          },
+          {
+            "id": "file/help:164",
+            "token": 20,
+            "color": 0,
+            "source": "からゲームを進めるシス",
+            "target": "展开"
+          },
+          {
+            "id": "file/help:164",
+            "token": 26,
+            "color": 0,
+            "source": "テムになっています。",
+            "target": "游戏。"
+          },
+          {
+            "id": "file/help:164",
+            "token": 29,
+            "control": "<ctrl=2E/>"
+          }
+        ]
+      },
+      {
+        "id": "file/help:442:token23",
+        "sha256": "d66772be752064d72b02ab90d776b11c46f356036fc95815140be8efb724571e",
+        "script": "file/help",
+        "boundary": "442:token23",
+        "spans": [
+          {
+            "id": "file/help:442",
+            "token": 2,
+            "color": 0,
+            "source": "最初は２人しか選べませ",
+            "target": "最初只能选择两位角色，"
+          },
+          {
+            "id": "file/help:442",
+            "token": 8,
+            "color": 0,
+            "source": "んが、物語が進むうちに",
+            "target": "随着故事推进，"
+          },
+          {
+            "id": "file/help:442",
+            "token": 14,
+            "color": 0,
+            "source": "４人の中から選べるよう",
+            "target": "便可在四位角色之中"
+          },
+          {
+            "id": "file/help:442",
+            "token": 20,
+            "color": 0,
+            "source": "になります。",
+            "target": "自由选择。"
+          },
+          {
+            "id": "file/help:442",
+            "token": 23,
+            "control": "<ctrl=2E/>"
+          }
+        ]
+      },
+      {
+        "id": "file/help:648:token21",
+        "sha256": "7e02a457c7ad1815fb7e5efad4b769b734333010b000a9f0aa4ca2f0eb334577",
+        "script": "file/help",
+        "boundary": "648:token21",
+        "spans": [
+          {
+            "id": "file/help:648",
+            "token": 2,
+            "color": 2,
+            "source": "シナリオ選択画面",
+            "target": "章节选择画面"
+          },
+          {
+            "id": "file/help:648",
+            "token": 6,
+            "color": 0,
+            "source": "で",
+            "target": "中，"
+          },
+          {
+            "id": "file/help:648",
+            "token": 12,
+            "color": 0,
+            "source": "遊びたいシナリオを選び",
+            "target": "请选择想玩的章节，"
+          },
+          {
+            "id": "file/help:648",
+            "token": 18,
+            "color": 0,
+            "source": "物語を進めてください。",
+            "target": "推进故事。"
+          },
+          {
+            "id": "file/help:648",
+            "token": 21,
+            "control": "<ctrl=2E/>"
+          }
+        ]
+      },
+      {
+        "id": "file/help:830:token21",
+        "sha256": "b61000dbf2efcc87c2804f6a83182020c33a33850f9e53c15e6b345f7634c6fa",
+        "script": "file/help",
+        "boundary": "830:token21",
+        "spans": [
+          {
+            "id": "file/help:830",
+            "token": 2,
+            "color": 0,
+            "source": "プレイできるシナリオは",
+            "target": "可以游玩的章节，会以"
+          },
+          {
+            "id": "file/help:830",
+            "token": 8,
+            "color": 2,
+            "source": "明るいアイコン",
+            "target": "明亮的图标"
+          },
+          {
+            "id": "file/help:830",
+            "token": 12,
+            "color": 0,
+            "source": "で",
+            "target": "的形式"
+          },
+          {
+            "id": "file/help:830",
+            "token": 18,
+            "color": 0,
+            "source": "表示されます。",
+            "target": "显示出来。"
+          },
+          {
+            "id": "file/help:830",
+            "token": 21,
+            "control": "<ctrl=2E/>"
+          }
+        ]
+      },
+      {
+        "id": "file/help:985:token21",
+        "sha256": "5f63a9e7ca4162ce32d182caffcd068fc55fac38b8566f79ec6884e2662128ad",
+        "script": "file/help",
+        "boundary": "985:token21",
+        "spans": [
+          {
+            "id": "file/help:985",
+            "token": 2,
+            "color": 0,
+            "source": "暗いアイコンは、まだ",
+            "target": "暗淡的图标表示"
+          },
+          {
+            "id": "file/help:985",
+            "token": 8,
+            "color": 2,
+            "source": "選択できない",
+            "target": "无法选择"
+          },
+          {
+            "id": "file/help:985",
+            "token": 12,
+            "color": 0,
+            "source": "ことを",
+            "target": "的"
+          },
+          {
+            "id": "file/help:985",
+            "token": 18,
+            "color": 0,
+            "source": "示します。",
+            "target": "章节。"
+          },
+          {
+            "id": "file/help:985",
+            "token": 21,
+            "control": "<ctrl=2E/>"
+          }
+        ]
+      },
+      {
+        "id": "file/help:1114:token17",
+        "sha256": "0a516b41cca64225d14dfa975eb86ba40d4b02dc44f6e5d863bd2589b1d1274d",
+        "script": "file/help",
+        "boundary": "1114:token17",
+        "spans": [
+          {
+            "id": "file/help:1114",
+            "token": 2,
+            "color": 0,
+            "source": "他のシナリオをクリア",
+            "target": "通关其他章节后，"
+          },
+          {
+            "id": "file/help:1114",
+            "token": 8,
+            "color": 0,
+            "source": "することで、遊べる",
+            "target": "这些章节便会"
+          },
+          {
+            "id": "file/help:1114",
+            "token": 14,
+            "color": 0,
+            "source": "ようになっていきます。",
+            "target": "逐步开放。"
+          },
+          {
+            "id": "file/help:1114",
+            "token": 17,
+            "control": "<ctrl=2E/>"
+          }
+        ]
+      },
+      {
+        "id": "file/help:1290:token17",
+        "sha256": "58bab0c41a1f13014a5a901ee4521fd9e4c2a8bac06028935e3b3676bce2ad4f",
+        "script": "file/help",
+        "boundary": "1290:token17",
+        "spans": [
+          {
+            "id": "file/help:1290",
+            "token": 2,
+            "color": 0,
+            "source": "選んだシナリオをクリア",
+            "target": "通关选定的章节后，"
+          },
+          {
+            "id": "file/help:1290",
+            "token": 8,
+            "color": 0,
+            "source": "すると、アイコンが",
+            "target": "该章节的图标"
+          },
+          {
+            "id": "file/help:1290",
+            "token": 14,
+            "color": 0,
+            "source": "消されます。",
+            "target": "就会消失。"
+          },
+          {
+            "id": "file/help:1290",
+            "token": 17,
+            "control": "<ctrl=2E/>"
+          }
+        ]
+      },
+      {
+        "id": "file/help:1446:token31",
+        "sha256": "3e6472c5a7bae250802c52bb2e76148c3832c7fd878dc6633cc6815c0ac64613",
+        "script": "file/help",
+        "boundary": "1446:token31",
+        "spans": [
+          {
+            "id": "file/help:1446",
+            "token": 2,
+            "color": 0,
+            "source": "しかし、クリアしても",
+            "target": "不过，如果章节的"
+          },
+          {
+            "id": "file/help:1446",
+            "token": 8,
+            "color": 0,
+            "source": "結末が",
+            "target": "结局是"
+          },
+          {
+            "id": "file/help:1446",
+            "token": 12,
+            "color": 2,
+            "source": "「未完」",
+            "target": "“未完”"
+          },
+          {
+            "id": "file/help:1446",
+            "token": 16,
+            "color": 0,
+            "source": "だった",
+            "target": "，"
+          },
+          {
+            "id": "file/help:1446",
+            "token": 22,
+            "color": 0,
+            "source": "場合は、上のように",
+            "target": "图标就不会像上面那样"
+          },
+          {
+            "id": "file/help:1446",
+            "token": 28,
+            "color": 0,
+            "source": "完全には消えません。",
+            "target": "彻底消失。"
+          },
+          {
+            "id": "file/help:1446",
+            "token": 31,
+            "control": "<ctrl=2E/>"
+          }
+        ]
+      },
+      {
+        "id": "file/help:1652:token27",
+        "sha256": "88c6da89e6cf9b3329948638b85402beb264e013fd997fc9992357f0db616622",
+        "script": "file/help",
+        "boundary": "1652:token27",
+        "spans": [
+          {
+            "id": "file/help:1652",
+            "token": 2,
+            "color": 0,
+            "source": "物語が先に進まない場合",
+            "target": "如果故事无法继续，"
+          },
+          {
+            "id": "file/help:1652",
+            "token": 8,
+            "color": 0,
+            "source": "は、他のシナリオを",
+            "target": "不妨试着将其他章节"
+          },
+          {
+            "id": "file/help:1652",
+            "token": 14,
+            "color": 2,
+            "source": "完全クリア",
+            "target": "完全通关"
+          },
+          {
+            "id": "file/help:1652",
+            "token": 18,
+            "color": 0,
+            "source": "させてみると",
+            "target": "，"
+          },
+          {
+            "id": "file/help:1652",
+            "token": 24,
+            "color": 0,
+            "source": "いいでしょう。",
+            "target": "再来尝试。"
+          },
+          {
+            "id": "file/help:1652",
+            "token": 27,
+            "control": "<ctrl=2E/>"
+          }
+        ]
+      },
+      {
+        "id": "file/help:1870:token17",
+        "sha256": "a3bd0a838d3c7f79e78182f5de50368b78f66657c2ae971faf839cb244b1d7ed",
+        "script": "file/help",
+        "boundary": "1870:token17",
+        "spans": [
+          {
+            "id": "file/help:1870",
+            "token": 2,
+            "color": 0,
+            "source": "また、クリア済みの",
+            "target": "已通关的章节，"
+          },
+          {
+            "id": "file/help:1870",
+            "token": 8,
+            "color": 0,
+            "source": "シナリオも、再度選んで",
+            "target": "也可以再次选择，"
+          },
+          {
+            "id": "file/help:1870",
+            "token": 14,
+            "color": 0,
+            "source": "遊ぶことができます。",
+            "target": "重新游玩。"
+          },
+          {
+            "id": "file/help:1870",
+            "token": 17,
+            "control": "<ctrl=2E/>"
+          }
+        ]
+      },
+      {
+        "id": "file/help:2029:token23",
+        "sha256": "eefe744463f6a3022e08185986f1acf30dfeeb00966ea095cb19dd5026ad02f0",
+        "script": "file/help",
+        "boundary": "2029:token23",
+        "spans": [
+          {
+            "id": "file/help:2029",
+            "token": 2,
+            "color": 0,
+            "source": "シナリオによっては、",
+            "target": "有些章节"
+          },
+          {
+            "id": "file/help:2029",
+            "token": 8,
+            "color": 0,
+            "source": "再プレイの際、どこから",
+            "target": "在重新游玩时，"
+          },
+          {
+            "id": "file/help:2029",
+            "token": 14,
+            "color": 0,
+            "source": "遊ぶか選べるものも",
+            "target": "还可以选择"
+          },
+          {
+            "id": "file/help:2029",
+            "token": 20,
+            "color": 0,
+            "source": "あります。",
+            "target": "从哪里开始。"
+          },
+          {
+            "id": "file/help:2029",
+            "token": 23,
+            "control": "<ctrl=2E/>"
+          }
+        ]
+      },
+      {
+        "id": "file/help:2222:token25",
+        "sha256": "4365d86d34bc8bad635539ae9e337656e7871b26ae3bd4292785b2ea2ad1dffa",
+        "script": "file/help",
+        "boundary": "2222:token25",
+        "spans": [
+          {
+            "id": "file/help:2222",
+            "token": 2,
+            "color": 0,
+            "source": "プレイ中は、いつでも",
+            "target": "游戏中，随时按下"
+          },
+          {
+            "id": "file/help:2222",
+            "token": 8,
+            "color": 10,
+            "source": "右ソフトキー",
+            "target": "右软键"
+          },
+          {
+            "id": "file/help:2222",
+            "token": 12,
+            "color": 0,
+            "source": "を押すと",
+            "target": "，"
+          },
+          {
+            "id": "file/help:2222",
+            "token": 18,
+            "color": 2,
+            "source": "メニュー",
+            "target": "菜单"
+          },
+          {
+            "id": "file/help:2222",
+            "token": 22,
+            "color": 0,
+            "source": "が開きます。",
+            "target": "就会打开。"
+          },
+          {
+            "id": "file/help:2222",
+            "token": 25,
+            "control": "<ctrl=3B/>"
+          }
+        ]
+      },
+      {
+        "id": "file/help:2222:token45",
+        "sha256": "b0ee9bc76dd138d8b19fde44abd2f04eb1e9e7a71643c6494fd4a1a3006811a4",
+        "script": "file/help",
+        "boundary": "2222:token45",
+        "spans": [
+          {
+            "id": "file/help:2222",
+            "token": 30,
+            "color": 0,
+            "source": "ここから、シナリオ選択",
+            "target": "从这里可以返回"
+          },
+          {
+            "id": "file/help:2222",
+            "token": 36,
+            "color": 0,
+            "source": "画面や、タイトル画面に",
+            "target": "章节选择画面，"
+          },
+          {
+            "id": "file/help:2222",
+            "token": 42,
+            "color": 0,
+            "source": "戻ることができます。",
+            "target": "或标题画面。"
+          },
+          {
+            "id": "file/help:2222",
+            "token": 45,
+            "control": "<ctrl=2E/>"
+          }
+        ]
+      },
+      {
+        "id": "file/help:2550:token19",
+        "sha256": "d7a5d158b97a8b5fb271c71145eeb7e1e8644337975f6cecdb4900002adff7fa",
+        "script": "file/help",
+        "boundary": "2550:token19",
+        "spans": [
+          {
+            "id": "file/help:2550",
+            "token": 2,
+            "color": 0,
+            "source": "今作は、",
+            "target": "本作采用"
+          },
+          {
+            "id": "file/help:2550",
+            "token": 6,
+            "color": 2,
+            "source": "オートセーブ",
+            "target": "自动存档"
+          },
+          {
+            "id": "file/help:2550",
+            "token": 10,
+            "color": 0,
+            "source": "に",
+            "target": "的"
+          },
+          {
+            "id": "file/help:2550",
+            "token": 16,
+            "color": 0,
+            "source": "なっています。",
+            "target": "方式。"
+          },
+          {
+            "id": "file/help:2550",
+            "token": 19,
+            "control": "<ctrl=2E/>"
+          }
+        ]
+      },
+      {
+        "id": "file/help:2647:token21",
+        "sha256": "ee8018c89ea0e5b1d02e2208dc6ee316192d4bc244b0f16229126bba86f500c9",
+        "script": "file/help",
+        "boundary": "2647:token21",
+        "spans": [
+          {
+            "id": "file/help:2647",
+            "token": 2,
+            "color": 0,
+            "source": "コマンド選択のたびに、",
+            "target": "每次选择指令后，都会"
+          },
+          {
+            "id": "file/help:2647",
+            "token": 8,
+            "color": 2,
+            "source": "自動的",
+            "target": "自动"
+          },
+          {
+            "id": "file/help:2647",
+            "token": 12,
+            "color": 0,
+            "source": "にセーブされます",
+            "target": "保存，"
+          },
+          {
+            "id": "file/help:2647",
+            "token": 18,
+            "color": 0,
+            "source": "ので、",
+            "target": "因此，"
+          },
+          {
+            "id": "file/help:2647",
+            "token": 21,
+            "control": "<ctrl=3A/>"
+          }
+        ]
+      },
+      {
+        "id": "file/help:2647:token45",
+        "sha256": "ab30ee0e2292936cc459a76cf90a893ed321d1d3b1ef5e83379e60a2f5206aa1",
+        "script": "file/help",
+        "boundary": "2647:token45",
+        "spans": [
+          {
+            "id": "file/help:2647",
+            "token": 24,
+            "color": 0,
+            "source": "ゲームを中断",
+            "target": "如果想中断"
+          },
+          {
+            "id": "file/help:2647",
+            "token": 30,
+            "color": 0,
+            "source": "したい場合は、いつでも",
+            "target": "游戏，随时"
+          },
+          {
+            "id": "file/help:2647",
+            "token": 36,
+            "color": 0,
+            "source": "好きな時にアプリを終了",
+            "target": "退出应用"
+          },
+          {
+            "id": "file/help:2647",
+            "token": 42,
+            "color": 0,
+            "source": "させればＯＫです。",
+            "target": "就可以了。"
+          },
+          {
+            "id": "file/help:2647",
+            "token": 45,
+            "control": "<ctrl=2E/>"
+          }
+        ]
+      },
+      {
+        "id": "file/help:2972:token27",
+        "sha256": "f601675160af064838225fce456b53635ac9114ce96f3b75cf773c74f50b3c32",
+        "script": "file/help",
+        "boundary": "2972:token27",
+        "spans": [
+          {
+            "id": "file/help:2972",
+            "token": 2,
+            "color": 0,
+            "source": "続きをプレイしたい時は",
+            "target": "想继续游戏时，"
+          },
+          {
+            "id": "file/help:2972",
+            "token": 8,
+            "color": 0,
+            "source": "タイトル画面から",
+            "target": "请在标题画面"
+          },
+          {
+            "id": "file/help:2972",
+            "token": 14,
+            "color": 2,
+            "source": "「スタート」",
+            "target": "“开始”"
+          },
+          {
+            "id": "file/help:2972",
+            "token": 18,
+            "color": 0,
+            "source": "を選んで",
+            "target": "这一项"
+          },
+          {
+            "id": "file/help:2972",
+            "token": 24,
+            "color": 0,
+            "source": "ください。",
+            "target": "上进行选择。"
+          },
+          {
+            "id": "file/help:2972",
+            "token": 27,
+            "control": "<ctrl=2E/>"
+          }
+        ]
+      },
+      {
+        "id": "file/help:3156:token45",
+        "sha256": "f341e370eb9b72dc3ae90d3effcef30d48c88b39437b1da7ec10b383744aff97",
+        "script": "file/help",
+        "boundary": "3156:token45",
+        "spans": [
+          {
+            "id": "file/help:3156",
+            "token": 2,
+            "color": 2,
+            "source": "「おまけ」",
+            "target": "“附加”"
+          },
+          {
+            "id": "file/help:3156",
+            "token": 6,
+            "color": 0,
+            "source": "モードには",
+            "target": "模式中，有"
+          },
+          {
+            "id": "file/help:3156",
+            "token": 12,
+            "color": 0,
+            "source": "・背景テスト",
+            "target": "·背景鉴赏"
+          },
+          {
+            "id": "file/help:3156",
+            "token": 18,
+            "color": 0,
+            "source": "・キャラテスト",
+            "target": "·角色鉴赏"
+          },
+          {
+            "id": "file/help:3156",
+            "token": 24,
+            "color": 0,
+            "source": "・サウンドテスト",
+            "target": "·音乐鉴赏"
+          },
+          {
+            "id": "file/help:3156",
+            "token": 30,
+            "color": 0,
+            "source": "…の３種類があり、",
+            "target": "这三种内容，"
+          },
+          {
+            "id": "file/help:3156",
+            "token": 36,
+            "color": 0,
+            "source": "プレイが進むにつれて",
+            "target": "会随着游戏推进"
+          },
+          {
+            "id": "file/help:3156",
+            "token": 42,
+            "color": 0,
+            "source": "埋まっていきます。",
+            "target": "逐步解锁。"
+          },
+          {
+            "id": "file/help:3156",
+            "token": 45,
+            "control": "<ctrl=2E/>"
+          }
+        ]
+      },
+      {
+        "id": "file/help:3468:token31",
+        "sha256": "1634679f079b93279f4f43078ab5df6ed7d7eac0f0ae150b4d8e62c8af9ca796",
+        "script": "file/help",
+        "boundary": "3468:token31",
+        "spans": [
+          {
+            "id": "file/help:3468",
+            "token": 2,
+            "color": 0,
+            "source": "また、ある条件を",
+            "target": "此外，满足特定条件"
+          },
+          {
+            "id": "file/help:3468",
+            "token": 8,
+            "color": 0,
+            "source": "満たしてゲームをクリア",
+            "target": "并通关游戏后，"
+          },
+          {
+            "id": "file/help:3468",
+            "token": 14,
+            "color": 0,
+            "source": "すると、",
+            "target": "就会多出一个"
+          },
+          {
+            "id": "file/help:3468",
+            "token": 18,
+            "color": 2,
+            "source": "新たな項目",
+            "target": "新项目"
+          },
+          {
+            "id": "file/help:3468",
+            "token": 22,
+            "color": 0,
+            "source": "が",
+            "target": "，"
+          },
+          {
+            "id": "file/help:3468",
+            "token": 28,
+            "color": 0,
+            "source": "ひとつ追加されます。",
+            "target": "加入菜单。"
+          },
+          {
+            "id": "file/help:3468",
+            "token": 31,
+            "control": "<ctrl=2E/>"
+          }
+        ]
+      },
+      {
+        "id": "file/help:3674:token17",
+        "sha256": "107affebdc8943d5e9013e9b97d2d8998014548e4a4a65c1663c40304c2aa444",
+        "script": "file/help",
+        "boundary": "3674:token17",
+        "spans": [
+          {
+            "id": "file/help:3674",
+            "token": 2,
+            "color": 0,
+            "source": "それが何かは、あなた",
+            "target": "具体是什么，"
+          },
+          {
+            "id": "file/help:3674",
+            "token": 8,
+            "color": 0,
+            "source": "自身の目でお確かめ",
+            "target": "还请您亲自"
+          },
+          {
+            "id": "file/help:3674",
+            "token": 14,
+            "color": 0,
+            "source": "ください。",
+            "target": "去确认。"
+          },
+          {
+            "id": "file/help:3674",
+            "token": 17,
+            "control": "<ctrl=2E/>"
+          }
+        ]
+      },
+      {
+        "id": "file/help:3806:token23",
+        "sha256": "5c750e17d76107fe6d7c5654e460eacd5b0be32edd88ffeebb8ac64dee9b54ce",
+        "script": "file/help",
+        "boundary": "3806:token23",
+        "spans": [
+          {
+            "id": "file/help:3806",
+            "token": 2,
+            "color": 0,
+            "source": "今作は、様々な人物の",
+            "target": "本作让您从多位人物的"
+          },
+          {
+            "id": "file/help:3806",
+            "token": 8,
+            "color": 0,
+            "source": "視点から、物語を追って",
+            "target": "视角"
+          },
+          {
+            "id": "file/help:3806",
+            "token": 14,
+            "color": 0,
+            "source": "いく形式になっています",
+            "target": "追踪故事，"
+          },
+          {
+            "id": "file/help:3806",
+            "token": 20,
+            "color": 0,
+            "source": "ので、",
+            "target": "所以，"
+          },
+          {
+            "id": "file/help:3806",
+            "token": 23,
+            "control": "<ctrl=3A/>"
+          }
+        ]
+      },
+      {
+        "id": "file/help:3806:token41",
+        "sha256": "06c01a5fea13c24226206fb0f974d0212e2b69491b54a87001224d303574bf6d",
+        "script": "file/help",
+        "boundary": "3806:token41",
+        "spans": [
+          {
+            "id": "file/help:3806",
+            "token": 26,
+            "color": 0,
+            "source": "登場人物によって",
+            "target": "每位人物看到的情况"
+          },
+          {
+            "id": "file/help:3806",
+            "token": 32,
+            "color": 0,
+            "source": "見え方や得られる情報が",
+            "target": "和能获得的信息"
+          },
+          {
+            "id": "file/help:3806",
+            "token": 38,
+            "color": 0,
+            "source": "自然と異なります。",
+            "target": "自然也各不相同。"
+          },
+          {
+            "id": "file/help:3806",
+            "token": 41,
+            "control": "<ctrl=2E/>"
+          }
+        ]
+      },
+      {
+        "id": "file/help:4136:token25",
+        "sha256": "64684b3f17299e009cb1ef09a2b3f4b55ffd67edd88b928a2e52568e1529b55f",
+        "script": "file/help",
+        "boundary": "4136:token25",
+        "spans": [
+          {
+            "id": "file/help:4136",
+            "token": 2,
+            "color": 0,
+            "source": "そこで、",
+            "target": "因此，选中"
+          },
+          {
+            "id": "file/help:4136",
+            "token": 6,
+            "color": 2,
+            "source": "解決編",
+            "target": "解答篇"
+          },
+          {
+            "id": "file/help:4136",
+            "token": 10,
+            "color": 0,
+            "source": "にあたる",
+            "target": "所对应的"
+          },
+          {
+            "id": "file/help:4136",
+            "token": 16,
+            "color": 0,
+            "source": "シナリオを選択した",
+            "target": "章节"
+          },
+          {
+            "id": "file/help:4136",
+            "token": 22,
+            "color": 0,
+            "source": "ところで…",
+            "target": "之后……"
+          },
+          {
+            "id": "file/help:4136",
+            "token": 25,
+            "control": "<ctrl=2E/>"
+          }
+        ]
+      },
+      {
+        "id": "file/help:4270:token29",
+        "sha256": "c11659f127af85c31e07e19f0d53adedbe32279d94f276ee5b9bf6ce05985976",
+        "script": "file/help",
+        "boundary": "4270:token29",
+        "spans": [
+          {
+            "id": "file/help:4270",
+            "token": 2,
+            "color": 0,
+            "source": "私、",
+            "target": "由我，"
+          },
+          {
+            "id": "file/help:4270",
+            "token": 6,
+            "color": 16,
+            "source": "生王（作者）",
+            "target": "生王（作者）"
+          },
+          {
+            "id": "file/help:4270",
+            "token": 10,
+            "color": 0,
+            "source": "から",
+            "target": "，向"
+          },
+          {
+            "id": "file/help:4270",
+            "token": 16,
+            "color": 10,
+            "source": "皆さま（プレイヤー）",
+            "target": "各位（玩家）"
+          },
+          {
+            "id": "file/help:4270",
+            "token": 20,
+            "color": 0,
+            "source": "へ",
+            "target": "，"
+          },
+          {
+            "id": "file/help:4270",
+            "token": 26,
+            "color": 0,
+            "source": "…というかたちで、",
+            "target": "以这样的形式，"
+          },
+          {
+            "id": "file/help:4270",
+            "token": 29,
+            "control": "<ctrl=3B/>"
+          }
+        ]
+      },
+      {
+        "id": "file/help:4270:token53",
+        "sha256": "f020431ce5d326ed3f6e4c5701fb0c6e75ebac198b76013e8aca966e8b76cd88",
+        "script": "file/help",
+        "boundary": "4270:token53",
+        "spans": [
+          {
+            "id": "file/help:4270",
+            "token": 34,
+            "color": 0,
+            "source": "物語の全容をどこまで",
+            "target": "就大家对故事全貌"
+          },
+          {
+            "id": "file/help:4270",
+            "token": 40,
+            "color": 0,
+            "source": "解き明かせたか、",
+            "target": "究竟了解了多少，提出"
+          },
+          {
+            "id": "file/help:4270",
+            "token": 44,
+            "color": 2,
+            "source": "質問",
+            "target": "问题"
+          },
+          {
+            "id": "file/help:4270",
+            "token": 50,
+            "color": 0,
+            "source": "させていただきます。",
+            "target": "，请各位作答。"
+          },
+          {
+            "id": "file/help:4270",
+            "token": 53,
+            "control": "<ctrl=2E/>"
+          }
+        ]
+      },
+      {
+        "id": "file/help:4595:token31",
+        "sha256": "21249e9402158f2dbaaa8b64d2d6eadfb83fdc71f6d01a8d1796212baabcbc32",
+        "script": "file/help",
+        "boundary": "4595:token31",
+        "spans": [
+          {
+            "id": "file/help:4595",
+            "token": 2,
+            "color": 0,
+            "source": "そこで",
+            "target": "在这里，必须"
+          },
+          {
+            "id": "file/help:4595",
+            "token": 6,
+            "color": 2,
+            "source": "全問正解",
+            "target": "全部答对"
+          },
+          {
+            "id": "file/help:4595",
+            "token": 10,
+            "color": 0,
+            "source": "しないと",
+            "target": "，"
+          },
+          {
+            "id": "file/help:4595",
+            "token": 16,
+            "color": 0,
+            "source": "解決編に進むことは",
+            "target": "才能进入解答篇。"
+          },
+          {
+            "id": "file/help:4595",
+            "token": 22,
+            "color": 0,
+            "source": "できませんので、どうぞ",
+            "target": "还请"
+          },
+          {
+            "id": "file/help:4595",
+            "token": 28,
+            "color": 0,
+            "source": "ご注意ください。",
+            "target": "注意。"
+          },
+          {
+            "id": "file/help:4595",
+            "token": 31,
+            "control": "<ctrl=2E/>"
+          }
+        ]
+      },
+      {
+        "id": "file/help:4804:token39",
+        "sha256": "359449b8f8560c643274bdca60affd9dfe4dbcbb964321441821f5b6c1bdb8d3",
+        "script": "file/help",
+        "boundary": "4804:token39",
+        "spans": [
+          {
+            "id": "file/help:4804",
+            "token": 2,
+            "color": 0,
+            "source": "プレイデータを全て",
+            "target": "如果想要清除"
+          },
+          {
+            "id": "file/help:4804",
+            "token": 8,
+            "color": 0,
+            "source": "消去して、また最初から",
+            "target": "全部游戏数据，"
+          },
+          {
+            "id": "file/help:4804",
+            "token": 14,
+            "color": 0,
+            "source": "遊びたい場合は、",
+            "target": "从头再玩，"
+          },
+          {
+            "id": "file/help:4804",
+            "token": 20,
+            "color": 0,
+            "source": "「おまけ」から",
+            "target": "请从“附加”菜单中"
+          },
+          {
+            "id": "file/help:4804",
+            "token": 26,
+            "color": 2,
+            "source": "「データ初期化」",
+            "target": "“初始化数据”"
+          },
+          {
+            "id": "file/help:4804",
+            "token": 30,
+            "color": 0,
+            "source": "を",
+            "target": "这一项"
+          },
+          {
+            "id": "file/help:4804",
+            "token": 36,
+            "color": 0,
+            "source": "選んでください。",
+            "target": "进入。"
+          },
+          {
+            "id": "file/help:4804",
+            "token": 39,
+            "control": "<ctrl=2E/>"
+          }
+        ]
+      }
+    ],
+    "colors": [
+      {
+        "id": "file/append:6367:token2",
+        "sha256": "fff5ff51ed081a68f693432f9cb15e69153f4fed50bc3ae4aa378e28b460820f",
+        "token": 2,
+        "color": 8,
+        "source": "白鷺洲伊綱",
+        "target": "白鹭洲伊纲"
+      },
+      {
+        "id": "file/append:6367:token14",
+        "sha256": "b65859802ce9fc4762502c4ee908a54cc93299ae53c9614079c59bdefd4d1268",
+        "token": 14,
+        "color": 2,
+        "source": "1999年10月21日",
+        "target": "1999 年 10 月 21 日"
+      },
+      {
+        "id": "file/append:6526:token2",
+        "sha256": "e06730ee0bd358e9eb5a912954802fc53e084100fef5bfe38a91d272a61e0d4a",
+        "token": 2,
+        "color": 8,
+        "source": "白鷺洲伊綱",
+        "target": "白鹭洲伊纲"
+      },
+      {
+        "id": "file/append:6526:token10",
+        "sha256": "44feed21462c1009518c2a6cab6ce7f6530446e339ab9e7da16ce9da4bf238c2",
+        "token": 10,
+        "color": 2,
+        "source": "10月21日",
+        "target": "10 月 21 日"
+      },
+      {
+        "id": "file/append:9454:token8",
+        "sha256": "0ed290ab49d274f853f4ec426ed9c2162c09cc32437e52d6e9bec86e62ec9afb",
+        "token": 8,
+        "color": 2,
+        "source": "初期化",
+        "target": "初始化"
+      },
+      {
+        "id": "file/start:279:token2",
+        "sha256": "7426d0402e3a3fa0f1ee2b7bf0be1f4903d1b6f531545cc466f3c13ad523f5e4",
+        "token": 2,
+        "color": 2,
+        "source": "Presents",
+        "target": "出品"
+      },
+      {
+        "id": "file/start:463:token2",
+        "sha256": "eaace9a24c4e658d2a454f0f1179ed1c70dd0549c7dbea5979e3c2fd46f81b95",
+        "token": 2,
+        "color": 8,
+        "source": "永　劫　会　事　件",
+        "target": "永　劫　会　事　件"
+      },
+      {
+        "id": "file/start:1277:token2",
+        "sha256": "e41a1f7fe41a75e567c93d3de79794c17abfa529d57198023ab02b702ebaf029",
+        "token": 2,
+        "color": 2,
+        "source": "1999年７の月、",
+        "target": "1999 年 7 月，"
+      },
+      {
+        "id": "file/start:1308:token2",
+        "sha256": "70068298b689aee657b6214a504386cad2a0fa41eb1bde14af0eb7b3100c303c",
+        "token": 2,
+        "color": 2,
+        "source": "人類は滅亡する…。",
+        "target": "人类将走向灭亡……"
+      },
+      {
+        "id": "file/start:2248:token8",
+        "sha256": "0075b5a9c845e62040d550da330289a7ca902c11943ebcac5e2fbacb97595961",
+        "token": 8,
+        "color": 2,
+        "source": "工藤貴樹",
+        "target": "工藤贵树"
+      },
+      {
+        "id": "file/start:2546:token8",
+        "sha256": "de618a3276a41ea884ef94ffe316702557faa8fa654bd1234fcbd80506095bed",
+        "token": 8,
+        "color": 2,
+        "source": "石上雅人",
+        "target": "石上雅人"
+      },
+      {
+        "id": "file/start:3427:token2",
+        "sha256": "8ea83a93c81854b45eb64f47927eb12e25e41ac087c96b19efe048a723d5348e",
+        "token": 2,
+        "color": 3,
+        "source": "プレイするシナリオを",
+        "target": "请选择"
+      },
+      {
+        "id": "file/start:3427:token8",
+        "sha256": "ebdecd5b2a30b87d6864ac7267e48484d74dfea3ea178a009b819ba1b723b464",
+        "token": 8,
+        "color": 3,
+        "source": "選んでください。",
+        "target": "要游玩的章节。"
+      },
+      {
+        "id": "file/help:164:token14",
+        "sha256": "d87ce8df1881c4a2871a44bc680e905e38a9c9005e5f2502adcaead3c95dbc81",
+        "token": 14,
+        "color": 2,
+        "source": "最大４人の人物の視点",
+        "target": "最多可从四位角色的视角"
+      },
+      {
+        "id": "file/help:648:token2",
+        "sha256": "e80599af1a47a57f9fe724f5b33e5d71a5fcd90c6f1a59928fed106a5872009a",
+        "token": 2,
+        "color": 2,
+        "source": "シナリオ選択画面",
+        "target": "章节选择画面"
+      },
+      {
+        "id": "file/help:830:token8",
+        "sha256": "48c9cb6d030b561732a9ca966abdff9e655da4e3cbc2ae1c8126697aab3ac78a",
+        "token": 8,
+        "color": 2,
+        "source": "明るいアイコン",
+        "target": "明亮的图标"
+      },
+      {
+        "id": "file/help:985:token8",
+        "sha256": "f0108b0b93130c0856045ad35be0fc798bba83ac1c024a6764c2c94e1c931969",
+        "token": 8,
+        "color": 2,
+        "source": "選択できない",
+        "target": "无法选择"
+      },
+      {
+        "id": "file/help:1446:token12",
+        "sha256": "00e3b5d053d80c5477e853b96a5472f07bfd1a849642f2a44f75daf94376edfa",
+        "token": 12,
+        "color": 2,
+        "source": "「未完」",
+        "target": "“未完”"
+      },
+      {
+        "id": "file/help:1652:token14",
+        "sha256": "150e52fccaab4a912f0b3ecef1be5e85dd024b8bbcd76a2f170564ab9390ef4e",
+        "token": 14,
+        "color": 2,
+        "source": "完全クリア",
+        "target": "完全通关"
+      },
+      {
+        "id": "file/help:2222:token8",
+        "sha256": "f75a0c3b80e87c0f2a9e9bca8523de477c3b8476ee4c015373c81d9627df05a7",
+        "token": 8,
+        "color": 10,
+        "source": "右ソフトキー",
+        "target": "右软键"
+      },
+      {
+        "id": "file/help:2222:token18",
+        "sha256": "903dcd3d9b8a3c1f426d462f33dd4ed1afaf3e52c33cea14ecaac2c9b450647f",
+        "token": 18,
+        "color": 2,
+        "source": "メニュー",
+        "target": "菜单"
+      },
+      {
+        "id": "file/help:2550:token6",
+        "sha256": "97e7a569460e0370d75b0a52d03f9aafcb8e4f19641afd083bc46775a9aa1a40",
+        "token": 6,
+        "color": 2,
+        "source": "オートセーブ",
+        "target": "自动存档"
+      },
+      {
+        "id": "file/help:2647:token8",
+        "sha256": "21190b1562f369e53bda59e8261049ecb0089672d26c96881ca8c2466a2f55d9",
+        "token": 8,
+        "color": 2,
+        "source": "自動的",
+        "target": "自动"
+      },
+      {
+        "id": "file/help:2972:token14",
+        "sha256": "b28be83c53ff5307a4e15e93a16a073e01d67f81b0bac4ec85435fb6f7c61972",
+        "token": 14,
+        "color": 2,
+        "source": "「スタート」",
+        "target": "“开始”"
+      },
+      {
+        "id": "file/help:3156:token2",
+        "sha256": "6a69936f8e3c2f42e268de49e042d3a4fafe7a74720d186d95f2cfff7a91519f",
+        "token": 2,
+        "color": 2,
+        "source": "「おまけ」",
+        "target": "“附加”"
+      },
+      {
+        "id": "file/help:3468:token18",
+        "sha256": "62f1d35bf4e53450b7486df4633d0fbc509b79c6307e3d21bd99c4544fd05d42",
+        "token": 18,
+        "color": 2,
+        "source": "新たな項目",
+        "target": "新项目"
+      },
+      {
+        "id": "file/help:4136:token6",
+        "sha256": "2a0c14f01026dbdec6ccd6d9f046e7ab605c34bb3bd4cdea765890d05db9bd43",
+        "token": 6,
+        "color": 2,
+        "source": "解決編",
+        "target": "解答篇"
+      },
+      {
+        "id": "file/help:4270:token6",
+        "sha256": "d9beb2f22bb8d6f1691c229de850608ca4e5fce2c21ef31ee2f7b669e114772f",
+        "token": 6,
+        "color": 16,
+        "source": "生王（作者）",
+        "target": "生王（作者）"
+      },
+      {
+        "id": "file/help:4270:token16",
+        "sha256": "10eb37103a64836af0278920a3c4347cb50cadf1964277d049e2851f446473b8",
+        "token": 16,
+        "color": 10,
+        "source": "皆さま（プレイヤー）",
+        "target": "各位（玩家）"
+      },
+      {
+        "id": "file/help:4270:token44",
+        "sha256": "2701630d4d255a0576c9be701982bac46d20be7ee4a0c668a92215762493024d",
+        "token": 44,
+        "color": 2,
+        "source": "質問",
+        "target": "问题"
+      },
+      {
+        "id": "file/help:4595:token6",
+        "sha256": "79e378743f2d6d1278b50643c680ce675e7bdf1b3d410c3605e8b60e2a78ba0b",
+        "token": 6,
+        "color": 2,
+        "source": "全問正解",
+        "target": "全部答对"
+      },
+      {
+        "id": "file/help:4804:token26",
+        "sha256": "041547251249b1287bd0df077eaad5c22764345dfa1defd40666130bdc7b18e8",
+        "token": 26,
+        "color": 2,
+        "source": "「データ初期化」",
+        "target": "“初始化数据”"
+      }
+    ],
+    "deferred_click_ids": [
+      "file/append:1905:token5",
+      "file/append:2012:token5",
+      "file/append:2073:token5",
+      "file/append:2200:token11",
+      "file/append:2318:token11",
+      "file/append:2410:token5",
+      "file/append:2496:token5",
+      "file/append:2531:token17",
+      "file/append:2711:token5",
+      "file/append:2875:token5",
+      "file/append:2956:token5",
+      "file/append:3205:token11",
+      "file/append:3328:token11",
+      "file/append:3405:token17",
+      "file/append:3600:token11",
+      "file/append:3764:token5",
+      "file/append:3804:token5",
+      "file/append:3909:token5",
+      "file/append:3980:token5",
+      "file/append:4159:token11",
+      "file/append:4282:token5",
+      "file/append:4322:token11",
+      "file/append:4450:token17",
+      "file/append:4584:token11",
+      "file/append:4722:token5",
+      "file/append:4961:token17",
+      "file/append:5131:token5",
+      "file/append:5231:token17",
+      "file/append:5381:token5",
+      "file/append:5451:token17",
+      "file/append:5606:token11",
+      "file/append:5688:token17",
+      "file/append:5843:token17",
+      "file/append:5998:token17",
+      "file/append:6153:token11",
+      "file/append:6265:token5",
+      "file/append:6603:token5",
+      "file/append:6650:token5",
+      "file/append:6710:token11",
+      "file/append:6789:token19",
+      "file/append:6876:token11",
+      "file/append:6970:token5",
+      "file/append:7005:token5",
+      "file/append:7052:token11",
+      "file/append:7175:token5",
+      "file/append:7248:opcode47",
+      "file/append:7250:token5",
+      "file/append:7272:token5",
+      "file/append:7643:token11",
+      "file/append:7747:token11",
+      "file/append:7846:token5",
+      "file/append:7893:token5",
+      "file/append:7928:token11",
+      "file/append:8012:token5",
+      "file/append:8082:token15",
+      "file/append:8186:token5",
+      "file/append:8213:token5",
+      "file/append:8240:token19",
+      "file/append:8337:token17",
+      "file/append:8473:token5",
+      "file/append:8533:token5",
+      "file/append:8591:token11",
+      "file/append:8675:token5",
+      "file/append:8753:token11",
+      "file/append:8842:token11",
+      "file/append:8919:token5",
+      "file/append:8971:token5",
+      "file/append:9104:opcode72",
+      "file/append:9110:token5",
+      "file/append:9401:token5"
+    ]
+  }
+}

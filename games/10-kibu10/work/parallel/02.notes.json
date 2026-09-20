@@ -1,0 +1,108 @@
+{
+  "batch": 2,
+  "scope": "s02/s03全部689单元，完成翻译与自校；待交叉审校",
+  "terms": [
+    {
+      "source": "矢当トウヤ",
+      "target": "矢当托也",
+      "status": "coordinator_approved",
+      "note": "不臆造トウヤ汉字；s02:21707/21801误读Yatou与纠正Yaatari保留拉丁读音，句外译注经协调确认。"
+    },
+    {
+      "source": "ケイコ",
+      "target": "圭子",
+      "status": "coordinator_approved",
+      "note": "协调方核实file/append名单原汉字美馬圭子；来信初期仅用圭子，不提前补姓。"
+    },
+    {
+      "source": "鞠浜エレガンホテル",
+      "target": "鞠滨雅致酒店",
+      "status": "provisional",
+      "note": "按本作最新锁定表统一；菜单鞠浜Ｅホテル也用鞠滨雅致酒店，宽度待整合检查。"
+    },
+    {
+      "source": "ヤマトテレビ報道局",
+      "target": "大和电视台新闻部",
+      "status": "provisional"
+    },
+    {
+      "source": "柚木香波",
+      "target": "柚木香波",
+      "status": "provisional"
+    },
+    {
+      "source": "豫言組織",
+      "target": "预言组织",
+      "status": "provisional"
+    },
+    {
+      "source": "豫言者様",
+      "target": "预言者大人",
+      "status": "provisional"
+    }
+  ],
+  "self_review_findings": [
+    {
+      "range": "indices 0–349",
+      "finding": "逐条源文对照并连读中文；保留四名受害者、7月8日21点半、14日邮戳、25日17点与16点半巴士、1206号房，以及前往国外时间等推理信息。"
+    },
+    {
+      "unit": "scratch4.dat/s02:27798",
+      "finding": "自校发现最初版本将发自内心的愿望移到3A控制指令前；已纠正为指令前仅“再见一次……”，保留点击停顿。"
+    },
+    {
+      "units": [
+        "scratch4.dat/s02:12790",
+        "scratch4.dat/s02:15984",
+        "scratch4.dat/s02:18344"
+      ],
+      "finding": "自校收窄高亮对象，分别只突出预言组织、敌人/英雄、那次作案；不让普通前缀进入强调。"
+    },
+    {
+      "units": [
+        "scratch4.dat/s02:12790",
+        "scratch4.dat/s02:18020",
+        "scratch4.dat/s02:19916",
+        "scratch4.dat/s02:19987"
+      ],
+      "finding": "连读检查修正说话轮次引号，未逐点击重复加引号。"
+    },
+    {
+      "unit": "scratch4.dat/s02:21801",
+      "finding": "Yaatari纠正保持color2，译注放color0角色引号外，并在本点击单元闭合。"
+    },
+    {
+      "range": "indices 350–688",
+      "finding": "合并者再次逐条中日对照并连读；微调案发日心情、车顶爆炸、原计划乘车人的日语尾置表达；复核巴士恐袭假说、掉包车票猜测与死亡分支不混淆。"
+    }
+  ],
+  "review_limits": "本批自校不替代后续交叉审校或实机；未生成已审基线。",
+  "subtask_review": {
+    "checks": [
+      "339/339 targets; identical tag sequences; no Japanese kana residual",
+      "正常分支与巴士死亡分支分别保留；不提前揭露圭子身份",
+      "手纸是门泽死后收到；死亡分支37名包含楼内人员，不能译成巴士37名",
+      "彩色重点：剩余三名女性受害者、心情雀跃、假车票、爆炸、预定乘车、换票和杀人车票逐段对照"
+    ],
+    "scope": "02.source.json units[350:689], 339 active units",
+    "terms": {
+      "鞠浜エレガンホテル": "鞠滨雅致酒店（本作已确认）",
+      "ケイコ": "圭子（本作已确认；初期不补姓）",
+      "豫幻石": "预幻石",
+      "豫言組織": "预言组织"
+    },
+    "method": "逐条连读原文并人工翻译；按完整发言轮次加中文引号；保留原标签序列。",
+    "notes": [
+      "原文对白无日文引号；仅明确人物发言补中文引号，内心独白与叙述保持不加。",
+      "幕间标题保留1999年7月25日，顶栏数字与中文留空格。",
+      "起訴は取り下げます按角色说法译我撤诉，未擅自修正原作法律用语。",
+      "误选推理分支按原错误保留；未建立自动已审基线，合并后仍需按脚本控制流复核。"
+    ]
+  },
+  "validation": {
+    "units": 689,
+    "missing": 0,
+    "tag_mismatches": 0,
+    "kana_residual": 0
+  }
+}

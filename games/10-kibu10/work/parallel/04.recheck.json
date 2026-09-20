@@ -1,0 +1,26 @@
+{
+  "batch": 4,
+  "reviewer": "trans03",
+  "status": "passed",
+  "reviewed_ids": [
+    "scratch4.dat/s07:4229",
+    "scratch4.dat/s07:8712",
+    "scratch4.dat/s07:11178",
+    "scratch4.dat/s07:12397",
+    "scratch4.dat/s07:12541",
+    "scratch4.dat/s11:14499",
+    "scratch4.dat/s11:14558",
+    "scratch4.dat/s11:22668"
+  ],
+  "resolved_findings": 8,
+  "clicks_approved": 521,
+  "colors_approved": 55,
+  "colors_unchanged": true,
+  "notes": [
+    "逐源复核8个修正target与刷新后的点击候选，正式draft与04.trans均精确一致。",
+    "s07:12397仅出现可疑宗教信徒的心情，12541点击后才出现似乎稍微理解，恢复信息时机。",
+    "重新读取source-replay的菜单参数和labels：交易33→13449→13451，恳求34→14556→14558；交易段14499独立闭合，两个路径均由14558开引号至14683闭合，不再依赖被跳过的开引号。",
+    "已通过的513项与刷新候选完全相等，未重复批准未知变更；本次补入实际复核的8项。",
+    "55项颜色基线与刷新候选逐对象相等，8项修正均没有改动颜色强调槽。"
+  ]
+}

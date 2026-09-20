@@ -1,0 +1,38 @@
+ldarg.0
+ldfld System.Int32 CanvasEx::MainTask
+stloc.0
+ldloc.0
+switch switch:26,37,37,37,6,16,26,37,37,37,26,30,34
+ret
+ldarg.0
+ldfld System.Boolean CanvasEx::SystemResumed
+brfalse.s branch:12
+ldarg.0
+ldarg.1
+call System.Void CanvasEx::PaintMain(Socotra.UI.StGraphics)
+ldarg.0
+ldarg.1
+call System.Void CanvasEx::PaintCommand(Socotra.UI.StGraphics)
+ret
+ldarg.0
+ldfld System.Boolean CanvasEx::SystemResumed
+brfalse.s branch:22
+ldarg.0
+ldarg.1
+call System.Void CanvasEx::PaintMain(Socotra.UI.StGraphics)
+ldarg.0
+ldarg.1
+call System.Void CanvasEx::PaintLongCommand(Socotra.UI.StGraphics)
+ret
+ldarg.0
+ldarg.1
+call System.Void CanvasEx::PaintMain(Socotra.UI.StGraphics)
+ret
+ldarg.0
+ldarg.1
+call System.Void CanvasEx::PaintMenu(Socotra.UI.StGraphics)
+ret
+ldarg.0
+ldarg.1
+call System.Void CanvasEx::PaintSentaku(Socotra.UI.StGraphics)
+ret

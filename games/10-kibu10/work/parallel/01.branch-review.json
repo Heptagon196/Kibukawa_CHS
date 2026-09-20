@@ -1,0 +1,55 @@
+{
+  "batch": 1,
+  "reviewer": "runtime-independent",
+  "status": "six_changes_applied_pending_draft_merge",
+  "changes": [
+    {
+      "id": "scratch4.dat/s00:14552",
+      "source": "<color=0>それが、いいことなのか</color><row/><color=0>悪いことなのか…。</color><ctrl=2E/>",
+      "old": "<color=0>也不知道这</color><row/><color=0>到底是好是坏……</color><ctrl=2E/>",
+      "new": "<color=0>也不知道这</color><row/><color=0>到底是好是坏……”</color><ctrl=2E/>",
+      "branch_evidence": "BUNKI@12420 -> label target14659 NAMAE1 ->14661; alternate route bypasses opener14408",
+      "action": "close"
+    },
+    {
+      "id": "scratch4.dat/s00:14661",
+      "source": "<color=0>…ま、どうであろうと</color><row/><color=0>結局俺らのすることは…</color><ctrl=2E/>",
+      "old": "<color=0>……算了，不管怎样，</color><row/><color=0>我们要做的终究是……</color><ctrl=2E/>",
+      "new": "<color=0>“……算了，不管怎样，</color><row/><color=0>我们要做的终究是……</color><ctrl=2E/>",
+      "branch_evidence": "BUNKI@12420 -> label target14659 NAMAE1 ->14661; alternate route bypasses opener14408",
+      "action": "open"
+    },
+    {
+      "id": "scratch4.dat/s00:15672",
+      "source": "<color=0>鰯の頭も信心から、とは</color><row/><color=0>良く言ったもんでな。</color><ctrl=2E/>",
+      "old": "<color=0>心诚则灵，哪怕供的是沙丁鱼头。</color><row/><color=0>这话还真没说错。</color><ctrl=2E/>",
+      "new": "<color=0>心诚则灵，哪怕供的是沙丁鱼头。</color><row/><color=0>这话还真没说错。”</color><ctrl=2E/>",
+      "branch_evidence": "BUNKI@14919 -> label target15802 NAMAE1 ->15804; alternate route bypasses opener15622",
+      "action": "close"
+    },
+    {
+      "id": "scratch4.dat/s00:15804",
+      "source": "<color=0>そんなモノでも信じたく</color><row/><color=0>なるほど、不安な世の中</color><row/><color=0>だってことなんだろ。</color><ctrl=2E/>",
+      "old": "<color=0>世道让人不安到了</color><row/><color=0>连这种东西</color><row/><color=0>都想信上一信的地步吧。</color><ctrl=2E/>",
+      "new": "<color=0>“世道让人不安到了</color><row/><color=0>连这种东西</color><row/><color=0>都想信上一信的地步吧。</color><ctrl=2E/>",
+      "branch_evidence": "BUNKI@14919 -> label target15802 NAMAE1 ->15804; alternate route bypasses opener15622",
+      "action": "open"
+    },
+    {
+      "id": "scratch4.dat/s01:14715",
+      "source": "<color=0>ですが、そもそも…</color><ctrl=2E/>",
+      "old": "<color=0>不过，说到底……</color><ctrl=2E/>",
+      "new": "<color=0>不过，说到底……”</color><ctrl=2E/>",
+      "branch_evidence": "BUNKI@14342 -> label target14765 NAMAE24 ->14767; alternate route bypasses opener14473",
+      "action": "close"
+    },
+    {
+      "id": "scratch4.dat/s01:14767",
+      "source": "<color=0>それを調べるのが、</color><row/><color=0>あなた方の仕事ですよ。</color><ctrl=2E/>",
+      "old": "<color=0>查清楚这些，</color><row/><color=0>才是你们的工作吧。”</color><ctrl=2E/>",
+      "new": "<color=0>“查清楚这些，</color><row/><color=0>才是你们的工作吧。”</color><ctrl=2E/>",
+      "branch_evidence": "BUNKI@14342 -> label target14765 NAMAE24 ->14767; alternate route bypasses opener14473",
+      "action": "open"
+    }
+  ]
+}

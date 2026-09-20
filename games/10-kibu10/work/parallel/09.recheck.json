@@ -1,0 +1,27 @@
+{
+  "batch": 9,
+  "reviewer": "trans12",
+  "status": "passed",
+  "rechecked": [
+    {
+      "id": "scratch4.dat/s34:9768",
+      "source": "<color=0>バスの乗客だった</color><row/><color=0>和志武稔は、２年前に</color><row/><color=0>実刑を受けるほどの</color><row/><color=0>事件を起こしていた。</color><ctrl=2E/>",
+      "target": "<color=0>巴士上的乘客</color><row/><color=0>和志武稔，两年前</color><row/><color=0>曾犯下足以</color><row/><color=0>被判实刑的罪行。</color><ctrl=2E/>",
+      "result": "程度关系译为足以被判实刑，忠实保留原文ほど；未因此改写其他场景明说实刑的内容。"
+    },
+    {
+      "id": "scratch4.dat/s35:79:arg0",
+      "source": "捜査開始から",
+      "target": "从搜查开始",
+      "result": "菜单改为从搜查开始，消除重复，含义一致。"
+    }
+  ],
+  "current_targets_match_formal_draft": true,
+  "matched_unit_count": 810,
+  "clicks_approved": 742,
+  "colors_reused": 93,
+  "notes": [
+    "新增批准的点击候选为scratch4.dat/s34:9768:token23，逐span核对已修target及2E边界。其他741点击候选与先前实际审过版本逐记录一致；93颜色候选同样完整一致。",
+    "原09.review.json保留作为发现记录，两项问题现已解决。"
+  ]
+}

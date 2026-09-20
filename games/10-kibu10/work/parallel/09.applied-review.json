@@ -1,0 +1,20 @@
+{
+  "batch": 9,
+  "reviewer": "trans12",
+  "coordinator": "root",
+  "status": "applied_awaiting_recheck",
+  "fixes": [
+    {
+      "id": "scratch4.dat/s34:9768",
+      "before": "<color=0>巴士上的乘客</color><row/><color=0>和志武稔，两年前</color><row/><color=0>曾犯下一起</color><row/><color=0>被判处实刑的罪行。</color><ctrl=2E/>",
+      "after": "<color=0>巴士上的乘客</color><row/><color=0>和志武稔，两年前</color><row/><color=0>曾犯下足以</color><row/><color=0>被判实刑的罪行。</color><ctrl=2E/>",
+      "reason": "原文“実刑を受けるほどの事件”强调罪行严重到足以被判实刑；现译直接断言这里已被判实刑，丢失“ほど”的程度关系。后面的104和638确实直接说实刑，应该分别忠实保留，不靠此处消除整个源文的矛盾。"
+    },
+    {
+      "id": "scratch4.dat/s35:79:arg0",
+      "before": "从开始搜查开始",
+      "after": "从搜查开始",
+      "reason": "菜单“从开始搜查开始”重复拗口；原文仅指从搜查开始的节点进入。"
+    }
+  ]
+}

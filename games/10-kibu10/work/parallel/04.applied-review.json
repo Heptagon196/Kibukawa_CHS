@@ -1,0 +1,56 @@
+{
+  "batch": 4,
+  "reviewer": "trans03",
+  "coordinator": "root",
+  "status": "applied_awaiting_recheck",
+  "fixes": [
+    {
+      "id": "scratch4.dat/s07:4229",
+      "before": "<color=0>让他说……</color><row/><color=0>是我一个人干的。</color><ctrl=2E/>",
+      "after": "<color=0>让他说……</color><row/><color=0>‘是我一个人干的。’</color><ctrl=2E/>",
+      "reason": "引用缺少内层引号，使“是我一个人干的”容易暂时读成尾场自称。建议按完整引用补单引号。"
+    },
+    {
+      "id": "scratch4.dat/s07:8712",
+      "before": "<color=0>她涉嫌</color><row/><color=0>公交车爆炸案，</color><row/><color=0>恰好给了你一个借口。</color><ctrl=2E/>",
+      "after": "<color=0>她涉嫌</color><row/><color=0>巴士爆炸案，</color><row/><color=0>恰好给了你一个借口。</color><ctrl=2E/>",
+      "reason": "此案车辆是酒店接送巴士，并非公交车；与本批以外的巴士爆炸案统一。"
+    },
+    {
+      "id": "scratch4.dat/s07:11178",
+      "before": "<color=0>竟能轻易得令人吃惊地，</color><row/><color=0>把整个人生</color><row/><color=0>彻底毁掉。</color><ctrl=2E/>",
+      "after": "<color=0>竟然能轻而易举地，</color><row/><color=0>把整个人生</color><row/><color=0>彻底毁掉。</color><ctrl=2E/>",
+      "reason": "“轻易得令人吃惊地”生硬，连读时修饰结构不自然；保留竟然与轻易的惊讶程度。"
+    },
+    {
+      "id": "scratch4.dat/s07:12397",
+      "before": "<color=0>如今，他似乎</color><row/><color=0>也能稍微理解</color><row/><color=0>那些寄希望于可疑宗教的人……</color><ctrl=2E/>",
+      "after": "<color=0>如今，那些</color><row/><color=0>寄希望于可疑宗教的人，</color><row/><color=0>他们的心情……</color><ctrl=2E/>",
+      "reason": "把下一点击s07:12541的“稍微理解”提前到了本点击，需与下一单元成对修正以保留原揭示顺序。"
+    },
+    {
+      "id": "scratch4.dat/s07:12541",
+      "before": "<color=0>理解他们</color><row/><color=0>心里的感受了……</color><ctrl=2E/>",
+      "after": "<color=0>他似乎也能</color><row/><color=0>稍微理解了……</color><ctrl=2E/>",
+      "reason": "配套s07:12397恢复本单元才给出“似乎稍微能理解”的感想。"
+    },
+    {
+      "id": "scratch4.dat/s11:14499",
+      "before": "<color=0>“……可是！</color><row/><color=0>可是啊！</color><ctrl=2E/>",
+      "after": "<color=0>“……可是！</color><row/><color=0>可是啊！”</color><ctrl=2E/>",
+      "reason": "分支引号：原脚本哭着恳求跳label34=14556，直接从14558进入，跳过本单元。需在本单元独立闭合引号，在14558重新开启。"
+    },
+    {
+      "id": "scratch4.dat/s11:14558",
+      "before": "<color=0>……我已经</color><row/><color=0>没有别的人</color><row/><color=0>可以求助了！</color><ctrl=2E/>",
+      "after": "<color=0>“……我已经</color><row/><color=0>没有别的人</color><row/><color=0>可以求助了！</color><ctrl=2E/>",
+      "reason": "哭着恳求分支的实际入口是本单元14558，现译缺少开引号。交易分支也会汇入，配套14499独立闭合后此处重新开引号。"
+    },
+    {
+      "id": "scratch4.dat/s11:22668",
+      "before": "<color=0>她是西风馆大学音乐系的</color><row/><color=0>大三学生，</color><row/><color=0>主修一种叫双簧管的乐器。”</color><ctrl=2E/>",
+      "after": "<color=0>她是西风馆大学音乐学部的</color><row/><color=0>大三学生，</color><row/><color=0>主修一种叫双簧管的乐器。”</color><ctrl=2E/>",
+      "reason": "音楽学部与批次03s04中音乐学部/器乐系层级需一致，此处音乐系会把学部降为系。"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "batch": 2,
+  "reviewer": "trans01",
+  "coordinator": "root",
+  "status": "applied_awaiting_recheck",
+  "fixes": [
+    {
+      "id": "scratch4.dat/s02:598",
+      "before": "<color=0>最终，我们查明门泽</color><row/><color=2>过去曾犯下</color><color=0>性侵案</color><row/><color=0>……</color><ctrl=2E/>",
+      "after": "<color=0>最终，门泽过去犯下的</color><row/><color=2>性侵案</color><color=0>，也被</color><row/><color=0>揭露了出来……</color><ctrl=2E/>",
+      "reason": "强调对象错位：原文高亮暴行事件，现译高亮过去曾犯下，性侵案反为白色。"
+    },
+    {
+      "id": "scratch4.dat/s02:742",
+      "before": "<color=0>而受害者</color><row/><color=2>至少有 </color><color=0>4 人</color><row/><color=0>。</color><ctrl=2E/>",
+      "after": "<color=0>受害者至少有 </color><row/><color=2>4 人</color><color=0>，这也已经</color><row/><color=0>得到了确认。</color><ctrl=2E/>",
+      "reason": "数量线索着色错位：应高亮4人，现高亮至少有。"
+    },
+    {
+      "id": "scratch4.dat/s02:2490",
+      "before": "<color=0>假如真是被强迫购买，</color><row/><color=0>恐怕他们一定</color><row/><color=0>对门泽怀着</color><row/><color=0>强烈的恨意。</color><ctrl=2E/>",
+      "after": "<color=0>假如真是被强迫购买，</color><row/><color=0>可以想见，他们</color><row/><color=0>恐怕对门泽怀着</color><row/><color=0>相当强烈的恨意。</color><ctrl=2E/>",
+      "reason": "恐怕一定同时弱化与绝对化；原文是条件下预计怀恨，不宜一定。"
+    },
+    {
+      "id": "scratch4.dat/s02:6250",
+      "before": "<color=0>……就这样，</color><row/><color=0>又过了一周。</color><ctrl=2E/>",
+      "after": "<color=0>……就这样，</color><row/><color=0>从那天起过去的这一周……</color><ctrl=2E/>",
+      "reason": "时间线误译：此处仍回顾7月9日至16日这一周；又过了一周会多加一周，与次日7月17日冲突。"
+    },
+    {
+      "id": "scratch4.dat/s02:12616",
+      "before": "<color=0>是这样，我们节目正在</color><row/><color=2>做一期‘新兴团体泛滥的实况’</color><row/><color=0>专题，</color><ctrl=2E/>",
+      "after": "<color=0>是这样，我们节目正在做一期</color><row/><color=2>‘新兴团体泛滥的实况’</color><row/><color=0>专题，</color><ctrl=2E/>",
+      "reason": "颜色范围扩大：做一期属于普通叙述，不属于高亮专题名。"
+    },
+    {
+      "id": "scratch4.dat/s02:25783",
+      "before": "<color=0>收件地址没有用</color><row/><color=0>不干胶标签，</color><row/><color=0>而是用工整的字迹手写的。</color><ctrl=2E/>",
+      "after": "<color=0>收件人姓名没有用</color><row/><color=0>不干胶标签，</color><row/><color=0>而是用工整的字迹手写的。</color><ctrl=2E/>",
+      "reason": "宛名是收件人姓名/称呼，并非收件地址。这里字迹是后续信件线索，建议保持对象准确。"
+    },
+    {
+      "id": "scratch4.dat/s02:39218:arg0",
+      "before": "因为心情雀跃",
+      "after": "因为兴高采烈",
+      "reason": "与上一批同一关键用语ウキウキ気分译兴高采烈不一致，推理回忆应统一。"
+    },
+    {
+      "id": "scratch4.dat/s02:39781",
+      "before": "<color=0>“案发那天，听说门泽</color><row/><color=2>心情雀跃</color><color=0>，</color><row/><color=0>高兴得很。”</color><ctrl=2E/>",
+      "after": "<color=0>“案发那天，听说门泽</color><row/><color=2>兴高采烈</color><color=0>的，</color><row/><color=0>心情好得很。”</color><ctrl=2E/>",
+      "reason": "与第一章同一证词关键词ウキウキ気分的兴高采烈统一。"
+    },
+    {
+      "id": "scratch4.dat/s02:41629",
+      "before": "<color=0>果然会</color><color=2>心情雀跃</color><color=0>，</color><row/><color=0>对吧。”</color><ctrl=2E/>",
+      "after": "<color=0>果然会</color><color=2>兴高采烈</color><color=0>，</color><row/><color=0>对吧。”</color><ctrl=2E/>",
+      "reason": "同一线索关键词应统一为兴高采烈。"
+    },
+    {
+      "id": "scratch4.dat/s02:42864",
+      "before": "<color=0>她也许不知道门泽已死，</color><row/><color=2>设下了同样的陷阱</color><color=0>，</color><row/><color=0>也说不定。”</color><ctrl=2B/>",
+      "after": "<color=0>她也许不知道门泽已死，设下了</color><row/><color=2>同样的陷阱</color><color=0>，</color><row/><color=0>也说不定。”</color><ctrl=2B/>",
+      "reason": "原文仅高亮同じ罠，译文把设下了动作跨入强调色。"
+    },
+    {
+      "id": "scratch4.dat/s03:9556",
+      "before": "<color=0>也就是说，</color><row/><color=0>原本</color><color=2>门泽文治</color><row/><color=2>就计划乘坐</color><color=0>这辆</color><row/><color=0>巴士。</color><ctrl=2E/>",
+      "after": "<color=0>也就是说，</color><row/><color=0>原本安排的是</color><color=2>门泽文治</color><row/><color=2>乘坐</color><color=0>这辆</color><row/><color=0>巴士。</color><ctrl=2E/>",
+      "reason": "原文是计划中该乘车的人，不是说已死的门泽本人有乘车计划；现就计划乘坐易误导为其主动计划。"
+    },
+    {
+      "id": "scratch4.dat/s03:10872:arg0",
+      "before": "尸体发现现场",
+      "after": "遗体发现现场",
+      "reason": "地点菜单遗体发现场误为尸体发现场，与01已锁同一地点及本作遗体/尸体说明不一致。"
+    },
+    {
+      "id": "scratch4.dat/s03:21298",
+      "before": "<color=0>……最先传来的，</color><row/><color=2>是一声巨大的爆裂声</color><color=0>。</color><ctrl=2E/>",
+      "after": "<color=0>……最先传来的是一声巨大的</color><row/><color=2>爆裂声</color><color=0>。</color><ctrl=2E/>",
+      "reason": "原文仅爆裂音高亮，现把一声巨大等普通色的修饰语移进高亮。"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+# Reproducible read-only source dumps and contact sheets are local research only.
+/inventory/*.png
+/inventory/*.jpg
+/method-*.json
+# Imagegen intermediates; the five names in artwork/mapping.json are authoritative.
+/artwork/*-generated.png
+/artwork/*-fixed.png
+/artwork/*-locked.png
+/artwork/title-gif-zh.png

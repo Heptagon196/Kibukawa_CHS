@@ -1,0 +1,48 @@
+{
+  "reviewer": "trans11",
+  "rechecked_colors": [
+    "scratch4.dat/s36:452:token6"
+  ],
+  "status": "all_findings_resolved",
+  "rechecked_clicks": [
+    "scratch4.dat/s36:452:token25",
+    "scratch4.dat/s36:3636:token17",
+    "scratch4.dat/s36:17811:token11",
+    "scratch4.dat/s36:18086:token5",
+    "scratch4.dat/s36:18136:token17",
+    "scratch4.dat/s36:27265:token17",
+    "scratch4.dat/s36:33545:token11"
+  ],
+  "rechecked_ids": [
+    "scratch4.dat/s36:452",
+    "scratch4.dat/s36:3636",
+    "scratch4.dat/s36:17811",
+    "scratch4.dat/s36:18086",
+    "scratch4.dat/s36:18136",
+    "scratch4.dat/s36:27265",
+    "scratch4.dat/s36:33545"
+  ],
+  "notes": [
+    "重新读取7条原文、精确建议译文、刷新候选完整spans，并连读各条前后点击。猜凶手动作保持着色；可能发生的时间句通顺；受害者范围无额外贬义；招揽动作恢复到下一点击；会员证只称拿到；对石上第二人称与后句一致。",
+    "独立核对s13:3088、4246、4305、6051–6325、10710–10861后确认被带入者是石上。s36:33545带你正确。",
+    "正式dialogue-tagged全部7条与精确建议相同；此前626点击及124着色记录的SHA256均保持未变。",
+    "本批基线现完整覆盖633条点击及125条着色候选。"
+  ],
+  "counts": {
+    "colors": 125,
+    "clicks": 633,
+    "resolved_findings": 7
+  },
+  "findings": [],
+  "batch": 12,
+  "terminology_recheck": {
+    "scope": "只更新包含片尾署名的点击记录；对比该记录全部spans，确认仅18054普通色公司名一段变化，其余段及已审记录原样保留。着色记录不变。",
+    "id": "scratch4.dat/s37:18054",
+    "target": "<color=8>制作·著作</color><row/><color=0>AndJoy 股份有限公司</color>",
+    "sha256": "bd736b00ad1afe9073f1be5f90565df9966bf2182dcd5f9ca3e799333d350e70",
+    "source": "<color=8>制作・著作</color><row/><color=0>株式会社AndJoy</color>",
+    "reference": "file/start:279",
+    "result": "通过：公司名称AndJoy保留，公司形式株式会社译股份有限公司，与开场完全一致。",
+    "click_id": "scratch4.dat/s37:18143:opcode47"
+  }
+}

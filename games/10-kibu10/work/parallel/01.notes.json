@@ -1,0 +1,229 @@
+{
+  "batch": 1,
+  "unit_count": 870,
+  "status": "translated_self_reviewed_pending_independent_review",
+  "review_scope": "已通读给定批次全部带标签原文并翻译，随后按输入顺序连读全部中文；另外逐项对照全部含 color=2/color=10 的源译文。未操作游戏窗口；未读取原始指令控制流生成点击基线，以下只记录实际复核的源单元与内嵌控制边界。",
+  "terms": [
+    {
+      "source": "澤津賀功夫",
+      "target": "泽津贺功夫",
+      "evidence": "scratch4.dat/s01:22938",
+      "note": "全文名明确，不猜读音；豫言組織代表。"
+    },
+    {
+      "source": "円口遼一",
+      "target": "圆口辽一",
+      "evidence": "scratch4.dat/s01-1:1857",
+      "note": "全名明确，不猜读音；巡查长，工藤的前辈。"
+    },
+    {
+      "source": "門沢文治",
+      "target": "门泽文治",
+      "evidence": "scratch4.dat/s01:8190",
+      "note": "原文275用假名重复姓名；中文重复姓名，不附注音。"
+    },
+    {
+      "source": "豫言組織",
+      "target": "预言组织",
+      "evidence": "scratch4.dat/s00:18462",
+      "note": "新兴宗教，后续简称组织/教团按源保留。"
+    },
+    {
+      "source": "豫幻石",
+      "target": "预幻石",
+      "evidence": "scratch4.dat/s01:35387",
+      "note": "与预言组织、预言者共享预字，但名为幻，不误改为言。"
+    },
+    {
+      "source": "豫言者",
+      "target": "预言者",
+      "evidence": "scratch4.dat/s01:27193",
+      "note": "泽津贺口中预言者大人；不推测实体身份。"
+    },
+    {
+      "source": "万里川",
+      "target": "万里川",
+      "evidence": "scratch4.dat/s01:2821",
+      "note": "流经鞠滨台周边的二级河流。"
+    },
+    {
+      "source": "新鋭",
+      "target": "新锐",
+      "evidence": "scratch4.dat/s00:2375",
+      "note": "尾场对工藤的称呼，源66解释由入职介绍沿用。"
+    },
+    {
+      "source": "霊感商法",
+      "target": "灵力骗局",
+      "evidence": "scratch4.dat/s01:35640",
+      "note": "目前采用语义译法；请跨批统一。"
+    },
+    {
+      "source": "床机",
+      "target": "矮桌",
+      "evidence": "scratch4.dat/s01-1:3728:arg0",
+      "note": "有抽屉、用于写文件的低桌，勿作凳子。"
+    }
+  ],
+  "reviewed_examples": [
+    {
+      "ids": [
+        "scratch4.dat/s00:7539",
+        "scratch4.dat/s01:3502"
+      ],
+      "note": "颜色自校发现尾Q和尸体误落白色而相邻连接语被着色，已修正。"
+    },
+    {
+      "ids": [
+        "scratch4.dat/s00:16534",
+        "scratch4.dat/s00:16682"
+      ],
+      "note": "修复161初稿将怀疑略写为事实的风险，保持会不会，与163预言影响的推测连接。"
+    },
+    {
+      "ids": [
+        "scratch4.dat/s01:2507",
+        "scratch4.dat/s01:4888",
+        "scratch4.dat/s01:6207",
+        "scratch4.dat/s01:11712",
+        "scratch4.dat/s01:15546",
+        "scratch4.dat/s01:15707",
+        "scratch4.dat/s01:22499",
+        "scratch4.dat/s01:28374",
+        "scratch4.dat/s01:41066",
+        "scratch4.dat/s01-1:12335",
+        "scratch4.dat/s01-1:16170"
+      ],
+      "note": "对照ctrl=3A/3B两侧语义：观察后的转念、求问、揭示、停顿均留在原边界；没有提前搬出控制后信息。"
+    },
+    {
+      "ids": [
+        "scratch4.dat/s01:9511",
+        "scratch4.dat/s01:9685",
+        "scratch4.dat/s01:9812",
+        "scratch4.dat/s01:9971",
+        "scratch4.dat/s01:10433",
+        "scratch4.dat/s01:10691",
+        "scratch4.dat/s01:10799"
+      ],
+      "note": "核对死因：饮酒及落水延迟止血，小伤仍大量失血死亡；他杀为推断，7月8日20至24时为估计。"
+    },
+    {
+      "ids": [
+        "scratch4.dat/s01:11469",
+        "scratch4.dat/s01:11561",
+        "scratch4.dat/s01:11712",
+        "scratch4.dat/s01:19314",
+        "scratch4.dat/s01:42402",
+        "scratch4.dat/s01-1:5972",
+        "scratch4.dat/s01-1:6503",
+        "scratch4.dat/s01-1:6752"
+      ],
+      "note": "钥匙线索：只先配家门钥匙，小钥匙仍在原串且稍后另请送来，未提前认定是抽屉钥匙。"
+    },
+    {
+      "ids": [
+        "scratch4.dat/s01:21531",
+        "scratch4.dat/s01:21732",
+        "scratch4.dat/s01:26560",
+        "scratch4.dat/s01:29458",
+        "scratch4.dat/s01:29624"
+      ],
+      "note": "证词21点半惨叫和落水声，与20时门泽离开、泽津贺到午夜的不在场说法分别保留，未合并成已证实时间。"
+    },
+    {
+      "ids": [
+        "scratch4.dat/s01-1:9235:arg0",
+        "scratch4.dat/s01-1:9255:arg0",
+        "scratch4.dat/s01-1:9275:arg0",
+        "scratch4.dat/s01-1:9301",
+        "scratch4.dat/s01-1:9439",
+        "scratch4.dat/s01-1:9593",
+        "scratch4.dat/s01-1:9727",
+        "scratch4.dat/s01-1:9886",
+        "scratch4.dat/s01-1:9965",
+        "scratch4.dat/s01-1:10039",
+        "scratch4.dat/s01-1:10121",
+        "scratch4.dat/s01-1:10329"
+      ],
+      "note": "灯光三选项和各自回显均按源分别翻译，不把错误/其他推测修正为正确答案。"
+    },
+    {
+      "ids": [
+        "scratch4.dat/s01-1:11585",
+        "scratch4.dat/s01-1:11734",
+        "scratch4.dat/s01-1:12129",
+        "scratch4.dat/s01-1:14633",
+        "scratch4.dat/s01-1:14798",
+        "scratch4.dat/s01-1:14944",
+        "scratch4.dat/s01-1:15073"
+      ],
+      "note": "血迹/手印保留待鉴识的不确定，未写成检测已经吻合。"
+    },
+    {
+      "ids": [
+        "scratch4.dat/s01-1:13338",
+        "scratch4.dat/s01-1:13450",
+        "scratch4.dat/s01-1:13610",
+        "scratch4.dat/s01-1:13642",
+        "scratch4.dat/s01-1:13682",
+        "scratch4.dat/s01-1:13851",
+        "scratch4.dat/s01-1:14017"
+      ],
+      "note": "名单全员只是有动机的嫌疑人范围，不误写全员凶手；强调全员/嫌疑人原色段。"
+    },
+    {
+      "ids": [
+        "scratch4.dat/s01-1:16826",
+        "scratch4.dat/s01-1:16931",
+        "scratch4.dat/s01-1:17227",
+        "scratch4.dat/s01-1:17272",
+        "scratch4.dat/s01-1:17481",
+        "scratch4.dat/s01-1:17719",
+        "scratch4.dat/s01-1:17769",
+        "scratch4.dat/s01-1:17826",
+        "scratch4.dat/s01-1:18188",
+        "scratch4.dat/s01-1:18392",
+        "scratch4.dat/s01-1:18407",
+        "scratch4.dat/s01-1:18484",
+        "scratch4.dat/s01-1:18640",
+        "scratch4.dat/s01-1:18768:arg0",
+        "scratch4.dat/s01-1:18931",
+        "scratch4.dat/s01-1:19467",
+        "scratch4.dat/s01-1:19569"
+      ],
+      "note": "照片段保持受害者歧义及工藤未知视角；直到844才揭示作案照片，849才说明性侵案，未擅自给出照片人物身份；至少四人未译为恰好四人。"
+    }
+  ],
+  "empty_layout_segments": [],
+  "uncertainties": [
+    {
+      "ids": [
+        "scratch4.dat/s01-1:166",
+        "scratch4.dat/s01-1:270",
+        "scratch4.dat/s01-1:1364",
+        "scratch4.dat/s01-1:18484"
+      ],
+      "note": "源强制わいせつ罪与妇女暴行并列；保留强制猥亵罪，暴行案上下文译性侵案，避免误作普通斗殴，不增写侵犯细节。"
+    },
+    {
+      "id": "scratch4.dat/s01:3502",
+      "note": "遗体/尸体的身份判定是角色原文说明，按原意保留，不作为现实通用法医学定义校正。"
+    },
+    {
+      "id": "scratch4.dat/s00:6850",
+      "note": "本作明确介绍尾场为警部；公共表旧备注警部补不覆盖本作当前叙述。"
+    },
+    {
+      "id": "scratch4.dat/s00:7539",
+      "note": "按公共锁定专名保留尾Q，未擅加首次系列既有笑话的解释。"
+    }
+  ],
+  "mechanical_checks": {
+    "covered": 870,
+    "expected": 870,
+    "tag_sequences": "all identical",
+    "kana_remaining": 0,
+    "note": "机械检查仅保证覆盖/标签/假名，不代替语义审校。"
+  }
+}

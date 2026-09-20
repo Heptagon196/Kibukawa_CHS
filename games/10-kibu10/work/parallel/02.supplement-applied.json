@@ -1,0 +1,11 @@
+{
+  "batch": 2,
+  "findings": [
+    {
+      "id": "scratch4.dat/s03:9556",
+      "target": "<color=0>也就是说，</color><row/><color=0>原本安排的是</color><color=2>门泽文治</color><row/><color=2>乘坐</color><color=0>这辆</color><row/><color=0>巴士。</color><ctrl=2E/>",
+      "suggested_target": "<color=0>也就是说，</color><row/><color=0>原本</color><color=2>该由门泽文治</color><row/><color=2>乘坐</color><color=0>这辆</color><row/><color=0>巴士。</color><ctrl=2E/>"
+    }
+  ],
+  "status": "awaiting_independent_recheck"
+}

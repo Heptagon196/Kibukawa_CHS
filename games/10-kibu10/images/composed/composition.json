@@ -1,0 +1,111 @@
+{
+  "method": "One complete title master; shared artistic text components and identical common pixels across 3 variants; original per-version footers; bg21 untouched",
+  "master_sha256": "e85d250565f7807cd557f4b75c23124ea132b077ddd1c070de61711063190559",
+  "menus": {
+    "t_start": [
+      82,
+      37
+    ],
+    "t_help": [
+      57,
+      37
+    ],
+    "t_append": [
+      31,
+      38
+    ]
+  },
+  "artwork": [
+    {
+      "file": "title1-zh.png",
+      "source": "042-title1.png",
+      "size": [
+        240,
+        240
+      ],
+      "localized_rectangles": [
+        [
+          84,
+          173,
+          109,
+          220
+        ],
+        [
+          0,
+          220,
+          240,
+          240
+        ]
+      ],
+      "sha256": "931ddfd933947ea42cca2894adbe23249967f8334010b1c177ef1b24f2e06493",
+      "original_footer_preserved": true
+    },
+    {
+      "file": "title2-zh.png",
+      "source": "065-title2.png",
+      "size": [
+        240,
+        240
+      ],
+      "localized_rectangles": [
+        [
+          84,
+          173,
+          109,
+          220
+        ],
+        [
+          0,
+          220,
+          240,
+          240
+        ]
+      ],
+      "sha256": "d020a3ac7cb294d9a8522a33394bcc86716901a8f37c5c662b8487b1414ebe9b",
+      "original_footer_preserved": true
+    },
+    {
+      "file": "title-scratch-zh.png",
+      "source": "333-title.gif.png",
+      "size": [
+        240,
+        240
+      ],
+      "localized_rectangles": [
+        [
+          84,
+          173,
+          109,
+          220
+        ],
+        [
+          0,
+          220,
+          240,
+          240
+        ]
+      ],
+      "sha256": "fa5a1dfc277a414e7dfafa3a04e22c65ded940f5122c860aa7599927324aba7b",
+      "original_footer_preserved": true
+    },
+    {
+      "file": "titleimage-zh.png",
+      "source": "008-titleimage.png",
+      "size": [
+        354,
+        354
+      ],
+      "localized_rectangles": [
+        [
+          246,
+          18,
+          275,
+          237
+        ]
+      ],
+      "sha256": "40f021c5e923e2ec4d15b6a144ff50591a38f8d130a35d507621272654ef6c2b",
+      "original_footer_preserved": true
+    }
+  ],
+  "bg21": "Original retained; no replacement route"
+}

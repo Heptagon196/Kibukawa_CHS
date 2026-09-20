@@ -1,0 +1,50 @@
+{
+  "batch": 12,
+  "reviewer": "trans11",
+  "coordinator": "root",
+  "status": "applied_awaiting_recheck",
+  "fixes": [
+    {
+      "id": "scratch4.dat/s36:452",
+      "before": "<color=0>这次案件的</color><color=8>凶手</color><color=0>是谁，</color><row/><color=0>想请各位</color><row/><color=0>猜一猜。</color><ctrl=2E/>",
+      "after": "<color=0>这次案件的</color><color=8>猜凶手</color><color=0>环节，</color><row/><color=0>想请各位</color><row/><color=0>参与一下。</color><ctrl=2E/>",
+      "reason": "着色对象漏掉动作。原文强调的是犯人当て（猜凶手活动），现只把凶手着色，将猜一猜放到普通色，改变强调内容。"
+    },
+    {
+      "id": "scratch4.dat/s36:3636",
+      "before": "<color=0>我都开始怀疑</color><row/><color=0>究竟会不会发生了。</color><row/><color=0>就在那天晚上。</color><ctrl=2E/>",
+      "after": "<color=0>就在我开始怀疑</color><row/><color=0>事情究竟会不会发生的</color><row/><color=0>那天晚上。</color><ctrl=2E/>",
+      "reason": "中文连读时“我都开始怀疑究竟会不会发生了。就在那天晚上。”结构生硬；原文意为开始怀疑是否真会发生的那天晚上，并非疑问句的“发生了”。"
+    },
+    {
+      "id": "scratch4.dat/s36:17811",
+      "before": "<color=0>不可能随随便便</color><row/><color=0>到处都是。</color><ctrl=2E/>",
+      "after": "<color=0>并不是在哪里</color><row/><color=0>都能遇到的。</color><ctrl=2E/>",
+      "reason": "そうそう表达并非经常/随处，不是随随便便；当前“随随便便到处都是”不自然，且接248的受害女性表述生硬。"
+    },
+    {
+      "id": "scratch4.dat/s36:18086",
+      "before": "<color=0>于是，你招揽了……</color><ctrl=2E/>",
+      "after": "<color=0>于是，你建立了……</color><ctrl=2E/>",
+      "reason": "点击信息位置：本点击原文仅说于是建立的便是……；招揽泽津贺的动作在下一点击才出现，当前提前为招揽。与18136成对修订。"
+    },
+    {
+      "id": "scratch4.dat/s36:18136",
+      "before": "<color=0>有妄想癖的</color><row/><color=0>泽津贺，</color><row/><color=0>创立了一个组织……</color><ctrl=2E/>",
+      "after": "<color=0>招揽有妄想癖的</color><row/><color=0>泽津贺，</color><row/><color=0>由此建立的组织……</color><ctrl=2E/>",
+      "reason": "与18086成对：保留招揽有妄想癖的泽津贺、建立组织的动作在本点击。当前招揽动作被提前到18086。"
+    },
+    {
+      "id": "scratch4.dat/s36:27265",
+      "before": "<color=0>警部他们，又偶然</color><row/><color=0>捡到了</color><row/><color=0>那张会员证……</color><ctrl=2E/>",
+      "after": "<color=0>警部他们，又偶然</color><row/><color=0>拿到了</color><row/><color=0>那张会员证……</color><ctrl=2E/>",
+      "reason": "手に入れて只说明得到会员证，不能据此补成警部他们亲自捡到了；这会改变证物取得方式。"
+    },
+    {
+      "id": "scratch4.dat/s36:33545",
+      "before": "<color=0>“所以，我才把他</color><row/><color=0>带进永劫会……</color><ctrl=2E/>",
+      "after": "<color=0>“所以，我才带你</color><row/><color=0>走进永劫会……</color><ctrl=2E/>",
+      "reason": "本段由癸生川直接向石上说明，随后33632用君指石上；33545补成他造成第二/第三人称不连贯。已独立核对s13石上视角3088识地址、4246姓名牌、4305到楼前、10710石上应答、10752指这位男性、10861答不认识，确认被带入者为石上。"
+    }
+  ]
+}

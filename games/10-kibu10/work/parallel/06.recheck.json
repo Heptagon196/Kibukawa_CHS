@@ -1,0 +1,61 @@
+{
+  "batch": 6,
+  "reviewer": "trans05",
+  "status": "passed",
+  "rechecked_ids": [
+    "scratch4.dat/s14:15429",
+    "scratch4.dat/s14:15454",
+    "scratch4.dat/s14:16056",
+    "scratch4.dat/s14:27465",
+    "scratch4.dat/s15:19989"
+  ],
+  "resolved_findings": [
+    {
+      "id": "scratch4.dat/s14:15429",
+      "source": "<color=0>びくッ!!</color><ctrl=2E/>",
+      "target": "<color=0>（猛地一惊！）</color><ctrl=2E/>",
+      "result": "精确采纳且已逐项复核；邻近发言与点击边界连读无新增问题。"
+    },
+    {
+      "id": "scratch4.dat/s14:15454",
+      "source": "<color=0>…う、うっ、</color><row/><color=0>ううっ…</color><ctrl=2E/>",
+      "target": "<color=0>“……唔、呜，</color><row/><color=0>呜呜……”</color><ctrl=2E/>",
+      "result": "精确采纳且已逐项复核；邻近发言与点击边界连读无新增问题。"
+    },
+    {
+      "id": "scratch4.dat/s14:16056",
+      "source": "<color=0>腫れ物のように扱え！</color><ctrl=2E/>",
+      "target": "<color=0>“把我当成一碰就疼的肿包，小心对待！”</color><ctrl=2E/>",
+      "result": "精确采纳且已逐项复核；邻近发言与点击边界连读无新增问题。"
+    },
+    {
+      "id": "scratch4.dat/s14:27465",
+      "source": "<color=0>まさに取り付く</color><row/><color=0>島もなしだ！</color><ctrl=2E/>",
+      "target": "<color=0>“真是无从接近，</color><row/><color=0>连个能靠岸的小岛都没有！</color><ctrl=2E/>",
+      "result": "精确采纳且已逐项复核；邻近发言与点击边界连读无新增问题。"
+    },
+    {
+      "id": "scratch4.dat/s15:19989",
+      "source": "<color=0>洋服を崩すのも面倒で、</color><row/><color=0>常にこの服を着るように</color><row/><color=0>なってしまった！</color><ctrl=2E/>",
+      "target": "<color=0>连把衣服穿得随意点都嫌麻烦，</color><row/><color=0>于是就一直</color><row/><color=0>穿成这副样子了！</color><ctrl=2E/>",
+      "result": "精确采纳且已逐项复核；邻近发言与点击边界连读无新增问题。"
+    }
+  ],
+  "newly_approved_click_ids": [
+    "scratch4.dat/s14:15429:token5",
+    "scratch4.dat/s14:15454:token11",
+    "scratch4.dat/s14:16056:token5",
+    "scratch4.dat/s14:27465:token11",
+    "scratch4.dat/s15:19989:token17"
+  ],
+  "approved_totals": {
+    "clicks": 832,
+    "colors": 95
+  },
+  "notes": [
+    "动作びくッ改为猛地一惊，下一条才开始出声且引号自闭，前后发言不再串联。",
+    "肿包冷笑话保留碰不得、需小心的原指向；小岛冷笑话补回无从接近的本义，后续没有岛及性别歧视连续发言仍完整。",
+    "洋服を崩す以穿着方式随意化表达，不再声称始终不脱换衣服；仍属764至767完整发言。",
+    "其余827条点击与95条颜色完整记录和上轮已审版本完全一致；所有候选逐token比对当前trans及正式draft一致，未批准陈旧target。"
+  ]
+}

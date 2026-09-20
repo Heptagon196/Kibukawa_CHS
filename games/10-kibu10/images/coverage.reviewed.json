@@ -1,0 +1,2404 @@
+{
+  "schema": 1,
+  "game": "kibu10",
+  "review": "All six contact sheets visually reviewed; relevant originals and final artwork inspected separately.",
+  "decoded_textures": 342,
+  "skipped_zero_size_atlases": 25,
+  "images": [
+    {
+      "id": 0,
+      "name": "Default-ParticleSystem",
+      "source_rgba_sha256": "85848ad6c50954f33c6f08707882976995212a4e23e242f74cc9c4d4da02f90e",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 1,
+      "name": "UISprite",
+      "source_rgba_sha256": "21471981b351eb0c1bc8d167e3d061b977c953ad7692243d1772dc1ecd84a79d",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 2,
+      "name": "Background",
+      "source_rgba_sha256": "e6ff2b9a177147e55c458b7223867c73dfe7906de038f77b35336b92529af105",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 3,
+      "name": "InputFieldBackground",
+      "source_rgba_sha256": "3ef0b67a5ccf995370f9adbe4e8b001c848a745f1a57a1801c97c721cd18caae",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 4,
+      "name": "com_keyguide_fade_00",
+      "source_rgba_sha256": "ede50d53bbd3744f6c0fb91ce83547f38caee79fc055ced72d3e6f06812c3c0c",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 5,
+      "name": "com_logo_gmode_new_00",
+      "source_rgba_sha256": "a0447299b42845b5441e510cdb7ebf7988cbea68ce63f0145c479dc19a2c7c79",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 6,
+      "name": "title_logo_archives_00",
+      "source_rgba_sha256": "d882f212ea0aee7ec1f114ab81289b99eef77bc138907363d8358ec69eee66d3",
+      "disposition": "shipped_english_brand",
+      "note": "ShellLogos reuses matching _en sprite shipped by publisher."
+    },
+    {
+      "id": 7,
+      "name": "character_input_arrow_00",
+      "source_rgba_sha256": "670f0cbb39ab422db7e5ccc271dc4d2df7338ac9b8db0adb52a053c3bad54771",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 8,
+      "name": "titleimage",
+      "source_rgba_sha256": "365882106a4162fd365099ca42d41d244895807c9ccc9d93b0c5eeee0fb4f930",
+      "disposition": "translated_artwork",
+      "note": "images/artwork; original-sized runtime viewport; copyright retained."
+    },
+    {
+      "id": 9,
+      "name": "title_logo_archives_plus_00_en",
+      "source_rgba_sha256": "46e1b586ef55ea561f6bf2ebaca85454ea09f49376657fab3a50a5a0f974ac33",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 10,
+      "name": "title_bg_deco_00",
+      "source_rgba_sha256": "47e5052a767c3bc27d1624dc2f338ade36f116d7756fec87612be99c47cdf99b",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 11,
+      "name": "rubi",
+      "source_rgba_sha256": "b842e97b1d4d822a35d6277118ae624d87d60e1aa00c7bb4552c698c0217110c",
+      "disposition": "font_or_symbol_atlas",
+      "note": "Glyph repertoire rather than prose; gameplay Chinese font/reflow supplied by main plugin."
+    },
+    {
+      "id": 12,
+      "name": "title_frame_logo_00",
+      "source_rgba_sha256": "6e2e6ea3a11775e80440a3b922b4ddcec78f83850074819b844f06ff912d7a76",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 13,
+      "name": "com_cursor_00",
+      "source_rgba_sha256": "2f1d064d02851602f273e2ef089b5510599e69767d6c6af6a78b6ee2855c2831",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 14,
+      "name": "com_dialog_bg_upper_00",
+      "source_rgba_sha256": "9fd3213abc2f7f1ebd84f4621d40b5d14b67ea853b32c93163bae278c7a43aad",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 15,
+      "name": "ranking_fade_list_00",
+      "source_rgba_sha256": "506666cee28213497742ff35a881b2c01fe13a6cd339f03c5b79349531c8b716",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 16,
+      "name": "howtoplay_keyguide_steam_03",
+      "source_rgba_sha256": "36916589ab31c2a82e0ceb9f09e23ea6e380e32aaa9c675d4f41a8219cb08519",
+      "disposition": "translated_help_page",
+      "note": "4-page verified model sprite mapping; images/help-pages.translation.json."
+    },
+    {
+      "id": 17,
+      "name": "com_keyguide_square_stick_00",
+      "source_rgba_sha256": "1c50a898cc06bbb9397631cbcdd70171bbd1cc5c4aafd102b62a3a8af16b36c4",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 18,
+      "name": "howtoplay_keyguide_steam_01",
+      "source_rgba_sha256": "1b25514840053483493a22bf3488ae2e75fe445520f4cace1f7a82d913546304",
+      "disposition": "translated_help_page",
+      "note": "4-page verified model sprite mapping; images/help-pages.translation.json."
+    },
+    {
+      "id": 19,
+      "name": "howtoplay_keyguide_steam_02",
+      "source_rgba_sha256": "509e0c98f22d6d9d055ff3e426ed2ee50b4dc62dd6111a2e2030020d676cbee9",
+      "disposition": "translated_help_page",
+      "note": "4-page verified model sprite mapping; images/help-pages.translation.json."
+    },
+    {
+      "id": 20,
+      "name": "com_dialog_bg_lower_00",
+      "source_rgba_sha256": "f113bd19831622e239ee59b71ddb4c09c86a7a8572160a49d48bb9e70a45e1fa",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 21,
+      "name": "sell_end1",
+      "source_rgba_sha256": "365693b6dd9e67b3df6db420a9e4f27c61154e897c582bd51a97404bd034c36e",
+      "disposition": "translated_code_native_label",
+      "note": "scripts/build_ui_images.py; both scratch and named-resource routes; title brightness animation covered."
+    },
+    {
+      "id": 22,
+      "name": "com_keyguide_large_R_00",
+      "source_rgba_sha256": "9327504527c96a1acc13e5451197cf9b4dd0bb319d338b6568a80aadb30be8c1",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 23,
+      "name": "com_keyguide_direction_lower_00",
+      "source_rgba_sha256": "db583d141d736b869ba3beef8f0da9ba8473f0d6e2e7291c6995ef46a3d2e210",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 24,
+      "name": "title_window_phone_plus_00",
+      "source_rgba_sha256": "24122ea978925d061836ff959f6978f27c90edf36d5b194eb2489987a38b49bb",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 25,
+      "name": "title_window_phone_shade_00",
+      "source_rgba_sha256": "921f87ccc24dc08cdb256dc60a0fa8fee65e0c848aa82e3a33ea26698804018e",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 26,
+      "name": "com_keyguide_00",
+      "source_rgba_sha256": "ad1c637ddb826f04215a9e1c71809c7620c3e18363cda13184b3a9c8c2e3c5d2",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 27,
+      "name": "com_keyguide_stick_upper_00",
+      "source_rgba_sha256": "220ce721576308b0d43c76f259167a6681968559157b8bbab42675ad5b4d5383",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 28,
+      "name": "com_keyguide_large_ZR_00",
+      "source_rgba_sha256": "074ee8abb38beb74788683f938d9c87d42c6a42397c6b140d1d47723eab24154",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 29,
+      "name": "com_keyguide_direction_left_00",
+      "source_rgba_sha256": "cc8b6ffb6d075e4b70e72b5bca55876af4a47b58785c9bbb3ae4b554bc20d12c",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 30,
+      "name": "name00",
+      "source_rgba_sha256": "aa63276b1de3ce7dfd89111384b2c339f94b6b5e6ffd21cf1dc93404d7eb0c30",
+      "disposition": "translated_code_native_label",
+      "note": "scripts/build_ui_images.py; both scratch and named-resource routes; title brightness animation covered."
+    },
+    {
+      "id": 31,
+      "name": "bg",
+      "source_rgba_sha256": "2824602da3bed9ad864023fd10b90e15eb13d3fb5ced66bdeaaaf00a9e23075f",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 32,
+      "name": "t_append",
+      "source_rgba_sha256": "e57b7485c4171df580c061a8a64790ec457de943e06b4e99f4164f3f57902126",
+      "disposition": "translated_code_native_label",
+      "note": "scripts/build_ui_images.py; both scratch and named-resource routes; title brightness animation covered."
+    },
+    {
+      "id": 33,
+      "name": "sell_on",
+      "source_rgba_sha256": "a0cdec79c28a08a0dd6550f5d7d74fd1ecdb74275f0a3b339f2cb56b7f0b9cf9",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 34,
+      "name": "howtoplay_keyguide_steam_00",
+      "source_rgba_sha256": "7c7592f54c18fbcaa27f8b6cfa55535916e1950d552e17b6770a7c3898a29024",
+      "disposition": "translated_help_page",
+      "note": "4-page verified model sprite mapping; images/help-pages.translation.json."
+    },
+    {
+      "id": 35,
+      "name": "ranking_icon_01",
+      "source_rgba_sha256": "f45347dd4bb3effe44c801e670928382a35a9734cd5613526f4eac979bb3382b",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 36,
+      "name": "t_start",
+      "source_rgba_sha256": "13df591f007a83dfe21740145e1471b27e5cc7cba046015701d3cd61dff22776",
+      "disposition": "translated_code_native_label",
+      "note": "scripts/build_ui_images.py; both scratch and named-resource routes; title brightness animation covered."
+    },
+    {
+      "id": 37,
+      "name": "keyi_d",
+      "source_rgba_sha256": "a53ab86b34b593d36da1b7ff6d636d7d0dcfac7fc281350ab2a40ecb027a7e45",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 38,
+      "name": "name04",
+      "source_rgba_sha256": "f734135f82c4f1c62063e01873342433417fe676b1212a315968208f9ec991ff",
+      "disposition": "preserved_anonymous_label",
+      "note": "Original ??? identity concealment; no translation required."
+    },
+    {
+      "id": 39,
+      "name": "title_logo_archives_00_en",
+      "source_rgba_sha256": "b105aeb8564e8d1c4f6bdd2951e8b35b004788627a4a64ec9244749953dc075e",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 40,
+      "name": "com_keyguide_stick_lower_00",
+      "source_rgba_sha256": "898f483c608b35836ff7df6fc8b28a4e9960db3519714cf0a7bb6ad51513c535",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 41,
+      "name": "sell_off",
+      "source_rgba_sha256": "46ae8b466b375977b49125e76728f4f14802be849c7215e57248234cf9acb40d",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 42,
+      "name": "title1",
+      "source_rgba_sha256": "d374a430bb8bc028bce388b1c48a91638b09100c21b64b4069c980ced516584e",
+      "disposition": "translated_artwork",
+      "note": "images/artwork; original-sized runtime viewport; copyright retained."
+    },
+    {
+      "id": 43,
+      "name": "com_keyguide_large_ZL_00",
+      "source_rgba_sha256": "f851dc0840d50f394fb8d9c14c01c1e13acb399b922b7332bb3fb55ea15e1387",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 44,
+      "name": "com_keyguide_direction_right_00",
+      "source_rgba_sha256": "82b1051f8690031e76fc299bc625e6457c4bb62bc451000a1bdc57ca51373a2a",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 45,
+      "name": "name02",
+      "source_rgba_sha256": "e318b4786dcca25304773b44f4c84e1895caa91ce8aee4ad6afe0ad8c954842e",
+      "disposition": "translated_code_native_label",
+      "note": "scripts/build_ui_images.py; both scratch and named-resource routes; title brightness animation covered."
+    },
+    {
+      "id": 46,
+      "name": "com_icon_back_00",
+      "source_rgba_sha256": "a228c795afc4aa4fc1a29a1a763b0fbda6747a95ee449b399dcd59eff5b57a40",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 47,
+      "name": "com_frame_line_00",
+      "source_rgba_sha256": "9555f6e3f118a9533f4923d3e7153613b7e6903cd55dd0cf566dd22b6814710e",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 48,
+      "name": "com_whiterect_00",
+      "source_rgba_sha256": "f47a8ec3e9aff2318d896942282ad4fe37d6391c82914f54a5da8a37de1300c6",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 49,
+      "name": "ranking_icon_02",
+      "source_rgba_sha256": "ce325ae0c1fcb484f66842667eba2773e31a1e516c6bbcca4489567e06cfffd7",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 50,
+      "name": "ranking_fade_list_01",
+      "source_rgba_sha256": "65d2f3f690f661c9f3c9a2cea8ea30fab21393b2a9a90741b209cd804b06d362",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 51,
+      "name": "ranking_icon_03",
+      "source_rgba_sha256": "afe3f9f20ef79ac0b5e52cfcb8ce37e6fdfa9635574a0171044a46bd7f8e9665",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 52,
+      "name": "com_dialog_bg_middle_00",
+      "source_rgba_sha256": "74d7642b8241500f8acbac2deee3143d8a91e5e467bb480f7b4b137004f2ab75",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 53,
+      "name": "ranking_arrow_00",
+      "source_rgba_sha256": "97cb0cabd67174acea9014c7532182ae691d9e186ade69382c7ff6569cf334a9",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 54,
+      "name": "ranking_mask_list_00",
+      "source_rgba_sha256": "3581e5bb15fbb4a761d35c49a891f57de6dd7818ae7e64bc2e463ebb87cc1d6d",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 55,
+      "name": "com_keyguide_large_L_00",
+      "source_rgba_sha256": "6c3eb955c4fb3854570c1531d48a39bae436fea69c0ff94b144d1296b6872825",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 56,
+      "name": "sell_end0",
+      "source_rgba_sha256": "1e47aac5eeeaa68d5ec1d921b649f091c3af216a019f60533963aba12bae9b47",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 57,
+      "name": "com_keyguide_stick_left_00",
+      "source_rgba_sha256": "dc0d26677cdddec4c7535f7f5b61cf884117e77feb643630ca3169fe51fc36b1",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 58,
+      "name": "title_window_phone_00",
+      "source_rgba_sha256": "8255752ff380f1e0848d10ae74e202bbc923e535fd9d7b7c96294553497d5bcf",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 59,
+      "name": "title_logo_archives_plus_00",
+      "source_rgba_sha256": "8a6966c6cdeb0727bcf872522d8c7467d1514846b0b92062c26ae7dc2dba7298",
+      "disposition": "shipped_english_brand",
+      "note": "ShellLogos reuses matching _en sprite shipped by publisher."
+    },
+    {
+      "id": 60,
+      "name": "title_bg_deco_03",
+      "source_rgba_sha256": "42229180d08ebca8359a8453357a25a1e8813b5b878a071f70df77f48ee96dc5",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 61,
+      "name": "name01",
+      "source_rgba_sha256": "f115ab90578eb4fd0150934a761f7f3bbf2b387a1de0daa2ff9d69ad2e2aa41d",
+      "disposition": "translated_code_native_label",
+      "note": "scripts/build_ui_images.py; both scratch and named-resource routes; title brightness animation covered."
+    },
+    {
+      "id": 62,
+      "name": "title_bg_00",
+      "source_rgba_sha256": "cb50d787719b027b39f16e8da3fe2f769d86a1417c5a429dfde1e883e00fd1cc",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 63,
+      "name": "EmojiOne",
+      "source_rgba_sha256": "f7bdba4be355cb906d57eb54dae544e0a8c41e4fb8a64a0e36a5cee0007f39cf",
+      "disposition": "font_or_symbol_atlas",
+      "note": "Glyph repertoire rather than prose; gameplay Chinese font/reflow supplied by main plugin."
+    },
+    {
+      "id": 64,
+      "name": "name03",
+      "source_rgba_sha256": "3194e2540bc7b07f9ad966617689dcde67016e74acd16f62c91b821c815ce2e9",
+      "disposition": "translated_code_native_label",
+      "note": "scripts/build_ui_images.py; both scratch and named-resource routes; title brightness animation covered."
+    },
+    {
+      "id": 65,
+      "name": "title2",
+      "source_rgba_sha256": "9ca1fa5b61a28f68d888cd8fd245857f8018ac72aedd3f2d0c9812b030984aab",
+      "disposition": "translated_artwork",
+      "note": "images/artwork; original-sized runtime viewport; copyright retained."
+    },
+    {
+      "id": 66,
+      "name": "com_keyguide_direction_upper_0",
+      "source_rgba_sha256": "989ab07f8a2a55eaab6c9406b9c8ddeffa7773ec8ac8b7bc9b5a57334ab1b00f",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 67,
+      "name": "t_help",
+      "source_rgba_sha256": "56260bd8402afdb7a2ac95a8b678c79a11d33577c7f8655de62259595870ee9f",
+      "disposition": "translated_code_native_label",
+      "note": "scripts/build_ui_images.py; both scratch and named-resource routes; title brightness animation covered."
+    },
+    {
+      "id": 68,
+      "name": "com_keyguide_stick_right_00",
+      "source_rgba_sha256": "4e2f1f37fbe2e2f2f7df5badbb6bf8da3e153213100f7c1ee62cf377f48e77ce",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 69,
+      "name": "LiberationSans SDF Atlas",
+      "source_rgba_sha256": "3ea744409f4d152d79d4b7899d8758a149b680279d4fead47cb37962e5c02e0b",
+      "disposition": "font_or_symbol_atlas",
+      "note": "Glyph repertoire rather than prose; gameplay Chinese font/reflow supplied by main plugin."
+    },
+    {
+      "id": 70,
+      "name": "name00",
+      "source_rgba_sha256": "aa63276b1de3ce7dfd89111384b2c339f94b6b5e6ffd21cf1dc93404d7eb0c30",
+      "disposition": "translated_code_native_label",
+      "note": "scripts/build_ui_images.py; both scratch and named-resource routes; title brightness animation covered."
+    },
+    {
+      "id": 71,
+      "name": "name03",
+      "source_rgba_sha256": "3194e2540bc7b07f9ad966617689dcde67016e74acd16f62c91b821c815ce2e9",
+      "disposition": "translated_code_native_label",
+      "note": "scripts/build_ui_images.py; both scratch and named-resource routes; title brightness animation covered."
+    },
+    {
+      "id": 72,
+      "name": "t_append",
+      "source_rgba_sha256": "e57b7485c4171df580c061a8a64790ec457de943e06b4e99f4164f3f57902126",
+      "disposition": "translated_code_native_label",
+      "note": "scripts/build_ui_images.py; both scratch and named-resource routes; title brightness animation covered."
+    },
+    {
+      "id": 73,
+      "name": "sell_end1",
+      "source_rgba_sha256": "365693b6dd9e67b3df6db420a9e4f27c61154e897c582bd51a97404bd034c36e",
+      "disposition": "translated_code_native_label",
+      "note": "scripts/build_ui_images.py; both scratch and named-resource routes; title brightness animation covered."
+    },
+    {
+      "id": 74,
+      "name": "t_help",
+      "source_rgba_sha256": "56260bd8402afdb7a2ac95a8b678c79a11d33577c7f8655de62259595870ee9f",
+      "disposition": "translated_code_native_label",
+      "note": "scripts/build_ui_images.py; both scratch and named-resource routes; title brightness animation covered."
+    },
+    {
+      "id": 75,
+      "name": "keyi_d",
+      "source_rgba_sha256": "a53ab86b34b593d36da1b7ff6d636d7d0dcfac7fc281350ab2a40ecb027a7e45",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 76,
+      "name": "rubi",
+      "source_rgba_sha256": "b842e97b1d4d822a35d6277118ae624d87d60e1aa00c7bb4552c698c0217110c",
+      "disposition": "font_or_symbol_atlas",
+      "note": "Glyph repertoire rather than prose; gameplay Chinese font/reflow supplied by main plugin."
+    },
+    {
+      "id": 77,
+      "name": "bg",
+      "source_rgba_sha256": "2824602da3bed9ad864023fd10b90e15eb13d3fb5ced66bdeaaaf00a9e23075f",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 78,
+      "name": "sell_end0",
+      "source_rgba_sha256": "1e47aac5eeeaa68d5ec1d921b649f091c3af216a019f60533963aba12bae9b47",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 79,
+      "name": "t_start",
+      "source_rgba_sha256": "13df591f007a83dfe21740145e1471b27e5cc7cba046015701d3cd61dff22776",
+      "disposition": "translated_code_native_label",
+      "note": "scripts/build_ui_images.py; both scratch and named-resource routes; title brightness animation covered."
+    },
+    {
+      "id": 80,
+      "name": "sell_on",
+      "source_rgba_sha256": "a0cdec79c28a08a0dd6550f5d7d74fd1ecdb74275f0a3b339f2cb56b7f0b9cf9",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 81,
+      "name": "name02",
+      "source_rgba_sha256": "e318b4786dcca25304773b44f4c84e1895caa91ce8aee4ad6afe0ad8c954842e",
+      "disposition": "translated_code_native_label",
+      "note": "scripts/build_ui_images.py; both scratch and named-resource routes; title brightness animation covered."
+    },
+    {
+      "id": 82,
+      "name": "name04",
+      "source_rgba_sha256": "f734135f82c4f1c62063e01873342433417fe676b1212a315968208f9ec991ff",
+      "disposition": "preserved_anonymous_label",
+      "note": "Original ??? identity concealment; no translation required."
+    },
+    {
+      "id": 83,
+      "name": "title2",
+      "source_rgba_sha256": "9ca1fa5b61a28f68d888cd8fd245857f8018ac72aedd3f2d0c9812b030984aab",
+      "disposition": "translated_artwork",
+      "note": "images/artwork; original-sized runtime viewport; copyright retained."
+    },
+    {
+      "id": 84,
+      "name": "name01",
+      "source_rgba_sha256": "f115ab90578eb4fd0150934a761f7f3bbf2b387a1de0daa2ff9d69ad2e2aa41d",
+      "disposition": "translated_code_native_label",
+      "note": "scripts/build_ui_images.py; both scratch and named-resource routes; title brightness animation covered."
+    },
+    {
+      "id": 85,
+      "name": "title1",
+      "source_rgba_sha256": "d374a430bb8bc028bce388b1c48a91638b09100c21b64b4069c980ced516584e",
+      "disposition": "translated_artwork",
+      "note": "images/artwork; original-sized runtime viewport; copyright retained."
+    },
+    {
+      "id": 86,
+      "name": "sell_off",
+      "source_rgba_sha256": "46ae8b466b375977b49125e76728f4f14802be849c7215e57248234cf9acb40d",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 87,
+      "name": "game_gauge_bar_00",
+      "source_rgba_sha256": "17944a02883adc802f34a3d124941ee465a31dc4899c59c233636b68afdabc44",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 88,
+      "name": "game_bg_00",
+      "source_rgba_sha256": "5618028fc7c18343e68ad9f6e32d5e77fc94efcb4d02966f185b332c015e90e8",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 89,
+      "name": "game_icon_soundoff_00",
+      "source_rgba_sha256": "66a8ac308d1984d037fd179f6f404c9fabdcf69d20b509aa2b4d9e4637010533",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 90,
+      "name": "game_icon_gmode_00",
+      "source_rgba_sha256": "570ee9dfe12ae05de048edbb2ce95d1e9e33246a1fc0f901b2c7b5cc8626c193",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 91,
+      "name": "game_keyguide_+-_00",
+      "source_rgba_sha256": "277c6d2b3f630274045cfa41b30fa4fe55c84f58f47beae737a90be52a357d8e",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 92,
+      "name": "game_window_phone_plus_00",
+      "source_rgba_sha256": "fbcb7949f25473e59c44998ebc2b6853c584c74be7e21cfffc7c9093cca2b007",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 93,
+      "name": "game_window_phone_00",
+      "source_rgba_sha256": "6e178a2476ed5474a5a62ed75553ba67cf9a7d735c0956e63733adcde4cdc453",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 94,
+      "name": "game_bg_deco_00",
+      "source_rgba_sha256": "228eb4fe5272f5a543ab2c0d32eb2a65eb211b2f0d146633f05d8206fdffe1a5",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 95,
+      "name": "game_gauge_battery_frame",
+      "source_rgba_sha256": "fff4b5cb4b8ae05805255e561c1750617b2213ac7422cca1a2c05d464ddec888",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 96,
+      "name": "dialog_bg_00",
+      "source_rgba_sha256": "cf4b28c8af9b9c1fdaa658ef339da5a9e586d6e18465d7d2fbf486315e5a323f",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 97,
+      "name": "name00",
+      "source_rgba_sha256": "aa63276b1de3ce7dfd89111384b2c339f94b6b5e6ffd21cf1dc93404d7eb0c30",
+      "disposition": "translated_code_native_label",
+      "note": "scripts/build_ui_images.py; both scratch and named-resource routes; title brightness animation covered."
+    },
+    {
+      "id": 98,
+      "name": "name03",
+      "source_rgba_sha256": "3194e2540bc7b07f9ad966617689dcde67016e74acd16f62c91b821c815ce2e9",
+      "disposition": "translated_code_native_label",
+      "note": "scripts/build_ui_images.py; both scratch and named-resource routes; title brightness animation covered."
+    },
+    {
+      "id": 99,
+      "name": "t_append",
+      "source_rgba_sha256": "e57b7485c4171df580c061a8a64790ec457de943e06b4e99f4164f3f57902126",
+      "disposition": "translated_code_native_label",
+      "note": "scripts/build_ui_images.py; both scratch and named-resource routes; title brightness animation covered."
+    },
+    {
+      "id": 100,
+      "name": "com_keyguide_large_R_00",
+      "source_rgba_sha256": "9327504527c96a1acc13e5451197cf9b4dd0bb319d338b6568a80aadb30be8c1",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 101,
+      "name": "sell_end1",
+      "source_rgba_sha256": "365693b6dd9e67b3df6db420a9e4f27c61154e897c582bd51a97404bd034c36e",
+      "disposition": "translated_code_native_label",
+      "note": "scripts/build_ui_images.py; both scratch and named-resource routes; title brightness animation covered."
+    },
+    {
+      "id": 102,
+      "name": "t_help",
+      "source_rgba_sha256": "56260bd8402afdb7a2ac95a8b678c79a11d33577c7f8655de62259595870ee9f",
+      "disposition": "translated_code_native_label",
+      "note": "scripts/build_ui_images.py; both scratch and named-resource routes; title brightness animation covered."
+    },
+    {
+      "id": 103,
+      "name": "keyi_d",
+      "source_rgba_sha256": "a53ab86b34b593d36da1b7ff6d636d7d0dcfac7fc281350ab2a40ecb027a7e45",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 104,
+      "name": "rubi",
+      "source_rgba_sha256": "b842e97b1d4d822a35d6277118ae624d87d60e1aa00c7bb4552c698c0217110c",
+      "disposition": "font_or_symbol_atlas",
+      "note": "Glyph repertoire rather than prose; gameplay Chinese font/reflow supplied by main plugin."
+    },
+    {
+      "id": 105,
+      "name": "bg",
+      "source_rgba_sha256": "2824602da3bed9ad864023fd10b90e15eb13d3fb5ced66bdeaaaf00a9e23075f",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 106,
+      "name": "com_keyguide_large_L_00",
+      "source_rgba_sha256": "6c3eb955c4fb3854570c1531d48a39bae436fea69c0ff94b144d1296b6872825",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 107,
+      "name": "sell_end0",
+      "source_rgba_sha256": "1e47aac5eeeaa68d5ec1d921b649f091c3af216a019f60533963aba12bae9b47",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 108,
+      "name": "t_start",
+      "source_rgba_sha256": "13df591f007a83dfe21740145e1471b27e5cc7cba046015701d3cd61dff22776",
+      "disposition": "translated_code_native_label",
+      "note": "scripts/build_ui_images.py; both scratch and named-resource routes; title brightness animation covered."
+    },
+    {
+      "id": 109,
+      "name": "sell_on",
+      "source_rgba_sha256": "a0cdec79c28a08a0dd6550f5d7d74fd1ecdb74275f0a3b339f2cb56b7f0b9cf9",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 110,
+      "name": "name02",
+      "source_rgba_sha256": "e318b4786dcca25304773b44f4c84e1895caa91ce8aee4ad6afe0ad8c954842e",
+      "disposition": "translated_code_native_label",
+      "note": "scripts/build_ui_images.py; both scratch and named-resource routes; title brightness animation covered."
+    },
+    {
+      "id": 111,
+      "name": "name04",
+      "source_rgba_sha256": "f734135f82c4f1c62063e01873342433417fe676b1212a315968208f9ec991ff",
+      "disposition": "preserved_anonymous_label",
+      "note": "Original ??? identity concealment; no translation required."
+    },
+    {
+      "id": 112,
+      "name": "title2",
+      "source_rgba_sha256": "9ca1fa5b61a28f68d888cd8fd245857f8018ac72aedd3f2d0c9812b030984aab",
+      "disposition": "translated_artwork",
+      "note": "images/artwork; original-sized runtime viewport; copyright retained."
+    },
+    {
+      "id": 113,
+      "name": "name01",
+      "source_rgba_sha256": "f115ab90578eb4fd0150934a761f7f3bbf2b387a1de0daa2ff9d69ad2e2aa41d",
+      "disposition": "translated_code_native_label",
+      "note": "scripts/build_ui_images.py; both scratch and named-resource routes; title brightness animation covered."
+    },
+    {
+      "id": 114,
+      "name": "title1",
+      "source_rgba_sha256": "d374a430bb8bc028bce388b1c48a91638b09100c21b64b4069c980ced516584e",
+      "disposition": "translated_artwork",
+      "note": "images/artwork; original-sized runtime viewport; copyright retained."
+    },
+    {
+      "id": 115,
+      "name": "Default-ParticleSystem",
+      "source_rgba_sha256": "85848ad6c50954f33c6f08707882976995212a4e23e242f74cc9c4d4da02f90e",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 116,
+      "name": "sell_off",
+      "source_rgba_sha256": "46ae8b466b375977b49125e76728f4f14802be849c7215e57248234cf9acb40d",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 117,
+      "name": "character_input_arrow_00",
+      "source_rgba_sha256": "670f0cbb39ab422db7e5ccc271dc4d2df7338ac9b8db0adb52a053c3bad54771",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 118,
+      "name": "com_dialog_bg_middle_00",
+      "source_rgba_sha256": "74d7642b8241500f8acbac2deee3143d8a91e5e467bb480f7b4b137004f2ab75",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 119,
+      "name": "com_dialog_bg_lower_00",
+      "source_rgba_sha256": "f113bd19831622e239ee59b71ddb4c09c86a7a8572160a49d48bb9e70a45e1fa",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 120,
+      "name": "com_frame_line_00",
+      "source_rgba_sha256": "9555f6e3f118a9533f4923d3e7153613b7e6903cd55dd0cf566dd22b6814710e",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 121,
+      "name": "InputFieldBackground",
+      "source_rgba_sha256": "3ef0b67a5ccf995370f9adbe4e8b001c848a745f1a57a1801c97c721cd18caae",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 122,
+      "name": "com_whiterect_00",
+      "source_rgba_sha256": "f47a8ec3e9aff2318d896942282ad4fe37d6391c82914f54a5da8a37de1300c6",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 123,
+      "name": "com_dialog_bg_upper_00",
+      "source_rgba_sha256": "9fd3213abc2f7f1ebd84f4621d40b5d14b67ea853b32c93163bae278c7a43aad",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 124,
+      "name": "UISprite",
+      "source_rgba_sha256": "21471981b351eb0c1bc8d167e3d061b977c953ad7692243d1772dc1ecd84a79d",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 125,
+      "name": "dialog_bg_00",
+      "source_rgba_sha256": "cf4b28c8af9b9c1fdaa658ef339da5a9e586d6e18465d7d2fbf486315e5a323f",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 126,
+      "name": "com_keyguide_direction_lower_00",
+      "source_rgba_sha256": "db583d141d736b869ba3beef8f0da9ba8473f0d6e2e7291c6995ef46a3d2e210",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 127,
+      "name": "com_dialog_bg_middle_00",
+      "source_rgba_sha256": "74d7642b8241500f8acbac2deee3143d8a91e5e467bb480f7b4b137004f2ab75",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 128,
+      "name": "com_dialog_bg_lower_00",
+      "source_rgba_sha256": "f113bd19831622e239ee59b71ddb4c09c86a7a8572160a49d48bb9e70a45e1fa",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 129,
+      "name": "com_icon_back_00",
+      "source_rgba_sha256": "a228c795afc4aa4fc1a29a1a763b0fbda6747a95ee449b399dcd59eff5b57a40",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 130,
+      "name": "com_dialog_bg_upper_00",
+      "source_rgba_sha256": "9fd3213abc2f7f1ebd84f4621d40b5d14b67ea853b32c93163bae278c7a43aad",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 131,
+      "name": "com_cursor_00",
+      "source_rgba_sha256": "2f1d064d02851602f273e2ef089b5510599e69767d6c6af6a78b6ee2855c2831",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 132,
+      "name": "com_keyguide_large_R_00",
+      "source_rgba_sha256": "9327504527c96a1acc13e5451197cf9b4dd0bb319d338b6568a80aadb30be8c1",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 133,
+      "name": "com_keyguide_large_L_00",
+      "source_rgba_sha256": "6c3eb955c4fb3854570c1531d48a39bae436fea69c0ff94b144d1296b6872825",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 134,
+      "name": "com_keyguide_direction_lower_00",
+      "source_rgba_sha256": "db583d141d736b869ba3beef8f0da9ba8473f0d6e2e7291c6995ef46a3d2e210",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 135,
+      "name": "com_keyguide_stick_lower_00",
+      "source_rgba_sha256": "898f483c608b35836ff7df6fc8b28a4e9960db3519714cf0a7bb6ad51513c535",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 136,
+      "name": "com_keyguide_direction_right_00",
+      "source_rgba_sha256": "82b1051f8690031e76fc299bc625e6457c4bb62bc451000a1bdc57ca51373a2a",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 137,
+      "name": "com_dialog_bg_middle_00",
+      "source_rgba_sha256": "74d7642b8241500f8acbac2deee3143d8a91e5e467bb480f7b4b137004f2ab75",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 138,
+      "name": "com_keyguide_large_ZR_00",
+      "source_rgba_sha256": "074ee8abb38beb74788683f938d9c87d42c6a42397c6b140d1d47723eab24154",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 139,
+      "name": "com_keyguide_large_R_00",
+      "source_rgba_sha256": "9327504527c96a1acc13e5451197cf9b4dd0bb319d338b6568a80aadb30be8c1",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 140,
+      "name": "com_dialog_bg_lower_00",
+      "source_rgba_sha256": "f113bd19831622e239ee59b71ddb4c09c86a7a8572160a49d48bb9e70a45e1fa",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 141,
+      "name": "com_keyguide_large_L_00",
+      "source_rgba_sha256": "6c3eb955c4fb3854570c1531d48a39bae436fea69c0ff94b144d1296b6872825",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 142,
+      "name": "howtoplay_keyguide_steam_00",
+      "source_rgba_sha256": "7c7592f54c18fbcaa27f8b6cfa55535916e1950d552e17b6770a7c3898a29024",
+      "disposition": "translated_help_page",
+      "note": "4-page verified model sprite mapping; images/help-pages.translation.json."
+    },
+    {
+      "id": 143,
+      "name": "com_keyguide_stick_upper_00",
+      "source_rgba_sha256": "220ce721576308b0d43c76f259167a6681968559157b8bbab42675ad5b4d5383",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 144,
+      "name": "howtoplay_keyguide_steam_01",
+      "source_rgba_sha256": "1b25514840053483493a22bf3488ae2e75fe445520f4cace1f7a82d913546304",
+      "disposition": "translated_help_page",
+      "note": "4-page verified model sprite mapping; images/help-pages.translation.json."
+    },
+    {
+      "id": 145,
+      "name": "com_keyguide_direction_left_00",
+      "source_rgba_sha256": "cc8b6ffb6d075e4b70e72b5bca55876af4a47b58785c9bbb3ae4b554bc20d12c",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 146,
+      "name": "howtoplay_keyguide_steam_02",
+      "source_rgba_sha256": "509e0c98f22d6d9d055ff3e426ed2ee50b4dc62dd6111a2e2030020d676cbee9",
+      "disposition": "translated_help_page",
+      "note": "4-page verified model sprite mapping; images/help-pages.translation.json."
+    },
+    {
+      "id": 147,
+      "name": "com_keyguide_direction_upper_0",
+      "source_rgba_sha256": "989ab07f8a2a55eaab6c9406b9c8ddeffa7773ec8ac8b7bc9b5a57334ab1b00f",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 148,
+      "name": "com_whiterect_00",
+      "source_rgba_sha256": "f47a8ec3e9aff2318d896942282ad4fe37d6391c82914f54a5da8a37de1300c6",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 149,
+      "name": "com_icon_back_00",
+      "source_rgba_sha256": "a228c795afc4aa4fc1a29a1a763b0fbda6747a95ee449b399dcd59eff5b57a40",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 150,
+      "name": "com_keyguide_large_ZL_00",
+      "source_rgba_sha256": "f851dc0840d50f394fb8d9c14c01c1e13acb399b922b7332bb3fb55ea15e1387",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 151,
+      "name": "com_keyguide_stick_right_00",
+      "source_rgba_sha256": "4e2f1f37fbe2e2f2f7df5badbb6bf8da3e153213100f7c1ee62cf377f48e77ce",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 152,
+      "name": "ranking_arrow_00",
+      "source_rgba_sha256": "97cb0cabd67174acea9014c7532182ae691d9e186ade69382c7ff6569cf334a9",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 153,
+      "name": "com_dialog_bg_upper_00",
+      "source_rgba_sha256": "9fd3213abc2f7f1ebd84f4621d40b5d14b67ea853b32c93163bae278c7a43aad",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 154,
+      "name": "com_keyguide_stick_left_00",
+      "source_rgba_sha256": "dc0d26677cdddec4c7535f7f5b61cf884117e77feb643630ca3169fe51fc36b1",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 155,
+      "name": "howtoplay_keyguide_steam_03",
+      "source_rgba_sha256": "36916589ab31c2a82e0ceb9f09e23ea6e380e32aaa9c675d4f41a8219cb08519",
+      "disposition": "translated_help_page",
+      "note": "4-page verified model sprite mapping; images/help-pages.translation.json."
+    },
+    {
+      "id": 156,
+      "name": "com_keyguide_direction_lower_00",
+      "source_rgba_sha256": "db583d141d736b869ba3beef8f0da9ba8473f0d6e2e7291c6995ef46a3d2e210",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 157,
+      "name": "com_keyguide_direction_right_00",
+      "source_rgba_sha256": "82b1051f8690031e76fc299bc625e6457c4bb62bc451000a1bdc57ca51373a2a",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 158,
+      "name": "ranking_fade_list_00",
+      "source_rgba_sha256": "506666cee28213497742ff35a881b2c01fe13a6cd339f03c5b79349531c8b716",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 159,
+      "name": "com_dialog_bg_middle_00",
+      "source_rgba_sha256": "74d7642b8241500f8acbac2deee3143d8a91e5e467bb480f7b4b137004f2ab75",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 160,
+      "name": "com_dialog_bg_lower_00",
+      "source_rgba_sha256": "f113bd19831622e239ee59b71ddb4c09c86a7a8572160a49d48bb9e70a45e1fa",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 161,
+      "name": "ranking_fade_list_01",
+      "source_rgba_sha256": "65d2f3f690f661c9f3c9a2cea8ea30fab21393b2a9a90741b209cd804b06d362",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 162,
+      "name": "ranking_icon_03",
+      "source_rgba_sha256": "afe3f9f20ef79ac0b5e52cfcb8ce37e6fdfa9635574a0171044a46bd7f8e9665",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 163,
+      "name": "Background",
+      "source_rgba_sha256": "e6ff2b9a177147e55c458b7223867c73dfe7906de038f77b35336b92529af105",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 164,
+      "name": "ranking_icon_02",
+      "source_rgba_sha256": "ce325ae0c1fcb484f66842667eba2773e31a1e516c6bbcca4489567e06cfffd7",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 165,
+      "name": "com_whiterect_00",
+      "source_rgba_sha256": "f47a8ec3e9aff2318d896942282ad4fe37d6391c82914f54a5da8a37de1300c6",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 166,
+      "name": "com_icon_back_00",
+      "source_rgba_sha256": "a228c795afc4aa4fc1a29a1a763b0fbda6747a95ee449b399dcd59eff5b57a40",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 167,
+      "name": "ranking_icon_01",
+      "source_rgba_sha256": "f45347dd4bb3effe44c801e670928382a35a9734cd5613526f4eac979bb3382b",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 168,
+      "name": "ranking_arrow_00",
+      "source_rgba_sha256": "97cb0cabd67174acea9014c7532182ae691d9e186ade69382c7ff6569cf334a9",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 169,
+      "name": "com_dialog_bg_upper_00",
+      "source_rgba_sha256": "9fd3213abc2f7f1ebd84f4621d40b5d14b67ea853b32c93163bae278c7a43aad",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 170,
+      "name": "com_dialog_bg_middle_00",
+      "source_rgba_sha256": "74d7642b8241500f8acbac2deee3143d8a91e5e467bb480f7b4b137004f2ab75",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 171,
+      "name": "com_dialog_bg_lower_00",
+      "source_rgba_sha256": "f113bd19831622e239ee59b71ddb4c09c86a7a8572160a49d48bb9e70a45e1fa",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 172,
+      "name": "com_frame_line_00",
+      "source_rgba_sha256": "9555f6e3f118a9533f4923d3e7153613b7e6903cd55dd0cf566dd22b6814710e",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 173,
+      "name": "com_dialog_bg_upper_00",
+      "source_rgba_sha256": "9fd3213abc2f7f1ebd84f4621d40b5d14b67ea853b32c93163bae278c7a43aad",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 174,
+      "name": "com_cursor_00",
+      "source_rgba_sha256": "2f1d064d02851602f273e2ef089b5510599e69767d6c6af6a78b6ee2855c2831",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 175,
+      "name": "com_logo_gmode_new_00",
+      "source_rgba_sha256": "a0447299b42845b5441e510cdb7ebf7988cbea68ce63f0145c479dc19a2c7c79",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 176,
+      "name": "title_window_phone_shade_00",
+      "source_rgba_sha256": "921f87ccc24dc08cdb256dc60a0fa8fee65e0c848aa82e3a33ea26698804018e",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 177,
+      "name": "title_logo_archives_plus_00",
+      "source_rgba_sha256": "8a6966c6cdeb0727bcf872522d8c7467d1514846b0b92062c26ae7dc2dba7298",
+      "disposition": "shipped_english_brand",
+      "note": "ShellLogos reuses matching _en sprite shipped by publisher."
+    },
+    {
+      "id": 178,
+      "name": "com_keyguide_large_R_00",
+      "source_rgba_sha256": "9327504527c96a1acc13e5451197cf9b4dd0bb319d338b6568a80aadb30be8c1",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 179,
+      "name": "title_window_phone_00",
+      "source_rgba_sha256": "8255752ff380f1e0848d10ae74e202bbc923e535fd9d7b7c96294553497d5bcf",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 180,
+      "name": "com_keyguide_large_L_00",
+      "source_rgba_sha256": "6c3eb955c4fb3854570c1531d48a39bae436fea69c0ff94b144d1296b6872825",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 181,
+      "name": "title_logo_archives_plus_00_en",
+      "source_rgba_sha256": "46e1b586ef55ea561f6bf2ebaca85454ea09f49376657fab3a50a5a0f974ac33",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 182,
+      "name": "title_bg_deco_00",
+      "source_rgba_sha256": "47e5052a767c3bc27d1624dc2f338ade36f116d7756fec87612be99c47cdf99b",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 183,
+      "name": "com_keyguide_fade_00",
+      "source_rgba_sha256": "ede50d53bbd3744f6c0fb91ce83547f38caee79fc055ced72d3e6f06812c3c0c",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 184,
+      "name": "title_window_phone_plus_00",
+      "source_rgba_sha256": "24122ea978925d061836ff959f6978f27c90edf36d5b194eb2489987a38b49bb",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 185,
+      "name": "com_whiterect_00",
+      "source_rgba_sha256": "f47a8ec3e9aff2318d896942282ad4fe37d6391c82914f54a5da8a37de1300c6",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 186,
+      "name": "title_frame_logo_00",
+      "source_rgba_sha256": "6e2e6ea3a11775e80440a3b922b4ddcec78f83850074819b844f06ff912d7a76",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 187,
+      "name": "title_bg_00",
+      "source_rgba_sha256": "cb50d787719b027b39f16e8da3fe2f769d86a1417c5a429dfde1e883e00fd1cc",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 188,
+      "name": "title_logo_archives_00",
+      "source_rgba_sha256": "d882f212ea0aee7ec1f114ab81289b99eef77bc138907363d8358ec69eee66d3",
+      "disposition": "shipped_english_brand",
+      "note": "ShellLogos reuses matching _en sprite shipped by publisher."
+    },
+    {
+      "id": 189,
+      "name": "title_bg_deco_03",
+      "source_rgba_sha256": "42229180d08ebca8359a8453357a25a1e8813b5b878a071f70df77f48ee96dc5",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 190,
+      "name": "title_logo_archives_00_en",
+      "source_rgba_sha256": "b105aeb8564e8d1c4f6bdd2951e8b35b004788627a4a64ec9244749953dc075e",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 191,
+      "name": "titleimage",
+      "source_rgba_sha256": "365882106a4162fd365099ca42d41d244895807c9ccc9d93b0c5eeee0fb4f930",
+      "disposition": "translated_artwork",
+      "note": "images/artwork; original-sized runtime viewport; copyright retained."
+    },
+    {
+      "id": 192,
+      "name": "com_dialog_bg_middle_00",
+      "source_rgba_sha256": "74d7642b8241500f8acbac2deee3143d8a91e5e467bb480f7b4b137004f2ab75",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 193,
+      "name": "com_dialog_bg_lower_00",
+      "source_rgba_sha256": "f113bd19831622e239ee59b71ddb4c09c86a7a8572160a49d48bb9e70a45e1fa",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 194,
+      "name": "com_frame_line_00",
+      "source_rgba_sha256": "9555f6e3f118a9533f4923d3e7153613b7e6903cd55dd0cf566dd22b6814710e",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 195,
+      "name": "com_dialog_bg_upper_00",
+      "source_rgba_sha256": "9fd3213abc2f7f1ebd84f4621d40b5d14b67ea853b32c93163bae278c7a43aad",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 196,
+      "name": "com_cursor_00",
+      "source_rgba_sha256": "2f1d064d02851602f273e2ef089b5510599e69767d6c6af6a78b6ee2855c2831",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 197,
+      "name": "toy_e1.gif",
+      "source_rgba_sha256": "0016001855e480ff59cf877489a5cc5d2595b04b755b3d65e3c86159f45b1bca",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 198,
+      "name": "toy_m0.gif",
+      "source_rgba_sha256": "0383c633f5251dc5ddd7f04bc7cabda75973e63861089cbf1e0b7bffaeee1f36",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 199,
+      "name": "toy_m1.gif",
+      "source_rgba_sha256": "c5924d973dff3f363e33d8632d76b6478bcf0e34c24ba48709d9b154238c5482",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 200,
+      "name": "toy_m2.gif",
+      "source_rgba_sha256": "b4bd5ff19375156cead279cc29ce2e9566695b22a7734ae287df74bdd3d9e8b4",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 201,
+      "name": "uko.gif",
+      "source_rgba_sha256": "45ff3edd9ebee1ae585c359e99d6a6b88f674e8b1e7f8f3d6b923f39609700b1",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 202,
+      "name": "uko_e0.gif",
+      "source_rgba_sha256": "83eb5ddfe41c892b427afe1a27a85fce4dce3dd0c0bf8d362aaf66db3e95c275",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 203,
+      "name": "uko_e1.gif",
+      "source_rgba_sha256": "0b1f8640bde19f64da666d7886532a1094f1084b013bd2aa76e2844682509c34",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 204,
+      "name": "uko_m0.gif",
+      "source_rgba_sha256": "dc04fd403acb7f7026fe6777da81788e4576434cc3d58730349ff89b77fc95ef",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 205,
+      "name": "uko_m1.gif",
+      "source_rgba_sha256": "94b3daace7444ee1b409fbb9dd63db20b59f04318744d7b5f2d55cd229864d26",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 206,
+      "name": "uko_m2.gif",
+      "source_rgba_sha256": "5ed53c1e8a6be3b8f412088207a707272339fa36adcfd71ae45283f7052f5f82",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 207,
+      "name": "yuz.gif",
+      "source_rgba_sha256": "56e0e39a95a93192716e2e127f890f8d30641dbed4b83c1ba5abd5ae9d052bfd",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 208,
+      "name": "yuz_e0.gif",
+      "source_rgba_sha256": "155623cb8bf93d306497ed9b04d77d5c1ea9e44b4f3ba65f690bfb2364fb6de9",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 209,
+      "name": "yuz_e1.gif",
+      "source_rgba_sha256": "0026df66a4046e069355dd99224febf623344927ab838e8e97ecdaed6aa237f2",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 210,
+      "name": "yuz_m0.gif",
+      "source_rgba_sha256": "bcf702fdcaea4aa78c1340f250c61758b7698858f04356ef259a34884c66285c",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 211,
+      "name": "yuz_m1.gif",
+      "source_rgba_sha256": "d504cdea2e6fd076a5cdf276f741a09f0c367fc496f094f45d34c2afa9898d7a",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 212,
+      "name": "yuz_m2.gif",
+      "source_rgba_sha256": "db0383d632e249c1d2f3c55cf09c09a1a97456e957c7f56d9523b8e8bb6dbf9b",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 213,
+      "name": "aka.gif",
+      "source_rgba_sha256": "d80ee46183bf8ff0cabf70d55ac78276298a880494056dd66cd18c52c16a4ca7",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 214,
+      "name": "aka_e0.gif",
+      "source_rgba_sha256": "445960b35a850db0feb441392abecff9d064d6d2b1e0e72cc106978cbab7cb14",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 215,
+      "name": "aka_e1.gif",
+      "source_rgba_sha256": "a7c45d12bab1c3a963fc79b893f04c0d61a2affc30a6d2d17d678ed7d1409b42",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 216,
+      "name": "aka_m0.gif",
+      "source_rgba_sha256": "e8d0ecfa84b2d0f7380aa8cec5e6aa4879d739fc739526e97e13c97e43aa601b",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 217,
+      "name": "aka_m1.gif",
+      "source_rgba_sha256": "2848fe39de161f525b853583578b824e5e39965e843645b1bf5aac9b946d9fac",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 218,
+      "name": "aka_m2.gif",
+      "source_rgba_sha256": "a595b0a6b8b7f94656fa8de0677ce0c6cc0d4fd7bcf9f128137d29c4f7af0646",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 219,
+      "name": "bg.jpg",
+      "source_rgba_sha256": "515a0069cdccb36ee13390a3937dcd6e9fe30ea050c7a81e262ca6844c76cf09",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 220,
+      "name": "bg00.jpg",
+      "source_rgba_sha256": "e995b3fa6e569155bfc85fb1befb634ac16e78eb08997aca23f2b480659db03f",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 221,
+      "name": "bg01.jpg",
+      "source_rgba_sha256": "fc6f3e95a5d6e39117c661f03440c4bd7a0f5722e1fbf61698befbd8ca7d68de",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 222,
+      "name": "bg02.jpg",
+      "source_rgba_sha256": "8677d2dcd87903441b3f728ca27e516180175da38bf1f94e2eeaf5dd932d76bf",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 223,
+      "name": "bg03.jpg",
+      "source_rgba_sha256": "0546bd0f44f801808962946b7df50367af183761c60f359f7e1785f9962d5368",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 224,
+      "name": "bg04.jpg",
+      "source_rgba_sha256": "66ebbdb7eb3e6241846d6bef7d9f3ba242b66c5473884fb23688fdc70fd2c0f4",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 225,
+      "name": "bg05.jpg",
+      "source_rgba_sha256": "8227a32f693da2010a02fa6e2d4154b336caa24ed6da13d6d5ef69a09ff152dc",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 226,
+      "name": "bg06.jpg",
+      "source_rgba_sha256": "96fba837396b8d5d671ce15fbabf0a3321e91257020b003704737eb431c7aa43",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 227,
+      "name": "bg07.jpg",
+      "source_rgba_sha256": "48e7973be97ed00287a4f17e1671d5bd6f6f0c2d7d8288de433d1135462cbf96",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 228,
+      "name": "bg08.jpg",
+      "source_rgba_sha256": "25125d18f44c845ce3711bc07be30c6405e9cf4b7f56baa8053a465ba37c0a0e",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 229,
+      "name": "bg09.jpg",
+      "source_rgba_sha256": "f1206cbc4896490e449b3a2b373a388ea9bb3740e15526fc1d23dd02e2f124bb",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 230,
+      "name": "bg10.jpg",
+      "source_rgba_sha256": "7e181db888def27ede42ded00316c134a2a3c7cbcec898cadad69f7f8be89398",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 231,
+      "name": "bg11.jpg",
+      "source_rgba_sha256": "25c7bec5b8e9cfcc52b18a06389b8e185863ab936d77cfbf98106a772a51d9ca",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 232,
+      "name": "bg12.jpg",
+      "source_rgba_sha256": "90b66bf99819a3f9708ede2668b0373631d1a8ea78b881e78f6a76118b7ad65b",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 233,
+      "name": "bg13.jpg",
+      "source_rgba_sha256": "266607fc5a04cd85f70921bcd1096a2127768ffedd5bdd6c3d7e5ae383196227",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 234,
+      "name": "bg14.jpg",
+      "source_rgba_sha256": "26dd70d1d90ec776d9b88a5cbf23342fabbd8c1c19f0b7920bd38ff5340e3ac8",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 235,
+      "name": "bg15.jpg",
+      "source_rgba_sha256": "ca89710bfff7fffb6647046766ef9883f1119ad155aadab2ff33d4d8d714755f",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 236,
+      "name": "bg16.jpg",
+      "source_rgba_sha256": "7f92ee947fce27e69a6b5eb82055ed97142d3b17db91611a9a04fcd35fca9fd7",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 237,
+      "name": "bg17.jpg",
+      "source_rgba_sha256": "c7d1b8a5557fcee4c273e2586f2b9506d13f1fd0b1e7953a4df38a9e5e300b6d",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 238,
+      "name": "bg18.jpg",
+      "source_rgba_sha256": "9b86a4ffb1129394a6cdda2aa92a0c0b5db8496e0a6e33a4343210925a13ee8c",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 239,
+      "name": "bg19.jpg",
+      "source_rgba_sha256": "eeb5c01a6903638a6edec12dd4e8180d4813c240cc2c7fb238562b4aea5ef733",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 240,
+      "name": "bg20.jpg",
+      "source_rgba_sha256": "2867547c9c2a4003df4cd3c70faf8c14f832a306f02ca27ed379ba19f254ab04",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 241,
+      "name": "bg21.jpg",
+      "source_rgba_sha256": "ee422bf1fac0384b5445d064172d072e06ec0a8e6840f2cc1eff5e191a3227df",
+      "disposition": "translated_artwork",
+      "note": "Right plaque 搜查一课 localized. Tiny left calligraphy is illegible decorative background, no reliable transcription possible; not used as readable clue."
+    },
+    {
+      "id": 242,
+      "name": "crd.gif",
+      "source_rgba_sha256": "3fe73053a9a051d4576df82a024128f469c053225542e2dd4e472c8ca5508702",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 243,
+      "name": "eng.gif",
+      "source_rgba_sha256": "5fab91e4ab855c72c8d6718d983343c63e60151b0c5928431d0fa5988af7ad52",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 244,
+      "name": "eng_e0.gif",
+      "source_rgba_sha256": "b814288b2c369b941b79f04dbba8ab628535bb2a85ba02023b3d81a90391ec31",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 245,
+      "name": "eng_e1.gif",
+      "source_rgba_sha256": "36b6ac7a87468ea49131aebe5ad6a79b0dc045ec2d80e6585d83face84925aa0",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 246,
+      "name": "eng_m0.gif",
+      "source_rgba_sha256": "59199c5ab6ce4d3579bcfc7f05661c4819584f6ccf8ba09046f75aa5f285e8f2",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 247,
+      "name": "eng_m1.gif",
+      "source_rgba_sha256": "53c70de1ae932e65ee760f8ae31af8fbeb8e241a4e8867133c9835c76274910f",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 248,
+      "name": "eng_m2.gif",
+      "source_rgba_sha256": "c3f4311c3323f5467e434123cbc7d72c2e2debfc3d7200df4c8c44b04a18894a",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 249,
+      "name": "isi.gif",
+      "source_rgba_sha256": "4ed47523efaf4783dac9cc89da47e6195d61b1520387fd5e6ca2fa813cb8b270",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 250,
+      "name": "isi_e0.gif",
+      "source_rgba_sha256": "504cfe4cadba0045a44710b9966524afbffd8a981ab78e24a2aa1fe71b91dea0",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 251,
+      "name": "isi_e1.gif",
+      "source_rgba_sha256": "2ade0134f6cbf54f0793b23a3690c59382d6ef44871a136ce7490dbbf66b2d47",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 252,
+      "name": "isi_m0.gif",
+      "source_rgba_sha256": "53b9f6ff77c0c545b96a3a4f230b2b5fc81d9a608f9b372a280042032a1ff4cb",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 253,
+      "name": "isi_m1.gif",
+      "source_rgba_sha256": "8fd58c9a2d83de38763391c3ac35ee71d90a0c437ec546e49ea00931c8371097",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 254,
+      "name": "isi_m2.gif",
+      "source_rgba_sha256": "41e68368482148f5abbccbf3ced926494831ac28fe4bd39403fefdd41e5614f6",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 255,
+      "name": "izu.gif",
+      "source_rgba_sha256": "240dc07488ff23d77918ba1a5aa4e965e421ca0c2609f9c1e1a2c131523fc389",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 256,
+      "name": "izu_e0.gif",
+      "source_rgba_sha256": "1d45cbc45c903d0bf163236ac82d3bb0272f167ace25ef2402c74da75c187b08",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 257,
+      "name": "izu_e1.gif",
+      "source_rgba_sha256": "d05fe8cdfcab862e17b8facb126ba07442aa3f5f1e88dc5d72e4f7037cf9bf90",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 258,
+      "name": "izu_m0.gif",
+      "source_rgba_sha256": "3b6c2c3c3d16980f032f9842b7790842bb0d9aa71c4dbf2734e2049580b9329d",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 259,
+      "name": "izu_m1.gif",
+      "source_rgba_sha256": "f4d9b7dc20dc152f864b362c3e7cec84ff6cfd3ae719f52b105e3fa815f5400e",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 260,
+      "name": "izu_m2.gif",
+      "source_rgba_sha256": "681187ffa7348fc81830cf506bdc2cb307223ff5b8f8be23dd64fc9987ddb86a",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 261,
+      "name": "kag.gif",
+      "source_rgba_sha256": "fb39236def24f46651e88216c9a449fd3d1e51927c6973e3d7857c71cc4489a2",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 262,
+      "name": "kag_m0.gif",
+      "source_rgba_sha256": "0aa25a622aaba9d0c174370acbb73356e89a49ed45cbf2b7728138b36353505f",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 263,
+      "name": "kag_m1.gif",
+      "source_rgba_sha256": "9324499e7f45b693b4f7af20e70707fc2d3be71788dc333b54ec352a2f615223",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 264,
+      "name": "kag_m2.gif",
+      "source_rgba_sha256": "f38268e1f0da7d8f8958b4369eebc88ce198151ac460092904b40a3d7e8d3b65",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 265,
+      "name": "keyi_d.gif",
+      "source_rgba_sha256": "9276d1452c43fc4dcab95e6e67088a03fd91cc0f3ec5d2c139ba77b3e2b7239c",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 266,
+      "name": "keyi_r.gif",
+      "source_rgba_sha256": "f5dc82b6186f6dba3735482e00730a7d3a5a2d1eca382fe280609d28db94ac59",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 267,
+      "name": "kib.gif",
+      "source_rgba_sha256": "90aa113026ffaedeb9aee37741d5f537c81e0ed1cf6313ed31e1e8038e15bd59",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 268,
+      "name": "kib_e0.gif",
+      "source_rgba_sha256": "1bae56824a045ca469f941b79076ee8fd6d8515600c73288be221610aa31c9d0",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 269,
+      "name": "kib_e1.gif",
+      "source_rgba_sha256": "7e4065e09e8e599da72f785f6e6361b20666a06fda17c37e0f1f84281d69d6cc",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 270,
+      "name": "kib_m0.gif",
+      "source_rgba_sha256": "34652487e3051ffa0981e337a762903aa0bee858efc3242ed94d0db14529606f",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 271,
+      "name": "kib_m1.gif",
+      "source_rgba_sha256": "f89967939d615f1796a708bee480bfa9a2719ba0d368139760381b32c9d34234",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 272,
+      "name": "kib_m2.gif",
+      "source_rgba_sha256": "06fd971010496139cb3984383ccc28ce41395c3316c5bf68e2eb1a973ec8181f",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 273,
+      "name": "kud.gif",
+      "source_rgba_sha256": "db11523979e63ace1470a3194f4bf8e9b80ea63febb50bf328ad607e4f5c72a1",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 274,
+      "name": "kud_e0.gif",
+      "source_rgba_sha256": "8b281272d9d3edd37966ed81f182120d70e2a371f14c50dd4d8e1c40ab6fc867",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 275,
+      "name": "kud_e1.gif",
+      "source_rgba_sha256": "6845d40b2c98dc15e8343cf6b052646b26a7dd2a1f2eb4f6875699b11efb18a0",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 276,
+      "name": "kud_m0.gif",
+      "source_rgba_sha256": "69715ee44aad2b787144ad694652e61df7510314c5e875a44a9a8622e997639f",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 277,
+      "name": "kud_m1.gif",
+      "source_rgba_sha256": "e46bd16640ced96edb32e1dd1be94cd9cd75f20e5bd357b0481dcd76cba88571",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 278,
+      "name": "kud_m2.gif",
+      "source_rgba_sha256": "3f70e447121d3917c84f15624cbce1c872e7687277b4f1b258d16b4d085a9061",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 279,
+      "name": "mat.gif",
+      "source_rgba_sha256": "94f5194f4424391eb8f7c145f51f2fe66b5cecab77b79d34c84abebd63ee6a5e",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 280,
+      "name": "mat_e0.gif",
+      "source_rgba_sha256": "6fee23fe84e4ea06e6bed2504db8010eb0682506572bd529122fe92b8981a2da",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 281,
+      "name": "mat_e1.gif",
+      "source_rgba_sha256": "438c3e7826f3877dbf7e6addc7fef56fa5c7190bc88c2d01e009fb230acf23c4",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 282,
+      "name": "mat_m0.gif",
+      "source_rgba_sha256": "25316c894475704098197f55f7ae6273894e0537056495fc958cfdf68d853527",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 283,
+      "name": "mat_m1.gif",
+      "source_rgba_sha256": "5a9d0c9ffceb6b91c26eadc3237fa7d5fd2a7de899220f7e28d0095fbeeb2f8f",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 284,
+      "name": "mat_m2.gif",
+      "source_rgba_sha256": "63451ea3e5cb862e39510645c4b2cc718f3be7540a489ec841078c73694c341e",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 285,
+      "name": "mim.gif",
+      "source_rgba_sha256": "32826958bf4eb29690634000ee32a1ebcc532c52e45858175d22f70af111697b",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 286,
+      "name": "mim_e0.gif",
+      "source_rgba_sha256": "82dcefb3baf35f7fa12d9e2a0f3f02336ee14949eb2183b66c655916250e95a8",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 287,
+      "name": "mim_e1.gif",
+      "source_rgba_sha256": "b80c7eb85ec5c20cda0420f8f513c48964b1abf6e7f03e29b17380c0e4d57c43",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 288,
+      "name": "mim_m0.gif",
+      "source_rgba_sha256": "3b4524e7fd06efa0cce32be95589daae9a9f54cab8c3bf297faf39f0b292f0ff",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 289,
+      "name": "mim_m1.gif",
+      "source_rgba_sha256": "df9ffb1513ce22b864541c8106f9dbb702c2f02ffbb124a5b32f8dc0f5a44c2d",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 290,
+      "name": "mim_m2.gif",
+      "source_rgba_sha256": "c2492ed28f90c325a05747217538b57f3143f8fb06d607752c2d079ecd382065",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 291,
+      "name": "nak.gif",
+      "source_rgba_sha256": "35edfb42a878e159503c0dca9bf267c735eed148f55e4db0004af960a0895969",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 292,
+      "name": "nak_e0.gif",
+      "source_rgba_sha256": "347b07b379c3f3f4bc02beebfce934fc27d32e153e26dadefc4f6ab05518cd48",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 293,
+      "name": "nak_e1.gif",
+      "source_rgba_sha256": "ee666b7ee6cd8b2fdd2b8bb6b55a6f2f28ee10530130f453895fa029a2d215aa",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 294,
+      "name": "nak_m0.gif",
+      "source_rgba_sha256": "38d4835bf086b62caaa9ddb43bb5feecdf560cd56da389f9ecb6dc6e4a94d90f",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 295,
+      "name": "nak_m1.gif",
+      "source_rgba_sha256": "e9309539891a84b2259c3456dbbad51e8980e462af1bb8f50ec8ceaa363ddbab",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 296,
+      "name": "nak_m2.gif",
+      "source_rgba_sha256": "719e51610e57d9b64237c17d1daf5ebd6bca4d266ea4649fe9a55c29a7ec6d18",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 297,
+      "name": "name00.gif",
+      "source_rgba_sha256": "aa63276b1de3ce7dfd89111384b2c339f94b6b5e6ffd21cf1dc93404d7eb0c30",
+      "disposition": "translated_code_native_label",
+      "note": "scripts/build_ui_images.py; both scratch and named-resource routes; title brightness animation covered."
+    },
+    {
+      "id": 298,
+      "name": "name01.gif",
+      "source_rgba_sha256": "f115ab90578eb4fd0150934a761f7f3bbf2b387a1de0daa2ff9d69ad2e2aa41d",
+      "disposition": "translated_code_native_label",
+      "note": "scripts/build_ui_images.py; both scratch and named-resource routes; title brightness animation covered."
+    },
+    {
+      "id": 299,
+      "name": "name02.gif",
+      "source_rgba_sha256": "e318b4786dcca25304773b44f4c84e1895caa91ce8aee4ad6afe0ad8c954842e",
+      "disposition": "translated_code_native_label",
+      "note": "scripts/build_ui_images.py; both scratch and named-resource routes; title brightness animation covered."
+    },
+    {
+      "id": 300,
+      "name": "name03.gif",
+      "source_rgba_sha256": "3194e2540bc7b07f9ad966617689dcde67016e74acd16f62c91b821c815ce2e9",
+      "disposition": "translated_code_native_label",
+      "note": "scripts/build_ui_images.py; both scratch and named-resource routes; title brightness animation covered."
+    },
+    {
+      "id": 301,
+      "name": "name04.gif",
+      "source_rgba_sha256": "f734135f82c4f1c62063e01873342433417fe676b1212a315968208f9ec991ff",
+      "disposition": "preserved_anonymous_label",
+      "note": "Original ??? identity concealment; no translation required."
+    },
+    {
+      "id": 302,
+      "name": "oba.gif",
+      "source_rgba_sha256": "2787d7f1e87a35983de0d4d87b019a3feba43bae39a76c5da10eded7e261ea43",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 303,
+      "name": "oba_e0.gif",
+      "source_rgba_sha256": "70e6e335f3107d95fce22d15f1784e9805a3ee85750300a50fc50b9b08928ccd",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 304,
+      "name": "oba_e1.gif",
+      "source_rgba_sha256": "097ce07ad859dd8640ca768cae37a6540e23f9441302c46ad88f086f48f3534c",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 305,
+      "name": "oba_m0.gif",
+      "source_rgba_sha256": "c0466d6d7926377b6198a5ddf54b418c1268d0b8ff3cc029f4ad070d9c457478",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 306,
+      "name": "oba_m1.gif",
+      "source_rgba_sha256": "7ee25cc40481baa4be515895266fe3389e30bcc55272bbd4b5a9aee1eac657c5",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 307,
+      "name": "oba_m2.gif",
+      "source_rgba_sha256": "d9ffe7ca5ef41066dbd220fa318bab7f265b8ade123dbf521880cdeb030823b8",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 308,
+      "name": "saw.gif",
+      "source_rgba_sha256": "bdc86a149360cdbafd50abce1365116920ccd893c9a5194763c0570054cc0b8d",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 309,
+      "name": "saw_e0.gif",
+      "source_rgba_sha256": "9a329491487f543032dd00b775a97298f673463064d9fa838ac717c694f1ec77",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 310,
+      "name": "saw_e1.gif",
+      "source_rgba_sha256": "fb463ab90b8bae79cd339b38f09e6f6e0f92bf3302fe03feabb2ff11a3bec1c4",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 311,
+      "name": "saw_m0.gif",
+      "source_rgba_sha256": "c063440a91d244ef4218cf44ce1d9e8c80ddc2fe83119a0fcd6d9c9892f87778",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 312,
+      "name": "saw_m1.gif",
+      "source_rgba_sha256": "d783c8f0f04905e1adc7242ac280e5eccd19a73223fe0798379f2083bb2ec9d2",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 313,
+      "name": "saw_m2.gif",
+      "source_rgba_sha256": "d2fb7a4f86194245c5e4436b9bafc697f547e2b9e9197ae4ad0b7008c50c1cb5",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 314,
+      "name": "sell_end0.gif",
+      "source_rgba_sha256": "1e47aac5eeeaa68d5ec1d921b649f091c3af216a019f60533963aba12bae9b47",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 315,
+      "name": "sell_end1.gif",
+      "source_rgba_sha256": "365693b6dd9e67b3df6db420a9e4f27c61154e897c582bd51a97404bd034c36e",
+      "disposition": "translated_code_native_label",
+      "note": "scripts/build_ui_images.py; both scratch and named-resource routes; title brightness animation covered."
+    },
+    {
+      "id": 316,
+      "name": "sell_off.gif",
+      "source_rgba_sha256": "46ae8b466b375977b49125e76728f4f14802be849c7215e57248234cf9acb40d",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 317,
+      "name": "sell_on.gif",
+      "source_rgba_sha256": "a0cdec79c28a08a0dd6550f5d7d74fd1ecdb74275f0a3b339f2cb56b7f0b9cf9",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 318,
+      "name": "sha.gif",
+      "source_rgba_sha256": "448884d59cea25d755da797ae1aa8923525a6173529994b909ec4f9de118789c",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 319,
+      "name": "sha_e0.gif",
+      "source_rgba_sha256": "7c16e7e587e135600e3f364905ad495b7ebfe0fec01bb1f23d1e9f7bde77c160",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 320,
+      "name": "sha_e1.gif",
+      "source_rgba_sha256": "71e56ef72416f173d2575715430f71023ec7811a81c195c27ebbc109688d3c5f",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 321,
+      "name": "sha_m0.gif",
+      "source_rgba_sha256": "6272a44567a7763bf4491ce5b023df59b928b4cfb3be8c6d2b09247a76bf6f48",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 322,
+      "name": "sha_m1.gif",
+      "source_rgba_sha256": "87109c3accea793c89e9cf75386b81f51991b983a110d779e8430df5b647cd0b",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 323,
+      "name": "sha_m2.gif",
+      "source_rgba_sha256": "03ff406ac371540869a5d70268b7ab7674cbde6574a110acd982b5b4c5b97e07",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 324,
+      "name": "smi.gif",
+      "source_rgba_sha256": "6f71d630c10845c3629de2af2be7d3abf9e568b02ee0099f70342e1b32276c52",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 325,
+      "name": "smi_e0.gif",
+      "source_rgba_sha256": "2b45b7dfcddc345e19f5d871bb74d6f2a104099af6df4b34d0e87e5342a1bc96",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 326,
+      "name": "smi_e1.gif",
+      "source_rgba_sha256": "bca1d0a91aa18a0607a5757c63239fa63058a621ce5143b998c9f5b0a5894577",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 327,
+      "name": "smi_m0.gif",
+      "source_rgba_sha256": "6eaa67b8627db6dc381a53db844a93c2598452f1051cccef3d7394e286ee6a66",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 328,
+      "name": "smi_m1.gif",
+      "source_rgba_sha256": "d4b10461b800b70b28ee09bc7b6c16a3b54ebdc2cbc67519887941ed348ffb8c",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 329,
+      "name": "smi_m2.gif",
+      "source_rgba_sha256": "cc090bc36e85a77596cd88243960d88f88c0ab6457607b2d11e5740b36245553",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 330,
+      "name": "t_append.gif",
+      "source_rgba_sha256": "89f503a7cdef0a65b6920c9412cfa383de25b868088b02bd51174c175e3044dd",
+      "disposition": "translated_code_native_label",
+      "note": "scripts/build_ui_images.py; both scratch and named-resource routes; title brightness animation covered."
+    },
+    {
+      "id": 331,
+      "name": "t_help.gif",
+      "source_rgba_sha256": "dfde616d45f2866b0a38518de3681f1248ef18ce6157450483e554f951771e1b",
+      "disposition": "translated_code_native_label",
+      "note": "scripts/build_ui_images.py; both scratch and named-resource routes; title brightness animation covered."
+    },
+    {
+      "id": 332,
+      "name": "t_start.gif",
+      "source_rgba_sha256": "73d7ad8ef0f8f15ce759451158a9c3038b42f9321973ba1dd7e80449194e02c1",
+      "disposition": "translated_code_native_label",
+      "note": "scripts/build_ui_images.py; both scratch and named-resource routes; title brightness animation covered."
+    },
+    {
+      "id": 333,
+      "name": "title.gif",
+      "source_rgba_sha256": "c54cd5b846118c489a2728b28393f3de91473efba87f0435504625930ce5d43c",
+      "disposition": "translated_artwork",
+      "note": "images/artwork; original-sized runtime viewport; copyright retained."
+    },
+    {
+      "id": 334,
+      "name": "tow.gif",
+      "source_rgba_sha256": "a0c001e5bfad783f42e9ac293208ad37d68cb09c0e06771044c52faec9d1ac81",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 335,
+      "name": "tow_e0.gif",
+      "source_rgba_sha256": "16a8c4a7a9f815009e15c06b56d8f18c2ae0e0b2925f714f656c1eeec771e5be",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 336,
+      "name": "tow_e1.gif",
+      "source_rgba_sha256": "41e4d009e14dc22eb80b05604cb714446abbd310cacd9c14a0784759836d2492",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 337,
+      "name": "tow_m0.gif",
+      "source_rgba_sha256": "9253d36668e9afed64a13a57d784f5dc16c86448109f8a1e386f4c5a27705c46",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 338,
+      "name": "tow_m1.gif",
+      "source_rgba_sha256": "dd936de40495393cea3ab809ec52bc7483ea86daa1899f39c2f6afa2f581c180",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 339,
+      "name": "tow_m2.gif",
+      "source_rgba_sha256": "5602c76c0161f0155dbc5e48a2f8f7785c740d7202da7d74da2e3b3d58ac19b6",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 340,
+      "name": "toy.gif",
+      "source_rgba_sha256": "3a465b2eb0709ef1d535eb857f7b4674a79de429e910e3778fe61ff42e733f9d",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    },
+    {
+      "id": 341,
+      "name": "toy_e0.gif",
+      "source_rgba_sha256": "842c184d099c38071671809f49cd35ef837cefc3b3ff88875a7d7bf8774d6e86",
+      "disposition": "no_readable_localizable_text",
+      "note": "Visual review: portrait, animation part, scenery, controller symbol, shape, or decorative texture."
+    }
+  ],
+  "runtime_visual_tested": false
+}

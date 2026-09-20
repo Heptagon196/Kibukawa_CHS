@@ -1,0 +1,38 @@
+{
+  "batch": 6,
+  "reviewer": "trans05",
+  "coordinator": "root",
+  "status": "applied_awaiting_recheck",
+  "fixes": [
+    {
+      "id": "scratch4.dat/s14:15429",
+      "before": "<color=0>“啊！！</color><ctrl=2E/>",
+      "after": "<color=0>（猛地一惊！）</color><ctrl=2E/>",
+      "reason": "びくッ 是身体猛地一惊的拟态语，当前译成“啊”变成出声尖叫。改动作后下一条发言应补前引号。"
+    },
+    {
+      "id": "scratch4.dat/s14:15454",
+      "before": "<color=0>……唔、呜，</color><row/><color=0>呜呜……”</color><ctrl=2E/>",
+      "after": "<color=0>“……唔、呜，</color><row/><color=0>呜呜……”</color><ctrl=2E/>",
+      "reason": "承接上一条动作修订，在真正出声的完整发言开头补前引号。"
+    },
+    {
+      "id": "scratch4.dat/s14:16056",
+      "before": "<color=0>“要把我当成碰不得的疮疤！”</color><ctrl=2E/>",
+      "after": "<color=0>“把我当成一碰就疼的肿包，小心对待！”</color><ctrl=2E/>",
+      "reason": "腫れ物是肿包或肿疮，指碰不得、要小心对待的状态；疮疤是愈合后的痕迹，改变字面对象与此处冷笑话。"
+    },
+    {
+      "id": "scratch4.dat/s14:27465",
+      "before": "<color=0>“连个能靠岸的小岛</color><row/><color=0>都没有！</color><ctrl=2E/>",
+      "after": "<color=0>“真是无从接近，</color><row/><color=0>连个能靠岸的小岛都没有！</color><ctrl=2E/>",
+      "reason": "取り付く島もない首先表示不给接近/攀谈余地，再由下一句No island拆字开玩笑。当前仅字面小岛，中文缺少对应实际遭遇的本义；建议兼顾无从接近与岛的意象。"
+    },
+    {
+      "id": "scratch4.dat/s15:19989",
+      "before": "<color=0>连换下这身衣服都嫌麻烦，</color><row/><color=0>结果就变成了</color><row/><color=0>一直穿着这身！</color><ctrl=2E/>",
+      "after": "<color=0>连把衣服穿得随意点都嫌麻烦，</color><row/><color=0>于是就一直</color><row/><color=0>穿成这副样子了！</color><ctrl=2E/>",
+      "reason": "洋服を崩す指把着装弄得随意些、打破规整穿法；换下这身衣服偏成不更衣的意思。建议保持穿着方式层面，不额外断言衣服从不脱换。"
+    }
+  ]
+}

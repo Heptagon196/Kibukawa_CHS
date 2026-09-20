@@ -1,0 +1,116 @@
+{
+  "batch": 4,
+  "scripts": [
+    "scratch4.dat/s07",
+    "scratch4.dat/s10",
+    "scratch4.dat/s11"
+  ],
+  "unit_count": 557,
+  "status": "translated_self_reviewed_pending_cross_review",
+  "terms": [
+    {
+      "category": "person",
+      "note": "按汉字原样保留，不推定读音；被胁迫独自自首的同伴。",
+      "source_id": "scratch4.dat/s07:4070",
+      "target": "和志武稔",
+      "source": "和志武稔"
+    },
+    {
+      "category": "legal_term_in_fiction",
+      "note": "沿原作1999年时点罪名，不以现行法名替换；上下文已描述醉酒不能反抗，不增加法律解释。",
+      "source_id": "scratch4.dat/s07:2494",
+      "target": "准强奸罪",
+      "source": "準強姦罪"
+    },
+    {
+      "category": "school",
+      "note": "简体对应；音乐学部译音乐系，澄佳为大三学生，主修双簧管。",
+      "source_id": "scratch4.dat/s11:22668",
+      "target": "西风馆大学",
+      "source": "西風館大学"
+    },
+    {
+      "category": "instrument",
+      "source_id": "scratch4.dat/s11:22668",
+      "target": "双簧管",
+      "source": "オーボエ"
+    },
+    {
+      "category": "instrument_term",
+      "note": "与上一单元双簧管呼应。",
+      "source_id": "scratch4.dat/s11:22858",
+      "target": "双簧哨片",
+      "source": "ダブルリード"
+    },
+    {
+      "category": "place",
+      "note": "沿用公共三ヶ野原→三野原，不猜读音。",
+      "source_id": "scratch4.dat/s11:23175",
+      "target": "三野原市",
+      "source": "三ヶ野原市"
+    }
+  ],
+  "self_review": {
+    "method": "逐单元结合连续剧情翻译并连读中文，对照源文回查；额外列出所有非零强调色及特殊控制符进行人工核对。随后运行覆盖、标签、假名与引号结构检查。未生成正式已审基线。",
+    "findings_fixed": [
+      "原稿局部撰写时自首、侦探、她的强调槽错位，已逐条回查并修复，保留颜色强调实际对象。",
+      "s07:6326保留据侦探所说应该来过自首的推定，没有写成客观已核实。",
+      "s07:10174改为在妹浦澄佳遇害案中你有杀人嫌疑，避免中文误读为澄佳是嫌疑人。",
+      "s07:11779/11799/11824保留什么时候、在哪里、未知过错的逐点击揭示顺序。",
+      "s11:13451恢复完整发言开引号；14444/14499分别闭合重来与开启可是，确保恳求分支的入口可独立起话。",
+      "原文末尾无后引号的对白按完整发言补齐，未逐碎片套引号。"
+    ],
+    "structural_check": {
+      "kana_remaining": 0,
+      "linear_quote_final_depth": 0,
+      "linear_quote_issues": 0,
+      "tag_sequence_mismatches": 0,
+      "expected": 557,
+      "covered": 557
+    },
+    "limits": "静态线性引号平衡不能代替所有分支执行审查；后续交叉审校与整作点击审校仍须进行。未操作游戏窗口。"
+  },
+  "color_click_review": [
+    {
+      "note": "自首仅着色该动作；和志武被胁迫独担罪责的叙述保留。",
+      "source_id": "scratch4.dat/s07:4070"
+    },
+    {
+      "note": "第二张信纸留下留言笔迹；未擅自推断笔迹提取技术或增加新证据。",
+      "source_id": "scratch4.dat/s07:9268"
+    },
+    {
+      "note": "杀人嫌疑着色；2B在原处；此前轻罪、重罪的揭示顺序保留。",
+      "source_id": "scratch4.dat/s07:10174"
+    },
+    {
+      "note": "很遗憾在3A之前，澄佳惊呼在3A之后；2B原位，没有提前揭示惊讶原因。",
+      "source_id": "scratch4.dat/s11:17193"
+    },
+    {
+      "note": "21岁只在原出现单元呈现；随后名字何时开始使用、养女、出生可能异名依次揭露，不补真名或身份。",
+      "source_id": "scratch4.dat/s11:21950"
+    },
+    {
+      "note": "10天仍着色，前单元3B后仅表示原以为如此，本单元才揭露十天没有联系。",
+      "source_id": "scratch4.dat/s11:24668"
+    }
+  ],
+  "questions_for_cross_review": [
+    {
+      "note": "癸生川串诵落语寿限无的长名片段；吃住片段按含义译，后两段暂音译雅布拉柯基的布拉柯基／派波派波，派波的修林甘。保留突然胡诌与石上打断的喜剧节奏，不增剧情解释；若全作已有统一引文译法请整合统一。",
+      "ids": [
+        "scratch4.dat/s11:19254",
+        "scratch4.dat/s11:19703",
+        "scratch4.dat/s11:19775"
+      ]
+    },
+    {
+      "note": "恳求与交易两条分支最终汇流；静态材料未含跳转详情，已使重来一句闭合、可是在下一单元重新开引号，请整作指令回放复核跳转入口。",
+      "ids": [
+        "scratch4.dat/s11:14444",
+        "scratch4.dat/s11:14499"
+      ]
+    }
+  ]
+}

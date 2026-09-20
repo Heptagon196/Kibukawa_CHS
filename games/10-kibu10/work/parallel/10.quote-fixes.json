@@ -1,0 +1,2826 @@
+{
+  "batch": 10,
+  "reviewer": "trans10",
+  "method": "逐处读取source-replay全部NAMAE以及BUNKI，结合完整607条中文手工指定发言范围；非逐点击自动闭合。NAMAE=-1内心叙述保持无引号；96-97提问在选项前闭合，102/103/104/105-106分别独立分支。",
+  "fixes": [
+    {
+      "id": "scratch4.dat/s35-1:85",
+      "before": "<color=0>喂喂，这到底</color><row/><color=0>是怎么回事……？</color><ctrl=2E/>",
+      "after": "<color=0>“喂喂，这到底</color><row/><color=0>是怎么回事……？”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引0–0；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:402",
+      "before": "<color=0>果、果然……。</color><ctrl=2E/>",
+      "after": "<color=0>“果、果然……。</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引3–4；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:447",
+      "before": "<color=0>和志武施暴案的</color><row/><color=0>受害者姓名，虽然</color><row/><color=0>没有对外公开……。</color><ctrl=2E/>",
+      "after": "<color=0>和志武施暴案的</color><row/><color=0>受害者姓名，虽然</color><row/><color=0>没有对外公开……。”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引3–4；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:615",
+      "before": "<color=0>……。</color><ctrl=2E/>",
+      "after": "<color=0>“……。”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引5–5；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:739",
+      "before": "<color=0>遭到和志武</color><row/><color=2>施暴的人</color><color=0>，其</color><row/><color=0>名字……</color><ctrl=2E/>",
+      "after": "<color=0>和志武案中</color><row/><color=2>遭到施暴的人</color><color=0>，其</color><row/><color=0>名字……</color><ctrl=2E/>",
+      "basis": [
+        "高亮原文是遭受暴行的人，现高亮片段“施暴的人”单独却指向加害者；应让受害含义保留在高亮内。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:978",
+      "before": "<color=0>……这么说来，</color><row/><color=0>这是怎么回事？</color><ctrl=2E/>",
+      "after": "<color=0>“……这么说来，</color><row/><color=0>这是怎么回事？</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引9–11；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:1169",
+      "before": "<color=0>是为了杀死</color><row/><color=0>和志武……！？</color><ctrl=2E/>",
+      "after": "<color=0>是为了杀死</color><row/><color=0>和志武……！？”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引9–11；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:1273",
+      "before": "<color=0>……原、原来如此。</color><ctrl=2E/>",
+      "after": "<color=0>“……原、原来如此。</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引12–22；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:2098",
+      "before": "<color=0>……于是便犯下了</color><row/><color=0>这次的案子。</color><ctrl=2E/>",
+      "after": "<color=0>……于是便犯下了</color><row/><color=0>这次的案子。”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引12–22；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:2187",
+      "before": "<color=0>嗬……。</color><row/><color=0>原来如此啊……。</color><ctrl=2E/>",
+      "after": "<color=0>“嗬……。</color><row/><color=0>原来如此啊……。”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引23–23；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:2256",
+      "before": "<color=0>那就沿着这条线</color><row/><color=0>确定她的嫌疑吧！</color><ctrl=2E/>",
+      "after": "<color=0>“那就沿着这条线</color><row/><color=0>确定她的嫌疑吧！”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引24–24；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:2360",
+      "before": "<color=0>好，就这么办。</color><ctrl=2E/>",
+      "after": "<color=0>“好，就这么办。”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引25–25；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:2407",
+      "before": "<color=0>……。</color><ctrl=2E/>",
+      "after": "<color=0>“……。”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引26–26；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:2676",
+      "before": "<color=0>等、等等……</color><ctrl=2E/>",
+      "after": "<color=0>“等、等等……</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引32–33；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:2721",
+      "before": "<color=0>请、请先</color><row/><color=0>等一下！</color><ctrl=2E/>",
+      "after": "<color=0>请、请先</color><row/><color=0>等一下！”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引32–33；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:2795",
+      "before": "<color=0>……啊？</color><ctrl=2E/>",
+      "after": "<color=0>“……啊？”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引34–34；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:2823",
+      "before": "<color=0>要、要认定</color><row/><color=0>妹浦澄佳的嫌疑……</color><ctrl=2E/>",
+      "after": "<color=0>“要、要认定</color><row/><color=0>妹浦澄佳的嫌疑……</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引35–36；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:2910",
+      "before": "<color=0>能不能再</color><row/><color=0>等一等……。</color><ctrl=2E/>",
+      "after": "<color=0>能不能再</color><row/><color=0>等一等……。”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引35–36；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:2999",
+      "before": "<color=0>可是，现在已经</color><row/><color=0>不会有错了吧。</color><ctrl=2E/>",
+      "after": "<color=0>“可是，现在已经</color><row/><color=0>不会有错了吧。”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引37–37；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:3098",
+      "before": "<color=0>之前一直不确定的</color><row/><color=0>动机，现在不是</color><row/><color=0>已经清楚了吗。</color><ctrl=2E/>",
+      "after": "<color=0>“之前一直不确定的</color><row/><color=0>动机，现在不是</color><row/><color=0>已经清楚了吗。</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引38–39；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:3232",
+      "before": "<color=0>……你还有什么不满？</color><ctrl=2E/>",
+      "after": "<color=0>……你还有什么不满？”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引38–39；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:3274",
+      "before": "<color=0>啊，不……</color><ctrl=2E/>",
+      "after": "<color=0>“啊，不……</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引40–41；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:3304",
+      "before": "<color=0>可是，总觉得……</color><ctrl=2E/>",
+      "after": "<color=0>可是，总觉得……”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引40–41；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:3346",
+      "before": "<color=0>……唉。</color><ctrl=2E/>",
+      "after": "<color=0>“……唉。</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引42–44；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:3540",
+      "before": "<color=0>就这样……</color><ctrl=2E/>",
+      "after": "<color=0>就这样……”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引42–44；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:3574",
+      "before": "<color=0>不！</color><ctrl=2E/>",
+      "after": "<color=0>“不！</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引45–47；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:3650",
+      "before": "<color=0>给我</color><row/><color=0>等一下！！</color><ctrl=2E/>",
+      "after": "<color=0>给我</color><row/><color=0>等一下！！”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引45–47；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:3729",
+      "before": "<color=0>这个声音是……！？</color><ctrl=2E/>",
+      "after": "<color=0>“这个声音是……！？”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引48–48；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:3815",
+      "before": "<color=0>哇哈哈哈哈哈！！</color><ctrl=2E/>",
+      "after": "<color=0>“哇哈哈哈哈哈！！</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引49–50；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:3860",
+      "before": "<color=0>刚才的话，</color><row/><color=0>我都听到了！！</color><ctrl=2E/>",
+      "after": "<color=0>刚才的话，</color><row/><color=0>我都听到了！！”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引49–50；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:3939",
+      "before": "<color=0>癸生川老师！</color><ctrl=2E/>",
+      "after": "<color=0>“癸生川老师！”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引51–51；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:3981",
+      "before": "<color=0>……喂，你又搞什么。</color><ctrl=2E/>",
+      "after": "<color=0>“……喂，你又搞什么。”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引52–52；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:4038",
+      "before": "<color=0>伊纲说得对！</color><ctrl=2E/>",
+      "after": "<color=0>“伊纲说得对！</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引53–54；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:4093",
+      "before": "<color=0>先不要认定</color><row/><color=0>妹浦澄佳的嫌疑！</color><ctrl=2E/>",
+      "after": "<color=0>先不要认定</color><row/><color=0>妹浦澄佳的嫌疑！”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引53–54；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:4207",
+      "before": "<color=0>你说什么？</color><ctrl=2E/>",
+      "after": "<color=0>“你说什么？”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引55–55；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:4239",
+      "before": "<color=0>只要还有疑问，</color><row/><color=0>就不能说是真相！</color><ctrl=2E/>",
+      "after": "<color=0>“只要还有疑问，</color><row/><color=0>就不能说是真相！</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引56–57；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:4341",
+      "before": "<color=0>对吧，</color><row/><color=0>伊纲！</color><ctrl=2E/>",
+      "after": "<color=0>对吧，</color><row/><color=0>伊纲！”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引56–57；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:4400",
+      "before": "<color=0>啊……</color><ctrl=2E/>",
+      "after": "<color=0>“啊……</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引58–59；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:4415",
+      "before": "<color=0>是、是的……。</color><ctrl=2E/>",
+      "after": "<color=0>是、是的……。”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引58–59；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:4457",
+      "before": "<color=0>而且，这下你</color><row/><color=0>已经找到了吧！</color><ctrl=2E/>",
+      "after": "<color=0>“而且，这下你</color><row/><color=0>已经找到了吧！</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引60–61；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:4539",
+      "before": "<color=0>新的</color><color=2>共同点</color><color=0>！！</color><ctrl=2B/>",
+      "after": "<color=0>新的</color><color=2>共同点</color><color=0>！！”</color><ctrl=2B/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引60–61；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:4591",
+      "before": "<color=0>是的！</color><ctrl=2E/>",
+      "after": "<color=0>“是的！”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引62–62；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:4631",
+      "before": "<color=0>那么，这里交给我，</color><row/><color=0>你去确认吧！</color><ctrl=2E/>",
+      "after": "<color=0>“那么，这里交给我，</color><row/><color=0>你去确认吧！</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引63–64；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:4728",
+      "before": "<color=0>这项工作，</color><row/><color=0>只有你才能完成！</color><ctrl=2E/>",
+      "after": "<color=0>这项工作，</color><row/><color=0>只有你才能完成！”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引63–64；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:4835",
+      "before": "<color=0>明、明白了！</color><ctrl=2E/>",
+      "after": "<color=0>“明、明白了！</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引65–66；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:4885",
+      "before": "<color=0>我这就去！</color><ctrl=2E/>",
+      "after": "<color=0>我这就去！”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引65–66；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:4982",
+      "before": "<color=0>喂喂，你打算</color><row/><color=0>去哪儿！？</color><ctrl=2E/>",
+      "after": "<color=0>“喂喂，你打算</color><row/><color=0>去哪儿！？</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引71–72；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:5064",
+      "before": "<color=0>要去确认的话，</color><row/><color=0>该去的可不是那里！</color><ctrl=2E/>",
+      "after": "<color=0>要去确认的话，</color><row/><color=0>该去的可不是那里！”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引71–72；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:5166",
+      "before": "<color=0>啊，对、对哦……。</color><ctrl=2E/>",
+      "after": "<color=0>“啊，对、对哦……。”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引73–73；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:5328",
+      "before": "<color=0>伊、伊纲小姐……。</color><ctrl=2E/>",
+      "after": "<color=0>“伊、伊纲小姐……。</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引75–76；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:5373",
+      "before": "<color=0>不管来多少次，</color><row/><color=0>我能回答的</color><row/><color=0>都还是那些话……。</color><ctrl=2E/>",
+      "after": "<color=0>不管来多少次，</color><row/><color=0>我能回答的</color><row/><color=0>都还是那些话……。”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引75–76；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:5504",
+      "before": "<color=0>……对不起。</color><ctrl=2E/>",
+      "after": "<color=0>“……对不起。</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引77–78；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:5544",
+      "before": "<color=0>我已经知道了。</color><ctrl=2E/>",
+      "after": "<color=0>我已经知道了。”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引77–78；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:5601",
+      "before": "<color=0>咦……？</color><ctrl=2E/>",
+      "after": "<color=0>“咦……？”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引79–79；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:5628",
+      "before": "<color=0>……加入永劫会</color><row/><color=0>所需的</color><color=2>资格</color><color=0>……。</color><ctrl=2E/>",
+      "after": "<color=0>“……加入永劫会</color><row/><color=0>所需的</color><color=2>资格</color><color=0>……。</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引80–82；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:5765",
+      "before": "<color=0>我想，这次</color><row/><color=0>不会有错了……。</color><ctrl=2E/>",
+      "after": "<color=0>我想，这次</color><row/><color=0>不会有错了……。”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引80–82；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:5857",
+      "before": "<color=0>……！？</color><ctrl=2E/>",
+      "after": "<color=0>“……！？”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引83–83；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:5874",
+      "before": "<color=0>还有……</color><ctrl=2E/>",
+      "after": "<color=0>“还有……</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引84–86；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:6048",
+      "before": "<color=0>原来……</color><row/><color=0>都是同一个原因。</color><ctrl=2E/>",
+      "after": "<color=0>原来……</color><row/><color=0>都是同一个原因。”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引84–86；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:6122",
+      "before": "<color=0>……。</color><ctrl=2E/>",
+      "after": "<color=0>“……。”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引87–87；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:6214",
+      "before": "<color=0>一定……很痛苦吧。</color><ctrl=2E/>",
+      "after": "<color=0>“一定……很痛苦吧。”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引90–90；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:6272",
+      "before": "<color=0>……。</color><ctrl=2E/>",
+      "after": "<color=0>“……。”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引91–91；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:6299",
+      "before": "<color=0>……优子小姐。</color><ctrl=2E/>",
+      "after": "<color=0>“……优子小姐。</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引92–94；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:6364",
+      "before": "<color=0>您也有过</color><row/><color=0>同样的遭遇吧……。</color><ctrl=2E/>",
+      "after": "<color=0>您也有过</color><row/><color=0>同样的遭遇吧……。”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引92–94；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:6473",
+      "before": "<color=0>……。</color><ctrl=2E/>",
+      "after": "<color=0>“……。”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引95–95；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:6500",
+      "before": "<color=0>加入永劫会的人，</color><row/><color=0>全都是……</color><ctrl=2E/>",
+      "after": "<color=0>“加入永劫会的人，</color><row/><color=0>全都是……</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引96–97；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:6592",
+      "before": "<color=0>全都是……</color><ctrl=2E/>",
+      "after": "<color=0>全都是……”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引96–97；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:6695",
+      "before": "<color=0>全都是女校</color><row/><color=0>毕业生吧……。</color><ctrl=2E/>",
+      "after": "<color=0>“全都是女校</color><row/><color=0>毕业生吧……。”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引102–102；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:6809",
+      "before": "<color=0>全都是反战</color><row/><color=0>主义者吧……。</color><ctrl=2E/>",
+      "after": "<color=0>“全都是反战</color><row/><color=0>主义者吧……。”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引103–103；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:6918",
+      "before": "<color=0>全都是一起炸毁</color><row/><color=0>巴士的凶手吧……。</color><ctrl=2E/>",
+      "after": "<color=0>“全都是一起炸毁</color><row/><color=0>巴士的凶手吧……。”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引104–104；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:7040",
+      "before": "<color=0>大家都曾被男性</color><row/><color=0>强行……</color><ctrl=2E/>",
+      "after": "<color=0>“大家都曾被男性</color><row/><color=0>强行……</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引105–106；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:7112",
+      "before": "<color=0>强行</color><color=2>侵犯，</color><row/><color=2>心灵受到了创伤</color><color=0>，是这样</color><row/><color=0>的一群人吧……。</color><ctrl=2E/>",
+      "after": "<color=0>强行</color><color=2>侵犯，</color><row/><color=2>心灵受到了创伤</color><color=0>，是这样</color><row/><color=0>的一群人吧……。”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引105–106；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:7273",
+      "before": "<color=0>……。</color><ctrl=2E/>",
+      "after": "<color=0>“……。”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引107–107；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:7300",
+      "before": "<color=0>……对不起。</color><ctrl=2E/>",
+      "after": "<color=0>“……对不起。</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引108–113；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:7656",
+      "before": "<color=0>但我知道，永远</color><row/><color=0>失去珍贵的东西，</color><row/><color=0>是什么滋味……。</color><ctrl=2E/>",
+      "after": "<color=0>但我知道，永远</color><row/><color=0>失去珍贵的东西，</color><row/><color=0>是什么滋味……。”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引108–113；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:7802",
+      "before": "<color=0>……伊纲小姐……。</color><ctrl=2E/>",
+      "after": "<color=0>“……伊纲小姐……。</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引114–115；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:7842",
+      "before": "<color=0>……你哭了……？</color><ctrl=2E/>",
+      "after": "<color=0>……你哭了……？”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引114–115；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:7879",
+      "before": "<color=0>……我真没用。</color><ctrl=2E/>",
+      "after": "<color=0>“……我真没用。</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引116–119；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:8091",
+      "before": "<color=0>我想……</color><row/><color=0>再坚强一点……。</color><ctrl=2E/>",
+      "after": "<color=0>我想……</color><row/><color=0>再坚强一点……。”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引116–119；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:8170",
+      "before": "<color=0>……。</color><ctrl=2E/>",
+      "after": "<color=0>“……。</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引120–121；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:8198",
+      "before": "<color=0>……谢谢你。</color><ctrl=2E/>",
+      "after": "<color=0>……谢谢你。”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引120–121；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:8240",
+      "before": "<color=0>咦……？</color><ctrl=2E/>",
+      "after": "<color=0>“咦……？”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引122–122；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:8267",
+      "before": "<color=0>……你能这样设身处地</color><row/><color=0>为我们着想，那我</color><row/><color=0>就可以放心告诉你了。</color><ctrl=2E/>",
+      "after": "<color=0>“……你能这样设身处地</color><row/><color=0>为我们着想，那我</color><row/><color=0>就可以放心告诉你了。</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引123–126；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:8528",
+      "before": "<color=0>……是由有过被强奸</color><row/><color=0>经历的女性组成的。</color><ctrl=2B/>",
+      "after": "<color=0>……是由有过被强奸</color><row/><color=0>经历的女性组成的。”</color><ctrl=2B/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引123–126；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:8658",
+      "before": "<color=0>……。</color><ctrl=2E/>",
+      "after": "<color=0>“……。”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引127–127；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:8685",
+      "before": "<color=0>那种伤害所带来的</color><row/><color=0>肉体和精神上的痛苦，</color><row/><color=0>自然不必说……</color><ctrl=2E/>",
+      "after": "<color=0>“那种伤害所带来的</color><row/><color=0>肉体和精神上的痛苦，</color><row/><color=0>自然不必说……</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引128–133；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:9120",
+      "before": "<color=0>……聚在一起，</color><color=2>以重返</color><row/><color=2>社会为目标</color><color=0>，组成了这个会。</color><ctrl=2E/>",
+      "after": "<color=0>……聚在一起，</color><color=2>以重返</color><row/><color=2>社会为目标</color><color=0>，组成了这个会。”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引128–133；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:9229",
+      "before": "<color=0>……。</color><ctrl=2E/>",
+      "after": "<color=0>“……。”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引134–134；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:9256",
+      "before": "<color=0>永劫会里……</color><ctrl=2E/>",
+      "after": "<color=0>“永劫会里……</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引135–139；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:9756",
+      "before": "<color=0>这些只能</color><row/><color=0>忍气吞声的人，</color><row/><color=0>聚集在这里……。</color><ctrl=2E/>",
+      "after": "<color=0>这些只能</color><row/><color=0>忍气吞声的人，</color><row/><color=0>聚集在这里……。”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引135–139；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:9897",
+      "before": "<color=0>呜……。</color><ctrl=2E/>",
+      "after": "<color=0>“呜……。</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引140–141；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:9922",
+      "before": "<color=0>心都要碎了……。</color><ctrl=2E/>",
+      "after": "<color=0>心都要碎了……。”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引140–141；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:10003",
+      "before": "<color=0>……男人，</color><row/><color=0>可真好啊。</color><ctrl=2E/>",
+      "after": "<color=0>“……男人，</color><row/><color=0>可真好啊。</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引142–144；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:10224",
+      "before": "<color=0>吃尽苦头的，</color><row/><color=0>总是弱小的一方。</color><ctrl=2E/>",
+      "after": "<color=0>吃尽苦头的，</color><row/><color=0>总是弱小的一方。”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引142–144；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:10328",
+      "before": "<color=0>……。</color><ctrl=2E/>",
+      "after": "<color=0>“……。”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引145–145；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:10355",
+      "before": "<color=0>可人们却说，</color><row/><color=0>是你防范意识</color><row/><color=0>太差，活该……</color><ctrl=2E/>",
+      "after": "<color=0>“可人们却说，</color><row/><color=0>是你防范意识</color><row/><color=0>太差，活该……</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引146–150；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:10804",
+      "before": "<color=0>……明明不是所有人，</color><row/><color=0>都能那么</color><row/><color=0>坚强啊……。</color><ctrl=2E/>",
+      "after": "<color=0>……明明不是所有人，</color><row/><color=0>都能那么</color><row/><color=0>坚强啊……。”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引146–150；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:10940",
+      "before": "<color=0>……我明白。</color><ctrl=2E/>",
+      "after": "<color=0>“……我明白。</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引151–152；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:10980",
+      "before": "<color=0>我很明白。</color><ctrl=2E/>",
+      "after": "<color=0>我很明白。”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引151–152；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:11032",
+      "before": "<color=0>……我们能走的路，</color><row/><color=0>只有让自己</color><row/><color=0>蒙受更多屈辱。</color><ctrl=2E/>",
+      "after": "<color=0>“……我们能走的路，</color><row/><color=0>只有让自己</color><row/><color=0>蒙受更多屈辱。</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引153–156；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:11340",
+      "before": "<color=0>如果受害人不亲自</color><row/><color=0>向警方提出控告，</color><row/><color=0>就无法追究罪责。</color><ctrl=2E/>",
+      "after": "<color=0>如果受害人不亲自</color><row/><color=0>向警方提出控告，</color><row/><color=0>就无法追究罪责。”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引153–156；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:11491",
+      "before": "<color=0>是的……。</color><ctrl=2E/>",
+      "after": "<color=0>“是的……。</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引157–162；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:11854",
+      "before": "<color=0>一遍又一遍……。</color><ctrl=2E/>",
+      "after": "<color=0>一遍又一遍……。”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引157–162；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:11906",
+      "before": "<color=0>……是的。</color><ctrl=2E/>",
+      "after": "<color=0>“……是的。</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引163–179；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:13234",
+      "before": "<color=0>……</color><color=2>获救的途径</color><color=0>，</color><row/><color=0>根本不存在。</color><ctrl=2E/>",
+      "after": "<color=0>……</color><color=2>获救的途径</color><color=0>，</color><row/><color=0>根本不存在。”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引163–179；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:13308",
+      "before": "<color=0>呜、呜呜……。</color><ctrl=2E/>",
+      "after": "<color=0>“呜、呜呜……。</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引180–181；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:13353",
+      "before": "<color=0>呜啊啊……。</color><ctrl=2E/>",
+      "after": "<color=0>呜啊啊……。”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引180–181；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:13390",
+      "before": "<color=0>正因如此，</color><row/><color=2>永劫会</color><color=0>诞生了。</color><ctrl=2E/>",
+      "after": "<color=0>“正因如此，</color><row/><color=2>永劫会</color><color=0>诞生了。</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引182–185；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:13689",
+      "before": "<color=0>那是一个让大家</color><row/><color=0>努力坚持，直到</color><row/><color=0>重新振作的地方。</color><ctrl=2E/>",
+      "after": "<color=0>那是一个让大家</color><row/><color=0>努力坚持，直到</color><row/><color=0>重新振作的地方。”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引182–185；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:13810",
+      "before": "<color=0>呜呜……呜呜……。</color><ctrl=2E/>",
+      "after": "<color=0>“呜呜……呜呜……。</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引186–188；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:13915",
+      "before": "<color=0>对不起……。</color><ctrl=2E/>",
+      "after": "<color=0>对不起……。”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引186–188；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:13962",
+      "before": "<color=0>如果你已经</color><row/><color=0>明白了……</color><ctrl=2E/>",
+      "after": "<color=0>“如果你已经</color><row/><color=0>明白了……</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引189–193；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:14253",
+      "before": "<color=0>……拜托你了。</color><ctrl=2E/>",
+      "after": "<color=0>……拜托你了。”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引189–193；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:14307",
+      "before": "<color=0>……。</color><ctrl=2E/>",
+      "after": "<color=0>“……。</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引194–195；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:14335",
+      "before": "<color=0>……好。</color><ctrl=2E/>",
+      "after": "<color=0>……好。”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引194–195；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:14362",
+      "before": "<color=0>谢谢。</color><ctrl=2E/>",
+      "after": "<color=0>“谢谢。</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引196–200；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:14596",
+      "before": "<color=0>一定无法</color><row/><color=0>理解的。</color><ctrl=2E/>",
+      "after": "<color=0>一定无法</color><row/><color=0>理解的。”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引196–200；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:14695",
+      "before": "<color=0>……是啊。</color><ctrl=2E/>",
+      "after": "<color=0>“……是啊。</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引201–202；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:14735",
+      "before": "<color=0>或许是这样。</color><ctrl=2E/>",
+      "after": "<color=0>或许是这样。”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引201–202；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:14812",
+      "before": "<color=0>……。</color><ctrl=2E/>",
+      "after": "<color=0>“……。</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引203–204；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:14840",
+      "before": "<color=0>那个……</color><row/><color=0>优子小姐。</color><ctrl=2E/>",
+      "after": "<color=0>那个……</color><row/><color=0>优子小姐。”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引203–204；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:14889",
+      "before": "<color=0>……怎么了？</color><ctrl=2E/>",
+      "after": "<color=0>“……怎么了？”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引205–205；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:14916",
+      "before": "<color=0>……刚才的约定，</color><row/><color=0>我一定会遵守。</color><ctrl=2E/>",
+      "after": "<color=0>“……刚才的约定，</color><row/><color=0>我一定会遵守。</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引206–208；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:15028",
+      "before": "<color=0>能不能让我……</color><row/><color=0>再问</color><row/><color=0>一件事？</color><ctrl=2E/>",
+      "after": "<color=0>能不能让我……</color><row/><color=0>再问</color><row/><color=0>一件事？”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引206–208；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:15129",
+      "before": "<color=0>……什么事？</color><ctrl=2E/>",
+      "after": "<color=0>“……什么事？”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引209–209；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:15171",
+      "before": "<color=0>那起巴士事故……</color><ctrl=2E/>",
+      "after": "<color=0>“那起巴士事故……</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引210–211；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:15216",
+      "before": "<color=0>7 月的巴士事故，</color><row/><color=0>造成了许多人</color><row/><color=0>遇难。</color><ctrl=2E/>",
+      "after": "<color=0>7 月的巴士事故，</color><row/><color=0>造成了许多人</color><row/><color=0>遇难。”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引210–211；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:15332",
+      "before": "<color=0>……？</color><ctrl=2E/>",
+      "after": "<color=0>“……？</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引212–213；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:15347",
+      "before": "<color=0>……是的。</color><ctrl=2E/>",
+      "after": "<color=0>……是的。”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引212–213；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:15389",
+      "before": "<color=0>当时车上乘客的</color><row/><color=0>名单，也已经</color><row/><color=0>正式公布了。</color><ctrl=2E/>",
+      "after": "<color=0>“当时车上乘客的</color><row/><color=0>名单，也已经</color><row/><color=0>正式公布了。”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引214–214；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:15540",
+      "before": "<color=0>……。</color><ctrl=2E/>",
+      "after": "<color=0>“……。”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引215–215；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:15567",
+      "before": "<color=0>那个……</color><row/><color=0>请您告诉我。</color><ctrl=2E/>",
+      "after": "<color=0>“那个……</color><row/><color=0>请您告诉我。</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引216–218；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:15691",
+      "before": "<color=0>让永劫会里</color><row/><color=0>多少人得到了解脱？</color><ctrl=2B/>",
+      "after": "<color=0>让永劫会里</color><row/><color=0>多少人得到了解脱？”</color><ctrl=2B/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引216–218；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:15811",
+      "before": "<color=0>……！？</color><ctrl=2E/>",
+      "after": "<color=0>“……！？</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引219–220；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:15831",
+      "before": "<color=0>这……</color><row/><color=0>是什么意思？</color><ctrl=2E/>",
+      "after": "<color=0>这……</color><row/><color=0>是什么意思？”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引219–220；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:15921",
+      "before": "<color=0>……我调查过。</color><ctrl=2E/>",
+      "after": "<color=0>“……我调查过。</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引221–225；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:16163",
+      "before": "<color=0>……一个显著的</color><color=2>共同点</color><color=0>，</color><row/><color=0>浮现了出来。</color><ctrl=2E/>",
+      "after": "<color=0>……一个显著的</color><color=2>共同点</color><color=0>，</color><row/><color=0>浮现了出来。”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引221–225；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:16247",
+      "before": "<color=0>……。</color><ctrl=2E/>",
+      "after": "<color=0>“……。”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引226–226；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:16269",
+      "before": "<color=0>……我就直说了。</color><ctrl=2E/>",
+      "after": "<color=0>“……我就直说了。</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引227–229；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:16377",
+      "before": "<color=0>两年前，对一名</color><row/><color=0>叫作妹浦澄佳的女性，</color><row/><color=0>实施了性侵。</color><ctrl=2E/>",
+      "after": "<color=0>两年前，对一名</color><row/><color=0>叫作妹浦澄佳的女性，</color><row/><color=0>实施了性侵。”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引227–229；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:16523",
+      "before": "<color=0>……。</color><ctrl=2E/>",
+      "after": "<color=0>“……。”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引230–230；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:16555",
+      "before": "<color=0>板垣正男，39 岁。</color><row/><color=0>细川政治，42 岁。</color><ctrl=2E/>",
+      "after": "<color=0>“板垣正男，39 岁。</color><row/><color=0>细川政治，42 岁。</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引231–242；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:17826",
+      "before": "<color=0>在那起巴士事故中，</color><row/><color=0>丧了命。</color><ctrl=2E/>",
+      "after": "<color=0>在那起巴士事故中，</color><row/><color=0>丧了命。”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引231–242；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:17935",
+      "before": "<color=0>……。</color><ctrl=2E/>",
+      "after": "<color=0>“……。”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引243–243；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:17986",
+      "before": "<color=0>……向警方控告也没有用。</color><ctrl=2E/>",
+      "after": "<color=0>“……向警方控告也没有用。</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引244–249；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:18407",
+      "before": "<color=0>我觉得，</color><row/><color=0>一点也不奇怪……。</color><ctrl=2E/>",
+      "after": "<color=0>我觉得，</color><row/><color=0>一点也不奇怪……。”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引244–249；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:18506",
+      "before": "<color=0>你、你……</color><ctrl=2E/>",
+      "after": "<color=0>“你、你……</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引250–251；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:18536",
+      "before": "<color=0>伊纲小姐，</color><row/><color=0>你到底想说什么……。</color><ctrl=2E/>",
+      "after": "<color=0>伊纲小姐，</color><row/><color=0>你到底想说什么……。”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引250–251；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:18630",
+      "before": "<color=0>被刚才那些男人</color><row/><color=0>深深伤害过的</color><row/><color=0>受害者……</color><ctrl=2E/>",
+      "after": "<color=0>“被刚才那些男人</color><row/><color=0>深深伤害过的</color><row/><color=0>受害者……</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引252–255；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:18953",
+      "before": "<color=0>得到了</color><row/><color=0>片刻的安宁呢。</color><ctrl=2E/>",
+      "after": "<color=0>得到了</color><row/><color=0>片刻的安宁呢。”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引252–255；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:19072",
+      "before": "<color=0>……伊纲小姐！</color><ctrl=2E/>",
+      "after": "<color=0>“……伊纲小姐！</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引256–259；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:19234",
+      "before": "<color=2>是永劫会</color><row/><color=2>一手造成的</color><color=0>，</color><row/><color=0>是这个意思吗！？</color><ctrl=2B/>",
+      "after": "<color=2>是永劫会</color><row/><color=2>一手造成的</color><color=0>，</color><row/><color=0>是这个意思吗！？”</color><ctrl=2B/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引256–259；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:19370",
+      "before": "<color=0>我是个不谙世事、</color><row/><color=0>天真幼稚的人……</color><ctrl=2E/>",
+      "after": "<color=0>“我是个不谙世事、</color><row/><color=0>天真幼稚的人……</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引260–264；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:19809",
+      "before": "<color=0>只有杀人……</color><row/><color=0>是绝对不行的！</color><ctrl=2E/>",
+      "after": "<color=0>只有杀人……</color><row/><color=0>是绝对不行的！”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引260–264；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:19888",
+      "before": "<color=0>伊纲小姐……。</color><ctrl=2E/>",
+      "after": "<color=0>“伊纲小姐……。”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引265–265；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:19925",
+      "before": "<color=0>无论有什么理由……</color><ctrl=2E/>",
+      "after": "<color=0>“无论有什么理由……</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引266–268；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:20025",
+      "before": "<color=0>绝对不行！</color><ctrl=2E/>",
+      "after": "<color=0>绝对不行！”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引266–268；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:20082",
+      "before": "<color=0>……。</color><ctrl=2E/>",
+      "after": "<color=0>“……。</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引269–275；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:20621",
+      "before": "<color=0>光是想到有那种犯人</color><row/><color=0>逍遥法外，</color><row/><color=0>就会觉得不安。</color><ctrl=2E/>",
+      "after": "<color=0>光是想到有那种犯人</color><row/><color=0>逍遥法外，</color><row/><color=0>就会觉得不安。”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引269–275；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:20797",
+      "before": "<color=0>……。</color><ctrl=2E/>",
+      "after": "<color=0>“……。</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引276–277；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:20817",
+      "before": "<color=0>……就没有人</color><row/><color=0>觉得可疑吗？</color><ctrl=2E/>",
+      "after": "<color=0>……就没有人</color><row/><color=0>觉得可疑吗？”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引276–277；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:20916",
+      "before": "<color=0>大家只觉得，是</color><color=2>祈祷应验了</color><color=0>……</color><row/><color=0>仅此而已。</color><ctrl=2E/>",
+      "after": "<color=0>“大家只觉得，是</color><color=2>祈祷应验了</color><color=0>……</color><row/><color=0>仅此而已。</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引278–279；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:21028",
+      "before": "<color=0>上天给予了</color><color=2>惩罚</color><color=0>，</color><row/><color=0>她们对这一点……</color><row/><color=0>深信不疑。</color><ctrl=2E/>",
+      "after": "<color=0>上天给予了</color><color=2>惩罚</color><color=0>，</color><row/><color=0>她们对这一点……</color><row/><color=0>深信不疑。”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引278–279；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:21174",
+      "before": "<color=0>……！！</color><ctrl=2E/>",
+      "after": "<color=0>“……！！”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引280–280；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:21191",
+      "before": "<color=0>我也是，直到刚才</color><row/><color=0>听你这么说之前……</color><ctrl=2E/>",
+      "after": "<color=0>“我也是，直到刚才</color><row/><color=0>听你这么说之前……</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引281–283；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:21437",
+      "before": "<color=0>可是……</color><ctrl=2E/>",
+      "after": "<color=0>可是……”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引281–283；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:21470",
+      "before": "<color=0>……果然，</color><row/><color=0>很可疑吧……？</color><ctrl=2E/>",
+      "after": "<color=0>“……果然，</color><row/><color=0>很可疑吧……？”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引284–284；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:21554",
+      "before": "<color=0>……。</color><ctrl=2E/>",
+      "after": "<color=0>“……。</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引285–287；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:21676",
+      "before": "<color=0>越来越多人开始强烈依赖</color><row/><color=0>永劫会，甚至愿意</color><row/><color=0>为它奉献一生。</color><ctrl=2E/>",
+      "after": "<color=0>越来越多人开始强烈依赖</color><row/><color=0>永劫会，甚至愿意</color><row/><color=0>为它奉献一生。”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引285–287；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:21837",
+      "before": "<color=0>……！！</color><ctrl=2E/>",
+      "after": "<color=0>“……！！</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引288–290；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:21912",
+      "before": "<color=0>成了信徒吗。</color><ctrl=2E/>",
+      "after": "<color=0>成了信徒吗。”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引288–290；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:21977",
+      "before": "<color=0>……。</color><ctrl=2E/>",
+      "after": "<color=0>“……。</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引291–295；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:22189",
+      "before": "<color=0>至少，慰苦师</color><row/><color=0>释迦堂，是个</color><row/><color=0>非常值得信任的人。</color><ctrl=2E/>",
+      "after": "<color=0>至少，慰苦师</color><row/><color=0>释迦堂，是个</color><row/><color=0>非常值得信任的人。”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引291–295；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:22373",
+      "before": "<color=0>那么，更上面的……</color><ctrl=2E/>",
+      "after": "<color=0>“那么，更上面的……</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引296–297；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:22423",
+      "before": "<color=2>一条院永远</color><color=0>这个人，</color><row/><color=0>又怎么样呢？</color><ctrl=2E/>",
+      "after": "<color=2>一条院永远</color><color=0>这个人，</color><row/><color=0>又怎么样呢？”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引296–297；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:22544",
+      "before": "<color=0>……！！</color><ctrl=2E/>",
+      "after": "<color=0>“……！！</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引298–303；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:22976",
+      "before": "<color=0>那只是一个名字，</color><row/><color=2>偶像般的存在</color><color=0>，其实</color><row/><color=0>根本没有这个人。</color><ctrl=2E/>",
+      "after": "<color=0>那只是一个名字，</color><row/><color=2>偶像般的存在</color><color=0>，其实</color><row/><color=0>根本没有这个人。”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引298–303；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:23133",
+      "before": "<color=0>那么……。</color><ctrl=2E/>",
+      "after": "<color=0>“那么……。</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引304–308；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:23372",
+      "before": "<color=0>妹浦澄佳这个人，也有</color><row/><color=2>成为牺牲品</color><color=0>的</color><row/><color=0>可能。</color><ctrl=2E/>",
+      "after": "<color=0>妹浦澄佳这个人，也有</color><row/><color=2>成为牺牲品</color><color=0>的</color><row/><color=0>可能。”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引304–308；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:23513",
+      "before": "<color=0>牺牲……？</color><ctrl=2E/>",
+      "after": "<color=0>“牺牲……？”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引309–309；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:23540",
+      "before": "<color=0>永劫会的基本理念</color><row/><color=0>非常好……</color><ctrl=2E/>",
+      "after": "<color=0>“永劫会的基本理念</color><row/><color=0>非常好……</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引310–316；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:24043",
+      "before": "<color=0>我绝对无法原谅！</color><ctrl=2E/>",
+      "after": "<color=0>我绝对无法原谅！”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引310–316；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:24095",
+      "before": "<color=0>……。</color><ctrl=2E/>",
+      "after": "<color=0>“……。</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引317–322；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:24535",
+      "before": "<color=0>剩下的……</color><row/><color=0>就交给你了。</color><ctrl=2E/>",
+      "after": "<color=0>剩下的……</color><row/><color=0>就交给你了。”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引317–322；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:24634",
+      "before": "<color=0>好，这样就足够了。</color><row/><color=0>谢谢您。</color><ctrl=2E/>",
+      "after": "<color=0>“好，这样就足够了。</color><row/><color=0>谢谢您。”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引323–323；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:24738",
+      "before": "<color=0>但是……</color><ctrl=2E/>",
+      "after": "<color=0>“但是……</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引324–326；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:24860",
+      "before": "<color=0>……不管这个会的真面目</color><row/><color=0>究竟如何，会员们</color><row/><color=0>都是无辜的。</color><ctrl=2E/>",
+      "after": "<color=0>……不管这个会的真面目</color><row/><color=0>究竟如何，会员们</color><row/><color=0>都是无辜的。”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引324–326；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:25016",
+      "before": "<color=0>好，我明白。</color><row/><color=0>我不会告诉任何人。</color><ctrl=2E/>",
+      "after": "<color=0>“好，我明白。</color><row/><color=0>我不会告诉任何人。”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引327–327；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:25795",
+      "before": "<color=0>……那么，</color><row/><color=0>这是你的</color><color=2>会员证</color><color=0>。</color><ctrl=2E/>",
+      "after": "<color=0>“……那么，</color><row/><color=0>这是你的</color><color=2>会员证</color><color=0>。</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引334–337；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:26100",
+      "before": "<color=0>我随时都愿意</color><row/><color=0>倾听你的烦恼，</color><row/><color=0>请不必拘束。</color><ctrl=2E/>",
+      "after": "<color=0>我随时都愿意</color><row/><color=0>倾听你的烦恼，</color><row/><color=0>请不必拘束。”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引334–337；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:26237",
+      "before": "<color=0>是、是的……</color><ctrl=2E/>",
+      "after": "<color=0>“是、是的……</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引338–339；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:26267",
+      "before": "<color=0>今后还请您</color><row/><color=0>多多关照……。</color><ctrl=2E/>",
+      "after": "<color=0>今后还请您</color><row/><color=0>多多关照……。”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引338–339；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:26489",
+      "before": "<color=0>……伊纲小姐。</color><ctrl=2E/>",
+      "after": "<color=0>“……伊纲小姐。”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引342–342；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:26526",
+      "before": "<color=0>啊，是……。</color><ctrl=2E/>",
+      "after": "<color=0>“啊，是……。”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引343–343；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:26662",
+      "before": "<color=0>……里面有一扇通往</color><color=2>办公室</color><color=0>的</color><row/><color=0>门。</color><ctrl=2E/>",
+      "after": "<color=0>“……里面有一扇通往</color><color=2>办公室</color><color=0>的</color><row/><color=0>门。</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引345–346；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:26754",
+      "before": "<color=0>……趁我吸引他们</color><row/><color=0>注意时，悄悄进去吧。</color><ctrl=2E/>",
+      "after": "<color=0>……趁我吸引他们</color><row/><color=0>注意时，悄悄进去吧。”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引345–346；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:26868",
+      "before": "<color=0>明白了。</color><row/><color=0>谢谢您。</color><ctrl=2E/>",
+      "after": "<color=0>“明白了。</color><row/><color=0>谢谢您。”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引347–347；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:28675",
+      "before": "<color=0>……咦？</color><ctrl=2E/>",
+      "after": "<color=0>“……咦？”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引374–374；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:29466",
+      "before": "<color=0>……这是怎么回事？</color><ctrl=2E/>",
+      "after": "<color=0>“……这是怎么回事？”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引380–380；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:31328",
+      "before": "<color=0>啊……！！</color><ctrl=2E/>",
+      "after": "<color=0>“啊……！！</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引397–398；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:31353",
+      "before": "<color=0>……就是这个。</color><ctrl=2E/>",
+      "after": "<color=0>……就是这个。”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引397–398；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:33516",
+      "before": "<color=0>那在同一时期，曾</color><row/><color=2>补发</color><color=0>会员证的人，</color><row/><color=0>怎么看都</color><row/><color=0>很可疑。</color><ctrl=2E/>",
+      "after": "<color=0>同一时期，为会员证申请过</color><row/><color=2>补发</color><color=0>的人，</color><row/><color=0>怎么看都</color><row/><color=0>很可疑。</color><ctrl=2E/>",
+      "basis": [
+        "颜色对象补发正确，但会员证从补发前移到后；按本任务严格不得跨颜色边界移文约定，可保留宾语在前并自然表达。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:34818",
+      "before": "<color=0>……咦？</color><row/><color=0>这是什么。</color><ctrl=2E/>",
+      "after": "<color=0>“……咦？</color><row/><color=0>这是什么。”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引440–440；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:35404",
+      "before": "<color=0>……调查报告……？</color><ctrl=2E/>",
+      "after": "<color=0>“……调查报告……？”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引444–444；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:35983",
+      "before": "<color=0>这、这是什么……？</color><ctrl=2E/>",
+      "after": "<color=0>“这、这是什么……？”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引449–449；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:38176",
+      "before": "<color=0>门泽的受害者姓名一栏，</color><row/><color=0>写着松田美纪惠、</color><color=2>美马圭子</color><row/><color=0>……这两个名字。</color><ctrl=2B/>",
+      "after": "<color=0>门泽的受害者姓名一栏，</color><row/><color=0>写着松田美纪惠、</color><color=2>美马圭子</color><row/><color=0>……等名字。</color><ctrl=2B/>",
+      "basis": [
+        "原文只是列举松田美纪惠、美马圭子，并没有限定恰好只有两名。添加“这两个名字”会让玩家误解门泽受害者数量（240已明说四人），建议删去数量。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:39151",
+      "before": "<color=0>哇、哇啊……。</color><ctrl=2E/>",
+      "after": "<color=0>“哇、哇啊……。”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引485–485；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:41267",
+      "before": "<color=0>……干、干什么？</color><ctrl=2E/>",
+      "after": "<color=0>“……干、干什么？</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引507–509；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:41342",
+      "before": "<color=0>今天刚入会的</color><row/><color=0>那个女孩吧？</color><ctrl=2E/>",
+      "after": "<color=0>今天刚入会的</color><row/><color=0>那个女孩吧？”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引507–509；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:41426",
+      "before": "<color=0>是的，我叫</color><row/><color=0>白鹭洲伊纲。</color><ctrl=2E/>",
+      "after": "<color=0>“是的，我叫</color><row/><color=0>白鹭洲伊纲。</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引510–512；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:41558",
+      "before": "<color=0>如果方便的话，</color><row/><color=0>我想向您</color><row/><color=0>打听一点事情。</color><ctrl=2E/>",
+      "after": "<color=0>如果方便的话，</color><row/><color=0>我想向您</color><row/><color=0>打听一点事情。”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引510–512；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:42086",
+      "before": "<color=0>……到底什么事？</color><row/><color=0>为什么偏偏找我？</color><ctrl=2E/>",
+      "after": "<color=0>“……到底什么事？</color><row/><color=0>为什么偏偏找我？”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引522–522；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:42165",
+      "before": "<color=0>……美马小姐，您在 7 月</color><row/><color=0>曾经</color><color=2>补发</color><color=0>过</color><row/><color=0>会员证，对吧？</color><ctrl=2E/>",
+      "after": "<color=0>“……美马小姐，您在 7 月</color><row/><color=0>为会员证申请过</color><color=2>补发</color><color=0>，</color><row/><color=0>对吧？”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引523–523；仅起止补引号，原ctrl不改。",
+        "会员证从高亮补发前移到后；建议保持名称先出现及补发单独着色，同时按完整发言闭合引号。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:42291",
+      "before": "<color=0>是、是啊。</color><row/><color=0>……那又怎么样？</color><ctrl=2E/>",
+      "after": "<color=0>“是、是啊。</color><row/><color=0>……那又怎么样？”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引524–524；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:42375",
+      "before": "<color=0>今年 7 月</color><row/><color=0>补发过会员证的，</color><row/><color=0>只有美马小姐一个人。</color><ctrl=2E/>",
+      "after": "<color=0>“今年 7 月</color><row/><color=0>补发过会员证的，</color><row/><color=0>只有美马小姐一个人。”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引525–525；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:42531",
+      "before": "<color=0>啊，是吗？</color><row/><color=0>所以呢？</color><ctrl=2E/>",
+      "after": "<color=0>“啊，是吗？</color><row/><color=0>所以呢？</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引526–527；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:42603",
+      "before": "<color=0>我还想</color><row/><color=0>早点回家呢。</color><ctrl=2E/>",
+      "after": "<color=0>我还想</color><row/><color=0>早点回家呢。”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引526–527；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:42687",
+      "before": "<color=0>7 月 9 日，万里川</color><row/><color=0>河口附近，发现了</color><row/><color=0>一具男性尸体。</color><ctrl=2E/>",
+      "after": "<color=0>“7 月 9 日，万里川</color><row/><color=0>河口附近，发现了</color><row/><color=0>一具男性尸体。</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引528–529；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:42841",
+      "before": "<color=0>……当时在现场，</color><row/><color=0>发现了一张永劫会的</color><row/><color=0>会员证。</color><ctrl=2E/>",
+      "after": "<color=0>……当时在现场，</color><row/><color=0>发现了一张永劫会的</color><row/><color=0>会员证。”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引528–529；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:42972",
+      "before": "<color=0>……！？</color><ctrl=2E/>",
+      "after": "<color=0>“……！？”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引530–530；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:42989",
+      "before": "<color=0>那张会员证，</color><color=2>是美马小姐</color><row/><color=2>您的</color><color=0>吧？</color><ctrl=2E/>",
+      "after": "<color=0>“那张会员证，</color><color=2>是美马小姐</color><row/><color=2>您的</color><color=0>吧？”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引531–531；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:43115",
+      "before": "<color=0>……！！</color><ctrl=2E/>",
+      "after": "<color=0>“……！！</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引532–533；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:43139",
+      "before": "<color=0>……确实，</color><row/><color=0>有这个可能呢。</color><ctrl=2E/>",
+      "after": "<color=0>……确实，</color><row/><color=0>有这个可能呢。”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引532–533；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:43228",
+      "before": "<color=0>咦……！？</color><ctrl=2E/>",
+      "after": "<color=0>“咦……！？”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引534–534；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:43255",
+      "before": "<color=0>我想，我大概是</color><row/><color=0>不小心把会员证</color><row/><color=0>掉进万里川了吧。</color><ctrl=2E/>",
+      "after": "<color=0>“我想，我大概是</color><row/><color=0>不小心把会员证</color><row/><color=0>掉进万里川了吧。</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引535–536；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:43424",
+      "before": "<color=0>……然后它顺水漂到那边，</color><row/><color=0>碰巧被发现了，</color><row/><color=0>也不是没有可能吧？</color><ctrl=2E/>",
+      "after": "<color=0>……然后它顺水漂到那边，</color><row/><color=0>碰巧被发现了，</color><row/><color=0>也不是没有可能吧？”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引535–536；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:43595",
+      "before": "<color=0>啊……。</color><ctrl=2E/>",
+      "after": "<color=0>“啊……。</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引537–538；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:43620",
+      "before": "<color=0>也……是呢。</color><ctrl=2E/>",
+      "after": "<color=0>也……是呢。”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引537–538；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:43662",
+      "before": "<color=0>虽然我不知道，</color><row/><color=0>你为什么要</color><row/><color=0>问这种事……</color><ctrl=2E/>",
+      "after": "<color=0>“虽然我不知道，</color><row/><color=0>你为什么要</color><row/><color=0>问这种事……</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引539–540；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:43801",
+      "before": "<color=0>但硬把我和</color><row/><color=0>那种杀人案扯上关系，</color><row/><color=0>我可很困扰啊。</color><ctrl=2E/>",
+      "after": "<color=0>但硬把我和</color><row/><color=0>那种杀人案扯上关系，</color><row/><color=0>我可很困扰啊。”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引539–540；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:43947",
+      "before": "<color=0>……。</color><ctrl=2E/>",
+      "after": "<color=0>“……。”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引541–541；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:43983",
+      "before": "<color=0>那个……</color><ctrl=2E/>",
+      "after": "<color=0>“那个……</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引542–543；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:44003",
+      "before": "<color=0>……您怎么知道，</color><row/><color=0>那是起杀人案？</color><ctrl=2E/>",
+      "after": "<color=0>……您怎么知道，</color><row/><color=0>那是起杀人案？”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引542–543；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:44128",
+      "before": "<color=0>咦……？</color><ctrl=2E/>",
+      "after": "<color=0>“咦……？</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引544–548；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:44357",
+      "before": "<color=0>被杀的那个男人，</color><row/><color=0>我记得是叫门泽文治</color><row/><color=0>吧？</color><ctrl=2E/>",
+      "after": "<color=0>被杀的那个男人，</color><row/><color=0>我记得是叫门泽文治</color><row/><color=0>吧？”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引544–548；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:44483",
+      "before": "<color=0>啊，是的。</color><row/><color=0>您知道得真清楚。</color><ctrl=2E/>",
+      "after": "<color=0>“啊，是的。</color><row/><color=0>您知道得真清楚。”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引549–549；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:44567",
+      "before": "<color=0>那个人</color><row/><color=0>跟我没关系。</color><ctrl=2E/>",
+      "after": "<color=0>“那个人</color><row/><color=0>跟我没关系。”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引550–550；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:44819",
+      "before": "<color=0>我不是说了吗，</color><row/><color=0>那个叫门泽的，</color><row/><color=0>跟我没关系。</color><ctrl=2E/>",
+      "after": "<color=0>“我不是说了吗，</color><row/><color=0>那个叫门泽的，</color><row/><color=0>跟我没关系。”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引553–553；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:45028",
+      "before": "<color=0>……那又怎么样？</color><ctrl=2E/>",
+      "after": "<color=0>“……那又怎么样？”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引558–558；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:45075",
+      "before": "<color=0>啊，咦……？</color><ctrl=2E/>",
+      "after": "<color=0>“啊，咦……？”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引559–559；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:45666",
+      "before": "<color=0>美马小姐……其实，</color><row/><color=0>我拿到了</color><row/><color=0>这样的资料。</color><ctrl=2E/>",
+      "after": "<color=0>“美马小姐……其实，</color><row/><color=0>我拿到了</color><row/><color=0>这样的资料。”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引564–564；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:45777",
+      "before": "<color=0>啊……。</color><ctrl=2E/>",
+      "after": "<color=0>“啊……。”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引565–565；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:45804",
+      "before": "<color=0>……！？</color><ctrl=2E/>",
+      "after": "<color=0>“……！？</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引566–567；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:45819",
+      "before": "<color=0>您知道</color><row/><color=0>这个文件夹吗？</color><ctrl=2E/>",
+      "after": "<color=0>您知道</color><row/><color=0>这个文件夹吗？”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引566–567；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:45908",
+      "before": "<color=0>……不、不是，</color><row/><color=0>我不知道。</color><ctrl=2E/>",
+      "after": "<color=0>“……不、不是，</color><row/><color=0>我不知道。</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引568–569；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:45980",
+      "before": "<color=0>那是什么东西？</color><ctrl=2E/>",
+      "after": "<color=0>那是什么东西？”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引568–569；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:46027",
+      "before": "<color=0>……永劫会的会长，</color><row/><color=0>一条院永远……</color><ctrl=2E/>",
+      "after": "<color=0>“……永劫会的会长，</color><row/><color=0>一条院永远……</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引570–571；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:46104",
+      "before": "<color=0>正委托侦探，</color><row/><color=0>调查对会员们实施过</color><row/><color=0>性侵的犯人。</color><ctrl=2E/>",
+      "after": "<color=0>正委托侦探，</color><row/><color=0>调查对会员们实施过</color><row/><color=0>性侵的犯人。”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引570–571；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:46255",
+      "before": "<color=0>……。</color><ctrl=2E/>",
+      "after": "<color=0>“……。”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引572–572；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:46288",
+      "before": "<color=0>根据我悄悄</color><row/><color=0>拿到的这份资料……</color><ctrl=2E/>",
+      "after": "<color=0>“根据我悄悄</color><row/><color=0>拿到的这份资料……</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引573–575；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:46467",
+      "before": "<color=0>但美马小姐，您</color><row/><color=0>不可能不认识</color><row/><color=0>门泽文治……。</color><ctrl=2E/>",
+      "after": "<color=0>但美马小姐，您</color><row/><color=0>不可能不认识</color><row/><color=0>门泽文治……。”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引573–575；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:46603",
+      "before": "<color=0>……。</color><ctrl=2E/>",
+      "after": "<color=0>“……。</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引576–578；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:46690",
+      "before": "<color=0>要是承认这种事，</color><row/><color=0>不就像是我</color><row/><color=0>杀了门泽一样吗。</color><ctrl=2E/>",
+      "after": "<color=0>要是承认这种事，</color><row/><color=0>不就像是我</color><row/><color=0>杀了门泽一样吗。”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引576–578；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:46851",
+      "before": "<color=0>美马小姐，有人在</color><row/><color=0>利用您啊。</color><ctrl=2E/>",
+      "after": "<color=0>“美马小姐，有人在</color><row/><color=0>利用您啊。</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引579–580；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:46963",
+      "before": "<color=0>……利用您的名字。</color><ctrl=2E/>",
+      "after": "<color=0>……利用您的名字。”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引579–580；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:47015",
+      "before": "<color=0>……什么啊？</color><row/><color=0>我不知道。</color><row/><color=0>我要回去了。</color><ctrl=2E/>",
+      "after": "<color=0>“……什么啊？</color><row/><color=0>我不知道。</color><row/><color=0>我要回去了。”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引581–581；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:47131",
+      "before": "<color=0>美马小姐，</color><row/><color=0>请听我说！</color><ctrl=2E/>",
+      "after": "<color=0>“美马小姐，</color><row/><color=0>请听我说！”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引582–582；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:47215",
+      "before": "<color=0>你烦不烦啊！</color><row/><color=0>我都说了</color><row/><color=0>跟我没关系！</color><ctrl=2E/>",
+      "after": "<color=0>“你烦不烦啊！</color><row/><color=0>我都说了</color><row/><color=0>跟我没关系！”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引583–583；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:47348",
+      "before": "<color=0>啊……。</color><ctrl=2E/>",
+      "after": "<color=0>“啊……。”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引584–584；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:47567",
+      "before": "<color=0>……。</color><ctrl=2E/>",
+      "after": "<color=0>“……。</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引588–591；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:47766",
+      "before": "<color=0>但至少，</color><row/><color=0>我不是！</color><ctrl=2E/>",
+      "after": "<color=0>但至少，</color><row/><color=0>我不是！”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引588–591；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:47840",
+      "before": "<color=0>……啊，咦？</color><ctrl=2E/>",
+      "after": "<color=0>“……啊，咦？”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引592–592；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:47882",
+      "before": "<color=0>见你说得那么认真，</color><row/><color=0>我还想听你说下去，</color><row/><color=0>真是太傻了……。</color><ctrl=2E/>",
+      "after": "<color=0>“见你说得那么认真，</color><row/><color=0>我还想听你说下去，</color><row/><color=0>真是太傻了……。</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引593–597；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:48223",
+      "before": "<color=0>我和你，</color><row/><color=0>已经没什么好说的了。</color><ctrl=2E/>",
+      "after": "<color=0>我和你，</color><row/><color=0>已经没什么好说的了。”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引593–597；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:48327",
+      "before": "<color=0>啊……。</color><ctrl=2E/>",
+      "after": "<color=0>“啊……。</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引598–599；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:48352",
+      "before": "<color=0>请、请等一下……！</color><ctrl=2E/>",
+      "after": "<color=0>请、请等一下……！”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引598–599；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:48394",
+      "before": "<color=0>再见。</color><ctrl=2E/>",
+      "after": "<color=0>“再见。”</color><ctrl=2E/>",
+      "basis": [
+        "实读source-replay NAMAE及上下文，完整发言范围批内索引600–600；仅起止补引号，原ctrl不改。"
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-1:48689",
+      "before": "<color=0>伊纲第一次独自搜查，</color><row/><color=0>以失败告终。</color><ctrl=2E/>",
+      "after": "<color=0>伊纲第一次搜查，</color><row/><color=0>以失败告终。</color><ctrl=2E/>",
+      "basis": [
+        "原文“初捜査”仅为首次搜查，未说独自；本段确有优子/癸生川协助，不应新增独自。"
+      ]
+    }
+  ],
+  "speech_ranges": [
+    [
+      0,
+      0
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      5,
+      5
+    ],
+    [
+      9,
+      11
+    ],
+    [
+      12,
+      22
+    ],
+    [
+      23,
+      23
+    ],
+    [
+      24,
+      24
+    ],
+    [
+      25,
+      25
+    ],
+    [
+      26,
+      26
+    ],
+    [
+      32,
+      33
+    ],
+    [
+      34,
+      34
+    ],
+    [
+      35,
+      36
+    ],
+    [
+      37,
+      37
+    ],
+    [
+      38,
+      39
+    ],
+    [
+      40,
+      41
+    ],
+    [
+      42,
+      44
+    ],
+    [
+      45,
+      47
+    ],
+    [
+      48,
+      48
+    ],
+    [
+      49,
+      50
+    ],
+    [
+      51,
+      51
+    ],
+    [
+      52,
+      52
+    ],
+    [
+      53,
+      54
+    ],
+    [
+      55,
+      55
+    ],
+    [
+      56,
+      57
+    ],
+    [
+      58,
+      59
+    ],
+    [
+      60,
+      61
+    ],
+    [
+      62,
+      62
+    ],
+    [
+      63,
+      64
+    ],
+    [
+      65,
+      66
+    ],
+    [
+      71,
+      72
+    ],
+    [
+      73,
+      73
+    ],
+    [
+      75,
+      76
+    ],
+    [
+      77,
+      78
+    ],
+    [
+      79,
+      79
+    ],
+    [
+      80,
+      82
+    ],
+    [
+      83,
+      83
+    ],
+    [
+      84,
+      86
+    ],
+    [
+      87,
+      87
+    ],
+    [
+      90,
+      90
+    ],
+    [
+      91,
+      91
+    ],
+    [
+      92,
+      94
+    ],
+    [
+      95,
+      95
+    ],
+    [
+      96,
+      97
+    ],
+    [
+      102,
+      102
+    ],
+    [
+      103,
+      103
+    ],
+    [
+      104,
+      104
+    ],
+    [
+      105,
+      106
+    ],
+    [
+      107,
+      107
+    ],
+    [
+      108,
+      113
+    ],
+    [
+      114,
+      115
+    ],
+    [
+      116,
+      119
+    ],
+    [
+      120,
+      121
+    ],
+    [
+      122,
+      122
+    ],
+    [
+      123,
+      126
+    ],
+    [
+      127,
+      127
+    ],
+    [
+      128,
+      133
+    ],
+    [
+      134,
+      134
+    ],
+    [
+      135,
+      139
+    ],
+    [
+      140,
+      141
+    ],
+    [
+      142,
+      144
+    ],
+    [
+      145,
+      145
+    ],
+    [
+      146,
+      150
+    ],
+    [
+      151,
+      152
+    ],
+    [
+      153,
+      156
+    ],
+    [
+      157,
+      162
+    ],
+    [
+      163,
+      179
+    ],
+    [
+      180,
+      181
+    ],
+    [
+      182,
+      185
+    ],
+    [
+      186,
+      188
+    ],
+    [
+      189,
+      193
+    ],
+    [
+      194,
+      195
+    ],
+    [
+      196,
+      200
+    ],
+    [
+      201,
+      202
+    ],
+    [
+      203,
+      204
+    ],
+    [
+      205,
+      205
+    ],
+    [
+      206,
+      208
+    ],
+    [
+      209,
+      209
+    ],
+    [
+      210,
+      211
+    ],
+    [
+      212,
+      213
+    ],
+    [
+      214,
+      214
+    ],
+    [
+      215,
+      215
+    ],
+    [
+      216,
+      218
+    ],
+    [
+      219,
+      220
+    ],
+    [
+      221,
+      225
+    ],
+    [
+      226,
+      226
+    ],
+    [
+      227,
+      229
+    ],
+    [
+      230,
+      230
+    ],
+    [
+      231,
+      242
+    ],
+    [
+      243,
+      243
+    ],
+    [
+      244,
+      249
+    ],
+    [
+      250,
+      251
+    ],
+    [
+      252,
+      255
+    ],
+    [
+      256,
+      259
+    ],
+    [
+      260,
+      264
+    ],
+    [
+      265,
+      265
+    ],
+    [
+      266,
+      268
+    ],
+    [
+      269,
+      275
+    ],
+    [
+      276,
+      277
+    ],
+    [
+      278,
+      279
+    ],
+    [
+      280,
+      280
+    ],
+    [
+      281,
+      283
+    ],
+    [
+      284,
+      284
+    ],
+    [
+      285,
+      287
+    ],
+    [
+      288,
+      290
+    ],
+    [
+      291,
+      295
+    ],
+    [
+      296,
+      297
+    ],
+    [
+      298,
+      303
+    ],
+    [
+      304,
+      308
+    ],
+    [
+      309,
+      309
+    ],
+    [
+      310,
+      316
+    ],
+    [
+      317,
+      322
+    ],
+    [
+      323,
+      323
+    ],
+    [
+      324,
+      326
+    ],
+    [
+      327,
+      327
+    ],
+    [
+      334,
+      337
+    ],
+    [
+      338,
+      339
+    ],
+    [
+      342,
+      342
+    ],
+    [
+      343,
+      343
+    ],
+    [
+      345,
+      346
+    ],
+    [
+      347,
+      347
+    ],
+    [
+      374,
+      374
+    ],
+    [
+      380,
+      380
+    ],
+    [
+      397,
+      398
+    ],
+    [
+      440,
+      440
+    ],
+    [
+      444,
+      444
+    ],
+    [
+      449,
+      449
+    ],
+    [
+      485,
+      485
+    ],
+    [
+      507,
+      509
+    ],
+    [
+      510,
+      512
+    ],
+    [
+      522,
+      522
+    ],
+    [
+      523,
+      523
+    ],
+    [
+      524,
+      524
+    ],
+    [
+      525,
+      525
+    ],
+    [
+      526,
+      527
+    ],
+    [
+      528,
+      529
+    ],
+    [
+      530,
+      530
+    ],
+    [
+      531,
+      531
+    ],
+    [
+      532,
+      533
+    ],
+    [
+      534,
+      534
+    ],
+    [
+      535,
+      536
+    ],
+    [
+      537,
+      538
+    ],
+    [
+      539,
+      540
+    ],
+    [
+      541,
+      541
+    ],
+    [
+      542,
+      543
+    ],
+    [
+      544,
+      548
+    ],
+    [
+      549,
+      549
+    ],
+    [
+      550,
+      550
+    ],
+    [
+      553,
+      553
+    ],
+    [
+      558,
+      558
+    ],
+    [
+      559,
+      559
+    ],
+    [
+      564,
+      564
+    ],
+    [
+      565,
+      565
+    ],
+    [
+      566,
+      567
+    ],
+    [
+      568,
+      569
+    ],
+    [
+      570,
+      571
+    ],
+    [
+      572,
+      572
+    ],
+    [
+      573,
+      575
+    ],
+    [
+      576,
+      578
+    ],
+    [
+      579,
+      580
+    ],
+    [
+      581,
+      581
+    ],
+    [
+      582,
+      582
+    ],
+    [
+      583,
+      583
+    ],
+    [
+      584,
+      584
+    ],
+    [
+      588,
+      591
+    ],
+    [
+      592,
+      592
+    ],
+    [
+      593,
+      597
+    ],
+    [
+      598,
+      599
+    ],
+    [
+      600,
+      600
+    ]
+  ]
+}

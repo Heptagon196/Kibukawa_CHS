@@ -86,6 +86,126 @@
         "fixed_pages": "章节/地点卡及片尾角色/姓名/注音槽按原77换行隔离；中文姓名不附读音，注音槽用空串而非null保留指令。",
         "dynamic_joins": "scn3:7932/9469原77后的共用尾句2665/2738必须独立；分别2×2及4×4×4分支，不在静态顺序中串为一段。"
       }
+    },
+    "kibu8": {
+      "source_table": "games/08-kibu8/work/glossary.locked.json",
+      "rules": {
+        "kibukawa_catchphrase": "「それはいい」仅在癸生川本人或上下文明示模仿癸生川时固定译作「这个先不提」；其他角色的同形句按语境处理。"
+      }
+    },
+    "kibu10": {
+      "source_table": "games/10-kibu10/work/glossary.locked.json",
+      "rules": {
+        "policy": "同时使用系列公共表；新词与特殊覆盖先在本作登记。不得改写前作译文。",
+        "speaker_forms": "姓名牌保留原括号形式，中文内容：伊綱→伊纲，尾場→尾场，癸生川不变。完整发言补齐中文引号，禁止逐片段重复加引号。",
+        "game_title": "永劫会事件；原作第９弾暂译第 9 作并备注手机版编号，不改成Steam第10卷。",
+        "missing_su_note": {
+          "rule": "残笔“明日、わたしは自　します。”对应“明天，我会自　。”，保留一处全角缺字格；讨论只能提出自杀疑问，不在证物补自杀或自首。残损整信中文按语义保留缺字，后续引用一致。",
+          "sources": [
+            "scratch4.dat/s35-2:29048",
+            "scratch4.dat/s35-2:29537",
+            "scratch4.dat/s35-2:29628",
+            "scratch4.dat/s35-2:29680"
+          ]
+        },
+        "anagram": {
+          "rule": "IMOURA SUMIKA（妹浦澄佳）、OKIMURA ISAMU（冲村勇）、IKURUMI MASAO（生王正生）为相同字母重排，保留全角罗马字动画及顺序，中文不改名造新谜。错误选项姓4名3指日语假名数，不是汉字数；原点击揭露前不解释。",
+          "sources": [
+            "scratch4.dat/s27:18628",
+            "scratch4.dat/s27:20252",
+            "scratch4.dat/s27:20363",
+            "scratch4.dat/s27:23578",
+            "scratch4.dat/s27:23970"
+          ]
+        },
+        "yaatari": "矢当托也；误读姓氏Yatou，纠正Yaatari。简短句外译注解释读音，不臆造不同中文姓名。",
+        "identity_and_viewpoint": {
+          "rule": "四视角按章节知情范围；s34未命名视角保留？？？直到9月30日揭示。石上/一条院、冲村/生王各自保留原称呼；不能借全局alias提前泄密。",
+          "sources": [
+            "scratch4.dat/s36:2536",
+            "scratch4.dat/s36:30847",
+            "scratch4.dat/s37:2213",
+            "scratch4.dat/s27:16334"
+          ]
+        },
+        "reading_jokes": {
+          "rule": "矢当托也姓氏误读Yatou、正确Yaatari采用拉丁读音与句外简注；生王误读なま…おう不因此改姓名或提早补作曲人身份。",
+          "sources": [
+            "scratch4.dat/s02:21707",
+            "scratch4.dat/s02:21801",
+            "file/append:4159",
+            "scratch4.dat/s35-2:33261",
+            "scratch4.dat/s27:16242"
+          ]
+        },
+        "number_discrepancies": {
+          "rule": "s23新闻23死者而澄佳惊恐复述20人，两处原文不同，分别保留；s33次日新闻30死16伤20余失踪是另一时点，不强制统一。",
+          "sources": [
+            "scratch4.dat/s23:8086",
+            "scratch4.dat/s23:10379"
+          ]
+        },
+        "legal_timeline": {
+          "rule": "1999剧情罪名准强奸罪、亲告罪按原文时代陈述；s34缓刑/实刑存在原文矛盾，翻译不抹平。尾声2000年法改及现在指作品叙述时代，不改为现实2026。",
+          "sources": [
+            "scratch4.dat/s34:8270",
+            "scratch4.dat/s34:9768",
+            "scratch4.dat/s34:13442",
+            "scratch4.dat/s35-1:11253",
+            "scratch4.dat/s37:18161",
+            "scratch4.dat/s37:18466"
+          ]
+        },
+        "bulb_revelation": {
+          "rule": "早期仅液体，不提前写汽油；汽油灯泡阶段保留角色推断。尾声供述才揭示澄佳所持仅水、石上自装5只、无论她行动与否都会爆炸；澄佳完全无辜不提前注入解答前的角色自责。",
+          "sources": [
+            "scratch4.dat/s23:1834",
+            "scratch4.dat/s25:2656",
+            "scratch4.dat/s37:2357",
+            "scratch4.dat/s37:2528",
+            "scratch4.dat/s37:2709",
+            "scratch4.dat/s37:2900",
+            "scratch4.dat/s37:3241"
+          ]
+        },
+        "letters_and_tickets": {
+          "rule": "圭子来信早期不补姓。s32未名视角调换真票为彩印假票，s33看到刑警手中假票时仅作身份推断；工藤自己的早期误判也照原文，不由译文纠正。",
+          "sources": [
+            "scratch4.dat/s02:26831",
+            "scratch4.dat/s03:908",
+            "scratch4.dat/s33:3949"
+          ]
+        },
+        "organization_titles": {
+          "rule": "永劫会会長译会长；公共会長→董事长仅适用公司语境，不能覆盖本作宗教团体。慰苦师是职称，不等同会员。預言者称谓不提前换实名。",
+          "sources": [
+            "scratch4.dat/s35:18121",
+            "scratch4.dat/s13:9932",
+            "scratch4.dat/s37:5818"
+          ]
+        },
+        "catchphrase": {
+          "rule": "癸生川8处それはいい均固定这个先不提；s27:15821 NAMAE 5为伊纲，先放在一边是普通语境，不能机械套口头禅。",
+          "sources": [
+            "scratch4.dat/s05:14895",
+            "scratch4.dat/s05:33983",
+            "scratch4.dat/s11:7869",
+            "scratch4.dat/s12:45862",
+            "scratch4.dat/s14:1731",
+            "scratch4.dat/s21:13418",
+            "scratch4.dat/s27:15821",
+            "scratch4.dat/s33:14571",
+            "scratch4.dat/s35:9832"
+          ]
+        },
+        "edition_number": {
+          "rule": "原手机版第9作保留第 9 作，Steam工程编号10不改源显示。",
+          "sources": [
+            "file/start:356"
+          ]
+        },
+        "misnaming": "生垣、斑鳩、西畳、猪苗代、井車均为癸生川故意误称石上雅人；裏庭为误称中庭友美。保留错误名称，不创建真实人物同一性。"
+      }
     }
   }
 }

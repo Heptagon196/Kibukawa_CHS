@@ -1,0 +1,18 @@
+{
+  "colors_reviewed_count": 84,
+  "notes": [
+    "逐源复核三条修订，并连读s22:1693至2709与s25:29058至29590。警察不好恢复到后一点击；梦恢复到原点击，连续中文自然，未发现新问题。",
+    "已逐条查看三个更新候选完整spans，补入点击批准文件。此前955条点击哈希全部仍匹配，现共958条。",
+    "84条颜色批准记录与最新候选哈希全部一致，保留原批准文件。"
+  ],
+  "batch": 7,
+  "findings": [],
+  "reviewer": "trans04",
+  "status": "passed",
+  "clicks_reviewed_count": 958,
+  "rechecked_ids": [
+    "scratch4.dat/s22:2340",
+    "scratch4.dat/s22:2484",
+    "scratch4.dat/s25:29359"
+  ]
+}

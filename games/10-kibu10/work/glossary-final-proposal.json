@@ -1,0 +1,3298 @@
+{
+  "schema": 2,
+  "game": "kibu10",
+  "reviewer": "trans08",
+  "status": "proposal_only_not_applied",
+  "scope": "已读取13批notes、本作锁定表、公共glossary及rules；全文词形扫描后逐相关上下文确认，非整作第二次全文语义审校。",
+  "draft_sha256": "faa6e37cddf938fb240e534f9331691a7d9ea10055ab7dc219e4b50433850cf7",
+  "confirmed_terms": [
+    {
+      "canonical": "工藤貴樹",
+      "render": "工藤贵树",
+      "category": "person_name_or_form",
+      "status": "confirmed_local",
+      "first_recorded_game": "kibu10",
+      "source_evidence": [
+        "scratch4.dat/s00:97",
+        "scratch4.dat/s00:398",
+        "scratch4.dat/s00:5710",
+        "scratch4.dat/s00:9249",
+        "scratch4.dat/s00:17973",
+        "scratch4.dat/s01:148",
+        "scratch4.dat/s01:231",
+        "scratch4.dat/s01:363",
+        "scratch4.dat/s01:1417",
+        "scratch4.dat/s01:18639",
+        "scratch4.dat/s01:22071",
+        "scratch4.dat/s01:33864",
+        "scratch4.dat/s01-1:2508",
+        "scratch4.dat/s02:105",
+        "scratch4.dat/s02:227",
+        "scratch4.dat/s02:6525",
+        "scratch4.dat/s02:6661",
+        "scratch4.dat/s02:7715",
+        "scratch4.dat/s02:10440",
+        "scratch4.dat/s02:11361",
+        "scratch4.dat/s02:22635",
+        "scratch4.dat/s02:29420",
+        "scratch4.dat/s02:33398",
+        "scratch4.dat/s02:33554",
+        "scratch4.dat/s02:44536",
+        "scratch4.dat/s03:102",
+        "scratch4.dat/s03:242",
+        "scratch4.dat/s03:2715",
+        "scratch4.dat/s03:12289",
+        "scratch4.dat/s03:19962",
+        "scratch4.dat/s03:20099",
+        "scratch4.dat/s03:20502",
+        "scratch4.dat/s03:22845",
+        "scratch4.dat/s04:118",
+        "scratch4.dat/s04:248",
+        "scratch4.dat/s04:30482",
+        "scratch4.dat/s04:30577",
+        "scratch4.dat/s04-1:19",
+        "scratch4.dat/s04-1:178",
+        "scratch4.dat/s05:111",
+        "scratch4.dat/s05:238",
+        "scratch4.dat/s05:8177",
+        "scratch4.dat/s05:8304",
+        "scratch4.dat/s05:11398",
+        "scratch4.dat/s05:12646",
+        "scratch4.dat/s05:15227",
+        "scratch4.dat/s07:57",
+        "scratch4.dat/s07:218",
+        "scratch4.dat/s07:11031",
+        "scratch4.dat/s07:12924",
+        "scratch4.dat/s36:1525:arg0",
+        "scratch4.dat/s36:2039:arg0",
+        "scratch4.dat/s36:2692:arg0",
+        "scratch4.dat/s37:4631",
+        "file/append:1562:arg0",
+        "file/append:2318",
+        "file/start:2248"
+      ],
+      "sources": [
+        "scratch4.dat/s00:97",
+        "scratch4.dat/s00:398",
+        "scratch4.dat/s00:5710",
+        "scratch4.dat/s00:9249",
+        "scratch4.dat/s00:17973",
+        "scratch4.dat/s01:148",
+        "scratch4.dat/s01:231",
+        "scratch4.dat/s01:363",
+        "scratch4.dat/s01:1417",
+        "scratch4.dat/s01:18639",
+        "scratch4.dat/s01:22071",
+        "scratch4.dat/s01:33864",
+        "scratch4.dat/s01-1:2508",
+        "scratch4.dat/s02:105",
+        "scratch4.dat/s02:227",
+        "scratch4.dat/s02:6525",
+        "scratch4.dat/s02:6661",
+        "scratch4.dat/s02:7715",
+        "scratch4.dat/s02:10440",
+        "scratch4.dat/s02:11361",
+        "scratch4.dat/s02:22635",
+        "scratch4.dat/s02:29420",
+        "scratch4.dat/s02:33398",
+        "scratch4.dat/s02:33554",
+        "scratch4.dat/s02:44536",
+        "scratch4.dat/s03:102",
+        "scratch4.dat/s03:242",
+        "scratch4.dat/s03:2715",
+        "scratch4.dat/s03:12289",
+        "scratch4.dat/s03:19962",
+        "scratch4.dat/s03:20099",
+        "scratch4.dat/s03:20502",
+        "scratch4.dat/s03:22845",
+        "scratch4.dat/s04:118",
+        "scratch4.dat/s04:248",
+        "scratch4.dat/s04:30482",
+        "scratch4.dat/s04:30577",
+        "scratch4.dat/s04-1:19",
+        "scratch4.dat/s04-1:178",
+        "scratch4.dat/s05:111",
+        "scratch4.dat/s05:238",
+        "scratch4.dat/s05:8177",
+        "scratch4.dat/s05:8304",
+        "scratch4.dat/s05:11398",
+        "scratch4.dat/s05:12646",
+        "scratch4.dat/s05:15227",
+        "scratch4.dat/s07:57",
+        "scratch4.dat/s07:218",
+        "scratch4.dat/s07:11031",
+        "scratch4.dat/s07:12924",
+        "scratch4.dat/s36:1525:arg0",
+        "scratch4.dat/s36:2039:arg0",
+        "scratch4.dat/s36:2692:arg0",
+        "scratch4.dat/s37:4631",
+        "file/append:1562:arg0",
+        "file/append:2318",
+        "file/start:2248"
+      ],
+      "note": "已核对本作原文汉字、上下文及译文；未知日语读音不推测。first_recorded_game仅为最早收录，不断言系列首次登场。",
+      "usage": "按本作原文实际称呼使用；简称不扩写全名，不提前揭示身份。",
+      "aliases": [
+        "工藤"
+      ],
+      "source_refs": [
+        "kibu10/characters/0"
+      ],
+      "proposed_public_status": "project_locked"
+    },
+    {
+      "canonical": "石上雅人",
+      "render": "石上雅人",
+      "category": "person_name_or_form",
+      "status": "confirmed_local",
+      "first_recorded_game": "kibu10",
+      "source_evidence": [
+        "scratch4.dat/s07:5783",
+        "scratch4.dat/s10:57",
+        "scratch4.dat/s10:187",
+        "scratch4.dat/s10:2121",
+        "scratch4.dat/s10:5306",
+        "scratch4.dat/s10:10803",
+        "scratch4.dat/s11:57",
+        "scratch4.dat/s11:828",
+        "scratch4.dat/s11:6704",
+        "scratch4.dat/s11:24196",
+        "scratch4.dat/s12:148",
+        "scratch4.dat/s12:278",
+        "scratch4.dat/s12:14605",
+        "scratch4.dat/s12:39928",
+        "scratch4.dat/s12:42019",
+        "scratch4.dat/s12:43124",
+        "scratch4.dat/s12:48012",
+        "scratch4.dat/s13:109",
+        "scratch4.dat/s13:254",
+        "scratch4.dat/s13:1151",
+        "scratch4.dat/s13:4246",
+        "scratch4.dat/s13:6765",
+        "scratch4.dat/s13:13985",
+        "scratch4.dat/s14:109",
+        "scratch4.dat/s14:263",
+        "scratch4.dat/s14:1139",
+        "scratch4.dat/s14:3258",
+        "scratch4.dat/s14:6105",
+        "scratch4.dat/s14:16578",
+        "scratch4.dat/s14:26066",
+        "scratch4.dat/s14:27893",
+        "scratch4.dat/s14:28311",
+        "scratch4.dat/s14:29206",
+        "scratch4.dat/s14:32056",
+        "scratch4.dat/s14:36269",
+        "scratch4.dat/s15:111",
+        "scratch4.dat/s15:231",
+        "scratch4.dat/s15:3702",
+        "scratch4.dat/s15:4238",
+        "scratch4.dat/s15:14723",
+        "scratch4.dat/s15:14873",
+        "scratch4.dat/s15:15824",
+        "scratch4.dat/s15:23493",
+        "scratch4.dat/s17:4134",
+        "scratch4.dat/s35:16757",
+        "scratch4.dat/s35-2:44878",
+        "scratch4.dat/s36:1642:arg0",
+        "scratch4.dat/s36:2156:arg0",
+        "scratch4.dat/s36:2809:arg0",
+        "scratch4.dat/s36:31145",
+        "scratch4.dat/s36:32585",
+        "scratch4.dat/s37:2213",
+        "scratch4.dat/s37:4000",
+        "file/append:1583:arg0",
+        "file/append:2531",
+        "file/start:2546"
+      ],
+      "sources": [
+        "scratch4.dat/s07:5783",
+        "scratch4.dat/s10:57",
+        "scratch4.dat/s10:187",
+        "scratch4.dat/s10:2121",
+        "scratch4.dat/s10:5306",
+        "scratch4.dat/s10:10803",
+        "scratch4.dat/s11:57",
+        "scratch4.dat/s11:828",
+        "scratch4.dat/s11:6704",
+        "scratch4.dat/s11:24196",
+        "scratch4.dat/s12:148",
+        "scratch4.dat/s12:278",
+        "scratch4.dat/s12:14605",
+        "scratch4.dat/s12:39928",
+        "scratch4.dat/s12:42019",
+        "scratch4.dat/s12:43124",
+        "scratch4.dat/s12:48012",
+        "scratch4.dat/s13:109",
+        "scratch4.dat/s13:254",
+        "scratch4.dat/s13:1151",
+        "scratch4.dat/s13:4246",
+        "scratch4.dat/s13:6765",
+        "scratch4.dat/s13:13985",
+        "scratch4.dat/s14:109",
+        "scratch4.dat/s14:263",
+        "scratch4.dat/s14:1139",
+        "scratch4.dat/s14:3258",
+        "scratch4.dat/s14:6105",
+        "scratch4.dat/s14:16578",
+        "scratch4.dat/s14:26066",
+        "scratch4.dat/s14:27893",
+        "scratch4.dat/s14:28311",
+        "scratch4.dat/s14:29206",
+        "scratch4.dat/s14:32056",
+        "scratch4.dat/s14:36269",
+        "scratch4.dat/s15:111",
+        "scratch4.dat/s15:231",
+        "scratch4.dat/s15:3702",
+        "scratch4.dat/s15:4238",
+        "scratch4.dat/s15:14723",
+        "scratch4.dat/s15:14873",
+        "scratch4.dat/s15:15824",
+        "scratch4.dat/s15:23493",
+        "scratch4.dat/s17:4134",
+        "scratch4.dat/s35:16757",
+        "scratch4.dat/s35-2:44878",
+        "scratch4.dat/s36:1642:arg0",
+        "scratch4.dat/s36:2156:arg0",
+        "scratch4.dat/s36:2809:arg0",
+        "scratch4.dat/s36:31145",
+        "scratch4.dat/s36:32585",
+        "scratch4.dat/s37:2213",
+        "scratch4.dat/s37:4000",
+        "file/append:1583:arg0",
+        "file/append:2531",
+        "file/start:2546"
+      ],
+      "note": "已核对本作原文汉字、上下文及译文；未知日语读音不推测。first_recorded_game仅为最早收录，不断言系列首次登场。",
+      "usage": "按本作原文实际称呼使用；简称不扩写全名，不提前揭示身份。",
+      "aliases": [
+        "石上"
+      ],
+      "source_refs": [
+        "kibu10/characters/1"
+      ],
+      "proposed_public_status": "project_locked"
+    },
+    {
+      "canonical": "妹浦澄佳",
+      "render": "妹浦澄佳",
+      "category": "person_name_or_form",
+      "status": "confirmed_local",
+      "first_recorded_game": "kibu10",
+      "source_evidence": [
+        "scratch4.dat/s04-1:3160",
+        "scratch4.dat/s04-1:6327",
+        "scratch4.dat/s04-1:6777",
+        "scratch4.dat/s05:730",
+        "scratch4.dat/s05:2033",
+        "scratch4.dat/s05:2668",
+        "scratch4.dat/s05:4033",
+        "scratch4.dat/s05:4477",
+        "scratch4.dat/s05:4817",
+        "scratch4.dat/s05:5441",
+        "scratch4.dat/s05:5852",
+        "scratch4.dat/s05:5973",
+        "scratch4.dat/s05:7327",
+        "scratch4.dat/s05:7535",
+        "scratch4.dat/s05:7848",
+        "scratch4.dat/s05:8602",
+        "scratch4.dat/s05:10155",
+        "scratch4.dat/s05:10493",
+        "scratch4.dat/s05:16214:arg0",
+        "scratch4.dat/s05:17458",
+        "scratch4.dat/s05:17507",
+        "scratch4.dat/s05:17763",
+        "scratch4.dat/s05:18246",
+        "scratch4.dat/s05:19219",
+        "scratch4.dat/s05:19707",
+        "scratch4.dat/s05:27711",
+        "scratch4.dat/s05:27879",
+        "scratch4.dat/s05:28098",
+        "scratch4.dat/s05:28612",
+        "scratch4.dat/s05:29634",
+        "scratch4.dat/s05:29999",
+        "scratch4.dat/s05:30496",
+        "scratch4.dat/s05:31903",
+        "scratch4.dat/s05:35139",
+        "scratch4.dat/s07:2556",
+        "scratch4.dat/s07:3849",
+        "scratch4.dat/s07:5629",
+        "scratch4.dat/s07:6326",
+        "scratch4.dat/s07:7083",
+        "scratch4.dat/s07:7537",
+        "scratch4.dat/s07:8225",
+        "scratch4.dat/s07:9074",
+        "scratch4.dat/s07:10174",
+        "scratch4.dat/s11:17603",
+        "scratch4.dat/s11:17700",
+        "scratch4.dat/s11:21950",
+        "scratch4.dat/s13:11207",
+        "scratch4.dat/s13:11351",
+        "scratch4.dat/s13:11926",
+        "scratch4.dat/s13:15138",
+        "scratch4.dat/s13:15578:arg0",
+        "scratch4.dat/s14:43623",
+        "scratch4.dat/s15:6206",
+        "scratch4.dat/s15:7048",
+        "scratch4.dat/s15:8413",
+        "scratch4.dat/s15:24603",
+        "scratch4.dat/s21:93",
+        "scratch4.dat/s21:238",
+        "scratch4.dat/s21:1592",
+        "scratch4.dat/s21:1969",
+        "scratch4.dat/s21:2285",
+        "scratch4.dat/s21:2451",
+        "scratch4.dat/s21:2596",
+        "scratch4.dat/s21:5772",
+        "scratch4.dat/s21:5913",
+        "scratch4.dat/s21:7926",
+        "scratch4.dat/s21:14429",
+        "scratch4.dat/s21:14570",
+        "scratch4.dat/s22:57",
+        "scratch4.dat/s22:187",
+        "scratch4.dat/s22:3589",
+        "scratch4.dat/s22:3730",
+        "scratch4.dat/s23:57",
+        "scratch4.dat/s23:182",
+        "scratch4.dat/s23:2497",
+        "scratch4.dat/s23:4517",
+        "scratch4.dat/s23:4647",
+        "scratch4.dat/s23:10996",
+        "scratch4.dat/s24:57",
+        "scratch4.dat/s24:187",
+        "scratch4.dat/s25:113",
+        "scratch4.dat/s25:243",
+        "scratch4.dat/s25:19090",
+        "scratch4.dat/s25:19220",
+        "scratch4.dat/s25:20671",
+        "scratch4.dat/s25:24476",
+        "scratch4.dat/s25:25287",
+        "scratch4.dat/s25:30548",
+        "scratch4.dat/s25:30711",
+        "scratch4.dat/s25:30792",
+        "scratch4.dat/s25:30927",
+        "scratch4.dat/s27:4431",
+        "scratch4.dat/s27:17670",
+        "scratch4.dat/s35:11194",
+        "scratch4.dat/s35:14652",
+        "scratch4.dat/s35:16882",
+        "scratch4.dat/s35:19036",
+        "scratch4.dat/s35:20178",
+        "scratch4.dat/s35:43400:arg0",
+        "scratch4.dat/s35:44713",
+        "scratch4.dat/s35:44869",
+        "scratch4.dat/s35-1:868",
+        "scratch4.dat/s35-1:2823",
+        "scratch4.dat/s35-1:4093",
+        "scratch4.dat/s35-1:16377",
+        "scratch4.dat/s35-1:23372",
+        "scratch4.dat/s35-1:28462:arg0",
+        "scratch4.dat/s35-1:28532",
+        "scratch4.dat/s35-1:28702",
+        "scratch4.dat/s35-1:28980",
+        "scratch4.dat/s35-1:29176",
+        "scratch4.dat/s35-1:29704",
+        "scratch4.dat/s35-1:30015",
+        "scratch4.dat/s35-1:30246",
+        "scratch4.dat/s35-1:30877",
+        "scratch4.dat/s35-2:2295:arg0",
+        "scratch4.dat/s35-2:4354:arg0",
+        "scratch4.dat/s35-2:14857:arg0",
+        "scratch4.dat/s35-2:20817",
+        "scratch4.dat/s35-2:20879",
+        "scratch4.dat/s35-2:22942",
+        "scratch4.dat/s35-2:29162",
+        "scratch4.dat/s35-2:34595",
+        "scratch4.dat/s36:1692:arg0",
+        "scratch4.dat/s36:1751",
+        "scratch4.dat/s36:1893",
+        "scratch4.dat/s36:2206:arg0",
+        "scratch4.dat/s36:2265",
+        "scratch4.dat/s36:2859:arg0",
+        "scratch4.dat/s36:15061",
+        "scratch4.dat/s36:15614",
+        "scratch4.dat/s36:20691",
+        "scratch4.dat/s36:21472",
+        "scratch4.dat/s36:34442",
+        "scratch4.dat/s36:35133",
+        "scratch4.dat/s36:37481",
+        "scratch4.dat/s37:4631",
+        "file/append:1604:arg0",
+        "file/append:2875",
+        "file/define:1034:arg1"
+      ],
+      "sources": [
+        "scratch4.dat/s04-1:3160",
+        "scratch4.dat/s04-1:6327",
+        "scratch4.dat/s04-1:6777",
+        "scratch4.dat/s05:730",
+        "scratch4.dat/s05:2033",
+        "scratch4.dat/s05:2668",
+        "scratch4.dat/s05:4033",
+        "scratch4.dat/s05:4477",
+        "scratch4.dat/s05:4817",
+        "scratch4.dat/s05:5441",
+        "scratch4.dat/s05:5852",
+        "scratch4.dat/s05:5973",
+        "scratch4.dat/s05:7327",
+        "scratch4.dat/s05:7535",
+        "scratch4.dat/s05:7848",
+        "scratch4.dat/s05:8602",
+        "scratch4.dat/s05:10155",
+        "scratch4.dat/s05:10493",
+        "scratch4.dat/s05:16214:arg0",
+        "scratch4.dat/s05:17458",
+        "scratch4.dat/s05:17507",
+        "scratch4.dat/s05:17763",
+        "scratch4.dat/s05:18246",
+        "scratch4.dat/s05:19219",
+        "scratch4.dat/s05:19707",
+        "scratch4.dat/s05:27711",
+        "scratch4.dat/s05:27879",
+        "scratch4.dat/s05:28098",
+        "scratch4.dat/s05:28612",
+        "scratch4.dat/s05:29634",
+        "scratch4.dat/s05:29999",
+        "scratch4.dat/s05:30496",
+        "scratch4.dat/s05:31903",
+        "scratch4.dat/s05:35139",
+        "scratch4.dat/s07:2556",
+        "scratch4.dat/s07:3849",
+        "scratch4.dat/s07:5629",
+        "scratch4.dat/s07:6326",
+        "scratch4.dat/s07:7083",
+        "scratch4.dat/s07:7537",
+        "scratch4.dat/s07:8225",
+        "scratch4.dat/s07:9074",
+        "scratch4.dat/s07:10174",
+        "scratch4.dat/s11:17603",
+        "scratch4.dat/s11:17700",
+        "scratch4.dat/s11:21950",
+        "scratch4.dat/s13:11207",
+        "scratch4.dat/s13:11351",
+        "scratch4.dat/s13:11926",
+        "scratch4.dat/s13:15138",
+        "scratch4.dat/s13:15578:arg0",
+        "scratch4.dat/s14:43623",
+        "scratch4.dat/s15:6206",
+        "scratch4.dat/s15:7048",
+        "scratch4.dat/s15:8413",
+        "scratch4.dat/s15:24603",
+        "scratch4.dat/s21:93",
+        "scratch4.dat/s21:238",
+        "scratch4.dat/s21:1592",
+        "scratch4.dat/s21:1969",
+        "scratch4.dat/s21:2285",
+        "scratch4.dat/s21:2451",
+        "scratch4.dat/s21:2596",
+        "scratch4.dat/s21:5772",
+        "scratch4.dat/s21:5913",
+        "scratch4.dat/s21:7926",
+        "scratch4.dat/s21:14429",
+        "scratch4.dat/s21:14570",
+        "scratch4.dat/s22:57",
+        "scratch4.dat/s22:187",
+        "scratch4.dat/s22:3589",
+        "scratch4.dat/s22:3730",
+        "scratch4.dat/s23:57",
+        "scratch4.dat/s23:182",
+        "scratch4.dat/s23:2497",
+        "scratch4.dat/s23:4517",
+        "scratch4.dat/s23:4647",
+        "scratch4.dat/s23:10996",
+        "scratch4.dat/s24:57",
+        "scratch4.dat/s24:187",
+        "scratch4.dat/s25:113",
+        "scratch4.dat/s25:243",
+        "scratch4.dat/s25:19090",
+        "scratch4.dat/s25:19220",
+        "scratch4.dat/s25:20671",
+        "scratch4.dat/s25:24476",
+        "scratch4.dat/s25:25287",
+        "scratch4.dat/s25:30548",
+        "scratch4.dat/s25:30711",
+        "scratch4.dat/s25:30792",
+        "scratch4.dat/s25:30927",
+        "scratch4.dat/s27:4431",
+        "scratch4.dat/s27:17670",
+        "scratch4.dat/s35:11194",
+        "scratch4.dat/s35:14652",
+        "scratch4.dat/s35:16882",
+        "scratch4.dat/s35:19036",
+        "scratch4.dat/s35:20178",
+        "scratch4.dat/s35:43400:arg0",
+        "scratch4.dat/s35:44713",
+        "scratch4.dat/s35:44869",
+        "scratch4.dat/s35-1:868",
+        "scratch4.dat/s35-1:2823",
+        "scratch4.dat/s35-1:4093",
+        "scratch4.dat/s35-1:16377",
+        "scratch4.dat/s35-1:23372",
+        "scratch4.dat/s35-1:28462:arg0",
+        "scratch4.dat/s35-1:28532",
+        "scratch4.dat/s35-1:28702",
+        "scratch4.dat/s35-1:28980",
+        "scratch4.dat/s35-1:29176",
+        "scratch4.dat/s35-1:29704",
+        "scratch4.dat/s35-1:30015",
+        "scratch4.dat/s35-1:30246",
+        "scratch4.dat/s35-1:30877",
+        "scratch4.dat/s35-2:2295:arg0",
+        "scratch4.dat/s35-2:4354:arg0",
+        "scratch4.dat/s35-2:14857:arg0",
+        "scratch4.dat/s35-2:20817",
+        "scratch4.dat/s35-2:20879",
+        "scratch4.dat/s35-2:22942",
+        "scratch4.dat/s35-2:29162",
+        "scratch4.dat/s35-2:34595",
+        "scratch4.dat/s36:1692:arg0",
+        "scratch4.dat/s36:1751",
+        "scratch4.dat/s36:1893",
+        "scratch4.dat/s36:2206:arg0",
+        "scratch4.dat/s36:2265",
+        "scratch4.dat/s36:2859:arg0",
+        "scratch4.dat/s36:15061",
+        "scratch4.dat/s36:15614",
+        "scratch4.dat/s36:20691",
+        "scratch4.dat/s36:21472",
+        "scratch4.dat/s36:34442",
+        "scratch4.dat/s36:35133",
+        "scratch4.dat/s36:37481",
+        "scratch4.dat/s37:4631",
+        "file/append:1604:arg0",
+        "file/append:2875",
+        "file/define:1034:arg1"
+      ],
+      "note": "已核对本作原文汉字、上下文及译文；未知日语读音不推测。first_recorded_game仅为最早收录，不断言系列首次登场。",
+      "usage": "按本作原文实际称呼使用；简称不扩写全名，不提前揭示身份。",
+      "aliases": [
+        "妹浦",
+        "澄佳"
+      ],
+      "source_refs": [
+        "kibu10/characters/2"
+      ],
+      "proposed_public_status": "project_locked"
+    },
+    {
+      "canonical": "門沢文治",
+      "render": "门泽文治",
+      "category": "person_name_or_form",
+      "status": "confirmed_local",
+      "first_recorded_game": "kibu10",
+      "source_evidence": [
+        "scratch4.dat/s01:6207",
+        "scratch4.dat/s01:6702",
+        "scratch4.dat/s01:8190",
+        "scratch4.dat/s01:8739",
+        "scratch4.dat/s01:42127",
+        "scratch4.dat/s01:42641",
+        "scratch4.dat/s01-1:29:arg0",
+        "scratch4.dat/s01-1:2572",
+        "scratch4.dat/s01-1:10935:arg0",
+        "scratch4.dat/s01-1:11493",
+        "scratch4.dat/s02:366",
+        "scratch4.dat/s02:17668",
+        "scratch4.dat/s03:9387",
+        "scratch4.dat/s03:9556",
+        "scratch4.dat/s03:19479",
+        "scratch4.dat/s04:345",
+        "scratch4.dat/s04:1288",
+        "scratch4.dat/s04:7725",
+        "scratch4.dat/s04:9755",
+        "scratch4.dat/s05:4477",
+        "scratch4.dat/s05:20081",
+        "scratch4.dat/s05:26107",
+        "scratch4.dat/s12:32990",
+        "scratch4.dat/s14:24716",
+        "scratch4.dat/s31:1111",
+        "scratch4.dat/s31:1893",
+        "scratch4.dat/s31:9401",
+        "scratch4.dat/s32:57",
+        "scratch4.dat/s32:198",
+        "scratch4.dat/s32:260",
+        "scratch4.dat/s32:665",
+        "scratch4.dat/s33:4546",
+        "scratch4.dat/s34:1661",
+        "scratch4.dat/s34:2232",
+        "scratch4.dat/s34:6101",
+        "scratch4.dat/s35:7573",
+        "scratch4.dat/s35:12798",
+        "scratch4.dat/s35-1:17428",
+        "scratch4.dat/s35-1:37957",
+        "scratch4.dat/s35-1:44357",
+        "scratch4.dat/s35-1:46467",
+        "scratch4.dat/s36:1389",
+        "scratch4.dat/s36:39529",
+        "file/define:1449:arg1"
+      ],
+      "sources": [
+        "scratch4.dat/s01:6207",
+        "scratch4.dat/s01:6702",
+        "scratch4.dat/s01:8190",
+        "scratch4.dat/s01:8739",
+        "scratch4.dat/s01:42127",
+        "scratch4.dat/s01:42641",
+        "scratch4.dat/s01-1:29:arg0",
+        "scratch4.dat/s01-1:2572",
+        "scratch4.dat/s01-1:10935:arg0",
+        "scratch4.dat/s01-1:11493",
+        "scratch4.dat/s02:366",
+        "scratch4.dat/s02:17668",
+        "scratch4.dat/s03:9387",
+        "scratch4.dat/s03:9556",
+        "scratch4.dat/s03:19479",
+        "scratch4.dat/s04:345",
+        "scratch4.dat/s04:1288",
+        "scratch4.dat/s04:7725",
+        "scratch4.dat/s04:9755",
+        "scratch4.dat/s05:4477",
+        "scratch4.dat/s05:20081",
+        "scratch4.dat/s05:26107",
+        "scratch4.dat/s12:32990",
+        "scratch4.dat/s14:24716",
+        "scratch4.dat/s31:1111",
+        "scratch4.dat/s31:1893",
+        "scratch4.dat/s31:9401",
+        "scratch4.dat/s32:57",
+        "scratch4.dat/s32:198",
+        "scratch4.dat/s32:260",
+        "scratch4.dat/s32:665",
+        "scratch4.dat/s33:4546",
+        "scratch4.dat/s34:1661",
+        "scratch4.dat/s34:2232",
+        "scratch4.dat/s34:6101",
+        "scratch4.dat/s35:7573",
+        "scratch4.dat/s35:12798",
+        "scratch4.dat/s35-1:17428",
+        "scratch4.dat/s35-1:37957",
+        "scratch4.dat/s35-1:44357",
+        "scratch4.dat/s35-1:46467",
+        "scratch4.dat/s36:1389",
+        "scratch4.dat/s36:39529",
+        "file/define:1449:arg1"
+      ],
+      "note": "已核对本作原文汉字、上下文及译文；未知日语读音不推测。first_recorded_game仅为最早收录，不断言系列首次登场。",
+      "usage": "按本作原文实际称呼使用；简称不扩写全名，不提前揭示身份。",
+      "aliases": [
+        "門沢"
+      ],
+      "source_refs": [
+        "kibu10/characters/3"
+      ],
+      "proposed_public_status": "project_locked"
+    },
+    {
+      "canonical": "尾場優子",
+      "render": "尾场优子",
+      "category": "person_name_or_form",
+      "status": "confirmed_local",
+      "first_recorded_game": "kibu10",
+      "source_evidence": [
+        "scratch4.dat/s04:33818:arg0",
+        "scratch4.dat/s35:28342",
+        "scratch4.dat/s35:48849:arg0",
+        "scratch4.dat/s36:1549:arg0",
+        "scratch4.dat/s36:2063:arg0",
+        "scratch4.dat/s36:2716:arg0",
+        "scratch4.dat/s36:28134",
+        "file/append:1648:arg0",
+        "file/append:3328"
+      ],
+      "sources": [
+        "scratch4.dat/s04:33818:arg0",
+        "scratch4.dat/s35:28342",
+        "scratch4.dat/s35:48849:arg0",
+        "scratch4.dat/s36:1549:arg0",
+        "scratch4.dat/s36:2063:arg0",
+        "scratch4.dat/s36:2716:arg0",
+        "scratch4.dat/s36:28134",
+        "file/append:1648:arg0",
+        "file/append:3328"
+      ],
+      "note": "已核对本作原文汉字、上下文及译文；未知日语读音不推测。first_recorded_game仅为最早收录，不断言系列首次登场。",
+      "usage": "按本作原文实际称呼使用；简称不扩写全名，不提前揭示身份。",
+      "aliases": [
+        "優子"
+      ],
+      "source_refs": [
+        "kibu10/characters/16"
+      ],
+      "proposed_public_status": "project_locked"
+    },
+    {
+      "canonical": "円口遼一",
+      "render": "圆口辽一",
+      "category": "person_name_or_form",
+      "status": "confirmed_local",
+      "first_recorded_game": "kibu10",
+      "source_evidence": [
+        "scratch4.dat/s01-1:1857",
+        "scratch4.dat/s01-1:10953:arg0",
+        "scratch4.dat/s36:1561:arg0",
+        "scratch4.dat/s36:2075:arg0",
+        "scratch4.dat/s36:2728:arg0",
+        "scratch4.dat/s37:17466",
+        "file/append:1669:arg0"
+      ],
+      "sources": [
+        "scratch4.dat/s01-1:1857",
+        "scratch4.dat/s01-1:10953:arg0",
+        "scratch4.dat/s36:1561:arg0",
+        "scratch4.dat/s36:2075:arg0",
+        "scratch4.dat/s36:2728:arg0",
+        "scratch4.dat/s37:17466",
+        "file/append:1669:arg0"
+      ],
+      "note": "已核对本作原文汉字、上下文及译文；未知日语读音不推测。first_recorded_game仅为最早收录，不断言系列首次登场。",
+      "usage": "正文刑警与片尾命名协助同名署名保留各自场景，不认定为现实同一实体。",
+      "aliases": [
+        "円口"
+      ],
+      "source_refs": [
+        "kibu10/characters/17"
+      ],
+      "proposed_public_status": "project_locked"
+    },
+    {
+      "canonical": "矢当トウヤ",
+      "render": "矢当托也",
+      "category": "person_name_or_form",
+      "status": "confirmed_local",
+      "first_recorded_game": "kibu10",
+      "source_evidence": [
+        "scratch4.dat/s02:21540",
+        "scratch4.dat/s02:21841",
+        "scratch4.dat/s36:1587:arg0",
+        "scratch4.dat/s36:2101:arg0",
+        "scratch4.dat/s36:2754:arg0",
+        "file/append:1690:arg0",
+        "file/append:4020"
+      ],
+      "sources": [
+        "scratch4.dat/s02:21540",
+        "scratch4.dat/s02:21841",
+        "scratch4.dat/s36:1587:arg0",
+        "scratch4.dat/s36:2101:arg0",
+        "scratch4.dat/s36:2754:arg0",
+        "file/append:1690:arg0",
+        "file/append:4020"
+      ],
+      "note": "トウヤ采用协调确认音译托也，不推测汉字名；姓氏读音梗Yatou误读、Yaatari纠正已明确。",
+      "usage": "按本作原文实际称呼使用；简称不扩写全名，不提前揭示身份。",
+      "aliases": [
+        "矢当"
+      ],
+      "source_refs": [
+        "kibu10/characters/18"
+      ],
+      "proposed_public_status": "project_locked"
+    },
+    {
+      "canonical": "柚木香波",
+      "render": "柚木香波",
+      "category": "person_name_or_form",
+      "status": "confirmed_local",
+      "first_recorded_game": "kibu10",
+      "source_evidence": [
+        "scratch4.dat/s02:4801",
+        "scratch4.dat/s02:32246",
+        "scratch4.dat/s04:8099",
+        "scratch4.dat/s36:1601:arg0",
+        "scratch4.dat/s36:2115:arg0",
+        "scratch4.dat/s36:2768:arg0",
+        "file/append:1728:arg0",
+        "file/append:4282"
+      ],
+      "sources": [
+        "scratch4.dat/s02:4801",
+        "scratch4.dat/s02:32246",
+        "scratch4.dat/s04:8099",
+        "scratch4.dat/s36:1601:arg0",
+        "scratch4.dat/s36:2115:arg0",
+        "scratch4.dat/s36:2768:arg0",
+        "file/append:1728:arg0",
+        "file/append:4282"
+      ],
+      "note": "已核对本作原文汉字、上下文及译文；未知日语读音不推测。first_recorded_game仅为最早收录，不断言系列首次登场。",
+      "usage": "按本作原文实际称呼使用；简称不扩写全名，不提前揭示身份。",
+      "aliases": [
+        "柚木"
+      ],
+      "source_refs": [
+        "kibu10/characters/19"
+      ],
+      "proposed_public_status": "project_locked"
+    },
+    {
+      "canonical": "美馬圭子",
+      "render": "美马圭子",
+      "category": "person_name_or_form",
+      "status": "confirmed_local",
+      "first_recorded_game": "kibu10",
+      "source_evidence": [
+        "scratch4.dat/s35-1:33782",
+        "scratch4.dat/s35-1:33891",
+        "scratch4.dat/s35-1:38176",
+        "scratch4.dat/s35-1:38380",
+        "scratch4.dat/s35-1:40617",
+        "scratch4.dat/s35-1:41924:arg0",
+        "scratch4.dat/s36:1613:arg0",
+        "scratch4.dat/s36:2127:arg0",
+        "scratch4.dat/s36:2780:arg0",
+        "scratch4.dat/s36:39484",
+        "file/append:1749:arg0",
+        "file/append:4584"
+      ],
+      "sources": [
+        "scratch4.dat/s35-1:33782",
+        "scratch4.dat/s35-1:33891",
+        "scratch4.dat/s35-1:38176",
+        "scratch4.dat/s35-1:38380",
+        "scratch4.dat/s35-1:40617",
+        "scratch4.dat/s35-1:41924:arg0",
+        "scratch4.dat/s36:1613:arg0",
+        "scratch4.dat/s36:2127:arg0",
+        "scratch4.dat/s36:2780:arg0",
+        "scratch4.dat/s36:39484",
+        "file/append:1749:arg0",
+        "file/append:4584"
+      ],
+      "note": "已核对本作原文汉字、上下文及译文；未知日语读音不推测。first_recorded_game仅为最早收录，不断言系列首次登场。",
+      "usage": "按本作原文实际称呼使用；简称不扩写全名，不提前揭示身份。",
+      "aliases": [
+        "美馬"
+      ],
+      "source_refs": [
+        "kibu10/characters/20"
+      ],
+      "proposed_public_status": "project_locked"
+    },
+    {
+      "canonical": "中庭友美",
+      "render": "中庭友美",
+      "category": "person_name_or_form",
+      "status": "confirmed_local",
+      "first_recorded_game": "kibu10",
+      "source_evidence": [
+        "scratch4.dat/s04-1:267",
+        "scratch4.dat/s04-1:6484:arg0",
+        "scratch4.dat/s12:1819",
+        "scratch4.dat/s12:14119:arg0",
+        "scratch4.dat/s13:15566:arg0",
+        "scratch4.dat/s13:15625",
+        "scratch4.dat/s13:17243",
+        "scratch4.dat/s13:17382",
+        "scratch4.dat/s35:35406:arg0",
+        "scratch4.dat/s35-1:39060",
+        "scratch4.dat/s35-2:35458",
+        "scratch4.dat/s36:1654:arg0",
+        "scratch4.dat/s36:2168:arg0",
+        "scratch4.dat/s36:2821:arg0",
+        "scratch4.dat/s36:14478",
+        "scratch4.dat/s37:12212",
+        "file/append:1770:arg0",
+        "file/append:4767"
+      ],
+      "sources": [
+        "scratch4.dat/s04-1:267",
+        "scratch4.dat/s04-1:6484:arg0",
+        "scratch4.dat/s12:1819",
+        "scratch4.dat/s12:14119:arg0",
+        "scratch4.dat/s13:15566:arg0",
+        "scratch4.dat/s13:15625",
+        "scratch4.dat/s13:17243",
+        "scratch4.dat/s13:17382",
+        "scratch4.dat/s35:35406:arg0",
+        "scratch4.dat/s35-1:39060",
+        "scratch4.dat/s35-2:35458",
+        "scratch4.dat/s36:1654:arg0",
+        "scratch4.dat/s36:2168:arg0",
+        "scratch4.dat/s36:2821:arg0",
+        "scratch4.dat/s36:14478",
+        "scratch4.dat/s37:12212",
+        "file/append:1770:arg0",
+        "file/append:4767"
+      ],
+      "note": "已核对本作原文汉字、上下文及译文；未知日语读音不推测。first_recorded_game仅为最早收录，不断言系列首次登场。",
+      "usage": "按本作原文实际称呼使用；简称不扩写全名，不提前揭示身份。",
+      "aliases": [
+        "中庭"
+      ],
+      "source_refs": [
+        "kibu10/characters/21"
+      ],
+      "proposed_public_status": "project_locked"
+    },
+    {
+      "canonical": "松田尚剛",
+      "render": "松田尚刚",
+      "category": "person_name_or_form",
+      "status": "confirmed_local",
+      "first_recorded_game": "kibu10",
+      "source_evidence": [
+        "scratch4.dat/s12:4330",
+        "scratch4.dat/s12:4462",
+        "scratch4.dat/s12:14683",
+        "scratch4.dat/s12:30072:arg0",
+        "scratch4.dat/s12:38192:arg0",
+        "scratch4.dat/s13:18612",
+        "scratch4.dat/s14:16656",
+        "scratch4.dat/s34:4623",
+        "scratch4.dat/s35:35382:arg0",
+        "scratch4.dat/s35-1:39060",
+        "scratch4.dat/s35-2:5319:arg0",
+        "scratch4.dat/s35-2:6606",
+        "scratch4.dat/s36:1666:arg0",
+        "scratch4.dat/s36:2180:arg0",
+        "scratch4.dat/s36:2833:arg0",
+        "scratch4.dat/s37:6150",
+        "scratch4.dat/s37:17356",
+        "file/append:1782:arg0",
+        "file/append:5131"
+      ],
+      "sources": [
+        "scratch4.dat/s12:4330",
+        "scratch4.dat/s12:4462",
+        "scratch4.dat/s12:14683",
+        "scratch4.dat/s12:30072:arg0",
+        "scratch4.dat/s12:38192:arg0",
+        "scratch4.dat/s13:18612",
+        "scratch4.dat/s14:16656",
+        "scratch4.dat/s34:4623",
+        "scratch4.dat/s35:35382:arg0",
+        "scratch4.dat/s35-1:39060",
+        "scratch4.dat/s35-2:5319:arg0",
+        "scratch4.dat/s35-2:6606",
+        "scratch4.dat/s36:1666:arg0",
+        "scratch4.dat/s36:2180:arg0",
+        "scratch4.dat/s36:2833:arg0",
+        "scratch4.dat/s37:6150",
+        "scratch4.dat/s37:17356",
+        "file/append:1782:arg0",
+        "file/append:5131"
+      ],
+      "note": "已核对本作原文汉字、上下文及译文；未知日语读音不推测。first_recorded_game仅为最早收录，不断言系列首次登场。",
+      "usage": "正文指美纪惠父亲时按原称呼；姓松田也可能指美纪惠，不能全局扩写。片尾命名协助同名署名不等同剧情人物。",
+      "aliases": [
+        "尚剛"
+      ],
+      "source_refs": [
+        "kibu10/characters/22"
+      ],
+      "proposed_public_status": "project_locked"
+    },
+    {
+      "canonical": "松田美紀恵",
+      "render": "松田美纪惠",
+      "category": "person_name_or_form",
+      "status": "confirmed_local",
+      "first_recorded_game": "kibu10",
+      "source_evidence": [
+        "scratch4.dat/s04:8833",
+        "scratch4.dat/s04:9215",
+        "scratch4.dat/s13:18144",
+        "scratch4.dat/s14:1624",
+        "scratch4.dat/s33:14464",
+        "scratch4.dat/s33:14958",
+        "scratch4.dat/s34:1453:arg0",
+        "scratch4.dat/s35:19567",
+        "scratch4.dat/s35:20178",
+        "scratch4.dat/s35-1:38176",
+        "scratch4.dat/s36:1678:arg0",
+        "scratch4.dat/s36:2192:arg0",
+        "scratch4.dat/s36:2845:arg0",
+        "scratch4.dat/s37:6150"
+      ],
+      "sources": [
+        "scratch4.dat/s04:8833",
+        "scratch4.dat/s04:9215",
+        "scratch4.dat/s13:18144",
+        "scratch4.dat/s14:1624",
+        "scratch4.dat/s33:14464",
+        "scratch4.dat/s33:14958",
+        "scratch4.dat/s34:1453:arg0",
+        "scratch4.dat/s35:19567",
+        "scratch4.dat/s35:20178",
+        "scratch4.dat/s35-1:38176",
+        "scratch4.dat/s36:1678:arg0",
+        "scratch4.dat/s36:2192:arg0",
+        "scratch4.dat/s36:2845:arg0",
+        "scratch4.dat/s37:6150"
+      ],
+      "note": "已核对本作原文汉字、上下文及译文；未知日语读音不推测。first_recorded_game仅为最早收录，不断言系列首次登场。",
+      "usage": "按本作原文实际称呼使用；简称不扩写全名，不提前揭示身份。",
+      "aliases": [
+        "美紀恵"
+      ],
+      "proposed_public_status": "project_locked"
+    },
+    {
+      "canonical": "赤洲妖星",
+      "render": "赤洲妖星",
+      "category": "person_name_or_form",
+      "status": "confirmed_local",
+      "first_recorded_game": "kibu10",
+      "source_evidence": [
+        "scratch4.dat/s12:26219",
+        "scratch4.dat/s12:26373",
+        "scratch4.dat/s12:31113",
+        "scratch4.dat/s12:38180:arg0",
+        "scratch4.dat/s17:57",
+        "scratch4.dat/s17:212",
+        "scratch4.dat/s36:1704:arg0",
+        "scratch4.dat/s36:2218:arg0",
+        "scratch4.dat/s36:2871:arg0",
+        "scratch4.dat/s36:29920",
+        "file/append:1794:arg0",
+        "file/append:5606"
+      ],
+      "sources": [
+        "scratch4.dat/s12:26219",
+        "scratch4.dat/s12:26373",
+        "scratch4.dat/s12:31113",
+        "scratch4.dat/s12:38180:arg0",
+        "scratch4.dat/s17:57",
+        "scratch4.dat/s17:212",
+        "scratch4.dat/s36:1704:arg0",
+        "scratch4.dat/s36:2218:arg0",
+        "scratch4.dat/s36:2871:arg0",
+        "scratch4.dat/s36:29920",
+        "file/append:1794:arg0",
+        "file/append:5606"
+      ],
+      "note": "已核对本作原文汉字、上下文及译文；未知日语读音不推测。first_recorded_game仅为最早收录，不断言系列首次登场。",
+      "usage": "按本作原文实际称呼使用；简称不扩写全名，不提前揭示身份。",
+      "aliases": [
+        "赤洲"
+      ],
+      "source_refs": [
+        "kibu10/characters/23"
+      ],
+      "proposed_public_status": "project_locked"
+    },
+    {
+      "canonical": "釈迦堂弓子",
+      "render": "释迦堂弓子",
+      "category": "person_name_or_form",
+      "status": "confirmed_local",
+      "first_recorded_game": "kibu10",
+      "source_evidence": [
+        "scratch4.dat/s13:9932",
+        "scratch4.dat/s13:15599:arg0",
+        "scratch4.dat/s13:16115",
+        "scratch4.dat/s35:18257",
+        "scratch4.dat/s36:1716:arg0",
+        "scratch4.dat/s36:2230:arg0",
+        "scratch4.dat/s36:2883:arg0",
+        "scratch4.dat/s36:16383",
+        "file/append:1815:arg0",
+        "file/append:5381"
+      ],
+      "sources": [
+        "scratch4.dat/s13:9932",
+        "scratch4.dat/s13:15599:arg0",
+        "scratch4.dat/s13:16115",
+        "scratch4.dat/s35:18257",
+        "scratch4.dat/s36:1716:arg0",
+        "scratch4.dat/s36:2230:arg0",
+        "scratch4.dat/s36:2883:arg0",
+        "scratch4.dat/s36:16383",
+        "file/append:1815:arg0",
+        "file/append:5381"
+      ],
+      "note": "已核对本作原文汉字、上下文及译文；未知日语读音不推测。first_recorded_game仅为最早收录，不断言系列首次登场。",
+      "usage": "按本作原文实际称呼使用；简称不扩写全名，不提前揭示身份。",
+      "aliases": [
+        "釈迦堂"
+      ],
+      "source_refs": [
+        "kibu10/characters/24"
+      ],
+      "proposed_public_status": "project_locked"
+    },
+    {
+      "canonical": "一條院永遠",
+      "render": "一条院永远",
+      "category": "person_name_or_form",
+      "status": "confirmed_local",
+      "first_recorded_game": "kibu10",
+      "source_evidence": [
+        "scratch4.dat/s21:12391",
+        "scratch4.dat/s35:18121",
+        "scratch4.dat/s35-1:22423",
+        "scratch4.dat/s35-1:34147",
+        "scratch4.dat/s35-1:35668",
+        "scratch4.dat/s35-1:36269",
+        "scratch4.dat/s35-1:37801",
+        "scratch4.dat/s35-1:39464",
+        "scratch4.dat/s35-1:46027",
+        "scratch4.dat/s35-2:23588",
+        "scratch4.dat/s36:2536",
+        "scratch4.dat/s36:5786",
+        "scratch4.dat/s36:14970",
+        "scratch4.dat/s36:30847",
+        "scratch4.dat/s37:2213",
+        "file/append:1838:arg0"
+      ],
+      "sources": [
+        "scratch4.dat/s21:12391",
+        "scratch4.dat/s35:18121",
+        "scratch4.dat/s35-1:22423",
+        "scratch4.dat/s35-1:34147",
+        "scratch4.dat/s35-1:35668",
+        "scratch4.dat/s35-1:36269",
+        "scratch4.dat/s35-1:37801",
+        "scratch4.dat/s35-1:39464",
+        "scratch4.dat/s35-1:46027",
+        "scratch4.dat/s35-2:23588",
+        "scratch4.dat/s36:2536",
+        "scratch4.dat/s36:5786",
+        "scratch4.dat/s36:14970",
+        "scratch4.dat/s36:30847",
+        "scratch4.dat/s37:2213",
+        "file/append:1838:arg0"
+      ],
+      "note": "已核对本作原文汉字、上下文及译文；未知日语读音不推测。first_recorded_game仅为最早收录，不断言系列首次登场。",
+      "usage": "原文称一条院时保留该称呼；s35仅推测艺名，s36/37才揭露与石上身份关系，不给石上建立可全局替换的真名alias。",
+      "aliases": [
+        "一條院"
+      ],
+      "source_refs": [
+        "kibu10/characters/25"
+      ],
+      "proposed_public_status": "project_locked"
+    },
+    {
+      "canonical": "澤津賀功夫",
+      "render": "泽津贺功夫",
+      "category": "person_name_or_form",
+      "status": "confirmed_local",
+      "first_recorded_game": "kibu10",
+      "source_evidence": [
+        "scratch4.dat/s01:22938",
+        "scratch4.dat/s01:29980:arg0",
+        "scratch4.dat/s01-1:10915:arg0",
+        "scratch4.dat/s01-1:10971",
+        "scratch4.dat/s35:35368:arg0",
+        "scratch4.dat/s36:1573:arg0",
+        "scratch4.dat/s36:2087:arg0",
+        "scratch4.dat/s36:2740:arg0",
+        "scratch4.dat/s36:5076",
+        "file/append:1861:arg0"
+      ],
+      "sources": [
+        "scratch4.dat/s01:22938",
+        "scratch4.dat/s01:29980:arg0",
+        "scratch4.dat/s01-1:10915:arg0",
+        "scratch4.dat/s01-1:10971",
+        "scratch4.dat/s35:35368:arg0",
+        "scratch4.dat/s36:1573:arg0",
+        "scratch4.dat/s36:2087:arg0",
+        "scratch4.dat/s36:2740:arg0",
+        "scratch4.dat/s36:5076",
+        "file/append:1861:arg0"
+      ],
+      "note": "已核对本作原文汉字、上下文及译文；未知日语读音不推测。first_recorded_game仅为最早收录，不断言系列首次登场。",
+      "usage": "按本作原文实际称呼使用；简称不扩写全名，不提前揭示身份。",
+      "aliases": [
+        "澤津賀"
+      ],
+      "source_refs": [
+        "kibu10/characters/26"
+      ],
+      "proposed_public_status": "project_locked"
+    },
+    {
+      "canonical": "沖村勇",
+      "render": "冲村勇",
+      "category": "person_name_or_form",
+      "status": "confirmed_local",
+      "first_recorded_game": "kibu10",
+      "source_evidence": [
+        "scratch4.dat/s27:114",
+        "scratch4.dat/s27:195",
+        "scratch4.dat/s27:353",
+        "scratch4.dat/s27:2773",
+        "scratch4.dat/s27:2943",
+        "scratch4.dat/s27:17548",
+        "scratch4.dat/s27:23889",
+        "scratch4.dat/s27:25781",
+        "scratch4.dat/s27:26249",
+        "scratch4.dat/s36:35267",
+        "scratch4.dat/s36:35354"
+      ],
+      "sources": [
+        "scratch4.dat/s27:114",
+        "scratch4.dat/s27:195",
+        "scratch4.dat/s27:353",
+        "scratch4.dat/s27:2773",
+        "scratch4.dat/s27:2943",
+        "scratch4.dat/s27:17548",
+        "scratch4.dat/s27:23889",
+        "scratch4.dat/s27:25781",
+        "scratch4.dat/s27:26249",
+        "scratch4.dat/s36:35267",
+        "scratch4.dat/s36:35354"
+      ],
+      "note": "已核对本作原文汉字、上下文及译文；未知日语读音不推测。first_recorded_game仅为最早收录，不断言系列首次登场。",
+      "usage": "s27在原名阶段保持冲村；与生王正生的笔名关系仅在s27原揭示位置使用，不把此前冲村批量改为生王。",
+      "aliases": [
+        "沖村"
+      ],
+      "proposed_public_status": "project_locked"
+    },
+    {
+      "canonical": "和志武稔",
+      "render": "和志武稔",
+      "category": "person_name_or_form",
+      "status": "confirmed_local",
+      "first_recorded_game": "kibu10",
+      "source_evidence": [
+        "scratch4.dat/s07:4070",
+        "scratch4.dat/s34:8046",
+        "scratch4.dat/s34:9768",
+        "scratch4.dat/s34:13291",
+        "scratch4.dat/s34:15369",
+        "scratch4.dat/s35:35394:arg0",
+        "scratch4.dat/s35:35816",
+        "scratch4.dat/s35:37261",
+        "scratch4.dat/s35-1:16309",
+        "scratch4.dat/s36:1730:arg0",
+        "scratch4.dat/s36:2244:arg0",
+        "scratch4.dat/s36:2897:arg0"
+      ],
+      "sources": [
+        "scratch4.dat/s07:4070",
+        "scratch4.dat/s34:8046",
+        "scratch4.dat/s34:9768",
+        "scratch4.dat/s34:13291",
+        "scratch4.dat/s34:15369",
+        "scratch4.dat/s35:35394:arg0",
+        "scratch4.dat/s35:35816",
+        "scratch4.dat/s35:37261",
+        "scratch4.dat/s35-1:16309",
+        "scratch4.dat/s36:1730:arg0",
+        "scratch4.dat/s36:2244:arg0",
+        "scratch4.dat/s36:2897:arg0"
+      ],
+      "note": "已核对本作原文汉字、上下文及译文；未知日语读音不推测。first_recorded_game仅为最早收录，不断言系列首次登场。",
+      "usage": "按本作原文实际称呼使用；简称不扩写全名，不提前揭示身份。",
+      "aliases": [
+        "和志武"
+      ],
+      "proposed_public_status": "project_locked"
+    },
+    {
+      "canonical": "榮祥子",
+      "render": "荣祥子",
+      "category": "person_name_or_form",
+      "status": "confirmed_local",
+      "first_recorded_game": "kibu10",
+      "source_evidence": [
+        "scratch4.dat/s04:10241"
+      ],
+      "sources": [
+        "scratch4.dat/s04:10241"
+      ],
+      "note": "已核对本作原文汉字、上下文及译文；未知日语读音不推测。first_recorded_game仅为最早收录，不断言系列首次登场。",
+      "usage": "按本作原文实际称呼使用；简称不扩写全名，不提前揭示身份。",
+      "proposed_public_status": "project_locked"
+    },
+    {
+      "canonical": "ケイコ",
+      "render": "圭子",
+      "category": "letter_name",
+      "status": "confirmed_local",
+      "first_recorded_game": "kibu10",
+      "source_evidence": [
+        "scratch4.dat/s02:26831",
+        "scratch4.dat/s02:30374",
+        "scratch4.dat/s02:40243:arg0",
+        "scratch4.dat/s02:40653",
+        "scratch4.dat/s02:42708",
+        "scratch4.dat/s02:43711",
+        "scratch4.dat/s03:908",
+        "scratch4.dat/s03:9890",
+        "scratch4.dat/s03:10294",
+        "scratch4.dat/s03:11075",
+        "scratch4.dat/s03:11210",
+        "scratch4.dat/s03:13304",
+        "scratch4.dat/s03:14431",
+        "scratch4.dat/s03:16081",
+        "scratch4.dat/s04:11213",
+        "scratch4.dat/s05:2885",
+        "scratch4.dat/s05:3173",
+        "scratch4.dat/s05:3439",
+        "scratch4.dat/s05:3689",
+        "scratch4.dat/s05:16189:arg0",
+        "scratch4.dat/s05:21931",
+        "scratch4.dat/s05:26734",
+        "scratch4.dat/s05:27160",
+        "scratch4.dat/s32:1028",
+        "scratch4.dat/s33:4355",
+        "scratch4.dat/s33:15914",
+        "scratch4.dat/s35:9365",
+        "scratch4.dat/s35-1:33831"
+      ],
+      "sources": [
+        "scratch4.dat/s02:26831",
+        "scratch4.dat/s02:30374",
+        "scratch4.dat/s02:40243:arg0",
+        "scratch4.dat/s02:40653",
+        "scratch4.dat/s02:42708",
+        "scratch4.dat/s02:43711",
+        "scratch4.dat/s03:908",
+        "scratch4.dat/s03:9890",
+        "scratch4.dat/s03:10294",
+        "scratch4.dat/s03:11075",
+        "scratch4.dat/s03:11210",
+        "scratch4.dat/s03:13304",
+        "scratch4.dat/s03:14431",
+        "scratch4.dat/s03:16081",
+        "scratch4.dat/s04:11213",
+        "scratch4.dat/s05:2885",
+        "scratch4.dat/s05:3173",
+        "scratch4.dat/s05:3439",
+        "scratch4.dat/s05:3689",
+        "scratch4.dat/s05:16189:arg0",
+        "scratch4.dat/s05:21931",
+        "scratch4.dat/s05:26734",
+        "scratch4.dat/s05:27160",
+        "scratch4.dat/s32:1028",
+        "scratch4.dat/s33:4355",
+        "scratch4.dat/s33:15914",
+        "scratch4.dat/s35:9365",
+        "scratch4.dat/s35-1:33831"
+      ],
+      "note": "姓名写法按已核实美馬圭子统一；不从片假名猜汉字。",
+      "usage": "来信署名、讨论及菜单保持圭子短名；不补美马姓，不提前证明身份。与美马全名是具时机约束的关联，不做无条件alias。",
+      "proposed_public_status": "project_locked"
+    },
+    {
+      "canonical": "鞠浜エレガンホテル",
+      "render": "鞠滨雅致酒店",
+      "category": "location",
+      "status": "confirmed_local",
+      "first_recorded_game": "kibu10",
+      "source_evidence": [
+        "scratch4.dat/s02:28319",
+        "scratch4.dat/s02:30672",
+        "scratch4.dat/s02:43582",
+        "scratch4.dat/s02:44536",
+        "scratch4.dat/s03:334",
+        "scratch4.dat/s03:1160",
+        "scratch4.dat/s03:11075",
+        "scratch4.dat/s03:11426",
+        "scratch4.dat/s03:12525",
+        "scratch4.dat/s04:12465",
+        "scratch4.dat/s14:10926",
+        "scratch4.dat/s14:36004",
+        "scratch4.dat/s22:458",
+        "scratch4.dat/s23:285",
+        "scratch4.dat/s23:3245",
+        "scratch4.dat/s23:9253",
+        "scratch4.dat/s32:1316",
+        "scratch4.dat/s33:15673",
+        "scratch4.dat/s35-1:31499"
+      ],
+      "sources": [
+        "scratch4.dat/s02:28319",
+        "scratch4.dat/s02:30672",
+        "scratch4.dat/s02:43582",
+        "scratch4.dat/s02:44536",
+        "scratch4.dat/s03:334",
+        "scratch4.dat/s03:1160",
+        "scratch4.dat/s03:11075",
+        "scratch4.dat/s03:11426",
+        "scratch4.dat/s03:12525",
+        "scratch4.dat/s04:12465",
+        "scratch4.dat/s14:10926",
+        "scratch4.dat/s14:36004",
+        "scratch4.dat/s22:458",
+        "scratch4.dat/s23:285",
+        "scratch4.dat/s23:3245",
+        "scratch4.dat/s23:9253",
+        "scratch4.dat/s32:1316",
+        "scratch4.dat/s33:15673",
+        "scratch4.dat/s35-1:31499"
+      ],
+      "note": "已核对本作原文汉字、上下文及译文；未知日语读音不推测。first_recorded_game仅为最早收录，不断言系列首次登场。",
+      "usage": "全称鞠滨雅致酒店，エレガンホテル短称雅致酒店；菜单鞠浜Ｅホテル仍译鞠滨雅致酒店。与第七作鞠滨大酒店不是同一家。",
+      "aliases": [
+        "エレガンホテル",
+        "鞠浜Ｅホテル"
+      ],
+      "source_refs": [
+        "kibu10/terms/0"
+      ],
+      "proposed_public_status": "project_locked"
+    },
+    {
+      "canonical": "豫言組織",
+      "render": "预言组织",
+      "category": "organization",
+      "status": "confirmed_local",
+      "first_recorded_game": "kibu10",
+      "source_evidence": [
+        "scratch4.dat/s00:18462",
+        "scratch4.dat/s01:1797:arg0",
+        "scratch4.dat/s01:5987",
+        "scratch4.dat/s01:7255",
+        "scratch4.dat/s01:8041:arg0",
+        "scratch4.dat/s01:8317",
+        "scratch4.dat/s01:8474",
+        "scratch4.dat/s01:8739",
+        "scratch4.dat/s01:14353",
+        "scratch4.dat/s01:16443:arg0",
+        "scratch4.dat/s01:17800",
+        "scratch4.dat/s01:18966:arg0",
+        "scratch4.dat/s01:22071",
+        "scratch4.dat/s01:22139",
+        "scratch4.dat/s01:22783",
+        "scratch4.dat/s01:24683:arg0",
+        "scratch4.dat/s01:27079",
+        "scratch4.dat/s01:31226",
+        "scratch4.dat/s01:34039:arg0",
+        "scratch4.dat/s01:34504:arg0",
+        "scratch4.dat/s01:34606",
+        "scratch4.dat/s01:35016",
+        "scratch4.dat/s01:38370",
+        "scratch4.dat/s01:38603",
+        "scratch4.dat/s01:39877",
+        "scratch4.dat/s02:12790",
+        "scratch4.dat/s02:12977",
+        "scratch4.dat/s02:14842",
+        "scratch4.dat/s03:10842:arg0",
+        "scratch4.dat/s04:1288",
+        "scratch4.dat/s04:5716",
+        "scratch4.dat/s04:24189",
+        "scratch4.dat/s04:24379",
+        "scratch4.dat/s04:24719",
+        "scratch4.dat/s04:26234",
+        "scratch4.dat/s05:3280",
+        "scratch4.dat/s05:20081",
+        "scratch4.dat/s05:30820",
+        "scratch4.dat/s12:34963",
+        "scratch4.dat/s34:3223",
+        "scratch4.dat/s34:4623",
+        "scratch4.dat/s34:7176",
+        "scratch4.dat/s34:15229",
+        "scratch4.dat/s35:8280",
+        "scratch4.dat/s35-1:16642",
+        "scratch4.dat/s35-1:17595",
+        "scratch4.dat/s35-1:36672",
+        "scratch4.dat/s35-2:2274:arg0",
+        "scratch4.dat/s35-2:4333:arg0",
+        "scratch4.dat/s35-2:5294:arg0",
+        "scratch4.dat/s35-2:5364",
+        "scratch4.dat/s35-2:6034",
+        "scratch4.dat/s35-2:7948",
+        "scratch4.dat/s35-2:9206",
+        "scratch4.dat/s35-2:9313",
+        "scratch4.dat/s35-2:10408",
+        "scratch4.dat/s35-2:10565",
+        "scratch4.dat/s35-2:11936",
+        "scratch4.dat/s35-2:14550",
+        "scratch4.dat/s35-2:14621",
+        "scratch4.dat/s35-2:14873",
+        "scratch4.dat/s35-2:19554",
+        "scratch4.dat/s35-2:20472",
+        "scratch4.dat/s35-2:22339:arg0",
+        "scratch4.dat/s36:5076",
+        "scratch4.dat/s36:8028",
+        "scratch4.dat/s36:10535",
+        "scratch4.dat/s36:14873",
+        "scratch4.dat/s36:18250",
+        "scratch4.dat/s36:18595",
+        "scratch4.dat/s36:18963",
+        "scratch4.dat/s36:32025",
+        "scratch4.dat/s37:6523",
+        "file/append:671:arg0",
+        "file/append:6153"
+      ],
+      "sources": [
+        "scratch4.dat/s00:18462",
+        "scratch4.dat/s01:1797:arg0",
+        "scratch4.dat/s01:5987",
+        "scratch4.dat/s01:7255",
+        "scratch4.dat/s01:8041:arg0",
+        "scratch4.dat/s01:8317",
+        "scratch4.dat/s01:8474",
+        "scratch4.dat/s01:8739",
+        "scratch4.dat/s01:14353",
+        "scratch4.dat/s01:16443:arg0",
+        "scratch4.dat/s01:17800",
+        "scratch4.dat/s01:18966:arg0",
+        "scratch4.dat/s01:22071",
+        "scratch4.dat/s01:22139",
+        "scratch4.dat/s01:22783",
+        "scratch4.dat/s01:24683:arg0",
+        "scratch4.dat/s01:27079",
+        "scratch4.dat/s01:31226",
+        "scratch4.dat/s01:34039:arg0",
+        "scratch4.dat/s01:34504:arg0",
+        "scratch4.dat/s01:34606",
+        "scratch4.dat/s01:35016",
+        "scratch4.dat/s01:38370",
+        "scratch4.dat/s01:38603",
+        "scratch4.dat/s01:39877",
+        "scratch4.dat/s02:12790",
+        "scratch4.dat/s02:12977",
+        "scratch4.dat/s02:14842",
+        "scratch4.dat/s03:10842:arg0",
+        "scratch4.dat/s04:1288",
+        "scratch4.dat/s04:5716",
+        "scratch4.dat/s04:24189",
+        "scratch4.dat/s04:24379",
+        "scratch4.dat/s04:24719",
+        "scratch4.dat/s04:26234",
+        "scratch4.dat/s05:3280",
+        "scratch4.dat/s05:20081",
+        "scratch4.dat/s05:30820",
+        "scratch4.dat/s12:34963",
+        "scratch4.dat/s34:3223",
+        "scratch4.dat/s34:4623",
+        "scratch4.dat/s34:7176",
+        "scratch4.dat/s34:15229",
+        "scratch4.dat/s35:8280",
+        "scratch4.dat/s35-1:16642",
+        "scratch4.dat/s35-1:17595",
+        "scratch4.dat/s35-1:36672",
+        "scratch4.dat/s35-2:2274:arg0",
+        "scratch4.dat/s35-2:4333:arg0",
+        "scratch4.dat/s35-2:5294:arg0",
+        "scratch4.dat/s35-2:5364",
+        "scratch4.dat/s35-2:6034",
+        "scratch4.dat/s35-2:7948",
+        "scratch4.dat/s35-2:9206",
+        "scratch4.dat/s35-2:9313",
+        "scratch4.dat/s35-2:10408",
+        "scratch4.dat/s35-2:10565",
+        "scratch4.dat/s35-2:11936",
+        "scratch4.dat/s35-2:14550",
+        "scratch4.dat/s35-2:14621",
+        "scratch4.dat/s35-2:14873",
+        "scratch4.dat/s35-2:19554",
+        "scratch4.dat/s35-2:20472",
+        "scratch4.dat/s35-2:22339:arg0",
+        "scratch4.dat/s36:5076",
+        "scratch4.dat/s36:8028",
+        "scratch4.dat/s36:10535",
+        "scratch4.dat/s36:14873",
+        "scratch4.dat/s36:18250",
+        "scratch4.dat/s36:18595",
+        "scratch4.dat/s36:18963",
+        "scratch4.dat/s36:32025",
+        "scratch4.dat/s37:6523",
+        "file/append:671:arg0",
+        "file/append:6153"
+      ],
+      "note": "已核对本作原文汉字、上下文及译文；未知日语读音不推测。first_recorded_game仅为最早收录，不断言系列首次登场。",
+      "usage": "按本作原文实际称呼使用；简称不扩写全名，不提前揭示身份。",
+      "source_refs": [
+        "kibu10/terms/1"
+      ],
+      "proposed_public_status": "project_locked"
+    },
+    {
+      "canonical": "豫言者",
+      "render": "预言者",
+      "category": "organization_role",
+      "status": "confirmed_local",
+      "first_recorded_game": "kibu10",
+      "source_evidence": [
+        "scratch4.dat/s01:25133",
+        "scratch4.dat/s01:27193",
+        "scratch4.dat/s01:27503",
+        "scratch4.dat/s01:27671",
+        "scratch4.dat/s01:27812",
+        "scratch4.dat/s01:29273",
+        "scratch4.dat/s01:31754",
+        "scratch4.dat/s02:13519",
+        "scratch4.dat/s35-2:8483",
+        "scratch4.dat/s35-2:18161",
+        "scratch4.dat/s35-2:18305",
+        "scratch4.dat/s35-2:18422",
+        "scratch4.dat/s35-2:19124",
+        "scratch4.dat/s35-2:19609",
+        "scratch4.dat/s35-2:19782",
+        "scratch4.dat/s35-2:20641",
+        "scratch4.dat/s36:5344",
+        "scratch4.dat/s36:5679",
+        "scratch4.dat/s36:6326",
+        "scratch4.dat/s36:6793",
+        "scratch4.dat/s36:7178",
+        "scratch4.dat/s36:7660",
+        "scratch4.dat/s36:7757"
+      ],
+      "sources": [
+        "scratch4.dat/s01:25133",
+        "scratch4.dat/s01:27193",
+        "scratch4.dat/s01:27503",
+        "scratch4.dat/s01:27671",
+        "scratch4.dat/s01:27812",
+        "scratch4.dat/s01:29273",
+        "scratch4.dat/s01:31754",
+        "scratch4.dat/s02:13519",
+        "scratch4.dat/s35-2:8483",
+        "scratch4.dat/s35-2:18161",
+        "scratch4.dat/s35-2:18305",
+        "scratch4.dat/s35-2:18422",
+        "scratch4.dat/s35-2:19124",
+        "scratch4.dat/s35-2:19609",
+        "scratch4.dat/s35-2:19782",
+        "scratch4.dat/s35-2:20641",
+        "scratch4.dat/s36:5344",
+        "scratch4.dat/s36:5679",
+        "scratch4.dat/s36:6326",
+        "scratch4.dat/s36:6793",
+        "scratch4.dat/s36:7178",
+        "scratch4.dat/s36:7660",
+        "scratch4.dat/s36:7757"
+      ],
+      "note": "已核对本作原文汉字、上下文及译文；未知日语读音不推测。first_recorded_game仅为最早收录，不断言系列首次登场。",
+      "usage": "预言组织称谓；様对应大人。早期不替成一条院或石上。",
+      "proposed_public_status": "project_locked"
+    },
+    {
+      "canonical": "豫幻石",
+      "render": "预幻石",
+      "category": "clue_object",
+      "status": "confirmed_local",
+      "first_recorded_game": "kibu10",
+      "source_evidence": [
+        "scratch4.dat/s01:30243:arg0",
+        "scratch4.dat/s01:31226",
+        "scratch4.dat/s01:32277",
+        "scratch4.dat/s01:35387",
+        "scratch4.dat/s01:38139",
+        "scratch4.dat/s01:38268",
+        "scratch4.dat/s01-1:12335",
+        "scratch4.dat/s02:39180:arg0",
+        "scratch4.dat/s02:39248",
+        "scratch4.dat/s35-2:8644"
+      ],
+      "sources": [
+        "scratch4.dat/s01:30243:arg0",
+        "scratch4.dat/s01:31226",
+        "scratch4.dat/s01:32277",
+        "scratch4.dat/s01:35387",
+        "scratch4.dat/s01:38139",
+        "scratch4.dat/s01:38268",
+        "scratch4.dat/s01-1:12335",
+        "scratch4.dat/s02:39180:arg0",
+        "scratch4.dat/s02:39248",
+        "scratch4.dat/s35-2:8644"
+      ],
+      "note": "已核对本作原文汉字、上下文及译文；未知日语读音不推测。first_recorded_game仅为最早收录，不断言系列首次登场。",
+      "usage": "按本作原文实际称呼使用；简称不扩写全名，不提前揭示身份。",
+      "source_refs": [
+        "kibu10/terms/3"
+      ],
+      "proposed_public_status": "project_locked"
+    },
+    {
+      "canonical": "ヤマトテレビ",
+      "render": "大和电视台",
+      "category": "organization",
+      "status": "confirmed_local",
+      "first_recorded_game": "kibu10",
+      "source_evidence": [
+        "scratch4.dat/s02:21540",
+        "scratch4.dat/s31:7089",
+        "scratch4.dat/s31:8912",
+        "scratch4.dat/s35-2:4685",
+        "file/append:4020"
+      ],
+      "sources": [
+        "scratch4.dat/s02:21540",
+        "scratch4.dat/s31:7089",
+        "scratch4.dat/s31:8912",
+        "scratch4.dat/s35-2:4685",
+        "file/append:4020"
+      ],
+      "note": "已核对本作原文汉字、上下文及译文；未知日语读音不推测。first_recorded_game仅为最早收录，不断言系列首次登场。",
+      "usage": "按本作原文实际称呼使用；简称不扩写全名，不提前揭示身份。",
+      "source_refs": [
+        "kibu10/terms/2"
+      ],
+      "proposed_public_status": "project_locked"
+    },
+    {
+      "canonical": "国都大学",
+      "render": "国都大学",
+      "category": "school",
+      "status": "confirmed_local",
+      "first_recorded_game": "kibu10",
+      "source_evidence": [
+        "scratch4.dat/s34:10688"
+      ],
+      "sources": [
+        "scratch4.dat/s34:10688"
+      ],
+      "note": "已核对本作原文汉字、上下文及译文；未知日语读音不推测。first_recorded_game仅为最早收录，不断言系列首次登场。",
+      "usage": "按本作原文实际称呼使用；简称不扩写全名，不提前揭示身份。",
+      "aliases": [
+        "国都大"
+      ],
+      "proposed_public_status": "project_locked"
+    },
+    {
+      "canonical": "西風館大学",
+      "render": "西风馆大学",
+      "category": "school",
+      "status": "confirmed_local",
+      "first_recorded_game": "kibu10",
+      "source_evidence": [
+        "scratch4.dat/s04-1:338",
+        "scratch4.dat/s11:22668",
+        "scratch4.dat/s12:1489",
+        "file/append:2746",
+        "file/append:4767"
+      ],
+      "sources": [
+        "scratch4.dat/s04-1:338",
+        "scratch4.dat/s11:22668",
+        "scratch4.dat/s12:1489",
+        "file/append:2746",
+        "file/append:4767"
+      ],
+      "note": "已核对本作原文汉字、上下文及译文；未知日语读音不推测。first_recorded_game仅为最早收录，不断言系列首次登场。",
+      "usage": "按本作原文实际称呼使用；简称不扩写全名，不提前揭示身份。",
+      "source_refs": [
+        "kibu10/terms/6"
+      ],
+      "proposed_public_status": "project_locked"
+    },
+    {
+      "canonical": "万里川",
+      "render": "万里川",
+      "category": "location",
+      "status": "confirmed_local",
+      "first_recorded_game": "kibu10",
+      "source_evidence": [
+        "scratch4.dat/s01:2821",
+        "scratch4.dat/s01:19970",
+        "scratch4.dat/s01:42855",
+        "scratch4.dat/s01-1:2572",
+        "scratch4.dat/s01-1:4737",
+        "scratch4.dat/s02:11444",
+        "scratch4.dat/s02:24791",
+        "scratch4.dat/s04:1103",
+        "scratch4.dat/s04:2000",
+        "scratch4.dat/s12:32565",
+        "scratch4.dat/s31:837",
+        "scratch4.dat/s35:7417",
+        "scratch4.dat/s35-1:42687",
+        "scratch4.dat/s35-1:43255",
+        "file/append:657:arg0"
+      ],
+      "sources": [
+        "scratch4.dat/s01:2821",
+        "scratch4.dat/s01:19970",
+        "scratch4.dat/s01:42855",
+        "scratch4.dat/s01-1:2572",
+        "scratch4.dat/s01-1:4737",
+        "scratch4.dat/s02:11444",
+        "scratch4.dat/s02:24791",
+        "scratch4.dat/s04:1103",
+        "scratch4.dat/s04:2000",
+        "scratch4.dat/s12:32565",
+        "scratch4.dat/s31:837",
+        "scratch4.dat/s35:7417",
+        "scratch4.dat/s35-1:42687",
+        "scratch4.dat/s35-1:43255",
+        "file/append:657:arg0"
+      ],
+      "note": "已核对本作原文汉字、上下文及译文；未知日语读音不推测。first_recorded_game仅为最早收录，不断言系列首次登场。",
+      "usage": "按本作原文实际称呼使用；简称不扩写全名，不提前揭示身份。",
+      "source_refs": [
+        "kibu10/terms/7"
+      ],
+      "proposed_public_status": "project_locked"
+    },
+    {
+      "canonical": "和解の儀式",
+      "render": "和解仪式",
+      "category": "organization_term",
+      "status": "confirmed_local",
+      "first_recorded_game": "kibu10",
+      "source_evidence": [
+        "scratch4.dat/s35-2:17806",
+        "scratch4.dat/s35-2:17900"
+      ],
+      "sources": [
+        "scratch4.dat/s35-2:17806",
+        "scratch4.dat/s35-2:17900"
+      ],
+      "note": "已核对本作原文汉字、上下文及译文；未知日语读音不推测。first_recorded_game仅为最早收录，不断言系列首次登场。",
+      "usage": "限教团将性侵美化的专用词；和解单独出现按原文保留暗语，不提前解释。与普通解决争端的和解分开。",
+      "source_refs": [
+        "kibu10/terms/5"
+      ],
+      "proposed_public_status": "project_locked"
+    },
+    {
+      "canonical": "慰苦師",
+      "render": "慰苦师",
+      "category": "organization_role",
+      "status": "confirmed_local",
+      "first_recorded_game": "kibu10",
+      "source_evidence": [
+        "scratch4.dat/s13:9932",
+        "scratch4.dat/s35:18257",
+        "scratch4.dat/s35-1:22189"
+      ],
+      "sources": [
+        "scratch4.dat/s13:9932",
+        "scratch4.dat/s35:18257",
+        "scratch4.dat/s35-1:22189"
+      ],
+      "note": "已核对本作原文汉字、上下文及译文；未知日语读音不推测。first_recorded_game仅为最早收录，不断言系列首次登场。",
+      "usage": "释迦堂的教团职称，保留特殊名词；不改为心理医生/普通会员，未知读音不猜。",
+      "proposed_public_status": "project_locked"
+    },
+    {
+      "canonical": "ウィークリー鞠浜",
+      "render": "鞠滨周刊",
+      "category": "publication",
+      "status": "confirmed_local",
+      "first_recorded_game": "kibu10",
+      "source_evidence": [
+        "scratch4.dat/s12:32403"
+      ],
+      "sources": [
+        "scratch4.dat/s12:32403"
+      ],
+      "note": "已核对本作原文汉字、上下文及译文；未知日语读音不推测。first_recorded_game仅为最早收录，不断言系列首次登场。",
+      "usage": "正文作品名用《鞠滨周刊》；render不含书名号，以便不同UI语境处理。",
+      "proposed_public_status": "project_locked"
+    },
+    {
+      "canonical": "ガソリン電球",
+      "render": "汽油灯泡",
+      "category": "clue_object",
+      "status": "confirmed_local",
+      "first_recorded_game": "kibu10",
+      "source_evidence": [
+        "scratch4.dat/s14:37666",
+        "scratch4.dat/s25:2656"
+      ],
+      "sources": [
+        "scratch4.dat/s14:37666",
+        "scratch4.dat/s25:2656"
+      ],
+      "note": "已核对本作原文汉字、上下文及译文；未知日语读音不推测。first_recorded_game仅为最早收录，不断言系列首次登场。",
+      "usage": "按本作原文实际称呼使用；简称不扩写全名，不提前揭示身份。",
+      "proposed_public_status": "project_locked"
+    },
+    {
+      "canonical": "補助灯",
+      "render": "辅助灯",
+      "category": "clue_object",
+      "status": "confirmed_local",
+      "first_recorded_game": "kibu10",
+      "source_evidence": [
+        "scratch4.dat/s04:17337",
+        "scratch4.dat/s04:17687",
+        "scratch4.dat/s04:18462",
+        "scratch4.dat/s04:18621",
+        "scratch4.dat/s14:36004",
+        "scratch4.dat/s14:37056"
+      ],
+      "sources": [
+        "scratch4.dat/s04:17337",
+        "scratch4.dat/s04:17687",
+        "scratch4.dat/s04:18462",
+        "scratch4.dat/s04:18621",
+        "scratch4.dat/s14:36004",
+        "scratch4.dat/s14:37056"
+      ],
+      "note": "已核对本作原文汉字、上下文及译文；未知日语读音不推测。first_recorded_game仅为最早收录，不断言系列首次登场。",
+      "usage": "可按说明句译辅助照明灯；同一巴士灯具，不因说明性扩写误认第二种器材。",
+      "proposed_public_status": "project_locked"
+    },
+    {
+      "canonical": "未完成協奏曲",
+      "render": "未完成协奏曲",
+      "category": "music_title",
+      "status": "confirmed_local",
+      "first_recorded_game": "kibu10",
+      "source_evidence": [
+        "scratch4.dat/s37:13455",
+        "file/append:210:arg0"
+      ],
+      "sources": [
+        "scratch4.dat/s37:13455",
+        "file/append:210:arg0"
+      ],
+      "note": "已核对本作原文汉字、上下文及译文；未知日语读音不推测。first_recorded_game仅为最早收录，不断言系列首次登场。",
+      "usage": "按本作原文实际称呼使用；简称不扩写全名，不提前揭示身份。",
+      "proposed_public_status": "project_locked"
+    },
+    {
+      "canonical": "オーボエ",
+      "render": "双簧管",
+      "category": "instrument",
+      "status": "confirmed_local",
+      "first_recorded_game": "kibu10",
+      "source_evidence": [
+        "scratch4.dat/s11:22668",
+        "scratch4.dat/s25:15882",
+        "scratch4.dat/s25:26881",
+        "scratch4.dat/s35-2:31585",
+        "scratch4.dat/s37:13686",
+        "file/append:2746"
+      ],
+      "sources": [
+        "scratch4.dat/s11:22668",
+        "scratch4.dat/s25:15882",
+        "scratch4.dat/s25:26881",
+        "scratch4.dat/s35-2:31585",
+        "scratch4.dat/s37:13686",
+        "file/append:2746"
+      ],
+      "note": "已核对本作原文汉字、上下文及译文；未知日语读音不推测。first_recorded_game仅为最早收录，不断言系列首次登场。",
+      "usage": "按本作原文实际称呼使用；简称不扩写全名，不提前揭示身份。",
+      "proposed_public_status": "project_locked"
+    },
+    {
+      "canonical": "オーボエ協奏曲",
+      "render": "双簧管协奏曲",
+      "category": "music_type",
+      "status": "confirmed_local",
+      "first_recorded_game": "kibu10",
+      "source_evidence": [
+        "scratch4.dat/s35-2:31585"
+      ],
+      "sources": [
+        "scratch4.dat/s35-2:31585"
+      ],
+      "note": "已核对本作原文汉字、上下文及译文；未知日语读音不推测。first_recorded_game仅为最早收录，不断言系列首次登场。",
+      "usage": "按本作原文实际称呼使用；简称不扩写全名，不提前揭示身份。",
+      "proposed_public_status": "project_locked"
+    },
+    {
+      "canonical": "ダブルリード",
+      "render": "双簧哨片",
+      "category": "instrument_term",
+      "status": "confirmed_local",
+      "first_recorded_game": "kibu10",
+      "source_evidence": [
+        "scratch4.dat/s11:22858"
+      ],
+      "sources": [
+        "scratch4.dat/s11:22858"
+      ],
+      "note": "已核对本作原文汉字、上下文及译文；未知日语读音不推测。first_recorded_game仅为最早收录，不断言系列首次登场。",
+      "usage": "按本作原文实际称呼使用；简称不扩写全名，不提前揭示身份。",
+      "proposed_public_status": "project_locked"
+    },
+    {
+      "canonical": "国際捜査官",
+      "render": "国际调查员",
+      "category": "career",
+      "status": "confirmed_local",
+      "first_recorded_game": "kibu10",
+      "source_evidence": [
+        "scratch4.dat/s37:10393"
+      ],
+      "sources": [
+        "scratch4.dat/s37:10393"
+      ],
+      "note": "已核对本作原文汉字、上下文及译文；未知日语读音不推测。first_recorded_game仅为最早收录，不断言系列首次登场。",
+      "usage": "按本作原文实际称呼使用；简称不扩写全名，不提前揭示身份。",
+      "proposed_public_status": "project_locked"
+    },
+    {
+      "canonical": "霊感商法",
+      "render": "灵力骗局",
+      "category": "fraud_term",
+      "status": "confirmed_local",
+      "first_recorded_game": "kibu10",
+      "source_evidence": [
+        "scratch4.dat/s01:35640"
+      ],
+      "sources": [
+        "scratch4.dat/s01:35640"
+      ],
+      "note": "已核对本作原文汉字、上下文及译文；未知日语读音不推测。first_recorded_game仅为最早收录，不断言系列首次登场。",
+      "usage": "按本作原文实际称呼使用；简称不扩写全名，不提前揭示身份。",
+      "proposed_public_status": "project_locked"
+    },
+    {
+      "canonical": "床机",
+      "render": "矮桌",
+      "category": "scene_object",
+      "status": "confirmed_local",
+      "first_recorded_game": "kibu10",
+      "source_evidence": [
+        "scratch4.dat/s01-1:3728:arg0",
+        "scratch4.dat/s01-1:5562"
+      ],
+      "sources": [
+        "scratch4.dat/s01-1:3728:arg0",
+        "scratch4.dat/s01-1:5562"
+      ],
+      "note": "已核对本作原文汉字、上下文及译文；未知日语读音不推测。first_recorded_game仅为最早收录，不断言系列首次登场。",
+      "usage": "本作门泽房间中带抽屉、放文件的矮桌；不要将日语字典中可能的折凳义全局套入。",
+      "proposed_public_status": "project_locked"
+    },
+    {
+      "canonical": "アナグラム",
+      "render": "字母重排",
+      "category": "puzzle_term",
+      "status": "confirmed_local",
+      "first_recorded_game": "kibu10",
+      "source_evidence": [
+        "scratch4.dat/s27:20160"
+      ],
+      "sources": [
+        "scratch4.dat/s27:20160"
+      ],
+      "note": "已核对本作原文汉字、上下文及译文；未知日语读音不推测。first_recorded_game仅为最早收录，不断言系列首次登场。",
+      "usage": "按本作原文实际称呼使用；简称不扩写全名，不提前揭示身份。",
+      "proposed_public_status": "project_locked"
+    },
+    {
+      "canonical": "三ヶ野原市",
+      "render": "三野原市",
+      "category": "location",
+      "status": "confirmed_local",
+      "first_recorded_game": "kibu10",
+      "source_evidence": [
+        "scratch4.dat/s11:23175",
+        "scratch4.dat/s14:28311"
+      ],
+      "sources": [
+        "scratch4.dat/s11:23175",
+        "scratch4.dat/s14:28311"
+      ],
+      "note": "沿公共三ヶ野原→三野原词根；本作完整市名保留市字。无需覆盖公共旧条目。",
+      "usage": "按本作原文实际称呼使用；简称不扩写全名，不提前揭示身份。",
+      "proposed_public_status": "project_locked"
+    },
+    {
+      "canonical": "異界の大王",
+      "render": "异界大王",
+      "category": "prophecy_term",
+      "status": "confirmed_local",
+      "first_recorded_game": "kibu10",
+      "source_evidence": [
+        "scratch4.dat/s04:25491"
+      ],
+      "sources": [
+        "scratch4.dat/s04:25491"
+      ],
+      "note": "已核对本作原文汉字、上下文及译文；未知日语读音不推测。first_recorded_game仅为最早收录，不断言系列首次登场。",
+      "usage": "按本作原文实际称呼使用；简称不扩写全名，不提前揭示身份。",
+      "proposed_public_status": "project_locked"
+    },
+    {
+      "canonical": "一斉殺人説",
+      "render": "集体谋杀说",
+      "category": "hypothesis",
+      "status": "confirmed_local",
+      "first_recorded_game": "kibu10",
+      "source_evidence": [
+        "scratch4.dat/s04:22554"
+      ],
+      "sources": [
+        "scratch4.dat/s04:22554"
+      ],
+      "note": "已核对本作原文汉字、上下文及译文；未知日语读音不推测。first_recorded_game仅为最早收录，不断言系列首次登场。",
+      "usage": "按本作原文实际称呼使用；简称不扩写全名，不提前揭示身份。",
+      "proposed_public_status": "project_locked"
+    },
+    {
+      "canonical": "生垣",
+      "render": "生垣",
+      "category": "deliberate_misnaming",
+      "status": "confirmed_local",
+      "first_recorded_game": "kibu10",
+      "source_evidence": [
+        "scratch4.dat/s12:45910"
+      ],
+      "sources": [
+        "scratch4.dat/s12:45910"
+      ],
+      "note": "癸生川故意叫错人名，已核对前后纠正台词；不是新人物。",
+      "usage": "仅本作误称语境；前五项误称石上，裏庭误称中庭。不可当作真名alias或自动纠正。",
+      "proposed_public_status": "project_locked"
+    },
+    {
+      "canonical": "斑鳩",
+      "render": "斑鸠",
+      "category": "deliberate_misnaming",
+      "status": "confirmed_local",
+      "first_recorded_game": "kibu10",
+      "source_evidence": [
+        "scratch4.dat/s13:4519"
+      ],
+      "sources": [
+        "scratch4.dat/s13:4519"
+      ],
+      "note": "癸生川故意叫错人名，已核对前后纠正台词；不是新人物。",
+      "usage": "仅本作误称语境；前五项误称石上，裏庭误称中庭。不可当作真名alias或自动纠正。",
+      "proposed_public_status": "project_locked"
+    },
+    {
+      "canonical": "西畳",
+      "render": "西叠",
+      "category": "deliberate_misnaming",
+      "status": "confirmed_local",
+      "first_recorded_game": "kibu10",
+      "source_evidence": [
+        "scratch4.dat/s13:18068"
+      ],
+      "sources": [
+        "scratch4.dat/s13:18068"
+      ],
+      "note": "癸生川故意叫错人名，已核对前后纠正台词；不是新人物。",
+      "usage": "仅本作误称语境；前五项误称石上，裏庭误称中庭。不可当作真名alias或自动纠正。",
+      "proposed_public_status": "project_locked"
+    },
+    {
+      "canonical": "猪苗代",
+      "render": "猪苗代",
+      "category": "deliberate_misnaming",
+      "status": "confirmed_local",
+      "first_recorded_game": "kibu10",
+      "source_evidence": [
+        "scratch4.dat/s14:327"
+      ],
+      "sources": [
+        "scratch4.dat/s14:327"
+      ],
+      "note": "癸生川故意叫错人名，已核对前后纠正台词；不是新人物。",
+      "usage": "仅本作误称语境；前五项误称石上，裏庭误称中庭。不可当作真名alias或自动纠正。",
+      "proposed_public_status": "project_locked"
+    },
+    {
+      "canonical": "井車",
+      "render": "井车",
+      "category": "deliberate_misnaming",
+      "status": "confirmed_local",
+      "first_recorded_game": "kibu10",
+      "source_evidence": [
+        "scratch4.dat/s15:10722"
+      ],
+      "sources": [
+        "scratch4.dat/s15:10722"
+      ],
+      "note": "癸生川故意叫错人名，已核对前后纠正台词；不是新人物。",
+      "usage": "仅本作误称语境；前五项误称石上，裏庭误称中庭。不可当作真名alias或自动纠正。",
+      "proposed_public_status": "project_locked"
+    },
+    {
+      "canonical": "裏庭",
+      "render": "后庭",
+      "category": "deliberate_misnaming",
+      "status": "confirmed_local",
+      "first_recorded_game": "kibu10",
+      "source_evidence": [
+        "scratch4.dat/s14:36602"
+      ],
+      "sources": [
+        "scratch4.dat/s14:36602"
+      ],
+      "note": "癸生川故意叫错人名，已核对前后纠正台词；不是新人物。",
+      "usage": "仅本作误称语境；前五项误称石上，裏庭误称中庭。不可当作真名alias或自动纠正。",
+      "proposed_public_status": "project_locked"
+    }
+  ],
+  "provisional_terms": [
+    {
+      "canonical": "亜伊ちん",
+      "render": "亚伊亲",
+      "category": "credit_name_or_company",
+      "status": "provisional",
+      "first_recorded_game": "kibu10",
+      "source_evidence": [
+        "scratch4.dat/s37:17394"
+      ],
+      "sources": [
+        "scratch4.dat/s37:17394"
+      ],
+      "note": "片尾昵称；ちん语气译亲暂定，不推定真实姓名或读音。",
+      "usage": "仅片尾署名，保留本作provisional；不认定与剧情人物有关系。"
+    },
+    {
+      "canonical": "橋本ますみ",
+      "render": "桥本玛苏米",
+      "category": "credit_name_or_company",
+      "status": "provisional",
+      "first_recorded_game": "kibu10",
+      "source_evidence": [
+        "scratch4.dat/s37:17413"
+      ],
+      "sources": [
+        "scratch4.dat/s37:17413"
+      ],
+      "note": "片尾假名名音译，不猜原汉字。",
+      "usage": "仅片尾署名，保留本作provisional；不认定与剧情人物有关系。"
+    },
+    {
+      "canonical": "富岡ともみ",
+      "render": "富冈托莫米",
+      "category": "credit_name_or_company",
+      "status": "provisional",
+      "first_recorded_game": "kibu10",
+      "source_evidence": [
+        "scratch4.dat/s37:17561"
+      ],
+      "sources": [
+        "scratch4.dat/s37:17561"
+      ],
+      "note": "片尾假名名音译，不猜原汉字。",
+      "usage": "仅片尾署名，保留本作provisional；不认定与剧情人物有关系。"
+    },
+    {
+      "canonical": "町田ユート",
+      "render": "町田优托",
+      "category": "credit_name_or_company",
+      "status": "provisional",
+      "first_recorded_game": "kibu10",
+      "source_evidence": [
+        "scratch4.dat/s37:17686"
+      ],
+      "sources": [
+        "scratch4.dat/s37:17686"
+      ],
+      "note": "片尾假名名音译，不猜原汉字。",
+      "usage": "仅片尾署名，保留本作provisional；不认定与剧情人物有关系。"
+    },
+    {
+      "canonical": "㈲エグゼクリエイト",
+      "render": "有限会社 EXE-CREATE",
+      "category": "credit_name_or_company",
+      "status": "provisional",
+      "first_recorded_game": "kibu10",
+      "source_evidence": [
+        "scratch4.dat/s37:16144"
+      ],
+      "sources": [
+        "scratch4.dat/s37:16144"
+      ],
+      "note": "英文公司名尚待协调核实来源，暂不提升公共定译。",
+      "usage": "仅片尾署名，保留本作provisional；不认定与剧情人物有关系。"
+    },
+    {
+      "canonical": "デジタルハーツ",
+      "render": "DIGITAL HEARTS",
+      "category": "credit_name_or_company",
+      "status": "provisional",
+      "first_recorded_game": "kibu10",
+      "source_evidence": [
+        "scratch4.dat/s37:17239"
+      ],
+      "sources": [
+        "scratch4.dat/s37:17239"
+      ],
+      "note": "英文公司名尚待协调核实来源，暂不提升公共定译。",
+      "usage": "仅片尾署名，保留本作provisional；不认定与剧情人物有关系。"
+    },
+    {
+      "canonical": "石山貴也",
+      "render": "石山贵也",
+      "category": "credit_name",
+      "status": "provisional",
+      "first_recorded_game": "kibu10",
+      "source_evidence": [
+        "scratch4.dat/s37:15782"
+      ],
+      "sources": [
+        "scratch4.dat/s37:15782"
+      ],
+      "note": "原署名给出汉字，译文仅简体对应；实际身份及读音未查证，暂保留本作，不扩大为公共人物身份。",
+      "usage": "仅片尾制作/命名协助/鸣谢署名；圆口辽一、松田尚刚与剧情同名，不能据此归并实体。"
+    },
+    {
+      "canonical": "大森俊広",
+      "render": "大森俊广",
+      "category": "credit_name",
+      "status": "provisional",
+      "first_recorded_game": "kibu10",
+      "source_evidence": [
+        "scratch4.dat/s37:15915"
+      ],
+      "sources": [
+        "scratch4.dat/s37:15915"
+      ],
+      "note": "原署名给出汉字，译文仅简体对应；实际身份及读音未查证，暂保留本作，不扩大为公共人物身份。",
+      "usage": "仅片尾制作/命名协助/鸣谢署名；圆口辽一、松田尚刚与剧情同名，不能据此归并实体。"
+    },
+    {
+      "canonical": "坂本大吾",
+      "render": "坂本大吾",
+      "category": "credit_name",
+      "status": "provisional",
+      "first_recorded_game": "kibu10",
+      "source_evidence": [
+        "scratch4.dat/s37:15987"
+      ],
+      "sources": [
+        "scratch4.dat/s37:15987"
+      ],
+      "note": "原署名给出汉字，译文仅简体对应；实际身份及读音未查证，暂保留本作，不扩大为公共人物身份。",
+      "usage": "仅片尾制作/命名协助/鸣谢署名；圆口辽一、松田尚刚与剧情同名，不能据此归并实体。"
+    },
+    {
+      "canonical": "川野貴史",
+      "render": "川野贵史",
+      "category": "credit_name",
+      "status": "provisional",
+      "first_recorded_game": "kibu10",
+      "source_evidence": [
+        "scratch4.dat/s37:16055"
+      ],
+      "sources": [
+        "scratch4.dat/s37:16055"
+      ],
+      "note": "原署名给出汉字，译文仅简体对应；实际身份及读音未查证，暂保留本作，不扩大为公共人物身份。",
+      "usage": "仅片尾制作/命名协助/鸣谢署名；圆口辽一、松田尚刚与剧情同名，不能据此归并实体。"
+    },
+    {
+      "canonical": "岡田茂",
+      "render": "冈田茂",
+      "category": "credit_name",
+      "status": "provisional",
+      "first_recorded_game": "kibu10",
+      "source_evidence": [
+        "scratch4.dat/s37:16074"
+      ],
+      "sources": [
+        "scratch4.dat/s37:16074"
+      ],
+      "note": "原署名给出汉字，译文仅简体对应；实际身份及读音未查证，暂保留本作，不扩大为公共人物身份。",
+      "usage": "仅片尾制作/命名协助/鸣谢署名；圆口辽一、松田尚刚与剧情同名，不能据此归并实体。"
+    },
+    {
+      "canonical": "掛水八恵",
+      "render": "挂水八惠",
+      "category": "credit_name",
+      "status": "provisional",
+      "first_recorded_game": "kibu10",
+      "source_evidence": [
+        "scratch4.dat/s37:16232"
+      ],
+      "sources": [
+        "scratch4.dat/s37:16232"
+      ],
+      "note": "原署名给出汉字，译文仅简体对应；实际身份及读音未查证，暂保留本作，不扩大为公共人物身份。",
+      "usage": "仅片尾制作/命名协助/鸣谢署名；圆口辽一、松田尚刚与剧情同名，不能据此归并实体。"
+    },
+    {
+      "canonical": "元山有希子",
+      "render": "元山有希子",
+      "category": "credit_name",
+      "status": "provisional",
+      "first_recorded_game": "kibu10",
+      "source_evidence": [
+        "scratch4.dat/s37:16354"
+      ],
+      "sources": [
+        "scratch4.dat/s37:16354"
+      ],
+      "note": "原署名给出汉字，译文仅简体对应；实际身份及读音未查证，暂保留本作，不扩大为公共人物身份。",
+      "usage": "仅片尾制作/命名协助/鸣谢署名；圆口辽一、松田尚刚与剧情同名，不能据此归并实体。"
+    },
+    {
+      "canonical": "岡絵里奈",
+      "render": "冈绘里奈",
+      "category": "credit_name",
+      "status": "provisional",
+      "first_recorded_game": "kibu10",
+      "source_evidence": [
+        "scratch4.dat/s37:16430"
+      ],
+      "sources": [
+        "scratch4.dat/s37:16430"
+      ],
+      "note": "原署名给出汉字，译文仅简体对应；实际身份及读音未查证，暂保留本作，不扩大为公共人物身份。",
+      "usage": "仅片尾制作/命名协助/鸣谢署名；圆口辽一、松田尚刚与剧情同名，不能据此归并实体。"
+    },
+    {
+      "canonical": "宅見竜司",
+      "render": "宅见龙司",
+      "category": "credit_name",
+      "status": "provisional",
+      "first_recorded_game": "kibu10",
+      "source_evidence": [
+        "scratch4.dat/s37:16474"
+      ],
+      "sources": [
+        "scratch4.dat/s37:16474"
+      ],
+      "note": "原署名给出汉字，译文仅简体对应；实际身份及读音未查证，暂保留本作，不扩大为公共人物身份。",
+      "usage": "仅片尾制作/命名协助/鸣谢署名；圆口辽一、松田尚刚与剧情同名，不能据此归并实体。"
+    },
+    {
+      "canonical": "田中佑美",
+      "render": "田中佑美",
+      "category": "credit_name",
+      "status": "provisional",
+      "first_recorded_game": "kibu10",
+      "source_evidence": [
+        "scratch4.dat/s37:16493"
+      ],
+      "sources": [
+        "scratch4.dat/s37:16493"
+      ],
+      "note": "原署名给出汉字，译文仅简体对应；实际身份及读音未查证，暂保留本作，不扩大为公共人物身份。",
+      "usage": "仅片尾制作/命名协助/鸣谢署名；圆口辽一、松田尚刚与剧情同名，不能据此归并实体。"
+    },
+    {
+      "canonical": "小川敬徳",
+      "render": "小川敬德",
+      "category": "credit_name",
+      "status": "provisional",
+      "first_recorded_game": "kibu10",
+      "source_evidence": [
+        "scratch4.dat/s37:16708"
+      ],
+      "sources": [
+        "scratch4.dat/s37:16708"
+      ],
+      "note": "原署名给出汉字，译文仅简体对应；实际身份及读音未查证，暂保留本作，不扩大为公共人物身份。",
+      "usage": "仅片尾制作/命名协助/鸣谢署名；圆口辽一、松田尚刚与剧情同名，不能据此归并实体。"
+    },
+    {
+      "canonical": "西村孝弘",
+      "render": "西村孝弘",
+      "category": "credit_name",
+      "status": "provisional",
+      "first_recorded_game": "kibu10",
+      "source_evidence": [
+        "scratch4.dat/s37:16775"
+      ],
+      "sources": [
+        "scratch4.dat/s37:16775"
+      ],
+      "note": "原署名给出汉字，译文仅简体对应；实际身份及读音未查证，暂保留本作，不扩大为公共人物身份。",
+      "usage": "仅片尾制作/命名协助/鸣谢署名；圆口辽一、松田尚刚与剧情同名，不能据此归并实体。"
+    },
+    {
+      "canonical": "星野英律",
+      "render": "星野英律",
+      "category": "credit_name",
+      "status": "provisional",
+      "first_recorded_game": "kibu10",
+      "source_evidence": [
+        "scratch4.dat/s37:16794"
+      ],
+      "sources": [
+        "scratch4.dat/s37:16794"
+      ],
+      "note": "原署名给出汉字，译文仅简体对应；实际身份及读音未查证，暂保留本作，不扩大为公共人物身份。",
+      "usage": "仅片尾制作/命名协助/鸣谢署名；圆口辽一、松田尚刚与剧情同名，不能据此归并实体。"
+    },
+    {
+      "canonical": "杉山治",
+      "render": "杉山治",
+      "category": "credit_name",
+      "status": "provisional",
+      "first_recorded_game": "kibu10",
+      "source_evidence": [
+        "scratch4.dat/s37:16813"
+      ],
+      "sources": [
+        "scratch4.dat/s37:16813"
+      ],
+      "note": "原署名给出汉字，译文仅简体对应；实际身份及读音未查证，暂保留本作，不扩大为公共人物身份。",
+      "usage": "仅片尾制作/命名协助/鸣谢署名；圆口辽一、松田尚刚与剧情同名，不能据此归并实体。"
+    },
+    {
+      "canonical": "長澤孟",
+      "render": "长泽孟",
+      "category": "credit_name",
+      "status": "provisional",
+      "first_recorded_game": "kibu10",
+      "source_evidence": [
+        "scratch4.dat/s37:16875"
+      ],
+      "sources": [
+        "scratch4.dat/s37:16875"
+      ],
+      "note": "原署名给出汉字，译文仅简体对应；实际身份及读音未查证，暂保留本作，不扩大为公共人物身份。",
+      "usage": "仅片尾制作/命名协助/鸣谢署名；圆口辽一、松田尚刚与剧情同名，不能据此归并实体。"
+    },
+    {
+      "canonical": "守岡大寿",
+      "render": "守冈大寿",
+      "category": "credit_name",
+      "status": "provisional",
+      "first_recorded_game": "kibu10",
+      "source_evidence": [
+        "scratch4.dat/s37:16890"
+      ],
+      "sources": [
+        "scratch4.dat/s37:16890"
+      ],
+      "note": "原署名给出汉字，译文仅简体对应；实际身份及读音未查证，暂保留本作，不扩大为公共人物身份。",
+      "usage": "仅片尾制作/命名协助/鸣谢署名；圆口辽一、松田尚刚与剧情同名，不能据此归并实体。"
+    },
+    {
+      "canonical": "菅井浩理",
+      "render": "菅井浩理",
+      "category": "credit_name",
+      "status": "provisional",
+      "first_recorded_game": "kibu10",
+      "source_evidence": [
+        "scratch4.dat/s37:16909"
+      ],
+      "sources": [
+        "scratch4.dat/s37:16909"
+      ],
+      "note": "原署名给出汉字，译文仅简体对应；实际身份及读音未查证，暂保留本作，不扩大为公共人物身份。",
+      "usage": "仅片尾制作/命名协助/鸣谢署名；圆口辽一、松田尚刚与剧情同名，不能据此归并实体。"
+    },
+    {
+      "canonical": "志賀良平",
+      "render": "志贺良平",
+      "category": "credit_name",
+      "status": "provisional",
+      "first_recorded_game": "kibu10",
+      "source_evidence": [
+        "scratch4.dat/s37:16928"
+      ],
+      "sources": [
+        "scratch4.dat/s37:16928"
+      ],
+      "note": "原署名给出汉字，译文仅简体对应；实际身份及读音未查证，暂保留本作，不扩大为公共人物身份。",
+      "usage": "仅片尾制作/命名协助/鸣谢署名；圆口辽一、松田尚刚与剧情同名，不能据此归并实体。"
+    },
+    {
+      "canonical": "下山文哉",
+      "render": "下山文哉",
+      "category": "credit_name",
+      "status": "provisional",
+      "first_recorded_game": "kibu10",
+      "source_evidence": [
+        "scratch4.dat/s37:16947"
+      ],
+      "sources": [
+        "scratch4.dat/s37:16947"
+      ],
+      "note": "原署名给出汉字，译文仅简体对应；实际身份及读音未查证，暂保留本作，不扩大为公共人物身份。",
+      "usage": "仅片尾制作/命名协助/鸣谢署名；圆口辽一、松田尚刚与剧情同名，不能据此归并实体。"
+    },
+    {
+      "canonical": "新沢義之",
+      "render": "新泽义之",
+      "category": "credit_name",
+      "status": "provisional",
+      "first_recorded_game": "kibu10",
+      "source_evidence": [
+        "scratch4.dat/s37:16966"
+      ],
+      "sources": [
+        "scratch4.dat/s37:16966"
+      ],
+      "note": "原署名给出汉字，译文仅简体对应；实际身份及读音未查证，暂保留本作，不扩大为公共人物身份。",
+      "usage": "仅片尾制作/命名协助/鸣谢署名；圆口辽一、松田尚刚与剧情同名，不能据此归并实体。"
+    },
+    {
+      "canonical": "菊池武人",
+      "render": "菊池武人",
+      "category": "credit_name",
+      "status": "provisional",
+      "first_recorded_game": "kibu10",
+      "source_evidence": [
+        "scratch4.dat/s37:16985"
+      ],
+      "sources": [
+        "scratch4.dat/s37:16985"
+      ],
+      "note": "原署名给出汉字，译文仅简体对应；实际身份及读音未查证，暂保留本作，不扩大为公共人物身份。",
+      "usage": "仅片尾制作/命名协助/鸣谢署名；圆口辽一、松田尚刚与剧情同名，不能据此归并实体。"
+    },
+    {
+      "canonical": "山崎泰輔",
+      "render": "山崎泰辅",
+      "category": "credit_name",
+      "status": "provisional",
+      "first_recorded_game": "kibu10",
+      "source_evidence": [
+        "scratch4.dat/s37:17004"
+      ],
+      "sources": [
+        "scratch4.dat/s37:17004"
+      ],
+      "note": "原署名给出汉字，译文仅简体对应；实际身份及读音未查证，暂保留本作，不扩大为公共人物身份。",
+      "usage": "仅片尾制作/命名协助/鸣谢署名；圆口辽一、松田尚刚与剧情同名，不能据此归并实体。"
+    },
+    {
+      "canonical": "南川宏祐貴",
+      "render": "南川宏祐贵",
+      "category": "credit_name",
+      "status": "provisional",
+      "first_recorded_game": "kibu10",
+      "source_evidence": [
+        "scratch4.dat/s37:17023"
+      ],
+      "sources": [
+        "scratch4.dat/s37:17023"
+      ],
+      "note": "原署名给出汉字，译文仅简体对应；实际身份及读音未查证，暂保留本作，不扩大为公共人物身份。",
+      "usage": "仅片尾制作/命名协助/鸣谢署名；圆口辽一、松田尚刚与剧情同名，不能据此归并实体。"
+    },
+    {
+      "canonical": "藤沢広樹",
+      "render": "藤泽广树",
+      "category": "credit_name",
+      "status": "provisional",
+      "first_recorded_game": "kibu10",
+      "source_evidence": [
+        "scratch4.dat/s37:17046"
+      ],
+      "sources": [
+        "scratch4.dat/s37:17046"
+      ],
+      "note": "原署名给出汉字，译文仅简体对应；实际身份及读音未查证，暂保留本作，不扩大为公共人物身份。",
+      "usage": "仅片尾制作/命名协助/鸣谢署名；圆口辽一、松田尚刚与剧情同名，不能据此归并实体。"
+    },
+    {
+      "canonical": "中本翔平",
+      "render": "中本翔平",
+      "category": "credit_name",
+      "status": "provisional",
+      "first_recorded_game": "kibu10",
+      "source_evidence": [
+        "scratch4.dat/s37:17065"
+      ],
+      "sources": [
+        "scratch4.dat/s37:17065"
+      ],
+      "note": "原署名给出汉字，译文仅简体对应；实际身份及读音未查证，暂保留本作，不扩大为公共人物身份。",
+      "usage": "仅片尾制作/命名协助/鸣谢署名；圆口辽一、松田尚刚与剧情同名，不能据此归并实体。"
+    },
+    {
+      "canonical": "西東圭一",
+      "render": "西东圭一",
+      "category": "credit_name",
+      "status": "provisional",
+      "first_recorded_game": "kibu10",
+      "source_evidence": [
+        "scratch4.dat/s37:17084"
+      ],
+      "sources": [
+        "scratch4.dat/s37:17084"
+      ],
+      "note": "原署名给出汉字，译文仅简体对应；实际身份及读音未查证，暂保留本作，不扩大为公共人物身份。",
+      "usage": "仅片尾制作/命名协助/鸣谢署名；圆口辽一、松田尚刚与剧情同名，不能据此归并实体。"
+    },
+    {
+      "canonical": "井上真也",
+      "render": "井上真也",
+      "category": "credit_name",
+      "status": "provisional",
+      "first_recorded_game": "kibu10",
+      "source_evidence": [
+        "scratch4.dat/s37:17103"
+      ],
+      "sources": [
+        "scratch4.dat/s37:17103"
+      ],
+      "note": "原署名给出汉字，译文仅简体对应；实际身份及读音未查证，暂保留本作，不扩大为公共人物身份。",
+      "usage": "仅片尾制作/命名协助/鸣谢署名；圆口辽一、松田尚刚与剧情同名，不能据此归并实体。"
+    },
+    {
+      "canonical": "横山不律",
+      "render": "横山不律",
+      "category": "credit_name",
+      "status": "provisional",
+      "first_recorded_game": "kibu10",
+      "source_evidence": [
+        "scratch4.dat/s37:17122"
+      ],
+      "sources": [
+        "scratch4.dat/s37:17122"
+      ],
+      "note": "原署名给出汉字，译文仅简体对应；实际身份及读音未查证，暂保留本作，不扩大为公共人物身份。",
+      "usage": "仅片尾制作/命名协助/鸣谢署名；圆口辽一、松田尚刚与剧情同名，不能据此归并实体。"
+    },
+    {
+      "canonical": "筬井康仁",
+      "render": "筬井康仁",
+      "category": "credit_name",
+      "status": "provisional",
+      "first_recorded_game": "kibu10",
+      "source_evidence": [
+        "scratch4.dat/s37:17141"
+      ],
+      "sources": [
+        "scratch4.dat/s37:17141"
+      ],
+      "note": "原署名给出汉字，译文仅简体对应；实际身份及读音未查证，暂保留本作，不扩大为公共人物身份。",
+      "usage": "仅片尾制作/命名协助/鸣谢署名；圆口辽一、松田尚刚与剧情同名，不能据此归并实体。"
+    },
+    {
+      "canonical": "上村英輔",
+      "render": "上村英辅",
+      "category": "credit_name",
+      "status": "provisional",
+      "first_recorded_game": "kibu10",
+      "source_evidence": [
+        "scratch4.dat/s37:17160"
+      ],
+      "sources": [
+        "scratch4.dat/s37:17160"
+      ],
+      "note": "原署名给出汉字，译文仅简体对应；实际身份及读音未查证，暂保留本作，不扩大为公共人物身份。",
+      "usage": "仅片尾制作/命名协助/鸣谢署名；圆口辽一、松田尚刚与剧情同名，不能据此归并实体。"
+    },
+    {
+      "canonical": "瀧口愛子",
+      "render": "泷口爱子",
+      "category": "credit_name",
+      "status": "provisional",
+      "first_recorded_game": "kibu10",
+      "source_evidence": [
+        "scratch4.dat/s37:17179"
+      ],
+      "sources": [
+        "scratch4.dat/s37:17179"
+      ],
+      "note": "原署名给出汉字，译文仅简体对应；实际身份及读音未查证，暂保留本作，不扩大为公共人物身份。",
+      "usage": "仅片尾制作/命名协助/鸣谢署名；圆口辽一、松田尚刚与剧情同名，不能据此归并实体。"
+    },
+    {
+      "canonical": "菅野良和",
+      "render": "菅野良和",
+      "category": "credit_name",
+      "status": "provisional",
+      "first_recorded_game": "kibu10",
+      "source_evidence": [
+        "scratch4.dat/s37:17198"
+      ],
+      "sources": [
+        "scratch4.dat/s37:17198"
+      ],
+      "note": "原署名给出汉字，译文仅简体对应；实际身份及读音未查证，暂保留本作，不扩大为公共人物身份。",
+      "usage": "仅片尾制作/命名协助/鸣谢署名；圆口辽一、松田尚刚与剧情同名，不能据此归并实体。"
+    },
+    {
+      "canonical": "村井仁",
+      "render": "村井仁",
+      "category": "credit_name",
+      "status": "provisional",
+      "first_recorded_game": "kibu10",
+      "source_evidence": [
+        "scratch4.dat/s37:17224"
+      ],
+      "sources": [
+        "scratch4.dat/s37:17224"
+      ],
+      "note": "原署名给出汉字，译文仅简体对应；实际身份及读音未查证，暂保留本作，不扩大为公共人物身份。",
+      "usage": "仅片尾制作/命名协助/鸣谢署名；圆口辽一、松田尚刚与剧情同名，不能据此归并实体。"
+    },
+    {
+      "canonical": "柏木天馬",
+      "render": "柏木天马",
+      "category": "credit_name",
+      "status": "provisional",
+      "first_recorded_game": "kibu10",
+      "source_evidence": [
+        "scratch4.dat/s37:17337"
+      ],
+      "sources": [
+        "scratch4.dat/s37:17337"
+      ],
+      "note": "原署名给出汉字，译文仅简体对应；实际身份及读音未查证，暂保留本作，不扩大为公共人物身份。",
+      "usage": "仅片尾制作/命名协助/鸣谢署名；圆口辽一、松田尚刚与剧情同名，不能据此归并实体。"
+    },
+    {
+      "canonical": "松田尚剛",
+      "render": "松田尚刚",
+      "category": "credit_name",
+      "status": "provisional",
+      "first_recorded_game": "kibu10",
+      "source_evidence": [
+        "scratch4.dat/s37:17356"
+      ],
+      "sources": [
+        "scratch4.dat/s37:17356"
+      ],
+      "note": "原署名给出汉字，译文仅简体对应；实际身份及读音未查证，暂保留本作，不扩大为公共人物身份。",
+      "usage": "仅片尾制作/命名协助/鸣谢署名；圆口辽一、松田尚刚与剧情同名，不能据此归并实体。",
+      "source_refs": [
+        "kibu10/characters/22"
+      ]
+    },
+    {
+      "canonical": "灰原美紀",
+      "render": "灰原美纪",
+      "category": "credit_name",
+      "status": "provisional",
+      "first_recorded_game": "kibu10",
+      "source_evidence": [
+        "scratch4.dat/s37:17375"
+      ],
+      "sources": [
+        "scratch4.dat/s37:17375"
+      ],
+      "note": "原署名给出汉字，译文仅简体对应；实际身份及读音未查证，暂保留本作，不扩大为公共人物身份。",
+      "usage": "仅片尾制作/命名协助/鸣谢署名；圆口辽一、松田尚刚与剧情同名，不能据此归并实体。"
+    },
+    {
+      "canonical": "寺西佐織",
+      "render": "寺西佐织",
+      "category": "credit_name",
+      "status": "provisional",
+      "first_recorded_game": "kibu10",
+      "source_evidence": [
+        "scratch4.dat/s37:17436"
+      ],
+      "sources": [
+        "scratch4.dat/s37:17436"
+      ],
+      "note": "原署名给出汉字，译文仅简体对应；实际身份及读音未查证，暂保留本作，不扩大为公共人物身份。",
+      "usage": "仅片尾制作/命名协助/鸣谢署名；圆口辽一、松田尚刚与剧情同名，不能据此归并实体。"
+    },
+    {
+      "canonical": "岩瀬",
+      "render": "岩濑",
+      "category": "credit_name",
+      "status": "provisional",
+      "first_recorded_game": "kibu10",
+      "source_evidence": [
+        "scratch4.dat/s37:17455"
+      ],
+      "sources": [
+        "scratch4.dat/s37:17455"
+      ],
+      "note": "原署名给出汉字，译文仅简体对应；实际身份及读音未查证，暂保留本作，不扩大为公共人物身份。",
+      "usage": "仅片尾制作/命名协助/鸣谢署名；圆口辽一、松田尚刚与剧情同名，不能据此归并实体。"
+    },
+    {
+      "canonical": "円口遼一",
+      "render": "圆口辽一",
+      "category": "credit_name",
+      "status": "provisional",
+      "first_recorded_game": "kibu10",
+      "source_evidence": [
+        "scratch4.dat/s37:17466"
+      ],
+      "sources": [
+        "scratch4.dat/s37:17466"
+      ],
+      "note": "原署名给出汉字，译文仅简体对应；实际身份及读音未查证，暂保留本作，不扩大为公共人物身份。",
+      "usage": "仅片尾制作/命名协助/鸣谢署名；圆口辽一、松田尚刚与剧情同名，不能据此归并实体。",
+      "source_refs": [
+        "kibu10/characters/17"
+      ]
+    },
+    {
+      "canonical": "長谷川智康",
+      "render": "长谷川智康",
+      "category": "credit_name",
+      "status": "provisional",
+      "first_recorded_game": "kibu10",
+      "source_evidence": [
+        "scratch4.dat/s37:17485"
+      ],
+      "sources": [
+        "scratch4.dat/s37:17485"
+      ],
+      "note": "原署名给出汉字，译文仅简体对应；实际身份及读音未查证，暂保留本作，不扩大为公共人物身份。",
+      "usage": "仅片尾制作/命名协助/鸣谢署名；圆口辽一、松田尚刚与剧情同名，不能据此归并实体。"
+    },
+    {
+      "canonical": "菊池宏和",
+      "render": "菊池宏和",
+      "category": "credit_name",
+      "status": "provisional",
+      "first_recorded_game": "kibu10",
+      "source_evidence": [
+        "scratch4.dat/s37:17508"
+      ],
+      "sources": [
+        "scratch4.dat/s37:17508"
+      ],
+      "note": "原署名给出汉字，译文仅简体对应；实际身份及读音未查证，暂保留本作，不扩大为公共人物身份。",
+      "usage": "仅片尾制作/命名协助/鸣谢署名；圆口辽一、松田尚刚与剧情同名，不能据此归并实体。"
+    },
+    {
+      "canonical": "陽月",
+      "render": "阳月",
+      "category": "credit_name",
+      "status": "provisional",
+      "first_recorded_game": "kibu10",
+      "source_evidence": [
+        "scratch4.dat/s37:17527"
+      ],
+      "sources": [
+        "scratch4.dat/s37:17527"
+      ],
+      "note": "原署名给出汉字，译文仅简体对应；实际身份及读音未查证，暂保留本作，不扩大为公共人物身份。",
+      "usage": "仅片尾制作/命名协助/鸣谢署名；圆口辽一、松田尚刚与剧情同名，不能据此归并实体。"
+    },
+    {
+      "canonical": "中田友紀子",
+      "render": "中田友纪子",
+      "category": "credit_name",
+      "status": "provisional",
+      "first_recorded_game": "kibu10",
+      "source_evidence": [
+        "scratch4.dat/s37:17538"
+      ],
+      "sources": [
+        "scratch4.dat/s37:17538"
+      ],
+      "note": "原署名给出汉字，译文仅简体对应；实际身份及读音未查证，暂保留本作，不扩大为公共人物身份。",
+      "usage": "仅片尾制作/命名协助/鸣谢署名；圆口辽一、松田尚刚与剧情同名，不能据此归并实体。"
+    },
+    {
+      "canonical": "石田彩",
+      "render": "石田彩",
+      "category": "credit_name",
+      "status": "provisional",
+      "first_recorded_game": "kibu10",
+      "source_evidence": [
+        "scratch4.dat/s37:17584"
+      ],
+      "sources": [
+        "scratch4.dat/s37:17584"
+      ],
+      "note": "原署名给出汉字，译文仅简体对应；实际身份及读音未查证，暂保留本作，不扩大为公共人物身份。",
+      "usage": "仅片尾制作/命名协助/鸣谢署名；圆口辽一、松田尚刚与剧情同名，不能据此归并实体。"
+    },
+    {
+      "canonical": "木村美佳子",
+      "render": "木村美佳子",
+      "category": "credit_name",
+      "status": "provisional",
+      "first_recorded_game": "kibu10",
+      "source_evidence": [
+        "scratch4.dat/s37:17599"
+      ],
+      "sources": [
+        "scratch4.dat/s37:17599"
+      ],
+      "note": "原署名给出汉字，译文仅简体对应；实际身份及读音未查证，暂保留本作，不扩大为公共人物身份。",
+      "usage": "仅片尾制作/命名协助/鸣谢署名；圆口辽一、松田尚刚与剧情同名，不能据此归并实体。"
+    },
+    {
+      "canonical": "関和眞",
+      "render": "关和真",
+      "category": "credit_name",
+      "status": "provisional",
+      "first_recorded_game": "kibu10",
+      "source_evidence": [
+        "scratch4.dat/s37:17622"
+      ],
+      "sources": [
+        "scratch4.dat/s37:17622"
+      ],
+      "note": "原署名给出汉字，译文仅简体对应；实际身份及读音未查证，暂保留本作，不扩大为公共人物身份。",
+      "usage": "仅片尾制作/命名协助/鸣谢署名；圆口辽一、松田尚刚与剧情同名，不能据此归并实体。"
+    },
+    {
+      "canonical": "亜藤千夏",
+      "render": "亚藤千夏",
+      "category": "credit_name",
+      "status": "provisional",
+      "first_recorded_game": "kibu10",
+      "source_evidence": [
+        "scratch4.dat/s37:17637"
+      ],
+      "sources": [
+        "scratch4.dat/s37:17637"
+      ],
+      "note": "原署名给出汉字，译文仅简体对应；实际身份及读音未查证，暂保留本作，不扩大为公共人物身份。",
+      "usage": "仅片尾制作/命名协助/鸣谢署名；圆口辽一、松田尚刚与剧情同名，不能据此归并实体。"
+    },
+    {
+      "canonical": "裕貴",
+      "render": "裕贵",
+      "category": "credit_name",
+      "status": "provisional",
+      "first_recorded_game": "kibu10",
+      "source_evidence": [
+        "scratch4.dat/s37:17656"
+      ],
+      "sources": [
+        "scratch4.dat/s37:17656"
+      ],
+      "note": "原署名给出汉字，译文仅简体对应；实际身份及读音未查证，暂保留本作，不扩大为公共人物身份。",
+      "usage": "仅片尾制作/命名协助/鸣谢署名；圆口辽一、松田尚刚与剧情同名，不能据此归并实体。"
+    },
+    {
+      "canonical": "堀菜穂子",
+      "render": "堀菜穗子",
+      "category": "credit_name",
+      "status": "provisional",
+      "first_recorded_game": "kibu10",
+      "source_evidence": [
+        "scratch4.dat/s37:17667"
+      ],
+      "sources": [
+        "scratch4.dat/s37:17667"
+      ],
+      "note": "原署名给出汉字，译文仅简体对应；实际身份及读音未查证，暂保留本作，不扩大为公共人物身份。",
+      "usage": "仅片尾制作/命名协助/鸣谢署名；圆口辽一、松田尚刚与剧情同名，不能据此归并实体。"
+    },
+    {
+      "canonical": "中澤茉莉香",
+      "render": "中泽茉莉香",
+      "category": "credit_name",
+      "status": "provisional",
+      "first_recorded_game": "kibu10",
+      "source_evidence": [
+        "scratch4.dat/s37:17709"
+      ],
+      "sources": [
+        "scratch4.dat/s37:17709"
+      ],
+      "note": "原署名给出汉字，译文仅简体对应；实际身份及读音未查证，暂保留本作，不扩大为公共人物身份。",
+      "usage": "仅片尾制作/命名协助/鸣谢署名；圆口辽一、松田尚刚与剧情同名，不能据此归并实体。"
+    },
+    {
+      "canonical": "三上昂",
+      "render": "三上昂",
+      "category": "credit_name",
+      "status": "provisional",
+      "first_recorded_game": "kibu10",
+      "source_evidence": [
+        "scratch4.dat/s37:17732"
+      ],
+      "sources": [
+        "scratch4.dat/s37:17732"
+      ],
+      "note": "原署名给出汉字，译文仅简体对应；实际身份及读音未查证，暂保留本作，不扩大为公共人物身份。",
+      "usage": "仅片尾制作/命名协助/鸣谢署名；圆口辽一、松田尚刚与剧情同名，不能据此归并实体。"
+    },
+    {
+      "canonical": "高野優子",
+      "render": "高野优子",
+      "category": "credit_name",
+      "status": "provisional",
+      "first_recorded_game": "kibu10",
+      "source_evidence": [
+        "scratch4.dat/s37:17747"
+      ],
+      "sources": [
+        "scratch4.dat/s37:17747"
+      ],
+      "note": "原署名给出汉字，译文仅简体对应；实际身份及读音未查证，暂保留本作，不扩大为公共人物身份。",
+      "usage": "仅片尾制作/命名协助/鸣谢署名；圆口辽一、松田尚刚与剧情同名，不能据此归并实体。"
+    },
+    {
+      "canonical": "勝田和徳",
+      "render": "胜田和德",
+      "category": "credit_name",
+      "status": "provisional",
+      "first_recorded_game": "kibu10",
+      "source_evidence": [
+        "scratch4.dat/s37:17833"
+      ],
+      "sources": [
+        "scratch4.dat/s37:17833"
+      ],
+      "note": "原署名给出汉字，译文仅简体对应；实际身份及读音未查证，暂保留本作，不扩大为公共人物身份。",
+      "usage": "仅片尾制作/命名协助/鸣谢署名；圆口辽一、松田尚刚与剧情同名，不能据此归并实体。"
+    },
+    {
+      "canonical": "西平桂子",
+      "render": "西平桂子",
+      "category": "credit_name",
+      "status": "provisional",
+      "first_recorded_game": "kibu10",
+      "source_evidence": [
+        "scratch4.dat/s37:17852"
+      ],
+      "sources": [
+        "scratch4.dat/s37:17852"
+      ],
+      "note": "原署名给出汉字，译文仅简体对应；实际身份及读音未查证，暂保留本作，不扩大为公共人物身份。",
+      "usage": "仅片尾制作/命名协助/鸣谢署名；圆口辽一、松田尚刚与剧情同名，不能据此归并实体。"
+    },
+    {
+      "canonical": "立川成子",
+      "render": "立川成子",
+      "category": "credit_name",
+      "status": "provisional",
+      "first_recorded_game": "kibu10",
+      "source_evidence": [
+        "scratch4.dat/s37:17871"
+      ],
+      "sources": [
+        "scratch4.dat/s37:17871"
+      ],
+      "note": "原署名给出汉字，译文仅简体对应；实际身份及读音未查证，暂保留本作，不扩大为公共人物身份。",
+      "usage": "仅片尾制作/命名协助/鸣谢署名；圆口辽一、松田尚刚与剧情同名，不能据此归并实体。"
+    },
+    {
+      "canonical": "高田扶示人",
+      "render": "高田扶示人",
+      "category": "credit_name",
+      "status": "provisional",
+      "first_recorded_game": "kibu10",
+      "source_evidence": [
+        "scratch4.dat/s37:17937"
+      ],
+      "sources": [
+        "scratch4.dat/s37:17937"
+      ],
+      "note": "原署名给出汉字，译文仅简体对应；实际身份及读音未查证，暂保留本作，不扩大为公共人物身份。",
+      "usage": "仅片尾制作/命名协助/鸣谢署名；圆口辽一、松田尚刚与剧情同名，不能据此归并实体。"
+    }
+  ],
+  "conflicts": [
+    {
+      "kind": "company_name_rendering",
+      "ids": [
+        "file/start:279",
+        "scratch4.dat/s37:18054"
+      ],
+      "source": [
+        "<color=2>Presents</color><row/><color=0>株式会社AndJoy</color>",
+        "<color=8>制作・著作</color><row/><color=0>株式会社AndJoy</color>"
+      ],
+      "target": [
+        "<color=2>出品</color><row/><color=0>AndJoy 股份有限公司</color>",
+        "<color=8>制作·著作</color><row/><color=0>株式会社 AndJoy</color>"
+      ],
+      "issue": "同一株式会社AndJoy开场译AndJoy 股份有限公司，片尾保留株式会社 AndJoy，法律实体名呈现未统一。不是身份推断问题。",
+      "suggestion": "协调选择一致呈现；若沿开场，片尾用“制作·著作 AndJoy 股份有限公司”。"
+    }
+  ],
+  "rules": {
+    "identity_and_viewpoint": {
+      "rule": "四视角按章节知情范围；s34未命名视角保留？？？直到9月30日揭示。石上/一条院、冲村/生王各自保留原称呼；不能借全局alias提前泄密。",
+      "sources": [
+        "scratch4.dat/s36:2536",
+        "scratch4.dat/s36:30847",
+        "scratch4.dat/s37:2213",
+        "scratch4.dat/s27:16334"
+      ]
+    },
+    "missing_su_note": {
+      "rule": "残笔“明日、わたしは自　します。”对应“明天，我会自　。”，保留一处全角缺字格；讨论只能提出自杀疑问，不在证物补自杀或自首。残损整信中文按语义保留缺字，后续引用一致。",
+      "sources": [
+        "scratch4.dat/s35-2:29048",
+        "scratch4.dat/s35-2:29537",
+        "scratch4.dat/s35-2:29628",
+        "scratch4.dat/s35-2:29680"
+      ]
+    },
+    "anagram": {
+      "rule": "IMOURA SUMIKA（妹浦澄佳）、OKIMURA ISAMU（冲村勇）、IKURUMI MASAO（生王正生）为相同字母重排，保留全角罗马字动画及顺序，中文不改名造新谜。错误选项姓4名3指日语假名数，不是汉字数；原点击揭露前不解释。",
+      "sources": [
+        "scratch4.dat/s27:18628",
+        "scratch4.dat/s27:20252",
+        "scratch4.dat/s27:20363",
+        "scratch4.dat/s27:23578",
+        "scratch4.dat/s27:23970"
+      ]
+    },
+    "reading_jokes": {
+      "rule": "矢当托也姓氏误读Yatou、正确Yaatari采用拉丁读音与句外简注；生王误读なま…おう不因此改姓名或提早补作曲人身份。",
+      "sources": [
+        "scratch4.dat/s02:21707",
+        "scratch4.dat/s02:21801",
+        "file/append:4159",
+        "scratch4.dat/s35-2:33261",
+        "scratch4.dat/s27:16242"
+      ]
+    },
+    "number_discrepancies": {
+      "rule": "s23新闻23死者而澄佳惊恐复述20人，两处原文不同，分别保留；s33次日新闻30死16伤20余失踪是另一时点，不强制统一。",
+      "sources": [
+        "scratch4.dat/s23:8086",
+        "scratch4.dat/s23:10379"
+      ]
+    },
+    "legal_timeline": {
+      "rule": "1999剧情罪名准强奸罪、亲告罪按原文时代陈述；s34缓刑/实刑存在原文矛盾，翻译不抹平。尾声2000年法改及现在指作品叙述时代，不改为现实2026。",
+      "sources": [
+        "scratch4.dat/s34:8270",
+        "scratch4.dat/s34:9768",
+        "scratch4.dat/s34:13442",
+        "scratch4.dat/s35-1:11253",
+        "scratch4.dat/s37:18161",
+        "scratch4.dat/s37:18466"
+      ]
+    },
+    "bulb_revelation": {
+      "rule": "早期仅液体，不提前写汽油；汽油灯泡阶段保留角色推断。尾声供述才揭示澄佳所持仅水、石上自装5只、无论她行动与否都会爆炸；澄佳完全无辜不提前注入解答前的角色自责。",
+      "sources": [
+        "scratch4.dat/s23:1834",
+        "scratch4.dat/s25:2656",
+        "scratch4.dat/s37:2357",
+        "scratch4.dat/s37:2528",
+        "scratch4.dat/s37:2709",
+        "scratch4.dat/s37:2900",
+        "scratch4.dat/s37:3241"
+      ]
+    },
+    "letters_and_tickets": {
+      "rule": "圭子来信早期不补姓。s32未名视角调换真票为彩印假票，s33看到刑警手中假票时仅作身份推断；工藤自己的早期误判也照原文，不由译文纠正。",
+      "sources": [
+        "scratch4.dat/s02:26831",
+        "scratch4.dat/s03:908",
+        "scratch4.dat/s33:3949"
+      ]
+    },
+    "organization_titles": {
+      "rule": "永劫会会長译会长；公共会長→董事长仅适用公司语境，不能覆盖本作宗教团体。慰苦师是职称，不等同会员。預言者称谓不提前换实名。",
+      "sources": [
+        "scratch4.dat/s35:18121",
+        "scratch4.dat/s13:9932",
+        "scratch4.dat/s37:5818"
+      ]
+    },
+    "catchphrase": {
+      "rule": "癸生川8处それはいい均固定这个先不提；s27:15821 NAMAE 5为伊纲，先放在一边是普通语境，不能机械套口头禅。",
+      "sources": [
+        "scratch4.dat/s05:14895",
+        "scratch4.dat/s05:33983",
+        "scratch4.dat/s11:7869",
+        "scratch4.dat/s12:45862",
+        "scratch4.dat/s14:1731",
+        "scratch4.dat/s21:13418",
+        "scratch4.dat/s27:15821",
+        "scratch4.dat/s33:14571",
+        "scratch4.dat/s35:9832"
+      ]
+    },
+    "edition_number": {
+      "rule": "原手机版第9作保留第 9 作，Steam工程编号10不改源显示。",
+      "sources": [
+        "file/start:356"
+      ]
+    }
+  },
+  "public_rule_checks": {
+    "音成_林居": {
+      "result": "not_applicable",
+      "note": "active全文未出现音成/おとなり/オトナリ，不伪报已用林居；无冲突。"
+    },
+    "オバキュー_尾Q": {
+      "result": "passed",
+      "sources": [
+        "scratch4.dat/s00:7539"
+      ],
+      "note": "唯一昵称用尾Q警部；不重复第一作解释。"
+    },
+    "それはいい": {
+      "result": "passed",
+      "note": "已据source-replay NAMAE核查8处speaker0癸生川、1处speaker5伊纲。"
+    },
+    "false_positive_exclusions": [
+      "みに仅在ちなみに、飲みに、悩みに等普通词中，不是第一作米妮账号。",
+      "ようじ仅ないようじゃ普通语法，不是尤吉。",
+      "会長是本作永劫会组织头衔，不是前作公司董事长。",
+      "話す/見回す/調べる在正文作动词时允许自然译法，不套菜单译词。"
+    ]
+  },
+  "merge_notes": [
+    "公共已有永劫会、林居、尾Q、生王正生、白鹭洲伊纲、癸生川、藤泽珠惠/枫、大凤院、百白村等不重复建表；与本作关联只增加有限定的来源与规则。",
+    "local里优子/圆口/矢当/柚木等短名单独初始化条目可并入已确认全名aliases；松田不归入父亲独占alias，避免与美纪惠混淆。",
+    "具汉字但真实署名身份/读音未核的职员名单暂留本作provisional；公司英文名也需核实来源。",
+    "赤洲老夫/呀统一由root跟进，本提案不改原文或译文。",
+    "全称与锁定译文扫描未发现人物姓名、酒店、圭子、学校等实质不一致；公司名格式一项已列conflicts。",
+    "提案source_evidence为本次实际资源ID；source_refs仅对本作当前已存在条目写出，新增项由主控落地后补正确索引。"
+  ]
+}

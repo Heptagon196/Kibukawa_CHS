@@ -1,0 +1,1160 @@
+ldc.i4.1
+stloc.2
+ldarg.0
+ldfld System.Boolean CanvasEx::NowRoll
+brfalse.s branch:7
+ldc.i4.1
+ret
+ldarg.0
+ldfld System.Int64 CanvasEx::MusicFadeStart
+brfalse.s branch:62
+call T Steezy.Utility.SingletonBehaviour`1<SocotraRuntime>::get_Instance()
+callvirt System.Int64 SocotraRuntime::CurrentTimeMillis()
+ldarg.0
+ldfld System.Int64 CanvasEx::MusicFadeStart
+sub
+ldc.i4 4096
+conv.i8
+mul
+stloc.3
+ldloc.3
+ldc.i4 2000
+conv.i8
+div
+stloc.3
+ldloc.3
+ldc.i4 4096
+conv.i8
+ble.s branch:40
+ldarg.0
+ldc.i4.s -2
+ldc.i4.m1
+ldc.i4.m1
+ldc.i4.0
+ldc.i4.0
+call System.Void CanvasEx::Play(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
+ldarg.0
+ldc.i4.0
+conv.i8
+stfld System.Int64 CanvasEx::MusicFadeStart
+br.s branch:62
+nop
+ldsfld Socotra.Media.AudioPresenter[] CanvasEx::phraseTrack
+ldc.i4.0
+ldelem.ref
+ldc.i4.4
+ldarg.0
+ldfld System.Int32 CanvasEx::Volume
+conv.i8
+ldarg.0
+ldfld System.Int32 CanvasEx::Volume
+conv.i8
+ldloc.3
+mul
+ldc.i4 4096
+conv.i8
+div
+sub
+conv.i4
+callvirt System.Void Socotra.Media.AudioPresenter::SetAttribute(System.Int32,System.Int32)
+leave.s branch:62
+pop
+leave.s branch:62
+ldarg.0
+ldfld System.Int64 CanvasEx::Flush_start
+brfalse.s branch:82
+ldarg.0
+ldfld System.Int64 CanvasEx::Flush_start
+ldarg.0
+ldfld System.Int64 CanvasEx::Flush_jikan
+add
+call T Steezy.Utility.SingletonBehaviour`1<SocotraRuntime>::get_Instance()
+callvirt System.Int64 SocotraRuntime::CurrentTimeMillis()
+bge.s branch:80
+ldarg.0
+ldc.i4.1
+stfld System.Boolean CanvasEx::Resumed
+ldarg.0
+ldc.i4.0
+conv.i8
+stfld System.Int64 CanvasEx::Flush_start
+ldc.i4.1
+ret
+ldarg.0
+ldfld System.Int64 CanvasEx::GamenKirikae_start
+brfalse branch:340
+call T Steezy.Utility.SingletonBehaviour`1<SocotraRuntime>::get_Instance()
+callvirt System.Int64 SocotraRuntime::CurrentTimeMillis()
+stloc.1
+ldarg.0
+ldloc.1
+ldarg.0
+ldfld System.Int64 CanvasEx::GamenKirikae_start
+sub
+ldc.i4 1024
+conv.i8
+mul
+ldarg.0
+ldfld System.Int64 CanvasEx::GamenKirikae_jikan
+div
+conv.i4
+stfld System.Int32 CanvasEx::GamenKirikae_wariai
+ldarg.0
+ldarg.0
+ldfld System.Int32 CanvasEx::GamenKirikae_wariai
+ldc.i4.1
+or
+stfld System.Int32 CanvasEx::GamenKirikae_wariai
+ldarg.0
+ldfld System.Int32 CanvasEx::GamenKirikae_wariai
+ldc.i4 1024
+ble branch:330
+ldarg.0
+ldc.i4.1
+stfld System.Boolean CanvasEx::draw_flag
+ldarg.0
+ldc.i4.0
+conv.i8
+stfld System.Int64 CanvasEx::GamenKirikae_start
+ldarg.0
+ldc.i4 1024
+stfld System.Int32 CanvasEx::GamenKirikae_wariai
+ldarg.0
+ldc.i4.0
+stfld System.Boolean CanvasEx::KyaraSettiChu
+ldarg.0
+ldfld System.String CanvasEx::HaikeiFileName
+callvirt System.Int32 System.String::get_Length()
+brfalse.s branch:136
+ldarg.0
+ldarg.0
+ldfld System.String CanvasEx::HaikeiFileName
+stfld System.String CanvasEx::HaikeiFileNameBackup
+ldarg.0
+ldsfld System.String System.String::Empty
+stfld System.String CanvasEx::HaikeiFileName
+br.s branch:147
+ldarg.0
+ldsfld System.String System.String::Empty
+stfld System.String CanvasEx::HaikeiFileName
+ldsfld Socotra.UI.Image CanvasEx::Image_Haikei
+ldnull
+call System.Boolean UnityEngine.Object::op_Inequality(UnityEngine.Object,UnityEngine.Object)
+brfalse.s branch:145
+ldsfld Socotra.UI.Image CanvasEx::Image_Haikei
+callvirt System.Void Socotra.UI.Image::Dispose()
+ldnull
+stsfld Socotra.UI.Image CanvasEx::Image_Haikei
+ldc.i4.0
+stloc.0
+br branch:327
+ldarg.0
+ldfld System.String[] CanvasEx::Kyara_FileName
+ldloc.0
+ldelem.ref
+callvirt System.Int32 System.String::get_Length()
+brfalse.s branch:170
+ldarg.0
+ldfld System.String[] CanvasEx::Kyara_FileNameBackup
+ldloc.0
+ldarg.0
+ldfld System.String[] CanvasEx::Kyara_FileName
+ldloc.0
+ldelem.ref
+stelem.ref
+ldarg.0
+ldfld System.String[] CanvasEx::Kyara_FileName
+ldloc.0
+ldsfld System.String System.String::Empty
+stelem.ref
+br branch:323
+ldarg.0
+ldfld System.String[] CanvasEx::Kyara_FileNameBackup
+ldloc.0
+ldsfld System.String System.String::Empty
+stelem.ref
+ldsfld Socotra.UI.Image[] CanvasEx::Image_Kyara
+ldloc.0
+ldelem.ref
+ldnull
+call System.Boolean UnityEngine.Object::op_Inequality(UnityEngine.Object,UnityEngine.Object)
+brfalse.s branch:185
+ldsfld Socotra.UI.Image[] CanvasEx::Image_Kyara
+ldloc.0
+ldelem.ref
+callvirt System.Void Socotra.UI.Image::Dispose()
+ldsfld Socotra.UI.Image[] CanvasEx::Image_KyaraBody
+ldloc.0
+ldelem.ref
+ldnull
+call System.Boolean UnityEngine.Object::op_Inequality(UnityEngine.Object,UnityEngine.Object)
+brfalse.s branch:195
+ldsfld Socotra.UI.Image[] CanvasEx::Image_KyaraBody
+ldloc.0
+ldelem.ref
+callvirt System.Void Socotra.UI.Image::Dispose()
+ldsfld Socotra.UI.Image[][] CanvasEx::Image_KyaraMe
+ldloc.0
+ldelem.ref
+ldc.i4.0
+ldelem.ref
+ldnull
+call System.Boolean UnityEngine.Object::op_Inequality(UnityEngine.Object,UnityEngine.Object)
+brfalse.s branch:209
+ldsfld Socotra.UI.Image[][] CanvasEx::Image_KyaraMe
+ldloc.0
+ldelem.ref
+ldc.i4.0
+ldelem.ref
+callvirt System.Void Socotra.UI.Image::Dispose()
+ldsfld Socotra.UI.Image[][] CanvasEx::Image_KyaraMe
+ldloc.0
+ldelem.ref
+ldc.i4.1
+ldelem.ref
+ldnull
+call System.Boolean UnityEngine.Object::op_Inequality(UnityEngine.Object,UnityEngine.Object)
+brfalse.s branch:223
+ldsfld Socotra.UI.Image[][] CanvasEx::Image_KyaraMe
+ldloc.0
+ldelem.ref
+ldc.i4.1
+ldelem.ref
+callvirt System.Void Socotra.UI.Image::Dispose()
+ldsfld Socotra.UI.Image[][] CanvasEx::Image_KyaraMe
+ldloc.0
+ldelem.ref
+ldc.i4.2
+ldelem.ref
+ldnull
+call System.Boolean UnityEngine.Object::op_Inequality(UnityEngine.Object,UnityEngine.Object)
+brfalse.s branch:237
+ldsfld Socotra.UI.Image[][] CanvasEx::Image_KyaraMe
+ldloc.0
+ldelem.ref
+ldc.i4.2
+ldelem.ref
+callvirt System.Void Socotra.UI.Image::Dispose()
+ldsfld Socotra.UI.Image[][] CanvasEx::Image_KyaraKuti
+ldloc.0
+ldelem.ref
+ldc.i4.0
+ldelem.ref
+ldnull
+call System.Boolean UnityEngine.Object::op_Inequality(UnityEngine.Object,UnityEngine.Object)
+brfalse.s branch:251
+ldsfld Socotra.UI.Image[][] CanvasEx::Image_KyaraKuti
+ldloc.0
+ldelem.ref
+ldc.i4.0
+ldelem.ref
+callvirt System.Void Socotra.UI.Image::Dispose()
+ldsfld Socotra.UI.Image[][] CanvasEx::Image_KyaraKuti
+ldloc.0
+ldelem.ref
+ldc.i4.1
+ldelem.ref
+ldnull
+call System.Boolean UnityEngine.Object::op_Inequality(UnityEngine.Object,UnityEngine.Object)
+brfalse.s branch:265
+ldsfld Socotra.UI.Image[][] CanvasEx::Image_KyaraKuti
+ldloc.0
+ldelem.ref
+ldc.i4.1
+ldelem.ref
+callvirt System.Void Socotra.UI.Image::Dispose()
+ldsfld Socotra.UI.Image[][] CanvasEx::Image_KyaraKuti
+ldloc.0
+ldelem.ref
+ldc.i4.2
+ldelem.ref
+ldnull
+call System.Boolean UnityEngine.Object::op_Inequality(UnityEngine.Object,UnityEngine.Object)
+brfalse.s branch:279
+ldsfld Socotra.UI.Image[][] CanvasEx::Image_KyaraKuti
+ldloc.0
+ldelem.ref
+ldc.i4.2
+ldelem.ref
+callvirt System.Void Socotra.UI.Image::Dispose()
+ldsfld Socotra.UI.Image[] CanvasEx::Image_Kyara
+ldloc.0
+ldnull
+stelem.ref
+ldsfld Socotra.UI.Image[] CanvasEx::Image_KyaraBody
+ldloc.0
+ldnull
+stelem.ref
+ldsfld Socotra.UI.Image[][] CanvasEx::Image_KyaraMe
+ldloc.0
+ldelem.ref
+ldc.i4.0
+ldnull
+stelem.ref
+ldsfld Socotra.UI.Image[][] CanvasEx::Image_KyaraMe
+ldloc.0
+ldelem.ref
+ldc.i4.1
+ldnull
+stelem.ref
+ldsfld Socotra.UI.Image[][] CanvasEx::Image_KyaraMe
+ldloc.0
+ldelem.ref
+ldc.i4.2
+ldnull
+stelem.ref
+ldsfld Socotra.UI.Image[][] CanvasEx::Image_KyaraKuti
+ldloc.0
+ldelem.ref
+ldc.i4.0
+ldnull
+stelem.ref
+ldsfld Socotra.UI.Image[][] CanvasEx::Image_KyaraKuti
+ldloc.0
+ldelem.ref
+ldc.i4.1
+ldnull
+stelem.ref
+ldsfld Socotra.UI.Image[][] CanvasEx::Image_KyaraKuti
+ldloc.0
+ldelem.ref
+ldc.i4.2
+ldnull
+stelem.ref
+ldloc.0
+ldc.i4.1
+add
+stloc.0
+ldloc.0
+ldc.i4.5
+blt branch:150
+ldarg.0
+ldc.i4 240
+ldarg.0
+ldfld System.Int32 CanvasEx::GamenKirikae_wariai
+mul
+ldc.i4 1024
+div
+stfld System.Int32 CanvasEx::GamenKirikae_height
+ldc.i4.1
+ret
+ldarg.0
+ldfld System.Int64 CanvasEx::Ueito_start
+brfalse.s branch:360
+call T Steezy.Utility.SingletonBehaviour`1<SocotraRuntime>::get_Instance()
+callvirt System.Int64 SocotraRuntime::CurrentTimeMillis()
+ldarg.0
+ldfld System.Int64 CanvasEx::Ueito_start
+ldarg.0
+ldfld System.Int64 CanvasEx::Ueito_jikan
+add
+ble.s branch:358
+ldarg.0
+ldc.i4.0
+conv.i8
+stfld System.Int64 CanvasEx::Ueito_start
+ldarg.0
+ldc.i4.0
+stfld System.Int32 CanvasEx::MainTask
+ldc.i4.1
+ret
+ldarg.0
+ldfld System.Int32 CanvasEx::MainTask
+ldc.i4.s 10
+bne.un branch:474
+call T Steezy.Utility.SingletonBehaviour`1<SocotraRuntime>::get_Instance()
+callvirt System.Int64 SocotraRuntime::CurrentTimeMillis()
+stloc.1
+ldloc.1
+ldarg.0
+ldfld System.Int64 CanvasEx::BunsyouFadeJikan
+ldarg.0
+ldfld System.Int64 CanvasEx::BunsyouFadeStart
+add
+bge.s branch:376
+ldc.i4.1
+ret
+ldarg.0
+ldfld System.SByte[][] CanvasEx::bg_itigyougun_control
+ldarg.0
+ldfld System.SByte CanvasEx::BunsyouGun_gyousuu
+ldc.i4.1
+sub
+ldelem.ref
+ldarg.0
+ldfld System.SByte[] CanvasEx::bg_itigyougun_zenkakusuu
+ldarg.0
+ldfld System.SByte CanvasEx::BunsyouGun_gyousuu
+ldc.i4.1
+sub
+ldelem.i1
+ldc.i4.1
+sub
+ldelem.i1
+ldc.i4.s 46
+bne.un.s branch:414
+ldarg.0
+call System.Boolean CanvasEx::BUNSYOU_PERIOD()
+brfalse.s branch:412
+ldarg.0
+ldc.i4.0
+conv.i8
+stfld System.Int64 CanvasEx::BunsyouFadeStart
+ldarg.0
+ldc.i4.0
+conv.i8
+stfld System.Int64 CanvasEx::BunsyouFadeJikan
+ldarg.0
+ldc.i4.0
+stfld System.Boolean CanvasEx::BunsyouFadeReverse
+ldarg.0
+ldc.i4.0
+stfld System.Int32 CanvasEx::MainTask
+ldc.i4.1
+ret
+ldarg.0
+ldfld System.SByte[][] CanvasEx::bg_itigyougun_control
+ldarg.0
+ldfld System.SByte CanvasEx::BunsyouGun_gyousuu
+ldc.i4.1
+sub
+ldelem.ref
+ldarg.0
+ldfld System.SByte[] CanvasEx::bg_itigyougun_zenkakusuu
+ldarg.0
+ldfld System.SByte CanvasEx::BunsyouGun_gyousuu
+ldc.i4.1
+sub
+ldelem.i1
+ldc.i4.1
+sub
+ldelem.i1
+ldc.i4.s 58
+bne.un.s branch:452
+ldarg.0
+call System.Boolean CanvasEx::BUNSYOU_COLON()
+brfalse.s branch:450
+ldarg.0
+ldc.i4.0
+conv.i8
+stfld System.Int64 CanvasEx::BunsyouFadeStart
+ldarg.0
+ldc.i4.0
+conv.i8
+stfld System.Int64 CanvasEx::BunsyouFadeJikan
+ldarg.0
+ldc.i4.0
+stfld System.Boolean CanvasEx::BunsyouFadeReverse
+ldarg.0
+ldc.i4.0
+stfld System.Int32 CanvasEx::MainTask
+ldc.i4.1
+ret
+ldarg.0
+ldfld System.Boolean CanvasEx::BunsyouFadeReverse
+brfalse.s branch:460
+ldarg.0
+call System.Void CanvasEx::ClearBunBuffer()
+ldarg.0
+ldc.i4.1
+stfld System.Boolean CanvasEx::draw_flag
+ldarg.0
+ldc.i4.0
+conv.i8
+stfld System.Int64 CanvasEx::BunsyouFadeStart
+ldarg.0
+ldc.i4.0
+conv.i8
+stfld System.Int64 CanvasEx::BunsyouFadeJikan
+ldarg.0
+ldc.i4.0
+stfld System.Boolean CanvasEx::BunsyouFadeReverse
+ldarg.0
+ldc.i4.0
+stfld System.Int32 CanvasEx::MainTask
+ldarg.0
+ldfld System.Int32 CanvasEx::MainTask
+ldc.i4.6
+bne.un branch:783
+ldarg.0
+ldfld System.Int32 CanvasEx::Key_select
+ldc.i4.1
+beq.s branch:491
+ldarg.0
+ldfld System.Boolean CanvasEx::osippanasiFlg
+brtrue.s branch:488
+ldarg.0
+ldc.i4.0
+stfld System.Boolean CanvasEx::OsippanasiKinsi
+ldarg.0
+ldc.i4.0
+stfld System.Boolean CanvasEx::osippanasiFlg
+call T Steezy.Utility.SingletonBehaviour`1<SocotraRuntime>::get_Instance()
+callvirt System.Int64 SocotraRuntime::CurrentTimeMillis()
+ldarg.0
+ldfld System.Int32 CanvasEx::NowMojiSpeed
+conv.i8
+ldarg.0
+ldfld System.Int64 CanvasEx::LastMojiSpeedTime
+add
+ble branch:781
+ldarg.0
+ldfld System.SByte[][] CanvasEx::bg_itigyougun_control
+ldarg.0
+ldfld System.Int32 CanvasEx::PrintDanYoyaku
+ldelem.ref
+ldarg.0
+ldfld System.Int32 CanvasEx::PrintKetaYoyaku
+ldelem.i1
+ldc.i4.s 46
+bne.un.s branch:521
+ldarg.0
+call System.Boolean CanvasEx::BUNSYOU_PERIOD()
+pop
+ldarg.0
+call T Steezy.Utility.SingletonBehaviour`1<SocotraRuntime>::get_Instance()
+callvirt System.Int64 SocotraRuntime::CurrentTimeMillis()
+ldc.i4 1000
+conv.i8
+sub
+stfld System.Int64 CanvasEx::LastMojiSpeedTime
+br branch:778
+ldarg.0
+ldfld System.SByte[][] CanvasEx::bg_itigyougun_control
+ldarg.0
+ldfld System.Int32 CanvasEx::PrintDanYoyaku
+ldelem.ref
+ldarg.0
+ldfld System.Int32 CanvasEx::PrintKetaYoyaku
+ldelem.i1
+ldc.i4.s 58
+bne.un.s branch:545
+ldarg.0
+ldfld System.Boolean CanvasEx::ColonDesita
+brtrue.s branch:545
+ldarg.0
+call System.Boolean CanvasEx::BUNSYOU_COLON()
+pop
+ldarg.0
+call T Steezy.Utility.SingletonBehaviour`1<SocotraRuntime>::get_Instance()
+callvirt System.Int64 SocotraRuntime::CurrentTimeMillis()
+ldc.i4 1000
+conv.i8
+sub
+stfld System.Int64 CanvasEx::LastMojiSpeedTime
+br branch:778
+ldarg.0
+ldfld System.SByte[][] CanvasEx::bg_itigyougun_control
+ldarg.0
+ldfld System.Int32 CanvasEx::PrintDanYoyaku
+ldelem.ref
+ldarg.0
+ldfld System.Int32 CanvasEx::PrintKetaYoyaku
+ldelem.i1
+ldc.i4.s 59
+bne.un.s branch:565
+ldarg.0
+call System.Void CanvasEx::BUNSYOU_SEMICOLON()
+ldarg.0
+call T Steezy.Utility.SingletonBehaviour`1<SocotraRuntime>::get_Instance()
+callvirt System.Int64 SocotraRuntime::CurrentTimeMillis()
+ldc.i4 1000
+conv.i8
+sub
+stfld System.Int64 CanvasEx::LastMojiSpeedTime
+br branch:778
+ldarg.0
+ldfld System.SByte[][] CanvasEx::bg_itigyougun_control
+ldarg.0
+ldfld System.Int32 CanvasEx::PrintDanYoyaku
+ldelem.ref
+ldarg.0
+ldfld System.Int32 CanvasEx::PrintKetaYoyaku
+ldelem.i1
+ldc.i4.s 43
+bne.un.s branch:586
+ldarg.0
+call System.Boolean CanvasEx::BUNSYOU_JINGLE()
+pop
+ldarg.0
+call T Steezy.Utility.SingletonBehaviour`1<SocotraRuntime>::get_Instance()
+callvirt System.Int64 SocotraRuntime::CurrentTimeMillis()
+ldc.i4 1000
+conv.i8
+sub
+stfld System.Int64 CanvasEx::LastMojiSpeedTime
+br branch:778
+ldarg.0
+ldc.i4.0
+stfld System.Boolean CanvasEx::ColonDesita
+ldarg.0
+ldfld System.String[] CanvasEx::bg_itigyougun_mojiretu
+ldarg.0
+ldfld System.Int32 CanvasEx::PrintDanYoyaku
+ldelem.ref
+callvirt System.Int32 System.String::get_Length()
+ldc.i4.1
+sub
+ldarg.0
+ldfld System.Int32 CanvasEx::PrintMojiKetaKanryo
+bgt.s branch:619
+ldarg.0
+ldarg.0
+ldfld System.Int32 CanvasEx::PrintDanYoyaku
+ldc.i4.1
+add
+stfld System.Int32 CanvasEx::PrintDanYoyaku
+ldarg.0
+ldc.i4.0
+stfld System.Int32 CanvasEx::PrintKetaYoyaku
+ldarg.0
+ldc.i4.m1
+stfld System.Int32 CanvasEx::PrintKetaKanryo
+ldarg.0
+ldc.i4.0
+stfld System.Int32 CanvasEx::PrintMojiKetaYoyaku
+ldarg.0
+ldc.i4.m1
+stfld System.Int32 CanvasEx::PrintMojiKetaKanryo
+br.s branch:631
+ldarg.0
+ldarg.0
+ldfld System.Int32 CanvasEx::PrintKetaYoyaku
+ldc.i4.1
+add
+stfld System.Int32 CanvasEx::PrintKetaYoyaku
+ldarg.0
+ldarg.0
+ldfld System.Int32 CanvasEx::PrintMojiKetaYoyaku
+ldc.i4.1
+add
+stfld System.Int32 CanvasEx::PrintMojiKetaYoyaku
+ldarg.0
+ldfld System.Int32 CanvasEx::aKey_down
+ldc.i4.1
+beq.s branch:639
+ldarg.0
+ldfld System.Int32 CanvasEx::Key_select
+ldc.i4.1
+bne.un branch:774
+ldarg.0
+ldfld System.Boolean CanvasEx::OsippanasiKinsi
+brtrue branch:774
+ldarg.0
+ldfld System.Int32 CanvasEx::PrintKetaKanryo
+ldc.i4.0
+blt branch:774
+br branch:747
+ldarg.0
+ldfld System.String[] CanvasEx::bg_itigyougun_mojiretu
+ldarg.0
+ldfld System.Int32 CanvasEx::PrintDanYoyaku
+ldelem.ref
+callvirt System.Int32 System.String::get_Length()
+ldc.i4.1
+sub
+ldarg.0
+ldfld System.Int32 CanvasEx::PrintMojiKetaKanryo
+bgt.s branch:698
+ldarg.0
+ldfld System.SByte[][] CanvasEx::bg_itigyougun_control
+ldarg.0
+ldfld System.Int32 CanvasEx::PrintDanYoyaku
+ldelem.ref
+ldarg.0
+ldfld System.Int32 CanvasEx::PrintKetaKanryo
+ldc.i4.1
+add
+ldelem.i1
+brfalse.s branch:676
+ldarg.0
+ldarg.0
+ldfld System.Int32 CanvasEx::PrintKetaKanryo
+ldc.i4.1
+add
+stfld System.Int32 CanvasEx::PrintKetaKanryo
+leave branch:756
+leave.s branch:679
+pop
+leave.s branch:679
+ldarg.0
+ldc.i4.0
+stfld System.Int32 CanvasEx::PrintKetaKanryo
+ldarg.0
+ldc.i4.0
+stfld System.Int32 CanvasEx::PrintMojiKetaKanryo
+ldarg.0
+ldarg.0
+ldfld System.Int32 CanvasEx::PrintDanYoyaku
+ldc.i4.1
+add
+stfld System.Int32 CanvasEx::PrintDanYoyaku
+ldarg.0
+ldc.i4.0
+stfld System.Int32 CanvasEx::PrintKetaYoyaku
+ldarg.0
+ldc.i4.0
+stfld System.Int32 CanvasEx::PrintMojiKetaYoyaku
+br.s branch:747
+ldarg.0
+ldfld System.String[] CanvasEx::bg_itigyougun_mojiretu
+ldarg.0
+ldfld System.Int32 CanvasEx::PrintDanYoyaku
+ldelem.ref
+callvirt System.Int32 System.String::get_Length()
+ldc.i4.0
+ble.s branch:735
+ldarg.0
+ldfld System.String[] CanvasEx::bg_itigyougun_mojiretu
+ldarg.0
+ldfld System.Int32 CanvasEx::PrintDanYoyaku
+ldelem.ref
+ldarg.0
+ldfld System.Int32 CanvasEx::PrintMojiKetaKanryo
+callvirt System.Char System.String::get_Chars(System.Int32)
+ldc.i4 65535
+and
+stloc.s local:4
+ldloc.s local:4
+ldc.i4.0
+blt.s branch:723
+ldloc.s local:4
+ldc.i4.s 127
+ble.s branch:729
+ldloc.s local:4
+ldc.i4 65377
+blt.s branch:735
+ldloc.s local:4
+ldc.i4 65439
+bgt.s branch:735
+ldarg.0
+ldarg.0
+ldfld System.Int32 CanvasEx::PrintMojiKetaKanryo
+ldc.i4.1
+add
+stfld System.Int32 CanvasEx::PrintMojiKetaKanryo
+ldarg.0
+ldarg.0
+ldfld System.Int32 CanvasEx::PrintMojiKetaKanryo
+ldc.i4.1
+add
+stfld System.Int32 CanvasEx::PrintMojiKetaKanryo
+ldarg.0
+ldarg.0
+ldfld System.Int32 CanvasEx::PrintKetaKanryo
+ldc.i4.1
+add
+stfld System.Int32 CanvasEx::PrintKetaKanryo
+ldarg.0
+ldfld System.SByte[][] CanvasEx::bg_itigyougun_control
+ldarg.0
+ldfld System.Int32 CanvasEx::PrintDanYoyaku
+ldelem.ref
+ldarg.0
+ldfld System.Int32 CanvasEx::PrintKetaKanryo
+ldelem.i1
+brfalse branch:647
+ldarg.0
+ldc.i4.1
+stfld System.Boolean CanvasEx::Resumed
+ldarg.0
+ldc.i4.1
+stfld System.Boolean CanvasEx::TeisiIkkai
+ldarg.0
+ldarg.0
+ldfld System.Int32 CanvasEx::PrintKetaKanryo
+stfld System.Int32 CanvasEx::PrintKetaYoyaku
+ldarg.0
+ldarg.0
+ldfld System.Int32 CanvasEx::PrintDanYoyaku
+stfld System.Int32 CanvasEx::PrintDanKanryo
+ldarg.0
+ldarg.0
+ldfld System.Int32 CanvasEx::PrintMojiKetaKanryo
+stfld System.Int32 CanvasEx::PrintMojiKetaYoyaku
+ldarg.0
+call T Steezy.Utility.SingletonBehaviour`1<SocotraRuntime>::get_Instance()
+callvirt System.Int64 SocotraRuntime::CurrentTimeMillis()
+stfld System.Int64 CanvasEx::LastMojiSpeedTime
+leave.s branch:781
+pop
+br.s branch:780
+ldc.i4.1
+ret
+ldarg.0
+ldfld System.Int32 CanvasEx::MainTask
+ldc.i4.s 12
+beq.s branch:815
+ldarg.0
+ldfld System.Int32 CanvasEx::MainTask
+ldc.i4.4
+beq.s branch:815
+ldarg.0
+ldfld System.Int32 CanvasEx::MainTask
+ldc.i4.5
+beq.s branch:815
+ldarg.0
+ldarg.0
+ldfld System.SByte[] CanvasEx::Script
+ldarg.0
+ldarg.0
+ldfld System.Int32 CanvasEx::Pos
+stloc.s local:5
+ldloc.s local:5
+ldc.i4.1
+add
+stfld System.Int32 CanvasEx::Pos
+ldloc.s local:5
+ldelem.i1
+stfld System.Int32 CanvasEx::Command
+ldarg.0
+ldarg.0
+ldfld System.Int32 CanvasEx::Command
+ldc.i4 255
+and
+stfld System.Int32 CanvasEx::Command
+ldarg.0
+ldfld System.Boolean CanvasEx::NowCommand
+brfalse branch:884
+ldarg.0
+ldfld System.Int32 CanvasEx::MainTask
+ldc.i4.4
+bne.un.s branch:824
+ldc.i4.1
+ret
+ldarg.0
+ldfld System.Int32 CanvasEx::Command
+ldc.i4.4
+beq branch:1003
+ldarg.0
+ldfld System.Int32 CanvasEx::Command
+ldc.i4.8
+beq branch:1003
+ldarg.0
+ldc.i4.0
+stfld System.Int32 CanvasEx::CommandCursorPos
+ldarg.0
+ldc.i4.s -100
+stfld System.Int32 CanvasEx::OldCommandCursorPos
+ldarg.0
+ldfld System.Int32 CanvasEx::komando_modori
+ldc.i4.m1
+bne.un.s branch:872
+ldc.i4.0
+stloc.0
+br.s branch:869
+ldarg.0
+ldfld System.Int32[] CanvasEx::Sentaku_kioku_id
+ldloc.0
+ldelem.i4
+ldarg.0
+ldfld System.Int32 CanvasEx::Pos
+bne.un.s branch:865
+ldarg.0
+ldarg.0
+ldfld System.Int32[] CanvasEx::Sentaku_kioku_pos
+ldloc.0
+ldelem.i4
+stfld System.Int32 CanvasEx::CommandCursorPos
+ldarg.0
+ldarg.0
+ldfld System.Int32[] CanvasEx::Sentaku_kioku_top_pos
+ldloc.0
+ldelem.i4
+stfld System.Int32 CanvasEx::CommandTop
+br.s branch:872
+ldloc.0
+ldc.i4.1
+add
+stloc.0
+ldloc.0
+ldc.i4.s 50
+blt.s branch:845
+ldarg.0
+ldc.i4.4
+stfld System.Int32 CanvasEx::MainTask
+ldarg.0
+ldc.i4.1
+stfld System.Int32 CanvasEx::SubTask
+ldarg.0
+call System.Void CanvasEx::KeyFlush()
+ldarg.0
+call System.Void CanvasEx::ClearBunBuffer()
+ldc.i4.1
+ret
+ldarg.0
+ldfld System.Boolean CanvasEx::NowChobunCommand
+brfalse branch:951
+ldarg.0
+ldfld System.Int32 CanvasEx::MainTask
+ldc.i4.5
+bne.un.s branch:893
+ldc.i4.1
+ret
+ldarg.0
+ldfld System.Int32 CanvasEx::Command
+ldc.i4.4
+beq branch:1003
+ldarg.0
+ldfld System.Int32 CanvasEx::Command
+ldc.i4.8
+beq branch:1003
+ldarg.0
+ldc.i4.0
+stfld System.Int32 CanvasEx::CommandCursorPos
+ldarg.0
+ldc.i4.s -100
+stfld System.Int32 CanvasEx::OldCommandCursorPos
+ldarg.0
+ldfld System.Int32 CanvasEx::komando_modori
+ldc.i4.m1
+bne.un.s branch:941
+ldc.i4.0
+stloc.0
+br.s branch:938
+ldarg.0
+ldfld System.Int32[] CanvasEx::Sentaku_kioku_id
+ldloc.0
+ldelem.i4
+ldarg.0
+ldfld System.Int32 CanvasEx::Pos
+bne.un.s branch:934
+ldarg.0
+ldarg.0
+ldfld System.Int32[] CanvasEx::Sentaku_kioku_pos
+ldloc.0
+ldelem.i4
+stfld System.Int32 CanvasEx::CommandCursorPos
+ldarg.0
+ldarg.0
+ldfld System.Int32[] CanvasEx::Sentaku_kioku_top_pos
+ldloc.0
+ldelem.i4
+stfld System.Int32 CanvasEx::CommandTop
+br.s branch:941
+ldloc.0
+ldc.i4.1
+add
+stloc.0
+ldloc.0
+ldc.i4.s 50
+blt.s branch:914
+ldarg.0
+ldc.i4.5
+stfld System.Int32 CanvasEx::MainTask
+ldarg.0
+ldc.i4.1
+stfld System.Int32 CanvasEx::SubTask
+ldarg.0
+call System.Void CanvasEx::KeyFlush()
+ldc.i4.1
+ret
+ldarg.0
+ldfld System.Boolean CanvasEx::NowRandamu
+brfalse.s branch:1003
+ldarg.0
+ldfld System.Int32 CanvasEx::Command
+ldc.i4.4
+beq.s branch:1003
+ldarg.0
+ldfld System.Int32 CanvasEx::Command
+ldc.i4.s 12
+beq.s branch:1003
+ldarg.0
+ldc.i4.0
+stfld System.Boolean CanvasEx::NowRandamu
+ldarg.0
+ldarg.0
+ldfld System.Int32[] CanvasEx::LabelIndex
+ldarg.0
+ldfld System.Int32[] CanvasEx::Randamu
+ldarg.0
+ldfld System.Random CanvasEx::rand
+callvirt System.Int32 System.Random::Next()
+call System.Int32 System.Math::Abs(System.Int32)
+ldarg.0
+ldfld System.Int32 CanvasEx::RandamuStock
+rem
+ldelem.i4
+ldelem.i4
+stfld System.Int32 CanvasEx::Pos
+ldarg.0
+ldc.i4.0
+stfld System.Int32 CanvasEx::RandamuStock
+ldarg.0
+ldarg.0
+ldfld System.SByte[] CanvasEx::Script
+ldarg.0
+ldarg.0
+ldfld System.Int32 CanvasEx::Pos
+stloc.s local:5
+ldloc.s local:5
+ldc.i4.1
+add
+stfld System.Int32 CanvasEx::Pos
+ldloc.s local:5
+ldelem.i1
+stfld System.Int32 CanvasEx::Command
+ldarg.0
+ldarg.0
+ldfld System.Int32 CanvasEx::Command
+ldc.i4 255
+and
+stfld System.Int32 CanvasEx::Command
+ldarg.0
+ldfld System.Int32 CanvasEx::Command
+stloc.s local:5
+ldloc.s local:5
+ldc.i4.1
+sub
+switch switch:1015,1018,1021,1024,1027,1033,1158,1039,1158,1158,1158,1042,1048,1158,1052,1055,1058,1158,1158,1158,1158,1158,1061,1064,1067,1070,1073,1076,1079,1158,1158,1082,1085,1088,1158,1158,1158,1158,1091,1094,1158,1158,1158,1158,1158,1158,1097,1100,1103,1158,1106,1109,1158,1158,1158,1158,1112,1158,1112,1115,1158,1118,1158,1158,1158,1158,1158,1158,1121,1158,1158,1124,1127,1130,1133,1136
+ldloc.s local:5
+ldc.i4 240
+sub
+switch switch:1147,1158,1158,1158,1158,1158,1158,1158,1150,1158,1153,1158,1158,1158,1158,1156
+br branch:1158
+ldarg.0
+call System.Void CanvasEx::TOBU()
+br branch:1158
+ldarg.0
+call System.Void CanvasEx::SABU()
+br branch:1158
+ldarg.0
+call System.Void CanvasEx::MODORU()
+br branch:1158
+ldarg.0
+call System.Void CanvasEx::BUNKI()
+br branch:1158
+ldarg.0
+ldc.i4.1
+stfld System.Boolean CanvasEx::NowCommand
+ldarg.0
+call System.Void CanvasEx::KOMANDO()
+br branch:1158
+ldarg.0
+ldc.i4.1
+stfld System.Boolean CanvasEx::NowChobunCommand
+ldarg.0
+call System.Void CanvasEx::CHOUBUN_KOMANDO()
+br branch:1158
+ldarg.0
+call System.Void CanvasEx::SENTAKUSI()
+br branch:1158
+ldarg.0
+ldc.i4.1
+stfld System.Boolean CanvasEx::NowRandamu
+ldarg.0
+call System.Void CanvasEx::RANDAMU()
+br branch:1158
+ldarg.0
+call System.Boolean CanvasEx::SEEBU()
+pop
+br branch:1158
+ldarg.0
+call System.Void CanvasEx::SYUURYOU()
+br branch:1158
+ldarg.0
+call System.Void CanvasEx::IRO()
+br branch:1158
+ldarg.0
+call System.Void CanvasEx::NAMAE_SETTEI()
+br branch:1158
+ldarg.0
+call System.Void CanvasEx::MOJI_IRO()
+br branch:1158
+ldarg.0
+call System.Void CanvasEx::MOJI_ON()
+br branch:1158
+ldarg.0
+call System.Void CanvasEx::HAIKEI_SYOKU()
+br branch:1158
+ldarg.0
+call System.Void CanvasEx::KOMANDO_SYOKU()
+br branch:1158
+ldarg.0
+call System.Void CanvasEx::MOJI_SOKUDO()
+br branch:1158
+ldarg.0
+call System.Void CanvasEx::MOJI_HANI()
+br branch:1158
+ldarg.0
+call System.Void CanvasEx::GAMEN_KIRIKAE()
+br branch:1158
+ldarg.0
+call System.Void CanvasEx::FURAGU()
+br branch:1158
+ldarg.0
+call System.Void CanvasEx::FURAGU_RISETTO()
+br branch:1158
+ldarg.0
+call System.Void CanvasEx::RANSUU()
+br branch:1158
+ldarg.0
+call System.Void CanvasEx::UEITO()
+br branch:1158
+ldarg.0
+call System.Void CanvasEx::HAIKEI_SETTI()
+br branch:1158
+ldarg.0
+call System.Void CanvasEx::NAMAE()
+br branch:1158
+ldarg.0
+call System.Void CanvasEx::KYARA()
+br branch:1158
+ldarg.0
+call System.Void CanvasEx::PreSASIKAE()
+br branch:1158
+ldarg.0
+call System.Void CanvasEx::KUTI()
+br branch:1158
+ldarg.0
+call System.Void CanvasEx::FURASSYU()
+br.s branch:1158
+ldarg.0
+call System.Void CanvasEx::KYOKU()
+br.s branch:1158
+ldarg.0
+call System.Void CanvasEx::OTO()
+br.s branch:1158
+ldarg.0
+call System.Void CanvasEx::KYARA_SETTI()
+br.s branch:1158
+ldarg.0
+call System.Void CanvasEx::FAIRU()
+br.s branch:1158
+ldarg.0
+call System.Void CanvasEx::INFO()
+br.s branch:1158
+ldarg.0
+call System.Void CanvasEx::SABUTAITORU()
+br.s branch:1158
+ldarg.0
+call System.Void CanvasEx::ROORU()
+br.s branch:1158
+ldarg.0
+call System.Void CanvasEx::BUNSYOU_ROLL()
+br.s branch:1158
+ldarg.0
+ldfld System.Int32 CanvasEx::MainTask
+ldc.i4.s 12
+beq.s branch:1144
+ldarg.0
+call System.Boolean CanvasEx::SINARIOSENTAKU()
+stloc.2
+br.s branch:1158
+ldarg.0
+call System.Void CanvasEx::SINARIOSENTAKU_main()
+br.s branch:1158
+ldarg.0
+call System.Void CanvasEx::BUNSYOU_ASTARISK()
+br.s branch:1158
+ldarg.0
+call System.Void CanvasEx::BUNSYOU_FADE()
+br.s branch:1158
+ldarg.0
+call System.Void CanvasEx::BUNSYOU_FA()
+br.s branch:1158
+ldarg.0
+call System.Void CanvasEx::BUNSYOU()
+ldloc.2
+ret

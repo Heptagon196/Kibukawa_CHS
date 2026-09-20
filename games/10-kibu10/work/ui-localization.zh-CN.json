@@ -1,0 +1,127 @@
+{
+  "schema": 1,
+  "game": "kibu10",
+  "source_sha256": "5e53c360d44c1eca14079d587dfd790d4ed533ea3d7455de4aa46761dfdd5e41",
+  "entries": [
+    {
+      "row": 1,
+      "key": "pause_menu_label_howtoplay",
+      "source_text": "あそびかた",
+      "target_text": "玩法说明",
+      "classification": "existing_localization_duplicate",
+      "review_status": "reviewed_reuse_exact_source"
+    },
+    {
+      "row": 2,
+      "key": "pause_menu_label_frame",
+      "source_text": "フレーム",
+      "target_text": "边框",
+      "classification": "existing_localization_duplicate",
+      "review_status": "reviewed_reuse_exact_source"
+    },
+    {
+      "row": 3,
+      "key": "pause_menu_label_filter",
+      "source_text": "フィルタ",
+      "target_text": "滤镜",
+      "classification": "existing_localization_duplicate",
+      "review_status": "reviewed_reuse_exact_source"
+    },
+    {
+      "row": 4,
+      "key": "pause_menu_label_ranking",
+      "source_text": "ランキング",
+      "target_text": "排行榜",
+      "classification": "existing_localization_duplicate",
+      "review_status": "reviewed_reuse_exact_source"
+    },
+    {
+      "row": 5,
+      "key": "pause_menu_label_backtitle",
+      "source_text": "タイトルに戻る",
+      "target_text": "返回标题画面",
+      "classification": "existing_localization_duplicate",
+      "review_status": "reviewed_reuse_exact_source"
+    },
+    {
+      "row": 6,
+      "key": "pause_menu_label_close",
+      "source_text": "閉じる",
+      "target_text": "关闭",
+      "classification": "existing_localization_duplicate",
+      "review_status": "reviewed_reuse_exact_source"
+    },
+    {
+      "row": 7,
+      "key": "common_dialog_titlescreen_msg",
+      "source_text": "タイトル画面に戻りますか？",
+      "target_text": "要返回标题画面吗？",
+      "classification": "player_ui",
+      "review_status": "reviewed_reuse_exact_source"
+    },
+    {
+      "row": 8,
+      "key": "common_dialog_disconnected_msg",
+      "source_text": "ネットワークから切断されました",
+      "target_text": "网络连接已断开",
+      "classification": "player_ui",
+      "review_status": "reviewed_reuse_exact_source"
+    },
+    {
+      "row": 9,
+      "key": "common_dialog_exit_game_msg",
+      "source_text": "ゲームを終了しますか？",
+      "target_text": "要退出游戏吗？",
+      "classification": "player_ui",
+      "review_status": "reviewed_reuse_exact_source"
+    },
+    {
+      "row": 10,
+      "key": "common_dialog_yes_label",
+      "source_text": "はい",
+      "target_text": "是",
+      "classification": "existing_localization_duplicate",
+      "review_status": "reviewed_reuse_exact_source"
+    },
+    {
+      "row": 11,
+      "key": "common_dialog_no_label",
+      "source_text": "いいえ",
+      "target_text": "否",
+      "classification": "existing_localization_duplicate",
+      "review_status": "reviewed_reuse_exact_source"
+    },
+    {
+      "row": 12,
+      "key": "loading_autosave_msg",
+      "source_text": "本ゲームはオートセーブに対応しておりません。\n終了する際は、ゲーム内のセーブ機能をご利用ください。",
+      "target_text": "本游戏不支持自动存档。\n退出时，请使用游戏内的存档功能。",
+      "classification": "player_ui",
+      "review_status": "reviewed_reuse_exact_source"
+    },
+    {
+      "row": 13,
+      "key": "ranking_get_ranking_msg",
+      "source_text": "ランキングを取得する",
+      "target_text": "获取排行榜",
+      "classification": "existing_localization_duplicate",
+      "review_status": "reviewed_reuse_exact_source"
+    },
+    {
+      "row": 14,
+      "key": "ranking_load_ranking_msg",
+      "source_text": "Loading...",
+      "target_text": "加载中……",
+      "classification": "player_ui",
+      "review_status": "reviewed_reuse_exact_source"
+    },
+    {
+      "row": 15,
+      "key": "ranking_unranked_label",
+      "source_text": "ランク外",
+      "target_text": "未上榜",
+      "classification": "player_ui",
+      "review_status": "reviewed_reuse_exact_source"
+    }
+  ]
+}

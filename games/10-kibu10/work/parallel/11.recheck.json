@@ -1,0 +1,109 @@
+{
+  "batch": 11,
+  "reviewer": "trans10",
+  "rechecked": [
+    {
+      "id": "scratch4.dat/s35-2:28958:token11",
+      "sha256": "5c8e7ff490ae6fe41e3f13f4ff2beffe988bad7391a01d27b417909ec9258052",
+      "script": "scratch4.dat/s35-2",
+      "boundary": "28958:token11",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35-2:28958",
+          "token": 2,
+          "color": 0,
+          "source": "今　で、あ　がとう",
+          "target": "一直以　，谢　"
+        },
+        {
+          "id": "scratch4.dat/s35-2:28958",
+          "token": 8,
+          "color": 0,
+          "source": "ございました。",
+          "target": "你们。"
+        },
+        {
+          "id": "scratch4.dat/s35-2:28958",
+          "token": 11,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-2:30923:token17",
+      "sha256": "bc73e98e1d9401d78cad84fa9775b050efc632f21eb0d8a34f3791656ea04915",
+      "script": "scratch4.dat/s35-2",
+      "boundary": "30923:token17",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35-2:30923",
+          "token": 2,
+          "color": 0,
+          "source": "あ、それはたぶん、",
+          "target": "“啊，那大概是为了"
+        },
+        {
+          "id": "scratch4.dat/s35-2:30923",
+          "token": 8,
+          "color": 0,
+          "source": "発表会用に編曲して",
+          "target": "发表会，请人"
+        },
+        {
+          "id": "scratch4.dat/s35-2:30923",
+          "token": 14,
+          "color": 0,
+          "source": "もらってる途中の…",
+          "target": "帮忙编曲，还没完成的……"
+        },
+        {
+          "id": "scratch4.dat/s35-2:30923",
+          "token": 17,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-2:33306:token11",
+      "sha256": "539b96cfee0624a4232e902db03244787b38ad788f1dff42ddda9746c077d6d1",
+      "script": "scratch4.dat/s35-2",
+      "boundary": "33306:token11",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35-2:33306",
+          "token": 2,
+          "color": 0,
+          "source": "男の人の名前っぽい",
+          "target": "感觉像是"
+        },
+        {
+          "id": "scratch4.dat/s35-2:33306",
+          "token": 8,
+          "color": 0,
+          "source": "感じですけど…。",
+          "target": "男人的名字……”（译注：这里将姓氏‘生王’误读为 Namaou。）"
+        },
+        {
+          "id": "scratch4.dat/s35-2:33306",
+          "token": 11,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    }
+  ],
+  "status": "两处修正已按原文及前后文实际复核；536点击/65颜色全部已审且与当前导出一致。",
+  "notes": [
+    "28958修正为你们，残缺感谢语的空白掩码不变。",
+    "30923只说请人编曲，老师身份留到31585才揭露；发言引号仍延续到31067。",
+    "旧534点击记录逐条比对未改变，65颜色记录与本次导出完全一致。",
+    "再次实际复核33306：上一点击生、生……王的开引号在本点击男人的名字后闭合；Namaou译注完全位于角色引号外、color0内，在同一2E点击前闭合；只说明误读，不补正生全名或作曲者身份。其余535点击及全部65颜色保持原已审记录一致。"
+  ],
+  "optional_suggestion": {
+    "id": "scratch4.dat/s35-2:33306",
+    "source": "<color=0>男の人の名前っぽい</color><row/><color=0>感じですけど…。</color><ctrl=2E/>",
+    "target": "<color=0>感觉像是</color><row/><color=0>男人的名字……”</color><ctrl=2E/>",
+    "suggested_target": "<color=0>感觉像是</color><row/><color=0>男人的名字……”（译注：这里将姓氏‘生王’误读为 Namaou。）</color><ctrl=2E/>",
+    "issue": "s27已明确Ikurumi/Namaou，s35-2中文只写生、生……王仍看不出误读，与后文读不出来衔接较弱。建议在379完整发言末尾加最小句外注，仅说明Namaou误读，不补作曲者完整姓名或身份。当前译稿未改；如采纳需重新审该点击。",
+    "status": "已采纳并独立复核通过"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "batch": 11,
+  "reviewer": "trans10",
+  "coordinator": "root",
+  "status": "applied_awaiting_recheck",
+  "fixes": [
+    {
+      "id": "scratch4.dat/s35-2:30923",
+      "before": "<color=0>“啊，那大概是为了</color><row/><color=0>发表会，请老师</color><row/><color=0>帮忙编曲，还没完成的……</color><ctrl=2E/>",
+      "after": "<color=0>“啊，那大概是为了</color><row/><color=0>发表会，请人</color><row/><color=0>帮忙编曲，还没完成的……</color><ctrl=2E/>",
+      "reason": "原单元只说请人编曲，老师身份到31585才出现；删去提前明确的身份，保持揭露时机。"
+    },
+    {
+      "id": "scratch4.dat/s35-2:28958",
+      "before": "<color=0>一直以　，谢　</color><row/><color=0>您们。</color><ctrl=2E/>",
+      "after": "<color=0>一直以　，谢　</color><row/><color=0>你们。</color><ctrl=2E/>",
+      "reason": "中文通常不用“您们”；保留全角缺字及感谢对象，仅修正复数称呼。"
+    }
+  ]
+}

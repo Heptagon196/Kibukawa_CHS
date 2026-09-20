@@ -1,0 +1,13 @@
+{
+  "batch": 11,
+  "findings": [
+    {
+      "id": "scratch4.dat/s35-2:33306",
+      "source": "<color=0>男の人の名前っぽい</color><row/><color=0>感じですけど…。</color><ctrl=2E/>",
+      "target": "<color=0>感觉像是</color><row/><color=0>男人的名字……”</color><ctrl=2E/>",
+      "suggested_target": "<color=0>感觉像是</color><row/><color=0>男人的名字……”（译注：这里将姓氏‘生王’误读为 Namaou。）</color><ctrl=2E/>",
+      "issue": "s27已明确Ikurumi/Namaou，s35-2中文只写生、生……王仍看不出误读，与后文读不出来衔接较弱。建议在379完整发言末尾加最小句外注，仅说明Namaou误读，不补作曲者完整姓名或身份。当前译稿未改；如采纳需重新审该点击。"
+    }
+  ],
+  "status": "awaiting_independent_recheck"
+}

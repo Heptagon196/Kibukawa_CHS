@@ -1,0 +1,828 @@
+{
+  "schema": 1,
+  "game": "kibu10",
+  "source_inventory": "work/ui-scan.json",
+  "entries": [
+    {
+      "asset_file": "kibu10_Data/level0",
+      "path_id": 136,
+      "byte_offset": 148,
+      "source_text": "本ゲームはオートセーブに対応しておりません。\n終了する際は、ゲーム内のセーブ機能をご利用ください。",
+      "target_text": "本游戏不支持自动存档。\n退出时，请使用游戏内的存档功能。",
+      "classification": "player_ui",
+      "review_status": "reviewed_reuse_exact_source"
+    },
+    {
+      "asset_file": "kibu10_Data/resources.assets",
+      "path_id": 114,
+      "byte_offset": 4,
+      "source_text": "Image置き場",
+      "target_text": null,
+      "classification": "excluded_internal",
+      "review_status": "reviewed_not_displayed",
+      "note": "Serialized GameObject reference name, not display text."
+    },
+    {
+      "asset_file": "kibu10_Data/resources.assets",
+      "path_id": 122,
+      "byte_offset": 44,
+      "source_text": "﻿)]｝〕〉》」』】〙〗〟’”｠»ヽヾーァィゥェォッャュョヮヵヶぁぃぅぇぉっゃゅょゎゕゖㇰㇱㇲㇳㇴㇵㇶㇷㇸㇹㇺㇻㇼㇽㇾㇿ々〻‐゠–〜?!‼⁇⁈⁉・、%,.:;。！？］）：；＝}¢°\"†‡℃〆％，．",
+      "target_text": null,
+      "classification": "excluded_internal",
+      "review_status": "reviewed_not_displayed",
+      "note": "Line-breaking character rule TextAsset, not display text."
+    },
+    {
+      "asset_file": "kibu10_Data/resources.assets",
+      "path_id": 1489,
+      "byte_offset": 60,
+      "source_text": "探偵・癸生川凌介事件譚\r\nVol.10「永劫会事件」",
+      "target_text": "侦探·癸生川凌介事件谭\r\n第十作《永劫会事件》",
+      "classification": "player_ui",
+      "review_status": "translated_reviewed"
+    },
+    {
+      "asset_file": "kibu10_Data/resources.assets",
+      "path_id": 1489,
+      "byte_offset": 128,
+      "source_text": "ジャンル：推理アドベンチャー\r\n1999年。不吉な予言や事件が渦巻く世紀末。\r\n関係する正体不明の組織「永劫会」その目的とは…。",
+      "target_text": "类型：推理冒险\r\n1999 年，不祥的预言与事件接踵而至的世纪末。\r\n牵涉其中的神秘组织“永劫会”，其目的究竟是……",
+      "classification": "player_ui",
+      "review_status": "translated_reviewed"
+    },
+    {
+      "asset_file": "kibu10_Data/resources.assets",
+      "path_id": 1498,
+      "byte_offset": 148,
+      "source_text": "ボタン名",
+      "target_text": null,
+      "classification": "excluded_template",
+      "review_status": "reviewed_reuse_exact_source"
+    },
+    {
+      "asset_file": "kibu10_Data/resources.assets",
+      "path_id": 1513,
+      "byte_offset": 148,
+      "source_text": "ウィンドウ設定",
+      "target_text": "窗口设置",
+      "classification": "player_ui_serialized",
+      "review_status": "reviewed_reuse_exact_source"
+    },
+    {
+      "asset_file": "kibu10_Data/resources.assets",
+      "path_id": 1516,
+      "byte_offset": 148,
+      "source_text": "説明１６字６７８９０１２３４５６",
+      "target_text": null,
+      "classification": "excluded_template",
+      "review_status": "reviewed_reuse_exact_source"
+    },
+    {
+      "asset_file": "kibu10_Data/resources.assets",
+      "path_id": 1531,
+      "byte_offset": 148,
+      "source_text": "フルスクリーン",
+      "target_text": "全屏",
+      "classification": "existing_assembly_duplicate",
+      "review_status": "reviewed_reuse_exact_source"
+    },
+    {
+      "asset_file": "kibu10_Data/resources.assets",
+      "path_id": 1547,
+      "byte_offset": 148,
+      "source_text": "１プライヤー名",
+      "target_text": null,
+      "classification": "excluded_template",
+      "review_status": "reviewed_reuse_exact_source"
+    },
+    {
+      "asset_file": "kibu10_Data/resources.assets",
+      "path_id": 1589,
+      "byte_offset": 148,
+      "source_text": "ランキング名",
+      "target_text": null,
+      "classification": "excluded_template",
+      "review_status": "reviewed_reuse_exact_source"
+    },
+    {
+      "asset_file": "kibu10_Data/resources.assets",
+      "path_id": 1590,
+      "byte_offset": 148,
+      "source_text": "入力して下さい",
+      "target_text": "请输入",
+      "classification": "player_ui_serialized",
+      "review_status": "reviewed_reuse_exact_source"
+    },
+    {
+      "asset_file": "kibu10_Data/resources.assets",
+      "path_id": 1608,
+      "byte_offset": 148,
+      "source_text": "ボタン名",
+      "target_text": null,
+      "classification": "excluded_template",
+      "review_status": "reviewed_reuse_exact_source"
+    },
+    {
+      "asset_file": "kibu10_Data/resources.assets",
+      "path_id": 1622,
+      "byte_offset": 148,
+      "source_text": "説明１６字６７８９０１２３４５６",
+      "target_text": null,
+      "classification": "excluded_template",
+      "review_status": "reviewed_reuse_exact_source"
+    },
+    {
+      "asset_file": "kibu10_Data/resources.assets",
+      "path_id": 1625,
+      "byte_offset": 148,
+      "source_text": "ボタン名",
+      "target_text": null,
+      "classification": "excluded_template",
+      "review_status": "reviewed_reuse_exact_source"
+    },
+    {
+      "asset_file": "kibu10_Data/resources.assets",
+      "path_id": 1635,
+      "byte_offset": 148,
+      "source_text": "セーブデータクリア",
+      "target_text": null,
+      "classification": "excluded_debug_ui",
+      "review_status": "reviewed_reuse_exact_source"
+    },
+    {
+      "asset_file": "kibu10_Data/resources.assets",
+      "path_id": 1655,
+      "byte_offset": 148,
+      "source_text": "操作説明",
+      "target_text": "操作说明",
+      "classification": "player_ui_serialized",
+      "review_status": "reviewed_reuse_exact_source"
+    },
+    {
+      "asset_file": "kibu10_Data/resources.assets",
+      "path_id": 1698,
+      "byte_offset": 148,
+      "source_text": "プレイヤー名",
+      "target_text": "玩家名称",
+      "classification": "player_ui_serialized",
+      "review_status": "reviewed_reuse_exact_source"
+    },
+    {
+      "asset_file": "kibu10_Data/resources.assets",
+      "path_id": 1716,
+      "byte_offset": 148,
+      "source_text": "説明１６字６７８９０１２３４５６",
+      "target_text": null,
+      "classification": "excluded_template",
+      "review_status": "reviewed_reuse_exact_source"
+    },
+    {
+      "asset_file": "kibu10_Data/resources.assets",
+      "path_id": 1720,
+      "byte_offset": 148,
+      "source_text": "タイムスケール",
+      "target_text": null,
+      "classification": "excluded_debug_ui",
+      "review_status": "reviewed_reuse_exact_source"
+    },
+    {
+      "asset_file": "kibu10_Data/resources.assets",
+      "path_id": 1732,
+      "byte_offset": 148,
+      "source_text": "ランキングを取得する",
+      "target_text": "获取排行榜",
+      "classification": "existing_localization_duplicate",
+      "review_status": "reviewed_reuse_exact_source"
+    },
+    {
+      "asset_file": "kibu10_Data/resources.assets",
+      "path_id": 1733,
+      "byte_offset": 148,
+      "source_text": "ボタン名",
+      "target_text": null,
+      "classification": "excluded_template",
+      "review_status": "reviewed_reuse_exact_source"
+    },
+    {
+      "asset_file": "kibu10_Data/resources.assets",
+      "path_id": 1742,
+      "byte_offset": 148,
+      "source_text": "はい",
+      "target_text": "是",
+      "classification": "existing_localization_duplicate",
+      "review_status": "reviewed_reuse_exact_source"
+    },
+    {
+      "asset_file": "kibu10_Data/resources.assets",
+      "path_id": 1753,
+      "byte_offset": 148,
+      "source_text": "アーカイブスタイトル",
+      "target_text": null,
+      "classification": "excluded_template",
+      "review_status": "reviewed_reuse_exact_source"
+    },
+    {
+      "asset_file": "kibu10_Data/resources.assets",
+      "path_id": 1761,
+      "byte_offset": 148,
+      "source_text": "あそびかた",
+      "target_text": "玩法说明",
+      "classification": "existing_localization_duplicate",
+      "review_status": "reviewed_reuse_exact_source"
+    },
+    {
+      "asset_file": "kibu10_Data/resources.assets",
+      "path_id": 1768,
+      "byte_offset": 148,
+      "source_text": "タイトルに戻る",
+      "target_text": "返回标题画面",
+      "classification": "existing_localization_duplicate",
+      "review_status": "reviewed_reuse_exact_source"
+    },
+    {
+      "asset_file": "kibu10_Data/resources.assets",
+      "path_id": 1771,
+      "byte_offset": 148,
+      "source_text": "フィルタ",
+      "target_text": "滤镜",
+      "classification": "existing_localization_duplicate",
+      "review_status": "reviewed_reuse_exact_source"
+    },
+    {
+      "asset_file": "kibu10_Data/resources.assets",
+      "path_id": 1775,
+      "byte_offset": 148,
+      "source_text": "フレーム",
+      "target_text": "边框",
+      "classification": "existing_localization_duplicate",
+      "review_status": "reviewed_reuse_exact_source"
+    },
+    {
+      "asset_file": "kibu10_Data/resources.assets",
+      "path_id": 1784,
+      "byte_offset": 148,
+      "source_text": "説明１６字６７８９０１２３４５６",
+      "target_text": null,
+      "classification": "excluded_template",
+      "review_status": "reviewed_reuse_exact_source"
+    },
+    {
+      "asset_file": "kibu10_Data/resources.assets",
+      "path_id": 1815,
+      "byte_offset": 148,
+      "source_text": "ゲームを終了する",
+      "target_text": "退出游戏",
+      "classification": "player_ui_serialized",
+      "review_status": "reviewed_reuse_exact_source"
+    },
+    {
+      "asset_file": "kibu10_Data/resources.assets",
+      "path_id": 1823,
+      "byte_offset": 148,
+      "source_text": "ボタン名",
+      "target_text": null,
+      "classification": "excluded_template",
+      "review_status": "reviewed_reuse_exact_source"
+    },
+    {
+      "asset_file": "kibu10_Data/resources.assets",
+      "path_id": 1826,
+      "byte_offset": 148,
+      "source_text": "ボタン名",
+      "target_text": null,
+      "classification": "excluded_template",
+      "review_status": "reviewed_reuse_exact_source"
+    },
+    {
+      "asset_file": "kibu10_Data/resources.assets",
+      "path_id": 1837,
+      "byte_offset": 148,
+      "source_text": "ランキング",
+      "target_text": "排行榜",
+      "classification": "existing_localization_duplicate",
+      "review_status": "reviewed_reuse_exact_source"
+    },
+    {
+      "asset_file": "kibu10_Data/resources.assets",
+      "path_id": 1843,
+      "byte_offset": 148,
+      "source_text": "説明１６字６７８９０１２３４５６",
+      "target_text": null,
+      "classification": "excluded_template",
+      "review_status": "reviewed_reuse_exact_source"
+    },
+    {
+      "asset_file": "kibu10_Data/resources.assets",
+      "path_id": 1855,
+      "byte_offset": 148,
+      "source_text": "決定",
+      "target_text": "确定",
+      "classification": "existing_assembly_duplicate",
+      "review_status": "reviewed_reuse_exact_source"
+    },
+    {
+      "asset_file": "kibu10_Data/resources.assets",
+      "path_id": 1881,
+      "byte_offset": 148,
+      "source_text": "説明１６字６７８９０１２３４５６",
+      "target_text": null,
+      "classification": "excluded_template",
+      "review_status": "reviewed_reuse_exact_source"
+    },
+    {
+      "asset_file": "kibu10_Data/resources.assets",
+      "path_id": 1947,
+      "byte_offset": 148,
+      "source_text": "説明１６字６７８９０１２３４５６",
+      "target_text": null,
+      "classification": "excluded_template",
+      "review_status": "reviewed_reuse_exact_source"
+    },
+    {
+      "asset_file": "kibu10_Data/resources.assets",
+      "path_id": 1948,
+      "byte_offset": 148,
+      "source_text": "説明１６字６７８９０１２３４５６",
+      "target_text": null,
+      "classification": "excluded_template",
+      "review_status": "reviewed_reuse_exact_source"
+    },
+    {
+      "asset_file": "kibu10_Data/resources.assets",
+      "path_id": 1959,
+      "byte_offset": 148,
+      "source_text": "リリース：20XX年XX月\r\nジャンル：XXXXXXXゲーム\r\nXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "target_text": null,
+      "classification": "excluded_template",
+      "review_status": "reviewed_reuse_exact_source"
+    },
+    {
+      "asset_file": "kibu10_Data/resources.assets",
+      "path_id": 1966,
+      "byte_offset": 148,
+      "source_text": "本ゲームはオートセーブに対応しておりません。\n終了する際は、ゲーム内のセーブ機能をご利用ください。",
+      "target_text": "本游戏不支持自动存档。\n退出时，请使用游戏内的存档功能。",
+      "classification": "player_ui",
+      "review_status": "reviewed_reuse_exact_source"
+    },
+    {
+      "asset_file": "kibu10_Data/resources.assets",
+      "path_id": 1971,
+      "byte_offset": 148,
+      "source_text": "説明１６字６７８９０１２３４５６",
+      "target_text": null,
+      "classification": "excluded_template",
+      "review_status": "reviewed_reuse_exact_source"
+    },
+    {
+      "asset_file": "kibu10_Data/resources.assets",
+      "path_id": 1980,
+      "byte_offset": 148,
+      "source_text": "ボタン名",
+      "target_text": null,
+      "classification": "excluded_template",
+      "review_status": "reviewed_reuse_exact_source"
+    },
+    {
+      "asset_file": "kibu10_Data/resources.assets",
+      "path_id": 2014,
+      "byte_offset": 148,
+      "source_text": "ボタン名",
+      "target_text": null,
+      "classification": "excluded_template",
+      "review_status": "reviewed_reuse_exact_source"
+    },
+    {
+      "asset_file": "kibu10_Data/resources.assets",
+      "path_id": 2035,
+      "byte_offset": 148,
+      "source_text": "閉じる",
+      "target_text": "关闭",
+      "classification": "existing_localization_duplicate",
+      "review_status": "reviewed_reuse_exact_source"
+    },
+    {
+      "asset_file": "kibu10_Data/resources.assets",
+      "path_id": 2054,
+      "byte_offset": 148,
+      "source_text": "いいえ",
+      "target_text": "否",
+      "classification": "existing_localization_duplicate",
+      "review_status": "reviewed_reuse_exact_source"
+    },
+    {
+      "asset_file": "kibu10_Data/resources.assets",
+      "path_id": 2064,
+      "byte_offset": 148,
+      "source_text": "ボタン名",
+      "target_text": null,
+      "classification": "excluded_template",
+      "review_status": "reviewed_reuse_exact_source"
+    },
+    {
+      "asset_file": "kibu10_Data/resources.assets",
+      "path_id": 2067,
+      "byte_offset": 148,
+      "source_text": "＜ゲーム画面＞",
+      "target_text": "＜游戏画面＞",
+      "classification": "player_ui_serialized",
+      "review_status": "reviewed_reuse_exact_source"
+    },
+    {
+      "asset_file": "kibu10_Data/StreamingAssets/prefab/appliarchive",
+      "path_id": 5695021365385870228,
+      "byte_offset": 148,
+      "source_text": "本ゲームはオートセーブに対応しておりません。\n終了する際は、ゲーム内のセーブ機能をご利用ください。",
+      "target_text": "本游戏不支持自动存档。\n退出时，请使用游戏内的存档功能。",
+      "classification": "player_ui",
+      "review_status": "reviewed_reuse_exact_source"
+    },
+    {
+      "asset_file": "kibu10_Data/StreamingAssets/prefab/characterinput",
+      "path_id": -8478574590543501365,
+      "byte_offset": 148,
+      "source_text": "決定",
+      "target_text": "确定",
+      "classification": "existing_assembly_duplicate",
+      "review_status": "reviewed_reuse_exact_source"
+    },
+    {
+      "asset_file": "kibu10_Data/StreamingAssets/prefab/characterinput",
+      "path_id": -3684327433370328028,
+      "byte_offset": 148,
+      "source_text": "入力して下さい",
+      "target_text": "请输入",
+      "classification": "player_ui_serialized",
+      "review_status": "reviewed_reuse_exact_source"
+    },
+    {
+      "asset_file": "kibu10_Data/StreamingAssets/prefab/debugmenu",
+      "path_id": -2767511036770453348,
+      "byte_offset": 148,
+      "source_text": "セーブデータクリア",
+      "target_text": null,
+      "classification": "excluded_debug_ui",
+      "review_status": "reviewed_reuse_exact_source"
+    },
+    {
+      "asset_file": "kibu10_Data/StreamingAssets/prefab/debugmenu",
+      "path_id": 1655895465069479446,
+      "byte_offset": 148,
+      "source_text": "タイムスケール",
+      "target_text": null,
+      "classification": "excluded_debug_ui",
+      "review_status": "reviewed_reuse_exact_source"
+    },
+    {
+      "asset_file": "kibu10_Data/StreamingAssets/prefab/dialogcommon",
+      "path_id": 4547170711099306885,
+      "byte_offset": 148,
+      "source_text": "はい",
+      "target_text": "是",
+      "classification": "existing_localization_duplicate",
+      "review_status": "reviewed_reuse_exact_source"
+    },
+    {
+      "asset_file": "kibu10_Data/StreamingAssets/prefab/dialogcommon",
+      "path_id": 8613410861694739278,
+      "byte_offset": 148,
+      "source_text": "いいえ",
+      "target_text": "否",
+      "classification": "existing_localization_duplicate",
+      "review_status": "reviewed_reuse_exact_source"
+    },
+    {
+      "asset_file": "kibu10_Data/StreamingAssets/prefab/howtoplay",
+      "path_id": -8895864421939800363,
+      "byte_offset": 148,
+      "source_text": "＜ゲーム画面＞",
+      "target_text": "＜游戏画面＞",
+      "classification": "player_ui_serialized",
+      "review_status": "reviewed_reuse_exact_source"
+    },
+    {
+      "asset_file": "kibu10_Data/StreamingAssets/prefab/howtoplay",
+      "path_id": -5482321752351124916,
+      "byte_offset": 148,
+      "source_text": "ボタン名",
+      "target_text": null,
+      "classification": "excluded_template",
+      "review_status": "reviewed_reuse_exact_source"
+    },
+    {
+      "asset_file": "kibu10_Data/StreamingAssets/prefab/howtoplay",
+      "path_id": -3486574843017822929,
+      "byte_offset": 148,
+      "source_text": "説明１６字６７８９０１２３４５６",
+      "target_text": null,
+      "classification": "excluded_template",
+      "review_status": "reviewed_reuse_exact_source"
+    },
+    {
+      "asset_file": "kibu10_Data/StreamingAssets/prefab/howtoplay",
+      "path_id": -2332477748818397068,
+      "byte_offset": 148,
+      "source_text": "ボタン名",
+      "target_text": null,
+      "classification": "excluded_template",
+      "review_status": "reviewed_reuse_exact_source"
+    },
+    {
+      "asset_file": "kibu10_Data/StreamingAssets/prefab/howtoplay",
+      "path_id": -2014348387397545756,
+      "byte_offset": 148,
+      "source_text": "説明１６字６７８９０１２３４５６",
+      "target_text": null,
+      "classification": "excluded_template",
+      "review_status": "reviewed_reuse_exact_source"
+    },
+    {
+      "asset_file": "kibu10_Data/StreamingAssets/prefab/howtoplay",
+      "path_id": -1950801429505489325,
+      "byte_offset": 148,
+      "source_text": "ボタン名",
+      "target_text": null,
+      "classification": "excluded_template",
+      "review_status": "reviewed_reuse_exact_source"
+    },
+    {
+      "asset_file": "kibu10_Data/StreamingAssets/prefab/howtoplay",
+      "path_id": -345098765654231487,
+      "byte_offset": 148,
+      "source_text": "説明１６字６７８９０１２３４５６",
+      "target_text": null,
+      "classification": "excluded_template",
+      "review_status": "reviewed_reuse_exact_source"
+    },
+    {
+      "asset_file": "kibu10_Data/StreamingAssets/prefab/howtoplay",
+      "path_id": 230859893157096036,
+      "byte_offset": 148,
+      "source_text": "説明１６字６７８９０１２３４５６",
+      "target_text": null,
+      "classification": "excluded_template",
+      "review_status": "reviewed_reuse_exact_source"
+    },
+    {
+      "asset_file": "kibu10_Data/StreamingAssets/prefab/howtoplay",
+      "path_id": 699989804891366738,
+      "byte_offset": 148,
+      "source_text": "ボタン名",
+      "target_text": null,
+      "classification": "excluded_template",
+      "review_status": "reviewed_reuse_exact_source"
+    },
+    {
+      "asset_file": "kibu10_Data/StreamingAssets/prefab/howtoplay",
+      "path_id": 1711084364150166552,
+      "byte_offset": 148,
+      "source_text": "操作説明",
+      "target_text": "操作说明",
+      "classification": "player_ui_serialized",
+      "review_status": "reviewed_reuse_exact_source"
+    },
+    {
+      "asset_file": "kibu10_Data/StreamingAssets/prefab/howtoplay",
+      "path_id": 2600218472014137504,
+      "byte_offset": 148,
+      "source_text": "説明１６字６７８９０１２３４５６",
+      "target_text": null,
+      "classification": "excluded_template",
+      "review_status": "reviewed_reuse_exact_source"
+    },
+    {
+      "asset_file": "kibu10_Data/StreamingAssets/prefab/howtoplay",
+      "path_id": 3388531595412388202,
+      "byte_offset": 148,
+      "source_text": "説明１６字６７８９０１２３４５６",
+      "target_text": null,
+      "classification": "excluded_template",
+      "review_status": "reviewed_reuse_exact_source"
+    },
+    {
+      "asset_file": "kibu10_Data/StreamingAssets/prefab/howtoplay",
+      "path_id": 4714628615588949106,
+      "byte_offset": 148,
+      "source_text": "説明１６字６７８９０１２３４５６",
+      "target_text": null,
+      "classification": "excluded_template",
+      "review_status": "reviewed_reuse_exact_source"
+    },
+    {
+      "asset_file": "kibu10_Data/StreamingAssets/prefab/howtoplay",
+      "path_id": 5162356265525361090,
+      "byte_offset": 148,
+      "source_text": "ボタン名",
+      "target_text": null,
+      "classification": "excluded_template",
+      "review_status": "reviewed_reuse_exact_source"
+    },
+    {
+      "asset_file": "kibu10_Data/StreamingAssets/prefab/howtoplay",
+      "path_id": 5219351021291052407,
+      "byte_offset": 148,
+      "source_text": "ボタン名",
+      "target_text": null,
+      "classification": "excluded_template",
+      "review_status": "reviewed_reuse_exact_source"
+    },
+    {
+      "asset_file": "kibu10_Data/StreamingAssets/prefab/howtoplay",
+      "path_id": 5286491661312998138,
+      "byte_offset": 148,
+      "source_text": "ボタン名",
+      "target_text": null,
+      "classification": "excluded_template",
+      "review_status": "reviewed_reuse_exact_source"
+    },
+    {
+      "asset_file": "kibu10_Data/StreamingAssets/prefab/howtoplay",
+      "path_id": 5604128720435555489,
+      "byte_offset": 148,
+      "source_text": "ボタン名",
+      "target_text": null,
+      "classification": "excluded_template",
+      "review_status": "reviewed_reuse_exact_source"
+    },
+    {
+      "asset_file": "kibu10_Data/StreamingAssets/prefab/howtoplay",
+      "path_id": 6438006245125513116,
+      "byte_offset": 148,
+      "source_text": "説明１６字６７８９０１２３４５６",
+      "target_text": null,
+      "classification": "excluded_template",
+      "review_status": "reviewed_reuse_exact_source"
+    },
+    {
+      "asset_file": "kibu10_Data/StreamingAssets/prefab/howtoplay",
+      "path_id": 7927662044010650791,
+      "byte_offset": 148,
+      "source_text": "説明１６字６７８９０１２３４５６",
+      "target_text": null,
+      "classification": "excluded_template",
+      "review_status": "reviewed_reuse_exact_source"
+    },
+    {
+      "asset_file": "kibu10_Data/StreamingAssets/prefab/howtoplay",
+      "path_id": 8818132833340580271,
+      "byte_offset": 148,
+      "source_text": "ボタン名",
+      "target_text": null,
+      "classification": "excluded_template",
+      "review_status": "reviewed_reuse_exact_source"
+    },
+    {
+      "asset_file": "kibu10_Data/StreamingAssets/prefab/ranking",
+      "path_id": -8448997471937278061,
+      "byte_offset": 148,
+      "source_text": "ランキング名",
+      "target_text": null,
+      "classification": "excluded_template",
+      "review_status": "reviewed_reuse_exact_source"
+    },
+    {
+      "asset_file": "kibu10_Data/StreamingAssets/prefab/ranking",
+      "path_id": -4554840038117330623,
+      "byte_offset": 148,
+      "source_text": "１プライヤー名",
+      "target_text": null,
+      "classification": "excluded_template",
+      "review_status": "reviewed_reuse_exact_source"
+    },
+    {
+      "asset_file": "kibu10_Data/StreamingAssets/prefab/ranking",
+      "path_id": -4430843436246271825,
+      "byte_offset": 148,
+      "source_text": "プレイヤー名",
+      "target_text": "玩家名称",
+      "classification": "player_ui_serialized",
+      "review_status": "reviewed_reuse_exact_source"
+    },
+    {
+      "asset_file": "kibu10_Data/StreamingAssets/prefab/ranking",
+      "path_id": -3855871573848306851,
+      "byte_offset": 148,
+      "source_text": "ランキングを取得する",
+      "target_text": "获取排行榜",
+      "classification": "existing_localization_duplicate",
+      "review_status": "reviewed_reuse_exact_source"
+    },
+    {
+      "asset_file": "kibu10_Data/StreamingAssets/prefab/setting",
+      "path_id": -7205063247996567837,
+      "byte_offset": 148,
+      "source_text": "あそびかた",
+      "target_text": "玩法说明",
+      "classification": "existing_localization_duplicate",
+      "review_status": "reviewed_reuse_exact_source"
+    },
+    {
+      "asset_file": "kibu10_Data/StreamingAssets/prefab/setting",
+      "path_id": -6887113074723800094,
+      "byte_offset": 148,
+      "source_text": "ランキング",
+      "target_text": "排行榜",
+      "classification": "existing_localization_duplicate",
+      "review_status": "reviewed_reuse_exact_source"
+    },
+    {
+      "asset_file": "kibu10_Data/StreamingAssets/prefab/setting",
+      "path_id": -6292098416172069944,
+      "byte_offset": 148,
+      "source_text": "ウィンドウ設定",
+      "target_text": "窗口设置",
+      "classification": "player_ui_serialized",
+      "review_status": "reviewed_reuse_exact_source"
+    },
+    {
+      "asset_file": "kibu10_Data/StreamingAssets/prefab/setting",
+      "path_id": -4643525705000225494,
+      "byte_offset": 148,
+      "source_text": "閉じる",
+      "target_text": "关闭",
+      "classification": "existing_localization_duplicate",
+      "review_status": "reviewed_reuse_exact_source"
+    },
+    {
+      "asset_file": "kibu10_Data/StreamingAssets/prefab/setting",
+      "path_id": 2519883586162367605,
+      "byte_offset": 148,
+      "source_text": "タイトルに戻る",
+      "target_text": "返回标题画面",
+      "classification": "existing_localization_duplicate",
+      "review_status": "reviewed_reuse_exact_source"
+    },
+    {
+      "asset_file": "kibu10_Data/StreamingAssets/prefab/setting",
+      "path_id": 4357581573248285856,
+      "byte_offset": 148,
+      "source_text": "ゲームを終了する",
+      "target_text": "退出游戏",
+      "classification": "player_ui_serialized",
+      "review_status": "reviewed_reuse_exact_source"
+    },
+    {
+      "asset_file": "kibu10_Data/StreamingAssets/prefab/setting",
+      "path_id": 5280492569267428395,
+      "byte_offset": 148,
+      "source_text": "フレーム",
+      "target_text": "边框",
+      "classification": "existing_localization_duplicate",
+      "review_status": "reviewed_reuse_exact_source"
+    },
+    {
+      "asset_file": "kibu10_Data/StreamingAssets/prefab/setting",
+      "path_id": 7310922922802765533,
+      "byte_offset": 148,
+      "source_text": "フィルタ",
+      "target_text": "滤镜",
+      "classification": "existing_localization_duplicate",
+      "review_status": "reviewed_reuse_exact_source"
+    },
+    {
+      "asset_file": "kibu10_Data/StreamingAssets/prefab/title",
+      "path_id": -7927416965275801584,
+      "byte_offset": 148,
+      "source_text": "リリース：20XX年XX月\r\nジャンル：XXXXXXXゲーム\r\nXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "target_text": null,
+      "classification": "excluded_template",
+      "review_status": "reviewed_reuse_exact_source"
+    },
+    {
+      "asset_file": "kibu10_Data/StreamingAssets/prefab/title",
+      "path_id": -3599738786564664700,
+      "byte_offset": 148,
+      "source_text": "アーカイブスタイトル",
+      "target_text": null,
+      "classification": "excluded_template",
+      "review_status": "reviewed_reuse_exact_source"
+    },
+    {
+      "asset_file": "kibu10_Data/StreamingAssets/prefab/title",
+      "path_id": 3762270808345738797,
+      "byte_offset": 60,
+      "source_text": "探偵・癸生川凌介事件譚\r\nVol.10「永劫会事件」",
+      "target_text": "侦探·癸生川凌介事件谭\r\n第十作《永劫会事件》",
+      "classification": "player_ui",
+      "review_status": "translated_reviewed"
+    },
+    {
+      "asset_file": "kibu10_Data/StreamingAssets/prefab/title",
+      "path_id": 3762270808345738797,
+      "byte_offset": 128,
+      "source_text": "ジャンル：推理アドベンチャー\r\n1999年。不吉な予言や事件が渦巻く世紀末。\r\n関係する正体不明の組織「永劫会」その目的とは…。",
+      "target_text": "类型：推理冒险\r\n1999 年，不祥的预言与事件接踵而至的世纪末。\r\n牵涉其中的神秘组织“永劫会”，其目的究竟是……",
+      "classification": "player_ui",
+      "review_status": "translated_reviewed"
+    },
+    {
+      "asset_file": "kibu10_Data/StreamingAssets/prefab/window",
+      "path_id": 1939946658418343807,
+      "byte_offset": 148,
+      "source_text": "フルスクリーン",
+      "target_text": "全屏",
+      "classification": "existing_assembly_duplicate",
+      "review_status": "reviewed_reuse_exact_source"
+    }
+  ]
+}

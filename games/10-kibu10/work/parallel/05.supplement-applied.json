@@ -1,0 +1,54 @@
+{
+  "batch": 5,
+  "findings": [
+    {
+      "id": "scratch4.dat/s12:31113",
+      "source": "<color=0>はじめまして。</color><row/><color=0>ワシが、探偵の、</color><row/><color=0>赤洲妖星だぁな。</color><ctrl=2E/>",
+      "target": "<color=0>初次见面。</color><row/><color=0>我就是，侦探，</color><row/><color=0>赤洲妖星呀。</color><ctrl=2E/>",
+      "speaker": "赤洲妖星",
+      "issue": "按登场介绍及连续问答确认赤洲发言，将其自称我统一为老夫，与ワシ及其他场景人物口吻一致。",
+      "suggested_target": "<color=0>初次见面。</color><row/><color=0>老夫就是，侦探，</color><row/><color=0>赤洲妖星呀。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch4.dat/s12:31255",
+      "source": "<color=0>お２人の、ことは、</color><row/><color=0>松田さんから、</color><row/><color=0>聞いてるんだぁな。</color><ctrl=2E/>",
+      "target": "<color=0>两位的，事情，</color><row/><color=0>我已经听，</color><row/><color=0>松田先生说过了呀。</color><ctrl=2E/>",
+      "speaker": "赤洲妖星",
+      "issue": "按登场介绍及连续问答确认赤洲发言，将其自称我统一为老夫，与ワシ及其他场景人物口吻一致。",
+      "suggested_target": "<color=0>两位的，事情，</color><row/><color=0>老夫已经听，</color><row/><color=0>松田先生说过了呀。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch4.dat/s12:32185",
+      "source": "<color=0>んで、突然だけども、</color><row/><color=0>今月あったこんな事件、</color><row/><color=0>知ってるか、だぁな？</color><ctrl=2E/>",
+      "target": "<color=0>“那，我先问一句，</color><row/><color=0>这个月发生的这起案子，</color><row/><color=0>你们知道吗？”</color><ctrl=2E/>",
+      "speaker": "赤洲妖星",
+      "issue": "按登场介绍及连续问答确认赤洲发言，将其自称我统一为老夫，与ワシ及其他场景人物口吻一致。",
+      "suggested_target": "<color=0>“那，老夫先问一句，</color><row/><color=0>这个月发生的这起案子，</color><row/><color=0>你们知道吗？”</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch4.dat/s12:34500",
+      "source": "<color=0>いや、その、門沢って</color><row/><color=0>男を探ってみたけども…</color><ctrl=2E/>",
+      "target": "<color=0>“不，我调查过，</color><row/><color=0>那个叫门泽的男人……</color><ctrl=2E/>",
+      "speaker": "赤洲妖星",
+      "issue": "按登场介绍及连续问答确认赤洲发言，将其自称我统一为老夫，与ワシ及其他场景人物口吻一致。",
+      "suggested_target": "<color=0>“不，老夫调查过，</color><row/><color=0>那个叫门泽的男人……</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch4.dat/s12:37581",
+      "source": "<color=0>わかってるだぁよ。</color><ctrl=2E/>",
+      "target": "<color=0>“我明白呀。</color><ctrl=2E/>",
+      "speaker": "赤洲妖星",
+      "issue": "按登场介绍及连续问答确认赤洲发言，将其自称我统一为老夫，与ワシ及其他场景人物口吻一致。",
+      "suggested_target": "<color=0>“老夫明白呀。</color><ctrl=2E/>"
+    },
+    {
+      "id": "scratch4.dat/s12:37745",
+      "source": "<color=0>ただ、素行は少し</color><row/><color=0>探らせてもらうかも</color><row/><color=0>しれないだぁよ。</color><ctrl=2E/>",
+      "target": "<color=0>不过，她的日常行踪，</color><row/><color=0>我可能会</color><row/><color=0>稍微调查一下呀。”</color><ctrl=2E/>",
+      "speaker": "赤洲妖星",
+      "issue": "按登场介绍及连续问答确认赤洲发言，将其自称我统一为老夫，与ワシ及其他场景人物口吻一致。",
+      "suggested_target": "<color=0>不过，她的日常行踪，</color><row/><color=0>老夫可能会</color><row/><color=0>稍微调查一下呀。”</color><ctrl=2E/>"
+    }
+  ],
+  "status": "awaiting_independent_recheck"
+}

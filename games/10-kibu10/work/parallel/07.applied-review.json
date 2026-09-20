@@ -1,0 +1,26 @@
+{
+  "batch": 7,
+  "reviewer": "trans04",
+  "coordinator": "root",
+  "status": "applied_awaiting_recheck",
+  "fixes": [
+    {
+      "id": "scratch4.dat/s22:2340",
+      "before": "<color=0>说到底，都是警察不好，</color><row/><color=0>说要询问案情，</color><row/><color=0>把人叫来……</color><ctrl=2E/>",
+      "after": "<color=0>说到底，说要询问案情，</color><row/><color=0>就把人叫来，</color><row/><color=0>结果……</color><ctrl=2E/>",
+      "reason": "警察不好原在下一点击单元揭示，译文提前到本单元；须把归责信息移回272。"
+    },
+    {
+      "id": "scratch4.dat/s22:2484",
+      "before": "<color=0>却连个来接的人</color><row/><color=0>都不派。”</color><ctrl=2E/>",
+      "after": "<color=0>却连个来接的人都不派，</color><row/><color=0>分明是警察不好。”</color><ctrl=2E/>",
+      "reason": "与271配套：恢复本单元原有警察不好结论。"
+    },
+    {
+      "id": "scratch4.dat/s25:29359",
+      "before": "<color=0>再让我……</color><ctrl=2E/>",
+      "after": "<color=0>再让我做梦……</color><ctrl=2E/>",
+      "reason": "原文在这一点击已说出梦，译文只剩再让我，将梦推迟到下一点击。应恢复本单元的梦。"
+    }
+  ]
+}

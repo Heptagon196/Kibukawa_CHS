@@ -1,0 +1,20 @@
+{
+  "batch": 5,
+  "reviewer": "trans06",
+  "coordinator": "root",
+  "status": "applied_awaiting_recheck",
+  "fixes": [
+    {
+      "id": "scratch4.dat/s12:2953",
+      "before": "<color=0>公交车晚点了。”</color><ctrl=2E/>",
+      "after": "<color=0>没赶上公交车。”</color><ctrl=2E/>",
+      "reason": "后文 s12:3283 明说因联系介绍对象而乘车迟到，当前“公交车晚点”错把乘客误车译成车辆晚点。"
+    },
+    {
+      "id": "scratch4.dat/s12:33201",
+      "before": "<color=0>“其实，有人看见，</color><row/><color=0>美纪惠小姐和这个门泽……</color><ctrl=2E/>",
+      "after": "<color=0>“其实，美纪惠小姐，</color><row/><color=0>和那个叫门泽的男人……</color><ctrl=2E/>",
+      "reason": "当前点击原文只列出美纪惠与门泽两人，目击事实到下一点击 s12:33308 才揭示；增加“有人看见”提前揭露了信息。"
+    }
+  ]
+}

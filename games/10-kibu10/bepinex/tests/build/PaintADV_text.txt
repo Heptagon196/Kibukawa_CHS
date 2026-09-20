@@ -1,0 +1,601 @@
+ldc.i4.0
+stloc.s local:6
+ldc.i4.s -28
+stloc.s local:9
+ldarg.0
+ldfld System.Int32 CanvasEx::MojiHani_yoko
+brtrue.s branch:20
+ldc.i4 220
+ldarg.0
+ldfld System.SByte CanvasEx::BunsyouGun_max_mojisuu
+ldsfld System.Int32 CanvasEx::FWidth
+mul
+ldc.i4.2
+mul
+sub
+ldc.i4.2
+div
+ldc.i4.s 10
+add
+stloc.s local:6
+ldarg.0
+ldfld System.Int32 CanvasEx::MojiHani_tate
+brtrue.s branch:26
+ldc.i4 162
+stloc.s local:7
+br.s branch:48
+ldarg.0
+ldfld System.Int32 CanvasEx::MojiHani_tate
+ldc.i4.1
+bne.un.s branch:35
+ldc.i4.8
+stloc.s local:7
+ldc.i4.0
+stloc.s local:9
+br.s branch:48
+ldc.i4 238
+ldarg.0
+ldfld System.SByte CanvasEx::BunsyouGun_gyousuu
+ldsfld System.Int32 CanvasEx::FHeight
+ldc.i4.8
+add
+mul
+sub
+ldc.i4.2
+div
+stloc.s local:7
+ldc.i4.0
+stloc.s local:9
+ldarg.0
+ldfld System.Boolean CanvasEx::Resumed
+brfalse branch:236
+ldarg.0
+ldfld System.SByte CanvasEx::BunsyouGun_gyousuu
+brtrue.s branch:55
+ret
+ldc.i4.0
+stloc.0
+br branch:231
+ldloc.0
+ldsfld System.Int32 CanvasEx::FHeight
+ldc.i4.8
+add
+mul
+stloc.s local:4
+ldarg.0
+ldfld System.Int32 CanvasEx::MojiHani_yoko
+brtrue.s branch:70
+ldloc.s local:6
+stloc.s local:8
+br.s branch:108
+ldarg.0
+ldfld System.Int32 CanvasEx::MojiHani_yoko
+ldc.i4.3
+bne.un.s branch:77
+ldc.i4.s 10
+stloc.s local:8
+br.s branch:108
+ldarg.0
+ldfld System.Int32 CanvasEx::MojiHani_yoko
+ldc.i4.2
+bne.un.s branch:95
+ldc.i4 240
+ldarg.0
+ldfld System.SByte[] CanvasEx::bg_itigyougun_zenkakusuu
+ldloc.0
+ldelem.i1
+ldsfld System.Int32 CanvasEx::FWidth
+mul
+ldc.i4.2
+mul
+sub
+ldc.i4.s 10
+sub
+stloc.s local:8
+br.s branch:108
+ldc.i4 240
+ldarg.0
+ldfld System.SByte[] CanvasEx::bg_itigyougun_zenkakusuu
+ldloc.0
+ldelem.i1
+ldsfld System.Int32 CanvasEx::FWidth
+mul
+ldc.i4.2
+mul
+sub
+ldc.i4.2
+div
+stloc.s local:8
+ldarg.0
+ldfld System.Int32 CanvasEx::NowNamae
+ldc.i4.m1
+beq.s branch:121
+ldloc.0
+brtrue.s branch:121
+ldarg.0
+ldarg.1
+ldloc.s local:8
+ldc.i4 134
+call System.Void CanvasEx::DrawAdvNafuda(Socotra.UI.StGraphics,System.Int32,System.Int32)
+ldc.i4.0
+stloc.s local:9
+ldloc.0
+ldarg.0
+ldfld System.Int32 CanvasEx::PrintDanYoyaku
+bne.un.s branch:129
+ldarg.0
+ldfld System.Int32 CanvasEx::PrintMojiKetaYoyaku
+stloc.s local:5
+br.s branch:137
+ldarg.0
+ldfld System.String[] CanvasEx::bg_itigyougun_mojiretu
+ldloc.0
+ldelem.ref
+callvirt System.Int32 System.String::get_Length()
+ldc.i4.1
+sub
+stloc.s local:5
+ldc.i4.0
+stloc.1
+ldc.i4.0
+stloc.2
+br branch:224
+ldarg.0
+ldfld System.String[] CanvasEx::bg_itigyougun_mojiretu
+ldloc.0
+ldelem.ref
+ldloc.1
+callvirt System.Char System.String::get_Chars(System.Int32)
+ldc.i4 65535
+and
+stloc.s local:10
+ldloc.s local:10
+ldc.i4.0
+blt.s branch:157
+ldloc.s local:10
+ldc.i4.s 127
+ble.s branch:163
+ldloc.s local:10
+ldc.i4 65377
+blt.s branch:196
+ldloc.s local:10
+ldc.i4 65439
+bgt.s branch:196
+ldloc.2
+ldsfld System.Int32 CanvasEx::FWidth
+ldc.i4.2
+mul
+mul
+stloc.3
+ldarg.0
+ldarg.1
+ldloc.1
+ldloc.2
+ldloc.0
+ldloc.3
+ldloc.s local:8
+add
+ldloc.s local:4
+ldloc.s local:7
+add
+ldloc.s local:9
+add
+call System.Void CanvasEx::DrawAdvString(Socotra.UI.StGraphics,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
+ldloc.2
+ldsfld System.Int32 CanvasEx::FWidth
+ldc.i4.2
+mul
+mul
+ldsfld System.Int32 CanvasEx::FWidth
+add
+stloc.3
+ldloc.1
+ldc.i4.1
+add
+stloc.1
+br.s branch:202
+ldloc.2
+ldsfld System.Int32 CanvasEx::FWidth
+ldc.i4.2
+mul
+mul
+stloc.3
+ldarg.0
+ldarg.1
+ldloc.1
+ldloc.2
+ldloc.0
+ldloc.3
+ldloc.s local:8
+add
+ldloc.s local:4
+ldloc.s local:7
+add
+ldloc.s local:9
+add
+call System.Void CanvasEx::DrawAdvString(Socotra.UI.StGraphics,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
+ldloc.1
+ldc.i4.1
+add
+stloc.1
+ldloc.2
+ldc.i4.1
+add
+stloc.2
+ldloc.1
+ldloc.s local:5
+ble branch:142
+ldloc.0
+ldc.i4.1
+add
+stloc.0
+ldloc.0
+ldarg.0
+ldfld System.Int32 CanvasEx::PrintDanYoyaku
+ble branch:58
+ret
+ldarg.0
+ldfld System.Int64 CanvasEx::BunsyouFadeJikan
+brfalse branch:398
+ldarg.0
+ldfld System.Int64 CanvasEx::BunsyouFadeStart
+brfalse branch:600
+ldc.i4.0
+stloc.0
+br branch:393
+ldloc.0
+ldsfld System.Int32 CanvasEx::FHeight
+ldc.i4.8
+add
+mul
+stloc.s local:4
+ldarg.0
+ldfld System.Int32 CanvasEx::MojiHani_yoko
+brtrue.s branch:257
+ldloc.s local:6
+stloc.s local:8
+br.s branch:295
+ldarg.0
+ldfld System.Int32 CanvasEx::MojiHani_yoko
+ldc.i4.3
+bne.un.s branch:264
+ldc.i4.s 10
+stloc.s local:8
+br.s branch:295
+ldarg.0
+ldfld System.Int32 CanvasEx::MojiHani_yoko
+ldc.i4.2
+bne.un.s branch:282
+ldc.i4 240
+ldarg.0
+ldfld System.SByte[] CanvasEx::bg_itigyougun_zenkakusuu
+ldloc.0
+ldelem.i1
+ldsfld System.Int32 CanvasEx::FWidth
+mul
+ldc.i4.2
+mul
+sub
+ldc.i4.s 10
+sub
+stloc.s local:8
+br.s branch:295
+ldc.i4 240
+ldarg.0
+ldfld System.SByte[] CanvasEx::bg_itigyougun_zenkakusuu
+ldloc.0
+ldelem.i1
+ldsfld System.Int32 CanvasEx::FWidth
+mul
+ldc.i4.2
+mul
+sub
+ldc.i4.2
+div
+stloc.s local:8
+ldc.i4.0
+stloc.1
+ldc.i4.0
+stloc.2
+br branch:382
+ldarg.0
+ldfld System.String[] CanvasEx::bg_itigyougun_mojiretu
+ldloc.0
+ldelem.ref
+ldloc.1
+callvirt System.Char System.String::get_Chars(System.Int32)
+ldc.i4 65535
+and
+stloc.s local:11
+ldloc.s local:11
+ldc.i4.0
+blt.s branch:315
+ldloc.s local:11
+ldc.i4.s 127
+ble.s branch:321
+ldloc.s local:11
+ldc.i4 65377
+blt.s branch:354
+ldloc.s local:11
+ldc.i4 65439
+bgt.s branch:354
+ldloc.2
+ldsfld System.Int32 CanvasEx::FWidth
+ldc.i4.2
+mul
+mul
+stloc.3
+ldarg.0
+ldarg.1
+ldloc.1
+ldloc.2
+ldloc.0
+ldloc.3
+ldloc.s local:8
+add
+ldloc.s local:4
+ldloc.s local:7
+add
+ldloc.s local:9
+add
+call System.Void CanvasEx::DrawAdvString(Socotra.UI.StGraphics,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
+ldloc.2
+ldsfld System.Int32 CanvasEx::FWidth
+ldc.i4.2
+mul
+mul
+ldsfld System.Int32 CanvasEx::FWidth
+add
+stloc.3
+ldloc.1
+ldc.i4.1
+add
+stloc.1
+br.s branch:360
+ldloc.2
+ldsfld System.Int32 CanvasEx::FWidth
+ldc.i4.2
+mul
+mul
+stloc.3
+ldarg.0
+ldarg.1
+ldloc.1
+ldloc.2
+ldloc.0
+ldloc.3
+ldloc.s local:8
+add
+ldloc.s local:4
+ldloc.s local:7
+add
+ldloc.s local:9
+add
+call System.Void CanvasEx::DrawAdvString(Socotra.UI.StGraphics,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
+ldloc.1
+ldc.i4.1
+add
+stloc.1
+ldloc.2
+ldc.i4.1
+add
+stloc.2
+ldloc.1
+ldarg.0
+ldfld System.String[] CanvasEx::bg_itigyougun_mojiretu
+ldloc.0
+ldelem.ref
+callvirt System.Int32 System.String::get_Length()
+blt branch:300
+ldloc.0
+ldc.i4.1
+add
+stloc.0
+ldloc.0
+ldarg.0
+ldfld System.SByte CanvasEx::BunsyouGun_gyousuu
+ble branch:245
+ret
+ldarg.0
+ldfld System.Int32 CanvasEx::PrintDanKanryo
+ldarg.0
+ldfld System.Int32 CanvasEx::PrintDanYoyaku
+bne.un.s branch:408
+ldarg.0
+ldfld System.Int32 CanvasEx::PrintMojiKetaKanryo
+ldarg.0
+ldfld System.Int32 CanvasEx::PrintMojiKetaYoyaku
+beq branch:600
+ldarg.0
+ldfld System.Int32 CanvasEx::MojiHani_yoko
+brtrue.s branch:414
+ldloc.s local:6
+stloc.s local:8
+br.s branch:454
+ldarg.0
+ldfld System.Int32 CanvasEx::MojiHani_yoko
+ldc.i4.3
+bne.un.s branch:421
+ldc.i4.s 10
+stloc.s local:8
+br.s branch:454
+ldarg.0
+ldfld System.Int32 CanvasEx::MojiHani_yoko
+ldc.i4.2
+bne.un.s branch:440
+ldc.i4 240
+ldarg.0
+ldfld System.SByte[] CanvasEx::bg_itigyougun_zenkakusuu
+ldarg.0
+ldfld System.Int32 CanvasEx::PrintDanYoyaku
+ldelem.i1
+ldsfld System.Int32 CanvasEx::FWidth
+mul
+ldc.i4.2
+mul
+sub
+ldc.i4.s 10
+sub
+stloc.s local:8
+br.s branch:454
+ldc.i4 240
+ldarg.0
+ldfld System.SByte[] CanvasEx::bg_itigyougun_zenkakusuu
+ldarg.0
+ldfld System.Int32 CanvasEx::PrintDanYoyaku
+ldelem.i1
+ldsfld System.Int32 CanvasEx::FWidth
+mul
+ldc.i4.2
+mul
+sub
+ldc.i4.2
+div
+stloc.s local:8
+ldarg.0
+ldfld System.Int32 CanvasEx::PrintDanYoyaku
+brtrue.s branch:469
+ldarg.0
+ldfld System.Int32 CanvasEx::PrintMojiKetaYoyaku
+brtrue.s branch:469
+ldarg.0
+ldfld System.Int32 CanvasEx::NowNamae
+ldc.i4.m1
+beq.s branch:469
+ldarg.0
+ldarg.1
+ldloc.s local:8
+ldc.i4 134
+call System.Void CanvasEx::DrawAdvNafuda(Socotra.UI.StGraphics,System.Int32,System.Int32)
+ldarg.0
+ldfld System.Int32 CanvasEx::NowNamae
+ldc.i4.m1
+beq.s branch:475
+ldc.i4.0
+stloc.s local:9
+ldarg.0
+ldfld System.Int32 CanvasEx::PrintKetaYoyaku
+ldsfld System.Int32 CanvasEx::FWidth
+ldc.i4.2
+mul
+mul
+stloc.3
+ldarg.0
+ldfld System.String[] CanvasEx::bg_itigyougun_mojiretu
+ldarg.0
+ldfld System.Int32 CanvasEx::PrintDanYoyaku
+ldelem.ref
+ldarg.0
+ldfld System.Int32 CanvasEx::PrintMojiKetaYoyaku
+callvirt System.Char System.String::get_Chars(System.Int32)
+ldc.i4 65535
+and
+stloc.s local:12
+ldloc.s local:12
+ldc.i4.0
+blt.s branch:499
+ldloc.s local:12
+ldc.i4.s 127
+ble.s branch:505
+ldloc.s local:12
+ldc.i4 65377
+blt branch:566
+ldloc.s local:12
+ldc.i4 65439
+bgt branch:566
+ldarg.0
+ldarg.1
+ldarg.0
+ldfld System.Int32 CanvasEx::PrintMojiKetaYoyaku
+ldarg.0
+ldfld System.Int32 CanvasEx::PrintKetaYoyaku
+ldarg.0
+ldfld System.Int32 CanvasEx::PrintDanYoyaku
+ldloc.3
+ldloc.s local:8
+add
+ldarg.0
+ldfld System.Int32 CanvasEx::PrintDanYoyaku
+ldsfld System.Int32 CanvasEx::FHeight
+ldc.i4.8
+add
+mul
+ldloc.s local:7
+add
+ldloc.s local:9
+add
+call System.Void CanvasEx::DrawAdvString(Socotra.UI.StGraphics,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
+ldarg.0
+ldarg.0
+ldfld System.Int32 CanvasEx::PrintMojiKetaKanryo
+ldc.i4.1
+add
+stfld System.Int32 CanvasEx::PrintMojiKetaKanryo
+ldarg.0
+ldarg.0
+ldfld System.Int32 CanvasEx::PrintMojiKetaYoyaku
+ldc.i4.1
+add
+stfld System.Int32 CanvasEx::PrintMojiKetaYoyaku
+ldloc.3
+ldsfld System.Int32 CanvasEx::FWidth
+add
+stloc.3
+ldarg.0
+ldarg.1
+ldarg.0
+ldfld System.Int32 CanvasEx::PrintMojiKetaYoyaku
+ldarg.0
+ldfld System.Int32 CanvasEx::PrintKetaYoyaku
+ldarg.0
+ldfld System.Int32 CanvasEx::PrintDanYoyaku
+ldloc.3
+ldloc.s local:8
+add
+ldarg.0
+ldfld System.Int32 CanvasEx::PrintDanYoyaku
+ldsfld System.Int32 CanvasEx::FHeight
+ldc.i4.8
+add
+mul
+ldloc.s local:7
+add
+ldloc.s local:9
+add
+call System.Void CanvasEx::DrawAdvString(Socotra.UI.StGraphics,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
+br.s branch:588
+ldarg.0
+ldarg.1
+ldarg.0
+ldfld System.Int32 CanvasEx::PrintMojiKetaYoyaku
+ldarg.0
+ldfld System.Int32 CanvasEx::PrintKetaYoyaku
+ldarg.0
+ldfld System.Int32 CanvasEx::PrintDanYoyaku
+ldloc.3
+ldloc.s local:8
+add
+ldarg.0
+ldfld System.Int32 CanvasEx::PrintDanYoyaku
+ldsfld System.Int32 CanvasEx::FHeight
+ldc.i4.8
+add
+mul
+ldloc.s local:7
+add
+ldloc.s local:9
+add
+call System.Void CanvasEx::DrawAdvString(Socotra.UI.StGraphics,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
+ldarg.0
+ldarg.0
+ldfld System.Int32 CanvasEx::PrintMojiKetaKanryo
+ldc.i4.1
+add
+stfld System.Int32 CanvasEx::PrintMojiKetaKanryo
+ldarg.0
+ldarg.0
+ldfld System.Int32 CanvasEx::PrintKetaKanryo
+ldc.i4.1
+add
+stfld System.Int32 CanvasEx::PrintKetaKanryo
+ret

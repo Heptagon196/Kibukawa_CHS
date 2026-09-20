@@ -1,0 +1,107 @@
+{
+  "schema": 1,
+  "bundle": "kibu10_Data/StreamingAssets/prefab/howtoplay",
+  "bundle_sha256": "d7674eb86f8aa3b3d966a3e293f08f146b7abd232b1485b312b7beac66469541",
+  "model_path_id": -4575662690838675561,
+  "pages": [
+    {
+      "page": 1,
+      "sprite_name": "howtoplay_keyguide_steam_00",
+      "sprite_path_id": -4107857564081162128,
+      "texture_path_id": -4382821868790442375,
+      "translation": {
+        "title": "操作说明",
+        "subtitle": "〈侦探·癸生川凌介事件谭 Vol.10《永劫会事件》〉",
+        "rows": [
+          [
+            "START 键",
+            "选项菜单"
+          ],
+          [
+            "A 键",
+            "确定／推进文字"
+          ],
+          [
+            "左摇杆／方向键",
+            "移动光标"
+          ],
+          [
+            "左摇杆向下／下方向键",
+            "快进文字"
+          ],
+          [
+            "R 键",
+            "游戏菜单"
+          ]
+        ]
+      }
+    },
+    {
+      "page": 2,
+      "sprite_name": "howtoplay_keyguide_steam_01",
+      "sprite_path_id": -343573882717733808,
+      "texture_path_id": -3669147586194838353,
+      "translation": {
+        "title": "操作说明",
+        "subtitle": "〈侦探·癸生川凌介事件谭 Vol.10《永劫会事件》〉",
+        "rows": [
+          [
+            "ESC",
+            "选项菜单"
+          ],
+          [
+            "Z／SPACE／L SHIFT／L CTRL",
+            "确定／推进文字"
+          ],
+          [
+            "W A S D／↑ ← ↓ →",
+            "移动光标"
+          ],
+          [
+            "S／↓",
+            "快进文字"
+          ],
+          [
+            "E",
+            "游戏菜单"
+          ]
+        ]
+      }
+    },
+    {
+      "page": 3,
+      "sprite_name": "howtoplay_keyguide_steam_02",
+      "sprite_path_id": -6344628663832535662,
+      "texture_path_id": -2952190386822164872,
+      "translation": {
+        "title": "G-MODE Archives",
+        "lines": [
+          "“G-MODE Archives”是一项复刻计划，",
+          "将昔日功能手机上的游戏忠实还原，",
+          "以当年的面貌呈现给玩家。",
+          "※ 从功能手机平台移植时，为了让游玩更加舒适，",
+          "我们对部分操作方式和功能进行了修改与调整。",
+          "※ 游戏内的操作说明和菜单仍保留了当年的内容，",
+          "本作的实际操作方式请参阅本菜单中的“玩法说明”。"
+        ]
+      }
+    },
+    {
+      "page": 4,
+      "sprite_name": "howtoplay_keyguide_steam_03",
+      "sprite_path_id": -2648456301403962741,
+      "texture_path_id": 5884506210255228636,
+      "translation": {
+        "title": "〈注意事项〉",
+        "lines": [
+          "由于本游戏忠实还原了当年的手机游戏，",
+          "部分菜单或按钮可能仍会显示，但已无法使用，",
+          "例如“WEB（网站）”“目录”“背光”等。",
+          "此外，帮助等内容中可能保留有关通信费用的说明，",
+          "但游玩本作不会另行产生通信费用。"
+        ],
+        "brand": "G-MODE Archives"
+      }
+    }
+  ]
+}
