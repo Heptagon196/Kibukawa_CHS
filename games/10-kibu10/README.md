@@ -91,3 +91,5 @@ SHA256：`3e1a232bfcd70efd30bae7e3c4c040e2cdc9b1a1caf7b39d047a4ded407d3238`。
 2026-09-21：0.1.16 紧急修复 0.1.14 引入、在 0.1.15 实机暴露的 Harmony 启动中断。逐字恢复 transpiler 曾错误判断原版 `Game_adv` 自循环标签的位置，导致主汉化初始化失败并使选项挂钩残缺；现按真实 `br self` 标签结构匹配，并新增读取原版程序集、组合选项记忆和恢复改写且模拟两次 Harmony 重建的回归测试。正式包为 `out/CHS_20260921_024227_526388300/Kibu10_CHS.zip`，SHA256 为 `a774ff9156662a6ec45a10f6cd1b6ea55cc40e94f574bd452f974afa940664ba`；已安装，记录见 `installations/20260921_024243` 与 `reports/harmony-startup-recovery-fix-20260921.md`。
 
 2026-09-21：0.1.17 根据 0.1.16 实机日志继续修复主汉化不生效和点击选项卡死。日志虽不再抛出 Harmony 异常，但主插件仍未到达 ready，说明 `Game_adv` 控制流改写本身仍会阻断初始化；本版将该改写完全移除，初始化数据确认文案保持原生四行并分别与源文等长（11/10/9/8 字符），保留颜色及末尾点击控制码。正式包为 `out/CHS_20260921_025610_412144600/Kibu10_CHS.zip`，SHA256 为 `dc788a61a2693ca933a1bde2e70a6587822c04c8d63e339b7672e6dc41546569`；已安装，记录见 `installations/20260921_025644` 与 `reports/game-adv-rollback-equal-rows-20260921.md`。
+
+2026-09-21：0.1.18 修复全屏 12px 网格误用 16px 字形导致的重叠；根据 Unity Player.log 的 PaintADV_text 字符越界，修正绘制完成游标同步。原始指令按更新先于绘制的顺序回放，三种垂直模式及首次重绘共六组通过，整包验证通过并已安装。详见 reports/paint-cursor-atlas-fix-20260921.md；实机视觉和确认/取消交互仍由用户验证。

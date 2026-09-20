@@ -13,9 +13,10 @@ namespace Kibukawa.Engine.Gmode20050817Direct
     public abstract class DirectCanvasRuntime : CanvasRuntime
     {
         [ThreadStatic] private static int bodyDrawDepth;
+        [ThreadStatic] private static int nativeDrawDepth;
         [ThreadStatic] private static bool speakerDraw;
         [ThreadStatic] private static bool menuMeasure;
-        protected struct DirectDrawState { internal float Scale; internal int BodyDepth; }
+        protected struct DirectDrawState { internal float Scale; internal int BodyDepth,NativeDepth; }
         sealed class Viewport { internal int Top; internal object Script; }
         static readonly ConditionalWeakTable<object,Viewport> viewports=new ConditionalWeakTable<object,Viewport>();
         protected static readonly HashSet<string> preserveDirectDialogueRows=new HashSet<string>(StringComparer.Ordinal);
@@ -50,7 +51,7 @@ namespace Kibukawa.Engine.Gmode20050817Direct
             Patch(AccessTools.Method(canvasType,"BUNSYOU_ROLL"),"BeforeRoll","AfterRoll");
             harmony.Patch(AccessTools.Method(canvasType,"DrawAdvString"),prefix:new HarmonyMethod(typeof(DirectCanvasRuntime),"BeforeDirectDraw"),finalizer:new HarmonyMethod(typeof(DirectCanvasRuntime),"RestoreDirectScale"));
             harmony.Patch(AccessTools.Method(canvasType,"PaintADV"),prefix:new HarmonyMethod(typeof(DirectCanvasRuntime),"BeforeDirectViewport"));
-            harmony.Patch(AccessTools.Method(canvasType,"PaintADV_text"),prefix:new HarmonyMethod(typeof(DirectCanvasRuntime),"BeforeDirectPaintText"));
+            harmony.Patch(AccessTools.Method(canvasType,"PaintADV_text"),prefix:new HarmonyMethod(typeof(DirectCanvasRuntime),"BeforeDirectPaintText"),postfix:new HarmonyMethod(typeof(DirectCanvasRuntime),"AfterDirectPaintText"));
             harmony.Patch(AccessTools.Method(canvasType,"DrawAdvNafuda"),prefix:new HarmonyMethod(typeof(DirectCanvasRuntime),"BeforeDirectSpeaker"),finalizer:new HarmonyMethod(typeof(DirectCanvasRuntime),"RestoreDirectSpeaker"));
             harmony.Patch(AccessTools.Method(canvasType,"DrawAdvStringRoll"),prefix:new HarmonyMethod(typeof(DirectCanvasRuntime),"BeforeDirectRollDraw"),finalizer:new HarmonyMethod(typeof(DirectCanvasRuntime),"RestoreDirectScale"));
             Type graphics=AccessTools.TypeByName("Socotra.UI.StGraphics");
@@ -132,20 +133,33 @@ namespace Kibukawa.Engine.Gmode20050817Direct
             int row=Number(__instance,"PrintDanYoyaku");
             int count=Number(__instance,"BunsyouGun_gyousuu");
             if(row<0 || row>=count)return;
-            // This direct engine can leave the completed-row cursor on the
-            // preceding row after a translated buffer changes row lengths.
-            // PaintADV_text then returns before drawing, while Game_adv keeps
-            // advancing the character cursor until its swallowed bounds error
-            // repeats every frame. Synchronize only at a pristine row start;
-            // active text, waits and click controls remain native-driven.
-            if(Number(__instance,"PrintDanKanryo")!=row && Number(__instance,"PrintMojiKetaKanryo")<0)
-                F("PrintDanKanryo").SetValue(__instance,row);
+            // Game_adv can run before the first paint. Its requested cursor then
+            // leads the completed cursor by more than one character. Incremental
+            // painting advances the latter by only one, retaining that lag until
+            // get_Chars reads past the line. Redraw the disclosed prefix to catch up.
+            if(Number(__instance,"MainTask")==6 &&
+                Number(__instance,"PrintMojiKetaYoyaku")>Number(__instance,"PrintMojiKetaKanryo")+1)
+                F("Resumed").SetValue(__instance,true);
+        }
+        protected static void AfterDirectPaintText(object __instance)
+        {
+            if(!ready || !State(__instance).Dialogue || Number(__instance,"MainTask")!=6)return;
+            // A successful full redraw does not update these native cursors.
+            // Commit only what the painter actually disclosed; no waits are added
+            // or consumed, and exceptions do not execute this postfix.
+            int row=Number(__instance,"PrintDanYoyaku"),cell=Number(__instance,"PrintMojiKetaYoyaku");
+            var lines=(string[])F("bg_itigyougun_mojiretu").GetValue(__instance);
+            if(row<0 || row>=Number(__instance,"BunsyouGun_gyousuu") || cell<0 || cell>=lines[row].Length)return;
+            F("PrintDanKanryo").SetValue(__instance,row);
+            F("PrintKetaKanryo").SetValue(__instance,Number(__instance,"PrintKetaYoyaku"));
+            F("PrintMojiKetaKanryo").SetValue(__instance,cell);
         }
         protected static bool BeforeDirectDraw(object __instance,int __2,int __3,ref int __4,ref int __5,out DirectDrawState __state)
         {
-            __state=new DirectDrawState { Scale=drawScale, BodyDepth=bodyDrawDepth };
+            __state=new DirectDrawState { Scale=drawScale, BodyDepth=bodyDrawDepth, NativeDepth=nativeDrawDepth };
             if(!ready || !State(__instance).Dialogue || smallFontScope)return true;
-            bodyDrawDepth++;
+            if(Number(__instance,"MojiHani_tate")==0)bodyDrawDepth++;
+            else nativeDrawDepth++;
             if(Number(__instance,"MojiHani_tate")==0)
             {
                 int top=viewports.GetOrCreateValue(__instance).Top;
@@ -185,10 +199,10 @@ namespace Kibukawa.Engine.Gmode20050817Direct
             drawScale=1f;
         }
         protected static void RestoreDirectScale(DirectDrawState __state)
-        { RestoreScale(__state.Scale); bodyDrawDepth=__state.BodyDepth; }
+        { RestoreScale(__state.Scale); bodyDrawDepth=__state.BodyDepth; nativeDrawDepth=__state.NativeDepth; }
         protected static void BeforeDirectRollDraw(object __instance,int __2,int __3,ref int __4,out DirectDrawState __state)
         {
-            __state=new DirectDrawState { Scale=drawScale, BodyDepth=bodyDrawDepth };
+            __state=new DirectDrawState { Scale=drawScale, BodyDepth=bodyDrawDepth, NativeDepth=nativeDrawDepth };
             if(!ready)return;
             if(State(__instance).RollRows.Contains(__3))bodyDrawDepth++;
             if(Number(__instance,"MojiHani_tate")==0)FitDirectText(__instance,__2,__3,true,ref __4);
@@ -201,7 +215,7 @@ namespace Kibukawa.Engine.Gmode20050817Direct
             bool body=bodyDrawDepth>0 && !smallFontScope;
             var origin=(UnityEngine.Vector2)drawOrigin.GetValue(__instance);
             return Kibu1ZhCN.LegacyFontRenderer.Draw(__instance,__0,__1+(int)origin.x,__2+(int)origin.y,
-                null,font,body && !speakerDraw && drawScale>0?drawScale:1f,body || speakerDraw?null:smallFont);
+                null,nativeDrawDepth>0 && !speakerDraw?smallFont:font,body && !speakerDraw && drawScale>0?drawScale:1f,body || speakerDraw?null:smallFont);
         }
         protected static void BeforeDirectSpeaker(object __instance,int __1,ref int __2,out bool __state)
         {

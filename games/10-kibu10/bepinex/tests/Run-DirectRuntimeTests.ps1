@@ -22,6 +22,12 @@ $sources=@(
 'games/10-kibu10/bepinex/build/generated/DirectLexicon.cs',
 'engine/adapters/gmode-v2/src/TextBreaks.cs','engine/adapters/gmode-v2/src/TextGeometry.cs',
 'games/10-kibu10/bepinex/src/Plugin.cs',
+'games/10-kibu10/bepinex/tests/NativeFrameReplay.cs',
 'games/10-kibu10/bepinex/tests/DirectRuntimeTests.cs') | ForEach-Object { Join-Path $series $_ }
 Add-Type -Path ($sources+@($stubPath))
 [DirectHarness]::Run()
+$assembly=Get-Content -Raw (Join-Path $series 'games/10-kibu10/research/kibu10-assembly.json') | ConvertFrom-Json
+$methods=[System.Collections.Generic.Dictionary[string,string[]]]::new()
+$methods.Add('Game_adv',[string[]]$assembly.methods.'System.Boolean CanvasEx::Game_adv()'.il)
+$methods.Add('PaintADV_text',[string[]]$assembly.methods.'System.Void CanvasEx::PaintADV_text(Socotra.UI.StGraphics)'.il)
+[NativeFrameReplay]::Check($methods)

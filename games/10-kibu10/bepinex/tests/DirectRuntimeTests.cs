@@ -101,7 +101,7 @@ public class DirectHarness : DirectCanvasRuntime
   AfterDirectDialogue(c,read);
   Check(c.bg_itigyougun_mojiretu[0].Contains("中文"),"Dialogue translated");
   c.PrintDanYoyaku=0;c.PrintDanKanryo=-1;c.PrintMojiKetaKanryo=-1;
-  BeforeDirectPaintText(c);Check(c.PrintDanKanryo==0,"Translated typewriter must synchronize a pristine requested row");
+  BeforeDirectPaintText(c);Check(c.PrintDanKanryo==-1,"Requested row must not be committed before successful paint");
   c.PrintDanYoyaku=1;c.PrintDanKanryo=0;c.PrintMojiKetaKanryo=0;
   BeforeDirectPaintText(c);Check(c.PrintDanKanryo==0,"Active typewriter row must not be forced forward");
   c.PrintDanYoyaku=0;c.PrintDanKanryo=0;c.PrintMojiKetaKanryo=-1;
@@ -168,6 +168,12 @@ public class DirectHarness : DirectCanvasRuntime
   x=0;FitDirectText(c,2,0,false,ref x);Check(x==53,"Runtime placement must include exactly one dialogue half-cell before Latin text");
   x=0;FitDirectText(c,5,0,false,ref x);Check(x==89,"The dialogue half-cell after an English word must match the layout width");
   c.MojiHani_tate=2;
+  // Check the atlas chosen during the actual DrawAdvString scope, not just widths.
+  c.bg_itigyougun_mojiretu[0]="中文";c.BunsyouGun_gyousuu=1;
+  x=0;y=91;BeforeDirectDraw(c,0,0,ref x,ref y,out scale);
+  BeforeDraw(new DirectGraphicsStub(),new[]{'中'},x,y);
+  Check(Object.ReferenceEquals(Kibu1ZhCN.LegacyFontRenderer.Primary,smallFont),"Full-screen 12px advance must draw the 12px atlas, not overlapping 16px glyphs");
+  RestoreDirectScale(scale);
   var fullSource=new[]{Row("本作では複数の人物の"),Row("視点から物語を追う"),Row("システムなので"),Row("説明が続きます。",terminal:46)};
   var full=new[]{Row("本作让您从多位人物的"),Row("视角"),Row("追踪故事，"),Row("所以，说明还将继续。",terminal:46)};
   for(int i=0;i<full.Length;i++)full[i].SourceText=fullSource[i].Text;
