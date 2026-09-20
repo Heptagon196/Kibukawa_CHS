@@ -16,7 +16,7 @@ using Kibukawa.Engine.Gmode20050817Direct;
 
 namespace Kibu10ZhCN
 {
-    [BepInPlugin("local.kibu10.zhcn", "Kibu10 Simplified Chinese", "0.1.14")]
+    [BepInPlugin("local.kibu10.zhcn", "Kibu10 Simplified Chinese", "0.1.15")]
     [BepInProcess("kibu10.exe")]
     public sealed class Plugin : DirectCanvasRuntime
     {
@@ -111,8 +111,7 @@ namespace Kibu10ZhCN
             if (Number(__instance, "FrameTask") != 2 || Number(__instance, "MainTask") == 11
                 || (bool)F("NowRoll").GetValue(__instance)) return false;
 
-            int width = 0;
-            foreach (char value in row.Text) width += NativeInfoWidth(value);
+            int width = DirectTextLayout.MeasureNative(row.Text, 0, row.Text.Length);
             int x = 238 - width;
             int[] palette = (int[])F("ColorTable").GetValue(__instance);
             MethodInfo color = AccessTools.Method(canvasType, "SetColor");
@@ -133,8 +132,7 @@ namespace Kibu10ZhCN
                 for (int i = 0; i < row.Text.Length; i++)
                 {
                     color.Invoke(__instance, new object[] { __0, palette[row.Colors[i]] });
-                    draw.Invoke(__0, new object[] { row.Text[i].ToString(), x, layout.InfoBaseline });
-                    x += NativeInfoWidth(row.Text[i]);
+                    draw.Invoke(__0, new object[] { row.Text[i].ToString(), x + DirectTextLayout.PositionNative(row.Text, i), layout.InfoBaseline });
                 }
             }
             finally

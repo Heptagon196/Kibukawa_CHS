@@ -39,8 +39,8 @@ public class DirectHarness : DirectCanvasRuntime
   string text=String.Join("",Array.ConvertAll(rows,r=>r.Text));DirectLexicon.Masks[text]=mask??new string('0',text.Length+1);
  }
  static void LayoutChecks() {
-  Check(DirectTextLayout.Measure("中文ABC测试",0,7)==103 && DirectTextLayout.Position("中文ABC测试",2)==38 && DirectTextLayout.Position("中文ABC测试",5)==69,"Visual Latin gaps must be counted and drawn identically without adding characters");
-  Check(DirectTextLayout.Measure("键盘　Ｅ　键",0,6)==68 && DirectTextLayout.Position("键盘　Ｅ　键",3)==38 && DirectTextLayout.Position("键盘　Ｅ　键",5)==51,"Authored spaces at Han-Latin boundaries must collapse to one compact visual gap");
+  Check(DirectTextLayout.Measure("中文ABC测试",0,7)==113 && DirectTextLayout.Position("中文ABC测试",2)==43 && DirectTextLayout.Position("中文ABC测试",5)==79,"Dialogue Han-Latin boundaries must use one symmetric half-cell gap");
+  Check(DirectTextLayout.Measure("键盘　Ｅ　键",0,6)==78 && DirectTextLayout.Position("键盘　Ｅ　键",3)==43 && DirectTextLayout.Position("键盘　Ｅ　键",5)==61,"Authored spaces at dialogue Han-Latin boundaries must occupy one half-cell gap");
   Check(DirectTextLayout.MeasureNative("键盘　Ｅ　键",0,6)==54 && DirectTextLayout.PositionNative("键盘　Ｅ　键",3)==30 && DirectTextLayout.PositionNative("键盘　Ｅ　键",5)==42,"Full-screen Han-Latin boundaries must use one symmetric native half-cell gap");
   var source=new[]{Row("调查工藤"),Row("贵树的证词",terminal:46)};
   var mask=new char[10];for(int i=0;i<mask.Length;i++)mask[i]='0';for(int i=3;i<6;i++)mask[i]='1';Segment(source,new string(mask));
@@ -89,11 +89,13 @@ public class DirectHarness : DirectCanvasRuntime
   var nativeInfoRow=new RuntimeRow{SourceText="原文",Text="中A。",Colors=new byte[]{0,2,3},Controls=new byte[]{0,0,46}};
   infoRows["原文"]=nativeInfoRow;
   Check(!Kibu10ZhCN.Plugin.DrawKibu10Info(c,g)&&g.Drawn=="中A。","Kibu10 INFO renderer must replace the shared prefix");
-  Check(g.Xs.Count==3 && g.Xs[0]==208 && g.Xs[1]==220 && g.Xs[2]==226,"Kibu10 INFO must use native 12px full-width and 6px half-width advances");
+  Check(g.Xs.Count==3 && g.Xs[0]==202 && g.Xs[1]==220 && g.Xs[2]==226,"Kibu10 INFO must apply the global native half-cell boundary and retain 12px/6px advances");
   Check(g.Fonts.Count==2 && g.Fonts[0]==32 && g.Fonts[1]==656,"Kibu10 INFO must select the native top-bar font and restore the previous font");
   g.Throw=true;try{Kibu10ZhCN.Plugin.DrawKibu10Info(c,g);}catch(System.Reflection.TargetInvocationException){}
   Check(g.Fonts.Count==4 && g.Fonts[2]==32 && g.Fonts[3]==656 && !smallFontScope,"Kibu10 INFO must restore the native font and scope after draw failure");
   g.Throw=false;
+  g.Drawn="";g.Xs.Clear();infoRows["原文"]=new RuntimeRow{SourceText="原文",Text="中　Ａ　文",Colors=new byte[]{0,0,0,0,0},Controls=new byte[5]};
+  Check(!Kibu10ZhCN.Plugin.DrawKibu10Info(c,g) && g.Xs.Count==5 && g.Xs[0]==196 && g.Xs[1]==208 && g.Xs[2]==214 && g.Xs[3]==220 && g.Xs[4]==226,"INFO Han-Latin boundaries must use the same symmetric native half-cell gap");
   Check(Kibu10ZhCN.Plugin.NativeInfoWidth('Ａ')==12 && Kibu10ZhCN.Plugin.NativeInfoWidth('ｱ')==6 && Kibu10ZhCN.Plugin.NativeInfoWidth('?')==6 && Kibu10ZhCN.Plugin.NativeInfoWidth('　')==12,"Kibu10 INFO width classification must match native cells, including full-width spaces");
   var read=new ReadState{Display=new DisplayTranslation{Opcode=255,Rows=new[]{row}}};
   DirectLexicon.Masks[row.Text]="0000";
@@ -170,8 +172,8 @@ public class DirectHarness : DirectCanvasRuntime
   RestoreMenuMeasure(measureState);
   Check(BeforeMenuLength("中文",ref length),"Menu finalizer must restore native script byte measurements");
   c.bg_itigyougun_mojiretu[0]="中文ABC测试";c.BunsyouGun_gyousuu=1;c.MojiHani_yoko=3;
-  x=0;FitDirectText(c,2,0,false,ref x);Check(x==48,"Runtime placement must include exactly the measured compact Latin gap");
-  x=0;FitDirectText(c,5,0,false,ref x);Check(x==79,"The compact gap after an English word must match the layout width");
+  x=0;FitDirectText(c,2,0,false,ref x);Check(x==53,"Runtime placement must include exactly one dialogue half-cell before Latin text");
+  x=0;FitDirectText(c,5,0,false,ref x);Check(x==89,"The dialogue half-cell after an English word must match the layout width");
   c.MojiHani_tate=2;
   var fullSource=new[]{Row("本作では複数の人物の"),Row("視点から物語を追う"),Row("システムなので"),Row("説明が続きます。",terminal:46)};
   var full=new[]{Row("本作让您从多位人物的"),Row("视角"),Row("追踪故事，"),Row("所以，说明还将继续。",terminal:46)};

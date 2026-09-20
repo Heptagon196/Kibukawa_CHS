@@ -8,7 +8,9 @@ namespace Kibukawa.Engine.Gmode20050817Direct
 {
  internal static class DirectTextLayout
  {
-  const int MixedGap=4;
+  // Mixed-script separation is always one half-cell in the active grid:
+  // 9px beside the 17px dialogue cell, 6px beside the native 12px cell.
+  const int MixedGap=9;
   const string Close="，。！？；：、）》」』】〕〉”’…—％%!?.,;:)]}";
   const string Open="（《「『【〔〈“‘([{\"";
   static bool Han(char c) {return c>='\u3400' && c<='\u9fff' || c=='〇';}
