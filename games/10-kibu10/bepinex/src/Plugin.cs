@@ -16,7 +16,7 @@ using Kibukawa.Engine.Gmode20050817Direct;
 
 namespace Kibu10ZhCN
 {
-    [BepInPlugin("local.kibu10.zhcn", "Kibu10 Simplified Chinese", "0.1.23")]
+    [BepInPlugin("local.kibu10.zhcn", "Kibu10 Simplified Chinese", "0.1.24")]
     [BepInProcess("kibu10.exe")]
     public sealed class Plugin : DirectCanvasRuntime
     {
@@ -105,9 +105,9 @@ namespace Kibu10ZhCN
         internal static bool DrawKibu10Info(object __instance, object __0)
         {
             if (!ready) return true;
-            RuntimeRow row;
-            string source = (string)F("info_struct_moji").GetValue(__instance);
-            if (source == null || !infoRows.TryGetValue(source, out row)) return true;
+            // Check visibility before the translation lookup. Otherwise an
+            // untranslated INFO string falls through to the original painter
+            // and can leak onto the scenario selection screen.
             // The native painter also requires a live INFO cell count. Title
             // return and save initialization clear this count but retain the
             // old string, so drawing by string alone leaks the previous header.
@@ -115,6 +115,9 @@ namespace Kibu10ZhCN
             if (Number(__instance, "FrameTask") != 2 || task == 11 || task == 12
                 || Number(__instance, "info_struct_zenkaku_suu") <= 0
                 || (bool)F("NowRoll").GetValue(__instance)) return false;
+            RuntimeRow row;
+            string source = (string)F("info_struct_moji").GetValue(__instance);
+            if (source == null || !infoRows.TryGetValue(source, out row)) return true;
 
             int width = DirectTextLayout.MeasureNative(row.Text, 0, row.Text.Length);
             int x = 238 - width;

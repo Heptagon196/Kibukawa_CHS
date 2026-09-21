@@ -88,7 +88,13 @@ public class DirectHarness : DirectCanvasRuntime
   Check(!Kibu10ZhCN.Plugin.DrawKibu10Info(c,g) && g.Drawn=="","Title page must hide the previous dialogue header");
   c.FrameTask=2;c.MainTask=12;
   Check(!Kibu10ZhCN.Plugin.DrawKibu10Info(c,g) && g.Drawn=="","Scenario selection must not repaint the previous dialogue header");
-  c.MainTask=0;
+  c.info_struct_moji="未登记原文";
+  Check(!Kibu10ZhCN.Plugin.DrawKibu10Info(c,g) && g.Drawn=="","Untranslated INFO must also stay hidden on scenario selection");
+  c.MainTask=0;c.info_struct_zenkaku_suu=0;
+  Check(!Kibu10ZhCN.Plugin.DrawKibu10Info(c,g) && g.Drawn=="","Zero-count untranslated INFO must stay hidden");
+  c.info_struct_zenkaku_suu=2;
+  Check(Kibu10ZhCN.Plugin.DrawKibu10Info(c,g),"Active untranslated INFO must keep the native fallback");
+  c.info_struct_moji="原文";
   g.Throw=true;try{DrawDirectInfo(c,g);}catch(System.Reflection.TargetInvocationException){}
   Check(!smallFontScope,"INFO exception must restore font scope");
   c.NowRoll=true;g.Throw=false;g.Drawn="";DrawDirectInfo(c,g);Check(g.Drawn=="","INFO visibility");
