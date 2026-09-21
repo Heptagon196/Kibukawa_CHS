@@ -122,10 +122,24 @@ namespace Kibukawa.Engine.Gmode20050817Direct
                 for(int i=0;i<count;i++)
                     if(!String.Equals(source[i],display.Rows[i].SourceText,StringComparison.Ordinal)){equal=false;break;}
                 if(!equal)continue;
-                if(match!=null)return null;
+                // A repeated source is ambiguous only when its replacement
+                // differs. Some story branches replay the same Japanese line
+                // at distinct offsets with identical Chinese/control planes.
+                if(match!=null && !EquivalentDirectDisplay(match,display))return null;
                 match=display;
             }
             return match==null?null:new ReadState{Display=match,Row=0};
+        }
+        static bool EquivalentDirectDisplay(DisplayTranslation a,DisplayTranslation b)
+        {
+            if(a.Rows.Length!=b.Rows.Length)return false;
+            for(int i=0;i<a.Rows.Length;i++)
+            {
+                RuntimeRow left=a.Rows[i],right=b.Rows[i];
+                if(left.Text!=right.Text || !Equal(left.Colors,right.Colors) ||
+                   !Equal(left.Controls,right.Controls))return false;
+            }
+            return true;
         }
         protected static void BeforeDirectViewport(object __instance)
         {
