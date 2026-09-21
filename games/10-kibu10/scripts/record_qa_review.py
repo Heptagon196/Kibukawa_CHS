@@ -24,10 +24,14 @@ def main():
     scene_s10 = {'scratch4.dat/s10:453:token21', 'scratch4.dat/s10:587:token5'}
     p.require(scene_s10 <= {u['id'] for u in changed['clicks']},
               'Missing reviewed scene-s10 transition')
-    p.require(len(changed['clicks'])==228+len(INFO_LAYOUT_UNITS) and len(changed['colors'])==21,
+    jugemu = {'scratch4.dat/s11:19254:token11', 'scratch4.dat/s11:19703:token11',
+              'scratch4.dat/s11:19775:token11', 'scratch4.dat/s11:19884:token17'}
+    p.require(jugemu <= {u['id'] for u in changed['clicks']},
+              'Missing reviewed Jugemu quotation or translator note')
+    p.require(len(changed['clicks'])==232+len(INFO_LAYOUT_UNITS) and len(changed['colors'])==21,
               'Unexpected semantic review delta: '+repr({k:len(v) for k,v in changed.items()}))
     document=dict(schema=1,adapter='gmode-20050817-direct',
-        reviewer='root integration after independent semantic, punctuation, color, conflict and native INFO layout review; file/help:2222 control wording and scene-s10 transition explicitly reviewed after user feedback',
+        reviewer='root integration after independent semantic, punctuation, color, conflict and native INFO layout review; file/help:2222 controls, scene-s10 transition and s11 Jugemu quotation plus translator note explicitly reviewed after user feedback',
         dialogue_sha256=p.sha((p.WORK/'work/dialogue-tagged.json').read_bytes()),
         integration_review='work/fixes/integration-review.json',
         integration_review_sha256=p.sha((p.WORK/'work/fixes/integration-review.json').read_bytes()),

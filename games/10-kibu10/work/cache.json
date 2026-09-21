@@ -71498,7 +71498,7 @@
         {
           "text_index": 3245,
           "source_text": "食う寝るところに住むところ。",
-          "translated_text": "“吃饭睡觉的地方，居住的地方。",
+          "translated_text": "“吃睡之处，住居之处。",
           "translation_status": 1,
           "model": "Codex parallel translation and review",
           "extra": {
@@ -71513,7 +71513,7 @@
               "argument": 0
             },
             "tagged_source": "<color=0>食う寝るところに</color><row/><color=0>住むところ。</color><ctrl=2E/>",
-            "tagged_target": "<color=0>“吃饭睡觉的地方，</color><row/><color=0>居住的地方。</color><ctrl=2E/>",
+            "tagged_target": "<color=0>“吃睡之处，</color><row/><color=0>住居之处。</color><ctrl=2E/>",
             "active": true
           }
         },
@@ -71630,7 +71630,7 @@
         {
           "text_index": 3251,
           "source_text": "やぶらこうじのぶらこうじ！",
-          "translated_text": "“雅布拉柯基的布拉柯基！",
+          "translated_text": "“薮柑子之吊柑子！",
           "translation_status": 1,
           "model": "Codex parallel translation and review",
           "extra": {
@@ -71645,14 +71645,14 @@
               "argument": 0
             },
             "tagged_source": "<color=0>やぶらこうじの</color><row/><color=0>ぶらこうじ！</color><ctrl=2E/>",
-            "tagged_target": "<color=0>“雅布拉柯基的</color><row/><color=0>布拉柯基！</color><ctrl=2E/>",
+            "tagged_target": "<color=0>“薮柑子之</color><row/><color=0>吊柑子！</color><ctrl=2E/>",
             "active": true
           }
         },
         {
           "text_index": 3252,
           "source_text": "パイポパイポ、パイポのシューリンガンッ！",
-          "translated_text": "派波派波，派波的修林甘！”",
+          "translated_text": "帕伊波帕伊波，帕伊波之修林甘！”",
           "translation_status": 1,
           "model": "Codex parallel translation and review",
           "extra": {
@@ -71667,14 +71667,14 @@
               "argument": 0
             },
             "tagged_source": "<color=0>パイポパイポ、パイポの</color><row/><color=0>シューリンガンッ！</color><ctrl=2E/>",
-            "tagged_target": "<color=0>派波派波，派波的</color><row/><color=0>修林甘！”</color><ctrl=2E/>",
+            "tagged_target": "<color=0>帕伊波帕伊波，</color><row/><color=0>帕伊波之修林甘！”</color><ctrl=2E/>",
             "active": true
           }
         },
         {
           "text_index": 3253,
           "source_text": "…いや、あの、もういいです。長くなりそうなので。",
-          "translated_text": "“……不，那个，不用再说了。感觉会说个没完。”",
+          "translated_text": "“……呃，不用了。再念下去就没完了。”（译注：落语《寿限无》）",
           "translation_status": 1,
           "model": "Codex parallel translation and review",
           "extra": {
@@ -71689,7 +71689,7 @@
               "argument": 0
             },
             "tagged_source": "<color=0>…いや、あの、</color><row/><color=0>もういいです。</color><row/><color=0>長くなりそうなので。</color><ctrl=2E/>",
-            "tagged_target": "<color=0>“……不，那个，</color><row/><color=0>不用再说了。</color><row/><color=0>感觉会说个没完。”</color><ctrl=2E/>",
+            "tagged_target": "<color=0>“……呃，不用了。</color><row/><color=0>再念下去就没完了。”</color><row/><color=0>（译注：落语《寿限无》）</color><ctrl=2E/>",
             "active": true
           }
         },
@@ -261837,7 +261837,7 @@
     "authoritative_draft": "work/dialogue-tagged.json",
     "translation_stage": "reviewed",
     "semantic_release_review_complete": true,
-    "reviewed_dialogue_sha256": "83dbfa5e3cf5b787d623a31810f22a5fb40d417d1309cdfa4bce56b337cf1058",
+    "reviewed_dialogue_sha256": "4de1a2fa697cb9039944f7fff465a8d72edd7c6e0b946afad4af1182e26421b8",
     "click_review_sha256": "ad3cde2a771ed42ea794e564309340bd394c425c99713ebfa0b345896a369190",
     "color_review_sha256": "f84f25b108c9bc5df01f7a9a89cf06bd0dfeeadc4fc581b16c022d7e4eb1ef51",
     "quality_gate_sha256": "1865fa6958a37189450b57f426a1d398e1f58b07a7b37ad8d999ae0c833f0ae9"

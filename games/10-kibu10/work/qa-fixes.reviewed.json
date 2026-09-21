@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "adapter": "gmode-20050817-direct",
-  "reviewer": "root integration after independent semantic, punctuation, color, conflict and native INFO layout review; file/help:2222 control wording and scene-s10 transition explicitly reviewed after user feedback",
-  "dialogue_sha256": "83dbfa5e3cf5b787d623a31810f22a5fb40d417d1309cdfa4bce56b337cf1058",
+  "reviewer": "root integration after independent semantic, punctuation, color, conflict and native INFO layout review; file/help:2222 controls, scene-s10 transition and s11 Jugemu quotation plus translator note explicitly reviewed after user feedback",
+  "dialogue_sha256": "4de1a2fa697cb9039944f7fff465a8d72edd7c6e0b946afad4af1182e26421b8",
   "integration_review": "work/fixes/integration-review.json",
   "integration_review_sha256": "21d82e9f17fba11bd009a2e999fb1352f5542249e29180a97301debfc1233d58",
   "info_layout_units": [
@@ -1617,6 +1617,121 @@
         {
           "id": "scratch4.dat/s11:17810",
           "token": 5,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s11:19254:token11",
+      "sha256": "efccde5be95253847ccfdaff475f6d50415d64268170d417885c402cc88a2dd9",
+      "script": "scratch4.dat/s11",
+      "boundary": "19254:token11",
+      "spans": [
+        {
+          "id": "scratch4.dat/s11:19254",
+          "token": 2,
+          "color": 0,
+          "source": "食う寝るところに",
+          "target": "“吃睡之处，"
+        },
+        {
+          "id": "scratch4.dat/s11:19254",
+          "token": 8,
+          "color": 0,
+          "source": "住むところ。",
+          "target": "住居之处。"
+        },
+        {
+          "id": "scratch4.dat/s11:19254",
+          "token": 11,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s11:19703:token11",
+      "sha256": "1025a5d27606cbc62f4f6c04ecfc13d774436dc3e821115d4869c6d6f14bcd90",
+      "script": "scratch4.dat/s11",
+      "boundary": "19703:token11",
+      "spans": [
+        {
+          "id": "scratch4.dat/s11:19703",
+          "token": 2,
+          "color": 0,
+          "source": "やぶらこうじの",
+          "target": "“薮柑子之"
+        },
+        {
+          "id": "scratch4.dat/s11:19703",
+          "token": 8,
+          "color": 0,
+          "source": "ぶらこうじ！",
+          "target": "吊柑子！"
+        },
+        {
+          "id": "scratch4.dat/s11:19703",
+          "token": 11,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s11:19775:token11",
+      "sha256": "b26c026c68a73ffc39d5937a801950c1cdcdd5ae088b297ba20b23537f9c6119",
+      "script": "scratch4.dat/s11",
+      "boundary": "19775:token11",
+      "spans": [
+        {
+          "id": "scratch4.dat/s11:19775",
+          "token": 2,
+          "color": 0,
+          "source": "パイポパイポ、パイポの",
+          "target": "帕伊波帕伊波，"
+        },
+        {
+          "id": "scratch4.dat/s11:19775",
+          "token": 8,
+          "color": 0,
+          "source": "シューリンガンッ！",
+          "target": "帕伊波之修林甘！”"
+        },
+        {
+          "id": "scratch4.dat/s11:19775",
+          "token": 11,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s11:19884:token17",
+      "sha256": "edf5d5f32095ea3285cef33b17aa949ae752f5fc7e494aa64bb21cf5a0c04af6",
+      "script": "scratch4.dat/s11",
+      "boundary": "19884:token17",
+      "spans": [
+        {
+          "id": "scratch4.dat/s11:19884",
+          "token": 2,
+          "color": 0,
+          "source": "…いや、あの、",
+          "target": "“……呃，不用了。"
+        },
+        {
+          "id": "scratch4.dat/s11:19884",
+          "token": 8,
+          "color": 0,
+          "source": "もういいです。",
+          "target": "再念下去就没完了。”"
+        },
+        {
+          "id": "scratch4.dat/s11:19884",
+          "token": 14,
+          "color": 0,
+          "source": "長くなりそうなので。",
+          "target": "（译注：落语《寿限无》）"
+        },
+        {
+          "id": "scratch4.dat/s11:19884",
+          "token": 17,
           "control": "<ctrl=2E/>"
         }
       ]
