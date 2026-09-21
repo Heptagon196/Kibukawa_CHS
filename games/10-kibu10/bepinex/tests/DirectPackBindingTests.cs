@@ -59,6 +59,19 @@ public static class DirectPackBindingTests
     if(clearRows[3].Controls[clearRows[3].Controls.Length-1]!=46)
      throw new Exception("Clear-save confirmation lost its terminal click");
    }
+   if(Path.GetFileName(file)=="s11.bin" && script.Displays.ContainsKey(19884))
+   {
+    var quotation=script.Displays[19884].Rows;
+    if(quotation.Length!=3)throw new Exception("Jugemu source display row count changed");
+    var laidOut=DirectTextLayout.Wrap(quotation,204,4);
+    if(laidOut.Length!=4 || laidOut[0].Text!="“……呃，不用了。" ||
+       laidOut[1].Text!="再念下去就没完了。”" ||
+       laidOut[2].Text+laidOut[3].Text!="（译注：落语《寿限无》中的超长名字）" ||
+       laidOut[3].Controls[laidOut[3].Controls.Length-1]!=46)
+     throw new Exception("Jugemu note must fill four dialogue rows without moving the click");
+    foreach(var row in laidOut)if(DirectTextLayout.Measure(row.Text,0,row.Text.Length)>204)
+     throw new Exception("Jugemu dialogue or note exceeds the 204px text area");
+   }
    foreach(var display in script.Displays.Values)
    {
     foreach(var row in display.Rows)
