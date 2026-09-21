@@ -224,14 +224,23 @@ namespace Kibukawa.Engine.Gmode20050817Direct
             var origin=(UnityEngine.Vector2)drawOrigin.GetValue(__instance);
             if(scenarioPage && __2==238 && smallFont!=null)
             {
-                // PaintSentaku's subtitle band is y=224..240. Center the whole
-                // string's native ink box, keeping a common baseline for digits
-                // and CJK glyphs and leaving other rows/headers untouched.
+                // PaintSentaku's subtitle band is y=224..240. Use one baseline
+                // for the whole line and the same 12px grid for measurement and
+                // glyph placement, including Han/Latin/digit half-cell gaps.
                 int low=Int32.MaxValue,high=Int32.MinValue;
                 UnityEngine.CharacterInfo glyph;
                 foreach(char c in __0)if(c!=' ' && c!='　' && c!='\0' && smallFont.TryGetForDisplay(c,out glyph))
                 { low=Math.Min(low,glyph.minY);high=Math.Max(high,glyph.maxY); }
                 if(low<=high)__2=(int)Math.Round(232+(low+high)/2.0,MidpointRounding.AwayFromZero);
+                string subtitle=new string(__0);
+                int x=__1+(int)origin.x,y=__2+(int)origin.y;
+                for(int i=0;i<__0.Length;i++)
+                {
+                    if(__0[i]=='\0')continue;
+                    if(Kibu1ZhCN.LegacyFontRenderer.Draw(__instance,new[]{__0[i]},
+                        x+DirectTextLayout.PositionNative(subtitle,i),y,null,font,1f,smallFont))return true;
+                }
+                return false;
             }
             return Kibu1ZhCN.LegacyFontRenderer.Draw(__instance,__0,__1+(int)origin.x,__2+(int)origin.y,
                 null,font,body && !speakerDraw && drawScale>0?drawScale:1f,body || speakerDraw?null:smallFont,
@@ -254,15 +263,17 @@ namespace Kibukawa.Engine.Gmode20050817Direct
         protected static bool BeforeMenuLength(string __0,ref int __result)
         {
             if(!ready || !menuMeasure || __0==null)return true;
-            int units=0;
-            foreach(char c in __0)
+            int end=__0.IndexOf('\0');if(end<0)end=__0.Length;
+            if(scenarioPage)
             {
-                if(c=='\0')break;
-                // The subtitle uses the 12px atlas: fullwidth Latin and digits
-                // display as 6px glyphs. Measure those visible glyphs, otherwise
-                // PaintSentaku's right edge drifts with the number of digits.
-                char display=scenarioPage && (c>='０' && c<='９' || c>='Ａ' && c<='Ｚ' || c>='ａ' && c<='ｚ') ? (char)(c-0xfee0) : c;
-                units+=(display>=' ' && display<='~' || display>='\uff61' && display<='\uff9f')?1:2;
+                __result=DirectTextLayout.MeasureNative(__0,0,end)/6;
+                return false;
+            }
+            int units=0;
+            for(int i=0;i<end;i++)
+            {
+                char c=__0[i];
+                units+=(c>=' ' && c<='~' || c>='\uff61' && c<='\uff9f')?1:2;
             }
             __result=units;
             return false;

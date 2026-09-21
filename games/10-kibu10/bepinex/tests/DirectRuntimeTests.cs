@@ -195,10 +195,10 @@ public class DirectHarness : DirectCanvasRuntime
   Check(!BeforeMenuLength("古怪的侦探［７月10日］",ref length)&&length==22,"Scenario subtitle must use actual native cells for right alignment");
   RestoreMenuMeasure(measureState);
   ScenarioPageState subtitleState;BeforeScenarioPage(out subtitleState);
-  Check(!BeforeMenuLength("动机［７月９日］",ref length)&&length==14,"First subtitle measures displayed halfwidth date glyphs");
-  int firstEnd=242-length*6+(2*12+12+6+12+6+12+12);
-  Check(!BeforeMenuLength("古怪的侦探［７月１０日］",ref length)&&length==21,"Second subtitle measures all three displayed halfwidth date glyphs");
-  int secondEnd=242-length*6+(5*12+12+6+12+2*6+12+12);
+  Check(!BeforeMenuLength("动机［７月９日］",ref length)&&length==17,"First subtitle measures all Han-digit half-cell gaps");
+  int firstEnd=242-length*6+DirectTextLayout.MeasureNative("动机［７月９日］",0,8);
+  Check(!BeforeMenuLength("古怪的侦探［７月１０日］",ref length)&&length==24,"Second subtitle measures all Han-digit half-cell gaps");
+  int secondEnd=242-length*6+DirectTextLayout.MeasureNative("古怪的侦探［７月１０日］",0,12);
   Check(firstEnd==secondEnd && firstEnd==242,"Both subtitle cells must have the same visible right edge");
   RestoreScenarioPage(subtitleState);
   Check(BeforeMenuLength("中文",ref length),"Menu finalizer must restore native script byte measurements");
@@ -229,8 +229,15 @@ public class DirectHarness : DirectCanvasRuntime
   int clicks=0;foreach(var plane in c.bg_itigyougun_control)if(plane!=null)foreach(var controlByte in plane)if(controlByte==59)clicks++;
   Check(clicks==0,"Full-screen reflow must not introduce any automatic click");
   ScenarioPageState pageState;BeforeScenarioPage(out pageState);
-  BeforeDraw(new DirectGraphicsStub(),"动机［７月９日］".ToCharArray(),120,238);
+  Kibu1ZhCN.LegacyFontRenderer.DrawXs.Clear();
+  string footer="动机［７月９日］";
+  int footerX=242-DirectTextLayout.MeasureNative(footer,0,footer.Length);
+  Check(!BeforeDraw(new DirectGraphicsStub(),footer.ToCharArray(),footerX,238),"Scenario footer must own per-glyph placement");
   Check(Kibu1ZhCN.LegacyFontRenderer.Y==236,"Scenario footer ink must be centered inside 224..240");
+  var footerXs=Kibu1ZhCN.LegacyFontRenderer.DrawXs;
+  Check(footerXs.Count==8 && footerXs[3]==footerX+36 && footerXs[4]==footerX+48 && footerXs[5]==footerX+66 && footerXs[6]==footerX+78,
+    "Footer drawing must insert one native half-cell on both sides of Han-digit boundaries");
+  Check(footerXs[7]==230,"Footer brackets must keep the original right inset after spacing");
   BeforeDraw(new DirectGraphicsStub(),new[]{'１'},20,40);
   Check(Kibu1ZhCN.LegacyFontRenderer.Y==40,"Other scenario rows retain their baseline");
   RestoreScenarioPage(pageState);

@@ -34,7 +34,7 @@ namespace UnityEngine {
 }
 namespace Kibu1ZhCN {
  public class BitmapFontAtlas { public BitmapFontAtlas(string p) {} public int GlyphCount; public bool TryGetForDisplay(char c,out UnityEngine.CharacterInfo info) { info=new UnityEngine.CharacterInfo { minY=-2,maxY=10 }; return true; } public void Dispose() {} }
- public static class LegacyFontRenderer { public static BitmapFontAtlas Small,Primary; public static int X,Y; public static float Scale; public static float? Top; public static bool Draw(object o,char[] c,int x,int y,object a,BitmapFontAtlas f,float s,BitmapFontAtlas small=null,float? top=null) { X=x;Y=y;Scale=s;Top=top;Small=small;Primary=f;return false; } }
+ public static class LegacyFontRenderer { public static BitmapFontAtlas Small,Primary; public static int X,Y; public static readonly System.Collections.Generic.List<int> DrawXs=new System.Collections.Generic.List<int>(); public static float Scale; public static float? Top; public static bool Draw(object o,char[] c,int x,int y,object a,BitmapFontAtlas f,float s,BitmapFontAtlas small=null,float? top=null) { X=x;Y=y;DrawXs.Add(x);Scale=s;Top=top;Small=small;Primary=f;return false; } }
 }
 namespace Kibu8ZhCN {
  public static class UiLocalization { public static void Initialize(Action<string> a) {} public static void RegisterDisplayTranslation(string a,string b) {} public static void Update() {} public static void Dispose() {} public static UnityEngine.Font GetChineseFont() { return null; } }

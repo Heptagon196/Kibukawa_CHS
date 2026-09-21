@@ -6,6 +6,7 @@ $stubs=Get-Content -Raw (Join-Path $series 'games/08-kibu8/bepinex/tests/Runtime
 $stubs=$stubs.Replace('public int GlyphCount;', 'public int GlyphCount; public bool TryGetForDisplay(char c,out UnityEngine.CharacterInfo info) { info=new UnityEngine.CharacterInfo { minY=-2,maxY=10 }; return true; }')
 $stubs+="`nnamespace UnityEngine { public struct CharacterInfo { public int minY,maxY; } }"
 $stubs=$stubs.Replace('public static BitmapFontAtlas Small;', 'public static BitmapFontAtlas Small,Primary;').Replace('Small=small;', 'Small=small;Primary=f;')
+$stubs=$stubs.Replace('public static int X,Y;', 'public static int X,Y; public static readonly System.Collections.Generic.List<int> DrawXs=new System.Collections.Generic.List<int>();').Replace('X=x;Y=y;', 'X=x;Y=y;DrawXs.Add(x);')
 $stubs=$stubs.Replace('public void Patch(MethodBase a,HarmonyMethod b,HarmonyMethod c,object d,HarmonyMethod e,object f=null)', 'public void Patch(MethodBase a,HarmonyMethod prefix=null,HarmonyMethod postfix=null,object transpiler=null,HarmonyMethod finalizer=null,object f=null)')
 $stubs=$stubs.Replace('public void UnpatchSelf() {}', 'public void UnpatchSelf() {} public void Unpatch(MethodBase original,MethodInfo patch) {}')
 $stubs+="`nnamespace Kibukawa.Engine.Gmode20050817Direct { internal static class DirectChoiceMemory { internal static void Install(HarmonyLib.Harmony h,System.Type t) {} } }"
