@@ -258,7 +258,11 @@ namespace Kibukawa.Engine.Gmode20050817Direct
             foreach(char c in __0)
             {
                 if(c=='\0')break;
-                units+=(c>=' ' && c<='~' || c>='\uff61' && c<='\uff9f')?1:2;
+                // The subtitle uses the 12px atlas: fullwidth Latin and digits
+                // display as 6px glyphs. Measure those visible glyphs, otherwise
+                // PaintSentaku's right edge drifts with the number of digits.
+                char display=scenarioPage && (c>='０' && c<='９' || c>='Ａ' && c<='Ｚ' || c>='ａ' && c<='ｚ') ? (char)(c-0xfee0) : c;
+                units+=(display>=' ' && display<='~' || display>='\uff61' && display<='\uff9f')?1:2;
             }
             __result=units;
             return false;

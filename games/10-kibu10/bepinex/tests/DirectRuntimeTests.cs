@@ -181,6 +181,13 @@ public class DirectHarness : DirectCanvasRuntime
   Check(!BeforeMenuLength("ＡAｱ中",ref length)&&length==6,"Mixed native fullwidth and halfwidth widths");
   Check(!BeforeMenuLength("古怪的侦探［７月10日］",ref length)&&length==22,"Scenario subtitle must use actual native cells for right alignment");
   RestoreMenuMeasure(measureState);
+  ScenarioPageState subtitleState;BeforeScenarioPage(out subtitleState);
+  Check(!BeforeMenuLength("动机［７月９日］",ref length)&&length==14,"First subtitle measures displayed halfwidth date glyphs");
+  int firstEnd=242-length*6+(2*12+12+6+12+6+12+12);
+  Check(!BeforeMenuLength("古怪的侦探［７月１０日］",ref length)&&length==21,"Second subtitle measures all three displayed halfwidth date glyphs");
+  int secondEnd=242-length*6+(5*12+12+6+12+2*6+12+12);
+  Check(firstEnd==secondEnd && firstEnd==242,"Both subtitle cells must have the same visible right edge");
+  RestoreScenarioPage(subtitleState);
   Check(BeforeMenuLength("中文",ref length),"Menu finalizer must restore native script byte measurements");
   c.bg_itigyougun_mojiretu[0]="中文ABC测试";c.BunsyouGun_gyousuu=1;c.MojiHani_yoko=3;
   x=0;FitDirectText(c,2,0,false,ref x);Check(x==53,"Runtime placement must include exactly one dialogue half-cell before Latin text");
