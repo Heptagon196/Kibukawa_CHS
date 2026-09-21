@@ -64295,7 +64295,7 @@
         {
           "text_index": 2918,
           "source_text": "目的は、話に聞いた探偵事務所を訪れるためなのだが…",
-          "translated_text": "为的是拜访听说过的侦探事务所，不过……",
+          "translated_text": "我来拜访听说过的侦探事务所，可该往哪儿走呢……",
           "translation_status": 1,
           "model": "Codex parallel translation and review",
           "extra": {
@@ -64310,14 +64310,14 @@
               "argument": 0
             },
             "tagged_source": "<color=0>目的は、話に聞いた</color><row/><color=2>探偵事務所</color><color=0>を訪れるため</color><row/><color=0>なのだが…</color><ctrl=2E/>",
-            "tagged_target": "<color=0>为的是拜访听说过的</color><row/><color=2>侦探事务所</color><color=0>，</color><row/><color=0>不过……</color><ctrl=2E/>",
+            "tagged_target": "<color=0>我来拜访听说过的</color><row/><color=2>侦探事务所</color><color=0>，</color><row/><color=0>可该往哪儿走呢……</color><ctrl=2E/>",
             "active": true
           }
         },
         {
           "text_index": 2919,
           "source_text": "…さて、と。",
-          "translated_text": "……那么。",
+          "translated_text": "……先看看情况吧。",
           "translation_status": 1,
           "model": "Codex parallel translation and review",
           "extra": {
@@ -64332,7 +64332,7 @@
               "argument": 0
             },
             "tagged_source": "<color=0>…さて、と。</color><ctrl=2E/>",
-            "tagged_target": "<color=0>……那么。</color><ctrl=2E/>",
+            "tagged_target": "<color=0>……先看看情况吧。</color><ctrl=2E/>",
             "active": true
           }
         },
@@ -261837,7 +261837,7 @@
     "authoritative_draft": "work/dialogue-tagged.json",
     "translation_stage": "reviewed",
     "semantic_release_review_complete": true,
-    "reviewed_dialogue_sha256": "7d0585be9490257271bcecbef19fd2910dd0e888d9a1f37701d38903bcd31787",
+    "reviewed_dialogue_sha256": "83dbfa5e3cf5b787d623a31810f22a5fb40d417d1309cdfa4bce56b337cf1058",
     "click_review_sha256": "ad3cde2a771ed42ea794e564309340bd394c425c99713ebfa0b345896a369190",
     "color_review_sha256": "f84f25b108c9bc5df01f7a9a89cf06bd0dfeeadc4fc581b16c022d7e4eb1ef51",
     "quality_gate_sha256": "1865fa6958a37189450b57f426a1d398e1f58b07a7b37ad8d999ae0c833f0ae9"

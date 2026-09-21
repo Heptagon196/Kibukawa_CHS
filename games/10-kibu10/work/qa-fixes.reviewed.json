@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "adapter": "gmode-20050817-direct",
-  "reviewer": "root integration after independent semantic, punctuation, color, conflict and native INFO layout review; file/help:2222 control wording explicitly reviewed by user",
-  "dialogue_sha256": "7d0585be9490257271bcecbef19fd2910dd0e888d9a1f37701d38903bcd31787",
+  "reviewer": "root integration after independent semantic, punctuation, color, conflict and native INFO layout review; file/help:2222 control wording and scene-s10 transition explicitly reviewed after user feedback",
+  "dialogue_sha256": "83dbfa5e3cf5b787d623a31810f22a5fb40d417d1309cdfa4bce56b337cf1058",
   "integration_review": "work/fixes/integration-review.json",
   "integration_review_sha256": "21d82e9f17fba11bd009a2e999fb1352f5542249e29180a97301debfc1233d58",
   "info_layout_units": [
@@ -1332,6 +1332,67 @@
         {
           "id": "scratch4.dat/s07:9268",
           "token": 17,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s10:453:token21",
+      "sha256": "1f656b13421c5139e9a004ac982a8d969b3aeb7ad67f03881fc33e9687c93d6d",
+      "script": "scratch4.dat/s10",
+      "boundary": "453:token21",
+      "spans": [
+        {
+          "id": "scratch4.dat/s10:453",
+          "token": 2,
+          "color": 0,
+          "source": "目的は、話に聞いた",
+          "target": "我来拜访听说过的"
+        },
+        {
+          "id": "scratch4.dat/s10:453",
+          "token": 8,
+          "color": 2,
+          "source": "探偵事務所",
+          "target": "侦探事务所"
+        },
+        {
+          "id": "scratch4.dat/s10:453",
+          "token": 12,
+          "color": 0,
+          "source": "を訪れるため",
+          "target": "，"
+        },
+        {
+          "id": "scratch4.dat/s10:453",
+          "token": 18,
+          "color": 0,
+          "source": "なのだが…",
+          "target": "可该往哪儿走呢……"
+        },
+        {
+          "id": "scratch4.dat/s10:453",
+          "token": 21,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s10:587:token5",
+      "sha256": "0043b74061b4c2d91b3a7b27ce3631dde98773185fe4e365438ab7f9dd656c2b",
+      "script": "scratch4.dat/s10",
+      "boundary": "587:token5",
+      "spans": [
+        {
+          "id": "scratch4.dat/s10:587",
+          "token": 2,
+          "color": 0,
+          "source": "…さて、と。",
+          "target": "……先看看情况吧。"
+        },
+        {
+          "id": "scratch4.dat/s10:587",
+          "token": 5,
           "control": "<ctrl=2E/>"
         }
       ]

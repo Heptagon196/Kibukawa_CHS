@@ -143,6 +143,10 @@ public class DirectHarness : DirectCanvasRuntime
   g.Drawn="";g.Xs.Clear();infoRows["原文"]=new RuntimeRow{SourceText="原文",Text="中　Ａ　文",Colors=new byte[]{0,0,0,0,0},Controls=new byte[5]};
   Check(!Kibu10ZhCN.Plugin.DrawKibu10Info(c,g) && g.Xs.Count==5 && g.Xs[0]==196 && g.Xs[1]==208 && g.Xs[2]==214 && g.Xs[3]==220 && g.Xs[4]==226,"INFO Han-Latin boundaries must use the same symmetric native half-cell gap");
   Check(Kibu10ZhCN.Plugin.NativeInfoWidth('Ａ')==12 && Kibu10ZhCN.Plugin.NativeInfoWidth('ｱ')==6 && Kibu10ZhCN.Plugin.NativeInfoWidth('?')==6 && Kibu10ZhCN.Plugin.NativeInfoWidth('　')==12,"Kibu10 INFO width classification must match native cells, including full-width spaces");
+  string edgeInfo="石上雅人"+new string('　',5)+"7 月 10 日　鞠滨台站前";
+  Check(DirectTextLayout.MeasureNative(edgeInfo,0,edgeInfo.Length)==240,"Edge INFO fixture must reproduce the full-width top bar");
+  g.Drawn="";g.Xs.Clear();infoRows["原文"]=new RuntimeRow{SourceText="原文",Text=edgeInfo,Colors=new byte[edgeInfo.Length],Controls=new byte[edgeInfo.Length]};
+  Check(!Kibu10ZhCN.Plugin.DrawKibu10Info(c,g) && g.Xs[0]>=8,"Full-width INFO must keep the left name inside the top bar");
   var read=new ReadState{Display=new DisplayTranslation{Opcode=255,Rows=new[]{row}}};
   DirectLexicon.Masks[row.Text]="0000";
   AfterDirectDialogue(c,read);

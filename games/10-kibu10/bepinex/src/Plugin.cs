@@ -16,7 +16,7 @@ using Kibukawa.Engine.Gmode20050817Direct;
 
 namespace Kibu10ZhCN
 {
-    [BepInPlugin("local.kibu10.zhcn", "Kibu10 Simplified Chinese", "0.1.27")]
+    [BepInPlugin("local.kibu10.zhcn", "Kibu10 Simplified Chinese", "0.1.28")]
     [BepInProcess("kibu10.exe")]
     public sealed class Plugin : DirectCanvasRuntime
     {
@@ -121,6 +121,12 @@ namespace Kibu10ZhCN
 
             int width = DirectTextLayout.MeasureNative(row.Text, 0, row.Text.Length);
             int x = 238 - width;
+            // The native right edge is 238, so a 240px INFO row starts at -2.
+            // Borrow only the pixels needed from its authored name/date spacer;
+            // this leaves the date and location at their original positions.
+            int padding = x < 8 ? row.Text.IndexOf('　') : -1;
+            int paddingTrim = padding > 0 ? Math.Min(12, 8 - x) : 0;
+            x += paddingTrim;
             int[] palette = (int[])F("ColorTable").GetValue(__instance);
             MethodInfo color = AccessTools.Method(canvasType, "SetColor");
             MethodInfo draw = AccessTools.Method(__0.GetType(), "DrawString", new[] { typeof(string), typeof(int), typeof(int) });
@@ -140,7 +146,8 @@ namespace Kibu10ZhCN
                 for (int i = 0; i < row.Text.Length; i++)
                 {
                     color.Invoke(__instance, new object[] { __0, palette[row.Colors[i]] });
-                    draw.Invoke(__0, new object[] { row.Text[i].ToString(), x + DirectTextLayout.PositionNative(row.Text, i), layout.InfoBaseline });
+                    int position = x + DirectTextLayout.PositionNative(row.Text, i) - (i > padding ? paddingTrim : 0);
+                    draw.Invoke(__0, new object[] { row.Text[i].ToString(), position, layout.InfoBaseline });
                 }
             }
             finally
