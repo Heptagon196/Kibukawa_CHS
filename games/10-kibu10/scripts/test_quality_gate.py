@@ -21,6 +21,19 @@ class QualityGateTests(unittest.TestCase):
         self.assertEqual('passed', report['status'])
         self.assertEqual([], report['findings'])
 
+    def test_left_choice_width_is_limited_to_seven_chinese_cells(self):
+        allowed = unit('七文字', '甲乙丙丁戊己庚', 'choice:1')
+        allowed['kind'] = 'choice'
+        too_wide = unit('八文字', '甲乙丙丁戊己庚辛', 'choice:2')
+        too_wide['kind'] = 'choice'
+        mixed = unit('日付', '从9月30日开始', 'choice:3')
+        mixed['kind'] = 'choice'
+        with patch.object(gate, 'ELLIPSIS', {}), patch.object(gate, 'COLOR_PUNCTUATION', {}):
+            report = gate.inspect_document(document(allowed, too_wide, mixed))
+        self.assertEqual({'choice:2', 'choice:3'},
+                         {finding['id'] for finding in report['findings'] if finding['rule'] == 'choice_width'})
+        self.assertEqual(84, gate.native_choice_width(allowed['target']))
+
     def test_empty_source_row_translation_is_rejected(self):
         value = unit('<color=0>第一行</color><row/><color=0>第二行</color>',
                      '<color=0>第一行</color><row/><color=0></color><ctrl=2E/>')

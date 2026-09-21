@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Reflection;
+using System.Reflection.Emit;
 using System.Runtime.CompilerServices;
 using HarmonyLib;
 using Kibukawa8.Runtime;
@@ -29,6 +30,10 @@ namespace Kibukawa.Engine.Gmode20050817Direct
         {
             harmony = new Harmony(owner);
             DirectChoiceMemory.Install(harmony, canvasType);
+            // The native left-side choice band spans twelve halfwidth cells.
+            // Seven Chinese cells need fourteen; leave one more half-cell inset.
+            harmony.Patch(AccessTools.Method(canvasType,"PaintCommand"),
+                transpiler:new HarmonyMethod(typeof(DirectCanvasRuntime),"ExtendLeftChoiceBand"));
             // Retain native font sizes, spacing and alignment modes for choices.
             // Only their CP932-based width count needs a Unicode-safe equivalent.
             harmony.Patch(AccessTools.Method(canvasType,"PaintLongCommand"),prefix:new HarmonyMethod(typeof(DirectCanvasRuntime),"BeforeMenuMeasure"),finalizer:new HarmonyMethod(typeof(DirectCanvasRuntime),"RestoreMenuMeasure"));
@@ -191,6 +196,22 @@ namespace Kibukawa.Engine.Gmode20050817Direct
             double start=align==0?10+(220-maximum)/2.0:align==3?10:align==2?230-width:(240-width)/2.0;
             x=(int)Math.Round(start+VisiblePosition(canvas,row,text,slot),MidpointRounding.AwayFromZero);
             drawScale=1f;
+        }
+        internal static IEnumerable<CodeInstruction> ExtendLeftChoiceBand(IEnumerable<CodeInstruction> instructions)
+        {
+            var code=new List<CodeInstruction>(instructions);
+            int changed=0;
+            for(int i=0;i+2<code.Count;i++)
+            {
+                var field=code[i+1].operand as FieldInfo;
+                if(code[i].opcode!=OpCodes.Ldc_I4_S || Convert.ToInt32(code[i].operand)!=12 ||
+                   code[i+1].opcode!=OpCodes.Ldsfld || field==null || field.Name!="FWidth" ||
+                   code[i+2].opcode!=OpCodes.Mul)continue;
+                code[i].operand=(sbyte)15;
+                changed++;
+            }
+            if(changed!=1)throw new InvalidOperationException("Native left-choice band width changed: "+changed);
+            return code;
         }
         static int VisibleWidth(object canvas,int row,string text)
         {

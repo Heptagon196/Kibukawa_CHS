@@ -5,6 +5,7 @@ import html
 import re
 
 import pipeline as p
+from runtime_pack import fullwidth
 from quality_reviewed import COLOR_PUNCTUATION, ELLIPSIS
 
 TAG = re.compile(r'(<[^>]+>)')
@@ -13,6 +14,23 @@ SOURCE_QUOTES = set('「」『』“”‘’')
 TARGET_SINGLE_QUOTES = set('‘’')
 TERMINAL_PUNCTUATION = set('，。！？、')
 CJK = r'\u3400-\u9fff'
+CHOICE_MAX_WIDTH = 7 * 12
+
+
+def native_choice_width(value):
+    """Measure script choices in the game's 12px/6px menu grid."""
+    text = fullwidth(html.unescape(value))
+    def han(c): return '\u3400' <= c <= '\u9fff' or c == '〇'
+    def narrow(c): return '０' <= c <= '９' or 'Ａ' <= c <= 'Ｚ' or 'ａ' <= c <= 'ｚ'
+    width = 0
+    for index, char in enumerate(text):
+        if index and (han(text[index - 1]) and narrow(char) or narrow(text[index - 1]) and han(char)):
+            width += 6
+        mixed_blank = (char == '　' and 0 < index < len(text) - 1 and
+                       (han(text[index - 1]) and narrow(text[index + 1]) or
+                        narrow(text[index - 1]) and han(text[index + 1])))
+        width += 6 if narrow(char) or mixed_blank else 12
+    return width
 
 
 def plain(value):
@@ -51,6 +69,10 @@ def inspect_document(document):
     for unit in active:
         source_text = plain(unit['source'])
         target_text = plain(unit['target'])
+
+        if unit.get('kind') == 'choice' and native_choice_width(target_text) > CHOICE_MAX_WIDTH:
+            findings.append(issue(unit, 'choice_width', pixels=native_choice_width(target_text),
+                                  maximum=CHOICE_MAX_WIDTH))
 
         if not unit['target']:
             findings.append(issue(unit, 'missing_target'))

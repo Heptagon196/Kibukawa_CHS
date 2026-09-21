@@ -1,5 +1,7 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Reflection.Emit;
 using Kibukawa8.Runtime;
 using Kibukawa.Engine.Gmode20050817;
 using Kibukawa.Engine.Gmode20050817Direct;
@@ -31,6 +33,25 @@ public class DirectGraphicsStub
 public class DirectHarness : DirectCanvasRuntime
 {
  static void Check(bool v,string message){if(!v)throw new Exception(message);}
+ public static string CheckChoiceBand(string[] nativeIl)
+ {
+  var ops=typeof(OpCodes).GetFields().Where(f=>f.FieldType==typeof(OpCode)).Select(f=>(OpCode)f.GetValue(null)).ToDictionary(op=>op.Name);
+  var code=new List<HarmonyLib.CodeInstruction>();
+  foreach(string line in nativeIl)
+  {
+   int split=line.IndexOf(' ');string name=split<0?line:line.Substring(0,split),arg=split<0?"":line.Substring(split+1).Trim();
+   object operand=name=="ldsfld" && arg.EndsWith("::FWidth")
+    ? typeof(DirectCanvasStub).GetField("FWidth") : name=="ldc.i4.s" ? (object)(sbyte)Int32.Parse(arg) : arg;
+   code.Add(new HarmonyLib.CodeInstruction(ops[name],operand));
+  }
+  var result=ExtendLeftChoiceBand(code).ToList();int bands=0;
+  for(int i=0;i+2<result.Count;i++)
+   if(result[i].opcode==OpCodes.Ldc_I4_S && Convert.ToInt32(result[i].operand)==15 &&
+      result[i+1].opcode==OpCodes.Ldsfld && result[i+1].operand is System.Reflection.FieldInfo &&
+      result[i+2].opcode==OpCodes.Mul)bands++;
+  Check(result.Count==nativeIl.Length && bands==1,"Native PaintCommand must extend exactly one left-side selection band to fifteen half-cells");
+  return "PASS: native left-choice band is 15 half-cells (7.5 Chinese cells)";
+ }
  static RuntimeRow Row(string text,string source=null,byte terminal=0) {
   var row=new RuntimeRow{Text=text,SourceText=source??text,Colors=new byte[text.Length],Controls=new byte[text.Length],RubyJson="{}"};
   if(text.Length>0)row.Controls[text.Length-1]=terminal;return row;
