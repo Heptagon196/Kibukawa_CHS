@@ -11,7 +11,7 @@ public class DirectCanvasStub
  public bool NowRoll; public int Color; public int[] ColorTable={0,1,2,3,4};
  public int MojiHani_tate,MojiHani_yoko,PrintDanYoyaku,PrintDanKanryo=-1,PrintKetaYoyaku,PrintKetaKanryo=-1,PrintMojiKetaYoyaku,PrintMojiKetaKanryo=-1;public bool Resumed;
  public static int FWidth=6;
- public string info_struct_moji="原文";
+ public string info_struct_moji="原文"; public int info_struct_zenkaku_suu=2;
  public sbyte BunsyouGun_gyousuu,BunsyouGun_max_mojisuu;
  public string[] bg_itigyougun_mojiretu=new string[8];
  public sbyte[] bg_itigyougun_zenkakusuu=new sbyte[8],bg_itigyougun_rubisuu=new sbyte[8];
@@ -82,6 +82,13 @@ public class DirectHarness : DirectCanvasRuntime
   infoRows.Clear();infoRows.Add("原文",row);var g=new DirectGraphicsStub();
   Check(!DrawDirectInfo(c,g)&&g.Drawn=="中文A"&&!smallFontScope,"INFO must draw lone ASCII safely and restore font scope");
   Check(c.info_struct_moji=="原文" && c.Color==3,"INFO original text and palette");
+  g.Drawn="";c.info_struct_zenkaku_suu=0;
+  Check(!Kibu10ZhCN.Plugin.DrawKibu10Info(c,g) && g.Drawn=="","A cleared native INFO count must hide the stale title/reset header");
+  c.info_struct_zenkaku_suu=2;c.FrameTask=1;
+  Check(!Kibu10ZhCN.Plugin.DrawKibu10Info(c,g) && g.Drawn=="","Title page must hide the previous dialogue header");
+  c.FrameTask=2;c.MainTask=12;
+  Check(!Kibu10ZhCN.Plugin.DrawKibu10Info(c,g) && g.Drawn=="","Scenario selection must not repaint the previous dialogue header");
+  c.MainTask=0;
   g.Throw=true;try{DrawDirectInfo(c,g);}catch(System.Reflection.TargetInvocationException){}
   Check(!smallFontScope,"INFO exception must restore font scope");
   c.NowRoll=true;g.Throw=false;g.Drawn="";DrawDirectInfo(c,g);Check(g.Drawn=="","INFO visibility");

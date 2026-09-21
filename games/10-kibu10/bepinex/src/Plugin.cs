@@ -16,7 +16,7 @@ using Kibukawa.Engine.Gmode20050817Direct;
 
 namespace Kibu10ZhCN
 {
-    [BepInPlugin("local.kibu10.zhcn", "Kibu10 Simplified Chinese", "0.1.22")]
+    [BepInPlugin("local.kibu10.zhcn", "Kibu10 Simplified Chinese", "0.1.23")]
     [BepInProcess("kibu10.exe")]
     public sealed class Plugin : DirectCanvasRuntime
     {
@@ -108,7 +108,12 @@ namespace Kibu10ZhCN
             RuntimeRow row;
             string source = (string)F("info_struct_moji").GetValue(__instance);
             if (source == null || !infoRows.TryGetValue(source, out row)) return true;
-            if (Number(__instance, "FrameTask") != 2 || Number(__instance, "MainTask") == 11
+            // The native painter also requires a live INFO cell count. Title
+            // return and save initialization clear this count but retain the
+            // old string, so drawing by string alone leaks the previous header.
+            int task=Number(__instance, "MainTask");
+            if (Number(__instance, "FrameTask") != 2 || task == 11 || task == 12
+                || Number(__instance, "info_struct_zenkaku_suu") <= 0
                 || (bool)F("NowRoll").GetValue(__instance)) return false;
 
             int width = DirectTextLayout.MeasureNative(row.Text, 0, row.Text.Length);
