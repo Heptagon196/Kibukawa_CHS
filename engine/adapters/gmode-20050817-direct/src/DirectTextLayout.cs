@@ -60,6 +60,12 @@ namespace Kibukawa.Engine.Gmode20050817Direct
   }
   internal static RuntimeRow[] Wrap(RuntimeRow[] source,int width,int capacity,bool nativeGrid=false)
   {
+   HashSet<int> ignored;
+   return Wrap(source,width,capacity,nativeGrid,out ignored);
+  }
+  internal static RuntimeRow[] Wrap(RuntimeRow[] source,int width,int capacity,bool nativeGrid,out HashSet<int> suppressedLeadingBlanks)
+  {
+   suppressedLeadingBlanks=new HashSet<int>();
    if(source.Length==0)return source;
    var text=new StringBuilder();var colors=new List<byte>();var controls=new List<byte>();
    var hard=new HashSet<int>();var old=new HashSet<int>();
@@ -89,12 +95,15 @@ namespace Kibukawa.Engine.Gmode20050817Direct
    for(int r=1;r<=max;r++)for(int start=n-1;start>=0;start--)
    {
     int leadingGap=start>0 && Gap(value[start-1],value[start])?mixedGap:0;
-    for(int end=start+1;end<=n && pixels[end]-pixels[start]-leadingGap<=width;end++)
+    // A mixed-script spacer still belongs to its original character plane,
+    // but takes no room when a soft wrap puts it at the new row's start.
+    int leadingBlank=start>0 && !hard.Contains(start) && MixedBlank(value,start)?Advance(value,start,nativeGrid):0;
+    for(int end=start+1;end<=n && pixels[end]-pixels[start]-leadingGap-leadingBlank<=width;end++)
     {
      if(end>start+1 && hard.Contains(end-1))break;
      if(end<n && !hard.Contains(end) && (Close.IndexOf(value[end])>=0 || Open.IndexOf(value[end-1])>=0))continue;
      if(Double.IsPositiveInfinity(cost[end,r-1]))continue;
-     double spare=width-(pixels[end]-pixels[start]-leadingGap);
+     double spare=width-(pixels[end]-pixels[start]-leadingGap-leadingBlank);
      double penalty=2000+spare*spare/(nativeGrid?144.0:289.0)+(end<n && mask[end]=='1' && !hard.Contains(end)?1e12:0);
      double candidate=cost[end,r-1]+penalty;
      if(candidate<cost[start,r]){cost[start,r]=candidate;next[start,r]=end;}
@@ -108,6 +117,7 @@ namespace Kibukawa.Engine.Gmode20050817Direct
    while(pos<n)
    {
     int end=next[pos,remaining--],length=end-pos;
+    if(pos>0 && !hard.Contains(pos) && MixedBlank(value,pos))suppressedLeadingBlanks.Add(result.Count);
     var cs=colors.GetRange(pos,length).ToArray();var events=controls.GetRange(pos,length).ToArray();
     for(int i=0;i<events.Length;i++)if(events[i]==47)events[i]=0;
     if(slash && end<n && events[length-1]==0)events[length-1]=47;

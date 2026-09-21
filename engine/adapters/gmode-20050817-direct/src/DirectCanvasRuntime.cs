@@ -20,7 +20,7 @@ namespace Kibukawa.Engine.Gmode20050817Direct
         [ThreadStatic] private static bool scenarioPage;
         protected struct ScenarioPageState { internal bool Measure,Page; }
         protected struct DirectDrawState { internal float Scale; internal int BodyDepth; internal float? Top; }
-        sealed class Viewport { internal int Top; internal object Script; }
+        sealed class Viewport { internal int Top; internal object Script; internal HashSet<int> SuppressedLeadingBlanks=new HashSet<int>(); }
         static readonly ConditionalWeakTable<object,Viewport> viewports=new ConditionalWeakTable<object,Viewport>();
         protected static readonly HashSet<string> preserveDirectDialogueRows=new HashSet<string>(StringComparer.Ordinal);
         protected static string DirectDialogueKey(int offset,RuntimeRow[] rows)
@@ -68,6 +68,8 @@ namespace Kibukawa.Engine.Gmode20050817Direct
         protected static void AfterDirectDialogue(object __instance,ReadState __state)
         {
             var state=State(__instance);state.Dialogue=false;
+            var view=viewports.GetOrCreateValue(__instance);
+            view.SuppressedLeadingBlanks.Clear();
             if(__state==null)__state=RecoverDirectDialogue(__instance,state);
             if(__state==null)return;
             var original=__state.Display.Rows;
@@ -84,8 +86,9 @@ namespace Kibukawa.Engine.Gmode20050817Direct
             // structure. Keep their row count and control positions exactly as
             // parsed; the game entry point identifies them by verified offset and
             // source rows so unrelated displays at the same offset still reflow.
-            var rows=preserveDirectDialogueRows.Contains(DirectDialogueKey(__state.Display.Offset,original))
-                ? original : DirectTextLayout.Wrap(original,width,capacity);
+            RuntimeRow[] rows;
+            if(preserveDirectDialogueRows.Contains(DirectDialogueKey(__state.Display.Offset,original)))rows=original;
+            else rows=DirectTextLayout.Wrap(original,width,capacity,false,out view.SuppressedLeadingBlanks);
             int maximum=0;
             for(int i=0;i<rows.Length;i++){ApplyRow(__instance,rows[i],i,false,false);maximum=Math.Max(maximum,rows[i].Text.Length);}
             int end=Math.Max(rows.Length+1,((string[])F("bg_itigyougun_mojiretu").GetValue(__instance)).Length);
@@ -181,13 +184,24 @@ namespace Kibukawa.Engine.Gmode20050817Direct
             if(!state.Dialogue)return;
             var lines=(string[])F("bg_itigyougun_mojiretu").GetValue(canvas);
             string text=lines[row];int align=Number(canvas,"MojiHani_yoko");
-            int width=DirectTextLayout.Measure(text,0,text.Length),maximum=width;
+            int width=VisibleWidth(canvas,row,text),maximum=width;
             if(align==0)
                 for(int i=0;i<Number(canvas,"BunsyouGun_gyousuu");i++)
-                    if(lines[i]!=null)maximum=Math.Max(maximum,DirectTextLayout.Measure(lines[i],0,lines[i].Length));
+                    if(lines[i]!=null)maximum=Math.Max(maximum,VisibleWidth(canvas,i,lines[i]));
             double start=align==0?10+(220-maximum)/2.0:align==3?10:align==2?230-width:(240-width)/2.0;
-            x=(int)Math.Round(start+DirectTextLayout.Position(text,slot),MidpointRounding.AwayFromZero);
+            x=(int)Math.Round(start+VisiblePosition(canvas,row,text,slot),MidpointRounding.AwayFromZero);
             drawScale=1f;
+        }
+        static int VisibleWidth(object canvas,int row,string text)
+        {
+            int skip=viewports.GetOrCreateValue(canvas).SuppressedLeadingBlanks.Contains(row)?1:0;
+            return DirectTextLayout.Measure(text,skip,text.Length);
+        }
+        static int VisiblePosition(object canvas,int row,string text,int slot)
+        {
+            int offset=viewports.GetOrCreateValue(canvas).SuppressedLeadingBlanks.Contains(row)
+                ? DirectTextLayout.Position(text,1):0;
+            return Math.Max(0,DirectTextLayout.Position(text,slot)-offset);
         }
         protected static void FitDirectText(object canvas,int slot,int row,bool roll,ref int x)
         {
@@ -195,12 +209,12 @@ namespace Kibukawa.Engine.Gmode20050817Direct
             if(roll?!state.RollRows.Contains(row):!state.Dialogue)return;
             var lines=(string[])F(roll?"rollitigyougun_mojiretu":"bg_itigyougun_mojiretu").GetValue(canvas);
             string text=lines[row];int align=roll?1:Number(canvas,"MojiHani_yoko");
-            int width=DirectTextLayout.Measure(text,0,text.Length),maximum=width;
+            int width=roll?DirectTextLayout.Measure(text,0,text.Length):VisibleWidth(canvas,row,text),maximum=width;
             if(!roll && align==0)
                 for(int i=0;i<Number(canvas,"BunsyouGun_gyousuu");i++)
-                    if(lines[i]!=null)maximum=Math.Max(maximum,DirectTextLayout.Measure(lines[i],0,lines[i].Length));
+                    if(lines[i]!=null)maximum=Math.Max(maximum,VisibleWidth(canvas,i,lines[i]));
             double start=align==0?10+(204-maximum)/2.0:align==3?10:align==2?230-width:(240-width)/2.0;
-            x=(int)Math.Round(start+DirectTextLayout.Position(text,slot),MidpointRounding.AwayFromZero);
+            x=(int)Math.Round(start+(roll?DirectTextLayout.Position(text,slot):VisiblePosition(canvas,row,text,slot)),MidpointRounding.AwayFromZero);
             drawScale=1f;
         }
         protected static void RestoreDirectScale(DirectDrawState __state)

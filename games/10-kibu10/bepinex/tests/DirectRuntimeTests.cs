@@ -43,6 +43,18 @@ public class DirectHarness : DirectCanvasRuntime
   Check(DirectTextLayout.Measure("键盘　Ｅ　键",0,6)==78 && DirectTextLayout.Position("键盘　Ｅ　键",3)==43 && DirectTextLayout.Position("键盘　Ｅ　键",5)==61,"Authored spaces at dialogue Han-Latin boundaries must occupy one half-cell gap");
   Check(DirectTextLayout.MeasureNative("键盘　Ｅ　键",0,6)==54 && DirectTextLayout.PositionNative("键盘　Ｅ　键",3)==30 && DirectTextLayout.PositionNative("键盘　Ｅ　键",5)==42,"Full-screen Han-Latin boundaries must use one symmetric native half-cell gap");
   var source=new[]{Row("调查工藤"),Row("贵树的证词",terminal:46)};
+  var checkRows=new[]{Row("２１　世纪是从　２００１　年开始的，","21世紀は2001年からなの"),Row("所以明年才是世纪末。”","で世紀末は来年ですよ。",terminal:46)};
+  Segment(checkRows);System.Collections.Generic.HashSet<int> suppressed;
+  var checkWrap=DirectTextLayout.Wrap(checkRows,204,4,false,out suppressed);
+  Check(String.Join("",Array.ConvertAll(checkWrap,r=>r.Text))=="２１　世纪是从　２００１　年开始的，所以明年才是世纪末。”",
+    "Reflow must retain every number-Han spacer and the original sentence");
+  for(int i=1;i<checkWrap.Length;i++)
+   Check(checkWrap[i].Text[0]!='　' || suppressed.Contains(i),
+    "A mixed-script spacer moved to the start of a soft row must have no visible indentation");
+  var boundary=new[]{Row("２１　年","21年",terminal:46)};Segment(boundary);
+  var boundaryWrap=DirectTextLayout.Wrap(boundary,18,2,false,out suppressed);
+  Check(boundaryWrap.Length==2 && boundaryWrap[1].Text=="　年" && suppressed.Contains(1),
+    "A soft row beginning with a retained number-Han spacer must suppress only its visual advance");
   var mask=new char[10];for(int i=0;i<mask.Length;i++)mask[i]='0';for(int i=3;i<6;i++)mask[i]='1';Segment(source,new string(mask));
   var result=DirectTextLayout.Wrap(source,68,4);
   Check(Array.Exists(result,r=>r.Text.Contains("工藤贵树")),"Names across old soft rows must remain intact");
@@ -205,7 +217,15 @@ public class DirectHarness : DirectCanvasRuntime
   c.bg_itigyougun_mojiretu[0]="中文ABC测试";c.BunsyouGun_gyousuu=1;c.MojiHani_yoko=3;
   x=0;FitDirectText(c,2,0,false,ref x);Check(x==53,"Runtime placement must include exactly one dialogue half-cell before Latin text");
   x=0;FitDirectText(c,5,0,false,ref x);Check(x==89,"The dialogue half-cell after an English word must match the layout width");
-  c.MojiHani_tate=2;
+  var edge=new[]{Row("甲乙丙丁戊己庚辛壬癸２１　年","甲乙丙丁戊己庚辛壬癸21年",terminal:46)};
+  var edgeMask=new char[edge[0].Text.Length];for(int i=0;i<edgeMask.Length;i++)edgeMask[i]='1';edgeMask[12]='0';Segment(edge,new string(edgeMask));
+  AfterDirectDialogue(c,new ReadState{Display=new DisplayTranslation{Rows=edge}});
+  Check(c.BunsyouGun_gyousuu==2 && c.bg_itigyougun_mojiretu[1]=="　年",
+    "Direct dialogue must retain the mixed spacer in its text plane after a soft wrap");
+  x=0;FitDirectText(c,1,1,false,ref x);
+  Check(x==10,"The first visible Han after a soft-wrapped mixed spacer must start at the normal left edge");
+  c.MojiHani_tate=2;x=0;y=91;BeforeDirectDraw(c,1,1,ref x,ref y,out scale);RestoreDirectScale(scale);
+  Check(x==10,"Full-screen body must suppress the same soft-wrapped leading spacer");
   // Check the atlas chosen during the actual DrawAdvString scope, not just widths.
   c.bg_itigyougun_mojiretu[0]="中文";c.BunsyouGun_gyousuu=1;
   x=0;y=91;BeforeDirectDraw(c,0,0,ref x,ref y,out scale);
