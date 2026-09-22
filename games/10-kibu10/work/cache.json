@@ -47671,7 +47671,7 @@
         {
           "text_index": 2164,
           "source_text": "私も勧められたが、なんとなく遠慮してしまった…。",
-          "translated_text": "他也劝我去洗，但不知为什么，我还是谢绝了……",
+          "translated_text": "他也招呼我去洗个澡，不过我总觉得有些不好意思，便婉拒了……",
           "translation_status": 1,
           "model": "Codex parallel translation and review",
           "extra": {
@@ -47686,7 +47686,7 @@
               "argument": 0
             },
             "tagged_source": "<color=0>私も勧められたが、</color><row/><color=0>なんとなく遠慮して</color><row/><color=0>しまった…。</color><ctrl=2E/>",
-            "tagged_target": "<color=0>他也劝我去洗，</color><row/><color=0>但不知为什么，</color><row/><color=0>我还是谢绝了……</color><ctrl=2E/>",
+            "tagged_target": "<color=0>他也招呼我去洗个澡，</color><row/><color=0>不过我总觉得有些不好意思，</color><row/><color=0>便婉拒了……</color><ctrl=2E/>",
             "active": true
           }
         },
@@ -261837,7 +261837,7 @@
     "authoritative_draft": "work/dialogue-tagged.json",
     "translation_stage": "reviewed",
     "semantic_release_review_complete": true,
-    "reviewed_dialogue_sha256": "c4a235a929ae0ccbad857dd01c7e40c13bbf65ff7a5a0260e6893a1cdfd1482e",
+    "reviewed_dialogue_sha256": "5f0f64e06cbab97945e1c2aa3c6be41dcf667056c7bbc15cf43a7443753404f2",
     "click_review_sha256": "ad3cde2a771ed42ea794e564309340bd394c425c99713ebfa0b345896a369190",
     "color_review_sha256": "f84f25b108c9bc5df01f7a9a89cf06bd0dfeeadc4fc581b16c022d7e4eb1ef51",
     "quality_gate_sha256": "9b045ca48cfae9958fa2c0c9a7eaf20cbfdbf9618a22a84e386d429d1032179b"

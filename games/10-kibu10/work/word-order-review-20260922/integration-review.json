@@ -3,7 +3,7 @@
   "scope": "全篇原译文语序及施受关系复核；原文、上下文、高亮语义与控制顺序联合检查。",
   "reviewer": "root integration after ten disjoint proposal reviews",
   "input_document_sha256": "ddcd0a9bafa290fae8da03a73b21d7143dbabfe8c6d1d001a74b85438f0fbdf6",
-  "output_document_sha256": "256ba8351cb33c77605c1c065c507443a96eab9e0756d9ff7664047b58fbaccb",
+  "output_document_sha256": "c3388bac1d31ffec038a3a72c954e4627a827a0eb1027aba1c0103c58fba7579",
   "reviewed_ids": [
     "scratch4.dat/s02:53:arg0",
     "scratch4.dat/s02:65:arg0",
@@ -11560,6 +11560,15 @@
       "target": "<color=2>“Yaatari</color><color=0>！”（译注：‘当’可读 tou 或 atari，故可能被误读。）</color><ctrl=2E/>",
       "reason": "用户要求正文首次纠正读音的译注同步为已确认的tou/atari解释，保持高亮与点击控制。",
       "proposal_file": "yaatari-story-note-review-20260923.json",
+      "decision": "approved"
+    },
+    {
+      "id": "scratch4.dat/s04:38785",
+      "source": "<color=0>私も勧められたが、</color><row/><color=0>なんとなく遠慮して</color><row/><color=0>しまった…。</color><ctrl=2E/>",
+      "old_target": "<color=0>他也劝我去洗，</color><row/><color=0>但不知为什么，</color><row/><color=0>我还是谢绝了……</color><ctrl=2E/>",
+      "target": "<color=0>他也招呼我去洗个澡，</color><row/><color=0>不过我总觉得有些不好意思，</color><row/><color=0>便婉拒了……</color><ctrl=2E/>",
+      "reason": "用户明确指定邀请洗澡与不好意思而婉拒的中文措辞。",
+      "proposal_file": "bath-invitation-review-20260923.json",
       "decision": "approved"
     }
   ],
