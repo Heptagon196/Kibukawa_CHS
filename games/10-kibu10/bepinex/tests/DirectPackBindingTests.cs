@@ -83,7 +83,7 @@ public static class DirectPackBindingTests
       var variant=DirectTextLayout.Wrap(display.Rows,availableWidth,capacity);
       if(variant.Length>Math.Max(display.Rows.Length,capacity) || Planes(variant)!=Planes(display.Rows))throw new Exception("Layout variant violated text/event planes or row reservation");
       if(capacity==5)foreach(var line in variant)
-       if(DirectTextLayout.Measure(line.Text,0,line.Text.Length)>availableWidth)throw new Exception("Five-row layout overflow at "+display.Offset);
+       if(DirectTextLayout.Measure(line.Text,0,line.Text.Length)>availableWidth)throw new Exception("Five-row layout overflow at "+display.Offset+": "+line.Text+" (width="+DirectTextLayout.Measure(line.Text,0,line.Text.Length)+", available="+availableWidth+")");
      }
      if(Object.ReferenceEquals(rows,display.Rows))retained++;else changed++;
      if(!Object.ReferenceEquals(rows,display.Rows))

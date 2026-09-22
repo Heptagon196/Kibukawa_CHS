@@ -15,8 +15,8 @@ import pipeline as p
 def digest(value):
     return hashlib.sha256(json.dumps(value,ensure_ascii=False,sort_keys=True,separators=(',',':')).encode()).hexdigest()
 
-def candidates():
-    doc=p.load(p.WORK/'work/dialogue-tagged.json')
+def candidates(document=None):
+    doc=p.load(p.WORK/'work/dialogue-tagged.json') if document is None else document
     table={(u['script'],u['instruction']):u for u in doc['units'] if u['active']}
     replay=p.load(p.WORK/'research/source-replay.json')['scripts']
     clicks,colors=[],[]
@@ -61,6 +61,11 @@ def check(strict=False):
     overlay_valid=bool(overlay and overlay.get('adapter')=='gmode-20050817-direct' and
         overlay.get('dialogue_sha256')==p.sha((p.WORK/'work/dialogue-tagged.json').read_bytes()) and
         overlay.get('integration_review_sha256')==p.sha((p.WORK/'work/fixes/integration-review.json').read_bytes()))
+    from word_order_review import MANIFEST, validate_review
+    if (p.WORK/MANIFEST).exists() or (overlay and overlay.get('word_order_review')):
+        proof, approved_delta = validate_review(current=current)
+        overlay_valid = overlay_valid and all(overlay.get(key) == value for key, value in proof.items())
+        overlay_valid = overlay_valid and all(overlay.get(kind) == rows for kind, rows in approved_delta.items())
     reports={}
     for kind,path in [('clicks','work/click_boundaries.reviewed.json'),('colors','research/color-spans.reviewed.json')]:
         baseline=p.WORK/path
