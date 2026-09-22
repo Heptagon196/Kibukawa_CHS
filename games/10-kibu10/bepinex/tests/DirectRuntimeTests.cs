@@ -217,10 +217,20 @@ public class DirectHarness : DirectCanvasRuntime
   RestoreDirectScale(scale);
   BeforeDraw(new DirectGraphicsStub(),new[]{'栏'},0,0);
   Check(Object.ReferenceEquals(Kibu1ZhCN.LegacyFontRenderer.Small,smallFont),"Body finalizer must restore native header font selection");
-  SpeakerDrawState speakerState;BeforeDirectSpeaker(c,0,ref y,out speakerState);
+  SpeakerDrawState speakerState;BeforeDirectSpeaker(c,ref x,ref y,out speakerState);
   BeforeDraw(new DirectGraphicsStub(),new[]{'名'},0,0);
   Check(Kibu1ZhCN.LegacyFontRenderer.Small==null,"Dialogue nameplate must use the 16px body font");
   Check(Kibu1ZhCN.LegacyFontRenderer.Top==135,"Name bitmap keeps five pixels above it");
+  RestoreDirectSpeaker(speakerState);
+  c.MojiHani_tate=0;c.MojiHani_yoko=0;c.NowNamae=0;
+  string mixedName="是　ＩＭＯＵＲＡ　ＳＵＭＩＫＡ　吗！”";
+  c.bg_itigyougun_mojiretu[0]=mixedName;c.BunsyouGun_gyousuu=1;
+  int speakerX=10+(220-mixedName.Length*16)/2,bodyX=0;
+  FitDirectText(c,0,0,false,ref bodyX);
+  BeforeDirectSpeaker(c,ref speakerX,ref y,out speakerState);
+  BeforeDraw(new DirectGraphicsStub(),"（癸生川）".ToCharArray(),speakerX,y);
+  Check(Kibu1ZhCN.LegacyFontRenderer.X==bodyX && speakerX>=10,
+    "Mixed Latin dialogue speaker is clipped or misaligned: speaker="+speakerX+" body="+bodyX);
   RestoreDirectSpeaker(speakerState);
   BeforeDraw(new DirectGraphicsStub(),new[]{'项'},0,0);
   Check(Object.ReferenceEquals(Kibu1ZhCN.LegacyFontRenderer.Small,smallFont),"Speaker finalizer must restore native font-size selection");

@@ -295,12 +295,19 @@ namespace Kibukawa.Engine.Gmode20050817Direct
                 null,font,body && !speakerDraw && drawScale>0?drawScale:1f,body || speakerDraw?null:smallFont,
                 (body || speakerDraw) && dialogueTop.HasValue?dialogueTop.Value+origin.y:(float?)null);
         }
-        protected static void BeforeDirectSpeaker(object __instance,int __1,ref int __2,out SpeakerDrawState __state)
+        protected static void BeforeDirectSpeaker(object __instance,ref int __1,ref int __2,out SpeakerDrawState __state)
         {
             __state=new SpeakerDrawState { Speaker=speakerDraw, Top=dialogueTop };
             dialogueTop=null;
             if(ready)speakerDraw=true;
-            if(ready && State(__instance).Dialogue && Number(__instance,"MojiHani_tate")==0) { __2=135; dialogueTop=135; }
+            if(ready && State(__instance).Dialogue && Number(__instance,"MojiHani_tate")==0)
+            {
+                // Native PaintADV_text positions the speaker from character count,
+                // treating every Latin slot as full width. Match the body origin
+                // after Unicode measurement and reflow instead.
+                FitDirectText(__instance,0,0,false,ref __1);
+                __2=135; dialogueTop=135;
+            }
         }
         protected static void RestoreDirectSpeaker(SpeakerDrawState __state) { speakerDraw=__state.Speaker; dialogueTop=__state.Top; }
         protected static void BeforeMenuMeasure(out bool __state) { __state=menuMeasure;menuMeasure=true; }
