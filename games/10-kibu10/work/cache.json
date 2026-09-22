@@ -212417,7 +212417,7 @@
         {
           "text_index": 9641,
           "source_text": "ヤトウではありません！矢当です！",
-          "translated_text": "不是 Yatou！是 Yaatari！”（译注：“矢当”的姓氏读音。）",
+          "translated_text": "不是 Yatou！是 Yaatari！”（译注：此人的姓“矢当”读 Yaatari，不读 Yatou。）",
           "translation_status": 1,
           "model": "Codex parallel translation and review",
           "extra": {
@@ -212432,7 +212432,7 @@
               "argument": 0
             },
             "tagged_source": "<color=0>ヤトウではありません！</color><row/><color=0>矢当です！</color><ctrl=2E/>",
-            "tagged_target": "<color=0>不是 Yatou！</color><row/><color=0>是 Yaatari！”（译注：“矢当”的姓氏读音。）</color><ctrl=2E/>",
+            "tagged_target": "<color=0>不是 Yatou！</color><row/><color=0>是 Yaatari！”（译注：此人的姓“矢当”读 Yaatari，不读 Yatou。）</color><ctrl=2E/>",
             "active": true
           }
         },
@@ -261837,7 +261837,7 @@
     "authoritative_draft": "work/dialogue-tagged.json",
     "translation_stage": "reviewed",
     "semantic_release_review_complete": true,
-    "reviewed_dialogue_sha256": "8181ab88a172807af727ba2bc164b57b2d63ae7f4c9d3af5eb68dab87a12d4b2",
+    "reviewed_dialogue_sha256": "5584b630b8f0eeb10a1f9bead68acb33268f16d7c3026b0a014b881190f43e23",
     "click_review_sha256": "ad3cde2a771ed42ea794e564309340bd394c425c99713ebfa0b345896a369190",
     "color_review_sha256": "f84f25b108c9bc5df01f7a9a89cf06bd0dfeeadc4fc581b16c022d7e4eb1ef51",
     "quality_gate_sha256": "9b045ca48cfae9958fa2c0c9a7eaf20cbfdbf9618a22a84e386d429d1032179b"

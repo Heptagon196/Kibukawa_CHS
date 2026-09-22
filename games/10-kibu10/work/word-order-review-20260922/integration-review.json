@@ -3,7 +3,7 @@
   "scope": "全篇原译文语序及施受关系复核；原文、上下文、高亮语义与控制顺序联合检查。",
   "reviewer": "root integration after ten disjoint proposal reviews",
   "input_document_sha256": "ddcd0a9bafa290fae8da03a73b21d7143dbabfe8c6d1d001a74b85438f0fbdf6",
-  "output_document_sha256": "c0818c33454b13a2df20232f03b46585a853492ffc4b55b59b46c2b88c2050f2",
+  "output_document_sha256": "0741814a51ab0e165da9d40df0198e5fe6249de17becb641b7861e3579d35f46",
   "reviewed_ids": [
     "scratch4.dat/s02:53:arg0",
     "scratch4.dat/s02:65:arg0",
@@ -11542,6 +11542,15 @@
       "target": "<color=8>白鹭洲伊纲</color><color=0>　</color><color=2>12 月 2 日</color><color=0>　癸生川事务所</color>",
       "reason": "用户要求这三类顶栏地点统一简称，并保证姓名与日期至少6px留白；只改INFO，不改正文全称。",
       "proposal_file": "info-location-spacing-review-20260923.json",
+      "decision": "approved"
+    },
+    {
+      "id": "file/append:4159",
+      "source": "<color=0>ヤトウではありません！</color><row/><color=0>矢当です！</color><ctrl=2E/>",
+      "old_target": "<color=0>不是 Yatou！</color><row/><color=0>是 Yaatari！”（译注：“矢当”的姓氏读音。）</color><ctrl=2E/>",
+      "target": "<color=0>不是 Yatou！</color><row/><color=0>是 Yaatari！”（译注：此人的姓“矢当”读 Yaatari，不读 Yatou。）</color><ctrl=2E/>",
+      "reason": "根据用户追问，仅解释该人物明确自称的读音；不宣称矢当只有一种读法，不将常被误读写成未经证实的事实。",
+      "proposal_file": "yaatari-note-review-20260923.json",
       "decision": "approved"
     }
   ],

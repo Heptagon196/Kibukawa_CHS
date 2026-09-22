@@ -2,7 +2,7 @@
   "schema": 1,
   "adapter": "gmode-20050817-direct",
   "reviewer": "root integration after independent semantic, punctuation, color, conflict and native INFO layout review; file/help:2222 controls, scene-s10 transition and s11 Jugemu quotation plus translator note, and s01 victim identity wording explicitly reviewed after user feedback; exact word-order manifest and previous approval chain verified",
-  "dialogue_sha256": "8181ab88a172807af727ba2bc164b57b2d63ae7f4c9d3af5eb68dab87a12d4b2",
+  "dialogue_sha256": "5584b630b8f0eeb10a1f9bead68acb33268f16d7c3026b0a014b881190f43e23",
   "integration_review": "work/fixes/integration-review.json",
   "integration_review_sha256": "21d82e9f17fba11bd009a2e999fb1352f5542249e29180a97301debfc1233d58",
   "info_layout_units": [
@@ -14710,6 +14710,33 @@
       ]
     },
     {
+      "id": "file/append:4159:token11",
+      "sha256": "f1b47d238103734bd423c22cdc05f7673a3e24eef4ec72bfd855fd3ca9be7a00",
+      "script": "file/append",
+      "boundary": "4159:token11",
+      "spans": [
+        {
+          "id": "file/append:4159",
+          "token": 2,
+          "color": 0,
+          "source": "ヤトウではありません！",
+          "target": "不是 Yatou！"
+        },
+        {
+          "id": "file/append:4159",
+          "token": 8,
+          "color": 0,
+          "source": "矢当です！",
+          "target": "是 Yaatari！”（译注：此人的姓“矢当”读 Yaatari，不读 Yatou。）"
+        },
+        {
+          "id": "file/append:4159",
+          "token": 11,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
       "id": "file/append:5843:token17",
       "sha256": "2bf0130923f4e5f9e6ef54bca69effa50a9b12193e105abb0fbf19fe264fe4f2",
       "script": "file/append",
@@ -15454,9 +15481,9 @@
     }
   ],
   "word_order_review": "work/word-order-review-20260922/integration-review.json",
-  "word_order_review_sha256": "ce1e8d0fb89b98ed405ebd447664e6969a92ee243cf8c97355baa80722c5aff6",
+  "word_order_review_sha256": "eaabf1aad250541ee48a72c361d762f18a3f3cc4f89b5374da65599e48b239ca",
   "input_document_sha256": "ddcd0a9bafa290fae8da03a73b21d7143dbabfe8c6d1d001a74b85438f0fbdf6",
-  "output_document_sha256": "c0818c33454b13a2df20232f03b46585a853492ffc4b55b59b46c2b88c2050f2",
+  "output_document_sha256": "0741814a51ab0e165da9d40df0198e5fe6249de17becb641b7861e3579d35f46",
   "previous_overlay": "work/word-order-review-20260922/previous-qa-fixes.reviewed.json",
   "previous_overlay_sha256": "66e7ef6c3d5b92b8ef70e4ef56b2fe4d2c5fbfda6daf3067a1cd2c13212875f4"
 }
