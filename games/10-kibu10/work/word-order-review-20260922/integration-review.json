@@ -3,7 +3,7 @@
   "scope": "全篇原译文语序及施受关系复核；原文、上下文、高亮语义与控制顺序联合检查。",
   "reviewer": "root integration after ten disjoint proposal reviews",
   "input_document_sha256": "ddcd0a9bafa290fae8da03a73b21d7143dbabfe8c6d1d001a74b85438f0fbdf6",
-  "output_document_sha256": "0741814a51ab0e165da9d40df0198e5fe6249de17becb641b7861e3579d35f46",
+  "output_document_sha256": "6a63075d5a5b725abe745243c1275d214591a27881168dc465a02e684507ff94",
   "reviewed_ids": [
     "scratch4.dat/s02:53:arg0",
     "scratch4.dat/s02:65:arg0",
@@ -11548,8 +11548,8 @@
       "id": "file/append:4159",
       "source": "<color=0>ヤトウではありません！</color><row/><color=0>矢当です！</color><ctrl=2E/>",
       "old_target": "<color=0>不是 Yatou！</color><row/><color=0>是 Yaatari！”（译注：“矢当”的姓氏读音。）</color><ctrl=2E/>",
-      "target": "<color=0>不是 Yatou！</color><row/><color=0>是 Yaatari！”（译注：此人的姓“矢当”读 Yaatari，不读 Yatou。）</color><ctrl=2E/>",
-      "reason": "根据用户追问，仅解释该人物明确自称的读音；不宣称矢当只有一种读法，不将常被误读写成未经证实的事实。",
+      "target": "<color=0>不是 Yatou！</color><row/><color=0>是 Yaatari！”（译注：‘当’可读 tou 或 atari，故可能被误读。）</color><ctrl=2E/>",
+      "reason": "用户确认精简译注，说明当的tou/atari读法歧义，并保持四行正文容量。",
       "proposal_file": "yaatari-note-review-20260923.json",
       "decision": "approved"
     }
