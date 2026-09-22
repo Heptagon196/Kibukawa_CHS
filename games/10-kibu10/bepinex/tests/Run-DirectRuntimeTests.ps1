@@ -29,6 +29,10 @@ $sources=@(
 'games/10-kibu10/bepinex/tests/DirectRuntimeTests.cs') | ForEach-Object { Join-Path $series $_ }
 Add-Type -Path ($sources+@($stubPath))
 [DirectHarness]::Run()
+$directSource=Get-Content -Raw (Join-Path $series 'engine/adapters/gmode-20050817-direct/src/DirectCanvasRuntime.cs')
+$binding=[regex]::Match($directSource,'"BUNSYOU"\),prefix:new HarmonyMethod\(typeof\((\w+)\),"(\w+)"\)')
+if(-not $binding.Success){throw 'Missing production BUNSYOU prefix binding'}
+[DirectHarness]::CheckDialogueState($binding.Groups[1].Value,$binding.Groups[2].Value)
 $assembly=Get-Content -Raw (Join-Path $series 'games/10-kibu10/research/kibu10-assembly.json') | ConvertFrom-Json
 $methods=[System.Collections.Generic.Dictionary[string,string[]]]::new()
 $methods.Add('Game_adv',[string[]]$assembly.methods.'System.Boolean CanvasEx::Game_adv()'.il)

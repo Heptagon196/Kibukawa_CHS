@@ -33,6 +33,30 @@ public class DirectGraphicsStub
 public class DirectHarness : DirectCanvasRuntime
 {
  static void Check(bool v,string message){if(!v)throw new Exception(message);}
+ public static string CheckDialogueState(string prefixOwner,string prefixName)
+ {
+  var c=new DirectCanvasStub{Pos=36148,BunsyouGun_gyousuu=1};
+  var translation=new ScriptTranslation();
+  var wanted=Row("“…………", "………。",46);
+  var other=Row("…………”", "………。",46);
+  translation.Displays.Add(36147,new DisplayTranslation{Offset=36147,Opcode=255,Rows=new[]{wanted}});
+  translation.Displays.Add(40000,new DisplayTranslation{Offset=40000,Opcode=255,Rows=new[]{other}});
+  states.Add(c,new CanvasState{Script=c.Script,Translation=translation});
+  Segment(new[]{wanted});
+  var owner=prefixOwner=="CanvasRuntime"?typeof(CanvasRuntime):typeof(DirectCanvasRuntime);
+  var flags=System.Reflection.BindingFlags.Static|System.Reflection.BindingFlags.NonPublic|System.Reflection.BindingFlags.FlattenHierarchy;
+  var prefix=owner.GetMethod(prefixName,flags);
+  var postfix=typeof(DirectCanvasRuntime).GetMethod("AfterDirectDialogue",flags);
+  object[] args={c,null};prefix.Invoke(null,args);
+  // Harmony keys __state by the declaring type, not by the patched method.
+  var stateByOwner=new Dictionary<Type,object>{{prefix.DeclaringType,args[1]}};
+  c.Pos=36172;c.bg_itigyougun_mojiretu[0]="………。";
+  object saved;stateByOwner.TryGetValue(postfix.DeclaringType,out saved);
+  postfix.Invoke(null,new[]{(object)c,saved});
+  Check(c.bg_itigyougun_mojiretu[0]=="“…………","s01:36147 must use its exact offset translation, not fall back to Japanese ………。");
+  Check(c.Pos==36172 && c.bg_itigyougun_control[0][wanted.Text.Length-1]==46,"Dialogue binding must preserve native position and click");
+  return "PASS: Harmony state ownership preserves exact-offset binding for ambiguous repeated silence";
+ }
  public static string CheckChoiceBand(string[] nativeIl)
  {
   var ops=typeof(OpCodes).GetFields().Where(f=>f.FieldType==typeof(OpCode)).Select(f=>(OpCode)f.GetValue(null)).ToDictionary(op=>op.Name);

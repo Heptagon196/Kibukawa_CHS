@@ -55,7 +55,7 @@ namespace Kibukawa.Engine.Gmode20050817Direct
             harmony.Patch(AccessTools.Method(canvasType,"StringRead"),
                 prefix:new HarmonyMethod(typeof(DirectCanvasRuntime),"BeforeDirectString"),
                 postfix:new HarmonyMethod(typeof(DirectCanvasRuntime),"AfterDirectString"));
-            harmony.Patch(AccessTools.Method(canvasType,"BUNSYOU"),prefix:new HarmonyMethod(typeof(CanvasRuntime),"BeforeDialogue"),postfix:new HarmonyMethod(typeof(DirectCanvasRuntime),"AfterDirectDialogue"));
+            harmony.Patch(AccessTools.Method(canvasType,"BUNSYOU"),prefix:new HarmonyMethod(typeof(DirectCanvasRuntime),"BeforeDirectDialogue"),postfix:new HarmonyMethod(typeof(DirectCanvasRuntime),"AfterDirectDialogue"));
             Patch(AccessTools.Method(canvasType,"BUNSYOU_ROLL"),"BeforeRoll","AfterRoll");
             harmony.Patch(AccessTools.Method(canvasType,"DrawAdvString"),prefix:new HarmonyMethod(typeof(DirectCanvasRuntime),"BeforeDirectDraw"),finalizer:new HarmonyMethod(typeof(DirectCanvasRuntime),"RestoreDirectScale"));
             harmony.Patch(AccessTools.Method(canvasType,"PaintADV"),prefix:new HarmonyMethod(typeof(DirectCanvasRuntime),"BeforeDirectViewport"));
@@ -70,6 +70,11 @@ namespace Kibukawa.Engine.Gmode20050817Direct
                 Patch(AccessTools.Method(canvasType,method),"BeforeSmallFontPage",null,"RestoreSmallFontPage");
             harmony.Patch(AccessTools.Method(canvasType,"PaintMain_info"),prefix:new HarmonyMethod(typeof(DirectCanvasRuntime),"DrawDirectInfo"));
         }
+        // Harmony shares __state only between patches with the same declaring
+        // type. An inherited prefix loses the exact offset before this postfix,
+        // forcing ambiguous repeated Japanese lines into source-only recovery.
+        protected static void BeforeDirectDialogue(object __instance,out ReadState __state)
+        { __state=Read(__instance,255); }
         protected static void AfterDirectDialogue(object __instance,ReadState __state)
         {
             var state=State(__instance);state.Dialogue=false;
