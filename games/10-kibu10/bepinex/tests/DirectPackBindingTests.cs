@@ -79,6 +79,14 @@ public static class DirectPackBindingTests
     if(display.Opcode==255 && !seen.Contains(script))
     {
      var rows=DirectTextLayout.Wrap(display.Rows,204,4);
+     string fullText=String.Join("",Array.ConvertAll(display.Rows,line=>line.Text));
+     if(Path.GetFileName(file)=="s14.bin" && display.Offset==43103)
+     {
+      if(fullText!="……总之，我劝她不要自杀，而是去自首。")throw new Exception("Confession punctuation fixture text changed");
+      foreach(var line in rows)
+       if(line.Text.StartsWith("。"))throw new Exception("Highlighted confession sentence must not strand its period on a new row");
+      Console.WriteLine("PASS confession punctuation rows: "+String.Join(" / ",Array.ConvertAll(rows,line=>line.Text)));
+     }
      foreach(int availableWidth in new[]{204,220})foreach(int capacity in new[]{4,5}){
       var variant=DirectTextLayout.Wrap(display.Rows,availableWidth,capacity);
       pageAudit.Add(Path.GetFileNameWithoutExtension(file)+"\t"+display.Offset+"\t"+availableWidth+"\t"+capacity+"\t"+variant.Length);

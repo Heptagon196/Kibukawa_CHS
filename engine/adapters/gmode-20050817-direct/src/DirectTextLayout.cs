@@ -55,6 +55,9 @@ namespace Kibukawa.Engine.Gmode20050817Direct
    if(String.IsNullOrWhiteSpace(a.Text)||String.IsNullOrWhiteSpace(b.Text))return true;
    if(Spaced(a.SourceText)||Spaced(b.SourceText))return true;
    if(End(a.SourceText)||End(a.Text)||Leading(b.SourceText))return true;
+   // A color transition is not a paragraph boundary when the following
+   // translated row starts with punctuation that belongs to the prior text.
+   if(Close.IndexOf(b.Text[0])>=0)return false;
    bool uniform=a.Colors.Length>0;foreach(byte c in a.Colors)uniform &= c==a.Colors[0];
    return uniform && b.Colors.Length>0 && a.Colors[0]!=b.Colors[0];
   }
