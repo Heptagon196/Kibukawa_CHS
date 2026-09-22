@@ -136299,7 +136299,7 @@
         {
           "text_index": 6186,
           "source_text": "い、生王正生…？",
-          "translated_text": "“生、生王正生……？",
+          "translated_text": "“生、生王正生……？（罗马音：IKURUMI MASAO）",
           "translation_status": 1,
           "model": "Codex parallel translation and review",
           "extra": {
@@ -136314,7 +136314,7 @@
               "argument": 0
             },
             "tagged_source": "<color=0>い、生王正生…？</color><ctrl=2E/>",
-            "tagged_target": "<color=0>“生、生王正生……？</color><ctrl=2E/>",
+            "tagged_target": "<color=0>“生、生王正生……？（罗马音：IKURUMI MASAO）</color><ctrl=2E/>",
             "active": true
           }
         },
@@ -136673,7 +136673,7 @@
         {
           "text_index": 6203,
           "source_text": "沖村勇ですが…。",
-          "translated_text": "冲村勇……”",
+          "translated_text": "冲村勇……”（罗马音：OKIMURA ISAMU）",
           "translation_status": 1,
           "model": "Codex parallel translation and review",
           "extra": {
@@ -136688,7 +136688,7 @@
               "argument": 0
             },
             "tagged_source": "<color=0>沖村勇ですが…。</color><ctrl=2E/>",
-            "tagged_target": "<color=0>冲村勇……”</color><ctrl=2E/>",
+            "tagged_target": "<color=0>冲村勇……”（罗马音：OKIMURA ISAMU）</color><ctrl=2E/>",
             "active": true
           }
         },
@@ -136717,7 +136717,7 @@
         {
           "text_index": 6205,
           "source_text": "妹浦澄佳…。",
-          "translated_text": "“妹浦澄佳……”",
+          "translated_text": "“妹浦澄佳……”（罗马音：IMOURA SUMIKA）",
           "translation_status": 1,
           "model": "Codex parallel translation and review",
           "extra": {
@@ -136732,7 +136732,7 @@
               "argument": 0
             },
             "tagged_source": "<color=0>妹浦澄佳…。</color><ctrl=2E/>",
-            "tagged_target": "<color=0>“妹浦澄佳……”</color><ctrl=2E/>",
+            "tagged_target": "<color=0>“妹浦澄佳……”（罗马音：IMOURA SUMIKA）</color><ctrl=2E/>",
             "active": true
           }
         },
@@ -137069,7 +137069,7 @@
         {
           "text_index": 6221,
           "source_text": "すべて同じ文字",
-          "translated_text": "全部文字相同",
+          "translated_text": "罗马音字母相同",
           "translation_status": 1,
           "model": "Codex parallel translation and review",
           "extra": {
@@ -137084,7 +137084,7 @@
               "argument": 0
             },
             "tagged_source": "すべて同じ文字",
-            "tagged_target": "全部文字相同",
+            "tagged_target": "罗马音字母相同",
             "active": true
           }
         },
@@ -261837,7 +261837,7 @@
     "authoritative_draft": "work/dialogue-tagged.json",
     "translation_stage": "reviewed",
     "semantic_release_review_complete": true,
-    "reviewed_dialogue_sha256": "09220c3bf43f4825a143946d94347a4ed79ac871081f0f1ad735d86d55b7c933",
+    "reviewed_dialogue_sha256": "9ae00097a9600482bc40dc03ce8673e60a72df6225e254ee2a799be3495a148c",
     "click_review_sha256": "ad3cde2a771ed42ea794e564309340bd394c425c99713ebfa0b345896a369190",
     "color_review_sha256": "f84f25b108c9bc5df01f7a9a89cf06bd0dfeeadc4fc581b16c022d7e4eb1ef51",
     "quality_gate_sha256": "9b045ca48cfae9958fa2c0c9a7eaf20cbfdbf9618a22a84e386d429d1032179b"

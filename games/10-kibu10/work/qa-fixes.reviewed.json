@@ -2,7 +2,7 @@
   "schema": 1,
   "adapter": "gmode-20050817-direct",
   "reviewer": "root integration after independent semantic, punctuation, color, conflict and native INFO layout review; file/help:2222 controls, scene-s10 transition and s11 Jugemu quotation plus translator note, and s01 victim identity wording explicitly reviewed after user feedback; exact word-order manifest and previous approval chain verified",
-  "dialogue_sha256": "09220c3bf43f4825a143946d94347a4ed79ac871081f0f1ad735d86d55b7c933",
+  "dialogue_sha256": "9ae00097a9600482bc40dc03ce8673e60a72df6225e254ee2a799be3495a148c",
   "integration_review": "work/fixes/integration-review.json",
   "integration_review_sha256": "21d82e9f17fba11bd009a2e999fb1352f5542249e29180a97301debfc1233d58",
   "info_layout_units": [
@@ -7863,6 +7863,66 @@
       ]
     },
     {
+      "id": "scratch4.dat/s27:16432:token5",
+      "sha256": "591e94125fdb29c8103a48f25866b2c196168f383ca63758593e14c563d36bd8",
+      "script": "scratch4.dat/s27",
+      "boundary": "16432:token5",
+      "spans": [
+        {
+          "id": "scratch4.dat/s27:16432",
+          "token": 2,
+          "color": 0,
+          "source": "い、生王正生…？",
+          "target": "“生、生王正生……？（罗马音：IKURUMI MASAO）"
+        },
+        {
+          "id": "scratch4.dat/s27:16432",
+          "token": 5,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s27:17548:token5",
+      "sha256": "f7f072e4125208119737f4a0a34e6b2cb11beace1a1db1a53b4cbba1c3e912b3",
+      "script": "scratch4.dat/s27",
+      "boundary": "17548:token5",
+      "spans": [
+        {
+          "id": "scratch4.dat/s27:17548",
+          "token": 2,
+          "color": 0,
+          "source": "沖村勇ですが…。",
+          "target": "冲村勇……”（罗马音：OKIMURA ISAMU）"
+        },
+        {
+          "id": "scratch4.dat/s27:17548",
+          "token": 5,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s27:17670:token5",
+      "sha256": "5e8a933be95462412acc75d7480e88b18c5d91df6da9a43e2ef5fe072898b8d6",
+      "script": "scratch4.dat/s27",
+      "boundary": "17670:token5",
+      "spans": [
+        {
+          "id": "scratch4.dat/s27:17670",
+          "token": 2,
+          "color": 0,
+          "source": "妹浦澄佳…。",
+          "target": "“妹浦澄佳……”（罗马音：IMOURA SUMIKA）"
+        },
+        {
+          "id": "scratch4.dat/s27:17670",
+          "token": 5,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
       "id": "scratch4.dat/s27:23948:opcode47",
       "sha256": "871a4065d0550e47d11b45f46b0e0d2d368354878bdc02e938e8deb654bb8701",
       "script": "scratch4.dat/s27",
@@ -15576,9 +15636,9 @@
     }
   ],
   "word_order_review": "work/word-order-review-20260922/integration-review.json",
-  "word_order_review_sha256": "16c2cdf444aaed0c27a64ee66f30283ab9b9b74e68a1a113d5bd78f633e167ad",
+  "word_order_review_sha256": "5f9e4cd7c7d6c738eaf5d54cbe0f934e829fd1f9a316f2b46e15fee0f86619bd",
   "input_document_sha256": "ddcd0a9bafa290fae8da03a73b21d7143dbabfe8c6d1d001a74b85438f0fbdf6",
-  "output_document_sha256": "2329435a81871a812765d69bb416f82051a6f70356e2e93bacf7569a05521c8b",
+  "output_document_sha256": "2d8cdb80b9eeb6886f2fa59255caeee8728860ba064967bdf5b2622a4ff1f2e5",
   "previous_overlay": "work/word-order-review-20260922/previous-qa-fixes.reviewed.json",
   "previous_overlay_sha256": "66e7ef6c3d5b92b8ef70e4ef56b2fe4d2c5fbfda6daf3067a1cd2c13212875f4"
 }
