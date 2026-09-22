@@ -29,6 +29,14 @@ $sources=@(
 'games/10-kibu10/bepinex/tests/DirectRuntimeTests.cs') | ForEach-Object { Join-Path $series $_ }
 Add-Type -Path ($sources+@($stubPath))
 [DirectHarness]::Run()
+$catalog=Get-Content -Raw (Join-Path $series 'games/10-kibu10/work/dialogue-tagged.json') | ConvertFrom-Json
+$infoRows=@($catalog.units | Where-Object { $_.active -and $_.opcode -eq 72 })
+$infoFailures=@(foreach($row in $infoRows){
+    try { [DirectHarness]::CheckInfoAnchor($row.target) }
+    catch { "$($row.id): $($_.Exception.InnerException.Message)" }
+})
+if($infoFailures.Count){throw ($infoFailures -join "`n")}
+Write-Output "Checked fixed INFO anchors for $($infoRows.Count) active rows."
 $directSource=Get-Content -Raw (Join-Path $series 'engine/adapters/gmode-20050817-direct/src/DirectCanvasRuntime.cs')
 $binding=[regex]::Match($directSource,'"BUNSYOU"\),prefix:new HarmonyMethod\(typeof\((\w+)\),"(\w+)"\)')
 if(-not $binding.Success){throw 'Missing production BUNSYOU prefix binding'}

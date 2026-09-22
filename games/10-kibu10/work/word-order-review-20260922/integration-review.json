@@ -3,7 +3,7 @@
   "scope": "全篇原译文语序及施受关系复核；原文、上下文、高亮语义与控制顺序联合检查。",
   "reviewer": "root integration after ten disjoint proposal reviews",
   "input_document_sha256": "ddcd0a9bafa290fae8da03a73b21d7143dbabfe8c6d1d001a74b85438f0fbdf6",
-  "output_document_sha256": "bb2699f15351b0927898cb62d509c361a9128bfc6c7886c4a86250413d0510dd",
+  "output_document_sha256": "a609a6a7aff8043627f909877f6dce0ef6e7f48805745544c184cd896a3d5330",
   "reviewed_ids": [
     "scratch4.dat/s02:53:arg0",
     "scratch4.dat/s02:65:arg0",
@@ -11317,6 +11317,15 @@
       "target": "<color=0>此外，满足特定条件</color><row/><color=0>并通关游戏后，</color><row/><color=0>菜单中就会增加一个</color><color=2>新项目</color><color=0></color><row/><color=0>。</color><ctrl=2E/>",
       "reason": "将菜单处所前置，避免多出一个新项目后又倒补加入菜单。",
       "proposal_file": "part-root.json",
+      "decision": "approved"
+    },
+    {
+      "id": "file/append:6526",
+      "source": "<color=8>白鷺洲伊綱</color><color=0>　</color><color=2>10月21日</color><color=0>　癸生川探偵事務所</color>",
+      "old_target": "<color=8>白鹭洲伊纲</color><color=0></color><color=2>10 月 21 日</color><color=0>　癸生川侦探事务所</color>",
+      "target": "<color=8>白鹭洲伊纲</color><color=0></color><color=2>10 月 21 日</color><color=0>　癸生川事务所</color>",
+      "reason": "用户同意仅缩短顶栏地名避免覆盖：五字姓名与双位月日固定左右锚点后字格相交6px；去掉侦探二字，保留事务所所有者，正文全称不改。",
+      "proposal_file": "info-location-review-20260923.json",
       "decision": "approved"
     }
   ],

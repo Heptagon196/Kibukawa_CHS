@@ -1,0 +1,22 @@
+{
+  "schema": 1,
+  "scope": "One INFO location abbreviation authorized by user; dialogue unchanged",
+  "changes": [
+    {
+      "id": "file/append:6526",
+      "source": "<color=8>白鷺洲伊綱</color><color=0>　</color><color=2>10月21日</color><color=0>　癸生川探偵事務所</color>",
+      "old_target": "<color=8>白鹭洲伊纲</color><color=0></color><color=2>10 月 21 日</color><color=0>　癸生川侦探事务所</color>",
+      "target": "<color=8>白鹭洲伊纲</color><color=0></color><color=2>10 月 21 日</color><color=0>　癸生川事务所</color>",
+      "reason": "用户同意仅缩短顶栏地名避免覆盖：五字姓名与双位月日固定左右锚点后字格相交6px；去掉侦探二字，保留事务所所有者，正文全称不改。",
+      "proposal_file": "info-location-review-20260923.json",
+      "decision": "approved"
+    }
+  ],
+  "old_name_range": [
+    10,
+    70
+  ],
+  "date_start": 64,
+  "new_date_start": 88,
+  "new_gap": 18
+}

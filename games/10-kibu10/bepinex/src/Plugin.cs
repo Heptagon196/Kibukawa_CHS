@@ -16,7 +16,7 @@ using Kibukawa.Engine.Gmode20050817Direct;
 
 namespace Kibu10ZhCN
 {
-    [BepInPlugin("local.kibu10.zhcn", "Kibu10 Simplified Chinese", "0.1.35")]
+    [BepInPlugin("local.kibu10.zhcn", "Kibu10 Simplified Chinese", "0.1.36")]
     [BepInProcess("kibu10.exe")]
     public sealed class Plugin : DirectCanvasRuntime
     {
@@ -102,6 +102,24 @@ namespace Kibu10ZhCN
             // half cells; every other character, including U+3000, uses 12 px.
             return value <= '\u007f' || value >= '\uff61' && value <= '\uff9f' ? 6 : 12;
         }
+        internal static int[] InfoPositions(RuntimeRow row)
+        {
+            // INFO contains a colored name, authored padding, then a yellow
+            // date and location. Anchor the name independently; padding is not
+            // content and must not determine its position after translation.
+            int date = Array.IndexOf(row.Colors, (byte)2);
+            int nameEnd = date;
+            while (nameEnd > 0 && Char.IsWhiteSpace(row.Text[nameEnd - 1])) nameEnd--;
+            bool split = nameEnd > 0 && Char.IsDigit(row.Text[date]) && row.Colors[0] != 0 && row.Colors[0] != 2;
+            string suffix = split ? row.Text.Substring(date) : row.Text;
+            int rightStart = 238 - DirectTextLayout.MeasureNative(suffix, 0, suffix.Length);
+            var positions = new int[row.Text.Length];
+            for (int i = 0; i < positions.Length; i++)
+                positions[i] = split && i < nameEnd ? 10 + DirectTextLayout.PositionNative(row.Text.Substring(0, nameEnd), i)
+                    : split && i < date ? -1
+                    : rightStart + DirectTextLayout.PositionNative(suffix, split ? i - date : i);
+            return positions;
+        }
         internal static bool DrawKibu10Info(object __instance, object __0)
         {
             if (!ready) return true;
@@ -119,14 +137,7 @@ namespace Kibu10ZhCN
             string source = (string)F("info_struct_moji").GetValue(__instance);
             if (source == null || !infoRows.TryGetValue(source, out row)) return true;
 
-            int width = DirectTextLayout.MeasureNative(row.Text, 0, row.Text.Length);
-            int x = 238 - width;
-            // The native right edge is 238, so a 240px INFO row starts at -2.
-            // Borrow only the pixels needed from its authored name/date spacer;
-            // this leaves the date and location at their original positions.
-            int padding = x < 8 ? row.Text.IndexOf('　') : -1;
-            int paddingTrim = padding > 0 ? Math.Min(12, 8 - x) : 0;
-            x += paddingTrim;
+            int[] positions = InfoPositions(row);
             int[] palette = (int[])F("ColorTable").GetValue(__instance);
             MethodInfo color = AccessTools.Method(canvasType, "SetColor");
             MethodInfo draw = AccessTools.Method(__0.GetType(), "DrawString", new[] { typeof(string), typeof(int), typeof(int) });
@@ -145,9 +156,9 @@ namespace Kibu10ZhCN
                 setFont.Invoke(__0, new[] { getFont.Invoke(null, new object[] { 32 }) });
                 for (int i = 0; i < row.Text.Length; i++)
                 {
+                    if (positions[i] == -1) continue;
                     color.Invoke(__instance, new object[] { __0, palette[row.Colors[i]] });
-                    int position = x + DirectTextLayout.PositionNative(row.Text, i) - (i > padding ? paddingTrim : 0);
-                    draw.Invoke(__0, new object[] { row.Text[i].ToString(), position, layout.InfoBaseline });
+                    draw.Invoke(__0, new object[] { row.Text[i].ToString(), positions[i], layout.InfoBaseline });
                 }
             }
             finally

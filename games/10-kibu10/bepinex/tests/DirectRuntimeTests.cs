@@ -33,6 +33,28 @@ public class DirectGraphicsStub
 public class DirectHarness : DirectCanvasRuntime
 {
  static void Check(bool v,string message){if(!v)throw new Exception(message);}
+ public static void CheckInfoAnchor(string tagged)
+ {
+  var text=new System.Text.StringBuilder();var colors=new List<byte>();
+  foreach(System.Text.RegularExpressions.Match match in System.Text.RegularExpressions.Regex.Matches(tagged,@"<color=(\d+)>(.*?)</color>"))
+  {
+   string part=match.Groups[2].Value;text.Append(part);
+   foreach(char c in part)colors.Add(Byte.Parse(match.Groups[1].Value));
+  }
+  var row=new RuntimeRow{Text=text.ToString(),Colors=colors.ToArray()};
+  int[] positions=Kibu10ZhCN.Plugin.InfoPositions(row);
+  int date=colors.IndexOf(2);
+  if(date>0)
+  {
+   Check(positions[0]==10,"Every named INFO must have the same left anchor: "+tagged);
+   int nameEnd=date;while(nameEnd>0 && Char.IsWhiteSpace(row.Text[nameEnd-1]))nameEnd--;
+   int nameRight=10+DirectTextLayout.MeasureNative(row.Text,0,nameEnd);
+   Check(positions[date]>=nameRight,"Name and date cells must not overlap: "+tagged);
+   for(int i=nameEnd;i<date;i++)Check(positions[i]==-1,"Authored padding must not be drawn");
+  }
+  int last=row.Text.Length-1;
+  Check(positions[last]+DirectTextLayout.MeasureNative(row.Text,last,last+1)==238,"INFO right anchor: "+tagged);
+ }
  public static string CheckDialogueState(string prefixOwner,string prefixName)
  {
   var c=new DirectCanvasStub{Pos=36148,BunsyouGun_gyousuu=1};
@@ -169,7 +191,8 @@ public class DirectHarness : DirectCanvasRuntime
   Check(Kibu10ZhCN.Plugin.NativeInfoWidth('Ａ')==12 && Kibu10ZhCN.Plugin.NativeInfoWidth('ｱ')==6 && Kibu10ZhCN.Plugin.NativeInfoWidth('?')==6 && Kibu10ZhCN.Plugin.NativeInfoWidth('　')==12,"Kibu10 INFO width classification must match native cells, including full-width spaces");
   string edgeInfo="石上雅人"+new string('　',5)+"7 月 10 日　鞠滨台站前";
   Check(DirectTextLayout.MeasureNative(edgeInfo,0,edgeInfo.Length)==240,"Edge INFO fixture must reproduce the full-width top bar");
-  g.Drawn="";g.Xs.Clear();infoRows["原文"]=new RuntimeRow{SourceText="原文",Text=edgeInfo,Colors=new byte[edgeInfo.Length],Controls=new byte[edgeInfo.Length]};
+  var edgeColors=new byte[edgeInfo.Length];for(int i=0;i<4;i++)edgeColors[i]=3;edgeColors[9]=2;
+  g.Drawn="";g.Xs.Clear();infoRows["原文"]=new RuntimeRow{SourceText="原文",Text=edgeInfo,Colors=edgeColors,Controls=new byte[edgeInfo.Length]};
   Check(!Kibu10ZhCN.Plugin.DrawKibu10Info(c,g) && g.Xs[0]>=8,"Full-width INFO must keep the left name inside the top bar");
   var read=new ReadState{Display=new DisplayTranslation{Opcode=255,Rows=new[]{row}}};
   DirectLexicon.Masks[row.Text]="0000";
