@@ -2,7 +2,7 @@
   "schema": 1,
   "adapter": "gmode-20050817-direct",
   "reviewer": "root integration after independent semantic, punctuation, color, conflict and native INFO layout review; file/help:2222 controls, scene-s10 transition and s11 Jugemu quotation plus translator note, and s01 victim identity wording explicitly reviewed after user feedback; exact word-order manifest and previous approval chain verified",
-  "dialogue_sha256": "2f5d76d1223a314c5a9d814c699c42b803a31a31cd5e378cb91be592ec159eab",
+  "dialogue_sha256": "c4a235a929ae0ccbad857dd01c7e40c13bbf65ff7a5a0260e6893a1cdfd1482e",
   "integration_review": "work/fixes/integration-review.json",
   "integration_review_sha256": "21d82e9f17fba11bd009a2e999fb1352f5542249e29180a97301debfc1233d58",
   "info_layout_units": [
@@ -2147,6 +2147,33 @@
         {
           "id": "scratch4.dat/s02:15984",
           "token": 33,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s02:21801:token9",
+      "sha256": "553b75331f824a9a8190e87dee49a9aa14061c98c909c7df1de7f001235cbaf6",
+      "script": "scratch4.dat/s02",
+      "boundary": "21801:token9",
+      "spans": [
+        {
+          "id": "scratch4.dat/s02:21801",
+          "token": 2,
+          "color": 2,
+          "source": "ヤアタリ",
+          "target": "“Yaatari"
+        },
+        {
+          "id": "scratch4.dat/s02:21801",
+          "token": 6,
+          "color": 0,
+          "source": "です！",
+          "target": "！”（译注：‘当’可读 tou 或 atari，故可能被误读。）"
+        },
+        {
+          "id": "scratch4.dat/s02:21801",
+          "token": 9,
           "control": "<ctrl=2E/>"
         }
       ]
@@ -15481,9 +15508,9 @@
     }
   ],
   "word_order_review": "work/word-order-review-20260922/integration-review.json",
-  "word_order_review_sha256": "05e75a00f9986c733d3d7ea3496e8dc74016b5374abca1e57f2821aa223b922e",
+  "word_order_review_sha256": "d8679956c5ef6f1f4dffa6cd557f54d4e623ad4ce30a4db6bd653f0cc7399b6e",
   "input_document_sha256": "ddcd0a9bafa290fae8da03a73b21d7143dbabfe8c6d1d001a74b85438f0fbdf6",
-  "output_document_sha256": "6a63075d5a5b725abe745243c1275d214591a27881168dc465a02e684507ff94",
+  "output_document_sha256": "256ba8351cb33c77605c1c065c507443a96eab9e0756d9ff7664047b58fbaccb",
   "previous_overlay": "work/word-order-review-20260922/previous-qa-fixes.reviewed.json",
   "previous_overlay_sha256": "66e7ef6c3d5b92b8ef70e4ef56b2fe4d2c5fbfda6daf3067a1cd2c13212875f4"
 }

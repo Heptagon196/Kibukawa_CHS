@@ -3,7 +3,7 @@
   "scope": "全篇原译文语序及施受关系复核；原文、上下文、高亮语义与控制顺序联合检查。",
   "reviewer": "root integration after ten disjoint proposal reviews",
   "input_document_sha256": "ddcd0a9bafa290fae8da03a73b21d7143dbabfe8c6d1d001a74b85438f0fbdf6",
-  "output_document_sha256": "6a63075d5a5b725abe745243c1275d214591a27881168dc465a02e684507ff94",
+  "output_document_sha256": "256ba8351cb33c77605c1c065c507443a96eab9e0756d9ff7664047b58fbaccb",
   "reviewed_ids": [
     "scratch4.dat/s02:53:arg0",
     "scratch4.dat/s02:65:arg0",
@@ -11551,6 +11551,15 @@
       "target": "<color=0>不是 Yatou！</color><row/><color=0>是 Yaatari！”（译注：‘当’可读 tou 或 atari，故可能被误读。）</color><ctrl=2E/>",
       "reason": "用户确认精简译注，说明当的tou/atari读法歧义，并保持四行正文容量。",
       "proposal_file": "yaatari-note-review-20260923.json",
+      "decision": "approved"
+    },
+    {
+      "id": "scratch4.dat/s02:21801",
+      "source": "<color=2>ヤアタリ</color><color=0>です！</color><ctrl=2E/>",
+      "old_target": "<color=2>“Yaatari</color><color=0>！”（译注：‘矢当’在此读 Yaatari，工藤误读成了 Yatou。）</color><ctrl=2E/>",
+      "target": "<color=2>“Yaatari</color><color=0>！”（译注：‘当’可读 tou 或 atari，故可能被误读。）</color><ctrl=2E/>",
+      "reason": "用户要求正文首次纠正读音的译注同步为已确认的tou/atari解释，保持高亮与点击控制。",
+      "proposal_file": "yaatari-story-note-review-20260923.json",
       "decision": "approved"
     }
   ],

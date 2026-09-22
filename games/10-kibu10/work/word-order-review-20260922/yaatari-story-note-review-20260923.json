@@ -1,0 +1,14 @@
+{
+  "schema": 1,
+  "changes": [
+    {
+      "id": "scratch4.dat/s02:21801",
+      "source": "<color=2>ヤアタリ</color><color=0>です！</color><ctrl=2E/>",
+      "old_target": "<color=2>“Yaatari</color><color=0>！”（译注：‘矢当’在此读 Yaatari，工藤误读成了 Yatou。）</color><ctrl=2E/>",
+      "target": "<color=2>“Yaatari</color><color=0>！”（译注：‘当’可读 tou 或 atari，故可能被误读。）</color><ctrl=2E/>",
+      "reason": "用户要求正文首次纠正读音的译注同步为已确认的tou/atari解释，保持高亮与点击控制。",
+      "proposal_file": "yaatari-story-note-review-20260923.json",
+      "decision": "approved"
+    }
+  ]
+}
