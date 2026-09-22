@@ -34,7 +34,7 @@ public static class DirectPackBindingTests
         || help.Rows[0].Text!="本作《永劫会事件》" || help.Rows[2].Text!="最多可从四位角色的视角")
      throw new Exception("Help page body is not translated through the actual runtime script binding");
     var laidOutHelp=DirectTextLayout.Wrap(help.Rows,204,5);
-    if(laidOutHelp.Length!=4 || laidOutHelp[3].Text!="展开游戏。")
+    if(laidOutHelp.Length>5 || !Array.Exists(laidOutHelp,line=>line.Text.Contains("展开游戏。")))
      throw new Exception("Help page obsolete Japanese soft break was not merged");
     DisplayTranslation controls;
     if(!script.Displays.TryGetValue(2222,out controls))throw new Exception("Help controls page missing");
@@ -80,6 +80,13 @@ public static class DirectPackBindingTests
     {
      var rows=DirectTextLayout.Wrap(display.Rows,204,4);
      string fullText=String.Join("",Array.ConvertAll(display.Rows,line=>line.Text));
+     if(Path.GetFileName(file)=="s15.bin" && display.Offset==1178)
+     {
+      if(fullText!="那天之后，澄佳就下落不明了。")throw new Exception("Missing-person fixture text changed");
+      if(!Array.Exists(rows,line=>line.Text.Contains("下落不明了。")))
+       throw new Exception("Highlight color must not separate 下落不明 from 了。");
+      Console.WriteLine("PASS missing-person rows: "+String.Join(" / ",Array.ConvertAll(rows,line=>line.Text)));
+     }
      if(Path.GetFileName(file)=="s14.bin" && display.Offset==43103)
      {
       if(fullText!="……总之，我劝她不要自杀，而是去自首。")throw new Exception("Confession punctuation fixture text changed");

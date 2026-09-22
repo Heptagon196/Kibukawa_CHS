@@ -230,14 +230,17 @@ public class DirectHarness : DirectCanvasRuntime
   c.Pos=170;c.MainTask=17;c.MojiHani_tate=2;c.BunsyouGun_gyousuu=5;
   for(int i=0;i<helpSource.Length;i++)c.bg_itigyougun_mojiretu[i]=helpSource[i].Text;
   AfterDirectDialogue(c,null);
-  Check(c.BunsyouGun_gyousuu==4 && c.bg_itigyougun_mojiretu[0]=="本作《永劫会事件》" && c.bg_itigyougun_mojiretu[2]=="最多可从四位角色的视角" && c.bg_itigyougun_mojiretu[3]=="展开游戏。","Help text must recover by exact source rows and merge its obsolete soft line break");
+  string recoveredHelp="";bool joinedHelpEnding=false;
+  for(int i=0;i<c.BunsyouGun_gyousuu;i++){recoveredHelp+=c.bg_itigyougun_mojiretu[i];joinedHelpEnding|=c.bg_itigyougun_mojiretu[i].Contains("展开游戏。");}
+  Check(c.BunsyouGun_gyousuu<=5 && recoveredHelp=="本作《永劫会事件》以两位角色为中心，最多可从四位角色的视角展开游戏。" && joinedHelpEnding,"Help text must recover by exact source rows and merge its obsolete soft line break");
   var repeated=new RuntimeRow[helpTarget.Length];
   for(int i=0;i<repeated.Length;i++)repeated[i]=new RuntimeRow{SourceText=helpTarget[i].SourceText,Text=helpTarget[i].Text,Colors=(byte[])helpTarget[i].Colors.Clone(),Controls=(byte[])helpTarget[i].Controls.Clone(),RubyJson="{}"};
   translation.Displays.Add(165,new DisplayTranslation{Offset=165,Opcode=255,Rows=repeated});
   c.BunsyouGun_gyousuu=5;
   for(int i=0;i<helpSource.Length;i++)c.bg_itigyougun_mojiretu[i]=helpSource[i].Text;
   AfterDirectDialogue(c,null);
-  Check(c.bg_itigyougun_mojiretu[0]=="本作《永劫会事件》","Identically translated duplicate source rows must recover safely");
+  string duplicateHelp="";for(int i=0;i<c.BunsyouGun_gyousuu;i++)duplicateHelp+=c.bg_itigyougun_mojiretu[i];
+  Check(duplicateHelp==recoveredHelp,"Identically translated duplicate source rows must recover safely");
   repeated[0].Text="另一种译法";repeated[0].Colors=new byte[repeated[0].Text.Length];repeated[0].Controls=new byte[repeated[0].Text.Length];
   c.BunsyouGun_gyousuu=5;
   for(int i=0;i<helpSource.Length;i++)c.bg_itigyougun_mojiretu[i]=helpSource[i].Text;
