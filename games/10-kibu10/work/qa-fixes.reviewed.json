@@ -2,7 +2,7 @@
   "schema": 1,
   "adapter": "gmode-20050817-direct",
   "reviewer": "root integration after independent semantic, punctuation, color, conflict and native INFO layout review; file/help:2222 controls, scene-s10 transition and s11 Jugemu quotation plus translator note, and s01 victim identity wording explicitly reviewed after user feedback; exact word-order manifest and previous approval chain verified",
-  "dialogue_sha256": "75f81e7af646ea5b5e61b421377a34571bac52504a594c40391ae9bb2199defe",
+  "dialogue_sha256": "8181ab88a172807af727ba2bc164b57b2d63ae7f4c9d3af5eb68dab87a12d4b2",
   "integration_review": "work/fixes/integration-review.json",
   "integration_review_sha256": "21d82e9f17fba11bd009a2e999fb1352f5542249e29180a97301debfc1233d58",
   "info_layout_units": [
@@ -280,6 +280,42 @@
           "id": "scratch4.dat/s00:16467",
           "token": 11,
           "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s01:207:opcode1",
+      "sha256": "a049c14f679339c60404f9e8f77fe497be545c03e9a45bde9fb262810efca849",
+      "script": "scratch4.dat/s01",
+      "boundary": "207:opcode1",
+      "spans": [
+        {
+          "id": "scratch4.dat/s01:148",
+          "token": 2,
+          "color": 12,
+          "source": "工藤貴樹",
+          "target": "工藤贵树"
+        },
+        {
+          "id": "scratch4.dat/s01:148",
+          "token": 6,
+          "color": 0,
+          "source": "　",
+          "target": "　"
+        },
+        {
+          "id": "scratch4.dat/s01:148",
+          "token": 10,
+          "color": 2,
+          "source": "７月９日",
+          "target": "7 月 9 日"
+        },
+        {
+          "id": "scratch4.dat/s01:148",
+          "token": 14,
+          "color": 0,
+          "source": "　鞠浜警察署デカ部屋",
+          "target": "　警署刑警办公室"
         }
       ]
     },
@@ -1086,6 +1122,42 @@
           "id": "scratch4.dat/s01:32999",
           "token": 17,
           "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s01:33923:opcode4",
+      "sha256": "92875a1f2c70976405e8391f699d12318576fb7fa26d218fd1b903047d3efe5e",
+      "script": "scratch4.dat/s01",
+      "boundary": "33923:opcode4",
+      "spans": [
+        {
+          "id": "scratch4.dat/s01:33864",
+          "token": 2,
+          "color": 12,
+          "source": "工藤貴樹",
+          "target": "工藤贵树"
+        },
+        {
+          "id": "scratch4.dat/s01:33864",
+          "token": 6,
+          "color": 0,
+          "source": "　",
+          "target": "　"
+        },
+        {
+          "id": "scratch4.dat/s01:33864",
+          "token": 10,
+          "color": 2,
+          "source": "７月９日",
+          "target": "7 月 9 日"
+        },
+        {
+          "id": "scratch4.dat/s01:33864",
+          "token": 14,
+          "color": 0,
+          "source": "　鞠浜警察署デカ部屋",
+          "target": "　警署刑警办公室"
         }
       ]
     },
@@ -1903,6 +1975,42 @@
           "id": "scratch4.dat/s02:7295",
           "token": 17,
           "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s02:10499:opcode4",
+      "sha256": "4ab4506ac0d72a4fb3cc07b5fb6e591b561de0d3ee312c4c3ab73646d0c743c6",
+      "script": "scratch4.dat/s02",
+      "boundary": "10499:opcode4",
+      "spans": [
+        {
+          "id": "scratch4.dat/s02:10440",
+          "token": 2,
+          "color": 12,
+          "source": "工藤貴樹",
+          "target": "工藤贵树"
+        },
+        {
+          "id": "scratch4.dat/s02:10440",
+          "token": 6,
+          "color": 0,
+          "source": "　",
+          "target": "　"
+        },
+        {
+          "id": "scratch4.dat/s02:10440",
+          "token": 10,
+          "color": 2,
+          "source": "７月17日",
+          "target": "7 月 17 日"
+        },
+        {
+          "id": "scratch4.dat/s02:10440",
+          "token": 14,
+          "color": 0,
+          "source": "　鞠浜警察署デカ部屋",
+          "target": "　警署刑警办公室"
         }
       ]
     },
@@ -3700,6 +3808,42 @@
       ]
     },
     {
+      "id": "scratch4.dat/s05:12714:opcode47",
+      "sha256": "0c5f4d1395729a7e43f1130599254920616c207a3222f5e12c7335f4e1c7a590",
+      "script": "scratch4.dat/s05",
+      "boundary": "12714:opcode47",
+      "spans": [
+        {
+          "id": "scratch4.dat/s05:12646",
+          "token": 2,
+          "color": 12,
+          "source": "工藤貴樹",
+          "target": "工藤贵树"
+        },
+        {
+          "id": "scratch4.dat/s05:12646",
+          "token": 6,
+          "color": 0,
+          "source": "　　",
+          "target": "　　"
+        },
+        {
+          "id": "scratch4.dat/s05:12646",
+          "token": 10,
+          "color": 2,
+          "source": "９月30日",
+          "target": "9 月 30 日"
+        },
+        {
+          "id": "scratch4.dat/s05:12646",
+          "token": 14,
+          "color": 0,
+          "source": "　癸生川探偵事務所",
+          "target": "　癸生川事务所"
+        }
+      ]
+    },
+    {
       "id": "scratch4.dat/s05:12977:token23",
       "sha256": "3c572fd5e0d9703fb0c4819e860e0f347f22c346e572049216974e7bb82e0519",
       "script": "scratch4.dat/s05",
@@ -4267,6 +4411,42 @@
           "id": "scratch4.dat/s10:7253",
           "token": 23,
           "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s11:890:opcode47",
+      "sha256": "e15e2b02702bd3731ae447c7dd64a9ece1e5c0947383254367681356befc9152",
+      "script": "scratch4.dat/s11",
+      "boundary": "890:opcode47",
+      "spans": [
+        {
+          "id": "scratch4.dat/s11:828",
+          "token": 2,
+          "color": 16,
+          "source": "石上雅人",
+          "target": "石上雅人"
+        },
+        {
+          "id": "scratch4.dat/s11:828",
+          "token": 6,
+          "color": 0,
+          "source": "　　",
+          "target": "　　"
+        },
+        {
+          "id": "scratch4.dat/s11:828",
+          "token": 10,
+          "color": 2,
+          "source": "７月10日",
+          "target": "7 月 10 日"
+        },
+        {
+          "id": "scratch4.dat/s11:828",
+          "token": 14,
+          "color": 0,
+          "source": "　癸生川探偵事務所",
+          "target": "　癸生川事务所"
         }
       ]
     },
@@ -5059,6 +5239,78 @@
       ]
     },
     {
+      "id": "scratch4.dat/s12:42081:opcode47",
+      "sha256": "fc801602c19c681048a6fb357bddb284c1a6a57d9ed87284217771428584516a",
+      "script": "scratch4.dat/s12",
+      "boundary": "42081:opcode47",
+      "spans": [
+        {
+          "id": "scratch4.dat/s12:42019",
+          "token": 2,
+          "color": 16,
+          "source": "石上雅人",
+          "target": "石上雅人"
+        },
+        {
+          "id": "scratch4.dat/s12:42019",
+          "token": 6,
+          "color": 0,
+          "source": "　",
+          "target": "　"
+        },
+        {
+          "id": "scratch4.dat/s12:42019",
+          "token": 10,
+          "color": 2,
+          "source": "７月21日",
+          "target": "7 月 21 日"
+        },
+        {
+          "id": "scratch4.dat/s12:42019",
+          "token": 14,
+          "color": 0,
+          "source": "　癸生川探偵事務所前",
+          "target": "　癸生川事务所前"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s12:43192:opcode47",
+      "sha256": "ebd088a4ffbe8bb1374ad6d483ff6e87023c790ae28446fc2334245b73dc94f4",
+      "script": "scratch4.dat/s12",
+      "boundary": "43192:opcode47",
+      "spans": [
+        {
+          "id": "scratch4.dat/s12:43124",
+          "token": 2,
+          "color": 16,
+          "source": "石上雅人",
+          "target": "石上雅人"
+        },
+        {
+          "id": "scratch4.dat/s12:43124",
+          "token": 6,
+          "color": 0,
+          "source": "　　",
+          "target": "　　"
+        },
+        {
+          "id": "scratch4.dat/s12:43124",
+          "token": 10,
+          "color": 2,
+          "source": "７月21日",
+          "target": "7 月 21 日"
+        },
+        {
+          "id": "scratch4.dat/s12:43124",
+          "token": 14,
+          "color": 0,
+          "source": "　癸生川探偵事務所",
+          "target": "　癸生川事务所"
+        }
+      ]
+    },
+    {
       "id": "scratch4.dat/s12:43288:token11",
       "sha256": "323a2244c35dbb74451c21aa305daffaea2950affb3fbbb6d257bc8de5d958f7",
       "script": "scratch4.dat/s12",
@@ -5143,6 +5395,104 @@
           "id": "scratch4.dat/s12:48012",
           "token": 31,
           "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s13:316:token17",
+      "sha256": "53a13d576e237369209f6b30034c6b42be2cb47806788a81630c2cb15bcda436",
+      "script": "scratch4.dat/s13",
+      "boundary": "316:token17",
+      "spans": [
+        {
+          "id": "scratch4.dat/s13:254",
+          "token": 2,
+          "color": 16,
+          "source": "石上雅人",
+          "target": "石上雅人"
+        },
+        {
+          "id": "scratch4.dat/s13:254",
+          "token": 6,
+          "color": 0,
+          "source": "　",
+          "target": "　"
+        },
+        {
+          "id": "scratch4.dat/s13:254",
+          "token": 10,
+          "color": 2,
+          "source": "７月25日",
+          "target": "7 月 25 日"
+        },
+        {
+          "id": "scratch4.dat/s13:254",
+          "token": 14,
+          "color": 0,
+          "source": "　癸生川探偵事務所前",
+          "target": "　癸生川事务所前"
+        },
+        {
+          "id": "scratch4.dat/s13:316",
+          "token": 2,
+          "color": 0,
+          "source": "…そして。",
+          "target": "……随后。"
+        },
+        {
+          "id": "scratch4.dat/s13:316",
+          "token": 8,
+          "color": 0,
+          "source": "あっという間に、",
+          "target": "转眼之间，"
+        },
+        {
+          "id": "scratch4.dat/s13:316",
+          "token": 14,
+          "color": 0,
+          "source": "３日間が過ぎ…",
+          "target": "三天过去了……"
+        },
+        {
+          "id": "scratch4.dat/s13:316",
+          "token": 17,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s13:1210:opcode47",
+      "sha256": "2bf9db30bfcc5d4c947107d310b7918d2c055b51b395ab1fccce7ad11bff530f",
+      "script": "scratch4.dat/s13",
+      "boundary": "1210:opcode47",
+      "spans": [
+        {
+          "id": "scratch4.dat/s13:1151",
+          "token": 2,
+          "color": 16,
+          "source": "石上雅人",
+          "target": "石上雅人"
+        },
+        {
+          "id": "scratch4.dat/s13:1151",
+          "token": 6,
+          "color": 0,
+          "source": "　　",
+          "target": "　　"
+        },
+        {
+          "id": "scratch4.dat/s13:1151",
+          "token": 10,
+          "color": 2,
+          "source": "７月25日",
+          "target": "7 月 25 日"
+        },
+        {
+          "id": "scratch4.dat/s13:1151",
+          "token": 14,
+          "color": 0,
+          "source": "　癸生川探偵事務所",
+          "target": "　癸生川事务所"
         }
       ]
     },
@@ -5388,6 +5738,78 @@
           "id": "scratch4.dat/s13:20094",
           "token": 11,
           "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s14:325:opcode47",
+      "sha256": "48bc13e047555c34bd51d322007c966431431091b4ae6e7596abfcb442c10768",
+      "script": "scratch4.dat/s14",
+      "boundary": "325:opcode47",
+      "spans": [
+        {
+          "id": "scratch4.dat/s14:263",
+          "token": 2,
+          "color": 16,
+          "source": "石上雅人",
+          "target": "石上雅人"
+        },
+        {
+          "id": "scratch4.dat/s14:263",
+          "token": 6,
+          "color": 0,
+          "source": "　　",
+          "target": "　　"
+        },
+        {
+          "id": "scratch4.dat/s14:263",
+          "token": 10,
+          "color": 2,
+          "source": "８月10日",
+          "target": "8 月 10 日"
+        },
+        {
+          "id": "scratch4.dat/s14:263",
+          "token": 14,
+          "color": 0,
+          "source": "　癸生川探偵事務所",
+          "target": "　癸生川事务所"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s14:3320:opcode47",
+      "sha256": "d1e29cca464a526c8ff19620a63beb09ae63afc06897406d203913848e1c9e06",
+      "script": "scratch4.dat/s14",
+      "boundary": "3320:opcode47",
+      "spans": [
+        {
+          "id": "scratch4.dat/s14:3258",
+          "token": 2,
+          "color": 16,
+          "source": "石上雅人",
+          "target": "石上雅人"
+        },
+        {
+          "id": "scratch4.dat/s14:3258",
+          "token": 6,
+          "color": 0,
+          "source": "　　",
+          "target": "　　"
+        },
+        {
+          "id": "scratch4.dat/s14:3258",
+          "token": 10,
+          "color": 2,
+          "source": "８月10日",
+          "target": "8 月 10 日"
+        },
+        {
+          "id": "scratch4.dat/s14:3258",
+          "token": 14,
+          "color": 0,
+          "source": "　癸生川探偵事務所",
+          "target": "　癸生川事务所"
         }
       ]
     },
@@ -5904,6 +6326,42 @@
       ]
     },
     {
+      "id": "scratch4.dat/s15:3761:opcode47",
+      "sha256": "a0452abdcfd1792d51a28fe77e2093537cfa48c96fb4e489cf78677eeff45d83",
+      "script": "scratch4.dat/s15",
+      "boundary": "3761:opcode47",
+      "spans": [
+        {
+          "id": "scratch4.dat/s15:3702",
+          "token": 2,
+          "color": 16,
+          "source": "石上雅人",
+          "target": "石上雅人"
+        },
+        {
+          "id": "scratch4.dat/s15:3702",
+          "token": 6,
+          "color": 0,
+          "source": "　　",
+          "target": "　　"
+        },
+        {
+          "id": "scratch4.dat/s15:3702",
+          "token": 10,
+          "color": 2,
+          "source": "９月30日",
+          "target": "9 月 30 日"
+        },
+        {
+          "id": "scratch4.dat/s15:3702",
+          "token": 14,
+          "color": 0,
+          "source": "　癸生川探偵事務所",
+          "target": "　癸生川事务所"
+        }
+      ]
+    },
+    {
       "id": "scratch4.dat/s15:5685:token17",
       "sha256": "5bf280733c6b0ba74e9aa4ffd4961ff64d2c5748f4dd6811ff9b973c992756da",
       "script": "scratch4.dat/s15",
@@ -6050,6 +6508,90 @@
           "id": "scratch4.dat/s15:13478",
           "token": 25,
           "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s15:14935:token5",
+      "sha256": "0cbf45aef62512cad0ff590f1e173ede2faa99b752ab65507e6480c6af007bb0",
+      "script": "scratch4.dat/s15",
+      "boundary": "14935:token5",
+      "spans": [
+        {
+          "id": "scratch4.dat/s15:14873",
+          "token": 2,
+          "color": 16,
+          "source": "石上雅人",
+          "target": "石上雅人"
+        },
+        {
+          "id": "scratch4.dat/s15:14873",
+          "token": 6,
+          "color": 0,
+          "source": "　",
+          "target": "　"
+        },
+        {
+          "id": "scratch4.dat/s15:14873",
+          "token": 10,
+          "color": 2,
+          "source": "10月１日",
+          "target": "10 月 1 日"
+        },
+        {
+          "id": "scratch4.dat/s15:14873",
+          "token": 14,
+          "color": 0,
+          "source": "　癸生川探偵事務所前",
+          "target": "　癸生川事务所前"
+        },
+        {
+          "id": "scratch4.dat/s15:14935",
+          "token": 2,
+          "color": 0,
+          "source": "…そして、翌朝。",
+          "target": "……于是，第二天早晨。"
+        },
+        {
+          "id": "scratch4.dat/s15:14935",
+          "token": 5,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s15:15886:opcode47",
+      "sha256": "48b4273941e7da039905cb9223d24b7320d6005f633c8a7b524ba884cdb62e2a",
+      "script": "scratch4.dat/s15",
+      "boundary": "15886:opcode47",
+      "spans": [
+        {
+          "id": "scratch4.dat/s15:15824",
+          "token": 2,
+          "color": 16,
+          "source": "石上雅人",
+          "target": "石上雅人"
+        },
+        {
+          "id": "scratch4.dat/s15:15824",
+          "token": 6,
+          "color": 0,
+          "source": "　　",
+          "target": "　　"
+        },
+        {
+          "id": "scratch4.dat/s15:15824",
+          "token": 10,
+          "color": 2,
+          "source": "10月１日",
+          "target": "10 月 1 日"
+        },
+        {
+          "id": "scratch4.dat/s15:15824",
+          "token": 14,
+          "color": 0,
+          "source": "　癸生川探偵事務所",
+          "target": "　癸生川事务所"
         }
       ]
     },
@@ -7080,7 +7622,7 @@
     },
     {
       "id": "scratch4.dat/s27:176:opcode1",
-      "sha256": "9dba1967246d6cf7c913576d62da9f733b2137d523e93542d495a7ebaffb1a2e",
+      "sha256": "facfc2f8dc8da9df386ae2b8196079cff87942907e59b05835d18aa26261a112",
       "script": "scratch4.dat/s27",
       "boundary": "176:opcode1",
       "spans": [
@@ -7110,13 +7652,13 @@
           "token": 14,
           "color": 0,
           "source": "　癸生川探偵事務所",
-          "target": "　癸生川侦探事务所"
+          "target": "　癸生川事务所"
         }
       ]
     },
     {
       "id": "scratch4.dat/s27:415:opcode47",
-      "sha256": "6eb6ec13cc2a48f419c31ac563c094418324696f3cdc8c008dca5e55add8d336",
+      "sha256": "7f8717aa92d9637eb2cb2e390e814310c9e9c68239f4970af8341fb5362350fd",
       "script": "scratch4.dat/s27",
       "boundary": "415:opcode47",
       "spans": [
@@ -7146,7 +7688,7 @@
           "token": 14,
           "color": 0,
           "source": "　癸生川探偵事務所",
-          "target": "　癸生川侦探事务所"
+          "target": "　癸生川事务所"
         }
       ]
     },
@@ -7261,7 +7803,7 @@
     },
     {
       "id": "scratch4.dat/s27:23948:opcode47",
-      "sha256": "0138e802d72d12a75ec7d9d070a9f97d95384824ac326611f735799d9000fbea",
+      "sha256": "871a4065d0550e47d11b45f46b0e0d2d368354878bdc02e938e8deb654bb8701",
       "script": "scratch4.dat/s27",
       "boundary": "23948:opcode47",
       "spans": [
@@ -7291,7 +7833,7 @@
           "token": 14,
           "color": 0,
           "source": "　癸生川探偵事務所",
-          "target": "　癸生川侦探事务所"
+          "target": "　癸生川事务所"
         }
       ]
     },
@@ -8353,6 +8895,90 @@
       ]
     },
     {
+      "id": "scratch4.dat/s35:293:opcode1",
+      "sha256": "4660bb73a6178f6d136fae6029da6f446c740503ce26cb73e73aee4d6d14eb6b",
+      "script": "scratch4.dat/s35",
+      "boundary": "293:opcode1",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35:201",
+          "token": 2,
+          "color": 8,
+          "source": "白鷺洲伊綱",
+          "target": "白鹭洲伊纲"
+        },
+        {
+          "id": "scratch4.dat/s35:201",
+          "token": 6,
+          "color": 0,
+          "source": "　",
+          "target": "　"
+        },
+        {
+          "id": "scratch4.dat/s35:201",
+          "token": 10,
+          "color": 2,
+          "source": "10月１日",
+          "target": "10 月 1 日"
+        },
+        {
+          "id": "scratch4.dat/s35:201",
+          "token": 14,
+          "color": 0,
+          "source": "　癸生川探偵事務所",
+          "target": "　癸生川事务所"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35:563:token5",
+      "sha256": "7f75cfd91fe7e60cffbde2bd6bd805532ae5cc407a81c4bfec502ad8f4ddbd83",
+      "script": "scratch4.dat/s35",
+      "boundary": "563:token5",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35:501",
+          "token": 2,
+          "color": 8,
+          "source": "白鷺洲伊綱",
+          "target": "白鹭洲伊纲"
+        },
+        {
+          "id": "scratch4.dat/s35:501",
+          "token": 6,
+          "color": 0,
+          "source": "　",
+          "target": "　"
+        },
+        {
+          "id": "scratch4.dat/s35:501",
+          "token": 10,
+          "color": 2,
+          "source": "10月１日",
+          "target": "10 月 1 日"
+        },
+        {
+          "id": "scratch4.dat/s35:501",
+          "token": 14,
+          "color": 0,
+          "source": "　癸生川探偵事務所",
+          "target": "　癸生川事务所"
+        },
+        {
+          "id": "scratch4.dat/s35:563",
+          "token": 2,
+          "color": 0,
+          "source": "…来た。",
+          "target": "……来了。"
+        },
+        {
+          "id": "scratch4.dat/s35:563",
+          "token": 5,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
       "id": "scratch4.dat/s35:738:token5",
       "sha256": "7a3e243a8dbb10cf3dfb948120f9a9fae86307a47ac88fb3e72580400b2b5999",
       "script": "scratch4.dat/s35",
@@ -8464,6 +9090,42 @@
           "id": "scratch4.dat/s35:2681",
           "token": 17,
           "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35:5004:opcode4",
+      "sha256": "5336cc473c9d1de6111950e77811ed69997a8941232778e4a992e98e97fca5b5",
+      "script": "scratch4.dat/s35",
+      "boundary": "5004:opcode4",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35:4931",
+          "token": 2,
+          "color": 8,
+          "source": "白鷺洲伊綱",
+          "target": "白鹭洲伊纲"
+        },
+        {
+          "id": "scratch4.dat/s35:4931",
+          "token": 6,
+          "color": 0,
+          "source": "　",
+          "target": "　"
+        },
+        {
+          "id": "scratch4.dat/s35:4931",
+          "token": 10,
+          "color": 2,
+          "source": "10月１日",
+          "target": "10 月 1 日"
+        },
+        {
+          "id": "scratch4.dat/s35:4931",
+          "token": 14,
+          "color": 0,
+          "source": "　癸生川探偵事務所",
+          "target": "　癸生川事务所"
         }
       ]
     },
@@ -12297,6 +12959,90 @@
       ]
     },
     {
+      "id": "scratch4.dat/s35-2:261:token5",
+      "sha256": "7266e4e7beab4826296357738866b054abd899828ccc68c7d6b21b25a110bade",
+      "script": "scratch4.dat/s35-2",
+      "boundary": "261:token5",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35-2:188",
+          "token": 2,
+          "color": 8,
+          "source": "白鷺洲伊綱",
+          "target": "白鹭洲伊纲"
+        },
+        {
+          "id": "scratch4.dat/s35-2:188",
+          "token": 6,
+          "color": 0,
+          "source": "　",
+          "target": "　"
+        },
+        {
+          "id": "scratch4.dat/s35-2:188",
+          "token": 10,
+          "color": 2,
+          "source": "10月３日",
+          "target": "10 月 3 日"
+        },
+        {
+          "id": "scratch4.dat/s35-2:188",
+          "token": 14,
+          "color": 0,
+          "source": "　癸生川探偵事務所",
+          "target": "　癸生川事务所"
+        },
+        {
+          "id": "scratch4.dat/s35-2:261",
+          "token": 2,
+          "color": 0,
+          "source": "…そして。",
+          "target": "……就这样。"
+        },
+        {
+          "id": "scratch4.dat/s35-2:261",
+          "token": 5,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s35-2:2119:opcode4",
+      "sha256": "9fa42422bdd5178b5e89361b35612b44dc257446448d992692a8cf56a7c60e24",
+      "script": "scratch4.dat/s35-2",
+      "boundary": "2119:opcode4",
+      "spans": [
+        {
+          "id": "scratch4.dat/s35-2:2046",
+          "token": 2,
+          "color": 8,
+          "source": "白鷺洲伊綱",
+          "target": "白鹭洲伊纲"
+        },
+        {
+          "id": "scratch4.dat/s35-2:2046",
+          "token": 6,
+          "color": 0,
+          "source": "　",
+          "target": "　"
+        },
+        {
+          "id": "scratch4.dat/s35-2:2046",
+          "token": 10,
+          "color": 2,
+          "source": "10月３日",
+          "target": "10 月 3 日"
+        },
+        {
+          "id": "scratch4.dat/s35-2:2046",
+          "token": 14,
+          "color": 0,
+          "source": "　癸生川探偵事務所",
+          "target": "　癸生川事务所"
+        }
+      ]
+    },
+    {
       "id": "scratch4.dat/s35-2:6797:token11",
       "sha256": "a4372e9f16032f27c5d12a1e9874021ee46802c8a3f087d1198e1cef33245727",
       "script": "scratch4.dat/s35-2",
@@ -13643,6 +14389,61 @@
       ]
     },
     {
+      "id": "scratch4.dat/s37:309:token11",
+      "sha256": "4a0580d18d831cf71fbbcec97089abc44cda258824181437481c446d1129844d",
+      "script": "scratch4.dat/s37",
+      "boundary": "309:token11",
+      "spans": [
+        {
+          "id": "scratch4.dat/s37:247",
+          "token": 2,
+          "color": 8,
+          "source": "白鷺洲伊綱",
+          "target": "白鹭洲伊纲"
+        },
+        {
+          "id": "scratch4.dat/s37:247",
+          "token": 6,
+          "color": 0,
+          "source": "　",
+          "target": "　"
+        },
+        {
+          "id": "scratch4.dat/s37:247",
+          "token": 10,
+          "color": 2,
+          "source": "12月２日",
+          "target": "12 月 2 日"
+        },
+        {
+          "id": "scratch4.dat/s37:247",
+          "token": 14,
+          "color": 0,
+          "source": "　癸生川探偵事務所",
+          "target": "　癸生川事务所"
+        },
+        {
+          "id": "scratch4.dat/s37:309",
+          "token": 2,
+          "color": 0,
+          "source": "こんにちは、",
+          "target": "大家好，"
+        },
+        {
+          "id": "scratch4.dat/s37:309",
+          "token": 8,
+          "color": 0,
+          "source": "白鷺洲伊綱です。",
+          "target": "我是白鹭洲伊纲。"
+        },
+        {
+          "id": "scratch4.dat/s37:309",
+          "token": 11,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
       "id": "scratch4.dat/s37:903:token17",
       "sha256": "6d7cdc79fb1955108febdc5e15ddaf871ac624404bac11b39658869aa300452b",
       "script": "scratch4.dat/s37",
@@ -13814,6 +14615,61 @@
         },
         {
           "id": "scratch4.dat/s37:4514",
+          "token": 11,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
+      "id": "scratch4.dat/s37:11798:token11",
+      "sha256": "6a40bab3a461b47c4b2a3256caa2518207a0a38b3bc9bb5c0257c1be6d1d2a5b",
+      "script": "scratch4.dat/s37",
+      "boundary": "11798:token11",
+      "spans": [
+        {
+          "id": "scratch4.dat/s37:11739",
+          "token": 2,
+          "color": 8,
+          "source": "白鷺洲伊綱",
+          "target": "白鹭洲伊纲"
+        },
+        {
+          "id": "scratch4.dat/s37:11739",
+          "token": 6,
+          "color": 0,
+          "source": "　",
+          "target": "　"
+        },
+        {
+          "id": "scratch4.dat/s37:11739",
+          "token": 10,
+          "color": 2,
+          "source": "12月２日",
+          "target": "12 月 2 日"
+        },
+        {
+          "id": "scratch4.dat/s37:11739",
+          "token": 14,
+          "color": 0,
+          "source": "　癸生川探偵事務所",
+          "target": "　癸生川事务所"
+        },
+        {
+          "id": "scratch4.dat/s37:11798",
+          "token": 2,
+          "color": 0,
+          "source": "そんなこんなで、",
+          "target": "转眼之间，"
+        },
+        {
+          "id": "scratch4.dat/s37:11798",
+          "token": 8,
+          "color": 0,
+          "source": "季節はもう12月。",
+          "target": "已经到了 12 月。"
+        },
+        {
+          "id": "scratch4.dat/s37:11798",
           "token": 11,
           "control": "<ctrl=2E/>"
         }
@@ -14598,9 +15454,9 @@
     }
   ],
   "word_order_review": "work/word-order-review-20260922/integration-review.json",
-  "word_order_review_sha256": "3b6f464089ccd1201401ac814812a86284f431e43fdcddd0afc0ff47af40dd95",
+  "word_order_review_sha256": "ce1e8d0fb89b98ed405ebd447664e6969a92ee243cf8c97355baa80722c5aff6",
   "input_document_sha256": "ddcd0a9bafa290fae8da03a73b21d7143dbabfe8c6d1d001a74b85438f0fbdf6",
-  "output_document_sha256": "a609a6a7aff8043627f909877f6dce0ef6e7f48805745544c184cd896a3d5330",
+  "output_document_sha256": "c0818c33454b13a2df20232f03b46585a853492ffc4b55b59b46c2b88c2050f2",
   "previous_overlay": "work/word-order-review-20260922/previous-qa-fixes.reviewed.json",
   "previous_overlay_sha256": "66e7ef6c3d5b92b8ef70e4ef56b2fe4d2c5fbfda6daf3067a1cd2c13212875f4"
 }

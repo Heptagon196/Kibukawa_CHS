@@ -1,0 +1,227 @@
+{
+  "schema": 1,
+  "scope": "All INFO occurrences of three location labels, at user request; minimum name/date gap 6px",
+  "replacements": {
+    "鞠滨警署刑警办公室": "警署刑警办公室",
+    "癸生川侦探事务所前": "癸生川事务所前",
+    "癸生川侦探事务所": "癸生川事务所"
+  },
+  "changes": [
+    {
+      "id": "scratch4.dat/s01:148",
+      "source": "<color=12>工藤貴樹</color><color=0>　</color><color=2>７月９日</color><color=0>　鞠浜警察署デカ部屋</color>",
+      "old_target": "<color=12>工藤贵树</color><color=0>　</color><color=2>7 月 9 日</color><color=0>　鞠滨警署刑警办公室</color>",
+      "target": "<color=12>工藤贵树</color><color=0>　</color><color=2>7 月 9 日</color><color=0>　警署刑警办公室</color>",
+      "reason": "用户要求这三类顶栏地点统一简称，并保证姓名与日期至少6px留白；只改INFO，不改正文全称。",
+      "proposal_file": "info-location-spacing-review-20260923.json",
+      "decision": "approved"
+    },
+    {
+      "id": "scratch4.dat/s01:33864",
+      "source": "<color=12>工藤貴樹</color><color=0>　</color><color=2>７月９日</color><color=0>　鞠浜警察署デカ部屋</color>",
+      "old_target": "<color=12>工藤贵树</color><color=0>　</color><color=2>7 月 9 日</color><color=0>　鞠滨警署刑警办公室</color>",
+      "target": "<color=12>工藤贵树</color><color=0>　</color><color=2>7 月 9 日</color><color=0>　警署刑警办公室</color>",
+      "reason": "用户要求这三类顶栏地点统一简称，并保证姓名与日期至少6px留白；只改INFO，不改正文全称。",
+      "proposal_file": "info-location-spacing-review-20260923.json",
+      "decision": "approved"
+    },
+    {
+      "id": "scratch4.dat/s02:10440",
+      "source": "<color=12>工藤貴樹</color><color=0>　</color><color=2>７月17日</color><color=0>　鞠浜警察署デカ部屋</color>",
+      "old_target": "<color=12>工藤贵树</color><color=0>　</color><color=2>7 月 17 日</color><color=0>　鞠滨警署刑警办公室</color>",
+      "target": "<color=12>工藤贵树</color><color=0>　</color><color=2>7 月 17 日</color><color=0>　警署刑警办公室</color>",
+      "reason": "用户要求这三类顶栏地点统一简称，并保证姓名与日期至少6px留白；只改INFO，不改正文全称。",
+      "proposal_file": "info-location-spacing-review-20260923.json",
+      "decision": "approved"
+    },
+    {
+      "id": "scratch4.dat/s05:12646",
+      "source": "<color=12>工藤貴樹</color><color=0>　　</color><color=2>９月30日</color><color=0>　癸生川探偵事務所</color>",
+      "old_target": "<color=12>工藤贵树</color><color=0>　　</color><color=2>9 月 30 日</color><color=0>　癸生川侦探事务所</color>",
+      "target": "<color=12>工藤贵树</color><color=0>　　</color><color=2>9 月 30 日</color><color=0>　癸生川事务所</color>",
+      "reason": "用户要求这三类顶栏地点统一简称，并保证姓名与日期至少6px留白；只改INFO，不改正文全称。",
+      "proposal_file": "info-location-spacing-review-20260923.json",
+      "decision": "approved"
+    },
+    {
+      "id": "scratch4.dat/s11:828",
+      "source": "<color=16>石上雅人</color><color=0>　　</color><color=2>７月10日</color><color=0>　癸生川探偵事務所</color>",
+      "old_target": "<color=16>石上雅人</color><color=0>　　</color><color=2>7 月 10 日</color><color=0>　癸生川侦探事务所</color>",
+      "target": "<color=16>石上雅人</color><color=0>　　</color><color=2>7 月 10 日</color><color=0>　癸生川事务所</color>",
+      "reason": "用户要求这三类顶栏地点统一简称，并保证姓名与日期至少6px留白；只改INFO，不改正文全称。",
+      "proposal_file": "info-location-spacing-review-20260923.json",
+      "decision": "approved"
+    },
+    {
+      "id": "scratch4.dat/s12:42019",
+      "source": "<color=16>石上雅人</color><color=0>　</color><color=2>７月21日</color><color=0>　癸生川探偵事務所前</color>",
+      "old_target": "<color=16>石上雅人</color><color=0>　</color><color=2>7 月 21 日</color><color=0>　癸生川侦探事务所前</color>",
+      "target": "<color=16>石上雅人</color><color=0>　</color><color=2>7 月 21 日</color><color=0>　癸生川事务所前</color>",
+      "reason": "用户要求这三类顶栏地点统一简称，并保证姓名与日期至少6px留白；只改INFO，不改正文全称。",
+      "proposal_file": "info-location-spacing-review-20260923.json",
+      "decision": "approved"
+    },
+    {
+      "id": "scratch4.dat/s12:43124",
+      "source": "<color=16>石上雅人</color><color=0>　　</color><color=2>７月21日</color><color=0>　癸生川探偵事務所</color>",
+      "old_target": "<color=16>石上雅人</color><color=0>　　</color><color=2>7 月 21 日</color><color=0>　癸生川侦探事务所</color>",
+      "target": "<color=16>石上雅人</color><color=0>　　</color><color=2>7 月 21 日</color><color=0>　癸生川事务所</color>",
+      "reason": "用户要求这三类顶栏地点统一简称，并保证姓名与日期至少6px留白；只改INFO，不改正文全称。",
+      "proposal_file": "info-location-spacing-review-20260923.json",
+      "decision": "approved"
+    },
+    {
+      "id": "scratch4.dat/s13:254",
+      "source": "<color=16>石上雅人</color><color=0>　</color><color=2>７月25日</color><color=0>　癸生川探偵事務所前</color>",
+      "old_target": "<color=16>石上雅人</color><color=0>　</color><color=2>7 月 25 日</color><color=0>　癸生川侦探事务所前</color>",
+      "target": "<color=16>石上雅人</color><color=0>　</color><color=2>7 月 25 日</color><color=0>　癸生川事务所前</color>",
+      "reason": "用户要求这三类顶栏地点统一简称，并保证姓名与日期至少6px留白；只改INFO，不改正文全称。",
+      "proposal_file": "info-location-spacing-review-20260923.json",
+      "decision": "approved"
+    },
+    {
+      "id": "scratch4.dat/s13:1151",
+      "source": "<color=16>石上雅人</color><color=0>　　</color><color=2>７月25日</color><color=0>　癸生川探偵事務所</color>",
+      "old_target": "<color=16>石上雅人</color><color=0>　　</color><color=2>7 月 25 日</color><color=0>　癸生川侦探事务所</color>",
+      "target": "<color=16>石上雅人</color><color=0>　　</color><color=2>7 月 25 日</color><color=0>　癸生川事务所</color>",
+      "reason": "用户要求这三类顶栏地点统一简称，并保证姓名与日期至少6px留白；只改INFO，不改正文全称。",
+      "proposal_file": "info-location-spacing-review-20260923.json",
+      "decision": "approved"
+    },
+    {
+      "id": "scratch4.dat/s14:263",
+      "source": "<color=16>石上雅人</color><color=0>　　</color><color=2>８月10日</color><color=0>　癸生川探偵事務所</color>",
+      "old_target": "<color=16>石上雅人</color><color=0>　　</color><color=2>8 月 10 日</color><color=0>　癸生川侦探事务所</color>",
+      "target": "<color=16>石上雅人</color><color=0>　　</color><color=2>8 月 10 日</color><color=0>　癸生川事务所</color>",
+      "reason": "用户要求这三类顶栏地点统一简称，并保证姓名与日期至少6px留白；只改INFO，不改正文全称。",
+      "proposal_file": "info-location-spacing-review-20260923.json",
+      "decision": "approved"
+    },
+    {
+      "id": "scratch4.dat/s14:3258",
+      "source": "<color=16>石上雅人</color><color=0>　　</color><color=2>８月10日</color><color=0>　癸生川探偵事務所</color>",
+      "old_target": "<color=16>石上雅人</color><color=0>　　</color><color=2>8 月 10 日</color><color=0>　癸生川侦探事务所</color>",
+      "target": "<color=16>石上雅人</color><color=0>　　</color><color=2>8 月 10 日</color><color=0>　癸生川事务所</color>",
+      "reason": "用户要求这三类顶栏地点统一简称，并保证姓名与日期至少6px留白；只改INFO，不改正文全称。",
+      "proposal_file": "info-location-spacing-review-20260923.json",
+      "decision": "approved"
+    },
+    {
+      "id": "scratch4.dat/s15:3702",
+      "source": "<color=16>石上雅人</color><color=0>　　</color><color=2>９月30日</color><color=0>　癸生川探偵事務所</color>",
+      "old_target": "<color=16>石上雅人</color><color=0>　　</color><color=2>9 月 30 日</color><color=0>　癸生川侦探事务所</color>",
+      "target": "<color=16>石上雅人</color><color=0>　　</color><color=2>9 月 30 日</color><color=0>　癸生川事务所</color>",
+      "reason": "用户要求这三类顶栏地点统一简称，并保证姓名与日期至少6px留白；只改INFO，不改正文全称。",
+      "proposal_file": "info-location-spacing-review-20260923.json",
+      "decision": "approved"
+    },
+    {
+      "id": "scratch4.dat/s15:14873",
+      "source": "<color=16>石上雅人</color><color=0>　</color><color=2>10月１日</color><color=0>　癸生川探偵事務所前</color>",
+      "old_target": "<color=16>石上雅人</color><color=0>　</color><color=2>10 月 1 日</color><color=0>　癸生川侦探事务所前</color>",
+      "target": "<color=16>石上雅人</color><color=0>　</color><color=2>10 月 1 日</color><color=0>　癸生川事务所前</color>",
+      "reason": "用户要求这三类顶栏地点统一简称，并保证姓名与日期至少6px留白；只改INFO，不改正文全称。",
+      "proposal_file": "info-location-spacing-review-20260923.json",
+      "decision": "approved"
+    },
+    {
+      "id": "scratch4.dat/s15:15824",
+      "source": "<color=16>石上雅人</color><color=0>　　</color><color=2>10月１日</color><color=0>　癸生川探偵事務所</color>",
+      "old_target": "<color=16>石上雅人</color><color=0>　　</color><color=2>10 月 1 日</color><color=0>　癸生川侦探事务所</color>",
+      "target": "<color=16>石上雅人</color><color=0>　　</color><color=2>10 月 1 日</color><color=0>　癸生川事务所</color>",
+      "reason": "用户要求这三类顶栏地点统一简称，并保证姓名与日期至少6px留白；只改INFO，不改正文全称。",
+      "proposal_file": "info-location-spacing-review-20260923.json",
+      "decision": "approved"
+    },
+    {
+      "id": "scratch4.dat/s27:114",
+      "source": "<color=16>沖村勇</color><color=0>　　　</color><color=2>10月12日</color><color=0>　癸生川探偵事務所</color>",
+      "old_target": "<color=16>冲村勇</color><color=0>　　</color><color=2>10 月 12 日</color><color=0>　癸生川侦探事务所</color>",
+      "target": "<color=16>冲村勇</color><color=0>　　</color><color=2>10 月 12 日</color><color=0>　癸生川事务所</color>",
+      "reason": "用户要求这三类顶栏地点统一简称，并保证姓名与日期至少6px留白；只改INFO，不改正文全称。",
+      "proposal_file": "info-location-spacing-review-20260923.json",
+      "decision": "approved"
+    },
+    {
+      "id": "scratch4.dat/s27:353",
+      "source": "<color=16>沖村勇</color><color=0>　　　</color><color=2>10月12日</color><color=0>　癸生川探偵事務所</color>",
+      "old_target": "<color=16>冲村勇</color><color=0>　　</color><color=2>10 月 12 日</color><color=0>　癸生川侦探事务所</color>",
+      "target": "<color=16>冲村勇</color><color=0>　　</color><color=2>10 月 12 日</color><color=0>　癸生川事务所</color>",
+      "reason": "用户要求这三类顶栏地点统一简称，并保证姓名与日期至少6px留白；只改INFO，不改正文全称。",
+      "proposal_file": "info-location-spacing-review-20260923.json",
+      "decision": "approved"
+    },
+    {
+      "id": "scratch4.dat/s27:23889",
+      "source": "<color=16>沖村勇</color><color=0>　　　</color><color=2>10月12日</color><color=0>　癸生川探偵事務所</color>",
+      "old_target": "<color=16>冲村勇</color><color=0>　　</color><color=2>10 月 12 日</color><color=0>　癸生川侦探事务所</color>",
+      "target": "<color=16>冲村勇</color><color=0>　　</color><color=2>10 月 12 日</color><color=0>　癸生川事务所</color>",
+      "reason": "用户要求这三类顶栏地点统一简称，并保证姓名与日期至少6px留白；只改INFO，不改正文全称。",
+      "proposal_file": "info-location-spacing-review-20260923.json",
+      "decision": "approved"
+    },
+    {
+      "id": "scratch4.dat/s35:201",
+      "source": "<color=8>白鷺洲伊綱</color><color=0>　</color><color=2>10月１日</color><color=0>　癸生川探偵事務所</color>",
+      "old_target": "<color=8>白鹭洲伊纲</color><color=0>　</color><color=2>10 月 1 日</color><color=0>　癸生川侦探事务所</color>",
+      "target": "<color=8>白鹭洲伊纲</color><color=0>　</color><color=2>10 月 1 日</color><color=0>　癸生川事务所</color>",
+      "reason": "用户要求这三类顶栏地点统一简称，并保证姓名与日期至少6px留白；只改INFO，不改正文全称。",
+      "proposal_file": "info-location-spacing-review-20260923.json",
+      "decision": "approved"
+    },
+    {
+      "id": "scratch4.dat/s35:501",
+      "source": "<color=8>白鷺洲伊綱</color><color=0>　</color><color=2>10月１日</color><color=0>　癸生川探偵事務所</color>",
+      "old_target": "<color=8>白鹭洲伊纲</color><color=0>　</color><color=2>10 月 1 日</color><color=0>　癸生川侦探事务所</color>",
+      "target": "<color=8>白鹭洲伊纲</color><color=0>　</color><color=2>10 月 1 日</color><color=0>　癸生川事务所</color>",
+      "reason": "用户要求这三类顶栏地点统一简称，并保证姓名与日期至少6px留白；只改INFO，不改正文全称。",
+      "proposal_file": "info-location-spacing-review-20260923.json",
+      "decision": "approved"
+    },
+    {
+      "id": "scratch4.dat/s35:4931",
+      "source": "<color=8>白鷺洲伊綱</color><color=0>　</color><color=2>10月１日</color><color=0>　癸生川探偵事務所</color>",
+      "old_target": "<color=8>白鹭洲伊纲</color><color=0>　</color><color=2>10 月 1 日</color><color=0>　癸生川侦探事务所</color>",
+      "target": "<color=8>白鹭洲伊纲</color><color=0>　</color><color=2>10 月 1 日</color><color=0>　癸生川事务所</color>",
+      "reason": "用户要求这三类顶栏地点统一简称，并保证姓名与日期至少6px留白；只改INFO，不改正文全称。",
+      "proposal_file": "info-location-spacing-review-20260923.json",
+      "decision": "approved"
+    },
+    {
+      "id": "scratch4.dat/s35-2:188",
+      "source": "<color=8>白鷺洲伊綱</color><color=0>　</color><color=2>10月３日</color><color=0>　癸生川探偵事務所</color>",
+      "old_target": "<color=8>白鹭洲伊纲</color><color=0>　</color><color=2>10 月 3 日</color><color=0>　癸生川侦探事务所</color>",
+      "target": "<color=8>白鹭洲伊纲</color><color=0>　</color><color=2>10 月 3 日</color><color=0>　癸生川事务所</color>",
+      "reason": "用户要求这三类顶栏地点统一简称，并保证姓名与日期至少6px留白；只改INFO，不改正文全称。",
+      "proposal_file": "info-location-spacing-review-20260923.json",
+      "decision": "approved"
+    },
+    {
+      "id": "scratch4.dat/s35-2:2046",
+      "source": "<color=8>白鷺洲伊綱</color><color=0>　</color><color=2>10月３日</color><color=0>　癸生川探偵事務所</color>",
+      "old_target": "<color=8>白鹭洲伊纲</color><color=0>　</color><color=2>10 月 3 日</color><color=0>　癸生川侦探事务所</color>",
+      "target": "<color=8>白鹭洲伊纲</color><color=0>　</color><color=2>10 月 3 日</color><color=0>　癸生川事务所</color>",
+      "reason": "用户要求这三类顶栏地点统一简称，并保证姓名与日期至少6px留白；只改INFO，不改正文全称。",
+      "proposal_file": "info-location-spacing-review-20260923.json",
+      "decision": "approved"
+    },
+    {
+      "id": "scratch4.dat/s37:247",
+      "source": "<color=8>白鷺洲伊綱</color><color=0>　</color><color=2>12月２日</color><color=0>　癸生川探偵事務所</color>",
+      "old_target": "<color=8>白鹭洲伊纲</color><color=0>　</color><color=2>12 月 2 日</color><color=0>　癸生川侦探事务所</color>",
+      "target": "<color=8>白鹭洲伊纲</color><color=0>　</color><color=2>12 月 2 日</color><color=0>　癸生川事务所</color>",
+      "reason": "用户要求这三类顶栏地点统一简称，并保证姓名与日期至少6px留白；只改INFO，不改正文全称。",
+      "proposal_file": "info-location-spacing-review-20260923.json",
+      "decision": "approved"
+    },
+    {
+      "id": "scratch4.dat/s37:11739",
+      "source": "<color=8>白鷺洲伊綱</color><color=0>　</color><color=2>12月２日</color><color=0>　癸生川探偵事務所</color>",
+      "old_target": "<color=8>白鹭洲伊纲</color><color=0>　</color><color=2>12 月 2 日</color><color=0>　癸生川侦探事务所</color>",
+      "target": "<color=8>白鹭洲伊纲</color><color=0>　</color><color=2>12 月 2 日</color><color=0>　癸生川事务所</color>",
+      "reason": "用户要求这三类顶栏地点统一简称，并保证姓名与日期至少6px留白；只改INFO，不改正文全称。",
+      "proposal_file": "info-location-spacing-review-20260923.json",
+      "decision": "approved"
+    }
+  ]
+}

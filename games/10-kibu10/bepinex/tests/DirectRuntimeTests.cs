@@ -49,7 +49,7 @@ public class DirectHarness : DirectCanvasRuntime
    Check(positions[0]==10,"Every named INFO must have the same left anchor: "+tagged);
    int nameEnd=date;while(nameEnd>0 && Char.IsWhiteSpace(row.Text[nameEnd-1]))nameEnd--;
    int nameRight=10+DirectTextLayout.MeasureNative(row.Text,0,nameEnd);
-   Check(positions[date]>=nameRight,"Name and date cells must not overlap: "+tagged);
+   Check(positions[date]>=nameRight+6,"Name and date must have at least 6px clearance: "+tagged);
    for(int i=nameEnd;i<date;i++)Check(positions[i]==-1,"Authored padding must not be drawn");
   }
   int last=row.Text.Length-1;
