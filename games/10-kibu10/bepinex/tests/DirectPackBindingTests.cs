@@ -18,7 +18,7 @@ public static class DirectPackBindingTests
   var assembly=Assembly.LoadFrom(original);
   var decoder=(Func<byte[],string>)Delegate.CreateDelegate(typeof(Func<byte[],string>),assembly.GetType("USEncoder.ToEncoding").GetMethod("ToUnicode",new[]{typeof(byte[])}));
   var pack=RuntimePack.Load(Path.Combine(game,"bepinex/build/plugin/translations.bin"),Kibu10ZhCN.ScriptIdentityData.Names,decoder);
-  var audit=new List<string>();int changed=0,retained=0,overflow=0,protectedSplits=0;
+  var audit=new List<string>();var pageAudit=new List<string>{"script\toffset\twidth\tcapacity\trows"};int changed=0,retained=0,overflow=0,protectedSplits=0;
   int count=0,displays=0,strings=0,reflowed=0,maxRows=0;var seen=new HashSet<ScriptTranslation>();
   foreach(string file in Directory.GetFiles(Path.Combine(game,"raw"),"*.bin",SearchOption.AllDirectories))
   {
@@ -81,6 +81,7 @@ public static class DirectPackBindingTests
      var rows=DirectTextLayout.Wrap(display.Rows,204,4);
      foreach(int availableWidth in new[]{204,220})foreach(int capacity in new[]{4,5}){
       var variant=DirectTextLayout.Wrap(display.Rows,availableWidth,capacity);
+      pageAudit.Add(Path.GetFileNameWithoutExtension(file)+"\t"+display.Offset+"\t"+availableWidth+"\t"+capacity+"\t"+variant.Length);
       if(variant.Length>Math.Max(display.Rows.Length,capacity) || Planes(variant)!=Planes(display.Rows))throw new Exception("Layout variant violated text/event planes or row reservation");
       if(capacity==5)foreach(var line in variant)
        if(DirectTextLayout.Measure(line.Text,0,line.Text.Length)>availableWidth)throw new Exception("Five-row layout overflow at "+display.Offset+": "+line.Text+" (width="+DirectTextLayout.Measure(line.Text,0,line.Text.Length)+", available="+availableWidth+")");
@@ -136,6 +137,7 @@ public static class DirectPackBindingTests
    count++;displays+=script.Displays.Count;strings+=script.Strings.Count;
   }
   File.WriteAllLines(Path.Combine(game,"reports/layout-four-row-pressure.tsv"),audit);
+  File.WriteAllLines(Path.Combine(game,"reports/dialogue-page-rows.tsv"),pageAudit);
   Console.WriteLine("LAYOUT planned="+changed+" authored_or_retained="+retained+" five_row_narrator_case_rows="+overflow+" protected_new_splits="+protectedSplits+"; all five-row variants fit, all text/color/event anchors identical");
   // Four inactive raw copies are byte-identical to their canonical file BIN.
   if(count!=40 || pack.Scripts.Count!=36)throw new Exception("Expected 40 BINs / 36 canonical scripts, got "+count+" / "+pack.Scripts.Count);

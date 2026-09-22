@@ -14,3 +14,5 @@ $sources=@('engine/core/TranslationCatalog.cs','engine/core/TranslationPackReade
 Add-Type -Path $sources
 $original=Join-Path $series '../../GmodeArchivesPlus_kibu10/kibu10_Data/Managed/Assembly-CSharp.dll'
 [DirectPackBindingTests]::Run($game,$original)
+& (Join-Path $series '.venv/Scripts/python.exe') (Join-Path $game 'scripts/audit_dialogue_pages.py')
+if($LASTEXITCODE -ne 0){throw 'Dialogue page capacity audit failed'}
