@@ -212725,7 +212725,7 @@
         {
           "text_index": 9655,
           "source_text": "私の此の喋り方、何処か変わって居ると申しますか？",
-          "translated_text": "您是说，我这说话的方式，有什么奇怪之处吗？”",
+          "translated_text": "您觉得我的说话方式很奇怪吗？”（译注：原文多用汉字与敬语，显得古板。）",
           "translation_status": 1,
           "model": "Codex parallel translation and review",
           "extra": {
@@ -212740,7 +212740,7 @@
               "argument": 0
             },
             "tagged_source": "<color=0>私の此の喋り方、</color><row/><color=0>何処か変わって居ると</color><row/><color=0>申しますか？</color><ctrl=2E/>",
-            "tagged_target": "<color=0>您是说，</color><row/><color=0>我这说话的方式，</color><row/><color=0>有什么奇怪之处吗？”</color><ctrl=2E/>",
+            "tagged_target": "<color=0>您觉得我的说话方式</color><row/><color=0>很奇怪吗？”</color><row/><color=0>（译注：原文多用汉字与敬语，显得古板。）</color><ctrl=2E/>",
             "active": true
           }
         },
@@ -261837,7 +261837,7 @@
     "authoritative_draft": "work/dialogue-tagged.json",
     "translation_stage": "reviewed",
     "semantic_release_review_complete": true,
-    "reviewed_dialogue_sha256": "5f0f64e06cbab97945e1c2aa3c6be41dcf667056c7bbc15cf43a7443753404f2",
+    "reviewed_dialogue_sha256": "09220c3bf43f4825a143946d94347a4ed79ac871081f0f1ad735d86d55b7c933",
     "click_review_sha256": "ad3cde2a771ed42ea794e564309340bd394c425c99713ebfa0b345896a369190",
     "color_review_sha256": "f84f25b108c9bc5df01f7a9a89cf06bd0dfeeadc4fc581b16c022d7e4eb1ef51",
     "quality_gate_sha256": "9b045ca48cfae9958fa2c0c9a7eaf20cbfdbf9618a22a84e386d429d1032179b"

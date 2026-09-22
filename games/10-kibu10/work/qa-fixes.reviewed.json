@@ -2,7 +2,7 @@
   "schema": 1,
   "adapter": "gmode-20050817-direct",
   "reviewer": "root integration after independent semantic, punctuation, color, conflict and native INFO layout review; file/help:2222 controls, scene-s10 transition and s11 Jugemu quotation plus translator note, and s01 victim identity wording explicitly reviewed after user feedback; exact word-order manifest and previous approval chain verified",
-  "dialogue_sha256": "5f0f64e06cbab97945e1c2aa3c6be41dcf667056c7bbc15cf43a7443753404f2",
+  "dialogue_sha256": "09220c3bf43f4825a143946d94347a4ed79ac871081f0f1ad735d86d55b7c933",
   "integration_review": "work/fixes/integration-review.json",
   "integration_review_sha256": "21d82e9f17fba11bd009a2e999fb1352f5542249e29180a97301debfc1233d58",
   "info_layout_units": [
@@ -14798,6 +14798,40 @@
       ]
     },
     {
+      "id": "file/append:5451:token17",
+      "sha256": "57a4b20505eb416ba76ea5f97584e601110bf332568154a1f7d4bd573395f046",
+      "script": "file/append",
+      "boundary": "5451:token17",
+      "spans": [
+        {
+          "id": "file/append:5451",
+          "token": 2,
+          "color": 0,
+          "source": "私の此の喋り方、",
+          "target": "您觉得我的说话方式"
+        },
+        {
+          "id": "file/append:5451",
+          "token": 8,
+          "color": 0,
+          "source": "何処か変わって居ると",
+          "target": "很奇怪吗？”"
+        },
+        {
+          "id": "file/append:5451",
+          "token": 14,
+          "color": 0,
+          "source": "申しますか？",
+          "target": "（译注：原文多用汉字与敬语，显得古板。）"
+        },
+        {
+          "id": "file/append:5451",
+          "token": 17,
+          "control": "<ctrl=2E/>"
+        }
+      ]
+    },
+    {
       "id": "file/append:5843:token17",
       "sha256": "2bf0130923f4e5f9e6ef54bca69effa50a9b12193e105abb0fbf19fe264fe4f2",
       "script": "file/append",
@@ -15542,9 +15576,9 @@
     }
   ],
   "word_order_review": "work/word-order-review-20260922/integration-review.json",
-  "word_order_review_sha256": "260d3014e711328b29b60605b2b87428357f9919f546036cb26a244bec80c2db",
+  "word_order_review_sha256": "16c2cdf444aaed0c27a64ee66f30283ab9b9b74e68a1a113d5bd78f633e167ad",
   "input_document_sha256": "ddcd0a9bafa290fae8da03a73b21d7143dbabfe8c6d1d001a74b85438f0fbdf6",
-  "output_document_sha256": "c3388bac1d31ffec038a3a72c954e4627a827a0eb1027aba1c0103c58fba7579",
+  "output_document_sha256": "2329435a81871a812765d69bb416f82051a6f70356e2e93bacf7569a05521c8b",
   "previous_overlay": "work/word-order-review-20260922/previous-qa-fixes.reviewed.json",
   "previous_overlay_sha256": "66e7ef6c3d5b92b8ef70e4ef56b2fe4d2c5fbfda6daf3067a1cd2c13212875f4"
 }
