@@ -1,0 +1,6 @@
+<div style="position:absolute;inset:0;background:#191820;color:#fff;padding:30px;box-sizing:border-box;font:22px/1.6 'Microsoft YaHei',sans-serif">
+<button class="menu_close" style="float:right;font:inherit">返回游戏</button><h2 style="margin:0 0 20px">读取进度</h2>
+<div class="area_save_list" style="height:510px;overflow:auto"><div class="save_list">
+{{for array_save}}<button class="save_display_area" data-num="{{:num}}" style="display:block;width:100%;margin:10px 0;padding:15px;text-align:left;font:inherit">
+存档 {{:num+1}}<br>{{if save_date}}{{>save_date}}<br>{{>title}}{{else}}空存档{{/if}}
+</button>{{/for}}</div></div></div>

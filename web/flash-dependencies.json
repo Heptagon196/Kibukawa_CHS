@@ -1,0 +1,32 @@
+[
+  {
+    "path": "noto-sans-sc/NotoSansSC[wght].ttf",
+    "url": "https://raw.githubusercontent.com/google/fonts/a85815a42757630ce188fdad368c2dfc444d4773/ofl/notosanssc/NotoSansSC%5Bwght%5D.ttf",
+    "sha256": "a3041811a78c361b1de50f953c805e0244951c21c5bd412f7232ef0d899af0da"
+  },
+  {
+    "path": "noto-sans-sc/OFL.txt",
+    "url": "https://raw.githubusercontent.com/google/fonts/a85815a42757630ce188fdad368c2dfc444d4773/ofl/notosanssc/OFL.txt",
+    "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9"
+  },
+  {
+    "path": "ruffle-nightly.zip",
+    "url": "https://github.com/ruffle-rs/ruffle/releases/download/nightly-2026-09-23/ruffle-nightly-2026_09_23-web-selfhosted.zip",
+    "sha256": "f948aa88677965314abd8114adb038c5ad1252b0101951904c87ea0a5e7b3c04",
+    "extract": "ruffle-nightly"
+  },
+  {
+    "path": "ffdec.zip",
+    "url": "https://github.com/jindrapetrik/jpexs-decompiler/releases/download/nightly3559/ffdec_26.3.0_nightly3559.zip",
+    "sha256": "b4e687d375a7d60e77366394052e4d8e1f9e4252a080cc6dfc5a30e3c2513220",
+    "extract": "ffdec",
+    "purpose": "build only"
+  },
+  {
+    "path": "java.zip",
+    "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.9%2B10/OpenJDK21U-jre_x64_windows_hotspot_21.0.9_10.zip",
+    "sha256": "39c5e23f3ce4d420663afba8ffde28034b72e2b3e240943dc2321bc1f912eef9",
+    "extract": "java",
+    "purpose": "build only"
+  }
+]

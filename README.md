@@ -2,6 +2,8 @@
 
 [历史记录插件](engine/history/README.md) 的操作、支持范围、构建与安装说明见其独立文档。
 
+[网页番外汉化](web/README.md)：诞生纪念日事件、运行测试事件Ⅱ、狭稻温泉乡杀人事件。译文、中文标题素材、构建与本地启动工具位于 `web/`；温泉篇保留原作未完成的范围说明。
+
 仓库：`Kibukawa_CHS`。需要自行安装对应的正版游戏；仓库不包含游戏程序、原始资源或个人存档。
 
 首次克隆后，安装 Python、PowerShell 7、.NET SDK 6+ 和 Windows .NET Framework 4.x，运行 `setup.cmd` 准备 Python 与 Mono.Cecil 依赖，再编辑 `series.json` 的安装路径。构建会从已校验的本机游戏恢复所需原文快照，保留仓库中的译文；BepInEx 和 Unifont 由构建脚本自动下载并校验。

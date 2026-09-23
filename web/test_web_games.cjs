@@ -1,0 +1,40 @@
+const {chromium}=require(process.env.PLAYWRIGHT_PATH||'C:/Users/hepta/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
+const fs=require('fs'),path=require('path');
+(async()=>{
+const browser=await chromium.launch({headless:true,executablePath:process.env.BROWSER_PATH||'C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe'});
+try{
+ const b=await browser.newPage({viewport:{width:900,height:820}}),errors=[];
+ b.on('pageerror',e=>errors.push(String(e)));b.on('dialog',d=>d.accept());
+ b.on('response',r=>{if(r.status()>=400)console.log('Birthday HTTP',r.status(),r.url())});
+ const dir=path.join(__dirname,'birthday/reports/verification');fs.mkdirSync(dir,{recursive:true});
+ await b.goto('http://127.0.0.1:8766/birthday/build/');await b.waitForTimeout(4000);
+ await b.getByText('点击开始',{exact:true}).click();await b.waitForTimeout(1200);
+ await b.screenshot({path:path.join(dir,'title.png')});
+ await b.getByText('开始游戏',{exact:true}).click();await b.waitForTimeout(3500);
+ await b.screenshot({path:path.join(dir,'opening.png')});
+ await b.evaluate(()=>TYRANO.kag.menu.displayLog());await b.waitForTimeout(800);
+ await b.getByText('对话记录',{exact:true}).waitFor();await b.screenshot({path:path.join(dir,'log.png')});
+ await b.getByText('返回游戏',{exact:true}).click();await b.waitForTimeout(400);
+ await b.evaluate(()=>TYRANO.kag.menu.displaySave());await b.waitForTimeout(800);
+ await b.getByText('保存进度',{exact:true}).waitFor();await b.screenshot({path:path.join(dir,'save.png')});
+ await b.getByText('返回游戏',{exact:true}).click();await b.waitForTimeout(400);
+ await b.evaluate(()=>TYRANO.kag.menu.displayLoad());await b.waitForTimeout(800);
+ await b.getByText('读取进度',{exact:true}).waitFor();await b.screenshot({path:path.join(dir,'load.png')});
+ await b.getByText('返回游戏',{exact:true}).click();
+ console.log(JSON.stringify({birthdayMenus:true,errors}));
+ fs.writeFileSync(path.join(dir,'result.json'),JSON.stringify({menus:true,errors},null,2));
+ if(errors.length)process.exitCode=1;
+ const p=await browser.newPage({viewport:{width:900,height:800}}),opErrors=[];
+ p.on('pageerror',e=>opErrors.push(String(e)));
+ const odir=path.join(__dirname,'operation-check-2/reports/verification');fs.mkdirSync(odir,{recursive:true});
+ await p.goto('http://127.0.0.1:8766/operation-check-2/build/');await p.waitForTimeout(18000);
+ await p.mouse.click(450,400);await p.waitForTimeout(8000);
+ console.log('Pyxel DOM',await p.locator('body').first().innerText());
+ await p.screenshot({path:path.join(odir,'title.png')});
+ await p.mouse.move(50,50);await p.keyboard.press('ArrowDown');await p.keyboard.press('Enter');await p.waitForTimeout(2500);
+ await p.keyboard.press('Enter');await p.waitForTimeout(2000);
+ await p.screenshot({path:path.join(odir,'opening.png')});
+ fs.writeFileSync(path.join(odir,'result.json'),JSON.stringify({errors:opErrors},null,2));
+ console.log(JSON.stringify({pyxelErrors:opErrors}));if(opErrors.length)process.exitCode=1;
+}finally{await browser.close()}
+})().catch(e=>{console.error(e);process.exitCode=1});

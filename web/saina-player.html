@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="zh-CN"><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>狭稻温泉乡杀人事件 · 中文版</title>
+<style>
+@font-face{font-family:"Saina Noto";src:url("NotoSansSC.ttf") format("truetype");font-weight:100 900;font-style:normal;font-display:block}
+body{margin:0;background:#202324;color:#eee;text-align:center;font-family:system-ui,sans-serif}
+#player{width:min(800px,100vw);aspect-ratio:4/3;margin:auto}
+p{margin:12px}a{color:#9bc5ff}
+</style>
+<p>狭稻温泉乡杀人事件 · 中文版</p>
+<div id="player"></div>
+<p id="status">正在加载字体与运行器……</p>
+<script src="ruffle/ruffle.js"></script>
+<script>
+window.RufflePlayer=window.RufflePlayer||{};
+window.RufflePlayer.config={autoplay:"on",unmuteOverlay:"hidden",allowScriptAccess:false,deviceFontRenderer:"canvas"};
+window.addEventListener("load",async()=>{
+ try{
+  await Promise.all([document.fonts.load('27px "Saina Noto"'),document.fonts.load('bold 24px "Saina Noto"')]);
+  const p=window.RufflePlayer.newest().createPlayer();
+  p.style.width="100%";p.style.height="100%";
+  document.getElementById("player").appendChild(p);
+  await p.ruffle().load({url:"LemoNovel.swf",parameters:{fromBrowser:"true"}});
+  document.getElementById("status").textContent="点击画面操作，右键可查看记录或返回标题。原作正式流程止于第四章，另附第五章未完成草稿。";
+ }catch(e){document.getElementById("status").textContent="加载失败："+e.message;}
+});
+</script></html>
