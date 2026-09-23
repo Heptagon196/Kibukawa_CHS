@@ -5,12 +5,12 @@
   "version": "0.1.39",
   "filename": "癸生川凌介 10-永劫会事件-CHS.zip",
   "github_name": "Kibukawa-10-Eigoukai-CHS.zip",
-  "size": 2392941,
-  "sha256": "92de2e0ea008e3befe2c644dca00d84e976203298a54e3b2ea132359d8be05a2",
-  "base_zip_sha256": "5371302ac4d9ff7aed254bc7f1a7f5fa188948c3c188bfdf2530394a5c74e45b",
-  "source_commit": "202f436fa0de1f807c8db9bb51c2152bf08e3f39",
+  "size": 2392948,
+  "sha256": "22e9568bd18bd2412513f7a083b1df323bbfc10029663008c82dba70d26989f3",
+  "base_zip_sha256": "24c36472d27be54a1989dc55a80fb6f5c03119133e51bcc115bbd0938710950a",
+  "source_commit": "9246c7ec43723e15e498973f21058688e5fe52ab",
   "reviewed_input_hashes": {
-    "games/10-kibu10/work/dialogue-tagged.json": "9ae00097a9600482bc40dc03ce8673e60a72df6225e254ee2a799be3495a148c",
+    "games/10-kibu10/work/dialogue-tagged.json": "08c17a4d8fbb11383146c03521650a08ee91ac69ee634bc0d15104d815533aa7",
     "games/10-kibu10/work/glossary.locked.json": "b10bdb3fe5370cb866093a7d3e4ab40d26c5e51529be78a97bdc994a8c17bba0",
     "games/10-kibu10/work/click_boundaries.reviewed.json": "ad3cde2a771ed42ea794e564309340bd394c425c99713ebfa0b345896a369190",
     "games/10-kibu10/research/color-spans.reviewed.json": "f84f25b108c9bc5df01f7a9a89cf06bd0dfeeadc4fc581b16c022d7e4eb1ef51",
@@ -20,7 +20,7 @@
     "series/glossary.json": "c9f950ef34dc154d7327feb08a993c8a847ba85dac932ce9b274e791ee6a4f82"
   },
   "sources": {
-    "games/10-kibu10/bepinex/build/generated/DirectLexicon.cs": "672869b0b290ed1c30e9a65525471d76f89985924e12c950b2364899da1d4ac9",
+    "games/10-kibu10/bepinex/build/generated/DirectLexicon.cs": "cac2c5466977ccc04a777265f798ff3dafabbb700a79a000723df92ba4ec416f",
     "games/10-kibu10/bepinex/build/generated/NativePaginationData.cs": "48d6a1ce6d6c9bcb128e13387b501a7ebf878839a645d1ada3adddcf805c6ff4",
     "games/10-kibu10/bepinex/build/generated/RuntimePack.cs": "59c511e0fde79f156b1c58c0e664f4bd856966d0ca4a79d4f692282bf0e11d25",
     "engine/core/TranslationCatalog.cs": "f4bd16db259542916baae20d0a12f14c117b7aa832cbe845fea6bfc39493d4ec",
@@ -47,5 +47,6 @@
     "games/10-kibu10/bepinex/src/ScriptIdentityData.cs": "b69dccd7a53b3e8093a99326b4f61440f849240860e8903b15d84bd76c6cdff2"
   },
   "validation": "Full offline verification passed; 8498 dialogues and 33992 layout variants audited, zero ordinary dialogue overflow. All functional files match the installed, user-accepted package. Only root README/changelog consolidated.",
-  "glossary_review": "Confirmed terms present in public glossary, including surname aliases. 松田 retained as contextual surname of father/daughter under public usage note; provisional credits remain project-local. Identity/viewpoint and anagram rules reviewed; user-approved pre-question romanizations disclose readings only."
+  "glossary_review": "Confirmed terms present in public glossary, including surname aliases. 松田 retained as contextual surname of father/daughter under public usage note; provisional credits remain project-local. Identity/viewpoint and anagram rules reviewed; user-approved pre-question romanizations disclose readings only.",
+  "revision_note": "2026-09-23：开场预言台词修正为“我们已经能看见那一幕了。”；完整校验及本机安装核对通过。"
 }

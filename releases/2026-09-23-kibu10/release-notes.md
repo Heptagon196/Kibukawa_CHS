@@ -1,17 +1,17 @@
 《侦探·癸生川凌介事件谭》第一至十作简体中文补丁。每作均为完整安装包，包含中文文本、图片、字体及历史记录功能。需自行安装对应的正版游戏。
 
-| 编号 | 游戏 | 版本 | 下载 |
-|---|---|---|---|
-| 01 | 假面幻想杀人事件 | 1.0.34 | [下载补丁](https://github.com/Heptagon196/Kibukawa_CHS/releases/download/chs-01-03-2026.09.07/Kibukawa-01-KamenGensou-CHS.zip) |
-| 02 | 海楼馆杀人事件 | 0.2.10 | [下载补丁](https://github.com/Heptagon196/Kibukawa_CHS/releases/download/chs-01-03-2026.09.07/Kibukawa-02-Kairou-CHS.zip) |
-| 03 | 死者乐园 | 0.2.4 | [下载补丁](https://github.com/Heptagon196/Kibukawa_CHS/releases/download/chs-01-03-2026.09.07/Kibukawa-03-ShishaNoRakuen-CHS.zip) |
-| 04 | 白鹭红羽 | 0.3.2 | [下载补丁](https://github.com/Heptagon196/Kibukawa_CHS/releases/download/chs-01-03-2026.09.07/Kibukawa-04-Shirasagi-CHS.zip) |
-| 05 | 暗匣之上 | 1.0.1 | [下载补丁](https://github.com/Heptagon196/Kibukawa_CHS/releases/download/chs-01-03-2026.09.07/Kibukawa-05-KuraiHako-CHS.zip) |
-| 06 | 对交错事件 | 1.0.14 | [下载补丁](https://github.com/Heptagon196/Kibukawa_CHS/releases/download/chs-01-03-2026.09.07/Kibukawa-06-Tsuikousaku-CHS.zip) |
-| 07 | 林居刑警的搜查笔记 | 1.0.0 | [下载补丁](https://github.com/Heptagon196/Kibukawa_CHS/releases/download/chs-01-03-2026.09.07/Kibukawa-07-Otonari-CHS.zip) |
-| 08 | 假面幻影杀人事件 | 0.5.70 | [下载补丁](https://github.com/Heptagon196/Kibukawa_CHS/releases/download/chs-01-03-2026.09.07/Kibukawa-08-KamenGenei-CHS.zip) |
-| 09 | 五月雨是铅灰的旋律 | 0.1.22 | [下载补丁](https://github.com/Heptagon196/Kibukawa_CHS/releases/download/chs-01-03-2026.09.07/Kibukawa-09-Samidare-CHS.zip) |
-| 10 | 永劫会事件 | 0.1.39 | [下载补丁](https://github.com/Heptagon196/Kibukawa_CHS/releases/download/chs-01-03-2026.09.07/Kibukawa-10-Eigoukai-CHS.zip) |
+| 编号 | 游戏 | 版本 | 预计游玩时长 | 下载 |
+|---|---|---|---|---|
+| 01 | 假面幻想杀人事件 | 1.0.34 | 约 2 小时 | [下载补丁](https://github.com/Heptagon196/Kibukawa_CHS/releases/download/chs-01-03-2026.09.07/Kibukawa-01-KamenGensou-CHS.zip) |
+| 02 | 海楼馆杀人事件 | 0.2.10 | 约 2 小时 | [下载补丁](https://github.com/Heptagon196/Kibukawa_CHS/releases/download/chs-01-03-2026.09.07/Kibukawa-02-Kairou-CHS.zip) |
+| 03 | 死者乐园 | 0.2.4 | 约 2 小时 | [下载补丁](https://github.com/Heptagon196/Kibukawa_CHS/releases/download/chs-01-03-2026.09.07/Kibukawa-03-ShishaNoRakuen-CHS.zip) |
+| 04 | 白鹭红羽 | 0.3.2 | 约 2 小时 | [下载补丁](https://github.com/Heptagon196/Kibukawa_CHS/releases/download/chs-01-03-2026.09.07/Kibukawa-04-Shirasagi-CHS.zip) |
+| 05 | 暗匣之上 | 1.0.1 | 约 2 小时 | [下载补丁](https://github.com/Heptagon196/Kibukawa_CHS/releases/download/chs-01-03-2026.09.07/Kibukawa-05-KuraiHako-CHS.zip) |
+| 06 | 对交错事件 | 1.0.14 | 约 3 小时 | [下载补丁](https://github.com/Heptagon196/Kibukawa_CHS/releases/download/chs-01-03-2026.09.07/Kibukawa-06-Tsuikousaku-CHS.zip) |
+| 07 | 林居刑警的搜查笔记 | 1.0.0 | 约 2 小时 | [下载补丁](https://github.com/Heptagon196/Kibukawa_CHS/releases/download/chs-01-03-2026.09.07/Kibukawa-07-Otonari-CHS.zip) |
+| 08 | 假面幻影杀人事件 | 0.5.70 | 约 10 小时 | [下载补丁](https://github.com/Heptagon196/Kibukawa_CHS/releases/download/chs-01-03-2026.09.07/Kibukawa-08-KamenGenei-CHS.zip) |
+| 09 | 五月雨是铅灰的旋律 | 0.1.22 | 约 2 小时 | [下载补丁](https://github.com/Heptagon196/Kibukawa_CHS/releases/download/chs-01-03-2026.09.07/Kibukawa-09-Samidare-CHS.zip) |
+| 10 | 永劫会事件 | 0.1.39 | 约 5 小时 | [下载补丁](https://github.com/Heptagon196/Kibukawa_CHS/releases/download/chs-01-03-2026.09.07/Kibukawa-10-Eigoukai-CHS.zip) |
 
 ### 安装
 
@@ -28,4 +28,4 @@
 
 遇到问题，请在 [Issues](https://github.com/Heptagon196/Kibukawa_CHS/issues) 中附上游戏名称、出问题的位置和截图。
 
-第十作已完成翻译、全文审校和用户游玩验收；完整离线校验覆盖文本、颜色、点击控制及排版。各补丁 SHA-256 见 SHA256SUMS.txt。
+第十作补丁于 2026-09-23 更新：修正开场预言台词为“我们已经能看见那一幕了。”，避免误解为已经发生的事情。
