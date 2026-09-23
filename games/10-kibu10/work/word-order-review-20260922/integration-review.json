@@ -3,7 +3,7 @@
   "scope": "全篇原译文语序及施受关系复核；原文、上下文、高亮语义与控制顺序联合检查。",
   "reviewer": "root integration after ten disjoint proposal reviews",
   "input_document_sha256": "ddcd0a9bafa290fae8da03a73b21d7143dbabfe8c6d1d001a74b85438f0fbdf6",
-  "output_document_sha256": "2d8cdb80b9eeb6886f2fa59255caeee8728860ba064967bdf5b2622a4ff1f2e5",
+  "output_document_sha256": "94e983721cf375e1d3e0b49ab3dbb33d923765008a1d34472466778dc14c12f6",
   "reviewed_ids": [
     "scratch4.dat/s02:53:arg0",
     "scratch4.dat/s02:65:arg0",
@@ -11614,6 +11614,15 @@
       "target": "罗马音字母相同",
       "reason": "按用户指定在出题前的三处姓名补完整罗马音，并将答案明确为罗马音字母相同；拼写与原作揭晓画面一致。",
       "proposal_file": "anagram-romaji-hints.json",
+      "decision": "accepted"
+    },
+    {
+      "id": "scratch4.dat/s00:800",
+      "source": "<color=0>もう、見えてるわけ。</color><row/><color=0>オレたちにはさ。</color><ctrl=2E/>",
+      "old_target": "<color=0>我们早就</color><row/><color=0>看见了。”</color><ctrl=2E/>",
+      "target": "<color=0>我们已经能</color><row/><color=0>看见那一幕了。”</color><ctrl=2E/>",
+      "reason": "用户确认：もう見えてる是在声称已能看见未来核导弹飞舞的景象，不是早已亲眼见过。",
+      "proposal_file": "apocalypse-vision-wording.json",
       "decision": "accepted"
     }
   ],

@@ -6024,7 +6024,7 @@
         {
           "text_index": 273,
           "source_text": "もう、見えてるわけ。オレたちにはさ。",
-          "translated_text": "我们早就看见了。”",
+          "translated_text": "我们已经能看见那一幕了。”",
           "translation_status": 1,
           "model": "Codex parallel translation and review",
           "extra": {
@@ -6039,7 +6039,7 @@
               "argument": 0
             },
             "tagged_source": "<color=0>もう、見えてるわけ。</color><row/><color=0>オレたちにはさ。</color><ctrl=2E/>",
-            "tagged_target": "<color=0>我们早就</color><row/><color=0>看见了。”</color><ctrl=2E/>",
+            "tagged_target": "<color=0>我们已经能</color><row/><color=0>看见那一幕了。”</color><ctrl=2E/>",
             "active": true
           }
         },
@@ -261837,7 +261837,7 @@
     "authoritative_draft": "work/dialogue-tagged.json",
     "translation_stage": "reviewed",
     "semantic_release_review_complete": true,
-    "reviewed_dialogue_sha256": "9ae00097a9600482bc40dc03ce8673e60a72df6225e254ee2a799be3495a148c",
+    "reviewed_dialogue_sha256": "08c17a4d8fbb11383146c03521650a08ee91ac69ee634bc0d15104d815533aa7",
     "click_review_sha256": "ad3cde2a771ed42ea794e564309340bd394c425c99713ebfa0b345896a369190",
     "color_review_sha256": "f84f25b108c9bc5df01f7a9a89cf06bd0dfeeadc4fc581b16c022d7e4eb1ef51",
     "quality_gate_sha256": "9b045ca48cfae9958fa2c0c9a7eaf20cbfdbf9618a22a84e386d429d1032179b"
