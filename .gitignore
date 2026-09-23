@@ -35,6 +35,17 @@ tools/migrations/
 **/*.exe
 **/*.dll
 
+# Web spin-off fetched sources, generated builds, and desktop packaging output
+web/*/originals/
+web/*/build/
+web/vendor/
+web/reports/
+web/desktop/node_modules/
+web/desktop/dist/
+web/desktop/portable/
+web/desktop/src-tauri/target/
+web/desktop/src-tauri/gen/
+
 /reports/
 games/*/images/title-source/
 

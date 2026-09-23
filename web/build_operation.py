@@ -1,6 +1,6 @@
 """Build a local Pyxel Chinese candidate; original game assets remain ignored."""
 from pathlib import Path
-import base64, gzip, hashlib, io, json, re, unicodedata, zipfile
+import base64, gzip, hashlib, io, json, re, shutil, unicodedata, zipfile
 from PIL import Image
 
 ROOT = Path(__file__).resolve().parent
@@ -10,7 +10,7 @@ def width(text):
     return sum(16 if unicodedata.east_asian_width(c) in ('F','W','A') else 8 for c in text)
 
 def make_bdf(chars):
-    font = ROOT.parent / 'games/10-kibu10/bepinex/fonts/unifont-16.0.04.hex.gz'
+    font = ROOT / 'vendor/pyxel-2.9.6/unifont-16.0.04.hex.gz'
     glyphs = {}
     with gzip.open(font, 'rt', encoding='ascii') as f:
         for line in f:
@@ -73,13 +73,37 @@ def main():
     stream=io.BytesIO()
     with zipfile.ZipFile(stream,'w',zipfile.ZIP_DEFLATED) as archive:
         for name,data in files.items():archive.writestr(name,data)
-    build=GAME/'build';build.mkdir(exist_ok=True)
+    build=GAME/'build'
+    if build.exists(): shutil.rmtree(build)
+    build.mkdir()
     (build/'adv-chs.pyxapp').write_bytes(stream.getvalue())
     html=(GAME/'originals/index.html').read_text(encoding='utf-8')
     html=re.sub(r'base64: "[^"]+"','base64: "'+base64.b64encode(stream.getvalue()).decode()+'"',html)
-    html='<meta charset="utf-8"><title>运行测试事件Ⅱ · 中文版</title>\n'+html
+    html=re.sub(r'<script src="https://cdn\.jsdelivr\.net/gh/kitao/pyxel@2\.9\.6/wasm/pyxel\.js"></script>', '<script src="pyxel/pyxel.js"></script>', html)
+    html=re.sub(r'^\s*<!doctype html>\s*', '', html, count=1, flags=re.I)
+    html=(
+        '<!doctype html>\n<html lang="zh-CN">\n<head>\n'
+        '<meta charset="utf-8">\n'
+        '<meta name="viewport" content="width=device-width,initial-scale=1">\n'
+        '<title>运行测试事件Ⅱ · 中文版</title>\n'
+        '<style>html,body{width:100%;height:100%;margin:0;overflow:hidden;background:#202224}</style>\n'
+        '</head>\n<body>\n'+html+'\n</body>\n</html>\n'
+    )
     (build/'index.html').write_text(html,encoding='utf-8')
-    (build/'verification.json').write_text(json.dumps({'status':'candidate_not_playtested','dialogue':len(dialogue),'choices':len(ui),'missing_glyphs':0,'width_overflows':warnings,'archive_sha256':hashlib.sha256(stream.getvalue()).hexdigest()},ensure_ascii=False,indent=2),encoding='utf-8')
+    runtime=ROOT/'vendor/pyxel-2.9.6'
+    shutil.copytree(runtime, build/'pyxel', ignore=shutil.ignore_patterns('unifont-*.hex.gz', 'runtime-manifest.json'))
+    loader=build/'pyxel/pyxel.js'
+    loader_text=loader.read_text(encoding='utf-8')
+    loader_text=loader_text.replace(
+        'const PYODIDE_URL = "https://cdn.jsdelivr.net/pyodide/v314.0.0/full/pyodide.js";',
+        'const PYODIDE_URL = new URL("pyodide.js", document.currentScript.src).href;'
+    )
+    loader_text=loader_text.replace(
+        'const pyodideVersion = PYODIDE_URL.match(/v([\\d.]+)\\//)[1];',
+        'const pyodideVersion = "314.0.0";'
+    )
+    loader.write_text(loader_text, encoding='utf-8')
+    (build/'verification.json').write_text(json.dumps({'status':'candidate_not_playtested','dialogue':len(dialogue),'choices':len(ui),'missing_glyphs':0,'width_overflows':warnings,'offline_runtime':True,'archive_sha256':hashlib.sha256(stream.getvalue()).hexdigest()},ensure_ascii=False,indent=2),encoding='utf-8')
     print('Built',build,'dialogue',len(dialogue),'choices',len(ui))
 
 if __name__=='__main__':main()

@@ -1,0 +1,32 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "癸生川网页番外汉化",
+  "version": "0.1.0",
+  "identifier": "cn.kibukawa.web-spinoffs",
+  "build": {
+    "beforeDevCommand": "node scripts/prepare-assets.mjs",
+    "beforeBuildCommand": "node scripts/prepare-assets.mjs",
+    "frontendDist": "../frontend"
+  },
+  "app": {
+    "windows": [
+      {
+        "label": "main",
+        "title": "癸生川网页番外汉化",
+        "url": "kibukawa://localhost/index.html",
+        "width": 1180,
+        "height": 820,
+        "minWidth": 840,
+        "minHeight": 620,
+        "center": true,
+        "resizable": true
+      }
+    ],
+    "security": {
+      "csp": null
+    }
+  },
+  "bundle": {
+    "active": false
+  }
+}

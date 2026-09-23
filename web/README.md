@@ -16,7 +16,7 @@
 
 双击 `start.cmd`，保留服务窗口，在浏览器打开 `http://127.0.0.1:8766/`。只监听本机。关闭窗口或按 Ctrl+C 停止服务。端口被占用时，可执行 `python serve.py --port 8767`。
 
-Pyxel 运行器首次启动需要联网。生日篇使用本机中文字体；三部标题图均已汉化。
+Pyxel、Pyodide、WASM 与字库均使用经过 SHA-256 校验的本地固定版本，游玩时无需联网。生日篇使用本机中文字体；三部标题图均已汉化。
 
 ## 下载、构建与校验
 
@@ -24,6 +24,7 @@ Pyxel 运行器首次启动需要联网。生日篇使用本机中文字体；�
 
 ```powershell
 .\.venv\Scripts\python.exe web/fetch_sources.py
+.\.venv\Scripts\python.exe web/fetch_pyxel_runtime.py
 .\.venv\Scripts\python.exe web/verify.py
 .\.venv\Scripts\python.exe web/build_birthday.py
 .\.venv\Scripts\python.exe web/build_operation.py

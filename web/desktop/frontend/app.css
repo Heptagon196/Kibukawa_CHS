@@ -1,0 +1,83 @@
+:root {
+  font-family: "Microsoft YaHei", "PingFang SC", "Noto Sans CJK SC", system-ui, sans-serif;
+  color: #e8eaf0;
+  background: #17191e;
+  font-synthesis: none;
+}
+
+* { box-sizing: border-box; }
+html, body { width: 100%; height: 100%; margin: 0; overflow: hidden; }
+button { font: inherit; }
+
+body { background: #17191e; }
+
+.toolbar {
+  height: 56px;
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  padding: 0 18px;
+  border-bottom: 1px solid #30333b;
+  background: #202229;
+}
+
+.brand, .home-button {
+  border: 0;
+  color: inherit;
+  cursor: pointer;
+}
+
+.brand {
+  margin-right: auto;
+  padding: 8px 0;
+  text-align: left;
+  background: transparent;
+  font-weight: 600;
+}
+
+.home-button {
+  padding: 7px 10px;
+  border-radius: 5px;
+  background: transparent;
+  color: #adb4c1;
+  font-size: 13px;
+}
+.home-button:hover { color: #fff; background: rgba(255, 255, 255, .08); }
+.home-button { border: 1px solid rgba(255, 255, 255, .12); }
+
+main { height: calc(100% - 56px); }
+.library { width: min(760px, 100%); height: 100%; margin: auto; overflow: auto; padding: 54px 24px; }
+h1 { margin: 0; font-size: 28px; }
+.summary { margin: 10px 0 28px; color: #aeb4c0; }
+
+.game-list { border: 1px solid #343740; border-radius: 6px; overflow: hidden; }
+.game-list button {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px;
+  border: 0;
+  border-bottom: 1px solid #343740;
+  background: #202229;
+  color: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+.game-list button:last-child { border-bottom: 0; }
+.game-list button:hover { background: #292c34; }
+.game-list span, .game-list strong, .game-list small { display: block; }
+.game-list strong { font-size: 17px; }
+.game-list small { margin-top: 5px; color: #9299a7; }
+.game-list b { color: #b8c8e8; font-size: 13px; font-weight: 500; }
+.footnote { margin-top: 20px; color: #7d8491; font-size: 12px; }
+
+.player-shell { position: relative; width: 100%; height: 100%; background: #090b0f; }
+#game-frame { position: relative; z-index: 1; width: 100%; height: 100%; border: 0; background: #111; }
+.loading { position: absolute; inset: 0; display: grid; place-items: center; color: #8c94a4; }
+
+@media (max-width: 820px) {
+  .toolbar { gap: 10px; padding: 0 12px; }
+  .brand { min-width: 0; }
+}

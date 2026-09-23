@@ -1,0 +1,14 @@
+{
+  "name": "kibukawa-web-spinoffs-desktop",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "prepare-assets": "node scripts/prepare-assets.mjs",
+    "dev": "tauri dev",
+    "build": "tauri build --no-bundle && powershell.exe -NoProfile -ExecutionPolicy Bypass -File scripts/package-portable.ps1"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^2.8.0"
+  }
+}

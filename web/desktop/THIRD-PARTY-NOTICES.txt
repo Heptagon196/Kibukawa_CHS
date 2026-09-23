@@ -1,0 +1,26 @@
+Third-party components
+======================
+
+Ruffle
+https://ruffle.rs/
+Licensed under MIT OR Apache-2.0. Full license texts are included in licenses/ruffle/.
+
+Pyxel 2.9.6
+https://github.com/kitao/pyxel
+Copyright (c) 2018-2026 Takashi Kitao. Licensed under the MIT License.
+The full license text is included in licenses/PYXEL-LICENSE.txt.
+
+Pyodide v314.0.0
+https://pyodide.org/
+Licensed under the Mozilla Public License 2.0.
+
+Noto Sans SC
+https://github.com/google/fonts/tree/main/ofl/notosanssc
+Licensed under the SIL Open Font License 1.1. The full license text is included
+in licenses/OFL-NotoSansSC.txt.
+
+GNU Unifont 16.0.04
+https://unifoundry.com/unifont/
+The font is dual-licensed under SIL Open Font License 1.1 and GNU GPL 2 or later
+with the GNU Font Embedding Exception. Only the glyph subset used by the game is
+embedded in the Pyxel application archive.

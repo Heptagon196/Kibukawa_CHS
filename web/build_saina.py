@@ -10,7 +10,7 @@ import re
 import shutil
 import urllib.request
 import zipfile
-from patch_saina_flash import patch
+from patch_saina_flash import patch, patch_progress_bar
 from localize_saina_ui import localize, UI
 from repair_saina_draft import repair
 from build_saina_title import build as build_title
@@ -90,6 +90,9 @@ def main():
         p.write_text(s, encoding='utf8')
     shutil.copyfile(out / 'resorce/Effect/black.jpg', out / 'resorce/BG/black.jpg')
     build_title(GAME / 'originals/resorce/BG/title.swf', GAME / 'work/title-chs.png', out / 'resorce/BG/title.swf')
+    patch_progress_bar(GAME / 'originals/resorce/plug-in/ProgressBar.swf',
+                       out / 'resorce/plug-in/ProgressBar.swf',
+                       GAME / 'work/progressbar-notice.txt', vendor, GAME / 'reports')
     shutil.copytree(vendor / 'ruffle-nightly', out / 'ruffle', dirs_exist_ok=True)
     shutil.copyfile(vendor / 'noto-sans-sc/NotoSansSC[wght].ttf', out / 'NotoSansSC.ttf')
     shutil.copyfile(vendor / 'noto-sans-sc/OFL.txt', out / 'OFL-NotoSansSC.txt')
@@ -99,7 +102,8 @@ def main():
               'translated': sum(bool(r['target']) for r in rows), 'total': len(rows),
               'ui_entries': len(UI),
               'ruffle': 'nightly-2026-09-23', 'original_files_unchanged': True,
-              'swf_patch': 'Flush caption auto-size before disabling it in ChgCaptionWidth',
+              'swf_patch': ['Flush caption auto-size before disabling it in ChgCaptionWidth',
+                            'Localize the ProgressBar loading notice'],
               'missing_original_chapters': ['s06.adv', 's07.adv']}
     (out / 'build-report.json').write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding='utf8')
     print(json.dumps(report, ensure_ascii=False))

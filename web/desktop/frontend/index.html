@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="dark">
+    <title>癸生川网页番外汉化</title>
+    <link rel="stylesheet" href="app.css">
+  </head>
+  <body>
+    <header class="toolbar">
+      <button class="brand" type="button" data-action="home">癸生川网页番外汉化</button>
+      <button id="home-button" class="home-button" type="button" data-action="home" hidden>返回作品列表</button>
+    </header>
+
+    <main>
+      <section id="library" class="library" aria-labelledby="library-title">
+        <h1 id="library-title">选择作品</h1>
+        <p class="summary">按发布时间由早到晚排列。</p>
+        <div class="game-list">
+          <button type="button" data-game="saina-onsen">
+            <span><strong>狭稻温泉乡杀人事件</strong><small>LemoNovel / Ruffle · 原作未完成</small></span>
+            <b>打开</b>
+          </button>
+          <button type="button" data-game="birthday">
+            <span><strong>诞生纪念日事件</strong><small>TyranoScript · 短篇</small></span>
+            <b>打开</b>
+          </button>
+          <button type="button" data-game="operation-check-2">
+            <span><strong>运行测试事件Ⅱ</strong><small>Pyxel · 推理测试篇</small></span>
+            <b>打开</b>
+          </button>
+        </div>
+        <p class="footnote">三部作品均包含本地运行资源，游玩时无需联网。</p>
+      </section>
+      <section id="player-shell" class="player-shell" hidden>
+        <div class="loading" id="loading">正在载入作品……</div>
+        <iframe id="game-frame" title="游戏画面" allow="autoplay; fullscreen" referrerpolicy="no-referrer"></iframe>
+      </section>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
