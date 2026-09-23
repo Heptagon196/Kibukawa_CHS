@@ -66,6 +66,13 @@ h1 { margin: 0; font-size: 28px; }
   cursor: pointer;
 }
 .game-list button:last-child { border-bottom: 0; }
+.game-card { background: #202229; border-bottom: 1px solid #343740; }
+.game-card:last-child { border-bottom: 0; }
+.game-card button { border-bottom: 0; padding-bottom: 12px; }
+.release-info { display: flex; align-items: center; gap: 8px; padding: 0 20px 18px; color: #9299a7; font-size: 13px; }
+.release-info a { margin-left: auto; color: #b8c8e8; text-underline-offset: 3px; }
+.release-info a:hover { color: #fff; }
+#link-status { color: #ffb4ab; font-size: 13px; }
 .game-list button:hover { background: #292c34; }
 .game-list span, .game-list strong, .game-list small { display: block; }
 .game-list strong { font-size: 17px; }

@@ -18,6 +18,7 @@ def main():
             lines[row['line']-1]=row['target']
         text='\n'.join(lines)+'\n'
         text=text.replace('text="はじめる"','text="开始游戏"').replace('text="iPhone用"','text="兼容模式"')
+        text=text.replace('text=%text|話す', 'text=%text|交谈')
         text=text.replace('（伊綱）','（伊纲）').replace('（尾場）','（尾场）')
         (build/file).write_text(text,encoding='utf-8')
     config=build/'data/system/Config.tjs'
@@ -50,6 +51,21 @@ def main():
     var new_font = {};'''
     if text.count(anchor) != 1:raise ValueError('Unexpected Tyrano font tag implementation')
     tag_js.write_text(text.replace(anchor,replacement),encoding='cp932')
+    # Child mouth/blink events bubble to the camera. Do not consume the
+    # parent's one-shot callback until its own animation has completed.
+    animation_js=build/'tyrano/libs/jquery.a3d.js'
+    text=animation_js.read_text(encoding='utf-8-sig')
+    for event in ('animationend', 'animationstart', "'+vendor+'AnimationEnd animationend", "'+vendor+'AnimationStart animationstart"):
+        old=".one('"+event+"',function(){"
+        new=".on('"+event+"',function(event){\n                    if(event.target !== this) return;\n                    $(this).off(event);"
+        if text.count(old)!=1:raise ValueError('Unexpected a3d event handler: '+event)
+        text=text.replace(old,new)
+    for event in ('animationiteration', "'+vendor+'AnimationIteration animationiteration"):
+        old=".bind('"+event+"',function(){"
+        new=".bind('"+event+"',function(event){\n                    if(event.target !== this) return;"
+        if text.count(old)!=1:raise ValueError('Unexpected a3d event handler: '+event)
+        text=text.replace(old,new)
+    animation_js.write_text(text,encoding='utf-8')
     html=(build/'index.html').read_text(encoding='utf-8')
     html=html.replace('<title>Loading TyranoScript</title>','<title>诞生纪念日事件 · 中文版</title>')
     html=re.sub(r'<link href="https://fonts.googleapis.com/[^\"]+" rel="stylesheet">','',html)

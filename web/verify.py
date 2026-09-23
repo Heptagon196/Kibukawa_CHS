@@ -19,6 +19,8 @@ REQUIRED_ROWS = {
     ('birthday', 'scene1.ks:480'): '这个先不提',
     ('birthday', 'scene2.ks:479'): '这个先不提',
     ('saina-onsen', 's01.adv:1440'): '这个先不提',
+    # Izuna cuts off Ikuromi's explanation, echoing Kibukawa's catchphrase.
+    ('saina-onsen', 's01.adv:736'): '这个先不提',
 }
 REQUIRED_UI = {
     ('operation-check-2', 'あそびかた'): '玩法说明',
@@ -124,6 +126,11 @@ def main():
         }
     results['saina-onsen']['reviewed_tsv_rows'] = verify_saina_tsv(all_rows['saina-onsen'])
     results['terminology'] = verify_terminology(all_rows)
+    from localize_saina_ui import localize
+    macro = (ROOT / 'saina-onsen/originals/script/def_macro.adv').read_text('utf-8-sig')
+    localized_macro = localize(macro, 'def_macro.adv')
+    assert '[If exp="%char == \'音成\'"][Var displayName="林居"][EndIf]' in localized_macro
+    assert '[Output id=1 *msg="\'(\' + @displayName + \')\'"]' in localized_macro
     print(json.dumps(results, ensure_ascii=False, indent=2))
 
 

@@ -1,10 +1,21 @@
 import { cpSync, existsSync, mkdirSync, readFileSync, rmSync, writeFileSync } from "node:fs";
-import { dirname, join, resolve } from "node:path";
+import { basename, dirname, join, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 
 const desktopRoot = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const webRoot = resolve(desktopRoot, "..");
 const outputRoot = join(desktopRoot, "dist");
+const buildOnlyFiles = new Set([
+  "dialogue-test.png", "runtime-test.png", "verification.json", "build-report.json"
+]);
+
+function releaseAsset(source) {
+  const name = basename(source).toLowerCase();
+  if (/recovery|recovered-storage|repaired-storage|^ebwebview$|^local storage$|^backups?$|^reports?$|profile/.test(name)) {
+    throw new Error(`Private or diagnostic file in release input: ${source}`);
+  }
+  return !buildOnlyFiles.has(name);
+}
 
 const games = [
   { id: "saina-onsen", title: "狭稻温泉乡杀人事件" },
@@ -23,11 +34,11 @@ if (missing.length) {
 
 rmSync(outputRoot, { recursive: true, force: true });
 mkdirSync(outputRoot, { recursive: true });
-cpSync(join(desktopRoot, "frontend"), outputRoot, { recursive: true });
+cpSync(join(desktopRoot, "frontend"), outputRoot, { recursive: true, filter: releaseAsset });
 
 for (const game of games) {
   cpSync(join(webRoot, game.id, "build"), join(outputRoot, "games", game.id), {
-    recursive: true
+    recursive: true, filter: releaseAsset
   });
 }
 

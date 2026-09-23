@@ -7,14 +7,65 @@
 body{margin:0;background:#202324;color:#eee;text-align:center;font-family:system-ui,sans-serif}
 #player{width:min(800px,100vw);aspect-ratio:4/3;margin:auto}
 p{margin:12px}a{color:#9bc5ff}
+button,select{font:inherit;color:#eee;background:#30363c;border:1px solid #65717b;border-radius:6px;padding:7px 12px;cursor:pointer}
+button:hover{background:#424c56}button:focus-visible,select:focus-visible{outline:2px solid #9bc5ff;outline-offset:3px}
+.page-tools{display:flex;justify-content:center;align-items:center;gap:10px;flex-wrap:wrap;padding:10px}.page-tools p{margin:0 12px}
+dialog{box-sizing:border-box;width:min(960px,96vw);height:min(820px,94dvh);max-height:94dvh;margin:auto;padding:18px;background:#20272e;color:#eee;border:1px solid #65717b;border-radius:10px}
+dialog::backdrop{background:#000b}.gallery-header,.gallery-controls,.gallery-nav{display:flex;align-items:center;justify-content:center;gap:12px;flex-wrap:wrap}
+.gallery-header{justify-content:space-between}.gallery-header h2{font-size:20px;margin:0}.gallery-controls{margin:16px 0}
+#gallery-stage{height:calc(100% - 185px);min-height:140px;display:flex;align-items:center;justify-content:center;background:#343b43;overflow:hidden;border-radius:6px}
+#gallery-stage ruffle-player{width:100%;height:100%}.gallery-nav{margin-top:12px}
+#gallery-status{font-size:13px;color:#c4cbd2;margin:8px}
 </style>
-<p>狭稻温泉乡杀人事件 · 中文版</p>
+<header class="page-tools"><p>狭稻温泉乡杀人事件 · 中文版</p><button id="portraits" type="button">立绘鉴赏（包含未使用立绘）</button></header>
 <div id="player"></div>
 <p id="status">正在加载字体与运行器……</p>
+<dialog id="gallery" aria-labelledby="gallery-title">
+ <div class="gallery-header"><h2 id="gallery-title">立绘鉴赏（包含未使用立绘）</h2><button id="gallery-close" type="button">关闭 · 返回游戏</button></div>
+ <div class="gallery-controls"><label><span id="gallery-label">角色</span> <select id="gallery-item"></select></label><label id="expression-label">表情 <select id="gallery-expression"></select></label></div>
+ <div id="gallery-stage"></div>
+ <div class="gallery-nav"><button id="gallery-prev" type="button">上一项</button><span id="gallery-count"></span><button id="gallery-next" type="button">下一项</button></div>
+ <p id="gallery-status" role="status"></p>
+</dialog>
 <script src="ruffle/ruffle.js"></script>
 <script>
 window.RufflePlayer=window.RufflePlayer||{};
 window.RufflePlayer.config={autoplay:"on",unmuteOverlay:"hidden",allowScriptAccess:false,deviceFontRenderer:"canvas"};
+let gamePlayer;
+const portraitItems=[
+ ['伊纲',[['通常','izu_nom_m'],['生气','izu_ang_m'],['大笑','izu_lgh_m'],['微笑','izu_sml_m']]],
+ ['癸生川',[['通常','kib_nom_m'],['大笑','kib_lgh_m'],['微笑','kib_sml_m']]],
+ ['矢口',[['通常','yag_nom_m']]],['林居',[['通常','oto_nom_m']]],['东滨',[['通常','osn']]],
+ ['澪',[['通常','mio']]],['萌黄',[['通常','moe']]],['九字崎',[['通常','yuu']]],['宫间',[['通常','miy']]]
+];
+const gallery=document.querySelector('#gallery'),item=document.querySelector('#gallery-item'),expression=document.querySelector('#gallery-expression'),stage=document.querySelector('#gallery-stage'),galleryStatus=document.querySelector('#gallery-status');
+let previewPlayer=null,renderVersion=0,resumeGame=false;
+function clearPreview(){renderVersion++;if(previewPlayer){previewPlayer.ruffle().suspend();previewPlayer.remove();previewPlayer=null;}stage.replaceChildren();}
+function setExpressions(){expression.replaceChildren(...portraitItems[item.selectedIndex][1].map(([name],i)=>new Option(name,i)));}
+async function renderGallery(){
+ clearPreview();const version=renderVersion;
+ const index=item.selectedIndex;
+ document.querySelector('#gallery-count').textContent=`${index+1} / ${item.options.length}`;
+ galleryStatus.textContent='';
+ galleryStatus.textContent='正在加载立绘……';
+ try{
+  const p=window.RufflePlayer.newest().createPlayer();previewPlayer=p;stage.append(p);
+  await p.ruffle().load({url:`resorce/Char/${portraitItems[index][1][expression.selectedIndex][1]}.swf`,autoplay:'on',unmuteOverlay:'hidden',backgroundColor:'#343b43',allowScriptAccess:false});
+  if(version===renderVersion)galleryStatus.textContent=`${portraitItems[index][0]} · ${expression.selectedOptions[0].text}（${expression.options.length} 种表情）`;
+ }catch(e){if(version===renderVersion)galleryStatus.textContent='立绘加载失败，请重新选择。';}
+}
+function openGallery(){
+ item.replaceChildren(...portraitItems.map(([name],i)=>new Option(name,i)));
+ setExpressions();
+ resumeGame=!!gamePlayer?.ruffle().isPlaying;if(resumeGame)gamePlayer.ruffle().suspend();
+ gallery.showModal();renderGallery();
+}
+document.querySelector('#portraits').onclick=openGallery;
+item.onchange=()=>{setExpressions();renderGallery();};expression.onchange=renderGallery;
+function stepGallery(delta){item.selectedIndex=(item.selectedIndex+delta+item.options.length)%item.options.length;item.onchange();}
+document.querySelector('#gallery-prev').onclick=()=>stepGallery(-1);document.querySelector('#gallery-next').onclick=()=>stepGallery(1);
+document.querySelector('#gallery-close').onclick=()=>gallery.close();
+gallery.addEventListener('close',()=>{clearPreview();if(resumeGame)gamePlayer?.ruffle().resume();resumeGame=false;});
 window.addEventListener("load",async()=>{
  try{
   await Promise.all([document.fonts.load('27px "Saina Noto"'),document.fonts.load('bold 24px "Saina Noto"')]);
@@ -22,6 +73,7 @@ window.addEventListener("load",async()=>{
   p.style.width="100%";p.style.height="100%";
   document.getElementById("player").appendChild(p);
   await p.ruffle().load({url:"LemoNovel.swf",parameters:{fromBrowser:"true"}});
+  gamePlayer=p;if(gallery.open){resumeGame=true;p.ruffle().suspend();}
   document.getElementById("status").textContent="点击画面操作，右键可查看记录或返回标题。原作正式流程止于第四章，另附第五章未完成草稿。";
  }catch(e){document.getElementById("status").textContent="加载失败："+e.message;}
 });

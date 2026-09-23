@@ -34,7 +34,21 @@ frame.addEventListener("load", () => {
   frame.focus();
 });
 
-document.addEventListener("click", (event) => {
+document.addEventListener("click", async (event) => {
+  const releaseLink = event.target.closest('[data-release]');
+  if (releaseLink && window.__TAURI_INTERNALS__) {
+    event.preventDefault();
+    const status = document.querySelector('#link-status');
+    status.hidden = true;
+    try {
+      await window.__TAURI_INTERNALS__.invoke('open_release_post', { gameId: releaseLink.dataset.release });
+    } catch (error) {
+      status.textContent = '无法打开浏览器，请稍后重试。';
+      status.hidden = false;
+      console.error(error);
+    }
+    return;
+  }
   const gameButton = event.target.closest("[data-game]");
   if (gameButton) launch(gameButton.dataset.game);
   if (event.target.closest('[data-action="home"]')) showLibrary();

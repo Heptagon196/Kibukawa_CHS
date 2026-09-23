@@ -103,6 +103,7 @@ def main():
               'ui_entries': len(UI),
               'ruffle': 'nightly-2026-09-23', 'original_files_unchanged': True,
               'swf_patch': ['Flush caption auto-size before disabling it in ChgCaptionWidth',
+                            'Detach saved and restored SharedObject snapshots from mutable engine state',
                             'Localize the ProgressBar loading notice'],
               'missing_original_chapters': ['s06.adv', 's07.adv']}
     (out / 'build-report.json').write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding='utf8')

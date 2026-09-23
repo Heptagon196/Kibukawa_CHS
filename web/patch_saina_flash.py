@@ -38,6 +38,40 @@ def patch(source, destination, vendor, reports):
    var measuredShadowHeight = Caption_Shadow_txt._height;'''
     edited.parent.mkdir(parents=True, exist_ok=True)
     edited.write_text(text.replace(anchor, anchor + insertion), encoding='utf8')
+    # SharedObject retains object references after flush. Subsequent save-point
+    # cleanup deletes the old scene arrays in place; Ruffle flushes these mutated
+    # references again on unload. Store detached snapshots, not live engine data.
+    save_relative = Path('__Packages/Cls_SaveLoad.as')
+    save_text = (export / 'scripts' / save_relative).read_text('utf8')
+    clone = '''   function CloneSaveValue(value)
+   {
+      if(value == null || typeof value != "object") return value;
+      var result = value instanceof Array ? new Array(value.length) : new Object();
+      for(var key in value) result[key] = this.CloneSaveValue(value[key]);
+      return result;
+   }
+'''
+    save_text = save_text.replace('   function SaveGame(arg_no, arg_freeData1, arg_freeData2)', clone + '   function SaveGame(arg_no, arg_freeData1, arg_freeData2)')
+    start = save_text.index('   function SaveGame(')
+    end = save_text.index('   function LoadGame(', start)
+    section = save_text[start:end]
+    for obj in ('_loc2_', '_loc5_', '_loc3_', '_loc6_', '_loc7_'):
+        anchor = f'      {obj}.flush();'
+        assert section.count(anchor) == 1
+        section = section.replace(anchor, f'      for(var saveKey in {obj}.data) {obj}.data[saveKey] = this.CloneSaveValue({obj}.data[saveKey]);\n' + anchor)
+    save_text = save_text[:start] + section + save_text[end:]
+    # Restoring must detach too: otherwise advancing after a load mutates the
+    # SharedObject again even when that slot is never explicitly overwritten.
+    start = save_text.index('   function LoadGame(')
+    end = save_text.index('   function DeleteSaveData(', start)
+    import re
+    section, count = re.subn(r'var (_loc\d+_) = SharedObject.getLocal\(([^)]+)\);',
+        r'var \1 = {data:this.CloneSaveValue(SharedObject.getLocal(\2).data)};', save_text[start:end])
+    assert count == 5
+    save_text = save_text[:start] + section + save_text[end:]
+    save_patch = reports / 'engine-patch' / save_relative
+    save_patch.parent.mkdir(parents=True, exist_ok=True)
+    save_patch.write_text(save_text, encoding='utf8')
     run('-importScript', source, destination, reports / 'engine-patch')
     if not destination.exists() or destination.read_bytes() == source.read_bytes():
         raise ValueError('JPEXS did not produce a modified engine')

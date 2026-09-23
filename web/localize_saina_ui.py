@@ -49,7 +49,7 @@ def localize(text, filename):
     if filename == 'def_macro.adv':
         anchor = '[Output id=1 *msg="\'(\' + %char + \')\'"]'
         assert text.count(anchor) == 1
-        names = {'伊綱':'伊纲', '東浜':'东滨', '宮間':'宫间', '観光客':'游客', '女性客':'女游客'}
+        names = {'伊綱':'伊纲', '音成':'林居', '東浜':'东滨', '宮間':'宫间', '観光客':'游客', '女性客':'女游客'}
         mapping = '[Var displayName=%char]\n' + '\n'.join(
             f'[If exp="%char == \'{jp}\'"][Var displayName="{zh}"][EndIf]' for jp,zh in names.items())
         text = text.replace(anchor, mapping+'\n[Output id=1 *msg="\'(\' + @displayName + \')\'"]')

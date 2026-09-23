@@ -56,10 +56,38 @@ fn safe_relative_path(uri_path: &str) -> Option<PathBuf> {
     }
 }
 
+#[tauri::command]
+fn open_release_post(game_id: &str) -> Result<(), String> {
+    let url = match game_id {
+        "birthday" => "https://x.com/ikrmmso/status/1203684122394128385",
+        "saina-onsen" => "https://x.com/ikrmmso/status/1251751495822766081",
+        "operation-check-2" => "https://x.com/ikrmmso/status/2071972021366571209",
+        _ => return Err("Unknown game".into()),
+    };
+    #[cfg(target_os = "windows")]
+    {
+        #[link(name = "shell32")]
+        extern "system" {
+            fn ShellExecuteW(hwnd: *mut std::ffi::c_void, operation: *const u16,
+                file: *const u16, parameters: *const u16, directory: *const u16,
+                show: i32) -> isize;
+        }
+        let wide: Vec<u16> = url.encode_utf16().chain(Some(0)).collect();
+        // Only the three fixed HTTPS release posts can reach the OS handler.
+        let result = unsafe { ShellExecuteW(std::ptr::null_mut(), std::ptr::null(),
+            wide.as_ptr(), std::ptr::null(), std::ptr::null(), 1) };
+        if result <= 32 { return Err(format!("Browser launch failed: {result}")); }
+        Ok(())
+    }
+    #[cfg(not(target_os = "windows"))]
+    { let _ = url; Err("This portable build requires Windows".into()) }
+}
+
 #[cfg_attr(mobile, tauri::mobile_entry_point)]
 pub fn run() {
     let root = web_root();
     tauri::Builder::default()
+        .invoke_handler(tauri::generate_handler![open_release_post])
         .register_uri_scheme_protocol("kibukawa", move |_context, request| {
             let Some(relative) = safe_relative_path(request.uri().path()) else {
                 return tauri::http::Response::builder()

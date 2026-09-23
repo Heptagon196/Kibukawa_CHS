@@ -1,14 +1,24 @@
+param(
+    [ValidatePattern('^[A-Za-z0-9-]+$')]
+    [string]$StageName = "Kibukawa-Web-Spinoffs-CHS-portable"
+)
 $ErrorActionPreference = "Stop"
 
 $desktopRoot = (Resolve-Path (Join-Path $PSScriptRoot "..")).Path
 $releaseRoot = Join-Path $desktopRoot "src-tauri\target\release"
 $sourceExe = Join-Path $releaseRoot "kibukawa-web-spinoffs.exe"
 $portableRoot = Join-Path $desktopRoot "portable"
-$stageRoot = Join-Path $portableRoot "Kibukawa-Web-Spinoffs-CHS-portable"
+$stageRoot = Join-Path $portableRoot $StageName
 $zipPath = Join-Path $portableRoot "Kibukawa-Web-Spinoffs-CHS-v0.1.0-win64-portable.zip"
 
 if (-not (Test-Path -LiteralPath $sourceExe -PathType Leaf)) {
     throw "Portable executable not found: $sourceExe"
+}
+
+$forbidden = Get-ChildItem -LiteralPath (Join-Path $desktopRoot "dist") -Recurse -Force |
+    Where-Object { $_.Name -match '(?i)recovery|recovered-storage|repaired-storage|^EBWebView$|^Local Storage$|^backups?$|^reports?$|profile|^(dialogue-test|runtime-test)\.png$|^(verification|build-report)\.json$' }
+if ($forbidden) {
+    throw "Private or diagnostic artifacts found in release input: $($forbidden.FullName -join ', ')"
 }
 
 $resolvedDesktop = [System.IO.Path]::GetFullPath($desktopRoot)

@@ -48,7 +48,8 @@ Pyxel 字库使用前十作已校验的 GNU Unifont 16.0.04 本地缓存。构�
 - 已移除未使用的 `kom.swf` 预载和被表情立绘取代的 `izuna.swf` 初始加载；纠正 `se_newward.mp3` 拼写，黑背景复用原作已有 `Effect/black.jpg`。
 - Ruffle 0.6.0 与 nightly-2026-09-23 都复现过菜单不可见。单纯更换运行器或字体不足以解决。
 - 用开源 [JPEXS](https://github.com/jindrapetrik/jpexs-decompiler) 导出按钮脚本后，通过运行时测量确认：Ruffle 延迟计算 TextField 自动尺寸，旧引擎在布局计算完成前关闭 `autoSize`，留下错误高度。诊断日志读取尺寸时会意外掩盖问题，因此用无日志版本重新验证。
-- `patch_saina_flash.py` 仅在 `ChgCaptionWidth` 关闭自动尺寸前读取正文及阴影的宽高，强制完成测量；保留原作菜单 32px 字号。补丁通过 JPEXS 在构建副本内应用，未改原始 SWF。
+- `patch_saina_flash.py` 在 `ChgCaptionWidth` 关闭自动尺寸前读取正文及阴影的宽高，强制完成测量；保留原作菜单 32px 字号。补丁通过 JPEXS 在构建副本内应用，未改原始 SWF。
+- 存读档时对 SharedObject 数据做深拷贝：旧引擎直接保留运行时对象引用，后续翻页清理画面快照会连带清空存档对象，运行器退出时再次持久化，造成重启读档黑屏并请求 `undefined` 资源。保存与恢复两个方向都需要断开引用。`node web/test_saina_save.cjs` 使用独立浏览器存档，验证保存后推进、重启读取，再推进、再次重启读取；不会读取或改写玩家存档。已经损坏的存档不会被引擎补丁自动恢复，需要从备份或数据库历史记录中找回完整快照。
 - 最终使用 [Ruffle](https://github.com/ruffle-rs/ruffle) 的 Canvas 字体后端和随包 [Noto Sans SC](https://github.com/google/fonts/tree/main/ofl/notosanssc)（OFL）。等待常规、粗体字体加载后才启动游戏。运行器、字体、构建用 JPEXS 和 Temurin JRE 均有固定 URL 和 SHA-256；见 `flash-dependencies.json`。JRE 与 JPEXS 不进入游戏构建包。
 - 原脚本定义 `SVersion`，却读取未定义的 `version`；构建时统一定义为 `version`，标题版本恢复 `0.126`。本地存档使用独立 ID。
 - `test_flash.cjs` 在独立浏览器验证菜单文字像素、点击开始及第一章请求，截图与日志保存在 `reports/`。不是全流程通过证明。可通过 `PLAYWRIGHT_PATH` 和 `BROWSER_PATH` 指定本机工具位置。

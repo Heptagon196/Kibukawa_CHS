@@ -32,4 +32,15 @@ def repair(text, filename):
     notice = ('*s04-話-\n[Talker char=""]\n'
               '（汉化说明：原作此处尚未完成，\n[r]没有公开后续剧情。）[pp]\n'
               '[Goto label="s04"]\n\n')
-    return before+'//ha4\n'+work+'//ha5\n'+love+notice+'*s04-sys'+end
+    result = before+'//ha4\n'+work+'//ha5\n'+love+notice+'*s04-sys'+end
+    anchor = '[Cmd CmdText="（调查记录）" GotoLabel="s04-sys"]'
+    assert result.count(anchor) == 1
+    # The last draft scene has no progression branch. Show this only while its
+    # main menu is open; CmdOn clears message layers before any conversation.
+    footer = ('[ClearMsg id=6]'
+              '[MsgLayer id=6 visible=true posX=0 posY=454 width=640 height=26 '
+              'margin_Left=20 margin_Top=0 font_Size=16 font_Color=0xcccccc '
+              'font_Name="Saina Noto" font_Embed=false speed_Normal=0 sound_Char="" '
+              'alpha_All=100 edge_Visible=false]'
+              '[Output id=6 msg="此场景后没有新内容，无法推进。"]')
+    return result.replace(anchor, anchor + footer)
